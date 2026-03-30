@@ -1,0 +1,1131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Crimson Desert — Shop Editor</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap');
+
+  :root {
+    --bg:        #0f0e0c;
+    --bg2:       #1a1814;
+    --bg3:       #242018;
+    --panel:     #1e1c17;
+    --border:    #3a3428;
+    --border2:   #4a4030;
+    --gold:      #c8a84b;
+    --gold2:     #e8c96a;
+    --gold-dim:  #7a6528;
+    --red:       #c04040;
+    --green:     #4a9a5a;
+    --text:      #d4c89a;
+    --text-dim:  #7a7060;
+    --text-faint:#3a3428;
+    --white:     #f0e8d0;
+    --slot-h:    52px;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Crimson Pro', Georgia, serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* ── HEADER ── */
+  header {
+    background: linear-gradient(180deg, #0a0908 0%, var(--bg2) 100%);
+    border-bottom: 1px solid var(--border);
+    padding: 22px 40px 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  header h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--gold);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+  header h1 span { color: var(--text-dim); font-weight: 400; font-size: 0.9rem; letter-spacing: 0.06em; }
+  .version-badge {
+    font-size: 0.7rem;
+    background: var(--bg3);
+    border: 1px solid var(--border);
+    color: var(--text-dim);
+    padding: 3px 10px;
+    border-radius: 2px;
+    letter-spacing: 0.08em;
+    font-family: 'Cinzel', serif;
+  }
+
+  /* ── LAYOUT ── */
+  .app { display: grid; grid-template-columns: 320px 1fr; min-height: calc(100vh - 64px); }
+
+  /* ── SIDEBAR ── */
+  .sidebar {
+    background: var(--panel);
+    border-right: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .sidebar-section {
+    padding: 20px;
+    border-bottom: 1px solid var(--border);
+  }
+  .sidebar-section:last-child { border-bottom: none; flex: 1; display: flex; flex-direction: column; }
+
+  .section-label {
+    font-family: 'Cinzel', serif;
+    font-size: 0.62rem;
+    letter-spacing: 0.18em;
+    color: var(--gold-dim);
+    text-transform: uppercase;
+    margin-bottom: 12px;
+  }
+
+  .file-drop {
+    border: 1px dashed var(--border2);
+    border-radius: 4px;
+    padding: 14px 12px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s;
+    position: relative;
+    margin-bottom: 10px;
+  }
+  .file-drop:hover { border-color: var(--gold-dim); background: rgba(200,168,75,0.04); }
+  .file-drop.loaded { border-color: var(--green); border-style: solid; }
+  .file-drop.loaded .fd-icon { color: var(--green); }
+  .file-drop input[type=file] { position: absolute; inset: 0; opacity: 0; cursor: pointer; width: 100%; }
+  .fd-icon { font-size: 1.4rem; margin-bottom: 4px; color: var(--text-dim); }
+  .fd-label { font-size: 0.82rem; color: var(--text-dim); line-height: 1.4; }
+  .fd-label strong { display: block; color: var(--text); font-size: 0.88rem; margin-bottom: 2px; }
+  .fd-status { font-size: 0.72rem; color: var(--green); margin-top: 4px; display: none; }
+  .file-drop.loaded .fd-status { display: block; }
+
+  /* store selector */
+  .store-search {
+    width: 100%;
+    background: var(--bg3);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 8px 12px;
+    font-family: 'Crimson Pro', serif;
+    font-size: 0.9rem;
+    border-radius: 3px;
+    margin-bottom: 8px;
+    outline: none;
+  }
+  .store-search:focus { border-color: var(--gold-dim); }
+  .store-search::placeholder { color: var(--text-dim); }
+
+  .store-list {
+    flex: 1;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--border2) transparent;
+  }
+  .store-item {
+    padding: 8px 12px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background 0.15s;
+    color: var(--text-dim);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .store-item:hover { background: var(--bg3); color: var(--text); }
+  .store-item.active { background: rgba(200,168,75,0.12); color: var(--gold); }
+
+  /* ── MAIN ── */
+  .main { display: flex; flex-direction: column; overflow: hidden; }
+
+  /* top bar */
+  .main-header {
+    padding: 18px 28px 16px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .main-header h2 {
+    font-family: 'Cinzel', serif;
+    font-size: 1.1rem;
+    color: var(--white);
+    font-weight: 600;
+    flex: 1;
+  }
+  .main-header .slot-info { font-size: 0.8rem; color: var(--text-dim); }
+
+  .btn {
+    font-family: 'Cinzel', serif;
+    font-size: 0.72rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 8px 18px;
+    border-radius: 3px;
+    border: 1px solid;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .btn-gold {
+    background: var(--gold);
+    border-color: var(--gold2);
+    color: #0a0800;
+    font-weight: 700;
+  }
+  .btn-gold:hover { background: var(--gold2); }
+  .btn-gold:disabled { opacity: 0.3; cursor: not-allowed; }
+  .btn-outline {
+    background: transparent;
+    border-color: var(--border2);
+    color: var(--text-dim);
+  }
+  .btn-outline:hover { border-color: var(--gold-dim); color: var(--text); }
+
+  /* ── CONTENT SPLIT ── */
+  .content-split { display: grid; grid-template-columns: 1fr 1fr; flex: 1; overflow: hidden; }
+
+  /* ── SLOTS PANEL ── */
+  .slots-panel, .items-panel {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-right: 1px solid var(--border);
+  }
+  .items-panel { border-right: none; }
+
+  .panel-header {
+    padding: 12px 20px;
+    border-bottom: 1px solid var(--border);
+    background: var(--bg2);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .panel-title {
+    font-family: 'Cinzel', serif;
+    font-size: 0.65rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--gold-dim);
+    flex: 1;
+  }
+  .panel-count { font-size: 0.75rem; color: var(--text-dim); }
+
+  .slot-scroll { overflow-y: auto; flex: 1; padding: 10px; scrollbar-width: thin; scrollbar-color: var(--border2) transparent; }
+
+  /* individual slot rows */
+  .slot-row {
+    display: grid;
+    grid-template-columns: 32px 1fr auto;
+    align-items: center;
+    gap: 8px;
+    padding: 7px 10px;
+    margin-bottom: 4px;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    background: var(--bg3);
+    cursor: pointer;
+    transition: all 0.15s;
+    min-height: var(--slot-h);
+  }
+  .slot-row:hover { border-color: var(--border2); }
+  .slot-row.selected { border-color: var(--gold-dim); background: rgba(200,168,75,0.07); }
+  .slot-row.modified { border-color: var(--green); }
+  .slot-row.modified .slot-new { color: var(--green); }
+  .slot-row.protected { opacity: 0.4; cursor: not-allowed; }
+
+  .slot-num {
+    font-family: 'Cinzel', serif;
+    font-size: 0.65rem;
+    color: var(--text-faint);
+    text-align: center;
+    user-select: none;
+  }
+  .slot-content { overflow: hidden; }
+  .slot-original { font-size: 0.78rem; color: var(--text-dim); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .slot-new { font-size: 0.88rem; color: var(--text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-weight: 600; }
+  .slot-meta { font-size: 0.68rem; color: var(--text-faint); margin-top: 1px; }
+  .slot-badge {
+    font-size: 0.6rem;
+    font-family: 'Cinzel', serif;
+    letter-spacing: 0.08em;
+    padding: 2px 6px;
+    border-radius: 2px;
+    white-space: nowrap;
+  }
+  .badge-lock { background: rgba(80,60,30,0.5); color: var(--text-faint); border: 1px solid var(--border); }
+  .badge-mod  { background: rgba(74,154,90,0.15); color: var(--green); border: 1px solid rgba(74,154,90,0.3); }
+  .badge-empty{ background: rgba(40,35,25,0.6); color: var(--text-faint); border: 1px solid var(--border); }
+
+  /* ── ITEM PICKER ── */
+  .item-search-wrap { padding: 12px 12px 8px; border-bottom: 1px solid var(--border); }
+  .item-search {
+    width: 100%;
+    background: var(--bg3);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 8px 12px;
+    font-family: 'Crimson Pro', serif;
+    font-size: 0.9rem;
+    border-radius: 3px;
+    outline: none;
+  }
+  .item-search:focus { border-color: var(--gold-dim); }
+  .item-search::placeholder { color: var(--text-dim); }
+
+  .item-scroll { overflow-y: auto; flex: 1; padding: 6px 10px; scrollbar-width: thin; scrollbar-color: var(--border2) transparent; }
+
+  .item-row {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    padding: 8px 10px;
+    margin-bottom: 3px;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: all 0.15s;
+    background: var(--bg3);
+  }
+  .item-row:hover { border-color: var(--border2); background: var(--bg2); }
+  .item-row.selected-item { border-color: var(--gold-dim); background: rgba(200,168,75,0.08); }
+  .item-name { font-size: 0.88rem; color: var(--text); }
+  .item-id   { font-size: 0.68rem; color: var(--text-faint); font-family: monospace; margin-top: 1px; }
+  .item-assign-btn {
+    font-size: 0.65rem;
+    font-family: 'Cinzel', serif;
+    letter-spacing: 0.06em;
+    padding: 4px 10px;
+    background: rgba(200,168,75,0.1);
+    border: 1px solid var(--gold-dim);
+    color: var(--gold);
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all 0.15s;
+    white-space: nowrap;
+  }
+  .item-assign-btn:hover { background: rgba(200,168,75,0.2); }
+
+  /* ── STATUS BAR ── */
+  .status-bar {
+    background: var(--bg2);
+    border-top: 1px solid var(--border);
+    padding: 10px 28px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 0.78rem;
+    color: var(--text-dim);
+  }
+  .status-bar .status-item { display: flex; align-items: center; gap: 6px; }
+  .status-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--text-faint); }
+  .status-dot.ok  { background: var(--green); }
+  .status-dot.err { background: var(--red); }
+  .status-bar .spacer { flex: 1; }
+  .status-msg { color: var(--gold-dim); font-style: italic; }
+
+  /* ── EMPTY STATE ── */
+  .empty-state {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-faint);
+    text-align: center;
+    padding: 40px;
+    gap: 12px;
+  }
+  .empty-icon { font-size: 3rem; opacity: 0.3; }
+  .empty-title { font-family: 'Cinzel', serif; font-size: 0.8rem; letter-spacing: 0.14em; color: var(--text-dim); }
+  .empty-desc  { font-size: 0.82rem; line-height: 1.6; max-width: 280px; }
+
+  /* ── PATCH CONFIG ── */
+  .patch-config {
+    padding: 12px 20px;
+    border-top: 1px solid var(--border);
+    background: var(--bg2);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  .config-field { display: flex; flex-direction: column; gap: 3px; }
+  .config-label { font-size: 0.62rem; font-family: 'Cinzel', serif; letter-spacing: 0.1em; color: var(--gold-dim); text-transform: uppercase; }
+  .config-input {
+    background: var(--bg3);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 5px 10px;
+    font-family: 'Crimson Pro', serif;
+    font-size: 0.85rem;
+    border-radius: 3px;
+    outline: none;
+    width: 140px;
+  }
+  .config-input:focus { border-color: var(--gold-dim); }
+  .config-input.short { width: 90px; }
+
+  /* scrollbar */
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 3px; }
+
+  /* toast */
+  .toast {
+    position: fixed;
+    bottom: 28px;
+    left: 50%;
+    transform: translateX(-50%) translateY(20px);
+    background: var(--bg2);
+    border: 1px solid var(--border2);
+    color: var(--text);
+    padding: 10px 22px;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    opacity: 0;
+    transition: all 0.3s;
+    z-index: 999;
+    pointer-events: none;
+    white-space: nowrap;
+  }
+  .toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+  .toast.success { border-color: var(--green); color: var(--green); }
+  .toast.error   { border-color: var(--red);   color: var(--red);   }
+
+  /* modal */
+  .modal-overlay {
+    position: fixed; inset: 0;
+    background: rgba(0,0,0,0.75);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 500;
+  }
+  .modal-overlay.open { display: flex; }
+  .modal {
+    background: var(--panel);
+    border: 1px solid var(--border2);
+    border-radius: 6px;
+    padding: 28px 32px;
+    max-width: 420px;
+    width: 90%;
+  }
+  .modal h3 {
+    font-family: 'Cinzel', serif;
+    font-size: 1rem;
+    color: var(--gold);
+    margin-bottom: 14px;
+  }
+  .modal p { font-size: 0.88rem; line-height: 1.6; color: var(--text-dim); margin-bottom: 18px; }
+  .modal-btns { display: flex; gap: 10px; justify-content: flex-end; }
+  .modal-input {
+    width: 100%;
+    background: var(--bg3);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 8px 12px;
+    font-family: 'Crimson Pro', serif;
+    font-size: 0.9rem;
+    border-radius: 3px;
+    outline: none;
+    margin-bottom: 12px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Crimson Desert <span>/ Shop Editor</span></h1>
+  <span class="version-badge">v1.01.02</span>
+</header>
+
+<div class="app">
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <div class="sidebar-section">
+      <div class="section-label">Game Files</div>
+      <div class="file-drop" id="drop-item">
+        <input type="file" id="file-item" accept=".pabgb">
+        <div class="fd-icon">📦</div>
+        <div class="fd-label"><strong>iteminfo.pabgb</strong>Item name database</div>
+        <div class="fd-status" id="item-status">Loaded ✓</div>
+      </div>
+      <div class="file-drop" id="drop-store">
+        <input type="file" id="file-store" accept=".pabgb">
+        <div class="fd-icon">🏪</div>
+        <div class="fd-label"><strong>storeinfo.pabgb</strong>Store slot data</div>
+        <div class="fd-status" id="store-status">Loaded ✓</div>
+      </div>
+    </div>
+
+    <div class="sidebar-section" style="flex:1;overflow:hidden;display:flex;flex-direction:column;">
+      <div class="section-label">Stores</div>
+      <input class="store-search" id="store-search" placeholder="Search stores…" disabled>
+      <div class="store-list" id="store-list">
+        <div class="empty-state" style="padding:20px 0;">
+          <div class="empty-desc">Load both files to browse stores</div>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- MAIN -->
+  <main class="main">
+    <!-- top bar -->
+    <div class="main-header">
+      <h2 id="store-title">No store selected</h2>
+      <span class="slot-info" id="slot-info"></span>
+      <button class="btn btn-outline" id="btn-reset" onclick="resetStore()" disabled>Reset All</button>
+      <button class="btn btn-gold" id="btn-export" onclick="exportJSON()" disabled>Export JSON</button>
+    </div>
+
+    <!-- split view -->
+    <div class="content-split" id="main-content">
+      <!-- SLOTS -->
+      <div class="slots-panel">
+        <div class="panel-header">
+          <span class="panel-title">Store Slots</span>
+          <span class="panel-count" id="mod-count"></span>
+        </div>
+        <div class="slot-scroll" id="slot-list">
+          <div class="empty-state">
+            <div class="empty-icon">🗂️</div>
+            <div class="empty-title">No Store Selected</div>
+            <div class="empty-desc">Select a store from the sidebar to view and edit its item slots.</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ITEM PICKER -->
+      <div class="items-panel">
+        <div class="panel-header">
+          <span class="panel-title">Item Browser</span>
+          <span class="panel-count" id="item-count"></span>
+        </div>
+        <div class="item-search-wrap">
+          <input class="item-search" id="item-search" placeholder="Search items…" disabled oninput="filterItems()">
+        </div>
+        <div class="item-scroll" id="item-list">
+          <div class="empty-state">
+            <div class="empty-icon">🔍</div>
+            <div class="empty-title">Item Browser</div>
+            <div class="empty-desc">Load iteminfo.pabgb to browse all items. Select a slot on the left to assign an item.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- patch config + export bar -->
+    <div class="patch-config" id="patch-config" style="display:none;">
+      <div class="config-field">
+        <span class="config-label">Mod Name</span>
+        <input class="config-input" id="cfg-name" value="My Shop Mod" style="width:200px;">
+      </div>
+      <div class="config-field">
+        <span class="config-label">Author</span>
+        <input class="config-input" id="cfg-author" value="GildyBoye">
+      </div>
+      <div class="config-field">
+        <span class="config-label">Version</span>
+        <input class="config-input short" id="cfg-version" value="1.01.02">
+      </div>
+      <div class="config-field">
+        <span class="config-label">Stock Limit</span>
+        <input class="config-input short" id="cfg-stock" type="number" value="100" min="1" max="9999">
+      </div>
+    </div>
+
+    <!-- status bar -->
+    <div class="status-bar">
+      <div class="status-item">
+        <div class="status-dot" id="dot-item"></div>
+        <span id="lbl-item">iteminfo: not loaded</span>
+      </div>
+      <div class="status-item">
+        <div class="status-dot" id="dot-store"></div>
+        <span id="lbl-store">storeinfo: not loaded</span>
+      </div>
+      <div class="spacer"></div>
+      <span class="status-msg" id="status-msg">Load both game files to begin</span>
+    </div>
+  </main>
+</div>
+
+<!-- Toast -->
+<div class="toast" id="toast"></div>
+
+<script>
+// ═══════════════════════════════════════════════════════
+//  STATE
+// ═══════════════════════════════════════════════════════
+const S = {
+  itemBuf:    null,   // ArrayBuffer
+  storeBuf:   null,   // ArrayBuffer
+  itemMap:    [],     // [{id, hexLE, name, internal}]
+  stores:     [],     // [{name, offset, totalSlots, slots:[{index,offset,limit,itemIdHex,name}]}]
+  currentStore: null,
+  selectedSlot: null,
+  modifications: {},  // slotOffset -> {newItemHex, newItemName, newLimit}
+  filteredItems: [],
+};
+
+// ═══════════════════════════════════════════════════════
+//  BINARY HELPERS
+// ═══════════════════════════════════════════════════════
+function readU32LE(buf, off) {
+  const v = new DataView(buf);
+  return v.getUint32(off, true);
+}
+function bytesToHex(buf, off, len) {
+  const u8 = new Uint8Array(buf, off, len);
+  return Array.from(u8).map(b=>b.toString(16).padStart(2,'0').toUpperCase()).join('');
+}
+function hexToBytes(hex) {
+  const out = new Uint8Array(hex.length/2);
+  for(let i=0;i<hex.length;i+=2) out[i/2]=parseInt(hex.substr(i,2),16);
+  return out;
+}
+function readCString(buf, off) {
+  const u8 = new Uint8Array(buf);
+  let end = off;
+  while(end < u8.length && u8[end] !== 0) end++;
+  return new TextDecoder().decode(u8.slice(off, end));
+}
+function findAll(buf, pattern) {
+  const u8 = new Uint8Array(buf);
+  const p  = new Uint8Array(pattern);
+  const results = [];
+  outer: for(let i=0;i<=u8.length-p.length;i++){
+    for(let j=0;j<p.length;j++) if(u8[i+j]!==p[j]) continue outer;
+    results.push(i);
+  }
+  return results;
+}
+function patternFrom(str) {
+  return Array.from(new TextEncoder().encode(str));
+}
+
+// ═══════════════════════════════════════════════════════
+//  PARSE ITEMINFO
+//  Strategy: scan for internal name strings, then at
+//  str_end+13 read the 4-byte LE item ID,
+//  at str_end+17 read the ASCII localization key,
+//  look up in embedded loc table if available,
+//  else keep internal name as display.
+// ═══════════════════════════════════════════════════════
+async function parseItemInfo(buf) {
+  const u8 = new Uint8Array(buf);
+  const items = new Map(); // hexLE -> {name, internal}
+
+  // Scan for null-terminated ASCII strings that look like internal names
+  // Pattern: sequence of [A-Za-z0-9_] followed by 0x00, length 6-60
+  let i = 0;
+  while(i < u8.length - 20) {
+    // fast scan for uppercase start + valid chars
+    if(u8[i] >= 65 && u8[i] <= 90) {
+      let j = i;
+      while(j < u8.length && u8[j] !== 0 && j - i < 80) {
+        const c = u8[j];
+        if(!((c>=65&&c<=90)||(c>=97&&c<=122)||(c>=48&&c<=57)||c===95||c===45)) break;
+        j++;
+      }
+      const len = j - i;
+      if(len >= 5 && len < 75 && j < u8.length && u8[j] === 0) {
+        const name = new TextDecoder().decode(u8.slice(i, j));
+        const se = j + 1; // str_end
+        // Read item ID at se+13
+        if(se + 17 < u8.length) {
+          const idBytes = u8.slice(se+13, se+17);
+          const id32 = idBytes[0]|(idBytes[1]<<8)|(idBytes[2]<<16)|(idBytes[3]<<24);
+          if(id32 > 100 && id32 < 0x7FFFFFFF) {
+            const hexLE = Array.from(idBytes).map(b=>b.toString(16).padStart(2,'0').toUpperCase()).join('');
+            // Read ASCII loc key at se+17 (up to 16 digits)
+            let kEnd = se+17;
+            while(kEnd < u8.length && u8[kEnd]>=48 && u8[kEnd]<=57) kEnd++;
+            const keyLen = kEnd - (se+17);
+            if(!items.has(hexLE)) {
+              items.set(hexLE, { internal: name, locKey: keyLen>=8&&keyLen<=16 ? new TextDecoder().decode(u8.slice(se+17,kEnd)) : '' });
+            }
+          }
+        }
+      }
+      i = j + 1;
+    } else {
+      i++;
+    }
+  }
+
+  // Build final item list, display name = internal name for now (cleaned up)
+  const out = [];
+  for(const [hexLE, {internal, locKey}] of items) {
+    const displayName = cleanInternalName(internal);
+    out.push({ hexLE, name: displayName, internal, locKey });
+  }
+  // Sort by name
+  out.sort((a,b)=>a.name.localeCompare(b.name));
+  return out;
+}
+
+function cleanInternalName(s) {
+  // Try to make internal names readable
+  return s
+    .replace(/_/g, ' ')
+    .replace(/([A-Z])/g, ' $1')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+// ═══════════════════════════════════════════════════════
+//  PARSE STOREINFO
+//  Store layout: Store_<Name>\x00 ... totalSlots (u32) ...
+//  first slot base = name_end + offset
+//  Each slot = 105 bytes:
+//    +0:  Limit (u32 LE)
+//    +16: ItemID_A (4 bytes LE)
+//    +75: ItemID_B (4 bytes LE)
+// ═══════════════════════════════════════════════════════
+function parseStoreInfo(buf) {
+  const u8 = new Uint8Array(buf);
+  const stores = [];
+
+  // Find all Store_ occurrences
+  const storePrefix = patternFrom('Store_');
+  const positions = findAll(buf, storePrefix);
+
+  for(const pos of positions) {
+    // Read name (null terminated)
+    let end = pos;
+    while(end < u8.length && u8[end] !== 0) end++;
+    const storeName = new TextDecoder().decode(u8.slice(pos, end));
+
+    // Validate it looks like a store name
+    if(storeName.length < 7 || storeName.length > 80) continue;
+    if(!/^Store_[A-Za-z0-9_]+$/.test(storeName)) continue;
+
+    // The first slot data starts at offset 92 from the start of the store name
+    const firstSlotBase = pos + 92;
+    if(firstSlotBase + 105 > u8.length) continue;
+
+    // Determine total slots by scanning forward until pattern breaks
+    // Max 36 slots, each 105 bytes
+    const slots = [];
+    for(let slotIdx = 0; slotIdx < 36; slotIdx++) {
+      const slotBase = firstSlotBase + slotIdx * 105;
+      if(slotBase + 105 > u8.length) break;
+
+      const limit = readU32LE(buf, slotBase);
+      const idBytes = Array.from(u8.slice(slotBase+16, slotBase+20));
+      const itemIdHex = idBytes.map(b=>b.toString(16).padStart(2,'0').toUpperCase()).join('');
+      const id32 = idBytes[0]|(idBytes[1]<<8)|(idBytes[2]<<16)|(idBytes[3]<<24);
+
+      // Stop if limit looks bogus and ID is 0
+      if(limit === 0 && id32 === 0 && slotIdx > 0) break;
+
+      slots.push({
+        index: slotIdx + 1,
+        slotBase,
+        limit,
+        itemIdHex,
+        originalItemIdHex: itemIdHex,
+        originalLimit: limit,
+      });
+    }
+
+    if(slots.length === 0) continue;
+
+    stores.push({ name: storeName, nameOffset: pos, slots });
+  }
+
+  // Deduplicate by name (keep first occurrence)
+  const seen = new Set();
+  return stores.filter(s => { if(seen.has(s.name)) return false; seen.add(s.name); return true; });
+}
+
+// ═══════════════════════════════════════════════════════
+//  ITEM LOOKUP
+// ═══════════════════════════════════════════════════════
+function lookupItem(hexLE) {
+  const found = S.itemMap.find(it => it.hexLE === hexLE);
+  return found ? found.name : hexLE;
+}
+
+// ═══════════════════════════════════════════════════════
+//  FILE LOADING
+// ═══════════════════════════════════════════════════════
+document.getElementById('file-item').addEventListener('change', async e => {
+  const file = e.target.files[0];
+  if(!file) return;
+  setStatus('Loading iteminfo…');
+  try {
+    S.itemBuf = await file.arrayBuffer();
+    S.itemMap = await parseItemInfo(S.itemBuf);
+    document.getElementById('drop-item').classList.add('loaded');
+    document.getElementById('item-status').textContent = `Loaded ✓  (${S.itemMap.length.toLocaleString()} items)`;
+    document.getElementById('dot-item').classList.add('ok');
+    document.getElementById('lbl-item').textContent = `iteminfo: ${S.itemMap.length.toLocaleString()} items`;
+    S.filteredItems = [...S.itemMap];
+    renderItemList();
+    document.getElementById('item-search').disabled = false;
+    setStatus('iteminfo loaded. ' + (S.storeBuf ? 'Ready.' : 'Now load storeinfo.'));
+    checkReady();
+  } catch(err) {
+    showToast('Error parsing iteminfo: ' + err.message, 'error');
+  }
+});
+
+document.getElementById('file-store').addEventListener('change', async e => {
+  const file = e.target.files[0];
+  if(!file) return;
+  setStatus('Loading storeinfo…');
+  try {
+    S.storeBuf = await file.arrayBuffer();
+    S.stores = parseStoreInfo(S.storeBuf);
+    document.getElementById('drop-store').classList.add('loaded');
+    document.getElementById('store-status').textContent = `Loaded ✓  (${S.stores.length} stores)`;
+    document.getElementById('dot-store').classList.add('ok');
+    document.getElementById('lbl-store').textContent = `storeinfo: ${S.stores.length} stores`;
+    renderStoreList(S.stores);
+    document.getElementById('store-search').disabled = false;
+    setStatus('storeinfo loaded. ' + (S.itemBuf ? 'Ready.' : 'Now load iteminfo.'));
+    checkReady();
+  } catch(err) {
+    showToast('Error parsing storeinfo: ' + err.message, 'error');
+  }
+});
+
+function checkReady() {
+  if(S.itemBuf && S.storeBuf) {
+    document.getElementById('item-count').textContent = S.itemMap.length.toLocaleString() + ' items';
+    setStatus('Both files loaded. Select a store to begin editing.');
+  }
+}
+
+// ═══════════════════════════════════════════════════════
+//  STORE LIST
+// ═══════════════════════════════════════════════════════
+function renderStoreList(stores) {
+  const el = document.getElementById('store-list');
+  el.innerHTML = '';
+  stores.forEach(store => {
+    const div = document.createElement('div');
+    div.className = 'store-item';
+    div.textContent = store.name;
+    div.onclick = () => selectStore(store);
+    el.appendChild(div);
+  });
+}
+
+document.getElementById('store-search').addEventListener('input', e => {
+  const q = e.target.value.toLowerCase();
+  const filtered = S.stores.filter(s => s.name.toLowerCase().includes(q));
+  renderStoreList(filtered);
+});
+
+// ═══════════════════════════════════════════════════════
+//  SELECT STORE
+// ═══════════════════════════════════════════════════════
+function selectStore(store) {
+  // Highlight sidebar
+  document.querySelectorAll('.store-item').forEach(el => {
+    el.classList.toggle('active', el.textContent === store.name);
+  });
+
+  S.currentStore = store;
+  S.selectedSlot = null;
+  S.modifications = {};
+
+  document.getElementById('store-title').textContent = store.name;
+  document.getElementById('slot-info').textContent = `${store.slots.length} slot${store.slots.length!==1?'s':''}`;
+  document.getElementById('btn-reset').disabled = false;
+  document.getElementById('btn-export').disabled = false;
+  document.getElementById('patch-config').style.display = 'flex';
+
+  renderSlots();
+  updateModCount();
+  setStatus(`Editing ${store.name} — select a slot then pick a replacement item.`);
+}
+
+// ═══════════════════════════════════════════════════════
+//  RENDER SLOTS
+// ═══════════════════════════════════════════════════════
+function renderSlots() {
+  const el = document.getElementById('slot-list');
+  if(!S.currentStore) return;
+  el.innerHTML = '';
+
+  const PROTECTED = [1,2,3,4,5]; // slots 1-5 cause issues
+
+  S.currentStore.slots.forEach(slot => {
+    const isProtected = PROTECTED.includes(slot.index);
+    const mod = S.modifications[slot.slotBase];
+    const isModified = !!mod;
+    const isSelected = S.selectedSlot && S.selectedSlot.slotBase === slot.slotBase;
+
+    const row = document.createElement('div');
+    row.className = 'slot-row' +
+      (isProtected ? ' protected' : '') +
+      (isModified  ? ' modified'  : '') +
+      (isSelected  ? ' selected'  : '');
+
+    const origName = lookupItem(slot.itemIdHex);
+    const newHex   = mod ? mod.newItemHex : slot.itemIdHex;
+    const newName  = mod ? mod.newItemName : origName;
+
+    let badgeHTML = '';
+    if(isProtected) badgeHTML = '<span class="slot-badge badge-lock">LOCKED</span>';
+    else if(isModified) badgeHTML = '<span class="slot-badge badge-mod">MODIFIED</span>';
+
+    row.innerHTML = `
+      <div class="slot-num">${slot.index}</div>
+      <div class="slot-content">
+        <div class="slot-new">${escHtml(newName)}</div>
+        ${isModified ? `<div class="slot-original">was: ${escHtml(origName)}</div>` : ''}
+        <div class="slot-meta">${slot.itemIdHex} · limit ${slot.limit}</div>
+      </div>
+      ${badgeHTML}
+    `;
+
+    if(!isProtected) {
+      row.onclick = () => selectSlot(slot, row);
+    }
+
+    el.appendChild(row);
+  });
+}
+
+// ═══════════════════════════════════════════════════════
+//  SELECT SLOT
+// ═══════════════════════════════════════════════════════
+function selectSlot(slot, rowEl) {
+  S.selectedSlot = slot;
+  document.querySelectorAll('.slot-row').forEach(r => r.classList.remove('selected'));
+  rowEl.classList.add('selected');
+  setStatus(`Slot ${slot.index} selected — pick an item from the browser to assign.`);
+}
+
+// ═══════════════════════════════════════════════════════
+//  ITEM LIST
+// ═══════════════════════════════════════════════════════
+function renderItemList() {
+  const el = document.getElementById('item-list');
+  const items = S.filteredItems.slice(0, 500); // cap for perf
+  el.innerHTML = '';
+
+  if(items.length === 0) {
+    el.innerHTML = '<div class="empty-state"><div class="empty-desc">No items match your search.</div></div>';
+    return;
+  }
+
+  items.forEach(item => {
+    const row = document.createElement('div');
+    row.className = 'item-row';
+    row.innerHTML = `
+      <div>
+        <div class="item-name">${escHtml(item.name)}</div>
+        <div class="item-id">${item.hexLE} · ${item.internal}</div>
+      </div>
+      <button class="item-assign-btn" onclick="assignItem('${item.hexLE}','${escAttr(item.name)}')">Assign →</button>
+    `;
+    el.appendChild(row);
+  });
+
+  const remaining = S.filteredItems.length - items.length;
+  if(remaining > 0) {
+    const note = document.createElement('div');
+    note.className = 'empty-state';
+    note.style.padding = '12px';
+    note.innerHTML = `<div class="empty-desc" style="color:var(--text-dim)">+${remaining.toLocaleString()} more — refine your search</div>`;
+    el.appendChild(note);
+  }
+}
+
+function filterItems() {
+  const q = document.getElementById('item-search').value.toLowerCase();
+  S.filteredItems = q
+    ? S.itemMap.filter(it => it.name.toLowerCase().includes(q) || it.internal.toLowerCase().includes(q) || it.hexLE.toLowerCase().includes(q))
+    : [...S.itemMap];
+  document.getElementById('item-count').textContent = S.filteredItems.length.toLocaleString() + ' items';
+  renderItemList();
+}
+
+// ═══════════════════════════════════════════════════════
+//  ASSIGN ITEM TO SLOT
+// ═══════════════════════════════════════════════════════
+function assignItem(hexLE, name) {
+  if(!S.selectedSlot) {
+    showToast('Select a slot first', 'error');
+    return;
+  }
+  const slot = S.selectedSlot;
+  const stock = parseInt(document.getElementById('cfg-stock').value) || 100;
+  const stockHex = stock.toString(16).padStart(8,'0').toUpperCase();
+  // LE bytes
+  const stockLE = stockHex.match(/../g).reverse().join('');
+
+  S.modifications[slot.slotBase] = {
+    newItemHex: hexLE,
+    newItemName: name,
+    newLimit: stock,
+    newLimitHex: stockLE,
+  };
+
+  renderSlots();
+  updateModCount();
+
+  // Auto-advance to next slot
+  const idx = S.currentStore.slots.findIndex(s => s.slotBase === slot.slotBase);
+  const PROTECTED = [1,2,3,4,5];
+  for(let i=idx+1; i<S.currentStore.slots.length; i++) {
+    if(!PROTECTED.includes(S.currentStore.slots[i].index)) {
+      S.selectedSlot = S.currentStore.slots[i];
+      // re-render to show selection
+      renderSlots();
+      // scroll slot into view
+      const rows = document.querySelectorAll('.slot-row');
+      if(rows[i]) rows[i].scrollIntoView({ block:'nearest' });
+      break;
+    }
+  }
+
+  setStatus(`Assigned "${name}" to slot ${slot.index}.`);
+}
+
+function updateModCount() {
+  const n = Object.keys(S.modifications).length;
+  document.getElementById('mod-count').textContent = n > 0 ? `${n} modified` : '';
+}
+
+// ═══════════════════════════════════════════════════════
+//  RESET
+// ═══════════════════════════════════════════════════════
+function resetStore() {
+  if(!S.currentStore) return;
+  S.modifications = {};
+  S.selectedSlot = null;
+  renderSlots();
+  updateModCount();
+  showToast('All modifications cleared');
+}
+
+// ═══════════════════════════════════════════════════════
+//  EXPORT JSON
+// ═══════════════════════════════════════════════════════
+function exportJSON() {
+  if(!S.currentStore) return;
+  const mods = Object.keys(S.modifications);
+  if(mods.length === 0) {
+    showToast('No modifications to export', 'error');
+    return;
+  }
+
+  const name    = document.getElementById('cfg-name').value || 'My Shop Mod';
+  const author  = document.getElementById('cfg-author').value || 'GildyBoye';
+  const version = document.getElementById('cfg-version').value || '1.01.02';
+  const stock   = parseInt(document.getElementById('cfg-stock').value) || 100;
+
+  // Build stock hex (LE)
+  const stockHex = toLEHex(stock);
+
+  const changes = [];
+
+  // Sort by slot offset
+  const sortedSlots = S.currentStore.slots
+    .filter(s => S.modifications[s.slotBase])
+    .sort((a,b) => a.slotBase - b.slotBase);
+
+  for(const slot of sortedSlots) {
+    const mod = S.modifications[slot.slotBase];
+    const origLimitHex = toLEHex(slot.originalLimit);
+    const origIdHex    = slot.originalItemIdHex;
+    const newIdHex     = mod.newItemHex;
+    const label        = mod.newItemName;
+
+    changes.push({
+      offset:   slot.slotBase,
+      label:    `${label} (Limit)`,
+      original: origLimitHex,
+      patched:  stockHex,
+    });
+    changes.push({
+      offset:   slot.slotBase + 16,
+      label:    `${label} (ItemID)`,
+      original: origIdHex,
+      patched:  newIdHex,
+    });
+    changes.push({
+      offset:   slot.slotBase + 75,
+      label:    `${label} (ItemID)`,
+      original: origIdHex,
+      patched:  newIdHex,
+    });
+  }
+
+  const desc = `${S.currentStore.name} — ${sortedSlots.length} slot${sortedSlots.length!==1?'s':''} modified. Stock ${stock}.`;
+
+  const patch = {
+    name,
+    version,
+    description: desc,
+    author,
+    patches: [{
+      game_file: 'gamedata/storeinfo.pabgb',
+      changes,
+    }],
+  };
+
+  const blob = new Blob([JSON.stringify(patch, null, 2)], { type: 'application/json' });
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement('a');
+  a.href     = url;
+  a.download = `${name.replace(/[^A-Za-z0-9_-]/g,'_')}.json`;
+  a.click();
+  URL.revokeObjectURL(url);
+  showToast(`Exported ${changes.length/3} slot changes`, 'success');
+}
+
+function toLEHex(num) {
+  const b = new Uint8Array(4);
+  new DataView(b.buffer).setUint32(0, num >>> 0, true);
+  return Array.from(b).map(x=>x.toString(16).padStart(2,'0').toUpperCase()).join('');
+}
+
+// ═══════════════════════════════════════════════════════
+//  UTILITIES
+// ═══════════════════════════════════════════════════════
+function setStatus(msg) { document.getElementById('status-msg').textContent = msg; }
+
+function showToast(msg, type='') {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.className = 'toast' + (type ? ' '+type : '');
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 2800);
+}
+
+function escHtml(s) {
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+function escAttr(s) {
+  return String(s).replace(/'/g,'\\\'');
+}
+</script>
+</body>
+</html>
