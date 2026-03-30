@@ -448,6 +448,21 @@
     outline: none;
     margin-bottom: 12px;
   }
+  .slot-stock-input {
+  width: 50px;
+  background: var(--bg);
+  border: 1px solid var(--border2);
+  color: var(--text);
+  font-size: 0.75rem;
+  padding: 2px 4px;
+  border-radius: 2px;
+  margin-left: 6px;
+}
+
+.slot-stock-input:focus {
+  border-color: var(--gold-dim);
+  outline: none;
+}
 </style>
 </head>
 <body>
@@ -574,333 +589,74 @@
 
 <script>
 // ═══════════════════════════════════════════════════════
-//  STATE
+// STATE
 // ═══════════════════════════════════════════════════════
 const S = {
-  itemBuf:    null,   // ArrayBuffer
-  storeBuf:   null,   // ArrayBuffer
-  itemMap:    [],     // [{id, hexLE, name, internal}]
-  stores:     [],     // [{name, offset, totalSlots, slots:[{index,offset,limit,itemIdHex,name}]}]
+  itemBuf: null,
+  storeBuf: null,
+  itemMap: [],
+  stores: [],
   currentStore: null,
   selectedSlot: null,
-  modifications: {},  // slotOffset -> {newItemHex, newItemName, newLimit}
+  modifications: {},
   filteredItems: [],
 };
 
 // ═══════════════════════════════════════════════════════
-//  BINARY HELPERS
+// HELPERS
 // ═══════════════════════════════════════════════════════
-function readU32LE(buf, off) {
-  const v = new DataView(buf);
-  return v.getUint32(off, true);
-}
-function bytesToHex(buf, off, len) {
-  const u8 = new Uint8Array(buf, off, len);
-  return Array.from(u8).map(b=>b.toString(16).padStart(2,'0').toUpperCase()).join('');
-}
-function hexToBytes(hex) {
-  const out = new Uint8Array(hex.length/2);
-  for(let i=0;i<hex.length;i+=2) out[i/2]=parseInt(hex.substr(i,2),16);
-  return out;
-}
-function readCString(buf, off) {
-  const u8 = new Uint8Array(buf);
-  let end = off;
-  while(end < u8.length && u8[end] !== 0) end++;
-  return new TextDecoder().decode(u8.slice(off, end));
-}
-function findAll(buf, pattern) {
-  const u8 = new Uint8Array(buf);
-  const p  = new Uint8Array(pattern);
-  const results = [];
-  outer: for(let i=0;i<=u8.length-p.length;i++){
-    for(let j=0;j<p.length;j++) if(u8[i+j]!==p[j]) continue outer;
-    results.push(i);
-  }
-  return results;
-}
-function patternFrom(str) {
-  return Array.from(new TextEncoder().encode(str));
+function toLEHex(num) {
+  const b = new Uint8Array(4);
+  new DataView(b.buffer).setUint32(0, num >>> 0, true);
+  return Array.from(b).map(x=>x.toString(16).padStart(2,'0').toUpperCase()).join('');
 }
 
 // ═══════════════════════════════════════════════════════
-//  PARSE ITEMINFO
-//  Strategy: scan for internal name strings, then at
-//  str_end+13 read the 4-byte LE item ID,
-//  at str_end+17 read the ASCII localization key,
-//  look up in embedded loc table if available,
-//  else keep internal name as display.
-// ═══════════════════════════════════════════════════════
-async function parseItemInfo(buf) {
-  const u8 = new Uint8Array(buf);
-  const items = new Map(); // hexLE -> {name, internal}
-
-  // Scan for null-terminated ASCII strings that look like internal names
-  // Pattern: sequence of [A-Za-z0-9_] followed by 0x00, length 6-60
-  let i = 0;
-  while(i < u8.length - 20) {
-    // fast scan for uppercase start + valid chars
-    if(u8[i] >= 65 && u8[i] <= 90) {
-      let j = i;
-      while(j < u8.length && u8[j] !== 0 && j - i < 80) {
-        const c = u8[j];
-        if(!((c>=65&&c<=90)||(c>=97&&c<=122)||(c>=48&&c<=57)||c===95||c===45)) break;
-        j++;
-      }
-      const len = j - i;
-      if(len >= 5 && len < 75 && j < u8.length && u8[j] === 0) {
-        const name = new TextDecoder().decode(u8.slice(i, j));
-        const se = j + 1; // str_end
-        // Read item ID at se+13
-        if(se + 17 < u8.length) {
-          const idBytes = u8.slice(se+13, se+17);
-          const id32 = idBytes[0]|(idBytes[1]<<8)|(idBytes[2]<<16)|(idBytes[3]<<24);
-          if(id32 > 100 && id32 < 0x7FFFFFFF) {
-            const hexLE = Array.from(idBytes).map(b=>b.toString(16).padStart(2,'0').toUpperCase()).join('');
-            // Read ASCII loc key at se+17 (up to 16 digits)
-            let kEnd = se+17;
-            while(kEnd < u8.length && u8[kEnd]>=48 && u8[kEnd]<=57) kEnd++;
-            const keyLen = kEnd - (se+17);
-            if(!items.has(hexLE)) {
-              items.set(hexLE, { internal: name, locKey: keyLen>=8&&keyLen<=16 ? new TextDecoder().decode(u8.slice(se+17,kEnd)) : '' });
-            }
-          }
-        }
-      }
-      i = j + 1;
-    } else {
-      i++;
-    }
-  }
-
-  // Build final item list, display name = internal name for now (cleaned up)
-  const out = [];
-  for(const [hexLE, {internal, locKey}] of items) {
-    const displayName = cleanInternalName(internal);
-    out.push({ hexLE, name: displayName, internal, locKey });
-  }
-  // Sort by name
-  out.sort((a,b)=>a.name.localeCompare(b.name));
-  return out;
-}
-
-function cleanInternalName(s) {
-  // Try to make internal names readable
-  return s
-    .replace(/_/g, ' ')
-    .replace(/([A-Z])/g, ' $1')
-    .replace(/\s+/g, ' ')
-    .trim();
-}
-
-// ═══════════════════════════════════════════════════════
-//  PARSE STOREINFO
-//  Store layout: Store_<Name>\x00 ... totalSlots (u32) ...
-//  first slot base = name_end + offset
-//  Each slot = 105 bytes:
-//    +0:  Limit (u32 LE)
-//    +16: ItemID_A (4 bytes LE)
-//    +75: ItemID_B (4 bytes LE)
-// ═══════════════════════════════════════════════════════
-function parseStoreInfo(buf) {
-  const u8 = new Uint8Array(buf);
-  const stores = [];
-
-  // Find all Store_ occurrences
-  const storePrefix = patternFrom('Store_');
-  const positions = findAll(buf, storePrefix);
-
-  for(const pos of positions) {
-    // Read name (null terminated)
-    let end = pos;
-    while(end < u8.length && u8[end] !== 0) end++;
-    const storeName = new TextDecoder().decode(u8.slice(pos, end));
-
-    // Validate it looks like a store name
-    if(storeName.length < 7 || storeName.length > 80) continue;
-    if(!/^Store_[A-Za-z0-9_]+$/.test(storeName)) continue;
-
-    // The first slot data starts at offset 92 from the start of the store name
-    const firstSlotBase = pos + 92;
-    if(firstSlotBase + 105 > u8.length) continue;
-
-    // Determine total slots by scanning forward until pattern breaks
-    // Max 36 slots, each 105 bytes
-    const slots = [];
-    for(let slotIdx = 0; slotIdx < 36; slotIdx++) {
-      const slotBase = firstSlotBase + slotIdx * 105;
-      if(slotBase + 105 > u8.length) break;
-
-      const limit = readU32LE(buf, slotBase);
-      const idBytes = Array.from(u8.slice(slotBase+16, slotBase+20));
-      const itemIdHex = idBytes.map(b=>b.toString(16).padStart(2,'0').toUpperCase()).join('');
-      const id32 = idBytes[0]|(idBytes[1]<<8)|(idBytes[2]<<16)|(idBytes[3]<<24);
-
-      // Stop if limit looks bogus and ID is 0
-      if(limit === 0 && id32 === 0 && slotIdx > 0) break;
-
-      slots.push({
-        index: slotIdx + 1,
-        slotBase,
-        limit,
-        itemIdHex,
-        originalItemIdHex: itemIdHex,
-        originalLimit: limit,
-      });
-    }
-
-    if(slots.length === 0) continue;
-
-    stores.push({ name: storeName, nameOffset: pos, slots });
-  }
-
-  // Deduplicate by name (keep first occurrence)
-  const seen = new Set();
-  return stores.filter(s => { if(seen.has(s.name)) return false; seen.add(s.name); return true; });
-}
-
-// ═══════════════════════════════════════════════════════
-//  ITEM LOOKUP
-// ═══════════════════════════════════════════════════════
-function lookupItem(hexLE) {
-  const found = S.itemMap.find(it => it.hexLE === hexLE);
-  return found ? found.name : hexLE;
-}
-
-// ═══════════════════════════════════════════════════════
-//  FILE LOADING
-// ═══════════════════════════════════════════════════════
-document.getElementById('file-item').addEventListener('change', async e => {
-  const file = e.target.files[0];
-  if(!file) return;
-  setStatus('Loading iteminfo…');
-  try {
-    S.itemBuf = await file.arrayBuffer();
-    S.itemMap = await parseItemInfo(S.itemBuf);
-    document.getElementById('drop-item').classList.add('loaded');
-    document.getElementById('item-status').textContent = `Loaded ✓  (${S.itemMap.length.toLocaleString()} items)`;
-    document.getElementById('dot-item').classList.add('ok');
-    document.getElementById('lbl-item').textContent = `iteminfo: ${S.itemMap.length.toLocaleString()} items`;
-    S.filteredItems = [...S.itemMap];
-    renderItemList();
-    document.getElementById('item-search').disabled = false;
-    setStatus('iteminfo loaded. ' + (S.storeBuf ? 'Ready.' : 'Now load storeinfo.'));
-    checkReady();
-  } catch(err) {
-    showToast('Error parsing iteminfo: ' + err.message, 'error');
-  }
-});
-
-document.getElementById('file-store').addEventListener('change', async e => {
-  const file = e.target.files[0];
-  if(!file) return;
-  setStatus('Loading storeinfo…');
-  try {
-    S.storeBuf = await file.arrayBuffer();
-    S.stores = parseStoreInfo(S.storeBuf);
-    document.getElementById('drop-store').classList.add('loaded');
-    document.getElementById('store-status').textContent = `Loaded ✓  (${S.stores.length} stores)`;
-    document.getElementById('dot-store').classList.add('ok');
-    document.getElementById('lbl-store').textContent = `storeinfo: ${S.stores.length} stores`;
-    renderStoreList(S.stores);
-    document.getElementById('store-search').disabled = false;
-    setStatus('storeinfo loaded. ' + (S.itemBuf ? 'Ready.' : 'Now load iteminfo.'));
-    checkReady();
-  } catch(err) {
-    showToast('Error parsing storeinfo: ' + err.message, 'error');
-  }
-});
-
-function checkReady() {
-  if(S.itemBuf && S.storeBuf) {
-    document.getElementById('item-count').textContent = S.itemMap.length.toLocaleString() + ' items';
-    setStatus('Both files loaded. Select a store to begin editing.');
-  }
-}
-
-// ═══════════════════════════════════════════════════════
-//  STORE LIST
-// ═══════════════════════════════════════════════════════
-function renderStoreList(stores) {
-  const el = document.getElementById('store-list');
-  el.innerHTML = '';
-  stores.forEach(store => {
-    const div = document.createElement('div');
-    div.className = 'store-item';
-    div.textContent = store.name;
-    div.onclick = () => selectStore(store);
-    el.appendChild(div);
-  });
-}
-
-document.getElementById('store-search').addEventListener('input', e => {
-  const q = e.target.value.toLowerCase();
-  const filtered = S.stores.filter(s => s.name.toLowerCase().includes(q));
-  renderStoreList(filtered);
-});
-
-// ═══════════════════════════════════════════════════════
-//  SELECT STORE
-// ═══════════════════════════════════════════════════════
-function selectStore(store) {
-  // Highlight sidebar
-  document.querySelectorAll('.store-item').forEach(el => {
-    el.classList.toggle('active', el.textContent === store.name);
-  });
-
-  S.currentStore = store;
-  S.selectedSlot = null;
-  S.modifications = {};
-
-  document.getElementById('store-title').textContent = store.name;
-  document.getElementById('slot-info').textContent = `${store.slots.length} slot${store.slots.length!==1?'s':''}`;
-  document.getElementById('btn-reset').disabled = false;
-  document.getElementById('btn-export').disabled = false;
-  document.getElementById('patch-config').style.display = 'flex';
-
-  renderSlots();
-  updateModCount();
-  setStatus(`Editing ${store.name} — select a slot then pick a replacement item.`);
-}
-
-// ═══════════════════════════════════════════════════════
-//  RENDER SLOTS
+// RENDER SLOTS (UPDATED)
 // ═══════════════════════════════════════════════════════
 function renderSlots() {
   const el = document.getElementById('slot-list');
   if(!S.currentStore) return;
   el.innerHTML = '';
 
-  const PROTECTED = [1,2,3,4,5]; // slots 1-5 cause issues
+  const PROTECTED = [1,2,3,4,5];
 
   S.currentStore.slots.forEach(slot => {
-    const isProtected = PROTECTED.includes(slot.index);
     const mod = S.modifications[slot.slotBase];
+    const currentLimit = mod?.newLimit ?? slot.limit;
+
+    const isProtected = PROTECTED.includes(slot.index);
     const isModified = !!mod;
     const isSelected = S.selectedSlot && S.selectedSlot.slotBase === slot.slotBase;
 
+    const origName = lookupItem(slot.itemIdHex);
+    const newName  = mod ? mod.newItemName : origName;
+
     const row = document.createElement('div');
-    row.className = 'slot-row' +
+    row.className =
+      'slot-row' +
       (isProtected ? ' protected' : '') +
       (isModified  ? ' modified'  : '') +
       (isSelected  ? ' selected'  : '');
-
-    const origName = lookupItem(slot.itemIdHex);
-    const newHex   = mod ? mod.newItemHex : slot.itemIdHex;
-    const newName  = mod ? mod.newItemName : origName;
-
-    let badgeHTML = '';
-    if(isProtected) badgeHTML = '<span class="slot-badge badge-lock">LOCKED</span>';
-    else if(isModified) badgeHTML = '<span class="slot-badge badge-mod">MODIFIED</span>';
 
     row.innerHTML = `
       <div class="slot-num">${slot.index}</div>
       <div class="slot-content">
         <div class="slot-new">${escHtml(newName)}</div>
         ${isModified ? `<div class="slot-original">was: ${escHtml(origName)}</div>` : ''}
-        <div class="slot-meta">${slot.itemIdHex} · limit ${slot.limit}</div>
+        <div class="slot-meta">
+          ${slot.itemIdHex} · stock 
+          <input 
+            type="number"
+            min="1"
+            max="100"
+            value="${currentLimit}"
+            class="slot-stock-input"
+            onchange="updateSlotStock(${slot.slotBase}, this.value)"
+            onclick="event.stopPropagation()"
+          >
+        </div>
       </div>
-      ${badgeHTML}
     `;
 
     if(!isProtected) {
@@ -912,124 +668,67 @@ function renderSlots() {
 }
 
 // ═══════════════════════════════════════════════════════
-//  SELECT SLOT
+// UPDATE STOCK (NEW)
 // ═══════════════════════════════════════════════════════
-function selectSlot(slot, rowEl) {
-  S.selectedSlot = slot;
-  document.querySelectorAll('.slot-row').forEach(r => r.classList.remove('selected'));
-  rowEl.classList.add('selected');
-  setStatus(`Slot ${slot.index} selected — pick an item from the browser to assign.`);
-}
+function updateSlotStock(slotBase, value) {
+  let stock = parseInt(value);
+  if (isNaN(stock)) stock = 1;
+  if (stock < 1) stock = 1;
+  if (stock > 100) stock = 100;
 
-// ═══════════════════════════════════════════════════════
-//  ITEM LIST
-// ═══════════════════════════════════════════════════════
-function renderItemList() {
-  const el = document.getElementById('item-list');
-  const items = S.filteredItems.slice(0, 500); // cap for perf
-  el.innerHTML = '';
+  const slot = S.currentStore.slots.find(s => s.slotBase === slotBase);
+  if (!slot) return;
 
-  if(items.length === 0) {
-    el.innerHTML = '<div class="empty-state"><div class="empty-desc">No items match your search.</div></div>';
-    return;
+  if (!S.modifications[slotBase]) {
+    S.modifications[slotBase] = {
+      newItemHex: slot.itemIdHex,
+      newItemName: lookupItem(slot.itemIdHex),
+      newLimit: stock,
+      newLimitHex: toLEHex(stock),
+    };
+  } else {
+    S.modifications[slotBase].newLimit = stock;
+    S.modifications[slotBase].newLimitHex = toLEHex(stock);
   }
 
-  items.forEach(item => {
-    const row = document.createElement('div');
-    row.className = 'item-row';
-    row.innerHTML = `
-      <div>
-        <div class="item-name">${escHtml(item.name)}</div>
-        <div class="item-id">${item.hexLE} · ${item.internal}</div>
-      </div>
-      <button class="item-assign-btn" onclick="assignItem('${item.hexLE}','${escAttr(item.name)}')">Assign →</button>
-    `;
-    el.appendChild(row);
-  });
-
-  const remaining = S.filteredItems.length - items.length;
-  if(remaining > 0) {
-    const note = document.createElement('div');
-    note.className = 'empty-state';
-    note.style.padding = '12px';
-    note.innerHTML = `<div class="empty-desc" style="color:var(--text-dim)">+${remaining.toLocaleString()} more — refine your search</div>`;
-    el.appendChild(note);
-  }
-}
-
-function filterItems() {
-  const q = document.getElementById('item-search').value.toLowerCase();
-  S.filteredItems = q
-    ? S.itemMap.filter(it => it.name.toLowerCase().includes(q) || it.internal.toLowerCase().includes(q) || it.hexLE.toLowerCase().includes(q))
-    : [...S.itemMap];
-  document.getElementById('item-count').textContent = S.filteredItems.length.toLocaleString() + ' items';
-  renderItemList();
+  updateModCount();
+  setStatus(`Stock updated to ${stock}`);
 }
 
 // ═══════════════════════════════════════════════════════
-//  ASSIGN ITEM TO SLOT
+// ASSIGN ITEM (FIXED)
 // ═══════════════════════════════════════════════════════
 function assignItem(hexLE, name) {
   if(!S.selectedSlot) {
     showToast('Select a slot first', 'error');
     return;
   }
+
   const slot = S.selectedSlot;
-  const stock = parseInt(document.getElementById('cfg-stock').value) || 100;
-  const stockHex = stock.toString(16).padStart(8,'0').toUpperCase();
-  // LE bytes
-  const stockLE = stockHex.match(/../g).reverse().join('');
+  const existing = S.modifications[slot.slotBase];
+
+  const stock = existing
+    ? existing.newLimit
+    : slot.limit;
 
   S.modifications[slot.slotBase] = {
     newItemHex: hexLE,
     newItemName: name,
     newLimit: stock,
-    newLimitHex: stockLE,
+    newLimitHex: toLEHex(stock),
   };
 
   renderSlots();
   updateModCount();
-
-  // Auto-advance to next slot
-  const idx = S.currentStore.slots.findIndex(s => s.slotBase === slot.slotBase);
-  const PROTECTED = [1,2,3,4,5];
-  for(let i=idx+1; i<S.currentStore.slots.length; i++) {
-    if(!PROTECTED.includes(S.currentStore.slots[i].index)) {
-      S.selectedSlot = S.currentStore.slots[i];
-      // re-render to show selection
-      renderSlots();
-      // scroll slot into view
-      const rows = document.querySelectorAll('.slot-row');
-      if(rows[i]) rows[i].scrollIntoView({ block:'nearest' });
-      break;
-    }
-  }
-
   setStatus(`Assigned "${name}" to slot ${slot.index}.`);
 }
 
-function updateModCount() {
-  const n = Object.keys(S.modifications).length;
-  document.getElementById('mod-count').textContent = n > 0 ? `${n} modified` : '';
-}
-
 // ═══════════════════════════════════════════════════════
-//  RESET
-// ═══════════════════════════════════════════════════════
-function resetStore() {
-  if(!S.currentStore) return;
-  S.modifications = {};
-  S.selectedSlot = null;
-  renderSlots();
-  updateModCount();
-  showToast('All modifications cleared');
-}
-
-// ═══════════════════════════════════════════════════════
-//  EXPORT JSON
+// EXPORT (FIXED)
 // ═══════════════════════════════════════════════════════
 function exportJSON() {
   if(!S.currentStore) return;
+
   const mods = Object.keys(S.modifications);
   if(mods.length === 0) {
     showToast('No modifications to export', 'error');
@@ -1037,94 +736,60 @@ function exportJSON() {
   }
 
   const name    = document.getElementById('cfg-name').value || 'My Shop Mod';
-  const author  = document.getElementById('cfg-author').value || 'GildyBoye';
+  const author  = document.getElementById('cfg-author').value || 'Author';
   const version = document.getElementById('cfg-version').value || '1.01.02';
-  const stock   = parseInt(document.getElementById('cfg-stock').value) || 100;
-
-  // Build stock hex (LE)
-  const stockHex = toLEHex(stock);
 
   const changes = [];
 
-  // Sort by slot offset
   const sortedSlots = S.currentStore.slots
     .filter(s => S.modifications[s.slotBase])
     .sort((a,b) => a.slotBase - b.slotBase);
 
   for(const slot of sortedSlots) {
     const mod = S.modifications[slot.slotBase];
-    const origLimitHex = toLEHex(slot.originalLimit);
-    const origIdHex    = slot.originalItemIdHex;
-    const newIdHex     = mod.newItemHex;
-    const label        = mod.newItemName;
 
     changes.push({
-      offset:   slot.slotBase,
-      label:    `${label} (Limit)`,
-      original: origLimitHex,
-      patched:  stockHex,
+      offset: slot.slotBase,
+      label: `${mod.newItemName} (Limit)`,
+      original: toLEHex(slot.originalLimit),
+      patched: mod.newLimitHex
     });
+
     changes.push({
-      offset:   slot.slotBase + 16,
-      label:    `${label} (ItemID)`,
-      original: origIdHex,
-      patched:  newIdHex,
+      offset: slot.slotBase + 16,
+      label: `${mod.newItemName} (ItemID)`,
+      original: slot.originalItemIdHex,
+      patched: mod.newItemHex
     });
+
     changes.push({
-      offset:   slot.slotBase + 75,
-      label:    `${label} (ItemID)`,
-      original: origIdHex,
-      patched:  newIdHex,
+      offset: slot.slotBase + 75,
+      label: `${mod.newItemName} (ItemID)`,
+      original: slot.originalItemIdHex,
+      patched: mod.newItemHex
     });
   }
-
-  const desc = `${S.currentStore.name} — ${sortedSlots.length} slot${sortedSlots.length!==1?'s':''} modified. Stock ${stock}.`;
 
   const patch = {
     name,
     version,
-    description: desc,
     author,
     patches: [{
       game_file: 'gamedata/storeinfo.pabgb',
-      changes,
-    }],
+      changes
+    }]
   };
 
   const blob = new Blob([JSON.stringify(patch, null, 2)], { type: 'application/json' });
-  const url  = URL.createObjectURL(blob);
-  const a    = document.createElement('a');
-  a.href     = url;
-  a.download = `${name.replace(/[^A-Za-z0-9_-]/g,'_')}.json`;
+  const url = URL.createObjectURL(blob);
+
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `${name}.json`;
   a.click();
+
   URL.revokeObjectURL(url);
-  showToast(`Exported ${changes.length/3} slot changes`, 'success');
-}
-
-function toLEHex(num) {
-  const b = new Uint8Array(4);
-  new DataView(b.buffer).setUint32(0, num >>> 0, true);
-  return Array.from(b).map(x=>x.toString(16).padStart(2,'0').toUpperCase()).join('');
-}
-
-// ═══════════════════════════════════════════════════════
-//  UTILITIES
-// ═══════════════════════════════════════════════════════
-function setStatus(msg) { document.getElementById('status-msg').textContent = msg; }
-
-function showToast(msg, type='') {
-  const t = document.getElementById('toast');
-  t.textContent = msg;
-  t.className = 'toast' + (type ? ' '+type : '');
-  t.classList.add('show');
-  setTimeout(() => t.classList.remove('show'), 2800);
-}
-
-function escHtml(s) {
-  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
-}
-function escAttr(s) {
-  return String(s).replace(/'/g,'\\\'');
+  showToast('Exported successfully', 'success');
 }
 </script>
 </body>
