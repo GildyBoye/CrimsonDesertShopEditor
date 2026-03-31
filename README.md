@@ -1,145 +1,103 @@
-Crimson Desert Shop Editor
+# Crimson Desert Shop Editor
 
+A browser-based tool for editing shop inventories in Crimson Desert. Change what items vendors sell, adjust stock quantities, and export a JSON mod file ready to load with the JSON Mod Manager.
 
+> 🔗 Join the community: [Discord](https://discord.gg/mQjgHCW)
 
+---
 
-1. Get the required tools (DISREGARD IF USING BASE FILES, KEEP IN MIND THEY MAY BE OUT OF DATE. UPLOAD YOUR OWN VERSIONS WHEN YOU CAN!)
+## Quick Start — No Tools Required
 
-Download a PAZ unpacker:
+If you just want to get started immediately, click **"Use pre-built base files (v1.01.02)"** in the editor.
 
-[Crimson Desert Unpacker](https://www.nexusmods.com/crimsondesert/mods/62)
+This loads pre-extracted versions of the required game files directly — no unpacker needed. Keep in mind these base files reflect a specific game version and may fall behind after updates. When that happens, extract and upload your own files for the most accurate data.
 
-[Crimson Browser](https://www.nexusmods.com/crimsondesert/mods/84)
+---
 
-You need one of these to extract game files.
+## Full Setup — Using Your Own Game Files
 
-2. Extract the required game files
+For the most up-to-date data, extract the files yourself using a PAZ unpacker.
 
-Using the unpacker, go into the game’s data files and extract:
+**Step 1 — Get an unpacker**
 
-iteminfo.pabgb → contains all item IDs and names
+You need one of these tools to extract files from the game's data archives:
 
-storeinfo.pabgb → contains all shop inventories (slots + stock)
+- [Crimson Desert Unpacker](https://www.nexusmods.com/crimsondesert/mods/62)
+- [Crimson Browser](https://www.nexusmods.com/crimsondesert/mods/84)
 
-These are usually found in something like gamedata/
+**Step 2 — Extract the required files**
 
-3. Load your files into the editor
+Using your unpacker, locate and extract from `gamedata/`:
 
-On the left side:
+- `iteminfo.pabgb` — all item IDs and names
+- `storeinfo.pabgb` — all shop inventories (slots and stock values)
 
-📦 Load item database
-Click iteminfo.pabgb
-This enables the item browser
-🏪 Load store data
-Click storeinfo.pabgb
-This enables store editing
+**Step 3 — Load your files into the editor**
 
-✔ Once both are loaded:
+On the left sidebar:
 
-Stores appear in the sidebar
-Items appear in the item browser
+- 📦 Click the **iteminfo.pabgb** drop zone and select your extracted file
+- 🏪 Click the **storeinfo.pabgb** drop zone and select your extracted file
 
-4. Load localization
-   
-Select a language from the dropdown (e.g. English)
-Without this you’ll see raw/internal item names
+Once both are loaded, the store list and item browser will populate automatically.
 
-5. Browse and select a shop
-   
-Use the left sidebar
-Stores are grouped by city/region
-Click a store to open it
+---
 
-You’ll now see:
-All slots in that shop
-Each slot = 1 item the shop sells
+## Using the Editor
 
-6. Understand shop slots
+**Localization**
 
-Each slot shows:
+Select a language from the dropdown (e.g. English). This is loaded automatically on startup. Without it you'll see raw internal item names instead of proper display names.
 
-Item name
-Item hex ID
-Stock value (editable)
-Slot number
+**Browsing stores**
 
-Example:
+Stores are listed in the left sidebar, grouped by city or region. Click any city header to expand it, then click a store to open it. You can also use the search box to find a store by name.
 
-Slot 1 → Iron Sword
-Stock: 50
+**Understanding slots**
 
-7. Modify Stock
-   
-Each slot has a stock input field
-You can change it directly
+Each slot in a store represents one item that vendor sells. Every slot shows:
+- Item name (or hex ID if the item is unresolvable)
+- Stock quantity (editable directly)
+- Slot number
 
-Minimum: 1
-Maximum: 9999
+**Modifying stock**
 
-When you change stock:
+Each slot has a stock input you can edit directly. Valid range is 1–9999. Changing stock alone marks the slot as modified without requiring an item swap.
 
-The slot is marked as modified
+**Changing items**
 
-8. Change Items
-   
-Click a slot (left panel)
-Search for an item (right panel)
-Click Assign →
+1. Click a slot in the left panel to select it
+2. Browse or search for an item in the right panel
+3. Click **Assign →** to replace the item in that slot
 
-This will replace the item in that slot
-Keep or apply the current stock value
+Items are sorted into categories (Armor, Weapons, Food, etc.) and all collapsed by default. Use the search box to find items by name, internal name, or hex ID.
 
-9. Search for items
+**Unknown items**
 
-Use the search box:
+Some slots contain items the editor cannot identify — these show as `Unknown Item (XXXXXX)`. If you try to assign one of these, you'll be asked to confirm, as they may be important to the store's function.
 
-By name
-By internal name
-By hex ID
+**Making multiple edits**
 
-10. Make multiple edits
+You can modify as many slots as you like before exporting. All changed slots are highlighted as **MODIFIED**. Switching to a different store resets any unsaved changes for the current one.
 
-You can:
-Change multiple slots
-Change stock only
-Change item + stock
+**Exporting your mod**
 
-All changes are tracked as: MODIFIED
+Click **Export JSON** in the top toolbar. This downloads a `.json` file containing your changes — new item assignments, stock values, and metadata. Load this file with the JSON Mod Manager.
 
-11. Export your mod
+**Resetting changes**
 
-Export JSON Button
+Click **Reset** to clear all modifications for the current store and start fresh.
 
-This generates your mod data with:
+---
 
-New item assignments
-New stock values
-Metadata (name, author, version)
+## Loading Your Mod In-Game
 
-12. Customize mod info (bottom bar)
+Use the [JSON Mod Manager](https://www.nexusmods.com/crimsondesert/mods/113) to load the exported `.json` file.
 
-You can edit:
+---
 
-Mod Name
-Author
-Version
+> ⚠️ **Back up your saves before modifying your game.**
 
-This is included in the export.
+---
 
-13. Reset if needed
-
-Click:
-
-Reset
-
-This clears all changes for the current store.
-
-14. Use JSON Mod Manager to load your Json
-[JSON Mod Manager](https://www.nexusmods.com/crimsondesert/mods/113)
-
-
-
-ALL THE REQUIRED FILES BELONG TO PEARL ABYSS.
-I DID NOT MAKE THE GAME!
-BUY THE GAME! SUPPORT DEVS! 
-IT'S A GREAT GAME!
+*All game files and assets belong to Pearl Abyss. This tool is a fan-made utility — buy the game and support the developers!*
