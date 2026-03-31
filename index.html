@@ -293,15 +293,29 @@ header h1 span{color:var(--text-dim);font-weight:400;font-size:.8rem;margin-left
         <div class="fdz-hint">Use a PAZ Unpacker — this file is found in gamedata/</div>
       </div>
 
-      <div class="fdz" id="fdz-loc">
-        <input type="file" id="f-loc" accept=".json,.paloc">
-        <span class="fdz-icon">🌐</span>
-        <div class="fdz-text">
-          <strong>localizationstring_eng_paloc.json</strong>
-          <span>Item names (optional)</span>
+      <div class="loc-zone">
+        <span class="sec-label" style="margin-bottom:5px;">Localization</span>
+        <div style="display:flex;gap:6px;align-items:center;">
+          <select id="loc-select" onchange="loadLocalization()" style="flex:1;background:var(--bg3);border:1px solid var(--border);color:var(--text);padding:5px 8px;font-family:'Crimson Pro',serif;font-size:.82rem;border-radius:3px;outline:none;cursor:pointer;">
+            <option value="">— select language —</option>
+            <option value="localization/localizationstring_eng.paloc.json">English</option>
+            <option value="localization/localizationstring_fre.paloc.json">French</option>
+            <option value="localization/localizationstring_ger.paloc.json">German</option>
+            <option value="localization/localizationstring_ita.paloc.json">Italian</option>
+            <option value="localization/localizationstring_jpn.paloc.json">Japanese</option>
+            <option value="localization/localizationstring_kor.paloc.json">Korean</option>
+            <option value="localization/localizationstring_pol.paloc.json">Polish</option>
+            <option value="localization/localizationstring_por-br.paloc.json">Portuguese (Brazil)</option>
+            <option value="localization/localizationstring_rus.paloc.json">Russian</option>
+            <option value="localization/localizationstring_spa-es.paloc.json">Spanish (Spain)</option>
+            <option value="localization/localizationstring_spa-mx.paloc.json">Spanish (Mexico)</option>
+            <option value="localization/localizationstring_tur.paloc.json">Turkish</option>
+            <option value="localization/localizationstring_zho-cn.paloc.json">Chinese (Simplified)</option>
+            <option value="localization/localizationstring_zho-tw.paloc.json">Chinese (Traditional)</option>
+          </select>
+          <span id="ok-loc" style="font-size:.68rem;color:var(--green);display:none;white-space:nowrap;flex-shrink:0;">✓ loaded</span>
         </div>
-        <span class="fdz-ok" id="ok-loc">✓ loaded</span>
-        <div class="fdz-hint">Use a PAZ Unpacker — found in gamedata/. Improves item name display significantly.</div>
+        <div id="loc-loading" style="font-size:.68rem;color:var(--text-dim);margin-top:4px;display:none;">Fetching…</div>
       </div>
     </div>
 
@@ -794,28 +808,38 @@ document.getElementById('f-store').addEventListener('change', async e=>{
   } catch(err){ showToast('Error: '+err.message,'err'); }
 });
 
-document.getElementById('f-loc').addEventListener('change', async e=>{
-  const file=e.target.files[0]; if(!file) return;
-  setMsg('Parsing localization…');
+async function loadLocalization() {
+  const path = document.getElementById('loc-select').value;
+  if(!path) return;
+  const loadingEl = document.getElementById('loc-loading');
+  const okEl      = document.getElementById('ok-loc');
+  loadingEl.style.display = 'block';
+  okEl.style.display = 'none';
+  setMsg('Fetching localization file…');
   try {
-    const buf=await file.arrayBuffer();
-    S.locMap=await parseLocalization(buf);
-    document.getElementById('fdz-loc').classList.add('loaded');
-    document.getElementById('ok-loc').textContent=`✓ ${S.locMap.size.toLocaleString()} strings`;
+    const res = await fetch(path);
+    if(!res.ok) throw new Error(`HTTP ${res.status} — is the file in your repo at ${path}?`);
+    const buf = await res.arrayBuffer();
+    S.locMap = await parseLocalization(buf);
+    loadingEl.style.display = 'none';
+    okEl.style.display = 'inline';
     document.getElementById('dot-loc').classList.add('ok');
     document.getElementById('lbl-loc').textContent=`localization: ${S.locMap.size.toLocaleString()} strings`;
-    // Re-parse iteminfo with localization data if already loaded
     if(S.itemBuf) {
       setMsg('Re-resolving item names with localization…');
-      S.itemMap=await parseItemInfo(S.itemBuf);
-      S.filteredItems=[...S.itemMap];
+      S.itemMap = await parseItemInfo(S.itemBuf);
+      S.filteredItems = [...S.itemMap];
       renderItemList();
       if(S.currentStore) renderSlots();
-      document.getElementById('item-count').textContent=S.itemMap.length.toLocaleString()+' items';
+      document.getElementById('item-count').textContent = S.itemMap.length.toLocaleString()+' items';
     }
-    setMsg('Localization loaded. Item names updated.');
-  } catch(err){ showToast('Error: '+err.message,'err'); }
-});
+    setMsg('Localization loaded — item names updated.');
+  } catch(err) {
+    loadingEl.style.display = 'none';
+    showToast('Failed to load localization: '+err.message,'err');
+    setMsg('Could not load localization. Check the file is in your repo.');
+  }
+}
 
 // ═══════════════════════════════════════════
 // STORE TREE
