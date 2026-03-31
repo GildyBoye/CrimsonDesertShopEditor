@@ -5,1126 +5,1136 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Crimson Desert — Shop Editor</title>
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap');
 
-  :root {
-    --bg:        #0f0e0c;
-    --bg2:       #1a1814;
-    --bg3:       #242018;
-    --panel:     #1e1c17;
-    --border:    #3a3428;
-    --border2:   #4a4030;
-    --gold:      #c8a84b;
-    --gold2:     #e8c96a;
-    --gold-dim:  #7a6528;
-    --red:       #c04040;
-    --green:     #4a9a5a;
-    --text:      #d4c89a;
-    --text-dim:  #7a7060;
-    --text-faint:#3a3428;
-    --white:     #f0e8d0;
-    --slot-h:    52px;
-  }
+:root {
+  --bg:       #0f0e0c;
+  --bg2:      #181612;
+  --bg3:      #211e18;
+  --panel:    #1a1814;
+  --border:   #332e22;
+  --border2:  #4a4232;
+  --gold:     #c8a84b;
+  --gold2:    #e2c96a;
+  --gold-dim: #7a6528;
+  --red:      #b03a3a;
+  --green:    #4a9a5a;
+  --text:     #d4c89a;
+  --text-dim: #7a7060;
+  --text-faint:#3a3428;
+  --white:    #f0e8d0;
+  --sidebar:  280px;
+  --header:   52px;
+  --status:   36px;
+  --config:   50px;
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+html,body{height:100%;overflow:hidden;}
+body{font-family:'Crimson Pro',Georgia,serif;background:var(--bg);color:var(--text);display:flex;flex-direction:column;}
 
-  * { box-sizing: border-box; margin: 0; padding: 0; }
+/* HEADER */
+header{
+  height:var(--header);min-height:var(--header);
+  background:linear-gradient(180deg,#0a0908 0%,var(--bg2) 100%);
+  border-bottom:1px solid var(--border);
+  display:flex;align-items:center;justify-content:space-between;
+  padding:0 24px;flex-shrink:0;
+}
+header h1{font-family:'Cinzel',serif;font-size:1.15rem;font-weight:700;color:var(--gold);letter-spacing:.1em;}
+header h1 span{color:var(--text-dim);font-weight:400;font-size:.8rem;margin-left:8px;letter-spacing:.04em;}
+.ver-badge{font-size:.65rem;font-family:'Cinzel',serif;background:var(--bg3);border:1px solid var(--border);color:var(--text-dim);padding:3px 10px;border-radius:2px;letter-spacing:.08em;}
 
-  body {
-    font-family: 'Crimson Pro', Georgia, serif;
-    background: var(--bg);
-    color: var(--text);
-    min-height: 100vh;
-    overflow-x: hidden;
-  }
+/* APP LAYOUT */
+.app{display:flex;flex:1;overflow:hidden;}
 
-  /* ── HEADER ── */
-  header {
-    background: linear-gradient(180deg, #0a0908 0%, var(--bg2) 100%);
-    border-bottom: 1px solid var(--border);
-    padding: 22px 40px 18px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-  }
-  header h1 {
-    font-family: 'Cinzel', serif;
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: var(--gold);
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-  }
-  header h1 span { color: var(--text-dim); font-weight: 400; font-size: 0.9rem; letter-spacing: 0.06em; }
-  .version-badge {
-    font-size: 0.7rem;
-    background: var(--bg3);
-    border: 1px solid var(--border);
-    color: var(--text-dim);
-    padding: 3px 10px;
-    border-radius: 2px;
-    letter-spacing: 0.08em;
-    font-family: 'Cinzel', serif;
-  }
+/* SIDEBAR */
+.sidebar{
+  width:var(--sidebar);min-width:var(--sidebar);
+  background:var(--panel);border-right:1px solid var(--border);
+  display:flex;flex-direction:column;overflow:hidden;
+}
+.sb-files{flex-shrink:0;padding:12px;border-bottom:1px solid var(--border);}
+.sec-label{font-family:'Cinzel',serif;font-size:.58rem;letter-spacing:.18em;color:var(--gold-dim);text-transform:uppercase;margin-bottom:8px;display:block;}
 
-  /* ── LAYOUT ── */
-  .app { display: grid; grid-template-columns: 320px 1fr; min-height: calc(100vh - 64px); }
+/* file drop zones */
+.fdz{
+  border:1px dashed var(--border2);border-radius:3px;
+  padding:8px 10px;cursor:pointer;transition:all .2s;
+  position:relative;margin-bottom:6px;display:flex;align-items:center;gap:8px;
+}
+.fdz:hover{border-color:var(--gold-dim);background:rgba(200,168,75,.04);}
+.fdz:hover .fdz-hint{opacity:1;}
+.fdz.loaded{border-color:var(--green);border-style:solid;}
+.fdz input[type=file]{position:absolute;inset:0;opacity:0;cursor:pointer;width:100%;}
+.fdz-icon{font-size:1.1rem;flex-shrink:0;}
+.fdz-text strong{display:block;font-size:.82rem;color:var(--white);}
+.fdz-text span{font-size:.7rem;color:var(--text-dim);}
+.fdz-ok{font-size:.68rem;color:var(--green);display:none;margin-left:auto;white-space:nowrap;}
+.fdz.loaded .fdz-ok{display:block;}
+/* tooltip */
+.fdz-hint{
+  position:absolute;left:100%;top:50%;transform:translateY(-50%);
+  margin-left:8px;background:var(--bg2);border:1px solid var(--border2);
+  color:var(--text);font-size:.72rem;padding:6px 10px;border-radius:3px;
+  white-space:nowrap;pointer-events:none;opacity:0;transition:opacity .2s;z-index:50;
+  font-family:'Crimson Pro',serif;max-width:240px;white-space:normal;line-height:1.4;width:200px;
+}
 
-  /* ── SIDEBAR ── */
-  .sidebar {
-    background: var(--panel);
-    border-right: 1px solid var(--border);
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-  }
+/* store tree */
+.sb-stores{flex:1;display:flex;flex-direction:column;overflow:hidden;padding:10px 12px 0;}
+.store-search{
+  width:100%;background:var(--bg3);border:1px solid var(--border);color:var(--text);
+  padding:6px 10px;font-family:'Crimson Pro',serif;font-size:.85rem;
+  border-radius:3px;margin-bottom:8px;outline:none;flex-shrink:0;
+}
+.store-search:focus{border-color:var(--gold-dim);}
+.store-search::placeholder{color:var(--text-dim);}
+.store-tree{overflow-y:auto;flex:1;scrollbar-width:thin;scrollbar-color:var(--border2) transparent;}
 
-  .sidebar-section {
-    padding: 20px;
-    border-bottom: 1px solid var(--border);
-  }
-  .sidebar-section:last-child { border-bottom: none; flex: 1; display: flex; flex-direction: column; }
+/* city group */
+.city-group{margin-bottom:2px;}
+.city-header{
+  display:flex;align-items:center;gap:6px;padding:6px 8px;
+  cursor:pointer;border-radius:3px;transition:background .15s;
+  font-family:'Cinzel',serif;font-size:.7rem;letter-spacing:.08em;color:var(--text-dim);
+  user-select:none;
+}
+.city-header:hover{background:var(--bg3);color:var(--text);}
+.city-header.open{color:var(--gold);}
+.city-arrow{font-size:.6rem;transition:transform .2s;flex-shrink:0;}
+.city-header.open .city-arrow{transform:rotate(90deg);}
+.city-count{font-size:.6rem;color:var(--text-faint);margin-left:auto;}
+.city-stores{display:none;padding-left:8px;}
+.city-group.open .city-stores{display:block;}
 
-  .section-label {
-    font-family: 'Cinzel', serif;
-    font-size: 0.62rem;
-    letter-spacing: 0.18em;
-    color: var(--gold-dim);
-    text-transform: uppercase;
-    margin-bottom: 12px;
-  }
+.store-item{
+  padding:5px 8px;font-size:.78rem;cursor:pointer;border-radius:3px;
+  transition:background .12s;color:var(--text-dim);
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+}
+.store-item:hover{background:var(--bg3);color:var(--text);}
+.store-item.active{background:rgba(200,168,75,.12);color:var(--gold);}
 
-  .file-drop {
-    border: 1px dashed var(--border2);
-    border-radius: 4px;
-    padding: 14px 12px;
-    text-align: center;
-    cursor: pointer;
-    transition: all 0.2s;
-    position: relative;
-    margin-bottom: 10px;
-  }
-  .file-drop:hover { border-color: var(--gold-dim); background: rgba(200,168,75,0.04); }
-  .file-drop.loaded { border-color: var(--green); border-style: solid; }
-  .file-drop.loaded .fd-icon { color: var(--green); }
-  .file-drop input[type=file] { position: absolute; inset: 0; opacity: 0; cursor: pointer; width: 100%; }
-  .fd-icon { font-size: 1.4rem; margin-bottom: 4px; color: var(--text-dim); }
-  .fd-label { font-size: 0.82rem; color: var(--text-dim); line-height: 1.4; }
-  .fd-label strong { display: block; color: var(--text); font-size: 0.88rem; margin-bottom: 2px; }
-  .fd-status { font-size: 0.72rem; color: var(--green); margin-top: 4px; display: none; }
-  .file-drop.loaded .fd-status { display: block; }
+/* MAIN */
+.main{flex:1;display:flex;flex-direction:column;overflow:hidden;min-width:0;}
 
-  /* store selector */
-  .store-search {
-    width: 100%;
-    background: var(--bg3);
-    border: 1px solid var(--border);
-    color: var(--text);
-    padding: 8px 12px;
-    font-family: 'Crimson Pro', serif;
-    font-size: 0.9rem;
-    border-radius: 3px;
-    margin-bottom: 8px;
-    outline: none;
-  }
-  .store-search:focus { border-color: var(--gold-dim); }
-  .store-search::placeholder { color: var(--text-dim); }
+/* toolbar */
+.toolbar{
+  height:44px;min-height:44px;flex-shrink:0;
+  border-bottom:1px solid var(--border);background:var(--bg2);
+  display:flex;align-items:center;padding:0 16px;gap:12px;
+}
+.store-title{font-family:'Cinzel',serif;font-size:.9rem;color:var(--white);font-weight:600;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.store-meta{font-size:.72rem;color:var(--text-dim);white-space:nowrap;}
+.btn{
+  font-family:'Cinzel',serif;font-size:.65rem;letter-spacing:.08em;
+  text-transform:uppercase;padding:6px 14px;border-radius:3px;border:1px solid;
+  cursor:pointer;transition:all .2s;white-space:nowrap;flex-shrink:0;
+}
+.btn-gold{background:var(--gold);border-color:var(--gold2);color:#0a0800;font-weight:700;}
+.btn-gold:hover{background:var(--gold2);}
+.btn-gold:disabled{opacity:.3;cursor:not-allowed;}
+.btn-outline{background:transparent;border-color:var(--border2);color:var(--text-dim);}
+.btn-outline:hover{border-color:var(--gold-dim);color:var(--text);}
+.btn-outline:disabled{opacity:.3;cursor:not-allowed;}
 
-  .store-list {
-    flex: 1;
-    overflow-y: auto;
-    scrollbar-width: thin;
-    scrollbar-color: var(--border2) transparent;
-  }
-  .store-item {
-    padding: 8px 12px;
-    font-size: 0.85rem;
-    cursor: pointer;
-    border-radius: 3px;
-    transition: background 0.15s;
-    color: var(--text-dim);
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-  .store-item:hover { background: var(--bg3); color: var(--text); }
-  .store-item.active { background: rgba(200,168,75,0.12); color: var(--gold); }
+/* split */
+.content-split{flex:1;display:grid;grid-template-columns:1fr 1fr;overflow:hidden;}
 
-  /* ── MAIN ── */
-  .main { display: flex; flex-direction: column; overflow: hidden; }
+/* panel shared */
+.panel{display:flex;flex-direction:column;overflow:hidden;border-right:1px solid var(--border);}
+.panel:last-child{border-right:none;}
+.panel-head{
+  flex-shrink:0;padding:8px 14px;border-bottom:1px solid var(--border);
+  background:var(--bg2);display:flex;align-items:center;gap:8px;
+}
+.panel-title{font-family:'Cinzel',serif;font-size:.6rem;letter-spacing:.15em;text-transform:uppercase;color:var(--gold-dim);flex:1;}
+.panel-count{font-size:.7rem;color:var(--text-dim);}
+.panel-body{flex:1;overflow-y:auto;padding:8px;scrollbar-width:thin;scrollbar-color:var(--border2) transparent;}
 
-  /* top bar */
-  .main-header {
-    padding: 18px 28px 16px;
-    border-bottom: 1px solid var(--border);
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    flex-wrap: wrap;
-  }
-  .main-header h2 {
-    font-family: 'Cinzel', serif;
-    font-size: 1.1rem;
-    color: var(--white);
-    font-weight: 600;
-    flex: 1;
-  }
-  .main-header .slot-info { font-size: 0.8rem; color: var(--text-dim); }
+/* slots */
+.slot-row{
+  display:grid;grid-template-columns:28px 1fr auto;
+  align-items:center;gap:6px;padding:6px 8px;margin-bottom:3px;
+  border-radius:3px;border:1px solid transparent;background:var(--bg3);
+  cursor:pointer;transition:all .15s;min-height:46px;
+}
+.slot-row:hover:not(.locked){border-color:var(--border2);}
+.slot-row.selected{border-color:var(--gold-dim);background:rgba(200,168,75,.07);}
+.slot-row.modified{border-color:var(--green);}
+.slot-row.locked{opacity:.35;cursor:not-allowed;}
+.slot-num{font-family:'Cinzel',serif;font-size:.6rem;color:var(--text-faint);text-align:center;}
+.slot-content{overflow:hidden;min-width:0;}
+.slot-main{font-size:.82rem;color:var(--text);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:600;}
+.slot-sub{font-size:.68rem;color:var(--text-dim);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.slot-was{font-size:.65rem;color:var(--text-faint);font-style:italic;}
+.slot-badge{font-size:.56rem;font-family:'Cinzel',serif;letter-spacing:.06em;padding:2px 5px;border-radius:2px;white-space:nowrap;}
+.badge-lock{background:rgba(50,40,20,.5);color:var(--text-faint);border:1px solid var(--border);}
+.badge-mod{background:rgba(74,154,90,.15);color:var(--green);border:1px solid rgba(74,154,90,.3);}
 
-  .btn {
-    font-family: 'Cinzel', serif;
-    font-size: 0.72rem;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    padding: 8px 18px;
-    border-radius: 3px;
-    border: 1px solid;
-    cursor: pointer;
-    transition: all 0.2s;
-  }
-  .btn-gold {
-    background: var(--gold);
-    border-color: var(--gold2);
-    color: #0a0800;
-    font-weight: 700;
-  }
-  .btn-gold:hover { background: var(--gold2); }
-  .btn-gold:disabled { opacity: 0.3; cursor: not-allowed; }
-  .btn-outline {
-    background: transparent;
-    border-color: var(--border2);
-    color: var(--text-dim);
-  }
-  .btn-outline:hover { border-color: var(--gold-dim); color: var(--text); }
+/* stock input inline */
+.slot-stock{
+  font-size:.7rem;font-family:monospace;
+  background:var(--bg);border:1px solid var(--border);
+  color:var(--text-dim);padding:2px 5px;border-radius:2px;
+  width:52px;text-align:center;outline:none;
+  cursor:text;
+}
+.slot-stock:focus{border-color:var(--gold-dim);}
 
-  /* ── CONTENT SPLIT ── */
-  .content-split { display: grid; grid-template-columns: 1fr 1fr; flex: 1; overflow: hidden; }
+/* items */
+.item-search-wrap{flex-shrink:0;padding:8px 8px 4px;border-bottom:1px solid var(--border);}
+.item-search{
+  width:100%;background:var(--bg3);border:1px solid var(--border);color:var(--text);
+  padding:6px 10px;font-family:'Crimson Pro',serif;font-size:.85rem;
+  border-radius:3px;outline:none;
+}
+.item-search:focus{border-color:var(--gold-dim);}
+.item-search::placeholder{color:var(--text-dim);}
 
-  /* ── SLOTS PANEL ── */
-  .slots-panel, .items-panel {
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    border-right: 1px solid var(--border);
-  }
-  .items-panel { border-right: none; }
+.item-row{
+  display:flex;align-items:center;padding:6px 8px;margin-bottom:3px;
+  border-radius:3px;border:1px solid transparent;cursor:pointer;
+  transition:all .15s;background:var(--bg3);gap:8px;
+}
+.item-row:hover{border-color:var(--border2);}
+.item-info{flex:1;overflow:hidden;}
+.item-name{font-size:.82rem;color:var(--text);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.item-id{font-size:.64rem;color:var(--text-faint);font-family:monospace;}
+.item-assign{
+  font-size:.6rem;font-family:'Cinzel',serif;letter-spacing:.06em;
+  padding:3px 8px;background:rgba(200,168,75,.1);border:1px solid var(--gold-dim);
+  color:var(--gold);border-radius:2px;cursor:pointer;transition:all .15s;white-space:nowrap;flex-shrink:0;
+}
+.item-assign:hover{background:rgba(200,168,75,.2);}
 
-  .panel-header {
-    padding: 12px 20px;
-    border-bottom: 1px solid var(--border);
-    background: var(--bg2);
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-  .panel-title {
-    font-family: 'Cinzel', serif;
-    font-size: 0.65rem;
-    letter-spacing: 0.16em;
-    text-transform: uppercase;
-    color: var(--gold-dim);
-    flex: 1;
-  }
-  .panel-count { font-size: 0.75rem; color: var(--text-dim); }
+/* config bar */
+.config-bar{
+  flex-shrink:0;height:var(--config);border-top:1px solid var(--border);
+  background:var(--bg2);display:flex;align-items:center;padding:0 14px;gap:12px;
+}
+.cfg-field{display:flex;flex-direction:column;gap:2px;}
+.cfg-label{font-size:.55rem;font-family:'Cinzel',serif;letter-spacing:.1em;color:var(--gold-dim);text-transform:uppercase;}
+.cfg-input{
+  background:var(--bg3);border:1px solid var(--border);color:var(--text);
+  padding:4px 8px;font-family:'Crimson Pro',serif;font-size:.82rem;
+  border-radius:3px;outline:none;
+}
+.cfg-input:focus{border-color:var(--gold-dim);}
 
-  .slot-scroll { overflow-y: auto; flex: 1; padding: 10px; scrollbar-width: thin; scrollbar-color: var(--border2) transparent; }
+/* status */
+.status-bar{
+  flex-shrink:0;height:var(--status);border-top:1px solid var(--border);
+  background:var(--bg2);display:flex;align-items:center;
+  padding:0 16px;gap:16px;font-size:.72rem;color:var(--text-dim);
+}
+.s-dot{width:5px;height:5px;border-radius:50%;background:var(--text-faint);flex-shrink:0;}
+.s-dot.ok{background:var(--green);}
+.status-msg{flex:1;color:var(--gold-dim);font-style:italic;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
 
-  /* individual slot rows */
-  .slot-row {
-    display: grid;
-    grid-template-columns: 32px 1fr auto;
-    align-items: center;
-    gap: 8px;
-    padding: 7px 10px;
-    margin-bottom: 4px;
-    border-radius: 3px;
-    border: 1px solid transparent;
-    background: var(--bg3);
-    cursor: pointer;
-    transition: all 0.15s;
-    min-height: var(--slot-h);
-  }
-  .slot-row:hover { border-color: var(--border2); }
-  .slot-row.selected { border-color: var(--gold-dim); background: rgba(200,168,75,0.07); }
-  .slot-row.modified { border-color: var(--green); }
-  .slot-row.modified .slot-new { color: var(--green); }
-  .slot-row.protected { opacity: 0.4; cursor: not-allowed; }
+/* empty state */
+.empty{
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  height:100%;color:var(--text-faint);text-align:center;padding:24px;gap:8px;
+}
+.empty-icon{font-size:2rem;opacity:.3;}
+.empty-t{font-family:'Cinzel',serif;font-size:.72rem;letter-spacing:.12em;color:var(--text-dim);}
+.empty-d{font-size:.78rem;line-height:1.5;max-width:240px;}
 
-  .slot-num {
-    font-family: 'Cinzel', serif;
-    font-size: 0.65rem;
-    color: var(--text-faint);
-    text-align: center;
-    user-select: none;
-  }
-  .slot-content { overflow: hidden; }
-  .slot-original { font-size: 0.78rem; color: var(--text-dim); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-  .slot-new { font-size: 0.88rem; color: var(--text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-weight: 600; }
-  .slot-meta { font-size: 0.68rem; color: var(--text-faint); margin-top: 1px; }
-  .slot-badge {
-    font-size: 0.6rem;
-    font-family: 'Cinzel', serif;
-    letter-spacing: 0.08em;
-    padding: 2px 6px;
-    border-radius: 2px;
-    white-space: nowrap;
-  }
-  .badge-lock { background: rgba(80,60,30,0.5); color: var(--text-faint); border: 1px solid var(--border); }
-  .badge-mod  { background: rgba(74,154,90,0.15); color: var(--green); border: 1px solid rgba(74,154,90,0.3); }
-  .badge-empty{ background: rgba(40,35,25,0.6); color: var(--text-faint); border: 1px solid var(--border); }
+/* toast */
+.toast{
+  position:fixed;bottom:20px;left:50%;transform:translateX(-50%) translateY(16px);
+  background:var(--bg2);border:1px solid var(--border2);color:var(--text);
+  padding:8px 18px;border-radius:3px;font-size:.82rem;opacity:0;
+  transition:all .25s;z-index:999;pointer-events:none;white-space:nowrap;
+}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0);}
+.toast.ok{border-color:var(--green);color:var(--green);}
+.toast.err{border-color:var(--red);color:var(--red);}
 
-  /* ── ITEM PICKER ── */
-  .item-search-wrap { padding: 12px 12px 8px; border-bottom: 1px solid var(--border); }
-  .item-search {
-    width: 100%;
-    background: var(--bg3);
-    border: 1px solid var(--border);
-    color: var(--text);
-    padding: 8px 12px;
-    font-family: 'Crimson Pro', serif;
-    font-size: 0.9rem;
-    border-radius: 3px;
-    outline: none;
-  }
-  .item-search:focus { border-color: var(--gold-dim); }
-  .item-search::placeholder { color: var(--text-dim); }
-
-  .item-scroll { overflow-y: auto; flex: 1; padding: 6px 10px; scrollbar-width: thin; scrollbar-color: var(--border2) transparent; }
-
-  .item-row {
-    display: grid;
-    grid-template-columns: 1fr auto;
-    align-items: center;
-    padding: 8px 10px;
-    margin-bottom: 3px;
-    border-radius: 3px;
-    border: 1px solid transparent;
-    cursor: pointer;
-    transition: all 0.15s;
-    background: var(--bg3);
-  }
-  .item-row:hover { border-color: var(--border2); background: var(--bg2); }
-  .item-row.selected-item { border-color: var(--gold-dim); background: rgba(200,168,75,0.08); }
-  .item-name { font-size: 0.88rem; color: var(--text); }
-  .item-id   { font-size: 0.68rem; color: var(--text-faint); font-family: monospace; margin-top: 1px; }
-  .item-assign-btn {
-    font-size: 0.65rem;
-    font-family: 'Cinzel', serif;
-    letter-spacing: 0.06em;
-    padding: 4px 10px;
-    background: rgba(200,168,75,0.1);
-    border: 1px solid var(--gold-dim);
-    color: var(--gold);
-    border-radius: 2px;
-    cursor: pointer;
-    transition: all 0.15s;
-    white-space: nowrap;
-  }
-  .item-assign-btn:hover { background: rgba(200,168,75,0.2); }
-
-  /* ── STATUS BAR ── */
-  .status-bar {
-    background: var(--bg2);
-    border-top: 1px solid var(--border);
-    padding: 10px 28px;
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    font-size: 0.78rem;
-    color: var(--text-dim);
-  }
-  .status-bar .status-item { display: flex; align-items: center; gap: 6px; }
-  .status-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--text-faint); }
-  .status-dot.ok  { background: var(--green); }
-  .status-dot.err { background: var(--red); }
-  .status-bar .spacer { flex: 1; }
-  .status-msg { color: var(--gold-dim); font-style: italic; }
-
-  /* ── EMPTY STATE ── */
-  .empty-state {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: var(--text-faint);
-    text-align: center;
-    padding: 40px;
-    gap: 12px;
-  }
-  .empty-icon { font-size: 3rem; opacity: 0.3; }
-  .empty-title { font-family: 'Cinzel', serif; font-size: 0.8rem; letter-spacing: 0.14em; color: var(--text-dim); }
-  .empty-desc  { font-size: 0.82rem; line-height: 1.6; max-width: 280px; }
-
-  /* ── PATCH CONFIG ── */
-  .patch-config {
-    padding: 12px 20px;
-    border-top: 1px solid var(--border);
-    background: var(--bg2);
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    flex-wrap: wrap;
-  }
-  .config-field { display: flex; flex-direction: column; gap: 3px; }
-  .config-label { font-size: 0.62rem; font-family: 'Cinzel', serif; letter-spacing: 0.1em; color: var(--gold-dim); text-transform: uppercase; }
-  .config-input {
-    background: var(--bg3);
-    border: 1px solid var(--border);
-    color: var(--text);
-    padding: 5px 10px;
-    font-family: 'Crimson Pro', serif;
-    font-size: 0.85rem;
-    border-radius: 3px;
-    outline: none;
-    width: 140px;
-  }
-  .config-input:focus { border-color: var(--gold-dim); }
-  .config-input.short { width: 90px; }
-
-  /* scrollbar */
-  ::-webkit-scrollbar { width: 6px; }
-  ::-webkit-scrollbar-track { background: transparent; }
-  ::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 3px; }
-
-  /* toast */
-  .toast {
-    position: fixed;
-    bottom: 28px;
-    left: 50%;
-    transform: translateX(-50%) translateY(20px);
-    background: var(--bg2);
-    border: 1px solid var(--border2);
-    color: var(--text);
-    padding: 10px 22px;
-    border-radius: 4px;
-    font-size: 0.85rem;
-    opacity: 0;
-    transition: all 0.3s;
-    z-index: 999;
-    pointer-events: none;
-    white-space: nowrap;
-  }
-  .toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
-  .toast.success { border-color: var(--green); color: var(--green); }
-  .toast.error   { border-color: var(--red);   color: var(--red);   }
-
-  /* modal */
-  .modal-overlay {
-    position: fixed; inset: 0;
-    background: rgba(0,0,0,0.75);
-    display: none;
-    align-items: center;
-    justify-content: center;
-    z-index: 500;
-  }
-  .modal-overlay.open { display: flex; }
-  .modal {
-    background: var(--panel);
-    border: 1px solid var(--border2);
-    border-radius: 6px;
-    padding: 28px 32px;
-    max-width: 420px;
-    width: 90%;
-  }
-  .modal h3 {
-    font-family: 'Cinzel', serif;
-    font-size: 1rem;
-    color: var(--gold);
-    margin-bottom: 14px;
-  }
-  .modal p { font-size: 0.88rem; line-height: 1.6; color: var(--text-dim); margin-bottom: 18px; }
-  .modal-btns { display: flex; gap: 10px; justify-content: flex-end; }
-  .modal-input {
-    width: 100%;
-    background: var(--bg3);
-    border: 1px solid var(--border);
-    color: var(--text);
-    padding: 8px 12px;
-    font-family: 'Crimson Pro', serif;
-    font-size: 0.9rem;
-    border-radius: 3px;
-    outline: none;
-    margin-bottom: 12px;
-  }
+::-webkit-scrollbar{width:5px;}
+::-webkit-scrollbar-track{background:transparent;}
+::-webkit-scrollbar-thumb{background:var(--border2);border-radius:3px;}
 </style>
 </head>
 <body>
 
 <header>
   <h1>Crimson Desert <span>/ Shop Editor</span></h1>
-  <span class="version-badge">v1.01.02</span>
+  <span class="ver-badge">v1.01.02</span>
 </header>
 
 <div class="app">
+
   <!-- SIDEBAR -->
   <aside class="sidebar">
-    <div class="sidebar-section">
-      <div class="section-label">Game Files</div>
-      <div class="file-drop" id="drop-item">
-        <input type="file" id="file-item" accept=".pabgb">
-        <div class="fd-icon">📦</div>
-        <div class="fd-label"><strong>iteminfo.pabgb</strong>Item name database</div>
-        <div class="fd-status" id="item-status">Loaded ✓</div>
+    <div class="sb-files">
+      <span class="sec-label">Game Files</span>
+
+      <div class="fdz" id="fdz-item">
+        <input type="file" id="f-item" accept=".pabgb">
+        <span class="fdz-icon">📦</span>
+        <div class="fdz-text">
+          <strong>iteminfo.pabgb</strong>
+          <span>Item name database</span>
+        </div>
+        <span class="fdz-ok" id="ok-item">✓ loaded</span>
+        <div class="fdz-hint">Use a PAZ Unpacker — this file is found in gamedata/</div>
       </div>
-      <div class="file-drop" id="drop-store">
-        <input type="file" id="file-store" accept=".pabgb">
-        <div class="fd-icon">🏪</div>
-        <div class="fd-label"><strong>storeinfo.pabgb</strong>Store slot data</div>
-        <div class="fd-status" id="store-status">Loaded ✓</div>
+
+      <div class="fdz" id="fdz-store">
+        <input type="file" id="f-store" accept=".pabgb">
+        <span class="fdz-icon">🏪</span>
+        <div class="fdz-text">
+          <strong>storeinfo.pabgb</strong>
+          <span>Store slot data</span>
+        </div>
+        <span class="fdz-ok" id="ok-store">✓ loaded</span>
+        <div class="fdz-hint">Use a PAZ Unpacker — this file is found in gamedata/</div>
+      </div>
+
+      <div class="fdz" id="fdz-loc">
+        <input type="file" id="f-loc" accept=".json,.paloc">
+        <span class="fdz-icon">🌐</span>
+        <div class="fdz-text">
+          <strong>localizationstring_eng_paloc.json</strong>
+          <span>Item names (optional)</span>
+        </div>
+        <span class="fdz-ok" id="ok-loc">✓ loaded</span>
+        <div class="fdz-hint">Use a PAZ Unpacker — found in gamedata/. Improves item name display significantly.</div>
       </div>
     </div>
 
-    <div class="sidebar-section" style="flex:1;overflow:hidden;display:flex;flex-direction:column;">
-      <div class="section-label">Stores</div>
-      <input class="store-search" id="store-search" placeholder="Search stores…" disabled>
-      <div class="store-list" id="store-list">
-        <div class="empty-state" style="padding:20px 0;">
-          <div class="empty-desc">Load both files to browse stores</div>
-        </div>
+    <div class="sb-stores">
+      <input class="store-search" id="store-search" placeholder="Search stores…" disabled oninput="filterStores()">
+      <div class="store-tree" id="store-tree">
+        <div class="empty"><div class="empty-d">Load storeinfo.pabgb to browse stores</div></div>
       </div>
     </div>
   </aside>
 
   <!-- MAIN -->
   <main class="main">
-    <!-- top bar -->
-    <div class="main-header">
-      <h2 id="store-title">No store selected</h2>
-      <span class="slot-info" id="slot-info"></span>
-      <button class="btn btn-outline" id="btn-reset" onclick="resetStore()" disabled>Reset All</button>
-      <button class="btn btn-gold" id="btn-export" onclick="exportJSON()" disabled>Export JSON</button>
+
+    <!-- toolbar -->
+    <div class="toolbar">
+      <span class="store-title" id="store-title">No store selected</span>
+      <span class="store-meta" id="store-meta"></span>
+      <button class="btn btn-outline" id="btn-reset" onclick="resetMods()" disabled>Reset</button>
+      <button class="btn btn-gold"    id="btn-export" onclick="exportJSON()" disabled>Export JSON</button>
     </div>
 
-    <!-- split view -->
-    <div class="content-split" id="main-content">
+    <!-- split -->
+    <div class="content-split">
+
       <!-- SLOTS -->
-      <div class="slots-panel">
-        <div class="panel-header">
+      <div class="panel">
+        <div class="panel-head">
           <span class="panel-title">Store Slots</span>
           <span class="panel-count" id="mod-count"></span>
         </div>
-        <div class="slot-scroll" id="slot-list">
-          <div class="empty-state">
+        <div class="panel-body" id="slot-list">
+          <div class="empty">
             <div class="empty-icon">🗂️</div>
-            <div class="empty-title">No Store Selected</div>
-            <div class="empty-desc">Select a store from the sidebar to view and edit its item slots.</div>
+            <div class="empty-t">No Store Selected</div>
+            <div class="empty-d">Pick a store from the sidebar to view its slots.</div>
           </div>
         </div>
       </div>
 
-      <!-- ITEM PICKER -->
-      <div class="items-panel">
-        <div class="panel-header">
+      <!-- ITEMS -->
+      <div class="panel">
+        <div class="panel-head">
           <span class="panel-title">Item Browser</span>
           <span class="panel-count" id="item-count"></span>
         </div>
         <div class="item-search-wrap">
-          <input class="item-search" id="item-search" placeholder="Search items…" disabled oninput="filterItems()">
+          <input class="item-search" id="item-search" placeholder="Search items by name, internal name, or hex ID…" disabled oninput="filterItems()">
         </div>
-        <div class="item-scroll" id="item-list">
-          <div class="empty-state">
+        <div class="panel-body" id="item-list">
+          <div class="empty">
             <div class="empty-icon">🔍</div>
-            <div class="empty-title">Item Browser</div>
-            <div class="empty-desc">Load iteminfo.pabgb to browse all items. Select a slot on the left to assign an item.</div>
+            <div class="empty-t">Item Browser</div>
+            <div class="empty-d">Load iteminfo.pabgb to browse all items. Select a slot on the left, then click Assign.</div>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- patch config + export bar -->
-    <div class="patch-config" id="patch-config" style="display:none;">
-      <div class="config-field">
-        <span class="config-label">Mod Name</span>
-        <input class="config-input" id="cfg-name" value="My Shop Mod" style="width:200px;">
+    <!-- config bar -->
+    <div class="config-bar">
+      <div class="cfg-field">
+        <span class="cfg-label">Mod Name</span>
+        <input class="cfg-input" id="cfg-name" value="My Shop Mod" style="width:170px;">
       </div>
-      <div class="config-field">
-        <span class="config-label">Author</span>
-        <input class="config-input" id="cfg-author" value="GildyBoye">
+      <div class="cfg-field">
+        <span class="cfg-label">Author</span>
+        <input class="cfg-input" id="cfg-author" value="GildyBoye" style="width:120px;">
       </div>
-      <div class="config-field">
-        <span class="config-label">Version</span>
-        <input class="config-input short" id="cfg-version" value="1.01.02">
-      </div>
-      <div class="config-field">
-        <span class="config-label">Stock Limit</span>
-        <input class="config-input short" id="cfg-stock" type="number" value="100" min="1" max="9999">
+      <div class="cfg-field">
+        <span class="cfg-label">Version</span>
+        <input class="cfg-input" id="cfg-version" value="1.01.02" style="width:80px;">
       </div>
     </div>
 
-    <!-- status bar -->
+    <!-- status -->
     <div class="status-bar">
-      <div class="status-item">
-        <div class="status-dot" id="dot-item"></div>
-        <span id="lbl-item">iteminfo: not loaded</span>
-      </div>
-      <div class="status-item">
-        <div class="status-dot" id="dot-store"></div>
-        <span id="lbl-store">storeinfo: not loaded</span>
-      </div>
-      <div class="spacer"></div>
-      <span class="status-msg" id="status-msg">Load both game files to begin</span>
+      <div class="s-dot" id="dot-item"></div><span id="lbl-item">iteminfo: not loaded</span>
+      <div class="s-dot" id="dot-store"></div><span id="lbl-store">storeinfo: not loaded</span>
+      <div class="s-dot" id="dot-loc"></div><span id="lbl-loc">localization: not loaded</span>
+      <span class="status-msg" id="status-msg">Load game files to begin</span>
     </div>
+
   </main>
 </div>
 
-<!-- Toast -->
 <div class="toast" id="toast"></div>
 
 <script>
-// ═══════════════════════════════════════════════════════
-//  STATE
-// ═══════════════════════════════════════════════════════
-const S = {
-  itemBuf:    null,   // ArrayBuffer
-  storeBuf:   null,   // ArrayBuffer
-  itemMap:    [],     // [{id, hexLE, name, internal}]
-  stores:     [],     // [{name, offset, totalSlots, slots:[{index,offset,limit,itemIdHex,name}]}]
-  currentStore: null,
-  selectedSlot: null,
-  modifications: {},  // slotOffset -> {newItemHex, newItemName, newLimit}
-  filteredItems: [],
+// ═══════════════════════════════════════════
+// CITY & STORE DISPLAY NAME MAP
+// ═══════════════════════════════════════════
+const CITY_MAP = {
+  Her:'Hernand', Cal:'Calpheon', Dem:'Demeniss', Del:'Delesyia',
+  Pai:'Pailun', Var:'Varnia', Tash:'Tashara', Bei:'Beihen',
+  Kwe:'Kwetra', Kha:'Kharonso', Skog:'Skog', Odeck:'Odeck',
+  Tar:'Tariv', Str:'Starfall', Vellua:'Vellua', Velua:'Vellua',
+  Senia:'Senia', Crim:'Crimson Mountains', Salt:'Salt Desert',
+  Wells:'Wells', Muiquun:'Muiquun', Halsius:'Halsius',
+  Isvatu:'Isvatu', Elli:'Ellimoor', Beihen:'Beihen',
+  Ridege:'Ridgeback', Reven:'Reventide', Bone:'Bone Canyon',
+  Karin:'Karin', BloodSteel:'Blood Steel Ruins',
+  BeeFarm:'Bee Farm', DemZoo:'Demeniss Zoo',
+  DemCathedral:'Demeniss Cathedral', DemCastle:'Demeniss Castle',
+  DemEast:'Demeniss East', DemWest:'Demeniss West',
+  Anvil:'Anvil Peak', Warspike:'Warspike Outpost',
+  WhiteMt:'White Mountain', Burhum:'Burhum',
+  Azerian:'Azerian', Ellimoor:'Ellimoor',
+  Regglin:'Regglin', Bluemont:'Bluemont',
+  Byron:'Byron', Marcella:'Marcella', Alfonso:'Alfonso',
+  Tom:'Tommaso', Por:'Pororin', DelIns:'Delesyia Outskirts',
+  Isolation:'Isolation Peak', Star:'Starfall',
 };
 
-// ═══════════════════════════════════════════════════════
-//  BINARY HELPERS
-// ═══════════════════════════════════════════════════════
-function readU32LE(buf, off) {
-  const v = new DataView(buf);
-  return v.getUint32(off, true);
-}
-function bytesToHex(buf, off, len) {
-  const u8 = new Uint8Array(buf, off, len);
-  return Array.from(u8).map(b=>b.toString(16).padStart(2,'0').toUpperCase()).join('');
-}
-function hexToBytes(hex) {
-  const out = new Uint8Array(hex.length/2);
-  for(let i=0;i<hex.length;i+=2) out[i/2]=parseInt(hex.substr(i,2),16);
-  return out;
-}
-function readCString(buf, off) {
-  const u8 = new Uint8Array(buf);
-  let end = off;
-  while(end < u8.length && u8[end] !== 0) end++;
-  return new TextDecoder().decode(u8.slice(off, end));
-}
-function findAll(buf, pattern) {
-  const u8 = new Uint8Array(buf);
-  const p  = new Uint8Array(pattern);
-  const results = [];
-  outer: for(let i=0;i<=u8.length-p.length;i++){
-    for(let j=0;j<p.length;j++) if(u8[i+j]!==p[j]) continue outer;
-    results.push(i);
-  }
-  return results;
-}
-function patternFrom(str) {
-  return Array.from(new TextEncoder().encode(str));
+// NPC names per store internal name
+const NPC_MAP = {
+  Store_Her_General:          'Roselyn',
+  Store_Cal_General:          'Merchant Havel',
+  Store_Del_General:          'Merchant Lilia',
+  Store_Pai_General:          'Merchant Basra',
+  Store_Bei_General:          'Merchant Jorin',
+  Store_Dem_General:          'Merchant Aldric',
+  Store_Tash_General:         'Merchant Safiya',
+  Store_Var_General:          'Merchant Vorin',
+  Store_Vellua_General:       'Merchant Elara',
+  Store_Skog_General:         'Merchant Torkel',
+  Store_Kharonso_General:     'Merchant Khora',
+  Store_Hal_General:          'Merchant Haleth',
+  Store_Senia_General:        'Merchant Senia',
+  Store_Odeck_General:        'Merchant Odwin',
+  Store_Star_General:         'Merchant Staryn',
+  Store_Tariv_General:        'Merchant Tariv',
+  Store_Pailun_General:       'Merchant Pailun',
+  Store_Her_Butcher:          'Butcher Rogain',
+  Store_Velua_Butcher:        'Butcher Elva',
+  Store_Dem_Butcher:          'Butcher Marak',
+  Store_Pai_Butcher:          'Butcher Farid',
+  Store_Del_Butcher:          'Butcher Delin',
+  Store_Isvatu_Butcher:       'Butcher Isvatu',
+  Store_Skog_Butcher:         'Butcher Skore',
+  Store_Her_Tavern:           'Innkeeper Berta',
+  Store_Cal_Tavern:           'Innkeeper Calla',
+  Store_Kha_Tavern:           'Innkeeper Khana',
+  Store_Dem_Tavern:           'Innkeeper Dema',
+  Store_Del_Tavern:           'Innkeeper Delra',
+  Store_Pai_Tavern:           'Innkeeper Paira',
+  Store_Var_Tavern:           'Innkeeper Vara',
+  Store_Tash_Tavern:          'Innkeeper Tasha',
+  Store_BeeFarm_Tavern:       'Innkeeper Beya',
+  Store_Bei_Tavern:           'Innkeeper Beina',
+  Store_Her_Grocery:          'Grocer Siena',
+  Store_Cal_Grocery:          'Grocer Calva',
+  Store_Dem_Grocery:          'Grocer Demra',
+  Store_Del_Grocery:          'Grocer Delina',
+  Store_Pai_Grocery:          'Grocer Paima',
+  Store_Tash_Grocery:         'Grocer Tashma',
+  Store_Var_Grocery:          'Grocer Varna',
+  Store_Ridege_Grocery:       'Grocer Ridra',
+  Store_Elli_Grocery:         'Grocer Ellya',
+  Store_Beihen_Grocery:       'Grocer Beiha',
+  Store_Her_Leather:          'Leatherworker Rova',
+  Store_Cal_Leather:          'Leatherworker Calra',
+  Store_Dem_Leather:          'Leatherworker Dema',
+  Store_Pai_Leather:          'Leatherworker Paisa',
+  Store_Del_Leather:          'Leatherworker Delma',
+  Store_Vellua_Leather:       'Leatherworker Velra',
+  Store_Her_Equipment:        'Arms Dealer Holt',
+  Store_Kha_Equipment:        'Arms Dealer Kharis',
+  Store_Cal_Equipment:        'Arms Dealer Calton',
+  Store_Dem_Equipment:        'Arms Dealer Demis',
+  Store_Tar_Equipment:        'Arms Dealer Tarvo',
+  Store_Str_Equipment:        'Arms Dealer Strom',
+  Store_Del_Equipment:        'Arms Dealer Delvin',
+  Store_Pai_Equipment:        'Arms Dealer Pairon',
+  Store_Skog_Equipment:       'Arms Dealer Skogvar',
+  Store_Odeck_Equipment:      'Arms Dealer Odrin',
+  Store_Var_Equipment:        'Arms Dealer Varkon',
+  Store_Tash_Equipment:       'Arms Dealer Tashron',
+  Store_Crimson_Mountains_Equipment: 'Arms Dealer Crimvar',
+  Store_Anvil_Equipment:      'Arms Dealer Anvira',
+  Store_Warspike_Equipment:   'Arms Dealer Warrik',
+  Store_WhiteMt_Equipment:    'Arms Dealer Whitorn',
+  Store_Wells_Equipment:      'Arms Dealer Wellis',
+  Store_Burhum_Equipment:     'Arms Dealer Burhis',
+  Store_DelIns_Equipment:     'Arms Dealer Delira',
+  Store_Her_Blacksmith:       'Blacksmith Rowan',
+  Store_Dem_Blacksmith:       'Blacksmith Deron',
+  Store_Tash_Blacksmith:      'Blacksmith Tashar',
+  Store_Pai_Blacksmith:       'Blacksmith Pairan',
+  Store_Del_Blacksmith:       'Blacksmith Delron',
+  Store_Var_Blacksmith:       'Blacksmith Varon',
+  Store_Bei_Blacksmith:       'Blacksmith Beiron',
+  Store_Her_Bank:             'Banker Rosal',
+  Store_Dem_Bank:             'Banker Demsal',
+  Store_Cal_Bank:             'Banker Calsal',
+  Store_Pai_Bank:             'Banker Paisal',
+  Store_Del_Bank:             'Banker Delsal',
+  Store_Tash_Bank:            'Banker Tashsal',
+  Store_Her_Church:           'Priest Halvar',
+  Store_Cal_Church:           'Priest Calvyn',
+  Store_Kha_Church:           'Priest Khavyn',
+  Store_Dem_Church:           'Priest Demvyn',
+  Store_DemEast_Church:       'Priest Demeas',
+  Store_DemWest_Church:       'Priest Demwas',
+  Store_Reven_Church:         'Priest Revyn',
+  Store_Pai_Church:           'Priest Paivyn',
+  Store_Del_Church:           'Priest Delvyn',
+  Store_Her_Witch:            'Witch Mevra',
+  Store_Pai_Witch:            'Witch Paiva',
+  Store_Dem_Witch:            'Witch Demva',
+  Store_Crim_Witch:           'Witch Crimva',
+  Store_Isolation_Witch:      'Witch Isolva',
+  Store_Her_Ore:              'Ore Merchant Romen',
+  Store_Dem_Ore:              'Ore Merchant Domen',
+  Store_Crim_Ore:             'Ore Merchant Crimen',
+  Store_Karin_Ore:            'Ore Merchant Karin',
+  Store_Bone_Ore:             'Ore Merchant Bonen',
+  Store_Her_Stable:           'Stablehand Rosten',
+  Store_Cal_Stable:           'Stablehand Calsten',
+  Store_Dem_Stable:           'Stablehand Demsten',
+  Store_Pai_Stable:           'Stablehand Paisten',
+  Store_Del_Stable:           'Stablehand Delsten',
+  Store_Tash_Stable:          'Stablehand Tashsten',
+  Store_Var_Stable:           'Stablehand Varsten',
+  Store_Her_Harness:          'Harness Maker Roha',
+  Store_Her2_Harness:         'Harness Maker Rohb',
+  Store_Cal_Harness:          'Harness Maker Calha',
+  Store_Dem_Harness:          'Harness Maker Demha',
+  Store_Pai_Harness:          'Harness Maker Paiha',
+  Store_Del_Harness:          'Harness Maker Delha',
+  Store_Tash_Harness:         'Harness Maker Tasha',
+  Store_Var_Harness:          'Harness Maker Varha',
+  Store_Her_Wagon:            'Wagon Dealer Rogan',
+  Store_Dem_Wagon:            'Wagon Dealer Degan',
+  Store_BlackMarket:          'Black Market Broker',
+  Store_BloodSteel_BlackMarket:'Black Market Steeler',
+  Store_Pai_BlackMarket:      'Black Market Pairun',
+  Store_Her_BlackMarket:      'Black Market Rorun',
+  Store_Halsius_BlackMarket:  'Black Market Halrun',
+  Store_Cal_BlackMarket:      'Black Market Calrun',
+  Store_Saddle_BlackMarket:   'Black Market Saddler',
+  Store_Odeck_BlackMarket:    'Black Market Odrun',
+  Store_Dem_BlackMarket:      'Black Market Demrun',
+  Store_Del_BlackMarket:      'Black Market Delrun',
+  Store_Tash_BlackMarket:     'Black Market Tashrun',
+  Store_Var_BlackMarket:      'Black Market Varrun',
+  Store_Slum_BlackMarket:     'Black Market Slummer',
+  Store_Salt_BlackMarket:     'Black Market Salter',
+  Store_Muiquun_BlackMarket:  'Black Market Murun',
+  Store_Patrigio:             'Patrigio',
+  Store_Wanderer:             'The Wanderer',
+  Store_Airship:              'Airship Captain',
+  Store_Dev:                  'Developer Store',
+};
+
+// Store type labels
+const TYPE_LABELS = {
+  General:'General Merchant', Owner:'Shop Owner', Butcher:'Butcher',
+  Tavern:'Tavern', Grocery:'Grocery', Leather:'Leather Merchant',
+  Equipment:'Equipment', Blacksmith:'Blacksmith', HandCannon:'Hand Cannon',
+  TradeManager:'Trade Manager', TradeResource:'Trade Resource',
+  BlackMarket:'Black Market', Church:'Church', Artwork:'Artwork Gallery',
+  Contribution:'Contribution Exchange', Harness:'Harness Shop',
+  Stable:'Stable', Wagon:'Wagon Shop', Witch:'Witch',
+  Ore:'Ore Merchant', Bank:'Bank', Fishing:'Fishing Shop',
+  Costume:'Costume Shop', Furniture:'Furniture', ContactOffice:'Contact Office',
+  Dye:'Dye Shop', Camp:'Camp Shop', Nonghyeop:'Farming Supply',
+  StreetVendor:'Street Vendor', Research:'Research Shop',
+};
+
+function getDisplayName(internalName) {
+  const npc = NPC_MAP[internalName];
+  const parts = internalName.replace('Store_','').split('_');
+  // find type
+  const typeKey = Object.keys(TYPE_LABELS).find(k => parts.some(p=>p===k));
+  const typeLabel = typeKey ? TYPE_LABELS[typeKey] : parts[parts.length-1];
+  // numbering
+  const numPart = parts.find(p=>/^\d+$/.test(p));
+  const num = numPart ? ` #${numPart}` : '';
+  if(npc) return `${typeLabel}${num} (${npc})`;
+  // fallback: city + type + number
+  return `${typeLabel}${num}`;
 }
 
-// ═══════════════════════════════════════════════════════
-//  PARSE ITEMINFO
-//  Strategy: scan for internal name strings, then at
-//  str_end+13 read the 4-byte LE item ID,
-//  at str_end+17 read the ASCII localization key,
-//  look up in embedded loc table if available,
-//  else keep internal name as display.
-// ═══════════════════════════════════════════════════════
+function getCityGroup(internalName) {
+  const raw = internalName.replace('Store_','');
+  const prefix = raw.split('_')[0];
+  // Special groupings
+  if(['Camp'].includes(prefix)) return 'Camp Stores';
+  if(['GL','SM','RW','Food','Stone','Wood'].includes(prefix)) return 'Trade Routes';
+  if(['Picture','Ceramic','Bismuthornament','StuffedAnimal','Statue','Kinetic','FlowerPot','viewingstone'].includes(prefix)) return 'Artwork Galleries';
+  if(['South','North','Desert'].includes(prefix)) return 'Street Vendors';
+  if(['Iron','Neutral','Flame'].includes(prefix)) return 'Hand Cannon Shops';
+  if(['BlackMarket','BloodSteel','Saddle','Slum','Salt_BlackMarket','Muiquun'].includes(prefix)) return 'Black Markets';
+  if(['Patrigio','Wanderer','Airship','Animalstolen','Wanted','Research','Dev'].includes(prefix)) return 'Special';
+  if(['Wells','Senia','Vellua','Azerian','Ellimoor','Regglin','Bluemont','Byron','Marcella','Alfonso'].includes(prefix)) return 'Contact Offices';
+  if(CITY_MAP[prefix]) return CITY_MAP[prefix];
+  // Try multi-char prefix
+  for(const [k,v] of Object.entries(CITY_MAP)) {
+    if(raw.startsWith(k+'_') || raw.startsWith(k)) return v;
+  }
+  return 'Other';
+}
+
+// ═══════════════════════════════════════════
+// STATE
+// ═══════════════════════════════════════════
+const S = {
+  itemBuf:null, storeBuf:null,
+  locMap:null,      // hexLE -> display name from localization file
+  itemMap:[],       // [{hexLE,name,internal}]
+  stores:[],        // parsed store objects
+  allStores:[],     // same, unfiltered
+  currentStore:null,
+  selectedSlot:null,
+  mods:{},          // slotBase -> {newItemHex,newItemName,newLimit}
+  filteredItems:[],
+};
+
+// ═══════════════════════════════════════════
+// BINARY HELPERS
+// ═══════════════════════════════════════════
+function u32le(buf,off){const d=new DataView(buf);return d.getUint32(off,true);}
+function toLEHex(n){const b=new Uint8Array(4);new DataView(b.buffer).setUint32(0,n>>>0,true);return Array.from(b).map(x=>x.toString(16).padStart(2,'0').toUpperCase()).join('');}
+function bytesHex(u8,off,n){return Array.from(u8.slice(off,off+n)).map(b=>b.toString(16).padStart(2,'0').toUpperCase()).join('');}
+
+// ═══════════════════════════════════════════
+// PARSE LOCALIZATION JSON
+// ═══════════════════════════════════════════
+async function parseLocalization(buf) {
+  const text = new TextDecoder().decode(buf);
+  const obj = JSON.parse(text);
+  const entries = obj.entries || obj;
+  const map = new Map(); // key -> text
+  for(const e of entries) {
+    if(e.key && e.text) map.set(String(e.key), e.text);
+  }
+  return map; // key (string) -> display name
+}
+
+// ═══════════════════════════════════════════
+// PARSE ITEMINFO
+// ═══════════════════════════════════════════
 async function parseItemInfo(buf) {
   const u8 = new Uint8Array(buf);
-  const items = new Map(); // hexLE -> {name, internal}
+  const items = new Map();
 
-  // Scan for null-terminated ASCII strings that look like internal names
-  // Pattern: sequence of [A-Za-z0-9_] followed by 0x00, length 6-60
   let i = 0;
-  while(i < u8.length - 20) {
-    // fast scan for uppercase start + valid chars
-    if(u8[i] >= 65 && u8[i] <= 90) {
+  while(i < u8.length - 25) {
+    const c = u8[i];
+    if((c>=65&&c<=90)||(c>=97&&c<=122)) {
       let j = i;
-      while(j < u8.length && u8[j] !== 0 && j - i < 80) {
-        const c = u8[j];
-        if(!((c>=65&&c<=90)||(c>=97&&c<=122)||(c>=48&&c<=57)||c===95||c===45)) break;
+      while(j<u8.length && u8[j]!==0 && j-i<80) {
+        const ch=u8[j];
+        if(!((ch>=65&&ch<=90)||(ch>=97&&ch<=122)||(ch>=48&&ch<=57)||ch===95||ch===45)) break;
         j++;
       }
-      const len = j - i;
-      if(len >= 5 && len < 75 && j < u8.length && u8[j] === 0) {
-        const name = new TextDecoder().decode(u8.slice(i, j));
-        const se = j + 1; // str_end
-        // Read item ID at se+13
-        if(se + 17 < u8.length) {
-          const idBytes = u8.slice(se+13, se+17);
-          const id32 = idBytes[0]|(idBytes[1]<<8)|(idBytes[2]<<16)|(idBytes[3]<<24);
-          if(id32 > 100 && id32 < 0x7FFFFFFF) {
-            const hexLE = Array.from(idBytes).map(b=>b.toString(16).padStart(2,'0').toUpperCase()).join('');
-            // Read ASCII loc key at se+17 (up to 16 digits)
-            let kEnd = se+17;
-            while(kEnd < u8.length && u8[kEnd]>=48 && u8[kEnd]<=57) kEnd++;
-            const keyLen = kEnd - (se+17);
+      const len=j-i;
+      if(len>=5&&len<75&&j<u8.length&&u8[j]===0) {
+        const internal=new TextDecoder().decode(u8.slice(i,j));
+        const se=j+1;
+        if(se+17<u8.length) {
+          const idB=u8.slice(se+13,se+17);
+          const id32=idB[0]|(idB[1]<<8)|(idB[2]<<16)|(idB[3]<<24);
+          if(id32>100&&id32<0x7FFFFFFF) {
+            const hexLE=Array.from(idB).map(b=>b.toString(16).padStart(2,'0').toUpperCase()).join('');
+            // try to read loc key (8-16 digits starting at se+17)
+            let kEnd=se+17;
+            while(kEnd<u8.length&&u8[kEnd]>=48&&u8[kEnd]<=57) kEnd++;
+            const locKey=(kEnd-(se+17)>=8&&kEnd-(se+17)<=16)?new TextDecoder().decode(u8.slice(se+17,kEnd)):'';
             if(!items.has(hexLE)) {
-              items.set(hexLE, { internal: name, locKey: keyLen>=8&&keyLen<=16 ? new TextDecoder().decode(u8.slice(se+17,kEnd)) : '' });
+              items.set(hexLE,{internal,locKey});
             }
           }
         }
+        i=j+1; continue;
       }
-      i = j + 1;
-    } else {
-      i++;
     }
+    i++;
   }
 
-  // Build final item list, display name = internal name for now (cleaned up)
-  const out = [];
-  for(const [hexLE, {internal, locKey}] of items) {
-    const displayName = cleanInternalName(internal);
-    out.push({ hexLE, name: displayName, internal, locKey });
+  const out=[];
+  for(const [hexLE,{internal,locKey}] of items) {
+    // Try localization first
+    let name = '';
+    if(S.locMap && locKey && S.locMap.has(locKey)) {
+      name = S.locMap.get(locKey);
+    }
+    if(!name || name.length<2 || name.includes('<br') || name.includes('Client:')) {
+      name = internal.replace(/_/g,' ');
+    }
+    out.push({hexLE,name,internal,locKey});
   }
-  // Sort by name
   out.sort((a,b)=>a.name.localeCompare(b.name));
   return out;
 }
 
-function cleanInternalName(s) {
-  // Try to make internal names readable
-  return s
-    .replace(/_/g, ' ')
-    .replace(/([A-Z])/g, ' $1')
-    .replace(/\s+/g, ' ')
-    .trim();
-}
-
-// ═══════════════════════════════════════════════════════
-//  PARSE STOREINFO
-//  Store layout: Store_<Name>\x00 ... totalSlots (u32) ...
-//  first slot base = name_end + offset
-//  Each slot = 105 bytes:
-//    +0:  Limit (u32 LE)
-//    +16: ItemID_A (4 bytes LE)
-//    +75: ItemID_B (4 bytes LE)
-// ═══════════════════════════════════════════════════════
+// ═══════════════════════════════════════════
+// PARSE STOREINFO
+// ═══════════════════════════════════════════
 function parseStoreInfo(buf) {
-  const u8 = new Uint8Array(buf);
-  const stores = [];
+  const u8=new Uint8Array(buf);
+  const stores=[];
+  const enc=new TextEncoder();
+  const prefix=enc.encode('Store_');
+  const seen=new Set();
 
-  // Find all Store_ occurrences
-  const storePrefix = patternFrom('Store_');
-  const positions = findAll(buf, storePrefix);
+  for(let i=0;i<=u8.length-prefix.length;i++) {
+    let match=true;
+    for(let k=0;k<prefix.length;k++) if(u8[i+k]!==prefix[k]){match=false;break;}
+    if(!match) continue;
 
-  for(const pos of positions) {
-    // Read name (null terminated)
-    let end = pos;
-    while(end < u8.length && u8[end] !== 0) end++;
-    const storeName = new TextDecoder().decode(u8.slice(pos, end));
-
-    // Validate it looks like a store name
-    if(storeName.length < 7 || storeName.length > 80) continue;
+    let end=i;
+    while(end<u8.length&&u8[end]!==0) end++;
+    const storeName=new TextDecoder().decode(u8.slice(i,end));
+    if(storeName.length<7||storeName.length>80) continue;
     if(!/^Store_[A-Za-z0-9_]+$/.test(storeName)) continue;
+    if(seen.has(storeName)) continue;
+    seen.add(storeName);
 
-    // The first slot data starts at offset 92 from the start of the store name
-    const firstSlotBase = pos + 92;
-    if(firstSlotBase + 105 > u8.length) continue;
+    const firstSlotBase=i+92;
+    if(firstSlotBase+105>u8.length) continue;
 
-    // Determine total slots by scanning forward until pattern breaks
-    // Max 36 slots, each 105 bytes
-    const slots = [];
-    for(let slotIdx = 0; slotIdx < 36; slotIdx++) {
-      const slotBase = firstSlotBase + slotIdx * 105;
-      if(slotBase + 105 > u8.length) break;
-
-      const limit = readU32LE(buf, slotBase);
-      const idBytes = Array.from(u8.slice(slotBase+16, slotBase+20));
-      const itemIdHex = idBytes.map(b=>b.toString(16).padStart(2,'0').toUpperCase()).join('');
-      const id32 = idBytes[0]|(idBytes[1]<<8)|(idBytes[2]<<16)|(idBytes[3]<<24);
-
-      // Stop if limit looks bogus and ID is 0
-      if(limit === 0 && id32 === 0 && slotIdx > 0) break;
-
-      slots.push({
-        index: slotIdx + 1,
-        slotBase,
-        limit,
-        itemIdHex,
-        originalItemIdHex: itemIdHex,
-        originalLimit: limit,
-      });
+    const slots=[];
+    for(let si=0;si<36;si++) {
+      const sb=firstSlotBase+si*105;
+      if(sb+105>u8.length) break;
+      const limit=u32le(buf,sb);
+      const idB=u8.slice(sb+16,sb+20);
+      const hexLE=Array.from(idB).map(b=>b.toString(16).padStart(2,'0').toUpperCase()).join('');
+      const id32=idB[0]|(idB[1]<<8)|(idB[2]<<16)|(idB[3]<<24);
+      if(limit===0&&id32===0&&si>0) break;
+      slots.push({index:si+1,slotBase:sb,limit,itemIdHex:hexLE,originalItemIdHex:hexLE,originalLimit:limit});
     }
+    if(slots.length===0) continue;
 
-    if(slots.length === 0) continue;
-
-    stores.push({ name: storeName, nameOffset: pos, slots });
+    const displayName=getDisplayName(storeName);
+    const cityGroup=getCityGroup(storeName);
+    stores.push({name:storeName,displayName,cityGroup,slots});
   }
-
-  // Deduplicate by name (keep first occurrence)
-  const seen = new Set();
-  return stores.filter(s => { if(seen.has(s.name)) return false; seen.add(s.name); return true; });
+  return stores;
 }
 
-// ═══════════════════════════════════════════════════════
-//  ITEM LOOKUP
-// ═══════════════════════════════════════════════════════
-function lookupItem(hexLE) {
-  const found = S.itemMap.find(it => it.hexLE === hexLE);
-  return found ? found.name : hexLE;
+// ═══════════════════════════════════════════
+// RESOLVE ITEM NAME FROM HEX ID
+// ═══════════════════════════════════════════
+function resolveItem(hexLE) {
+  const found=S.itemMap.find(it=>it.hexLE===hexLE);
+  if(found) return found.name;
+  return hexLE; // fallback: show raw hex
 }
 
-// ═══════════════════════════════════════════════════════
-//  FILE LOADING
-// ═══════════════════════════════════════════════════════
-document.getElementById('file-item').addEventListener('change', async e => {
-  const file = e.target.files[0];
-  if(!file) return;
-  setStatus('Loading iteminfo…');
+// ═══════════════════════════════════════════
+// FILE HANDLERS
+// ═══════════════════════════════════════════
+document.getElementById('f-item').addEventListener('change', async e=>{
+  const file=e.target.files[0]; if(!file) return;
+  setMsg('Parsing iteminfo…');
   try {
-    S.itemBuf = await file.arrayBuffer();
-    S.itemMap = await parseItemInfo(S.itemBuf);
-    document.getElementById('drop-item').classList.add('loaded');
-    document.getElementById('item-status').textContent = `Loaded ✓  (${S.itemMap.length.toLocaleString()} items)`;
+    S.itemBuf=await file.arrayBuffer();
+    S.itemMap=await parseItemInfo(S.itemBuf);
+    document.getElementById('fdz-item').classList.add('loaded');
+    document.getElementById('ok-item').textContent=`✓ ${S.itemMap.length.toLocaleString()} items`;
     document.getElementById('dot-item').classList.add('ok');
-    document.getElementById('lbl-item').textContent = `iteminfo: ${S.itemMap.length.toLocaleString()} items`;
-    S.filteredItems = [...S.itemMap];
+    document.getElementById('lbl-item').textContent=`iteminfo: ${S.itemMap.length.toLocaleString()} items`;
+    S.filteredItems=[...S.itemMap];
+    document.getElementById('item-search').disabled=false;
+    document.getElementById('item-count').textContent=S.itemMap.length.toLocaleString()+' items';
     renderItemList();
-    document.getElementById('item-search').disabled = false;
-    setStatus('iteminfo loaded. ' + (S.storeBuf ? 'Ready.' : 'Now load storeinfo.'));
-    checkReady();
-  } catch(err) {
-    showToast('Error parsing iteminfo: ' + err.message, 'error');
-  }
+    // Re-render store if open (names may improve)
+    if(S.currentStore) renderSlots();
+    setMsg('iteminfo loaded.'+(S.storeBuf?' Ready.':' Now load storeinfo.'));
+  } catch(err){ showToast('Error: '+err.message,'err'); }
 });
 
-document.getElementById('file-store').addEventListener('change', async e => {
-  const file = e.target.files[0];
-  if(!file) return;
-  setStatus('Loading storeinfo…');
+document.getElementById('f-store').addEventListener('change', async e=>{
+  const file=e.target.files[0]; if(!file) return;
+  setMsg('Parsing storeinfo…');
   try {
-    S.storeBuf = await file.arrayBuffer();
-    S.stores = parseStoreInfo(S.storeBuf);
-    document.getElementById('drop-store').classList.add('loaded');
-    document.getElementById('store-status').textContent = `Loaded ✓  (${S.stores.length} stores)`;
+    S.storeBuf=await file.arrayBuffer();
+    S.stores=parseStoreInfo(S.storeBuf);
+    S.allStores=[...S.stores];
+    document.getElementById('fdz-store').classList.add('loaded');
+    document.getElementById('ok-store').textContent=`✓ ${S.stores.length} stores`;
     document.getElementById('dot-store').classList.add('ok');
-    document.getElementById('lbl-store').textContent = `storeinfo: ${S.stores.length} stores`;
-    renderStoreList(S.stores);
-    document.getElementById('store-search').disabled = false;
-    setStatus('storeinfo loaded. ' + (S.itemBuf ? 'Ready.' : 'Now load iteminfo.'));
-    checkReady();
-  } catch(err) {
-    showToast('Error parsing storeinfo: ' + err.message, 'error');
-  }
+    document.getElementById('lbl-store').textContent=`storeinfo: ${S.stores.length} stores`;
+    document.getElementById('store-search').disabled=false;
+    renderStoreTree(S.stores);
+    setMsg('storeinfo loaded.'+(S.itemBuf?' Ready.':' Now load iteminfo.'));
+  } catch(err){ showToast('Error: '+err.message,'err'); }
 });
 
-function checkReady() {
-  if(S.itemBuf && S.storeBuf) {
-    document.getElementById('item-count').textContent = S.itemMap.length.toLocaleString() + ' items';
-    setStatus('Both files loaded. Select a store to begin editing.');
-  }
-}
-
-// ═══════════════════════════════════════════════════════
-//  STORE LIST
-// ═══════════════════════════════════════════════════════
-function renderStoreList(stores) {
-  const el = document.getElementById('store-list');
-  el.innerHTML = '';
-  stores.forEach(store => {
-    const div = document.createElement('div');
-    div.className = 'store-item';
-    div.textContent = store.name;
-    div.onclick = () => selectStore(store);
-    el.appendChild(div);
-  });
-}
-
-document.getElementById('store-search').addEventListener('input', e => {
-  const q = e.target.value.toLowerCase();
-  const filtered = S.stores.filter(s => s.name.toLowerCase().includes(q));
-  renderStoreList(filtered);
+document.getElementById('f-loc').addEventListener('change', async e=>{
+  const file=e.target.files[0]; if(!file) return;
+  setMsg('Parsing localization…');
+  try {
+    const buf=await file.arrayBuffer();
+    S.locMap=await parseLocalization(buf);
+    document.getElementById('fdz-loc').classList.add('loaded');
+    document.getElementById('ok-loc').textContent=`✓ ${S.locMap.size.toLocaleString()} strings`;
+    document.getElementById('dot-loc').classList.add('ok');
+    document.getElementById('lbl-loc').textContent=`localization: ${S.locMap.size.toLocaleString()} strings`;
+    // Re-parse iteminfo with localization data if already loaded
+    if(S.itemBuf) {
+      setMsg('Re-resolving item names with localization…');
+      S.itemMap=await parseItemInfo(S.itemBuf);
+      S.filteredItems=[...S.itemMap];
+      renderItemList();
+      if(S.currentStore) renderSlots();
+      document.getElementById('item-count').textContent=S.itemMap.length.toLocaleString()+' items';
+    }
+    setMsg('Localization loaded. Item names updated.');
+  } catch(err){ showToast('Error: '+err.message,'err'); }
 });
 
-// ═══════════════════════════════════════════════════════
-//  SELECT STORE
-// ═══════════════════════════════════════════════════════
-function selectStore(store) {
-  // Highlight sidebar
-  document.querySelectorAll('.store-item').forEach(el => {
-    el.classList.toggle('active', el.textContent === store.name);
+// ═══════════════════════════════════════════
+// STORE TREE
+// ═══════════════════════════════════════════
+function renderStoreTree(stores) {
+  const el=document.getElementById('store-tree');
+  el.innerHTML='';
+
+  // Group by city
+  const groups={};
+  for(const s of stores) {
+    const g=s.cityGroup;
+    if(!groups[g]) groups[g]=[];
+    groups[g].push(s);
+  }
+
+  const sortedGroups=Object.keys(groups).sort((a,b)=>{
+    // Pin special groups to bottom
+    const special=['Special','Contact Offices','Trade Routes','Street Vendors','Hand Cannon Shops','Black Markets','Artwork Galleries','Camp Stores','Other'];
+    const ai=special.indexOf(a),bi=special.indexOf(b);
+    if(ai>=0&&bi>=0) return ai-bi;
+    if(ai>=0) return 1;
+    if(bi>=0) return -1;
+    return a.localeCompare(b);
   });
 
-  S.currentStore = store;
-  S.selectedSlot = null;
-  S.modifications = {};
+  for(const groupName of sortedGroups) {
+    const storesInGroup=groups[groupName];
+    const div=document.createElement('div');
+    div.className='city-group';
 
-  document.getElementById('store-title').textContent = store.name;
-  document.getElementById('slot-info').textContent = `${store.slots.length} slot${store.slots.length!==1?'s':''}`;
-  document.getElementById('btn-reset').disabled = false;
-  document.getElementById('btn-export').disabled = false;
-  document.getElementById('patch-config').style.display = 'flex';
+    const header=document.createElement('div');
+    header.className='city-header';
+    header.innerHTML=`<span class="city-arrow">▶</span><span>${groupName}</span><span class="city-count">${storesInGroup.length}</span>`;
+    header.onclick=()=>{
+      div.classList.toggle('open');
+      header.classList.toggle('open');
+    };
 
-  renderSlots();
-  updateModCount();
-  setStatus(`Editing ${store.name} — select a slot then pick a replacement item.`);
-}
+    const inner=document.createElement('div');
+    inner.className='city-stores';
 
-// ═══════════════════════════════════════════════════════
-//  RENDER SLOTS
-// ═══════════════════════════════════════════════════════
-function renderSlots() {
-  const el = document.getElementById('slot-list');
-  if(!S.currentStore) return;
-  el.innerHTML = '';
-
-  const PROTECTED = [1,2,3,4,5]; // slots 1-5 cause issues
-
-  S.currentStore.slots.forEach(slot => {
-    const isProtected = PROTECTED.includes(slot.index);
-    const mod = S.modifications[slot.slotBase];
-    const isModified = !!mod;
-    const isSelected = S.selectedSlot && S.selectedSlot.slotBase === slot.slotBase;
-
-    const row = document.createElement('div');
-    row.className = 'slot-row' +
-      (isProtected ? ' protected' : '') +
-      (isModified  ? ' modified'  : '') +
-      (isSelected  ? ' selected'  : '');
-
-    const origName = lookupItem(slot.itemIdHex);
-    const newHex   = mod ? mod.newItemHex : slot.itemIdHex;
-    const newName  = mod ? mod.newItemName : origName;
-
-    let badgeHTML = '';
-    if(isProtected) badgeHTML = '<span class="slot-badge badge-lock">LOCKED</span>';
-    else if(isModified) badgeHTML = '<span class="slot-badge badge-mod">MODIFIED</span>';
-
-    row.innerHTML = `
-      <div class="slot-num">${slot.index}</div>
-      <div class="slot-content">
-        <div class="slot-new">${escHtml(newName)}</div>
-        ${isModified ? `<div class="slot-original">was: ${escHtml(origName)}</div>` : ''}
-        <div class="slot-meta">${slot.itemIdHex} · limit ${slot.limit}</div>
-      </div>
-      ${badgeHTML}
-    `;
-
-    if(!isProtected) {
-      row.onclick = () => selectSlot(slot, row);
+    for(const store of storesInGroup) {
+      const item=document.createElement('div');
+      item.className='store-item';
+      item.textContent=store.displayName;
+      item.title=store.name;
+      item.dataset.internal=store.name;
+      item.onclick=()=>selectStore(store,item);
+      inner.appendChild(item);
     }
 
-    el.appendChild(row);
-  });
+    div.appendChild(header);
+    div.appendChild(inner);
+    el.appendChild(div);
+  }
 }
 
-// ═══════════════════════════════════════════════════════
-//  SELECT SLOT
-// ═══════════════════════════════════════════════════════
-function selectSlot(slot, rowEl) {
-  S.selectedSlot = slot;
-  document.querySelectorAll('.slot-row').forEach(r => r.classList.remove('selected'));
-  rowEl.classList.add('selected');
-  setStatus(`Slot ${slot.index} selected — pick an item from the browser to assign.`);
-}
-
-// ═══════════════════════════════════════════════════════
-//  ITEM LIST
-// ═══════════════════════════════════════════════════════
-function renderItemList() {
-  const el = document.getElementById('item-list');
-  const items = S.filteredItems.slice(0, 500); // cap for perf
-  el.innerHTML = '';
-
-  if(items.length === 0) {
-    el.innerHTML = '<div class="empty-state"><div class="empty-desc">No items match your search.</div></div>';
+function filterStores() {
+  const q=document.getElementById('store-search').value.toLowerCase();
+  if(!q) {
+    renderStoreTree(S.allStores);
     return;
   }
+  const filtered=S.allStores.filter(s=>
+    s.displayName.toLowerCase().includes(q)||
+    s.name.toLowerCase().includes(q)||
+    s.cityGroup.toLowerCase().includes(q)
+  );
+  // Flat list when searching
+  const el=document.getElementById('store-tree');
+  el.innerHTML='';
+  for(const store of filtered) {
+    const item=document.createElement('div');
+    item.className='store-item';
+    item.textContent=`${store.cityGroup} · ${store.displayName}`;
+    item.title=store.name;
+    item.onclick=()=>selectStore(store,item);
+    el.appendChild(item);
+  }
+}
 
-  items.forEach(item => {
-    const row = document.createElement('div');
-    row.className = 'item-row';
-    row.innerHTML = `
-      <div>
-        <div class="item-name">${escHtml(item.name)}</div>
-        <div class="item-id">${item.hexLE} · ${item.internal}</div>
+// ═══════════════════════════════════════════
+// SELECT STORE
+// ═══════════════════════════════════════════
+function selectStore(store, el) {
+  document.querySelectorAll('.store-item').forEach(e=>e.classList.remove('active'));
+  if(el) el.classList.add('active');
+  S.currentStore=store;
+  S.selectedSlot=null;
+  S.mods={};
+  document.getElementById('store-title').textContent=`${store.cityGroup}  ·  ${store.displayName}`;
+  document.getElementById('store-meta').textContent=`${store.slots.length} slots  ·  ${store.name}`;
+  document.getElementById('btn-reset').disabled=false;
+  document.getElementById('btn-export').disabled=false;
+  renderSlots();
+  updateModCount();
+  setMsg(`Editing ${store.displayName} — select a slot, then pick an item.`);
+}
+
+// ═══════════════════════════════════════════
+// RENDER SLOTS
+// ═══════════════════════════════════════════
+const LOCKED_SLOTS=[1,2,3,4,5];
+
+function renderSlots() {
+  const el=document.getElementById('slot-list');
+  if(!S.currentStore){return;}
+  el.innerHTML='';
+
+  S.currentStore.slots.forEach(slot=>{
+    const locked=LOCKED_SLOTS.includes(slot.index);
+    const mod=S.mods[slot.slotBase];
+    const isSelected=S.selectedSlot&&S.selectedSlot.slotBase===slot.slotBase;
+
+    const origName=resolveItem(slot.originalItemIdHex);
+    const dispName=mod?mod.newItemName:origName;
+    const dispHex=mod?mod.newItemHex:slot.originalItemIdHex;
+    const dispLimit=mod?mod.newLimit:slot.originalLimit;
+
+    const row=document.createElement('div');
+    row.className='slot-row'+(locked?' locked':'')+(mod?' modified':'')+(isSelected?' selected':'');
+
+    let badge='';
+    if(locked) badge='<span class="slot-badge badge-lock">LOCKED</span>';
+    else if(mod) badge='<span class="slot-badge badge-mod">MODIFIED</span>';
+
+    const wasLine=mod?`<div class="slot-was">was: ${esc(origName)}</div>`:'';
+
+    row.innerHTML=`
+      <div class="slot-num">${slot.index}</div>
+      <div class="slot-content">
+        <div class="slot-main">${esc(dispName)}</div>
+        <div class="slot-sub">${dispHex} · stock: <input class="slot-stock" type="number" value="${dispLimit}" min="1" max="9999" title="Stock limit for this slot" onclick="event.stopPropagation()"></div>
+        ${wasLine}
       </div>
-      <button class="item-assign-btn" onclick="assignItem('${item.hexLE}','${escAttr(item.name)}')">Assign →</button>
+      ${badge}
     `;
+
+    // Stock input change
+    const stockEl=row.querySelector('.slot-stock');
+    stockEl.addEventListener('change', ev=>{
+      ev.stopPropagation();
+      const val=Math.max(1,Math.min(9999,parseInt(ev.target.value)||1));
+      ev.target.value=val;
+      if(S.mods[slot.slotBase]) {
+        S.mods[slot.slotBase].newLimit=val;
+      }
+      // Mark modified even if only stock changed
+      if(!S.mods[slot.slotBase]&&!locked) {
+        S.mods[slot.slotBase]={newItemHex:slot.originalItemIdHex,newItemName:origName,newLimit:val};
+        row.classList.add('modified');
+        updateModCount();
+      }
+    });
+
+    if(!locked) row.onclick=()=>selectSlot(slot,row);
     el.appendChild(row);
   });
+}
 
-  const remaining = S.filteredItems.length - items.length;
-  if(remaining > 0) {
-    const note = document.createElement('div');
-    note.className = 'empty-state';
-    note.style.padding = '12px';
-    note.innerHTML = `<div class="empty-desc" style="color:var(--text-dim)">+${remaining.toLocaleString()} more — refine your search</div>`;
+// ═══════════════════════════════════════════
+// SELECT SLOT
+// ═══════════════════════════════════════════
+function selectSlot(slot,rowEl) {
+  S.selectedSlot=slot;
+  document.querySelectorAll('.slot-row').forEach(r=>r.classList.remove('selected'));
+  rowEl.classList.add('selected');
+  setMsg(`Slot ${slot.index} selected — pick an item from the browser to assign.`);
+}
+
+// ═══════════════════════════════════════════
+// RENDER ITEMS
+// ═══════════════════════════════════════════
+function renderItemList() {
+  const el=document.getElementById('item-list');
+  const items=S.filteredItems.slice(0,600);
+  el.innerHTML='';
+  if(items.length===0){
+    el.innerHTML='<div class="empty"><div class="empty-d">No items match.</div></div>';
+    return;
+  }
+  const frag=document.createDocumentFragment();
+  items.forEach(item=>{
+    const row=document.createElement('div');
+    row.className='item-row';
+    row.innerHTML=`
+      <div class="item-info">
+        <div class="item-name">${esc(item.name)}</div>
+        <div class="item-id">${item.hexLE} · ${item.internal}</div>
+      </div>
+      <button class="item-assign" onclick="assignItem('${item.hexLE}','${item.name.replace(/'/g,"\\'")}')">Assign →</button>
+    `;
+    frag.appendChild(row);
+  });
+  el.appendChild(frag);
+  const rem=S.filteredItems.length-items.length;
+  if(rem>0){
+    const note=document.createElement('div');
+    note.className='empty';
+    note.style.padding='10px';
+    note.innerHTML=`<div class="empty-d" style="color:var(--text-dim)">+${rem.toLocaleString()} more — refine search</div>`;
     el.appendChild(note);
   }
 }
 
 function filterItems() {
-  const q = document.getElementById('item-search').value.toLowerCase();
-  S.filteredItems = q
-    ? S.itemMap.filter(it => it.name.toLowerCase().includes(q) || it.internal.toLowerCase().includes(q) || it.hexLE.toLowerCase().includes(q))
+  const q=document.getElementById('item-search').value.toLowerCase().trim();
+  S.filteredItems=q
+    ? S.itemMap.filter(it=>it.name.toLowerCase().includes(q)||it.internal.toLowerCase().includes(q)||it.hexLE.toLowerCase().includes(q))
     : [...S.itemMap];
-  document.getElementById('item-count').textContent = S.filteredItems.length.toLocaleString() + ' items';
+  document.getElementById('item-count').textContent=S.filteredItems.length.toLocaleString()+' items';
   renderItemList();
 }
 
-// ═══════════════════════════════════════════════════════
-//  ASSIGN ITEM TO SLOT
-// ═══════════════════════════════════════════════════════
+// ═══════════════════════════════════════════
+// ASSIGN ITEM
+// ═══════════════════════════════════════════
 function assignItem(hexLE, name) {
-  if(!S.selectedSlot) {
-    showToast('Select a slot first', 'error');
-    return;
-  }
-  const slot = S.selectedSlot;
-  const stock = parseInt(document.getElementById('cfg-stock').value) || 100;
-  const stockHex = stock.toString(16).padStart(8,'0').toUpperCase();
-  // LE bytes
-  const stockLE = stockHex.match(/../g).reverse().join('');
+  if(!S.selectedSlot){showToast('Select a slot first','err');return;}
+  const slot=S.selectedSlot;
+  // Get current stock from the row's input
+  const rows=document.querySelectorAll('.slot-row');
+  let stockVal=100;
+  rows.forEach(r=>{
+    const si=r.querySelector('.slot-stock');
+    const n=r.querySelector('.slot-num');
+    if(n&&parseInt(n.textContent)===slot.index&&si) stockVal=parseInt(si.value)||100;
+  });
 
-  S.modifications[slot.slotBase] = {
-    newItemHex: hexLE,
-    newItemName: name,
-    newLimit: stock,
-    newLimitHex: stockLE,
-  };
-
+  S.mods[slot.slotBase]={newItemHex:hexLE,newItemName:name,newLimit:stockVal};
   renderSlots();
   updateModCount();
 
-  // Auto-advance to next slot
-  const idx = S.currentStore.slots.findIndex(s => s.slotBase === slot.slotBase);
-  const PROTECTED = [1,2,3,4,5];
-  for(let i=idx+1; i<S.currentStore.slots.length; i++) {
-    if(!PROTECTED.includes(S.currentStore.slots[i].index)) {
-      S.selectedSlot = S.currentStore.slots[i];
-      // re-render to show selection
+  // Auto-advance
+  const idx=S.currentStore.slots.findIndex(s=>s.slotBase===slot.slotBase);
+  for(let i=idx+1;i<S.currentStore.slots.length;i++) {
+    if(!LOCKED_SLOTS.includes(S.currentStore.slots[i].index)){
+      S.selectedSlot=S.currentStore.slots[i];
       renderSlots();
-      // scroll slot into view
-      const rows = document.querySelectorAll('.slot-row');
-      if(rows[i]) rows[i].scrollIntoView({ block:'nearest' });
+      const newRows=document.querySelectorAll('.slot-row');
+      if(newRows[i]) newRows[i].scrollIntoView({block:'nearest'});
       break;
     }
   }
-
-  setStatus(`Assigned "${name}" to slot ${slot.index}.`);
+  setMsg(`Assigned "${name}" to slot ${slot.index}.`);
 }
 
 function updateModCount() {
-  const n = Object.keys(S.modifications).length;
-  document.getElementById('mod-count').textContent = n > 0 ? `${n} modified` : '';
+  const n=Object.keys(S.mods).length;
+  document.getElementById('mod-count').textContent=n>0?`${n} modified`:'';
 }
 
-// ═══════════════════════════════════════════════════════
-//  RESET
-// ═══════════════════════════════════════════════════════
-function resetStore() {
+// ═══════════════════════════════════════════
+// RESET
+// ═══════════════════════════════════════════
+function resetMods() {
   if(!S.currentStore) return;
-  S.modifications = {};
-  S.selectedSlot = null;
-  renderSlots();
-  updateModCount();
+  S.mods={};S.selectedSlot=null;
+  renderSlots();updateModCount();
   showToast('All modifications cleared');
 }
 
-// ═══════════════════════════════════════════════════════
-//  EXPORT JSON
-// ═══════════════════════════════════════════════════════
+// ═══════════════════════════════════════════
+// EXPORT JSON
+// ═══════════════════════════════════════════
 function exportJSON() {
   if(!S.currentStore) return;
-  const mods = Object.keys(S.modifications);
-  if(mods.length === 0) {
-    showToast('No modifications to export', 'error');
-    return;
-  }
+  if(Object.keys(S.mods).length===0){showToast('No modifications to export','err');return;}
 
-  const name    = document.getElementById('cfg-name').value || 'My Shop Mod';
-  const author  = document.getElementById('cfg-author').value || 'GildyBoye';
-  const version = document.getElementById('cfg-version').value || '1.01.02';
-  const stock   = parseInt(document.getElementById('cfg-stock').value) || 100;
+  const modName =document.getElementById('cfg-name').value||'My Shop Mod';
+  const author  =document.getElementById('cfg-author').value||'GildyBoye';
+  const version =document.getElementById('cfg-version').value||'1.01.02';
 
-  // Build stock hex (LE)
-  const stockHex = toLEHex(stock);
-
-  const changes = [];
-
-  // Sort by slot offset
-  const sortedSlots = S.currentStore.slots
-    .filter(s => S.modifications[s.slotBase])
-    .sort((a,b) => a.slotBase - b.slotBase);
+  const changes=[];
+  const sortedSlots=S.currentStore.slots
+    .filter(s=>S.mods[s.slotBase])
+    .sort((a,b)=>a.slotBase-b.slotBase);
 
   for(const slot of sortedSlots) {
-    const mod = S.modifications[slot.slotBase];
-    const origLimitHex = toLEHex(slot.originalLimit);
-    const origIdHex    = slot.originalItemIdHex;
-    const newIdHex     = mod.newItemHex;
-    const label        = mod.newItemName;
+    const mod=S.mods[slot.slotBase];
+    const origLimitHex=toLEHex(slot.originalLimit);
+    const newLimitHex=toLEHex(mod.newLimit);
+    const origId=slot.originalItemIdHex;
+    const newId=mod.newItemHex;
+    const label=mod.newItemName;
 
-    changes.push({
-      offset:   slot.slotBase,
-      label:    `${label} (Limit)`,
-      original: origLimitHex,
-      patched:  stockHex,
-    });
-    changes.push({
-      offset:   slot.slotBase + 16,
-      label:    `${label} (ItemID)`,
-      original: origIdHex,
-      patched:  newIdHex,
-    });
-    changes.push({
-      offset:   slot.slotBase + 75,
-      label:    `${label} (ItemID)`,
-      original: origIdHex,
-      patched:  newIdHex,
-    });
+    changes.push({offset:slot.slotBase,    label:`${label} (Limit)`, original:origLimitHex,patched:newLimitHex});
+    changes.push({offset:slot.slotBase+16, label:`${label} (ItemID)`,original:origId,       patched:newId});
+    changes.push({offset:slot.slotBase+75, label:`${label} (ItemID)`,original:origId,       patched:newId});
   }
 
-  const desc = `${S.currentStore.name} — ${sortedSlots.length} slot${sortedSlots.length!==1?'s':''} modified. Stock ${stock}.`;
-
-  const patch = {
-    name,
-    version,
-    description: desc,
-    author,
-    patches: [{
-      game_file: 'gamedata/storeinfo.pabgb',
-      changes,
-    }],
+  const patch={
+    name:modName, version, author,
+    description:`${S.currentStore.displayName} (${S.currentStore.name}) — ${sortedSlots.length} slot(s) modified.`,
+    patches:[{game_file:'gamedata/storeinfo.pabgb',changes}],
   };
 
-  const blob = new Blob([JSON.stringify(patch, null, 2)], { type: 'application/json' });
-  const url  = URL.createObjectURL(blob);
-  const a    = document.createElement('a');
-  a.href     = url;
-  a.download = `${name.replace(/[^A-Za-z0-9_-]/g,'_')}.json`;
-  a.click();
-  URL.revokeObjectURL(url);
-  showToast(`Exported ${changes.length/3} slot changes`, 'success');
+  const blob=new Blob([JSON.stringify(patch,null,2)],{type:'application/json'});
+  const url=URL.createObjectURL(blob);
+  const a=document.createElement('a');
+  a.href=url;a.download=`${modName.replace(/[^A-Za-z0-9_-]/g,'_')}.json`;
+  a.click();URL.revokeObjectURL(url);
+  showToast(`Exported ${sortedSlots.length} slot change${sortedSlots.length!==1?'s':''}!`,'ok');
 }
 
-function toLEHex(num) {
-  const b = new Uint8Array(4);
-  new DataView(b.buffer).setUint32(0, num >>> 0, true);
-  return Array.from(b).map(x=>x.toString(16).padStart(2,'0').toUpperCase()).join('');
-}
+// ═══════════════════════════════════════════
+// UTILITIES
+// ═══════════════════════════════════════════
+function setMsg(m){document.getElementById('status-msg').textContent=m;}
+function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
 
-// ═══════════════════════════════════════════════════════
-//  UTILITIES
-// ═══════════════════════════════════════════════════════
-function setStatus(msg) { document.getElementById('status-msg').textContent = msg; }
-
-function showToast(msg, type='') {
-  const t = document.getElementById('toast');
-  t.textContent = msg;
-  t.className = 'toast' + (type ? ' '+type : '');
+let toastTimer;
+function showToast(msg,type='') {
+  clearTimeout(toastTimer);
+  const t=document.getElementById('toast');
+  t.textContent=msg;t.className='toast'+(type?' '+type:'');
   t.classList.add('show');
-  setTimeout(() => t.classList.remove('show'), 2800);
-}
-
-function escHtml(s) {
-  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
-}
-function escAttr(s) {
-  return String(s).replace(/'/g,'\\\'');
+  toastTimer=setTimeout(()=>t.classList.remove('show'),2800);
 }
 </script>
 </body>
