@@ -682,10 +682,10 @@ async function parseItemInfo(buf) {
           const id32=idB[0]|(idB[1]<<8)|(idB[2]<<16)|(idB[3]<<24);
           if(id32>100&&id32<0x7FFFFFFF) {
             const hexLE=Array.from(idB).map(b=>b.toString(16).padStart(2,'0').toUpperCase()).join('');
-            // try to read loc key (8-16 digits starting at se+17)
-            let kEnd=se+17;
+            // loc key is an ASCII digit string starting at se+21 (4 bytes after item ID end)
+            let kEnd=se+21;
             while(kEnd<u8.length&&u8[kEnd]>=48&&u8[kEnd]<=57) kEnd++;
-            const locKey=(kEnd-(se+17)>=8&&kEnd-(se+17)<=16)?new TextDecoder().decode(u8.slice(se+17,kEnd)):'';
+            const locKey=(kEnd-(se+21)>=6&&kEnd-(se+21)<=20)?new TextDecoder().decode(u8.slice(se+21,kEnd)):'';
             if(!items.has(hexLE)) {
               items.set(hexLE,{internal,locKey});
             }
