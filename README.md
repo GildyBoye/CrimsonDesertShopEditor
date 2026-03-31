@@ -4,9 +4,11 @@ Crimson Desert Shop Editor
 
 
 1. Get the required tools
-Download a PAZ unpacker (example):
-https://www.nexusmods.com/crimsondesert/mods/62
-You need this to extract game files.
+Download a PAZ unpacker:
+[Crimson Desert Unpacker](https://www.nexusmods.com/crimsondesert/mods/62)
+[Crimson Browser](https://www.nexusmods.com/crimsondesert/mods/84)
+You need one of these to extract game files.
+
 2. Extract the required game files
 
 Using the unpacker, go into the game’s data files and extract:
@@ -14,13 +16,9 @@ Using the unpacker, go into the game’s data files and extract:
 iteminfo.pabgb → contains all item IDs and names
 storeinfo.pabgb → contains all shop inventories (slots + stock)
 
-These are usually found in something like:
+These are usually found in something like gamedata/
 
-gamedata/
-3. Open the Shop Editor
-Open the index.html file in your browser
-You’ll see the editor UI load
-4. Load your files into the editor
+3. Load your files into the editor
 
 On the left side:
 
@@ -35,23 +33,20 @@ This enables store editing
 
 Stores appear in the sidebar
 Items appear in the item browser
-5. (Optional but recommended) Load localization
+4. Load localization
 Select a language from the dropdown (e.g. English)
-This replaces internal names with real item names
+Without this you’ll see raw/internal item names
 
-Without this:
-
-You’ll see raw/internal item names
-6. Browse and select a shop
+5. Browse and select a shop
 Use the left sidebar
 Stores are grouped by city/region
 Click a store to open it
 
 You’ll now see:
-
 All slots in that shop
 Each slot = 1 item the shop sells
-7. Understand shop slots
+
+6. Understand shop slots
 
 Each slot shows:
 
@@ -64,57 +59,54 @@ Example:
 
 Slot 1 → Iron Sword
 Stock: 50
-8. Modify stock (NEW FEATURE)
+
+7. Modify Stock
 Each slot has a stock input field
 You can change it directly
 
-✔ Rules:
-
 Minimum: 1
-Maximum: 9999 (UI allows this even if you said 100 earlier)
+Maximum: 9999
 
 When you change stock:
 
 The slot is marked as modified
-9. Change items in a slot
+
+8. Change Items
 Click a slot (left panel)
 Search for an item (right panel)
 Click Assign →
 
-✔ This will:
-
-Replace the item in that slot
+This will replace the item in that slot
 Keep or apply the current stock value
-10. Search for items
+
+9. Search for items
 
 Use the search box:
 
 By name
 By internal name
 By hex ID
-11. Make multiple edits
+
+10. Make multiple edits
 
 You can:
-
 Change multiple slots
 Change stock only
 Change item + stock
 
-All changes are tracked as:
+All changes are tracked as: MODIFIED
 
-MODIFIED
-12. Export your mod
+11. Export your mod
 
-Click:
-
-Export JSON
+Export JSON Button
 
 This generates your mod data with:
 
 New item assignments
 New stock values
 Metadata (name, author, version)
-13. Customize mod info (bottom bar)
+
+12. Customize mod info (bottom bar)
 
 You can edit:
 
@@ -124,7 +116,7 @@ Version
 
 This is included in the export.
 
-14. Reset if needed
+13. Reset if needed
 
 Click:
 
@@ -132,5 +124,5 @@ Reset
 
 This clears all changes for the current store.
 
-15. Use JSON Mod Manager to load your Json
-https://www.nexusmods.com/crimsondesert/mods/113
+14. Use JSON Mod Manager to load your Json
+[JSON Mod Manager](https://www.nexusmods.com/crimsondesert/mods/113)
