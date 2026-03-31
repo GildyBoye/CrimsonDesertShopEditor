@@ -4,7 +4,7 @@ Crimson Desert Shop Editor
 
 
 1. Get the required tools
-2. 
+
 Download a PAZ unpacker:
 
 [Crimson Desert Unpacker](https://www.nexusmods.com/crimsondesert/mods/62)
@@ -18,6 +18,7 @@ You need one of these to extract game files.
 Using the unpacker, go into the game’s data files and extract:
 
 iteminfo.pabgb → contains all item IDs and names
+
 storeinfo.pabgb → contains all shop inventories (slots + stock)
 
 These are usually found in something like gamedata/
