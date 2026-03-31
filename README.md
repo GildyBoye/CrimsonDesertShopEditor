@@ -3,7 +3,7 @@ Crimson Desert Shop Editor
 
 
 
-1. Get the required tools
+1. Get the required tools (DISREGARD IF USING BASE FILES, KEEP IN MIND THEY MAY BE OUT OF DATE. UPLOAD YOUR OWN VERSIONS WHEN YOU CAN!)
 
 Download a PAZ unpacker:
 
