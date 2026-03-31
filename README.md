@@ -13,7 +13,7 @@ Download a PAZ unpacker:
 
 You need one of these to extract game files.
 
-4. Extract the required game files
+2. Extract the required game files
 
 Using the unpacker, go into the game’s data files and extract:
 
@@ -38,11 +38,14 @@ This enables store editing
 
 Stores appear in the sidebar
 Items appear in the item browser
+
 4. Load localization
+   
 Select a language from the dropdown (e.g. English)
 Without this you’ll see raw/internal item names
 
 5. Browse and select a shop
+   
 Use the left sidebar
 Stores are grouped by city/region
 Click a store to open it
@@ -66,6 +69,7 @@ Slot 1 → Iron Sword
 Stock: 50
 
 7. Modify Stock
+   
 Each slot has a stock input field
 You can change it directly
 
@@ -77,6 +81,7 @@ When you change stock:
 The slot is marked as modified
 
 8. Change Items
+   
 Click a slot (left panel)
 Search for an item (right panel)
 Click Assign →
