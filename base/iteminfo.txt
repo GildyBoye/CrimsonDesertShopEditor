@@ -1,0 +1,6011 @@
+00000A00	Silverd
+00422000	Kauria Chain Mail
+00430F00	Demenissian Rebel Cloth Armor
+00440F00	Astrid's Greater Elixir
+00450F00	Recipe: Pan-Fried Marinated Fish
+00460F00	Anonymous Letter
+00470F00	Pickled Vegetables
+00480F00	Clay Container
+00490F00	Packaged Red Ginseng
+004A0F00	Sealed Abyss Artifact
+004B0F00	Donny's Poster
+004C0F00	Lightning God's Affliction
+004D0F00	Composure I
+004E0F00	Hidden Space - 0020
+004F0F00	Mistcloaked Owl Leather Cloak
+00500F00	Filling Boiled Meat
+00760B00	Pink Rosemary
+008B0100	Casinian Plate Helm
+00B20100	Yosef Plate Armor
+00BC0100	Ravirun Leather Armor
+00BF0100	Senian Cloth Armor
+00E10100	Satyros Plate Gloves
+01080200	Woodbrock Leather Boots
+01422000	Besnet Cloth Armor
+01430F00	Demenissian Rebel Cloth Armor
+01440F00	Equestrian II
+01450F00	Recipe: Fish Stew
+01460F00	Alliance Progress Report
+01470F00	Vegetable Porridge
+01480F00	Iron Container
+01490F00	Packaged Ceremonial Sword
+014A0F00	Sealed Abyss Artifact
+014B0F00	Randelle's Poster
+014C0F00	Shockward I
+014D0F00	Composure II
+014E0F00	Hidden Space - 0021
+014F0F00	Grey Wolf Bow
+01500F00	Hearty Steamed Fish
+01760B00	White Rosemary
+017F0E00	Peddler's Pack
+01B20100	Andre Chain Mail
+01BC0100	Mondian Leather Armor
+01E10100	Ironwilled Guardian's Leather Gloves
+01E20400	Hyde Crossbow
+02430F00	Demenissian Rebel Cloth Armor
+02440F00	Recipe: Battered Meat and Fish
+02450F00	Supply Delivery Log
+02460F00	Marshell's Letter
+02470F00	Battered Vegetables
+02480F00	Decorative Iron Water Bottle
+02490F00	Packaged Ceremonial Armor
+024A0F00	Sealed Abyss Artifact
+024B0F00	Forrex's Poster
+024C0F00	Shockward II
+024D0F00	Composure III
+024E0F00	Hidden Space - 0022
+024F0F00	Alchemy Formula: Freya's Lesser Elixir
+02500F00	Satisfying Steamed Fish
+02760B00	Yellow Rosemary
+027F0E00	Tanner's Pack
+028B0100	Canta Plate Helm
+02B20100	Albert Plate Armor
+02BB0400	Warspike Spear
+02BC0100	Saruen Leather Armor
+02E20400	Southern Wandering Troll's Crossbow
+03430F00	Demenissian Rebel Cloth Armor
+03440F00	Flame Spear
+03450F00	Hernand Castle Basement Key
+03460F00	Lean Meat
+03470F00	Fruit Punch
+03480F00	Decorative Brass Water Bottle
+03490F00	Packaged Packaged Gun
+034A0F00	Sealed Abyss Artifact
+034B0F00	Hadiza's Poster
+034C0F00	Shockward III
+034D0F00	Small Livestock Capacity Increase
+034E0F00	Hidden Space - 0023
+034F0F00	Alchemy Formula: Freya's Elixir
+03500F00	Filling Steamed Fish
+03760B00	Lavender
+037F0E00	Field Pack
+03B20100	Emil Plate Armor
+03BC0100	Rubidan Leather Armor
+03E10100	Steinmers Leather Gloves
+04080200	Russmore Leather Boots
+04430F00	Demenissian Rebel Leather Gloves
+04440F00	Recipe: Braised Ribs
+04450F00	Gearmelt Confectionery Pack
+04460F00	Fine Meat
+04470F00	Pickled Fruit
+04480F00	Two-Handled Iron Water Bottle
+04490F00	Packaged Nacre Lacquer
+044A0F00	Sealed Abyss Artifact
+044B0F00	Alina's Poster
+044C0F00	Engraved Stone
+044D0F00	Medium Livestock Capacity Increase
+044E0F00	Hidden Space - 0024
+044F0F00	Alchemy Formula: Freya's Greater Elixir
+04500F00	Hearty Seafood Stew
+04760B00	Blue Lavender
+047F0E00	Tanner's Pack
+04B20100	Schtump Cloth Armor
+04BC0100	Resian Leather Armor
+05430F00	Bleed Alchemist's Cloth Armor
+05440F00	Recipe: Meat and Vegetable Porridge
+05450F00	Mysterious Liquid
+05460F00	Tender Meat
+05470F00	Battered Grains
+05480F00	Old Two-Handled Iron Water Bottle
+05490F00	Packaged Pelt
+054A0F00	Sealed Abyss Artifact
+054B0F00	Samir's Poster
+054C0F00	A.T.A.G. Flamespitter
+054D0F00	Clue from Fort Anvil
+054E0F00	Hidden Space - 0025
+054F0F00	Alchemy Formula: Apollonia's Lesser Elixir
+05500F00	Satisfying Seafood Stew
+05760B00	White Lavender
+057F0E00	Tanner's Pack
+05860300	Pailunese Riteblade
+058B0100	Tanion Plate Helm
+05B20100	Sven's Cloth Armor
+05BF0100	Lackey Cloth Armor
+05C21100	Naira's Basic Attire
+06080200	Clarille Leather Boots
+06430F00	Field Sprayer
+06440F00	Grilled Bird Meat
+06450F00	Orange Pack
+06460F00	Marbled Meat
+06470F00	Meat and Fish Skewers
+06480F00	Two-Handled Brass Container
+06490F00	Packaged Sugar
+064A0F00	Sealed Abyss Artifact
+064B0F00	Zara's Poster
+064C0F00	Undelivered Trader's Letter
+064D0F00	Twilight Messengers' Cloak
+064E0F00	Hidden Space - 0026
+064F0F00	Alchemy Formula: Apollonia's Elixir
+06500F00	Filling Seafood Stew
+06760B00	Yellow Lavender
+067F0E00	Field Pack
+06B20100	Yakkov Cloth Armor
+06BF0100	Kassa Cloth Armor
+07430F00	Recipe: Battered Vegetables
+07440F00	Recipe: Steamed Eggs
+07450F00	Grape Pack
+07460F00	Varnian Priest's Big Staff
+07470F00	Braised Meat and Fish
+07480F00	Water Bottle of the Agonized
+07490F00	Packaged Honey
+074A0F00	Sealed Abyss Artifact
+074B0F00	Fatima's Poster
+074C0F00	A.T.A.G. Laser
+074D0F00	Twilight Messengers' Plate Armor
+074E0F00	Hidden Space - 0027
+074F0F00	Alchemy Formula: Apollonia's Greater Elixir
+07500F00	Hearty Steamed Seafood
+075F6E5A	Cacoreum Leather Gloves
+07760B00	Garlic
+077F0E00	Technician's Pack
+07B20100	Ernst Chain Mail
+07BB0400	Cog Destroyer Spear
+07BC0100	Larkson Leather Armor
+07BF0100	Annis Cloth Armor
+08080200	Meadows Leather Boots
+08430F00	Wolf Tracker Helm
+08440F00	Antumbra Leather Gloves
+08450F00	Cotton Pack
+08460F00	Recipe: Special Meal
+08470F00	Meat and Fish Porridge
+08480F00	Distiller
+08490F00	Packaged Flour
+084A0F00	Sealed Abyss Artifact
+084B0F00	Nora's Poster
+084C0F00	Ingredient Dispenser Instructions
+084D0F00	Twilight Messengers' Plate Armor
+084E0F00	Hidden Space - 0028
+084F0F00	Alchemy Formula: Meliara's Lesser Elixir
+08500F00	Satisfying Steamed Seafood
+087F0E00	Farmer's Pack
+08BB0400	Spear of Righteousness
+08BC0100	Matana Leather Armor
+08C21100	Naira's Gloves
+08E10100	Adeion Leather Gloves
+09422000	Mortain Chain Mail
+09430F00	Runewalker Shield
+09440F00	Antumbra Leather Boots
+09450F00	Dendrobium Orchid Pack
+09460F00	B's Secret Letter
+09470F00	Battered Meat and Fish
+09480F00	Blue Jar-Shaped Water Bottle
+09490F00	Packaged Salt
+094A0F00	Sealed Abyss Artifact
+094B0F00	Esford's Poster
+094C0F00	White Bear Helm
+094D0F00	Golden Free Company's Plate Armor
+094E0F00	Hidden Space - 0029
+094F0F00	Alchemy Formula: Meliara's Elixir
+09500F00	Filling Steamed Seafood
+096D0400	Dekarr Shield
+097F0E00	Farmer's Pack
+09B20100	Ditter Cloth Armor
+09BB0400	Valgash's Incomplete Work
+09BC0100	Radian Cloth Armor
+09C21100	Naira's Boots
+09CF0000	Apple Seed
+0A422000	Hewlette Cloth Armor
+0A430F00	Circuit Hijacking Helm
+0A440F00	Slaughterer's Leather Armor
+0A450F00	Shadowleaf Disguise Blueprint
+0A460F00	Disruptor
+0A470F00	Braised Ribs
+0A480F00	White Jar-Shaped Water Bottle
+0A490F00	Packaged Black Pepper
+0A4A0F00	Sealed Abyss Artifact
+0A4B0F00	Church Crypt Key
+0A4C0F00	Antumbra's Ritual Site
+0A4D0F00	Gear Blueprint: Warden of Darkness
+0A4E0F00	Hidden Space - 0030
+0A4F0F00	Alchemy Formula: Meliara's Greater Elixir
+0A500F00	Hearty Meatball Soup
+0A6D0400	Sydmon Kite Shield
+0A7F0E00	Herbalist's Pack
+0A8D0B00	Marigold
+0ABF0100	Marka Cloth Armor
+0AE10100	Crudil Leather Gloves
+0B0F2000	Sorin Plate Helm
+0B422000	Pioneer Cloth Armor
+0B430F00	Beighen Cloth Cloak
+0B440F00	Report on Beighen
+0B450F00	Reindeer Cloak
+0B460F00	Cow Cloak
+0B470F00	Meat and Vegetable Porridge
+0B480F00	Green Jar-Shaped Water Bottle
+0B490F00	Packaged Brimstone
+0B4A0F00	Sealed Abyss Artifact
+0B4B0F00	Memory of Turbulence
+0B4C0F00	Vellua Hill Archery Range
+0B4D0F00	Racecourse Owner's Note
+0B4E0F00	Hidden Space - 0031
+0B4F0F00	Alchemy Formula: Haiden's Lesser Elixir
+0B500F00	Satisfying Meatball Soup
+0B7F0E00	Herbalist's Pack
+0BB20100	Redman Plate Armor
+0BBF0100	Makri Cloth Armor
+0C0F2000	Matarion Plate Helm
+0C422000	Talbern Cloth Armor
+0C430F00	Wells Rebel Light Cloth Armor
+0C440F00	Drakhan Hammer
+0C450F00	Hydro Generator Bag
+0C460F00	Saint's Necklace
+0C470F00	Steamed Eggs
+0C480F00	Long Crimson Water Bottle
+0C490F00	Damiane's Ponytail Ticket
+0C4A0F00	Sealed Abyss Artifact
+0C4B0F00	Marni Laser Component
+0C4C0F00	Stories of the Maids
+0C4D0F00	Frost Hail
+0C4E0F00	Hidden Space - 0032
+0C4F0F00	Alchemy Formula: Haiden's Elixir
+0C500F00	Filling Meatball Soup
+0C7F0E00	Soldier's Pack
+0C8D0B00	Snapdragon
+0CB20100	Schmidt Plate Armor
+0CBB0400	Thorn of Dark Pursuit
+0CE10100	Conchetta Leather Gloves
+0D0F2000	Langris Plate Helm
+0D422000	Vex Cloth Armor
+0D430F00	Caliburn's Combat Engineer Cloth Armor
+0D440F00	Lanford Hammer
+0D450F00	Bird Meat
+0D460F00	Crane Control Room Key
+0D470F00	Pan-Fried Marinated Meat
+0D480F00	Long White Water Bottle
+0D490F00	Snail
+0D4A0F00	Sealed Abyss Artifact
+0D4B0F00	Radiant Necklace
+0D4C0F00	Groundsurge
+0D4D0F00	Nix's Note
+0D4E0F00	Hidden Space - 0033
+0D4F0F00	Alchemy Formula: Haiden's Greater Elixir
+0D500F00	Hearty Harvest Soup
+0D7F0E00	Apothecary's Pack
+0E430F00	Turncoat Cloth Armor
+0E440F00	Competition Shield
+0E450F00	Full Moon Reaper Plate Boots
+0E460F00	Jerky
+0E470F00	Marinated Meat
+0E480F00	Long Yellow Water Bottle
+0E490F00	Greymanes' Leather Armor
+0E4A0F00	Sealed Abyss Artifact
+0E4B0F00	Kinetic Dolphin Family
+0E4C0F00	The Showstopper
+0E4D0F00	Volcanic Eruption
+0E4E0F00	Hidden Space - 0034
+0E4F0F00	Alchemy Formula: Astrid's Lesser Elixir
+0E500F00	Satisfying Harvest Soup
+0E760B00	Desert Melon
+0E7F0E00	Apothecary's Pack
+0EE10100	Loudan Leather Gloves
+0F300000	Dirty Sarantos Leather Boots
+0F422000	Louis Cloth Armor
+0F430F00	Wells Rebel's Leather Armor
+0F440F00	Large Grilled Fish
+0F450F00	Recipe: Assorted Braised Fish
+0F460F00	KuKu Rocket Helmet - Equipped by Default
+0F470F00	House Centipede
+0F480F00	Long Blue Water Bottle
+0F490F00	Greymanes' Leather Armor
+0F4A0F00	Sealed Abyss Artifact
+0F4B0F00	Kinetic Dolphin
+0F4C0F00	Washer Instructions
+0F4D0F00	Note from the Freesword Barracks
+0F4E0F00	Hidden Space - 0035
+0F4F0F00	Alchemy Formula: Astrid's Elixir
+0F500F00	Filling Harvest Soup
+0F7F0E00	Peddler's Pack
+0F8B0100	Antra Plate Helm
+0F8D0B00	Begonia
+0FBB0400	North Wind Trident
+0FE10100	Calio's Leather Gloves
+10300000	Large Rhegis Leather Boots
+10430F00	Turncoat Chain Mail
+10440F00	One-Armed Jackal's Leather Cloak
+10450F00	Goldleaves' Cloth Armor
+10460F00	Recipe: Wine
+10470F00	Bounty Notice - Jeffrey
+10480F00	Mole
+10490F00	Silver Water Pot
+104A0F00	Sealed Abyss Artifact
+104B0F00	Kinetic Boat
+104C0F00	Grinder Instructions
+104D0F00	Condemner's Plate Helm
+104E0F00	Hidden Space - 0036
+104F0F00	Alchemy Formula: Astrid's Greater Elixir
+10500F00	Hearty Fish Stew
+107F0E00	Hunter's Pack
+108B0100	Laterna Plate Helm
+10BB0100	Vyer Leather Armor
+10E10100	Viraiton Leather Gloves
+11090500	Rhinard Cannon
+111A1700	Hyperion Stirrups
+11422000	Warblick Cloth Armor
+11430F00	Turncoat Chain Mail
+11440F00	Sorcerer's Massage Stick
+11450F00	Sealed Abyss Artifact
+11460F00	Recipe: Delesyian Wine
+11470F00	Black Centipede
+11480F00	Blue Patterned Ceramic
+11490F00	Celeste's Confidential Letter
+114A0F00	Sealed Abyss Artifact
+114B0F00	Kinetic Circle
+114C0F00	Dosing Pump Instructions
+114D0F00	Gear Blueprint: Tempest of Destruction
+114E0F00	Hidden Space - 0037
+114F0F00	Life Transference
+11500F00	Satisfying Fish Stew
+117F0E00	Hunter's Pack
+118B0100	Zachar Plate Helm
+11BB0100	Dewey Leather Armor
+12080200	Keredig Leather Boots
+12090500	Electromagnetic Flamespitter
+120F2000	Luon Plate Helm
+12300000	Hungering Fang Leather Boots
+123A2000	Leuksah Chain Mail
+12422000	Rellone Cloth Armor
+12430F00	Turncoat Plate Armor
+12440F00	The Legendary Hunter's Whereabouts
+12450F00	Enset Seed
+12460F00	Belkandor Plate Armor
+12470F00	Florindale Flower Bomb Pack
+12480F00	Slim Celadon Bottle
+12490F00	Fine Logging Axe Blueprint
+124A0F00	Sealed Abyss Artifact
+124B0F00	Demeniss Token
+124C0F00	Heater Instructions
+124D0F00	Marcello Stirrups
+124E0F00	Hidden Space - 0038
+124F0F00	The Thief's First Note
+12500F00	Filling Fish Stew
+12760B00	Croton
+127F0E00	Field Pack
+128B0100	Unyielding Warrior's Plate Helm
+128D0B00	Lily of the Valley
+12940400	White Wood Bow
+12BB0100	Arqus Leather Armor
+13090500	Electromagnetic Frostspitter
+130F2000	Witters Plate Helm
+13300000	Carta Plate Boots
+13430F00	Turncoat Plate Armor
+13440F00	Myurdin Leather Armor
+13450F00	Engraved Stone
+13460F00	Fine Dress Doll
+13470F00	Tomato Seed
+13480F00	Freshly Fired Celadon Vase
+13490F00	Spencer Pistol
+134A0F00	Sealed Abyss Artifact
+134B0F00	Shipwreck in Silence
+134C0F00	Bottling Machine Instructions
+134D0F00	Aeserion Gear Blueprint
+134E0F00	Hidden Space - 0039
+134F0F00	A Map Left at the Torchlight Beacon
+13500F00	Hearty Mixed Stew
+13760B00	Red Croton
+137F0E00	Woodcutter's Pack
+138B0100	Tartry Plate Helm
+138D0B00	Dunbaria
+13BB0100	Dremel Leather Armor
+13BB0400	Traitor's Spear
+13E10100	Maeve Leather Gloves
+14080200	Neirnim Leather Boots
+140F2000	Digren Plate Helm
+14300000	Hernandian Honor Guard Boots
+14422000	Rarkah Cloth Armor
+14430F00	Turncoat Plate Armor
+14440F00	Fundamentalist Goblin Cloth Armor
+14450F00	Prickly Pear Seed
+14460F00	Fluttering Radiance Plate Boots
+14470F00	Health Detection Device
+14480F00	Medicine Ceramic Jar
+14490F00	Steamed Fish
+144A0F00	Sealed Abyss Artifact
+144B0F00	Sungrove Manor Key
+144C0F00	Clue from Oakenshield Manor
+144D0F00	Circus Machine Sphere
+144E0F00	Hidden Space - 0040
+144F0F00	Lizard Leather Cloak
+14500F00	Satisfying Mixed Stew
+147F0E00	Woodcutter's Pack
+148C2000	Agstree Leather Boots
+148D0B00	Cotton
+14BB0100	Dyrel Leather Armor
+150F2000	Intaka Plate Helm
+15300000	Weasel Leather Boots
+15370000	Plate Armor of Cursed Soul
+15422000	Rikkutan Cloth Armor
+15430F00	Yellow Comma Butterfly
+15440F00	Buckwheat
+15450F00	Taro Seed
+15460F00	Valortread Plate Cloak
+15470F00	Meadow Butterfly
+15480F00	Multipurpose Jar
+15490F00	Deep Grey Dye
+154A0F00	Sealed Abyss Artifact
+154B0F00	Sword of Wayward Woods
+154C0F00	Lift Instructions
+154D0F00	Gear Blueprint: Fortification
+154E0F00	Hidden Space - 0041
+154F0F00	Test OneHandMace
+15500F00	Filling Mixed Stew
+158B0100	Rapps Plate Helm
+158C2000	Deidre Leather Boots
+158D0B00	Dendrobium Orchid
+15BB0100	Merly Leather Armor
+15E10100	Deskio Leather Gloves
+160F2000	Inquisitor's Plate Helm
+161A1700	Sahareum Stirrups
+16300000	Scholastone Boots
+16370000	Red Rider's Plate Armor
+163A0100	Recipe: Bird Soup
+16430F00	Turncoat Cloth Armor
+16440F00	Filling Toasted Grains
+16450F00	Hunter's Meat Pack
+16460F00	Belkandor Plate Cloak
+16470F00	Fruit Fly
+16480F00	Medicine Jar
+16490F00	Sonic Resonator
+164A0F00	Sealed Abyss Artifact
+164B0F00	Packaged Provisions
+164C0F00	Equipment Manual
+164D0F00	Gear Blueprint: Aegis
+164E0F00	Hidden Space - 0042
+164F0F00	Wolf Tracker Cloth Cloak
+16500F00	Hearty Bird Soup
+1673F951	Wide Basket
+167F0E00	Quarrier's Pack
+168B0100	Biconio Plate Helm
+16BB0100	Trudy Leather Armor
+170F2000	Half Moon Reaper Plate Helm
+171A1700	Berkei Stirrups
+17300000	Hernandian Banquet Leather Boots
+17370000	Meyer Plate Armor
+17430F00	Caliburn's Combat Engineer Cloth Armor
+17440F00	Myurdin's Leather Boots
+17450F00	Cast Iron Pan
+17460F00	Belkandor Armor Blueprint
+17470F00	Cockroach
+17480F00	Round Jar
+17490F00	The Thief's Second Note
+174A0F00	Sealed Abyss Artifact
+174B0F00	Packaged Timber
+174C0F00	Abyss Artifact Fabricator
+174D0F00	Gear Blueprint: Fortitude
+174E0F00	Hidden Space - 0043
+174F0F00	Bronze Horseshoes
+17500F00	Satisfying Bird Soup
+17760B00	Blueberry
+177F0E00	Deer Pack
+178C2000	Daine Leather Boots
+17BB0100	Dreban Leather Armor
+17BB0400	Staff of the Fleeting
+180F2000	Mortain Plate Helm
+181A1700	Delesyian Stirrups
+18300000	Beekeeping Boots
+18370000	Spiddle Plate Armor
+18422000	Dutinan Chain Mail
+18430F00	Caliburn's Combat Engineer Cloth Armor
+18440F00	Trukan Cloth Boots
+18450F00	Black Bear Prison Key
+18460F00	Belkandor Cloak Blueprint
+18470F00	Camp Food
+18480F00	Worn Two-Handled Jar
+18490F00	The Thief's Third Note
+184A0F00	Sealed Abyss Artifact
+184B0F00	Packaged Stone
+184C0F00	Solidarity I
+184D0F00	Gear Blueprint: Swift
+184E0F00	Hidden Space - 0044
+184F0F00	Shabby Horseshoes
+18500F00	Filling Bird Soup
+18760B00	Raspberry
+187F0E00	Beekeeper's Pack
+188C2000	Tression Leather Boots
+18B20100	Dreer Plate Armor
+18BB0100	Dellian Leather Armor
+18BC0100	Acria Chain Mail
+18C7442B	Canusti Plate Armor
+18CF0000	Kuku Pot
+18E10100	Geloufeld Plate Gloves
+19110000	Broken Visione
+191A1700	Calphadean Stirrups
+19430F00	Caliburn's Combat Engineer Cloth Armor
+19440F00	Trukan Cloth Gloves
+19450F00	Golden Greathammer
+19460F00	Valortread Plate Gloves
+19470F00	Ricefish
+19480F00	Shiny Ceramic Vase
+19490F00	Demenissian Contribution
+194A0F00	Sealed Abyss Artifact
+194B0F00	Packaged Arms
+194C0F00	Solidarity II
+194D0F00	Gear Blueprint: Haste
+194E0F00	Hidden Space - 0045
+194F0F00	Four-Leaf Horseshoes
+19500F00	Woman Holding a Water Bottle
+197F0E00	Peddler's Pack
+198C2000	Deint Leather Boots
+19A0186D	Large Clays Leather Boots
+19B20100	Rhogo Plate Armor
+19BB0100	Kenecks Leather Armor
+19C0C462	Inquisitor's Plate Helm
+19EB250F	Small Delesyian Banner Pike
+1A080200	Matis Leather Greaves
+1A1A1700	Hernandian Stirrups
+1A430F00	Caliburn's Combat Engineer Cloth Armor
+1A440F00	Wooden Mask of Lost Justice
+1A450F00	Fish Fillet
+1A460F00	Recipe: Salt-Roasted Fish
+1A470F00	Freshwater Crab
+1A480F00	Gray Two-Handled Jar
+1A490F00	Hernandian Contribution
+1A4A0F00	Sealed Abyss Artifact
+1A4B0F00	Cylindrical Wooden Box
+1A4C0F00	Solidarity III
+1A4D0F00	Gear Blueprint: Ascent
+1A4E0000	Breath of the Abyss
+1A4E0F00	Hidden Space - 0046
+1A4F0F00	Spirit Transference
+1A500F00	Priest in a Mask
+1A7F0E00	Angler's Pack
+1A8C2000	Matahka Leather Boots
+1AB20100	Roshee Plate Armor
+1ABB0100	Vierni Leather Armor
+1ABC0100	Rotunso Leather Armor
+1ABF0100	Tyran Cloth Armor
+1B0F2000	Laccarsa Plate Helm
+1B1A1700	Varnian Stirrups
+1B3A2000	Aslan Chain Mail
+1B430F00	Caliburn's Combat Engineer Leather Gloves
+1B440F00	A.T.A.G. Thrusterpack Mk I
+1B450F00	Chaya Seed
+1B460F00	Belkandor Plate Gloves
+1B470F00	Wharf Roach
+1B480F00	Brown Two-Handled Jar
+1B490F00	Pailunese Contribution
+1B4A0F00	Sealed Abyss Artifact
+1B4B0F00	Wolf Tracker Leather Armor
+1B4C0F00	Spirit's Judgment
+1B4D0F00	Large Livestock Capacity Increase
+1B4E0000	Spirit of the Abyss
+1B4E0F00	Hidden Space - 0047
+1B4F0F00	Stamina Transference
+1B500F00	Core of Temperance
+1B7F0E00	Quarrier's Pack
+1B82EF48	Pavis Leather Boots
+1B8C2000	Goot Leather Boots
+1BB20100	Romund Plate Armor
+1BBB0100	Blaine Leather Armor
+1BBC0100	Rombardina Leather Armor
+1BBF0100	Tiron Cloth Armor
+1C0F2000	Maydocs Plate Helm
+1C1A1700	Demenissian Stirrups
+1C3A0100	Recipe: Antler Tea
+1C3A2000	Cantina Chain Mail
+1C430F00	Modified Rahbae Plate Helm
+1C440F00	Solumen's Holy Water
+1C450F00	Beltran Plate Helm
+1C460F00	Belkandor Gloves Blueprint
+1C470F00	Mountain Moth
+1C480F00	Red One-Handled Jar
+1C490F00	Helms Bull Helm
+1C4A0F00	Sealed Abyss Artifact
+1C4B0F00	Bandit Cloth Armor
+1C4C0F00	Spire of Clockwork Key
+1C4D0F00	Gear Blueprint: Vitality
+1C4E0000	Vitality of the Abyss
+1C4E0F00	Hidden Space - 0048
+1C4F0F00	Unknown Adventurer's Log
+1C500F00	Core of Atonement
+1C6D0000	Salt-Roasted Bird Meat
+1C760B00	Potato
+1C7F0E00	Wheelwright's Pack
+1C8B0100	Kurua Plate Helm
+1C8C2000	Gatin Leather Boots
+1CB20100	Valkyder Plate Armor
+1CBB0100	Cyton Leather Armor
+1CBC0100	Sicillion Leather Armor
+1CBF0100	Tyrune Cloth Armor
+1CC21100	Demeniss Ceremonial Plate Armor
+1CE10100	Asty Cloth Gloves
+1D0F2000	Demenissian Soldier Plate Helm
+1D250000	Marni Tank Blaster
+1D370000	Frozen Heart Plate Armor
+1D3A0100	Recipe: Fruit Juice
+1D3E0000	Frozen Anguish
+1D430F00	Tech Hat
+1D440F00	Gilded Goblin's Cloth Armor
+1D450F00	Gear Blueprint: Frost Hail
+1D460F00	Seal of Greed - Goldleaf Merchant Guild
+1D470F00	Dragonfly
+1D480F00	Gray Jar
+1D490F00	Joan's Leather Armor
+1D4A0F00	Sealed Abyss Artifact
+1D4B0F00	Abyssal Dragon Armor
+1D4C0F00	Gear Blueprint: Surge
+1D4D0F00	Turnali's Smithy Flyer
+1D4E0F00	Hidden Space - 0049
+1D4F0F00	Unknown Adventurer's Log
+1D500F00	Core of Deliverance
+1D760B00	Sweet Potato
+1D7F0E00	Angler's Pack
+1DB20100	Killian Plate Armor
+1DBC0100	Rhodelphine Leather Armor
+1DBF0100	Tarun Cloth Armor
+1E0F2000	Renkshaw Plate Helm
+1E250000	Mechanical Clockwork Blaster
+1E3E0000	Hound
+1E430F00	Red Lycaenid Butterfly
+1E440F00	Greymane's Earring
+1E450F00	Gear Blueprint: Volcanic Eruption
+1E460F00	Belkandor Boots Blueprint
+1E470F00	Golden Shield
+1E480F00	Ocher Jar
+1E490F00	Kenneth's Leather Armor
+1E4A0F00	Sealed Abyss Artifact
+1E4B0F00	Delegation Leather Hat
+1E4C0F00	Piece from Oakenshield Manor
+1E4D0F00	Abyss Cell: No. 1
+1E4E0F00	Hidden Space - 0050
+1E4F0F00	Unknown Adventurer's Log
+1E500F00	Core of Exaltation
+1E760B00	Blackberry
+1E7F0E00	Bell Pack
+1E8C2000	Infreen Leather Boots
+1EB20100	Kenmore Plate Armor
+1EBC0100	Tallofer Leather Armor
+1EBF0100	Tynion Cloth Armor
+1F009129	Grotevant Plate Boots
+1F0F2000	Longia Plate Helm
+1F3E0000	Twisted Verdict
+1F422000	Lokra Cloth Armor
+1F430F00	Blue Lycaenid Butterfly
+1F440F00	Master Du's Circlet
+1F450F00	Bleed Officer's Cloth Cloak
+1F460F00	Hearty Smoked Eggs
+1F470F00	Grape Seed
+1F480F00	Small Storage Jar
+1F490F00	Delesyian Contribution
+1F4A0F00	Sealed Abyss Artifact
+1F4B0F00	Witch's Token
+1F4C0F00	Alchemy Formula: Refined Palmar Pill
+1F4D0F00	Abyss Cell: No. 2
+1F4E0F00	Hidden Space - 0051
+1F4F0F00	Unknown Adventurer's Log
+1F500F00	Core of Veneration
+1F7F0E00	Turtle Pack
+1F8C2000	Ferman Leather Boots
+1FB20100	Kinloch Plate Armor
+1FBF0100	Tanion Cloth Armor
+1FC11100	Ironwilled Guardian's Leather Armor
+1FE10100	Dimfeld Leather Gloves
+20350000	Shell of the Fleeting
+20422000	Reltian Cloth Armor
+20430F00	Bundle of Arrows
+20440F00	Recipe: Pan-Fried Marinated Meat
+20450F00	Demeniss Brimstone Gas Mask
+20460F00	Valortread Plate Helm
+20470F00	Firearms Box
+20480F00	Large Medicine Jar
+20490F00	Aldric's Leather Armor
+204A0F00	Sealed Abyss Artifact
+204B0F00	Witch's Token
+204C0F00	Gear Blueprint: Flameward
+204D0F00	Power Core - Gate of Collapse
+204E0F00	Hidden Space - 0052
+204F0F00	Unknown Adventurer's Log
+20500F00	Core of Devotion
+207F0E00	Carpenter's Pack
+208B0B00	Beehive
+208C2000	Ratti Leather Boots
+20B20100	Lanauk Plate Armor
+20BC0100	Unyielding Warrior's Plate Armor
+20BF0100	Neslan Cloth Armor
+20D1CC7C	Brejin Plate Armor
+20E10100	Trowder Leather Gloves
+210F2000	Demenissian Guard's Plate Helm
+21422000	Reltan Cloth Armor
+21430F00	Plate Armor of the Shadows
+21440F00	Marni Stirrups
+21450F00	Olvald's Logging Axe
+21460F00	Belkandor Plate Helm
+21470F00	Book
+21480F00	Cylindrical Jar
+21490F00	Branique Saddle
+214A0F00	Sealed Abyss Artifact
+214B0F00	Witch's Token
+214C0F00	Gear Blueprint: Frostward
+214D0F00	Destruction I
+214E0F00	Hidden Space - 0053
+214F0F00	Unknown Adventurer's Log
+21500F00	Kharonso Ruins Pillar: No. 1
+217F0E00	Birdcage Pack
+218B0B00	Wild Ginseng
+218C2000	Lutteri Leather Boots
+21A10700	Inquisitor's Greataxe
+21B20100	Spiddle Plate Armor
+21BC0100	Meishod Cloth Armor
+21BF0100	Eshrun Cloth Armor
+21C21100	Camouflage Outfit
+21E10100	Caviden Leather Gloves
+220F2000	Rhinoceros Plate Helm
+22422000	Reltinan Cloth Armor
+22430F00	Grizzled Skipper Butterfly
+22440F00	Dark Ice Spear Magic Bullet
+22450F00	Tauria Curved Sword
+22470F00	Great Thief's Gloves
+22480F00	Ornate Tree Pattern Vase
+22490F00	Personal Strongbox Permit
+224A0F00	Sealed Abyss Artifact
+224B0F00	Demeniss Guard's Plate Armor
+224C0F00	Gear Blueprint: Shockward
+224D0F00	Destruction II
+224E0F00	Hidden Space - 0054
+224F0F00	Unknown Adventurer's Log
+22500F00	Kharonso Ruins Pillar: No. 2
+227F0E00	Woodcutter's Pack
+22805F2E	Kunan Plate Armor
+22B20100	Meyer Plate Armor
+22B9A217	Bleed Bandits' Gas Mask
+22BC0100	Valldren Leather Armor
+22BF1100	Sword of the Wolf
+230F2000	Mottie Plate Helm
+23250000	Blaster No. 8
+23422000	Ketian Cloth Armor
+23430F00	Blue Tailed Butterfly
+23440F00	Recipe: Marinated Meat
+23450F00	Hernand Encampment
+23460F00	Black Bear Leather Boots
+23470F00	Bismuth Spear
+23480F00	Water Pot
+23490F00	Long-Necked Silver Jar
+234A0F00	Sealed Abyss Artifact
+234B0F00	Demeniss Guard's Plate Armor
+234C0F00	Gear Blueprint: Arrow Rain
+234D0F00	Destruction III
+234E0F00	Hidden Space - 0055
+234F0F00	Unknown Adventurer's Log
+23500F00	Kharonso Ruins Pillar: No. 3
+238C2000	Half Moon Reaper Plate Boots
+23B20100	Edzel Plate Armor
+23BC0100	Moldur Leather Armor
+23BF1100	Bekker Shield
+240F2000	Enratte Plate Helm
+24250000	Wyvern Blaster
+24350000	Balgran Shield
+24422000	Kithan Cloth Armor
+24430F00	Meliara's Elixir
+24440F00	Worn Earring
+24450F00	Ivynook
+24460F00	Umbra's Hierophany Leather Gloves
+24470F00	Golden Goose Egg
+24480F00	Grain Jar
+24490F00	Valvegard Garrison Key
+244A0F00	Sealed Abyss Artifact
+244B0F00	Wetlands Clays Leather Boots
+244C0F00	Gear Blueprint: Kinetic Burst
+244D0F00	Engraved Stone
+244E0F00	Hidden Space - 0056
+244F0F00	Unknown Adventurer's Log
+24500F00	Kharonso Ruins Pillar: No. 4
+247F0E00	Weaponsmith's Pack
+248C2000	Lapprette Leather Boots
+24B20100	Brejin Plate Armor
+24BC0100	Churrchen Leather Armor
+24BF0100	Deshret Cloth Armor
+24BF1100	Ynitium Leather Armor
+25110300	TestSword
+25350000	Delesyian Ornamental Shield
+25422000	Kasunan Cloth Armor
+25430F00	Haiden's Elixir
+25440F00	Clockwork Insect
+25450F00	Guardian Deity Altar
+25460F00	Fruit of Life
+25470F00	Commander Butterfly
+25480F00	Trophy - All-Out Duel
+25490F00	Marni's Laboratorium Key
+254A0F00	Sealed Abyss Artifact
+254B0F00	Gilded Clays Leather Boots
+254C0F00	Wrecked Trading Ship
+254D0F00	Engraved Stone
+254E0F00	Hidden Space - 0057
+254F0F00	Unknown Adventurer's Log
+25500F00	Fusion Reactor Core: I
+257F0E00	Weaponsmith's Pack
+258C2000	Matrinne Leather Boots
+25A10700	Patterned Stone Greataxe
+25B20100	Canusti Plate Armor
+25BC0100	Saolo Leather Armor
+25BF1100	Ynitium Leather Gloves
+260F2000	Austin Plate Helm
+26110300	Specialty Mercenary OneHandSword
+26422000	Kattinan Cloth Armor
+26430F00	Astrid's Elixir
+26440F00	Antumbra Cloth Armor
+26450F00	Red Rage
+26460F00	Umbra's Hierophany Leather Armor
+26470F00	Monarch Butterfly
+26480F00	Trophy - Unarmed Duel
+26490F00	Aeronautical Research Base Key
+264A0F00	Sealed Abyss Artifact
+264B0F00	Righteous Inquisitors Guard's Plate Armor
+264C0F00	Gear Blueprint: Ator's Orb
+264D0F00	Engraved Stone
+264E0F00	Hidden Space - 0058
+264F0F00	Unknown Adventurer's Log
+26500F00	Fusion Reactor Core: II
+267F0E00	Weaponsmith's Pack
+268B0B00	Long Horn
+268C2000	Dumas Leather Boots
+26B20100	Dundree Plate Armor
+26BC0100	Jevanars Leather Armor
+26BF1100	Ynitium Leather Boots
+26CB0000	Goldleaf Censer
+270F2000	Lautia Plate Helm
+27110300	Specialty Dragon Slayer OneHandSword
+27362000	Baratan Chain Mail
+27422000	Acria Cloth Armor
+27430F00	Guard Visione
+27440F00	Troll Maccutan Plate Helm
+27450F00	Mistcloaked Owl Leather Armor
+27460F00	Belkandor Helm Blueprint
+27470F00	Informant's First Letter
+27480F00	Trophy - Wrestling Match
+27490F00	Sealed Abyss Artifact
+274A0F00	Sealed Abyss Artifact
+274B0F00	Righteous Inquisitors Guard's Plate Armor
+274D0F00	Insight I
+274E0F00	Hidden Space - 0059
+274F0F00	Unknown Adventurer's Log
+27500F00	Fusion Reactor Core: III
+277F0E00	Weaponsmith's Pack
+278C2000	Trier Leather Boots
+27B20100	Crail Plate Armor
+27BF0100	Takana Cloth Armor
+27CB0000	Oil Barrel
+280F2000	Matarra Plate Helm
+28161700	Shabby Horse Saddle
+28422000	Kabotun Cloth Armor
+28430F00	Military Visione
+28440F00	Investigative Log: Broken Silence
+28450F00	Mistcloaked Owl Leather Armor
+28460F00	Reins of Open Sky
+28470F00	Luther's Cloth Armor
+28480F00	Gilded Slim Bottle
+28490F00	Secret Book of Unknown Source
+284A0F00	Sealed Abyss Artifact
+284B0F00	Righteous Inquisitors Guard's Plate Armor
+284C0F00	Shakatu's Letter
+284D0F00	Insight II
+284E0F00	Hidden Space - 0060
+284F0F00	Unknown Adventurer's Log
+28500F00	Fusion Reactor Core: IV
+287F0E00	Weaponsmith's Pack
+288C2000	Gohol Leather Boots
+28B20100	Levin Plate Armor
+28BC0100	Drossel Leather Armor
+28CF0000	Sticky Bomb
+290B0400	Marauder's Halberd
+290F2000	Lauques Plate Helm
+29161700	Hyperion Saddle
+293E0C00	Talisman
+29422000	Kavokin Cloth Armor
+29430F00	Prototype Visione
+29440F00	Flawless Timber
+29450F00	Mistcloaked Owl Leather Armor
+29460F00	Ravirun Cloth Helm
+29470F00	Socket Test Gloves
+29480F00	Water Jug
+29490F00	Marni Drill Component
+294A0F00	Sealed Abyss Artifact
+294B0F00	Demeniss Guard's Plate Armor
+294C0F00	Valgash's Letter
+294D0F00	Insight III
+294E0F00	Hidden Space - 0061
+294F0F00	Letter to a Comrade
+29500F00	Fusion Reactor Core: V
+297F0E00	Weaponsmith's Pack
+298C2000	Martin's Leather Boots
+29B20100	Dunverline Plate Armor
+29BC0100	Dumenis Cloth Armor
+29BF0100	Lakshi Leather Armor
+29DB0B00	Golden Apple
+29E10100	Mistum Leather Gloves
+2A0B0400	Alabaster Halberd
+2A0F2000	Larstrom Plate Helm
+2A270000	Lantern
+2A3E0C00	Bells
+2A422000	Teknin Cloth Armor
+2A430F00	Mask of the Devil of the Reed Field
+2A440F00	Sydmon Hammer
+2A450F00	Mistcloaked Owl Leather Armor
+2A460F00	Tales of Sunset Valley
+2A470F00	Catfish Plate Helm
+2A480F00	Wide White Jar
+2A490F00	Greymanes' Leather Armor
+2A4A0F00	Sealed Abyss Artifact
+2A4B0F00	Yrkabel Leather Armor
+2A4C0F00	Companionship I
+2A4D0F00	Fortification I
+2A4E0F00	Hidden Space - 0062
+2A4F0F00	News for a Nephew
+2A500F00	Fusion Reactor Core: VI
+2A6D0400	Tardik Shield
+2A7F0E00	Weaponsmith's Pack
+2A8C2000	Purani Leather Boots
+2AB20100	Kinross Plate Armor
+2ABB0100	Wakhan Leather Armor
+2ACF0000	Time Bomb
+2AE5B615	Blacksteel Dumenis Plate Boots
+2B0B0400	Iris Halberd
+2B0F2000	Demeniss Ceremonial Plate Helm
+2B110300	Inquisitor's Rapier
+2B362000	Kantana Plate Armor
+2B3E0C00	Censer
+2B422000	Maknan Cloth Armor
+2B430F00	Recipe: Fruit Punch
+2B440F00	Invisible Longsword
+2B450F00	Lightningblade of Greed
+2B460F00	Diana Fritillary Butterfly
+2B470F00	White Bloodwind Cloth Cloak
+2B480F00	Wide Jar
+2B490F00	Greymanes' Leather Armor
+2B4A0F00	Sealed Abyss Artifact
+2B4B0F00	Odeck's Protector Plate Cloak
+2B4C0F00	Crow's Pursuit
+2B4D0F00	Fortification II
+2B4E0F00	Hidden Space - 0063
+2B4F0F00	Unsealed Secret Letter
+2B500F00	Fusion Reactor Core: VII
+2B6D0400	Dewhaven Shield
+2B7F0E00	Weaponsmith's Pack
+2B8A165E	Golden Fire
+2B8C2000	Delphi Leather Boots
+2BB20100	Demeniss Honor Armor
+2BBB0100	Valion Leather Armor
+2BBC0100	Laplace Leather Armor
+2BBF1100	Silverwolf Leather Armor
+2BCB0000	Double-Sided Banner Pike
+2C080200	Tarandus Leather Boots
+2C0B0400	Lambert Halberd
+2C0F2000	Awrain Plate Helm
+2C110300	Grace Rapier
+2C362000	Ketlan Chain Mail
+2C422000	Attrean Cloth Armor
+2C430F00	Helm of Ignition
+2C440F00	Recipe: Meat Stew
+2C450F00	Petrified Humans
+2C460F00	Crimson Patch Butterfly
+2C470F00	Bright Grey Dye
+2C480F00	Dark Brown Jar
+2C490F00	Varnian Contribution Banner Pike
+2C4A0F00	Sealed Abyss Artifact
+2C4B0F00	Kuku Marni Laser Helm
+2C4C0F00	Unidentified Abyss Gear
+2C4D0F00	Fortification III
+2C4E0F00	Hidden Space - 0064
+2C4F0F00	Periodic Report
+2C500F00	Fusion Reactor Core: VIII
+2C7F0E00	Healer's Pack
+2C8C2000	Bethel Leather Boots
+2CB20100	Avignon Cloth Armor
+2CBB0100	Plune Leather Armor
+2CBC0100	Radiano Leather Armor
+2CBF0100	Ladran Cloth Armor
+2CCB0000	Small Banner Pike
+2D0B0400	Gilliam Halberd
+2D0F2000	Sahazhad Plate Helm
+2D110300	Leonne Rapier
+2D362000	Antuka Chain Mail
+2D422000	Maquealon Cloth Armor
+2D430F00	Mace of Betrayal
+2D440F00	Secret of the Helm
+2D450F00	Bloody Farmhouse
+2D460F00	White Peacock Butterfly
+2D470F00	Colton's Cloth Armor
+2D480F00	Silver Carafe
+2D490F00	Disruptor Cannonball
+2D4A0F00	Sealed Abyss Artifact
+2D4B0F00	Kuku Lightning-Resistant Armor
+2D4C0F00	Gear Blueprint: Abyssal Assimilation
+2D4D0F00	Aegis I
+2D4E0F00	Hidden Space - 0065
+2D4F0F00	Letter to Croft
+2D500F00	Fusion Reactor Core: IX
+2D6E0B00	Sugar Cubes
+2D7F0E00	Healer's Pack
+2D8C2000	Chanti Leather Boots
+2DBB0100	Rittem Leather Armor
+2DBC0100	Dorness Leather Armor
+2DBF0100	Nuslan Cloth Armor
+2DE10100	Rowley Leather Gloves
+2E004E6A	Romund Plate Armor
+2E080200	Sydmon Leather Boots
+2E0B0400	Bonepit Halberd
+2E0F2000	Devins Plate Helm
+2E110300	Brass Rose Rapier
+2E161700	Sahareum Saddle
+2E362000	Amantia Chain Mail
+2E422000	Marknin Cloth Armor
+2E430F00	Desert Hammer
+2E440F00	Entwined Red Thread Hammer
+2E450F00	Skyroot
+2E460F00	Banded Peacock Butterfly
+2E470F00	Falstaff's Cloth Armor
+2E480F00	Golden Carafe
+2E490F00	Warning Written in Blood
+2E4A0F00	Sealed Abyss Artifact
+2E4B0F00	Kuku Flame-Resistant Armor
+2E4C0F00	Pillar of Wind
+2E4D0F00	Aegis II
+2E4E0F00	Hidden Space - 0066
+2E4F0F00	Letter with a Torn Corner
+2E500F00	Fusion Reactor Core: X
+2E7F0E00	Healer's Pack
+2E8FC060	Calio's Leather Gloves
+2EB20100	Arghai Cloth Armor
+2EBB0100	Mocke Leather Armor
+2EBC0100	Undriga Leather Armor
+2EBF0100	Ravirun Cloth Armor
+2F0B0400	Freesword Halberd
+2F0F2000	Cadet Plate Helm
+2F110300	Fallen Noble's Rapier
+2F161700	Berkei Saddle
+2F350C00	Mysterious Elixir
+2F362000	Amanas Chain Mail
+2F422000	Lauques Cloth Armor
+2F430F00	Awakened Spirit
+2F440F00	Outlaw's Graverobber Pack
+2F450F00	Sealed Abyss Artifact
+2F460F00	Malachite Butterfly
+2F470F00	Arnold's Cloth Armor
+2F480F00	Storage Jar
+2F490F00	Blue Jay
+2F4A0F00	Sealed Abyss Artifact
+2F4B0F00	Kuku Ice-Resistant Armor
+2F4C0F00	Seal of Greed - Silvermoon Trade Group
+2F4D0F00	Aegis III
+2F4E0F00	Hidden Space - 0067
+2F4F0F00	Scented Letter
+2F500F00	Fusion Reactor Core: XI
+2F7F0E00	Healer's Pack
+2FB20100	The Faceless's Cloth Armor
+2FBB0100	Chayten Leather Armor
+2FBC0100	Anderitz Leather Armor
+2FBF0100	Barian Cloth Armor
+2FE10100	Daveed Leather Gloves
+30080200	Pahna Leather Boots
+300B0400	Bekker Halberd
+300F2000	Belui Plate Helm
+30110300	Volono Rapier
+30161700	Delesyian Saddle
+30362000	Amanta Plate Armor
+30422000	Atnan Cloth Armor
+30430F00	Fundamentalist's Cloth Armor
+30440F00	Wyvernflames Captain's Pack
+30450F00	Sealed Abyss Artifact
+30460F00	Rusty Tipped Page Butterfly
+30470F00	Lucius's Cloth Armor
+30480F00	Gilded Vase
+30490F00	Mysterious Note
+304A0F00	Sealed Abyss Artifact
+304B0F00	Warning of Longleaf Forest Entry
+304C0F00	Gear Blueprint: Heart of the Serpent
+304D0F00	Grey Wolf Cloth Cloak
+304E0F00	Hidden Space - 0068
+304F0F00	Scented Letter
+30500F00	Fusion Reactor Core: XII
+307F0E00	Healer's Pack
+3085D157	Grotevant Plate Armor
+308C2000	Latear Leather Boots
+30BB0100	Colatte Leather Armor
+30BC0100	Rapps Leather Armor
+30BF0100	Barcy Cloth Armor
+30E10100	Bettie Leather Gloves
+310F2000	Drea Plate Helm
+31110300	Fallen Kingdom's Rapier
+31161700	Exclaire Saddle
+31362000	Kakuta Plate Armor
+313E0C00	Hernand Wine Storehouse Key
+31422000	Dilanka Cloth Armor
+31430F00	Gilded Goblin's Cloth Armor
+31440F00	Gate of Peace Disruptor Key
+31450F00	Sealed Abyss Artifact
+31460F00	Tech Gloves
+31470F00	Duncan's Cloth Armor
+31480F00	Trophy - Spear Duel
+31490F00	Shineberry
+314A0F00	Sealed Abyss Artifact
+314B0F00	Hidden Treasure
+314C0F00	Gear Blueprint: Heart of Stone
+314D0F00	A Butler's Note
+314E0F00	Hidden Space - 0069
+314F0F00	Letter from Mom
+31500F00	Fusion Reactor Core: XIII
+317F0E00	Healer's Pack
+318C2000	Munndt Leather Boots
+31BB0100	Katerm Leather Armor
+31BC0100	Cantars Leather Armor
+31BF0100	Bartmun Cloth Armor
+320B0400	Celeste Halberd
+32110300	Elemore Rapier
+32161700	Hernandian Saddle
+32362000	Arcalu Plate Armor
+32422000	Patika Cloth Armor
+32430F00	Saint's Blessing
+32440F00	Musket Shield
+32450F00	Shrimp
+32460F00	Bounty Notice - Simon de Montfort
+32470F00	Anders's Cloth Armor
+32480F00	Trophy - Sword Duel
+32490F00	Seed Supply Contract - Hernand
+324A0F00	Sealed Abyss Artifact
+324B0F00	Statue of the Goddess of Justice
+324C0F00	Gear Blueprint: Momentum
+324D0F00	Letter for Damiane
+324E0F00	Hidden Space - 0070
+324F0F00	Unknown Duke's Order
+32500F00	Fusion Reactor Core: XIV
+32510F00	White Crow's Letter
+327F0E00	Healer's Pack
+328C2000	Matar Leather Boots
+32BC0100	Pictead Leather Armor
+32BF0100	Orthu Cloth Armor
+33080200	Rhegis Leather Boots
+330B0400	Golden Vanguard
+33110300	Dueling Rapier
+33161700	Varnian Saddle
+33422000	Tenkan Cloth Armor
+33430F00	Fundamentalist Goblin Leather Boots
+33440F00	Royal Guard Shield
+33450F00	Varnian Equipment Blueprint
+33460F00	Bounty Notice - Ulzok
+33470F00	Fred's Cloth Armor
+33480F00	Ordinary Gloves
+33490F00	Sparrow
+334A0F00	Sealed Abyss Artifact
+334B0F00	Light of the Battlefield Earring
+334C0F00	Clue from Lioncrest Watchtower
+334D0F00	Gear Blueprint: Frost Spike
+334E0F00	Hidden Space - 0071
+334F0F00	Crumpled Letter
+33500F00	Fusion Reactor Core: XV
+33510F00	Abyss Cell: No. 0
+337F0E00	Healer's Pack
+338C2000	Estelle Leather Boots
+33BB0100	Forest Fae Armor
+33BC0100	Varanguard Leather Armor
+33BF0100	Tohkar Cloth Armor
+33D37240	Russet Pavis Leather Gloves
+34080200	The Masked Liberator's Leather Boots
+34110300	Gilliam Rapier
+34161700	Demenissian Saddle
+343A0000	Student's Pack
+34422000	Metron Cloth Armor
+34430F00	Recipe: Pickled Fruit
+34440F00	Flame Knights Shield
+34450F00	King's Dagger
+34460F00	Bounty Notice - Haldin
+34470F00	Wybert's Cloth Armor
+34480F00	Golden Sword
+34490F00	Black-Naped Oriole
+344A0F00	Sealed Abyss Artifact
+344B0F00	Fine Fishing Rod Blueprint
+344C0F00	Slashing Reeds
+344D0F00	Gear Blueprint: Shattering Frost
+344E0F00	Hidden Space - 0072
+344F0F00	Demeniss Orphanage Registration Form
+34500F00	Fusion Reactor Core: XVI
+34510F00	Hernand Refinement Token
+347F0E00	Weaponsmith's Pack
+348C2000	Katian Leather Boots
+34BB0100	White Bloodwind Leather Armor
+34BC0100	Scarteau Leather Armor
+34BF0100	Verdinan Cloth Armor
+34CB0000	Small Demenissian Banner Pike
+35110300	Lambert Rapier
+35210000	White Horn's Ring
+35422000	Decanteau Cloth Armor
+35430F00	Reventine Priest's Spear
+35440F00	Recipe: Braised Fish and Vegetables
+35450F00	Uniform Cat Outfit
+35460F00	Bounty Notice - Alessio
+35470F00	Brennan's Cloth Armor
+35480F00	Blueprint: Faded Abyss Artifact
+35490F00	Kentish Plover
+354A0F00	Sealed Abyss Artifact
+354B0F00	Trumpet Shotgun
+354C0F00	An Engineer's Work Log
+354D0F00	Tempest of Destruction
+354E0F00	Hidden Space - 0073
+354F0F00	Letter with Smudged Words
+35500F00	Fusion Reactor Core: I-I
+35510F00	Investment Offer
+357F0E00	Weaponsmith's Pack
+358C2000	Lauques Leather Boots
+35BC0100	Huskall Leather Armor
+35BF0100	Borsehir Cloth Armor
+35CB0000	Small Delesyian Banner Pike
+36110300	Rapier of Amity
+36210000	Ring of Lightning
+36380300	Dev Specialty Crudell OneHandAxe
+36422000	Kaetra Cloth Armor
+36430F00	Riding Attire
+36440F00	Recipe: Vegetable and Seafood Porridge
+36450F00	A.T.A.G. Plating Mk III
+36460F00	Bounty Notice - Blix
+36470F00	Niall's Cloth Armor
+36480F00	Antoni Plate Armor
+36490F00	Meadow Bunting
+364A0F00	Sealed Abyss Artifact
+364B0F00	Master Key
+364C0F00	Elegant Carmine Gloves Blueprint
+364D0F00	Varken Champron
+364E0F00	Hidden Space - 0074
+364F0F00	Sawdust-Stained Letter
+36500F00	Fusion Reactor Core: I-II
+36510F00	Demeniss Refinement Token
+368C2000	Lutia Leather Boots
+36BC0100	Barbaroy Leather Armor
+36BF0100	Keanoff Cloth Armor
+37080200	Crudil Leather Boots
+37110300	Elenore Rapier
+37422000	Makran Cloth Armor
+37430F00	Leather Riding Hat
+37440F00	Recipe: Battered Seafood
+37450F00	Giath's Leather Armor
+37460F00	Bounty Notice - Bianca
+37470F00	Luke's Cloth Armor
+37480F00	Antoni Plate Helm
+37490F00	Vegetable Juice
+374A0F00	Sealed Abyss Artifact
+374B0F00	Treasure Under the Bridge
+374C0F00	Alchemy Formula: Palmar Pill
+374D0F00	Fortitude I
+374E0F00	Hidden Space - 0075
+374F0F00	Letter with a Scorched Corner
+37500F00	Fusion Reactor Core: I-III
+37510F00	Delesyia Refinement Token
+377F0E00	Woodcutter's Pack
+37BC0100	Kordaav Leather Armor
+37CB0000	Small Black Bears Banner Pike
+38210000	Earring of Dark Magic
+38310000	Double-Headed Axe of Greed
+38422000	Tantuta Cloth Armor
+38430F00	Master Trainer's Touch
+38440F00	Recipe: Steamed Fish
+38450F00	Uniform Cat Hat
+38460F00	Bounty Notice - Salvatore
+38470F00	Vernon's Cloth Armor
+38480F00	Yann's Letter
+38490F00	Baby Hedgehog
+384A0F00	Sealed Abyss Artifact
+384B0F00	Awakened Jackal's Leather Armor
+384C0F00	Warden of Darkness
+384D0F00	Fortitude II
+384E0F00	Hidden Space - 0076
+384F0F00	Priest Ordination Recommendation Letter
+38500F00	Fusion Reactor Core: I-IV
+38510F00	Pailune Refinement Token
+387F0E00	Troll Peddler's Pack
+388C2000	Rafferty Leather Shoes
+38BC0100	Lespedan Leather Armor
+39195617	White Horn's Earring
+39210000	Ogre's Ring
+39422000	Antutan Cloth Armor
+39430F00	Riding Boots
+39440F00	Recipe: Seafood Stew
+39450F00	Shield of Betrayal
+39460F00	Bounty Notice - Dante
+39470F00	Xavier's Cloth Armor
+39480F00	The Blood Coronation
+39490F00	Ornate Silver Conical Jar
+394A0F00	Sealed Abyss Artifact
+394B0F00	Demenissian Uniform Leather Gloves
+394C0F00	Elegant Carmine Cloak Blueprint
+394D0F00	Fortitude III
+394E0F00	Hidden Space - 0077
+394F0F00	Suspicious Letter
+39500F00	Fusion Reactor Core: XI-I
+39510F00	Beighen Refinement Token
+39650000	Bird Soup
+397F0E00	Pororin Pack
+39B3276B	Meyer Plate Armor
+39BC0100	Stiv Leather Armor
+39CB0000	Small Dusksongs Banner Pike
+39E10100	Lennigen Leather Gloves
+3A080200	Scorchflame Leather Boots
+3A210000	Witch's Ring
+3A422000	Ankrian Cloth Armor
+3A430F00	Small Calphadean Banner Pike
+3A440F00	Recipe: Fishball Soup
+3A450F00	Gilded Goblin's Cloth Armor
+3A460F00	Bounty Notice - Warren
+3A470F00	Ronald's Cloth Armor
+3A480F00	Desert Pack
+3A490F00	Toggart Cloth Cloak
+3A4A0F00	Sealed Abyss Artifact
+3A4B0F00	Forgotten Memory
+3A4C0F00	Ancient Reckoning
+3A4D0F00	Swift I
+3A4E0F00	Hidden Space - 0078
+3A4F0F00	Small Dewhaven Banner Pike
+3A500F00	Fusion Reactor Core: XII-I
+3A510F00	Tommaso Refinement Token
+3A650000	Longhorn Soup
+3A750000	Gunpowder
+3A7F0E00	Florindale Empty Pack
+3A8C2000	Raphelia Leather Boots
+3ABC0100	Dyrfrith Leather Armor
+3ACB0000	Small Faceless Banner Pike
+3B110300	Liberre Rapier
+3B195617	Necklace of Lightning
+3B270000	Shiny Blue Sea Lantern
+3B422000	Sirion Cloth Armor
+3B430F00	Pailunese Signet
+3B440F00	Recipe: Harvest Roll
+3B450F00	Regglin Plate Helm
+3B460F00	Savage Sawblade
+3B470F00	Fritz's Cloth Armor
+3B480F00	Bear Hide Cloak
+3B490F00	Goblin Dueling Plate Gloves
+3B4A0F00	Sealed Abyss Artifact
+3B4B0F00	Cylindrical Ocher Jar
+3B4C0F00	Purple Scout Earring
+3B4D0F00	Swift II
+3B4E0F00	Hidden Space - 0079
+3B4F0F00	Medium Demenissian Noble's Banner Pike
+3B500F00	Fusion Reactor Core: XIII-I
+3B510F00	Small Bag
+3B7F0E00	Scrap Metal Pack
+3B8C2000	Lakshi Leather Shoes
+3BBC0100	Stugrub Leather Armor
+3BE10100	Kaeridyn Leather Gloves
+3C270000	Shroud Lantern
+3C3E0C00	[Demeniss Poster] - Invitation to the Demeniss Circus
+3C422000	Sirenta Cloth Armor
+3C430F00	Gilded Shield
+3C440F00	Recipe: Vegetable Rice Cake
+3C450F00	The Skull Collector's Wagon
+3C460F00	Bounty Notice - Grull
+3C470F00	Otto's Cloth Armor
+3C480F00	Demenissian Elite Uniform Leather Armor
+3C490F00	Test OneHandAxe
+3C4A0F00	Sealed Abyss Artifact
+3C4B0F00	Cylindrical Clay Jar
+3C4C0F00	Troccars Plate Armor
+3C4D0F00	Swift III
+3C4E0F00	Hidden Space - 0080
+3C4F0F00	Medium Demenissian Noble's Banner Pike
+3C500F00	Fusion Reactor Core: XIV-I
+3C7F0E00	Scrap Metal Pack
+3C842000	Witters Plate Boots
+3C8C2000	Marni's Cloth Armor
+3CBB0100	Pantafe Cloth Armor
+3CBC0100	Barrette Leather Armor
+3CBECD45	Bandit's Leather Greaves
+3D210000	Flower Petal Earring
+3D270000	Fancy Flame-Patterned Lantern
+3D3E0C00	[Demeniss Poster] - Invitation to the Demeniss Circus
+3D430F00	Large Gilded Shield
+3D440F00	Leather Hat of Enlightenment
+3D450F00	An Experiment to Reach Marni
+3D460F00	Bounty Notice - Fabrizio
+3D470F00	Jian's Cloth Armor
+3D480F00	Golden Goblet
+3D490F00	Dark Grey Dye
+3D4A0F00	Sealed Abyss Artifact
+3D4B0F00	Old Round Jar
+3D4C0F00	Replenishing Arrows
+3D4D0F00	Haste I
+3D4E0F00	Hidden Space - 0081
+3D4F0F00	Medium Demenissian Noble's Banner Pike
+3D500F00	Fusion Reactor Core: XI-III
+3D730000	Paddlefish
+3D7F0E00	Scrap Metal Pack
+3D842000	Marcris Plate Boots
+3D8C2000	Marni's Chain Gloves
+3DB20100	Bolton Plate Armor
+3DBB0100	Echebern Cloth Armor
+3DBC0100	Gaut Leather Armor
+3DBF0100	Rhonid Cloth Armor
+3DCB0000	Small Wells Banner Pike
+3DE10100	Merridew Leather Gloves
+3E270000	Dark Fog Lantern
+3E3E0C00	[Demeniss Poster] - Invitation to the Demeniss Circus
+3E430F00	Theona Checkerspot Butterfly
+3E440F00	Recipe: Grain Soup
+3E450F00	Shadowleaf Bow
+3E460F00	Bounty Notice - Garth
+3E470F00	Marius's Cloth Armor
+3E480F00	Silver Goblet
+3E490F00	Iguana Rider Leather Boots
+3E4A0F00	Sealed Abyss Artifact
+3E4B0F00	Brown Round Jar
+3E4C0F00	Gear Blueprint: Orbs of Lightning
+3E4D0F00	Haste II
+3E4E0F00	Hidden Space - 0082
+3E4F0F00	Small Greymane Banner Pike
+3E500F00	Fusion Reactor Core: XII-III
+3E510F00	White Bear Claws
+3E730000	Broadnose Sevengill Shark
+3E842000	Tidebreaker Boots
+3E8C2000	Marni's Chain Boots
+3EB20100	Blackburn Plate Armor
+3EBF0100	Pouhel Cloth Armor
+3F080200	Huntington Leather Boots
+3F270000	Flame Lantern
+3F430F00	Light of the Battlefield Plate Boots
+3F440F00	Thalwynd Hammer
+3F450F00	Abandoned Bell
+3F460F00	Bounty Notice - Selene
+3F470F00	Greymane Cloth Gloves
+3F480F00	Bronze Goblet
+3F490F00	News of White Horn's Defeat
+3F4A0F00	Sealed Abyss Artifact
+3F4B0F00	Old Water Pot
+3F4C0F00	Voyage Log to Jijeong Temple
+3F4D0F00	Haste III
+3F4E0F00	Hidden Space - 0083
+3F4F0F00	Small Musket of Demeniss Banner Pike
+3F500F00	Fusion Reactor Core: XIII-III
+3F510F00	Fang of Silver Fang
+3F730000	Giant Red Seabream
+3F842000	Prani Plate Helm
+3F8C2000	Desert Marauder's Plate Armor
+3FA41F5D	Exclaire Barding
+3FB20100	Reppin Plate Armor
+3FBF0100	Dillinger Cloth Armor
+3FCB0000	Small Blinding Arrows Banner Pike
+40080200	Adeion Leather Boots
+40380000	Wanderer of Faith's Plate Helm
+40420F00	Health Amplification
+40422000	Dyran Cloth Armor
+40430F00	Adventurer's Cooking Inventory Type B
+40440F00	Dekarr Hammer
+40450F00	Peddler Cat Outfit
+40460F00	Bounty Notice - Cecil
+40470F00	Colton's Cloth Helm
+40480F00	Wooden Mug
+40490F00	News of the Bonepit
+404A0F00	Puppy Plate Helm
+404B0F00	Light Brown Water Pot
+404C0F00	Note in the Cabin
+404D0F00	Ascent I
+404E0F00	Hidden Space - 0084
+404F0F00	Small Heavy Silence Banner Pike
+40500F00	Fusion Reactor Core: XIV-III
+40510F00	Snowwhite Deer Antlers
+40730000	Crimson Opaleye
+40750000	Delesyian Wine
+40842000	Northern Fighter's Leather Boots
+408C2000	Desert Marauder's Plate Armor
+40B20100	Ashad Plate Armor
+40BF0100	Eckney Cloth Armor
+410D0300	Grey Wolf's Sword
+41121700	Hyperion Champron
+41380000	Plate Helm of Cursed Soul
+41420F00	Spirit Amplification
+41430F00	Recipe: Battered Grains
+41440F00	Balton Hammer
+41450F00	Autumn Banquet Plate Helm
+41460F00	Bounty Notice - Blair
+41470F00	Arnold's Cloth Helm
+41480F00	Brass Goblet
+41490F00	News of Beloth, the Darksworn's Defeat
+414A0F00	Puppy Plate Armor
+414B0F00	Khalid's Poster
+414C0F00	Reventine Winery
+414D0F00	Ascent II
+414E0F00	Hidden Space - 0085
+414F0F00	Food Supply Contract - Hernand
+41500F00	Fusion Reactor Core: XI-IV
+41510F00	Icicle Edge Alpine Ibex Horn
+41650000	Antler Tea
+416D0400	Shield of a Blossoming Spring Day
+41730000	Giant Pond Loach
+41842000	Dumenis Plate Boots
+418C2000	Helms Leather Armor
+41B20100	Solas Plate Armor
+41BC0100	Bettert Leather Armor
+41CB0000	Small Hellhounds Banner Pike
+41E10100	Astia Cloth Gloves
+42380000	Red Rider's Plate Helm
+42420F00	Stamina Amplification
+42422000	Direnya Cloth Armor
+42430F00	Anti-Caliburn Signboard
+42440F00	Ruby-Set Golden Dagger
+42450F00	Delesyian Contribution Banner Pike
+42460F00	Bounty Notice - Bo
+42470F00	Wybert's Cloth Helm
+42480F00	Sturdy Wooden Beer Mug
+42490F00	Water Strider
+424A0F00	Seafood Stew
+424B0F00	Travel Flask
+424C0F00	Hayroof Farm Windmill
+424D0F00	Ascent III
+424E0F00	Hidden Space - 0086
+424F0F00	Food Supply Contract - Calphade
+42500F00	Fusion Reactor Core: XII-IV
+42510F00	Rock Tusk Warthog Molar
+42650000	Fruit Juice
+426D0400	Demenissian Shield of Valor
+42730000	Sailfish
+428C0B00	Shrubby Sophora
+428C2000	Helms Plate Gloves
+42B20100	Beverly Plate Armor
+42BC0100	Schlitz Leather Armor
+43380000	Demenissian Guard's Plate Helm
+43420F00	Increased Attack Speed
+43422000	Tytuan Cloth Armor
+43430F00	Vaporwalker
+43440F00	Bekker Hammer
+43450F00	Pirate King Hat
+43460F00	Golden Kerria Shield
+43470F00	Fritz's Cloth Helm
+43480F00	Worn Wooden Beer Mug
+43490F00	News of Skull Knight's Demise
+434A0F00	Fishball Soup
+434B0F00	Thomas's Poster
+434C0F00	Horseshoe Lake Burrow
+434D0F00	Power Core - Ore of Resipiscence
+434E0F00	Hidden Space - 0087
+434F0F00	Food Supply Contract - Kharonso
+43500F00	Fusion Reactor Core: XIII-IV
+43510F00	Sigil of Solidarity (White Bear)
+436D0400	Demenissian Shield of Loyalty
+43730000	Golden Tench
+438C0B00	False Starwort
+438C2000	Helms Leather Boots
+43BC0100	Binden Leather Armor
+43E10100	Aldwin Leather Gloves
+44080200	Diencia Cloth Boots
+44380000	Demenissian Guard's Plate Helm
+44420F00	Increased Movement Speed
+44422000	Tegatel Cloth Armor
+44430F00	Specter Sword
+44440F00	Skyroot Seed
+44450F00	Crashed Cloudcart
+44460F00	Bounty Notice - Ursula
+44470F00	Morrow's Leather Armor
+44480F00	Old Wooden Beer Mug
+44490F00	News of the Sandfang Marauders' Defeat
+444A0F00	Harvest Roll
+444B0F00	Nix's Poster
+444C0F00	Cabin by the Waterfall
+444D0F00	Power Core - Casket of Illusions
+444E0F00	Hidden Space - 0088
+444F0F00	Food Supply Contract - Demeniss
+44500F00	Fusion Reactor Core: XIV-IV
+44510F00	Sigil of Solidarity (Silver Fang)
+446D0400	Demenissian Shield of Obedience
+44730000	Coelacanth
+448C0B00	Satintail Root
+448C2000	Helms Leather Boots
+44BC0100	Auld Leather Armor
+45380000	Crimson Chaser Plate Helm
+45420F00	Counterweight Leather Gloves
+45422000	Tikatan Cloth Armor
+45430F00	A.T.A.G. Plating Mk I
+45440F00	Purple Flower-Shaped Cactus Pot
+45450F00	Wagon Barding II
+45460F00	Bounty Notice - Helia
+45470F00	Laurent's Leather Armor
+45480F00	Decorative Silver Mug
+45490F00	News of Skevald the Carrion King's Defeat
+454A0F00	Vegetable Rice Cake
+454B0F00	Bea's Poster
+454C0F00	Restricted Area
+454D0F00	Power Core - Crown of Shadows
+454E0F00	Hidden Space - 0089
+454F0F00	Food Supply Contract - Delesyia
+45500F00	Fusion Reactor Core: XXI-I
+45510F00	Sigil of Solidarity (Snowwhite Deer)
+45730000	Golden Carp
+45BC0100	Mavin Leather Armor
+45E10100	Latian Leather Gloves
+46121700	Sahareum Champron
+46380000	Descao Plate Helm
+46420F00	Cat Plate Helm
+46422000	Qaturan Cloth Armor
+46430F00	Outlaw's Gold Ore Pack
+46440F00	Razor Clam
+46450F00	Constellation Research Journal
+46460F00	Bounty Notice - Elara
+46470F00	Brant's Leather Armor
+46480F00	Decorative Brass Goblet
+46490F00	News of the Black Fang's Defeat
+464A0F00	Grain Soup
+464B0F00	Omar's Poster
+464C0F00	Piece from Lioncrest Watchtower
+464D0F00	Vitality I
+464E0F00	Hidden Space - 0090
+464F0F00	Food Supply Contract - Pailune
+46500F00	Fusion Reactor Core: XXII-I
+46510F00	Sigil of Solidarity (Icicle Edge Alpine Ibex)
+46750000	Lubricant
+468C2000	Helms Rhinoceros Beetle Helm
+46BB0100	Militia Cloth Armor
+47121700	Berkei Champron
+47195617	Oath of Darkness
+47380000	Demenissian Guard's Plate Helm
+47420F00	Desert Marauder's Plate Helm
+47422000	Nantuka Cloth Armor
+47430F00	Straw Bale Helm
+47440F00	City Guard's Shield
+47450F00	Recipe: Pan-Fried Vegetables
+47460F00	Bounty Notice - Sigor
+47470F00	Joseph's Leather Armor
+47480F00	Large Decorative Goblet
+47490F00	Camp Timber
+474A0F00	Chewy Rice Cakes
+474B0F00	Kuku Robot Special Blueprint
+474C0F00	Sealed Letter
+474D0F00	Vitality II
+474E0F00	Hidden Space - 0091
+474F0F00	Food Supply Contract - Tommaso
+47500F00	Fusion Reactor Core: XXIII-I
+47510F00	Sigil of Solidarity (Rock Tusk Warthog)
+47730000	Anglerfish
+478C2000	Helms Stag Beetle Helm
+47BB0100	Pyrantha Cloth Armor
+47BC0100	Raspin Leather Armor
+47BF0100	Baratum Cloth Armor
+48080200	Pavis Leather Boots
+48121700	Delesyian Champron
+48195617	Mark of Darkness
+48420F00	Autumn Banquet Leather Armor
+48422000	Entuka Cloth Armor
+48430F00	Goblin Pumpkin Helm
+48440F00	Fundamentalist Officer Cloth Boots
+48450F00	Ulzok's Hideout
+48460F00	Bounty Notice - Duran
+48470F00	Gilbert's Leather Armor
+48480F00	Worn Decorative Silver Mug
+48490F00	Gerald's Leather Armor
+484A0F00	Assorted Meat and Fish Skewers
+484B0F00	Adventurer's Cooking Inventory Type E
+484C0F00	Gear Blueprint: Steelbane
+484D0F00	Vitality III
+484E0F00	Hidden Space - 0092
+484F0F00	Food Supply Contract - Varnia
+48500F00	Fusion Reactor Core: XXIV-I
+485F0300	Aeserion Mace
+488C2000	Dutian Chain Mail
+48BB0100	Torress Cloth Armor
+48BC0100	Duvelle Leather Armor
+48BF0100	Baritum Cloth Armor
+49080200	Trowder Leather Boots
+49121700	Exclaire Champron
+49195617	Relic of Darkness
+49420F00	Leather Armor of Earth's Honor
+49430F00	Harpy Feather
+49440F00	Kairos Plate Helm
+49450F00	Captive's Cloth Armor
+49460F00	Bounty Notice - Borzak
+49470F00	Max's Leather Armor
+49480F00	Large Multipurpose Vessel
+49490F00	Camp Stone
+494A0F00	Grilled Meat Steak
+494B0F00	Unidentified Corpse
+494C0F00	Wind Slash
+494D0F00	Power Core - Spire of Defiance
+494E0F00	Hidden Space - 0093
+494F0F00	Medium Dusksongs Banner Pike
+49500F00	Fusion Reactor Core: XXI-III
+49730000	Electric Eel
+498C2000	Darren Cloth Armor
+49BB0100	Arandhal Cloth Armor
+49BC0100	Karius Leather Armor
+49BF0100	Baras Cloth Armor
+49E10100	Vicaron Leather Gloves
+4A121700	Hernandian Champron
+4A3E2000	Riclia Leather Armor
+4A420F00	Official Knight's Leather Gloves
+4A430F00	Ancient Shield
+4A440F00	Shiny Rock
+4A450F00	Captive's Cloth Armor
+4A460F00	Bounty Notice - Giovanni
+4A470F00	Silvan's Leather Armor
+4A480F00	Fine Gold Goblet
+4A490F00	Camp Weapons
+4A4A0F00	Meatball Soup
+4A4A3C73	Inquisitor's Plate Helm
+4A4B0F00	Birch Forest Grave
+4A4C0F00	Gear Blueprint: Hexebane
+4A4D0F00	Power Core - Verse of Sowing
+4A4E0F00	Hidden Space - 0094
+4A4F0F00	Medium Faceless Banner Pike
+4A500F00	Fusion Reactor Core: XXII-III
+4A70AC5F	Levin Plate Armor
+4A8C2000	Cherlay Leather Gloves
+4ABC0100	Slouwen Leather Armor
+4B121700	Varnian Champron
+4B195617	Karanda's Necklace
+4B380000	Helms Beetle Helm
+4B3E2000	Wandering Freesword's Leather Armor
+4B420F00	Autumn Banquet Leather Boots
+4B430F00	LightSaber TwoHandSword
+4B440F00	Recipe: Chewy Rice Cakes
+4B450F00	Captive's Cloth Armor
+4B460F00	Bounty Notice - Morga
+4B470F00	Mysterious Pot Crafting Contract
+4B480F00	Artisan's Metal Goblet
+4B490F00	Warning of Judgment
+4B4A0F00	Mixed Skewers
+4B4B0F00	Treetop Wagon
+4B4C0F00	Gear Blueprint: Bloodbane
+4B4D0F00	Core of Penitence
+4B4E0F00	Hidden Space - 0095
+4B4F0F00	Medium Ironflame Orcs Banner Pike
+4B500F00	Fusion Reactor Core: XXIII-III
+4B510F00	Varnia Refinement Token
+4B8C2000	Gardeiff Cloth Armor
+4BBB0100	Toudon Cloth Armor
+4BBC0100	Bleawin Leather Armor
+4BBF0100	Baraccuro Cloth Armor
+4BE10100	Leppo Leather Gloves
+4C080200	Pieti Leather Boots
+4C121700	Demenissian Champron
+4C195617	Witch's Earring
+4C380000	Helms Hornet Helm
+4C3E2000	Leopard Print Leather Armor
+4C420F00	Official Knight's Leather Boots
+4C430F00	Bedure Chain Cloak
+4C440F00	Kairos Plate Armor
+4C450F00	Captive's Cloth Armor
+4C460F00	Bounty Notice - Lilith
+4C470F00	Firefly
+4C480F00	Ornate Gold Goblet
+4C490F00	Tommasoan Contribution Banner Pike
+4C4A0F00	Harvest Soup
+4C4B0F00	Abandoned House
+4C4C0F00	Bountiful Harvest
+4C4D0F00	Core of Renunciation
+4C4E0F00	Hidden Space - 0096
+4C4F0F00	Medium Greymane Banner Pike
+4C500F00	Fusion Reactor Core: XXIV-III
+4C510F00	Medium Bag
+4C8C2000	Cherlay Leather Boots
+4CAC2700	Light of the Battlefield Plate Armor
+4CBB0100	Cherke Leather Armor
+4CBC2C16	Crail Plate Armor
+4CE10100	Brogant Leather Gloves
+4D080200	Norman Leather Boots
+4D195617	Seal of Pitch-Black Darkness
+4D360000	Frostbone Shield
+4D362000	Luon Plate Armor
+4D380000	Helms Bull Helm
+4D3E2000	Horizon Leather Armor
+4D420F00	Official Knight's Plate Armor
+4D430F00	Dev Speed Ring
+4D440F00	Bounty Notice - Brooks
+4D450F00	Captive's Cloth Armor
+4D460F00	Bounty Notice - Zelia
+4D470F00	Golden Coelacanth
+4D480F00	Plain Wooden Beer Mug
+4D490F00	Bomb
+4D4A0F00	Pan-Fried Rice Cakes
+4D4B0F00	A Strange Skull
+4D4C0F00	Brookfield Manor
+4D4D0F00	Core of Expiation
+4D4E0F00	Hidden Space - 0097
+4D4F0F00	Medium Hellhounds Banner Pike
+4D500F00	Fusion Reactor Core: XXI-IV
+4D510F00	Large Bag
+4D8C2000	Gaph Cloth Armor
+4DBB0100	Blin Leather Armor
+4DBC0100	Trellian Leather Armor
+4E3E2000	Pirin Leather Armor
+4E420F00	Cat Plate Armor
+4E430F00	Blackwing Leather Cloak
+4E440F00	Bounty Notice - Obyss
+4E450F00	Captive's Cloth Armor
+4E460F00	Bounty Notice - Talgrim
+4E470F00	Mining Knuckledrill
+4E480F00	Sealed Abyss Artifact
+4E490F00	Duane's Leather Armor
+4E4A0F00	Meat Stew
+4E4B0F00	A Suspicious Sculptor
+4E4C0F00	Gear Blueprint: Primalbane
+4E4D0F00	Core of Oblation
+4E4E0F00	Hidden Space - 0098
+4E4F0F00	Medium Hernandian Banner Pike
+4E500F00	Fusion Reactor Core: XXII-IV
+4E510F00	Extra Large Bag
+4E8C2000	Wendahl Leather Shoes
+4E960100	Bollin Cloth Cap
+4EBC0100	Sunset Reed Leather Armor
+4F080200	Driseld Leather Boots
+4F362000	Lukatz Plate Armor
+4F380000	Blackwing Mask
+4F420F00	Grilled Meat Patties
+4F430F00	Memory of the Kidnapped Witch
+4F440F00	Recipe: Assorted Meat and Fish Skewers
+4F450F00	Captive's Cloth Armor
+4F460F00	Sior Blaster
+4F470F00	Wolf's Fang
+4F480F00	Bread Plate
+4F490F00	Shane's Leather Armor
+4F4A0F00	Abyss Cell
+4F4B0F00	H.A.L.L.
+4F4C0F00	Lioncrest Manor
+4F4D0F00	Core of Mortification
+4F4E0F00	Hidden Space - 0099
+4F4F0F00	Medium Marni Banner Pike
+4F500F00	Fusion Reactor Core: XXIII-IV
+4F8C2000	Wendahl Leather Gloves
+4F960100	Radein Cloth Cap
+4FE10100	Delise Leather Gloves
+50195617	Ancient Earring
+50362000	Luca Plate Armor
+50380000	Frostcursed Plate Helm
+50420F00	Hernand Contribution Shop Flyer
+50430F00	Hernandian Honor Guard Cloak
+50440F00	Kuku Gardening Pack
+50450F00	Captive's Cloth Armor
+50460F00	Bounty Notice - Torfinn
+50470F00	Pillager's Leather Boots
+50480F00	Deep Bowl
+50490F00	Seafood Soup
+504A0F00	Mixed Harvest Bowl
+504B0F00	Upper Nas River Dam
+504C0F00	Produce Order Form
+504D0F00	Core of Faith
+504E0F00	Hidden Space - 0100
+504F0F00	Medium Musket of Demeniss Banner Pike
+50500F00	Fusion Reactor Core: XXIV-IV
+50BF0100	Barrow Cloth Armor
+50E10100	Boggen Leather Gloves
+51080200	Dutrat Leather Boots
+51195617	Ancient Ring
+51362000	Garten Plate Armor
+51380000	Carta Plate Helm
+51420F00	Crude Itano Cannonball
+51430F00	Dark Ringleader's Cloth Cloak
+51440F00	Oongka's Arms Aging Appearance Change Coupon
+51450F00	Captive's Cloth Armor
+51460F00	Bounty Notice - Sigrid
+51470F00	Red Spice Bowl
+51480F00	Storage Bowl
+51490F00	Evelyn's Leather Boots
+514A0F00	Battered Harvest Roll
+514B0F00	Hernand Gallows
+514C0F00	Clue from Duskwood
+514D0F00	Core of Benediction
+514E0F00	Hidden Space - 0101
+514F0F00	Medium Pailunese Banner Pike
+51500F00	Fusion Reactor Core: III-I
+518C2000	Melina Cloth Armor
+51A50500	Pailunese Shotgun
+51BF0100	Bailao Cloth Armor
+52080200	Reus Leather Boots
+52195617	Ancient's Necklace
+52362000	Half Moon Reaper Plate Armor
+52420F00	Crude Bismuth Cannonball
+52430F00	Riding Cloak
+52440F00	Accessories of the World, Vol. I
+52450F00	Captive's Cloth Armor
+52460F00	Bounty Notice - Throk
+52470F00	Chameleon
+52480F00	Wide Bowl
+52490F00	Hartmann Plate Helm
+524A0F00	Mixed Stew
+524B0F00	Bruna's Note
+524C0F00	Storm Fang
+524D0F00	Core of Absolution
+524E0F00	Hidden Space - 0102
+524F0F00	Medium Vellua Pirate Banner Pike
+52500F00	Fusion Reactor Core: III-II
+528C2000	Moshane Chain Mail
+52A50500	Dewhaven Shotgun
+52B20100	Lemerick Chain Mail
+52BC0100	Nameless Sage's Leather Armor
+52BF0100	Barclao Cloth Armor
+53080200	Lascaux Leather Boots
+53340300	Bekker Axe
+53362000	Strell Plate Armor
+53420F00	TestTwoHandAxe
+53430F00	Tariv Cloth Cloak
+53440F00	Equestrian III
+53450F00	Captive's Cloth Boots
+53460F00	Bounty Notice - Rolf
+53470F00	Kuku Breeze-Step Boots
+53480F00	Nut Bowl
+53490F00	Steamed Seafood
+534A0F00	Pan-Fried Marinated Fish
+534B0F00	The Madman and the Crows
+534C0F00	Gear Blueprint: Malicebane
+534D0F00	Core of Solace
+534E0F00	Hidden Space - 0103
+534F0F00	Medium Heavy Silence Banner Pike
+53500F00	Fusion Reactor Core: III-III
+538C2000	Kriella Cloth Armor
+53A2C27B	Katunan Chain Mail
+53A50500	Mortimer Shotgun
+53AC2700	White Bloodwind Plate Helm
+53B20100	Lauer Chain Mail
+53C30000	Poison Arrow
+53E10100	Delinell's Leather Gloves
+54080200	Mistum Leather Boots
+54362000	Riverdine Chain Mail
+543D0000	Aeserion Spear
+543E2000	Dellovian Leather Armor
+54420F00	Swallowtail
+54430F00	Skyblazer Cloth Cloak
+54440F00	Humpback Whale Glass Art
+54450F00	Captive's Cloth Headband
+54460F00	Bounty Notice - Wolfe
+54470F00	Strongbow Gloves
+54480F00	Grain Bowl
+54490F00	Wells Military Saddle
+544A0F00	Fish Stew
+544B0F00	Boulder Crash Site
+544C0F00	Wound of Darkness
+544D0F00	Core of Revelation
+544E0F00	Hidden Space - 0104
+544F0F00	Medium Blinding Arrows Banner Pike
+54500F00	Fusion Reactor Core: III-IV
+54810B00	Poison
+54A50500	Metilbahm Shotgun
+54B20100	Senon Plate Armor
+54BC0100	Ludynn Leather Armor
+54BF0100	Barch Cloth Armor
+54E10100	Wertesh Leather Gloves
+55080200	Sillau Leather Boots
+550D0300	Glenmore Sword
+55362000	Triali Plate Armor
+553D0000	Reckoning
+55420F00	St. Halssius Priest Attire
+55430F00	Pailunese Cloak
+55440F00	Accessories of the World, Vol. II
+55450F00	Captive's Cloth Helm
+55460F00	Bounty Notice - Aera
+55470F00	MastKey Gloves
+55480F00	Demeniss Elite Uniform Leather Boots
+55490F00	Sealed Abyss Artifact
+554A0F00	Assorted Braised Fish
+554B0F00	Abandoned House on the Water
+554C0F00	Bea's Note
+554D0F00	Surge I
+554E0F00	Hidden Space - 0105
+554F0F00	Medium Halberd of Carnage's Banner Pike
+55500F00	Fusion Reactor Core: XXXI-II
+558C2000	Kriella Cloth Gloves
+55A50500	Delesyian Shotgun
+55B20100	Leighbog Plate Armor
+55BC0100	Reak Leather Armor
+55CE0500	Small Demenissian Banner Pike
+55E10100	Keimbel Leather Gloves
+56080200	Fiatol Leather Boots
+56240000	Tariv Cloth Gloves
+56362000	Princeps Plate Armor
+563D0000	Grasping Moon
+56420F00	Diver's Machine Knuckledrill
+56430F00	Delesyian Cloth Cloak
+56440F00	Spear Manual of House Alfonso, Vol. 1
+56450F00	Captive's Cloth Helm
+56460F00	Bounty Notice - Kronk
+56470F00	Informant's Second Letter
+56480F00	Cheese Plate
+56490F00	Mild Herbal Tea
+564A0F00	Pan-Fried Vegetables
+564B0F00	Dyer on the Water
+564C0F00	Piece from Duskwood
+564D0F00	Surge II
+564E0F00	Hidden Space - 0106
+564F0F00	Medium Tommaso Banner Pike
+56500F00	Fusion Reactor Core: XXXII-II
+56810B00	Spider Web
+568C2000	Danda Chain Mail
+56A50500	Bleed Shotgun
+56B20100	Galbon Chain Mail
+56BC0100	Marc Leather Armor
+56E10100	Sladen Leather Gloves
+57362000	Juden Cloth Armor
+573D0000	Frostfang
+57420F00	[QA] Profiling (Hernand-Pailune 2.5)
+57430F00	The Masked Liberator's Cloth Cloak
+57440F00	Accessories of the World, Vol. III
+57450F00	Captive's Cloth Helm
+57460F00	Bounty Notice - Ivar
+57470F00	Informant's Third Letter
+57480F00	Demenissian Uniform Leather Armor
+57490F00	Crow Bomb
+574A0F00	Grand Meal
+574B0F00	Sky Galleon
+574C0F00	Karmic Pulse
+574D0F00	Surge III
+574E0F00	Hidden Space - 0107
+574F0F00	Medium Twilight Messengers Banner Pike
+57500F00	Fusion Reactor Core: XXXIII-II
+578C2000	Danda Cloth Cap
+57A50500	Dane Shotgun
+57B20100	Brina Plate Armor
+57BB0100	Dunqane Leather Armor
+57BC0100	Smilodon Leather Armor
+580D0300	Sydmon Sword
+58362000	Alphen Cloth Armor
+583D0000	Spear of the Fleeting
+58420F00	Staglord Acolyte's Leather Armor
+58430F00	Lunar Reapers' Plate Gloves
+58440F00	Accessories of the World, Vol. IV
+58450F00	Captive's Cloth Helm
+58460F00	Bounty Notice - Snaggle
+58470F00	Circus Invitation
+58480F00	Demenissian Uniform Leather Cloak
+58490F00	Greymane Necklace
+584A0F00	Extravagant Meal
+584B0F00	Communal Ritual
+584C0F00	Note from the Street Shop
+584D0F00	Letter from Grimnir
+584E0F00	Hidden Space - 0108
+584F0F00	Medium Varnian Banner Pike
+58500F00	Fusion Reactor Core: XXXIV-II
+58860300	Aeserion Dagger
+588C2000	Danda Leather Gloves
+58BB0100	Elliot Leather Armor
+58BC0100	Noyvarn Leather Armor
+58CE0500	Small Royal Hunting Ground Banner Pike
+58E10100	Persein Leather Gloves
+590E1700	Hyperion Barding
+59340300	Lanford Axe
+59420F00	Ornythion Swallowtail Butterfly
+59430F00	Adventurer's Cooking Inventory Type C
+59440F00	Spear Manual of House Alfonso, Vol. 2
+59450F00	Leather Half-Gloves
+59460F00	Bounty Notice - Sienna
+59470F00	Shotgun Shield
+59480F00	Small Mortar Bowl
+59490F00	Hearty Grilled Bird Meat
+594A0F00	Lavish Meal
+594B0F00	Bell of Delesyia
+594C0F00	Omar's Note
+594D0F00	Greysoul Howling
+594E0F00	Hidden Space - 0109
+594F0F00	Medium Wells Banner Pike
+59500F00	Fusion Reactor Core: XXXI-IV
+59750000	Key
+598C2000	Rapid Leather Armor
+59B20100	Prix Plate Armor
+59BB0100	Cuthbertson Leather Armor
+59BF0100	Bedure Chain Mail
+5A080200	Aurelian Leather Boots
+5A362000	Baldrin Cloth Armor
+5A3D0000	Diverging Moon
+5A420F00	Bundle of Bullets
+5A430F00	Unicorn Glass Art
+5A440F00	Brimstone
+5A450F00	Darren Leather Gloves
+5A460F00	Bounty Notice - Caesar
+5A470F00	Pierce's Leather Armor
+5A480F00	Herb Mortar Bowl
+5A490F00	Small Halberd of Carnage's Banner Pike
+5A4A0F00	Fine Meal
+5A4B0F00	Mental Reconditioning
+5A4C0F00	Clue from St. Halssius
+5A4D0F00	Blazing Shield
+5A4E0F00	Hidden Space - 0110
+5A4F0F00	Medium Wyvernflames Banner Pike
+5A500F00	Fusion Reactor Core: XXXII-IV
+5A8C2000	Cherlay Leather Armor
+5AB20100	Serroa Plate Armor
+5ABB0100	Buchanan Cloth Armor
+5ACE0500	Small Black Bears Banner Pike
+5B340300	Lambert Axe
+5B3D0000	Circling Moon
+5B420F00	Kite Shield
+5B440F00	Spear Manual of House Alfonso, Vol. 3
+5B450F00	Small Vellua Pirates Banner Pike
+5B460F00	Bounty Notice - Barrick
+5B470F00	Palmar Beetle
+5B480F00	Damaged Bowl
+5B490F00	Perwin Explosive
+5B4A0F00	Special Meal
+5B4B0F00	Vat'nholl Camp
+5B4C0F00	Bleed Officer's Leather Gloves
+5B4D0F00	Frost Spike
+5B4E0F00	Hidden Space - 0111
+5B4F0F00	Medium Flame Knights Banner Pike
+5B500F00	Fusion Reactor Core: XXXIII-IV
+5B8C2000	Darren Chain Mail
+5BBB0100	Finneron Leather Armor
+5BBF0100	Riksha Chain Mail
+5BC01100	Noble's Hat
+5BC30000	Whistling Arrow
+5BE10100	Mechlin Leather Gloves
+5C250100	Greymane's Token
+5C420F00	Freya's Lesser Elixir
+5C440F00	Countess Azerian's Letter
+5C450F00	Bow of the Fleeting
+5C460F00	Bounty Notice - Sigrun
+5C470F00	Silver Grey Dye
+5C480F00	Iron Bowl
+5C490F00	Small Pailunese Banner Pike
+5C4A0F00	Meal
+5C4B0F00	Five-Finger Mountain
+5C4C0F00	Piece from St. Halssius
+5C4D0F00	Black Oath Shield
+5C4E0F00	Hidden Space - 0112
+5C4F0F00	Simple Poster
+5C500F00	Fusion Reactor Core: XXXIV-IV
+5C8C2000	Dwelle Leather Boots
+5C960100	Rueconec Cloth Cap
+5CB20100	Dutiron Plate Armor
+5CBB0100	Torrance Leather Armor
+5CBF0100	Lathia Cloth Armor
+5CE10100	Essembel Leather Gloves
+5D080200	Eshian Leather Boots
+5D340300	Gilliam Axe
+5D420F00	Hearty Toasted Grains
+5D430F00	Northern Fighter's Chain Cloak
+5D440F00	Stalactite
+5D450F00	Tiger Mimic Queen Butterfly
+5D460F00	Bounty Notice - Tarik
+5D470F00	Engraved Stone
+5D480F00	Golden Bowl
+5D490F00	Small Wyvernflames Banner Pike
+5D4A0F00	Unidentified Abyss Gear
+5D4B0F00	The Sword's Grave and Throne
+5D4C0F00	Varnia Entrance Note
+5D4D0F00	Shattering Frost
+5D4E0F00	Hidden Space - 0113
+5D4F0F00	Simple Poster
+5D500F00	Fusion Reactor Core: XXXI-VI
+5D8C2000	Leila Cloth Cap
+5D920100	Nevin Cloth Bandana
+5DB20100	Dutinion Plate Armor
+5DE10100	Contra Leather Gloves
+5E020B00	Epidote
+5E0E1700	Sahareum Barding
+5E420F00	Apollonia's Lesser Elixir
+5E430F00	Dragon Flame Cloak
+5E440F00	Posters
+5E450F00	Delesyia Prison Key
+5E460F00	Bounty Notice - Zahir
+5E470F00	Engraved Stone
+5E480F00	Cucumber
+5E490F00	Small Tommaso Banner Pike
+5E4A0F00	Hagmund Barding
+5E4B0F00	Remains of the Giants
+5E4C0F00	Stonemire Ruins Record No. 3
+5E4D0F00	Odeck Hardwood Shield
+5E4E0F00	Hidden Space - 0114
+5E4F0F00	Simple Poster
+5E500F00	Fusion Reactor Core: XXXII-VI
+5E8C2000	Dwelle Leather Gloves
+5E960100	Agatha Cloth Cap
+5EAC2700	White Bloodwind Plate Gloves
+5EB20100	Endnion Plate Armor
+5EBB0100	Ohara Leather Armor
+5EBF0100	Kennav Cloth Armor
+5F020B00	Azurite
+5F0E1700	Berkei Barding
+5F420F00	Leather Boots of Earth's Honor
+5F430F00	Crimson Chaser Chain Cloak
+5F440F00	Mercury
+5F450F00	Reed Devil Minion's Cloth Helm
+5F460F00	Red Needle
+5F470F00	Engraved Stone
+5F490F00	Small Varnian Banner Pike
+5F4A0F00	Dead Pirate King's Treasure Map
+5F4B0F00	Broken Watermill
+5F4C0F00	The Alchemist's Chamber
+5F4D0F00	Oath Ring Shield
+5F4E0F00	Hidden Space - 0115
+5F4F0F00	Simple Poster
+5F500F00	Fusion Reactor Core: XXXIII-VI
+5F8C2000	Darren Leather Gloves
+5FAC2700	Fluttering Radiance Plate Gloves
+5FB20100	Dardnion Plate Armor
+5FBB0100	Conally Cloth Armor
+5FBF0100	Lancats Cloth Armor
+60020B00	Diamond
+600E1700	Delesyian Barding
+603B0000	Finest Rhinard Cannon
+60420F00	Pororin Cloth Cloak
+60430F00	Dolphin Glass Art
+60440F00	Rubber
+60450F00	Reed Devil Minion's Cloth Helm
+60460F00	Bounty Notice - Nabila
+60470F00	Spider
+60480F00	Beet
+60490F00	Small Twilight Messengers Banner Pike
+604A0F00	Green Algae
+604B0F00	Giant Ballista
+604C0F00	Hound's Claws
+604D0F00	Orbs of Lightning
+604E0F00	Hidden Space - 0116
+604F0F00	Alchemy Formula: Platinum
+60500F00	Fusion Reactor Core: XXXIV-VI
+608C2000	Leila Leather Gloves
+60AC2700	Light of the Battlefield Plate Gloves
+60B20100	Lavgnion Chain Mail
+60BC0100	Luverne Leather Armor
+60BF0100	Rangtua Cloth Armor
+61020B00	Bloodstone
+610E1700	Calphadean Barding
+61220000	Blizzard Crystal Necklace
+61420F00	Herder Leather Gloves
+61430F00	Hungering Fang Leather Cloak
+61440F00	Bringer of Balance
+61450F00	Reed Devil Minion's Cloth Helm
+61460F00	Bounty Notice - Brogar
+61470F00	Kailok's Cloth Armor
+61480F00	Lentils
+61490F00	Small Ironflame Orcs Banner Pike
+614A0F00	Stag Beetle
+614B0F00	Axe-Studded Tree
+614C0F00	A Man's Note
+614D0F00	Piercing Bloom
+614E0F00	Hidden Space - 0117
+614F0F00	Alchemy Formula: Gold Bar
+61500F00	Fusion Reactor Core: LI-I
+618C2000	Rapid Leather Gloves
+61B20100	Lucion Chain Mail
+61BC0100	Galanta Leather Armor
+61BF0100	Nevin Cloth Armor
+62020B00	Scolecite Ore
+620E1700	Hernandian Barding
+623B0000	Alpha Barrel Cannon
+62420F00	Meliara's Lesser Elixir
+62430F00	Leather Cloak of the Fallen Kingdom
+62440F00	Kairos Cloak
+62450F00	Official Knight's Plate Helm
+62460F00	Bounty Notice - Varka
+62470F00	Chill Arrow
+62480F00	Parsley
+62490F00	Small Marni Banner Pike
+624A0F00	Silkworm Moth
+624B0F00	Mushroom Cave
+624C0F00	Gear Blueprint: Fortune
+624D0F00	Grenbar Cloth Barding
+624E0F00	Hidden Space - 0118
+624F0F00	Satisfying Grilled Vegetables
+62500F00	Fusion Reactor Core: LII-I
+625B0300	Kadel Mace
+628C2000	Dwelle Cloth Cap
+62920100	Leontyne Plate Helm
+62B20100	Ludeon Plate Armor
+62BB0100	Rexlan Cloth Armor
+62BC0100	Nelton Leather Armor
+62BF0100	Ranphas Cloth Armor
+630D0300	Wells Sword
+630E1700	Varnian Barding
+633E2000	Baorica Leather Armor
+63420F00	Spicebush Swallowtail Butterfly
+63430F00	Helfryn Leather Cloak
+63450F00	Smoke Bomb
+63460F00	Bounty Notice - Hakim
+63470F00	Blitz Arrow
+63480F00	Blue Dragon Scale Decorative Stone
+63490F00	Small Flame Knights Banner Pike
+634A0F00	Wild Silkworm Moth
+634B0F00	Bones of the Bandits' Victims
+634C0F00	Sword of the Cursed
+634D0F00	Cernos Barding
+634E0F00	Hidden Space - 0119
+634F0F00	Scales of Fairness and Justice
+63500F00	Fusion Reactor Core: LIII-I
+63750000	Beacon Key
+638C2000	Camantti Leather Boots
+63B20100	Cerruan Plate Armor
+63BC0100	Brogue Leather Armor
+63BF0100	Roctar Cloth Armor
+640E1700	Demenissian Barding
+64320000	Goblin King's Treasure Dagger
+643B0000	Gamma Barrel Cannon
+643E2000	Variska Leather Armor
+64420F00	Redrin Cloth Cap
+64430F00	Sunset Reed Leather Cloak
+64440F00	Leafy Pot
+64450F00	Battered Meat
+64460F00	Recipe: Meal
+64470F00	Fire Arrow
+64480F00	Ancient's Decorative Stone
+64490F00	Small Bleed Bandits Banner Pike
+644A0F00	Longhorn Beetle
+644B0F00	Sinkhole
+644C0F00	Gear Blueprint: Wound of Darkness
+644D0F00	Arrow Rain
+644E0F00	Hidden Space - 0120
+644F0F00	Filling Grilled Vegetables
+64500F00	Fusion Reactor Core: LIV-I
+645B0300	Kordaav Mace
+64AC2700	White Bloodwind Leather Boots
+64B20100	Mahon Plate Armor
+64BB0100	Tarmiden Cloth Armor
+64BC0100	Hodges Leather Armor
+64BF0100	Barbaroy Cloth Armor
+65000000	Modest Copper Pouch
+650E1700	Demenissian Soldier's Cloth Barding
+653E2000	Varsoka Leather Armor
+65420F00	Helm of Knowledge
+65430F00	Duskfang Leather Cloak
+65440F00	Dwarf Necklace
+65450F00	Light of the Battlefield Plate Helm
+65460F00	Blinding Arrow Cloth Cloak
+65470F00	Evelyn's Leather Armor
+65480F00	Red Fire Decorative Stone
+65490F00	Small Staglord Banner Pike
+654A0F00	Jewel Beetle
+654B0F00	Adventurer's Refinement Inventory Type A
+654C0F00	Ugmon's Note
+654D0F00	Long-Tailed Tit
+654E0F00	Hidden Space - 0121
+654F0F00	Hearty Grilled Fruit
+65500F00	Fusion Reactor Core: LI-II
+658C2000	Blinding Arrows Scout's Cloth Armor
+65B20100	Caliburn's Plate Armor
+65BC0100	Ducca Leather Armor
+65BF0100	Fiore Cloth Armor
+65E40100	Stugrub Cloth Gloves
+66000000	Full Copper Pouch
+660E1700	Hernandian Soldier's Cloth Barding
+66420F00	Recipe: Grilled Meat and Fish
+66430F00	Grey Wolf Leather Cloak
+66440F00	Elise's Note
+66450F00	Mask
+66460F00	Electro-Mecha Longsword
+66470F00	Andrew's Leather Armor
+66480F00	Dewhaven Standard Cloth Cloak
+66490F00	Small Hernandian Banner Pike
+664A0F00	One-Handed Weapons of the World, Vol. I
+664B0F00	Mysterious Cave Entrance
+664C0F00	Serkis's Study
+664D0F00	Unsealed Letter
+664E0F00	Hidden Space - 0122
+664F0F00	Satisfying Grilled Fruit
+66500F00	Fusion Reactor Core: LII-II
+665B0300	Marching Baton
+668C2000	Blinding Arrow's Leather Armor
+66BB0100	Seiden Leather Armor
+66BF0100	Warstein Cloth Armor
+66FC163B	Edzel Plate Armor
+67000000	Light Copper Pouch
+670E1700	Wagon Barding
+67340300	Maeve Axe
+67420F00	Sivern Leather Gloves
+67430F00	Weasel Leather Cloak
+67440F00	Red Flower Pot
+67450F00	Fish Skewers
+67460F00	Saltroad Mace
+67470F00	Rhett's Poster
+67480F00	Large Wooden Plate
+67490F00	Small Demenissian Noble's Banner
+674A0F00	One-Handed Weapons of the World, Vol. II
+674B0F00	Lightning-Struck Tree
+674C0F00	Bernor's Pickaxe
+674D0F00	Kinetic Burst
+674E0F00	Hidden Space - 0123
+674F0F00	Filling Grilled Fruit
+67500F00	Fusion Reactor Core: LIII-II
+675B0300	Lanford Mace
+678C2000	Blinding Arrows Scout's Cloth Armor
+67BB0100	Soron Leather Armor
+67BC0100	Berker Leather Armor
+67BF0100	Conentry Cloth Armor
+68000000	Full Silver Pouch
+68080200	Clays Leather Boots
+68420F00	Bobfett Plate Helm
+68430F00	Ynitium Leather Cloak
+68440F00	Sealed Abyss Artifact
+68450F00	Darren Leather Gloves
+68460F00	Shield of Radiance
+68470F00	Buckshot Bullet
+68480F00	Bright Wooden Plate
+68490F00	Small Demenissian Noble's Banner
+684A0F00	One-Handed Weapons of the World, Vol. III
+684B0F00	Flowerbush of Safety
+684C0F00	Driana's Note
+684D0F00	Gear Blueprint: Crescent Moon Slash
+684E0F00	Hidden Space - 0124
+684F0F00	Hearty Grilled Seafood
+68500F00	Fusion Reactor Core: LIV-II
+685B0300	Frozen Soul
+688C2000	Blinding Arrow's Leather Armor
+68AD0300	Aeserion Longsword
+68BB0100	Barunin Leather Armor
+68BC0100	Tatura Leather Armor
+68BF0100	Berkhia Cloth Armor
+68E10100	The Masked Liberator's Leather Gloves
+68E40100	Arti Leather Gloves
+69000000	Overflowing Silver Pouch
+69080200	Daveed Leather Boots
+69420F00	Sir Catfish's Armor
+69430F00	Jester Leather Cloak
+69440F00	Electromagnetic Boltspitter
+69450F00	Captive's Leather Helm
+69460F00	Painted Lady Butterfly
+69470F00	Explosive Arrow
+69480F00	Concave Wooden Plate
+69490F00	Small Demenissian Noble's Banner
+694A0F00	One-Handed Weapons of the World, Vol. IV
+694B0F00	Adventurer's Refinement Inventory Type B
+694B556C	Blacksteel Lattua Plate Boots
+694C0F00	St. Halssius's House of Healing
+694D0F00	Kliff Aging Appearance Change Coupon
+694E0F00	Hidden Space - 0125
+694F0F00	Satisfying Grilled Seafood
+69500F00	Fusion Reactor Core: LI-IV
+69740000	Small Blackbrow Bleak
+698C2000	Blinding Arrows Scout's Cloth Armor
+69BC0100	Tavat Leather Armor
+69BF0100	Austfeld Cloth Armor
+6A080200	Beattie Leather Boots
+6A420F00	Pipevine Swallowtail Butterfly
+6A430F00	Black Lion Observation Log
+6A440F00	Small Plant Pot
+6A450F00	Captive's Folded Leather Helm
+6A460F00	Jian's Journal
+6A470F00	Vulker Leather Gloves
+6A480F00	Sturdy Wooden Plate
+6A490F00	Tiny Greymane Banner Pike
+6A4A0F00	Taro
+6A4B0F00	Unknown Cave
+6A4C0F00	Crow Storm
+6A4D0F00	Ator's Orb
+6A4E0F00	Hidden Space - 0126
+6A4F0F00	Filling Grilled Seafood
+6A500F00	Fusion Reactor Core: LII-IV
+6A740000	Small Minnow
+6A8C2000	Blinding Arrows Rider's Cloth Armor
+6AAD0300	Dandelion Longsword
+6AB20100	Armor of Loyal Friendship
+6ABC0100	Gomel Leather Armor
+6AE10100	Dondegobi Leather Gloves
+6B080200	Leegrau Leather Boots
+6B187157	Dunverline Plate Armor
+6B400C00	Overseer's House Key
+6B420F00	Leather Gloves of Earth's Honor
+6B430F00	Frozen Heart Plate Cloak
+6B440F00	Fine Stone
+6B450F00	Bounty on the Mud Monster
+6B460F00	Relentless
+6B470F00	Medium Fly
+6B480F00	Demenissian Uniform Leather Boots
+6B490F00	Pororin Relic
+6B4A0F00	Thunderbird Mask Plate Helm
+6B4B0F00	Ominous Prophecy
+6B4C0F00	Greymane's Leather Armor
+6B4D0F00	Gear Blueprint: Half Moon Slash
+6B4E0F00	Hidden Space - 0127
+6B4F0F00	Hearty Grilled Fish
+6B500F00	Fusion Reactor Core: LIII-IV
+6B740000	Small Spirlin
+6B750000	Iron Gate Key
+6B8C2000	Blinding Arrow's Leather Armor
+6BAC2700	Goldlight Plate Gloves
+6BBC0100	Enge Leather Armor
+6BBF0100	Gaut Cloth Armor
+6BE10100	Gobialta Leather Gloves
+6C420F00	Slave's Cloth Boots
+6C430F00	Scorchflame Plate Cloak
+6C440F00	Hernandian Contribution Banner
+6C450F00	Sealed Abyss Artifact
+6C460F00	A.T.A.G. Thrusterpack Mk III
+6C470F00	Medium Grey Dye
+6C480F00	Deep Wooden Plate
+6C490F00	Pear Tree Seed
+6C4A0F00	Besnet Plate Helm
+6C4B0F00	Mother and Son
+6C4C0F00	Watchtower Note
+6C4D0F00	Furniture Supply Contract - Timberham
+6C4E0F00	Hidden Space - 0128
+6C4F0F00	Satisfying Grilled Fish
+6C500F00	Fusion Reactor Core: LIV-IV
+6C5B0300	Octarr's Legacy
+6C740000	Small Gudgeon
+6C8C2000	Blinding Arrow's Leather Armor
+6CBC0100	Tikkal Leather Armor
+6CBF0100	Gadereich Cloth Armor
+6CE10100	Tershan Leather Gloves
+6D080200	Hoardroar Leather Boots
+6D340300	Rhias's Axe
+6D362000	Blandry Chain Mail
+6D420F00	Bounty Hunter's Leather Armor
+6D430F00	Golden Greed Plate Cloak
+6D440F00	Recipe: Grilled Meat Steak
+6D450F00	Jackal Officer's Leather Gloves
+6D460F00	Pine Mushroom Pack
+6D470F00	Lightning Bolt Plate Helm
+6D480F00	Soft Wooden Plate
+6D490F00	Wild Ginseng Seed
+6D4A0F00	Wooden Pitchfork
+6D4B0F00	Abandoned Ranch
+6D4C0F00	Glenbright Manor Storage
+6D4D0F00	Furniture Supply Contract - Hidden Grove
+6D4E0F00	Hidden Space - 0129
+6D4F0F00	Filling Grilled Fish
+6D500F00	Fusion Reactor Core: LI-VI
+6D740000	Small Rasbora
+6D8C2000	Blinding Arrow's Leather Armor
+6DAC2700	Goldlight Plate Helm
+6DBC0100	Murad Leather Armor
+6DBF0100	Ewen Cloth Armor
+6E346478	Delinell's Leather Gloves
+6E362000	Oltmann Chain Mail
+6E400C00	Glenbright Manor Key
+6E420F00	Ringed Leather Gloves
+6E430F00	Silver Plate Cloak
+6E440F00	Golden Star Blueprint
+6E450F00	Sealed Abyss Artifact
+6E460F00	Delmar Saddle
+6E470F00	Lightning Bolt Plate Armor
+6E480F00	Dark Wooden Plate
+6E490F00	Sealed Abyss Artifact
+6E4A0F00	Large Farming Rake Scythe
+6E4B0F00	Old King of the Sea
+6E4C0F00	Abyssal Rays
+6E4D0F00	Greater Destruction
+6E4E0F00	Hidden Space - 0130
+6E4F0F00	Hearty Large Grilled Fish
+6E500F00	Fusion Reactor Core: LII-VI
+6E5B0300	Rogue's Mace
+6E740000	Northern Pike
+6E8C2000	Blinding Arrow's Leather Armor
+6EAC2700	Goldlight Plate Boots
+6EB20100	Carta Plate Armor
+6EBC0100	Dannon Leather Armor
+6EBF0100	Primus's Cloth Armor
+6EDB5004	Desert Clays Leather Boots
+6EE10100	Rignon Leather Gloves
+6F362000	Tarman Chain Mail
+6F390000	Aeserion Greathammer
+6F400C00	Glenbright Manor Basement Key
+6F420F00	Horned Bounty Hunter's Plate Helm
+6F430F00	Grotevant Cloak
+6F440F00	Caliburn's Orders
+6F450F00	Investigative Log: The Weight of Knowledge
+6F460F00	TestShield
+6F470F00	Lightning Bolt Plate Gloves
+6F480F00	Thinly Carved Wooden Plate
+6F490F00	Abyssal Seed
+6F4A0F00	Beetle
+6F4B0F00	Stranded Merchant Vessel
+6F4C0F00	Fireside Story
+6F4D0F00	Abyssal Assimilation
+6F4E0F00	Hidden Space - 0131
+6F4F0F00	Satisfying Large Grilled Fish
+6F500F00	Fusion Reactor Core: LIII-VI
+6F740000	Trout
+6F790900	Dev Growth Ring I
+6F7C0B00	Manure
+6F8C2000	Blinding Arrows Scout's Leather Armor
+6F920100	Leather Helm of the Fallen Kingdom
+6FAC2700	Raging Tempest's Plate Armor
+6FBC0100	Ulontai Leather Armor
+6FE10100	Reclonne Leather Gloves
+70170000	Inventory Expansion Tool
+70420F00	Bounty Hunter's Plate Armor
+70430F00	Freya's Greater Elixir
+70440F00	Kairos Plate Gloves
+70450F00	Investigative Log: Ambition in the Ruins
+70460F00	Testarmor
+70470F00	Lightning Bolt Plate Boots
+70480F00	Brass Bowl
+70490F00	Luminous Seed
+704A0F00	Contola
+704B0F00	Settlement Beneath the Cliff
+704C0F00	Gorgerock Watchman's Journal
+704D0F00	Oongka's Axiom Bracelet
+704E0F00	Hidden Space - 0132
+704F0F00	Filling Large Grilled Fish
+70500F00	Fusion Reactor Core: LIV-VI
+70740000	Carp
+70750000	Prison Key
+70790900	Dev Growth Ring II
+708C2000	Blinding Arrows Scout's Cloth Armor
+70960100	Baidan Cloth Headband
+70AC2700	Raging Tempest's Plate Helm
+70B90100	Twell Leather Armor
+70BC0100	Huron Leather Armor
+70BF0100	Diggs Cloth Armor
+70E10100	Ricrau Leather Gloves
+710D0300	Alabaster Curved Sword
+71170000	Small Bag
+71362000	Acklass Cloth Armor
+71390000	Darkbringer
+71420F00	Crude Club
+71430F00	Frostcursed Plate Cloak
+71440F00	Little Metalmark Butterfly
+71450F00	Countess Azerian's Secret Letter
+71460F00	Twisted Thorns
+71470F00	Kinetic Counterweight
+71480F00	Ritual Copper Plate
+71490F00	Brimstone Bomb
+714A0F00	Puppy Cloth Hat
+714B0F00	Bounty's Net
+714C0F00	Pailunese Guard's Journal
+714D0F00	Heart of the Serpent
+714E0F00	Hidden Space - 0133
+714F0F00	Hearty Battered Grains
+71500F00	Electrical Component
+71740000	Tench
+71790900	Dev Growth Ring III
+718C2000	Blinding Arrows Scout's Cloth Armor
+71AC2700	Raging Tempest's Plate Boots
+71B20100	Ruwaite Plate Armor
+71BC0100	Begill Leather Armor
+71BF0100	Raddler Cloth Armor
+72170000	Medium Bag
+72390000	Wheel of the Last Toll
+72420F00	Spine of the Earth
+72430F00	Ferman Plate Cloak
+72440F00	Rubber Tree Seed
+72450F00	Luon Plate Cloak
+72460F00	Abandoned Anchor
+72470F00	Palmar Leaf
+72480F00	Square Tray
+72490F00	Water Bomb
+724A0F00	Puppy Cloth Outfit
+724B0F00	Empty Coffin
+724C0F00	Skull Collector's Journal
+724D0F00	Heart of Stone
+724E0F00	Hidden Space - 0134
+724F0F00	Satisfying Battered Grains
+72500F00	Aeserion's Scale
+725B0300	Wells Mace
+72740000	Pond Loach
+72790900	Dev Growth Ring IV
+728C2000	Blinding Arrows Scout's Cloth Armor
+728E0100	Nahu Chain Coif
+72AC2700	Raging Tempest's Leather Gloves
+72B20100	Russell Leather Armor
+72BC0100	Rigma Leather Armor
+72D40300	Bekker Greataxe
+73080200	Trish Leather Boots
+730D0300	Varnian Sword
+73170000	Extra Large Bag
+73300000	Red Rider's Leather Gloves
+73340300	Kylus Axe
+73420F00	Odeck's Protector Plate Helm
+73430F00	Chelcia Plate Cloak
+73440F00	A Traveler's Log
+73450F00	Recipe: Grand Meal
+73460F00	Broken Windmill Blade
+73470F00	Meat Soup
+73480F00	Decorative Plate
+734A0F00	A.T.A.G. Welder
+734B0F00	Adventurer's Refinement Inventory Type C
+734C0F00	Navigator's Log
+734D0F00	Momentum
+734E0F00	Hidden Space - 0135
+734F0F00	Filling Battered Grains
+73500F00	Marni's Mecha Leap Pack
+735B0300	Bonepit Mace
+73740000	Catfish
+73744315	Pororin Petal Hat
+73790900	Dev Growth Ring V
+73820300	Varnian Dagger
+738C2000	Blinding Arrows Scout's Leather Armor
+738E0100	Kadallon Chain Coif
+73B20100	Ludus Plate Armor
+73BB0100	Gorg Leather Armor
+73BC0100	Verdesh Leather Armor
+73D40300	Dekarr Greataxe
+73E10100	Tiron Leather Gloves
+73E40100	Crowcaller's White Leather Gloves
+74080200	Katitz Leather Boots
+740D0300	Knightlord's Sword
+74300000	Large Pavis Leather Gloves
+74362000	Ricla Plate Armor
+74420F00	Odeck's Protector Plate Armor
+74430F00	Bolton Plate Cloak
+74440F00	Cabbage
+74450F00	Sealed Abyss Artifact
+74460F00	Dungeon
+74470F00	Braised Fish and Vegetables
+74480F00	Ceramic Bowl
+74490F00	Vine Bomb
+744A0F00	Large Water Bottle
+744B0F00	Halssius Apothecary
+744C0F00	Breezeblown Knoll Cave
+744D0F00	Furniture Supply Contract - Timberton
+744E0F00	Hidden Space - 0136
+744F0F00	Hearty Meat Skewers
+74500F00	Marni's Mecha Laser Pack
+74681B7A	Blacksteel Mottie Plate Helm
+74740000	Lenok
+7475B120	Rhegis Leather Boots
+74790900	Dev Growth Ring VI
+748C2000	Blinding Arrow's Leather Armor
+748E0100	Tailan Plate Helm
+74BB0100	Dewhaven Standard Leather Armor
+74BC0100	Herwin Leather Armor
+74E10100	Taylonne Leather Gloves
+74E40100	Baidan Cloth Gloves
+75080200	Isilon Leather Boots
+750D0300	Fallen Kingdom's Sword
+75170000	Large Bag
+75362000	Coogan Plate Armor
+75420F00	Odeck's Protector Plate Gloves
+75430F00	Dimensional Fusion Experimental Power Core
+75440F00	Pumpkin
+75450F00	Williem Middler Cloth Armor
+75460F00	Recipe: Seafood Soup
+75470F00	Vegetable and Seafood Porridge
+75480F00	Fruit Bowl
+754A0F00	Ashen Wolf's Leather Gloves
+754B0F00	Castle Ruins Encampment
+754C0F00	Keglord Garnier Mk. XXIII
+754D0F00	Furniture Supply Contract - Beighen
+754E0F00	Hidden Space - 0137
+754F0F00	Satisfying Meat Skewers
+75500F00	Marni's Mecha Blade Pack
+755B0300	Alabaster Mace
+75740000	Burbot
+75790900	Dev Growth Ring VII
+758C2000	Blinding Arrow's Leather Armor
+75920100	Schtump Plate Helm
+75960100	Calprise Cloth Cap
+75BB0100	Johannes Plate Armor
+75BC0100	Dekter Leather Armor
+760B0200	Triloan Leather Boots
+76300000	Blackwing Leather Gloves
+76362000	Kunan Plate Armor
+76420F00	Odeck's Protector Plate Boots
+76430F00	Dark Marksman's Plate Cloak
+76440F00	A Hero's Tomb
+76450F00	Sealed Abyss Artifact
+76460F00	Someone Living Under a Bridge
+76470F00	Battered Seafood
+76480F00	Deep Iron Plate
+76490F00	Harris's Letter
+764A0F00	Serdin Greatsword
+764B0F00	Mistcloaked Owl Leather Armor
+764C0F00	Abandoned Mining Village
+764D0F00	Platinum
+764E0F00	Hidden Space - 0138
+764F0F00	Filling Meat Skewers
+76500F00	Marni's Mecha Rocket Pack
+765B0300	Balton Mace
+76740000	Freshwater Eel
+76790900	Dev Growth Ring VIII
+76BC0100	Guff Leather Armor
+77300000	Skyblazer Leather Gloves
+77362000	Gurrinan Plate Armor
+77420F00	Polydamas Swallowtail Butterfly
+77430F00	Icewing Plate Cloak
+77440F00	Kairos Plate Boots
+77450F00	Sealed Abyss Artifact
+77460F00	Pororin Cave
+77470F00	Rat
+77480F00	Wide Iron Plate
+77490F00	Ursula's Treasure Map
+774A0F00	Parvel Greatsword
+774B0F00	Mistcloaked Owl Leather Boots
+774C0F00	Shipwreck Voyage Log
+774E0F00	Hidden Space - 0139
+774F0F00	Hearty Braised Meat
+77500F00	Marni's Mecha Booster Pack
+775B0300	Iris Mace
+77740000	Perch
+77790900	Dev Growth Ring IX
+77D40300	Specialty Cigar TwoHandAxe
+77E40100	Porcell Cloth Gloves
+78080200	Elish Leather Boots
+78300000	Hungering Fang Leather Gloves
+78362000	Guilan Plate Armor
+78370000	Executioner of Darkness Plate Boots
+783E2000	Dursus Leather Armor
+78420F00	Zebra Swallowtail
+78430F00	Unyielding Warrior's Plate Cloak
+78440F00	Replica - Poverty Amidst Plenty
+78450F00	Sealed Abyss Artifact
+78460F00	Roofless House
+78470F00	Grey Dye
+78480F00	Round Iron Plate
+78490F00	Greymane Cloth Armor
+784A0F00	Arben Greatsword
+784B0F00	Mistcloaked Owl Plate Helm
+784C0F00	Lightning-struck Tree
+784D0F00	Sighting of the Snowwhite Deer
+784E0F00	Hidden Space - 0140
+784F0F00	Satisfying Braised Meat
+78500F00	Dreadnought Booster Pack
+78740000	Bass
+78790900	Dev Growth Ring X
+78960100	Rigma Cloth Headband
+78D40300	Aeserion Greataxe
+79080200	Runae Leather Boots
+790B0200	Bayer Leather Boots
+79300000	Hernandian Honor Guard Gloves
+79362000	Orton Cloth Armor
+79370000	Plate Boots of Cursed Soul
+793A0100	Recipe: Coral Mushroom Tea
+793E2000	Acrodus Leather Armor
+79420F00	Dark Marksman's Plate Armor
+79430F00	Canta Plate Cloak
+79440F00	Study - Fields of Color
+79450F00	Sealed Abyss Artifact
+79460F00	Desolate Monolith Altar
+79470F00	Letter to Younger Brother
+79480F00	Twin Candles
+79490F00	Wooden Lantern
+794A0F00	Lusec Greatsword
+794B0F00	A House Between Rocks
+794C0F00	Report on Roothold
+794D0F00	Sighting of the Vine Deer
+794E0F00	Hidden Space - 0141
+794F0F00	Filling Braised Meat
+79500F00	Dreadnought Missile Pack
+79740000	Yellow Bass
+798B0B00	Pine Mushroom
+79920100	Melvin Leather Helm
+79BC0100	Grommet Leather Armor
+79BF0100	Volghad Cloth Armor
+79E10100	Haron Cloth Gloves
+7A080200	Carcon Leather Boots
+7A110100	Old Wooden Doll
+7A300000	Helfryn Leather Gloves
+7A362000	Ort Cloth Armor
+7A370000	Frostcursed Plate Boots
+7A3E2000	Volkirk Cloth Armor
+7A420F00	Dark Marksman's Plate Gloves
+7A430F00	Sahazhad Plate Cloak
+7A440F00	Study - Poverty Amidst Plenty
+7A450F00	Sealed Abyss Artifact
+7A460F00	Falstaff Cloth Helm
+7A470F00	Muskrat
+7A480F00	Candle
+7A490F00	Meerkat
+7A4A0F00	Verak Greatsword
+7A4B0F00	Dire Situation
+7A4C0F00	Riverward Outpost Dispatch
+7A4D0F00	Sighting of the Black Lion
+7A4E0F00	Hidden Space - 0142
+7A4F0F00	Hearty Battered Meat
+7A500F00	Magnetic Power Core
+7A740000	Leopard Perch
+7ABC0100	Ajure Leather Armor
+7ABE0100	Cocotar Cloth Armor
+7ABF0100	Ultar Cloth Armor
+7AD84145	Kenmore Plate Armor
+7B080200	Diovern Leather Boots
+7B0B0200	Pailunese Boots
+7B300000	Weasel Leather Gloves
+7B362000	Ferman Plate Armor
+7B420F00	Dark Marksman's Plate Boots
+7B430F00	Plate Cloak of Cursed Soul
+7B440F00	Study - Golden Lands
+7B450F00	Sealed Abyss Artifact
+7B460F00	Damaged Medium Calphadean Banner Pike
+7B470F00	Masterpiece - Poverty Amidst Plenty
+7B480F00	Plain Candle
+7B490F00	Desert Wheatear
+7B4A0F00	Reed Devil Minion Troll's Cloth Helm
+7B4B0F00	Freesword Dwelling
+7B4C0F00	Future of Demeniss
+7B4D0F00	Sighting of the White Lion
+7B4E0F00	Hidden Space - 0143
+7B4F0F00	Satisfying Battered Meat
+7B500F00	[QA] Profiling (Demeniss-Varnia 2.5)
+7B740000	Crucian Carp
+7B8C2000	Blinding Arrows' Cloth Cap
+7B920100	Helm of Loyal Friendship
+7BBC0100	Salimi Leather Armor
+7BBE0100	Tryah Cloth Armor
+7BBF0100	Dohann Cloth Armor
+7C300000	Carta Leather Gloves
+7C362000	Malacs Plate Armor
+7C420F00	Memories of Abundance
+7C430F00	Kuku Rishi's Boots
+7C440F00	Acclaimed - Idle Hands
+7C450F00	Sealed Abyss Artifact
+7C460F00	Small Vellua Pirates Banner Pike
+7C470F00	Study - Hiding the Evidence
+7C480F00	Five-Candle Candelabra
+7C490F00	Yellow-Billed Oxpecker
+7C4A0F00	Reed Devil Troll Armor
+7C4B0F00	News of War
+7C4C0F00	Lonely Troll
+7C4D0F00	Sighting of the White Bison
+7C4E0F00	Hidden Space - 0144
+7C4F0F00	Filling Battered Meat
+7C500F00	Wisdom between Donation and Fruition
+7C740000	Clockwork Fish
+7C8B0B00	Oakwood Mushroom
+7C920100	Rondel Leather Helm
+7CB20100	Antum Plate Armor
+7CB50100	Dev Red Dragon Yann Leather Armor
+7CBC0100	Nehrut Leather Armor
+7CBE0100	Ator's Will Cloth Armor
+7CBF0100	Bahlmers Cloth Armor
+7CE10100	Kattinan Leather Gloves
+7D0B0200	Reus Cloth Boots
+7D300000	Beekeeping Gloves
+7D340300	Tardik Axe
+7D362000	Mant Plate Armor
+7D3A0100	Recipe: Pine Mushroom Tea
+7D420F00	Investigative Log: Extinguish the Flames
+7D430F00	Cloak of Loyal Friendship
+7D440F00	Acclaimed - Abundance
+7D450F00	Sealed Abyss Artifact
+7D460F00	Oakwood Mushroom Pack
+7D470F00	Study - Hernand Castle
+7D480F00	Copper Candlestick
+7D490F00	Morrow's Leather Boots
+7D4A0F00	Eldruan Leather Gloves
+7D4B0F00	Awakened Jackal's Leather Boots
+7D4C0F00	Blocked Supply Route
+7D4D0F00	Gear Blueprint: Fullmoon Slash
+7D4E0F00	Hidden Space - 0145
+7D4F0F00	Hearty Pickled Fruit
+7D500F00	Arms Scholar's Note
+7D740000	Crayfish
+7DB20100	Entom Plate Armor
+7DB50100	Dev Red Dragon Oongka Leather Armor
+7DBC0100	Takkat Leather Armor
+7DBE0100	Paifo Cloth Armor
+7DBF0100	Tolkane Cloth Armor
+7DE10100	Saruen Leather Gloves
+7DE40100	Whitley Cloth Gloves
+7E300000	Bollin Leather Gloves
+7E362000	Larkri Plate Armor
+7E3A0100	Recipe: Oakwood Mushroom Tea
+7E400C00	Cloudcart Blueprint
+7E420F00	Fake Silver Pouch
+7E430F00	Desert Marauder's Cloak
+7E440F00	Acclaimed - Prelude to War
+7E450F00	Sealed Abyss Artifact
+7E460F00	Coral Mushroom Pack
+7E470F00	Study - Saint Grein
+7E480F00	Three-Candle Candelabra
+7E490F00	Recipe: Vegetable Juice
+7E4A0F00	Threeline Grunt
+7E4B0F00	Goyen's Plate Armor
+7E4C0F00	Goblins of Fort Hellwood
+7E4D0F00	Gear Blueprint: Order from Above
+7E4E0F00	Hidden Space - 0146
+7E4F0F00	Satisfying Pickled Fruit
+7E500F00	Lost Letter
+7EB20100	Sitanca Plate Armor
+7EBC0100	Whitley Leather Armor
+7EBF0100	Bandide Cloth Armor
+7F0B0200	Eckney Cloth Boots
+7F362000	Canta Plate Armor
+7F420F00	Bundle of Cannonballs
+7F430F00	Trukan Cloth Armor
+7F440F00	Notable - Poverty Amidst Plenty
+7F450F00	Sealed Abyss Artifact
+7F460F00	Fundamentalist Goblin Cloth Armor
+7F470F00	Study - The Blessed Queen
+7F480F00	Iron Cup Candle
+7F490F00	Three-Toed Woodpecker
+7F4A0F00	Bleed Officer's Leather Armor
+7F4B0F00	Goyen's Cloak
+7F4C0F00	Oakenshield Manor Reception Room
+7F4D0F00	Sighting of the White Moose
+7F4E0F00	Hidden Space - 0147
+7F4F0F00	Filling Pickled Fruit
+7F500F00	Lost Letter
+7FB20100	Markman Plate Armor
+7FB50100	Dev Red Dragon Kliff Leather Armor
+7FB90100	Blackwing Leather Armor
+7FBC0100	Kaisan Leather Armor
+7FBF0100	Dwelker Cloth Armor
+801A0600	Bekker Greathammer
+80362000	Lacusane Plate Armor
+80420F00	Kliff's Neck Scar Change Coupon
+80430F00	Apollonia's Greater Elixir
+80440F00	Jackal Cloth Cloak
+80450F00	Sealed Abyss Artifact
+80460F00	Small Caliburn's Banner Pike
+80470F00	Magnum Opus - Saint Bartali
+80480F00	Iron Candle
+80490F00	White-winged Redstart
+804A0F00	Simple Dress Doll
+804B0F00	Goyen's Plate Boots
+804C0F00	Bluemont Manor Alley
+804D0F00	Satisfying Grilled Pincers
+804E0F00	Hidden Space - 0148
+804F0F00	Hearty Battered Vegetables
+80500F00	Alustin's Letter
+80B20100	Kantona Plate Armor
+80BC0100	Derrison Leather Armor
+80BF0100	Veronde Cloth Armor
+80E00100	Austfeld Leather Gloves
+80E40100	Tyran Leather Gloves
+81080200	Erphy Leather Boots
+811A0600	Golden Dragon's Claw
+81210C00	Small Bone
+81362000	Larc Plate Armor
+81380100	Recipe: Boiled Meat
+813E0000	Ashen Execution
+81420F00	Bounty Hunter's Cloth Armor
+81430F00	Beekeeping Cloak
+81440F00	Nahab Pendant
+81450F00	Sealed Abyss Artifact
+81460F00	Wildlife Park Passageway
+81470F00	Notable - Saint Reventine
+81480F00	Tripod Candle
+81490F00	Mapmaker's Note
+814A0F00	Fine Blue Bonnet Doll
+814B0F00	Goyen's Plate Gloves
+814C0F00	Greymane Leather Helm
+814D0F00	Filling Grilled Pincers
+814E0F00	Hidden Space - 0149
+814F0F00	Satisfying Battered Vegetables
+81500F00	[QA] Profiling (Demeniss-Varnia 20)
+81920100	Lacrunias Leather Helm
+81A90300	Tardik Longsword
+81B20100	Lukin Leather Armor
+81BF0100	Ruschelle Cloth Armor
+81E40100	Tiron Cloth Gloves
+81EA3750	Jar Lid
+81FC0A00	Iron Ore
+821A0600	Greathammer of Fire
+82362000	Magta Cloth Armor
+82420F00	Bounty Hunter's Leather Armor
+82430F00	The Singing Catfish Vice Captain's Armor
+82440F00	Fated Shadow
+82450F00	Sealed Abyss Artifact
+82460F00	Adventurer's Cooking Inventory Type D
+82470F00	Notable - Nameless
+82480F00	Four-Candle Candelabra
+82490F00	Black Dye
+824A0F00	Simple Brown Bonnet Doll
+824B0F00	Desert Shipwreck
+824C0F00	Plumed Wells Rebel's Plate Helm
+824D0F00	Sighting of the White-Scaled Crocodile
+824E0F00	Hidden Space - 0150
+824F0F00	Filling Battered Vegetables
+82500F00	Abyss Transporter
+8263D85F	Blacksteel Roshee Plate Armor
+82BF0100	Rosarduin Cloth Armor
+82FC0A00	Silver Ore
+83080200	Oakten Leather Boots
+831A0600	Helms Greathammer
+83340300	Delonde Axe
+83380100	Recipe: Fruit Tea
+833E0000	Sanguine Knell
+833E2000	Bendurs Leather Armor
+83420F00	Lilian Leather Boots
+83430F00	Demeniss Ceremonial Cloak
+83440F00	Bear's Gallbladder
+83450F00	Sealed Abyss Artifact
+83460F00	Abyssal Fusion
+83470F00	Replica - Idle Hands
+83480F00	Tarnished Four Candle Candelabra
+83490F00	Honeybee
+834A0F00	Beige Bandana Doll
+834B0F00	Adventurer's Refinement Inventory Type D
+834C0F00	Elite Turncoat Plate Armor
+834D0F00	Hearty Small Grilled Fish
+834E0F00	Hidden Space - 0151
+834F0F00	Hearty Pickled Vegetables
+83500F00	Tenebrum Magnetic Core
+83BF0100	Sherwood Cloth Armor
+83E10100	Luca Leather Gloves
+83FC0A00	Gold Ore
+841A0600	Lanford Greathammer
+843E2000	Kerburn Leather Armor
+84420F00	Binder's Plate Helm
+84430F00	Disguise Cloak
+84440F00	Empty Book
+84450F00	Sealed Abyss Artifact
+84460F00	Flower-Decorated Cactus Pot
+84470F00	Replica - Prelude to War
+84480F00	Request to Punish Outlaws in Muiquun
+84490F00	Hornet
+844A0F00	Brown Dress Doll
+844B0F00	Oasis Headstone
+844C0F00	Elite Turncoat Plate Armor
+844D0F00	Satisfying Small Grilled Fish
+844E0F00	Hidden Space - 0152
+844F0F00	Satisfying Pickled Vegetables
+84500F00	Kuku Gear Special Blueprint
+848C2000	Blinding Arrow's Leather Boots
+84B20100	Lachian Plate Armor
+84BF0100	Eyratt Cloth Armor
+84FC0A00	Copper Ore
+85080200	Seras Leather Boots
+851A0600	Bonepit Greathammer
+853E2000	Bennault Leather Armor
+85420F00	Bounty Hunter's Plate Armor
+85430F00	St. Halssius Priest's Cloak
+85440F00	Sapphire-Set Golden Dagger
+85450F00	Timeworn Graves
+85460F00	Purple Cactus Pot
+85470F00	Notable - Those Who Celebrate the Harvest Festival
+85480F00	Damiane's Basic Hair Ticket
+85490F00	Bumblebee
+854A0F00	Doll Wearing Brown Bonnet
+854B0F00	Adventurer's Refinement Inventory Type E
+854C0F00	Wells Rebel's Plate Gloves
+854D0F00	Filling Small Grilled Fish
+854E0F00	Hidden Space - 0153
+854F0F00	Filling Pickled Vegetables
+85500F00	Bundle of Bullets
+85510F00	Archive Record: Ch. 1
+85790B00	Cooking Oil
+858C2000	Blinding Arrow's Leather Boots
+85B20100	Lacata Plate Armor
+85B90100	Benne Leather Armor
+85BF0100	Gruun Cloth Armor
+85E00100	Fiori Leather Gloves
+85E10100	Tikkal Leather Gloves
+86080200	Cateine Leather Boots
+860B0200	Marrada Leather Boots
+863E2000	Gallabay Leather Armor
+86420F00	Sleep Arrow
+86430F00	Hernandian Banquet Cloak
+86440F00	Yellow Garden Spider
+86450F00	Investigative Log: Harvest of Greed
+86460F00	A.T.A.G. Plating Mk II
+86470F00	Notable - Those Headed to the Chapel
+86480F00	Green Spice Bowl
+86490F00	Magic Bullet
+864A0F00	Bismuth Cannon
+864B0F00	Pit of Death
+864C0F00	Mysterious Giant Tower
+864D0F00	Hearty Salt-Roasted Fish
+864E0F00	Hidden Space - 0154
+864F0F00	Hearty Salt-Roasted Bird Meat
+86500F00	Bundle of Cannonballs
+86510F00	Archive Record: Ch. 2
+868C2000	Blinding Arrow's Leather Gloves
+86B20100	Eccanta Plate Armor
+86BC0100	Berblin Leather Armor
+86BF0100	Auron Cloth Armor
+86E00100	Janiklo Leather Gloves
+86E10100	Markna Leather Gloves
+870B0200	Endoron Leather Boots
+873E2000	Brometi Leather Armor
+87420F00	Recipe: Meat Skewers
+87430F00	Corn Seed
+87440F00	Golden Silk Spider
+87450F00	Bastier Armor
+87460F00	A.T.A.G. Thrusterpack Mk II
+87470F00	Acclaimed - Silence of Dawn
+87480F00	Blue Spice Bowl
+87490F00	Luther's Leather Boots
+874A0F00	Wells Rider Plate Armor
+874B0F00	Oasis Hearth
+874C0F00	Dragon Claw Horn
+874D0F00	Earthrending Strike
+874E0F00	Hidden Space - 0155
+874F0F00	Satisfying Salt-Roasted Bird Meat
+87500F00	Steel Horseshoes
+87510F00	Archive Record: Ch. 3
+878C2000	Petra Leather Gloves
+87920100	Rueconec Leather Helm
+87B20100	Eclaon Plate Armor
+88080200	Loutte Leather Boots
+880D0300	Melted Ambition
+883E2000	Galustin Leather Armor
+88420F00	Recipe: Braised Meat
+88430F00	Tommaso Guard's Dagger-Tipped Spear
+88440F00	A Wife's Letter
+88450F00	Eclipsed Solas Plate Gloves
+88460F00	A.T.A.G. Boots Mk II
+88470F00	Masterpiece - Silence of Dawn
+88480F00	Ashen Spice Bowl
+88490F00	Andrew's Leather Boots
+884A0F00	Serval Plate Boots
+884B0F00	Sand Dunes
+884C0F00	A.T.A.G. Emergency Power Device
+884D0F00	Sighting of the White Elk
+884E0F00	Hidden Space - 0156
+884F0F00	Filling Salt-Roasted Bird Meat
+88500F00	Silvermoon Horseshoes
+88510F00	Archive Record: Ch. 4
+8864D603	Wells Military Champron
+889F5C72	Demenissian Soldiers' Brimstone Gas Mask
+88B20100	Egliss Plate Armor
+88B90100	Somier Leather Armor
+88BC0100	Reed Devil Underling's Red Armor
+88BF0100	Salash Cloth Armor
+88FB0300	Aeserion Warhammer
+89070200	Seiger Leather Boots
+89239327	Blacksteel Descao Plate Helm
+89340300	Leofric Double-Headed Axe
+89362000	Rakkli Plate Armor
+893E2000	Baltimier Leather Armor
+89420F00	Brimstone Gas Mask
+89430F00	Abacus
+89440F00	Recipe: Meatball Soup
+89450F00	Scarecrow Cloak Blueprint
+89460F00	Surreal Necklace
+89470F00	Study - Delesyia
+89480F00	Glazed Mortar
+89490F00	Burrowing Salamander
+894A0F00	Wells Military Barding
+894B0F00	Ashen Rift
+894C0F00	Stone Lantern Keeper's Patrol
+894D0F00	Tax Notice
+894E0F00	Outfit Supply Contract - Calphade
+894F0F00	Hearty Clear Soup
+89500F00	Small Kuku A.T.A.G. Design
+89510F00	Archive Record: Ch. 5
+898A0100	Rekhia Plate Helm
+89920100	Agatha Leather Helm
+89960100	Raveed Cloth Cap
+89B20100	Ekklemen Plate Armor
+89BC0100	Reed Devil Underling's Yellow Armor
+89BF0100	Borman Cloth Armor
+89C30000	Bundle of Arrows
+89E00100	Barre Leather Gloves
+8A080200	Bourveten Leather Boots
+8A362000	Marc Plate Armor
+8A3E2000	Hellad Leather Armor
+8A420F00	Shoddy Rishi's Boots
+8A430F00	Lauques Cloth Cloak
+8A440F00	Crude Stirrups
+8A450F00	Executioner of Darkness Plate Helm
+8A460F00	Servano Saddle
+8A470F00	Notable - Glory of Days Past
+8A480F00	Glazed Bowl
+8A490F00	Salamander
+8A4A0F00	Deceiver's Fedora
+8A4B0F00	Witch's Token
+8A4C0F00	Noble's Hat
+8A4D0F00	Gear Blueprint: Dark Crescent
+8A4E0F00	Outfit Supply Contract - Demeniss
+8A4F0F00	Satisfying Clear Soup
+8A500F00	Azerian's Whereabouts
+8A510F00	Archive Record: Final Chapter
+8A723724	Heavy Bucket
+8A8A0100	Bolton Plate Helm
+8A960100	Duvidet Hoops
+8AB20100	Ostent Plate Armor
+8AB90100	Traley Chain Mail
+8ABC0100	Reed Devil Underling's Armor
+8ABF0100	Berghill Cloth Armor
+8AE00100	Berkhia Leather Gloves
+8AE10100	Lukas' Leather Gloves
+8AFC0A00	Bismuth Ore
+8B080200	Lankel Leather Boots
+8B340300	Black Iron Axe
+8B362000	Ticon Plate Armor
+8B3E2000	Ashclaw Leather Armor
+8B420F00	Checkered White Butterfly
+8B430F00	Shadowleaf Cloak
+8B440F00	Wells Military Stirrups
+8B450F00	Guidance of Dark Pursuit
+8B460F00	Varantin Necklace
+8B470F00	Study - Eghod the Great
+8B480F00	Stacked Glazed Bowls
+8B490F00	Axolotl
+8B4A0F00	Elite Vanguard
+8B4B0F00	Shining Shai Pendant
+8B4C0F00	Ruler of the Oasis
+8B4D0F00	Gear Blueprint: Earthrending Strike
+8B4E0F00	Outfit Supply Contract - Tariv
+8B4F0F00	Filling Clear Soup
+8B500F00	Bastier's Co-conspirators
+8B8A0100	Cassius Morten's Plate Helm
+8B8C2000	Bandit Leather Gloves
+8BB20100	Oakley Plate Armor
+8BB90100	Antumbra Cloth Armor
+8BBF0100	Hassal Cloth Armor
+8BE00100	Goldheart Chain Gloves
+8C080200	Gannech Leather Boots
+8C0B0200	Scoppa Leather Boots
+8C362000	Takhan Plate Armor
+8C3C0000	Rune-Engraved Rock
+8C3E2000	Arteyan Leather Armor
+8C420F00	Recipe: Clear Soup
+8C430F00	Hubus Cloth Cap
+8C440F00	Decorative Dragon Head Stirrups
+8C450F00	Crow Brothers Warhammer
+8C460F00	Tarivian Necklace
+8C470F00	Notable - Duel Between Rivals
+8C480F00	Wooden Beaker
+8C490F00	Goanna
+8C4A0F00	Bamboo Spear
+8C4B0F00	Shabby Wooden Key
+8C4C0F00	Private Soldier's Plate Armor
+8C4D0F00	Satisfying Salt-Roasted Fish
+8C4E0F00	Outfit Supply Contract - Demeniss Wildlife Park
+8C4F0F00	Hearty Vegetable Porridge
+8C500F00	Memory of Byron Manor
+8C8C2000	Parasis Plate Helm
+8CA0626C	Dundree Plate Armor
+8CBF0100	Meravan Cloth Armor
+8CE00100	Kordaav Leather Gloves
+8D070200	Rodderham Leather Boots
+8D080200	Kervel Leather Boots
+8D0D0300	Volono Sword
+8D362000	Kark Chain Mail
+8D3E2000	Dartus Leather Armor
+8D420F00	Bounty Hunter's Cloth Armor
+8D430F00	Deshret Cloth Armor
+8D440F00	Gold-Decorated Stirrups
+8D450F00	Kuku Insect Gatherer's Pack
+8D460F00	Crossroads Necklace
+8D470F00	Acclaimed - Golden Lands
+8D480F00	Oak Beaker
+8D490F00	Iguana
+8D4A0F00	Silver Bullet
+8D4B0F00	Unstable Rock
+8D4C0F00	Randelle's Note
+8D4D0F00	Filling Salt-Roasted Fish
+8D4E0F00	Outfit Supply Contract - Delesyia
+8D4F0F00	Satisfying Vegetable Porridge
+8D500F00	Seal of Greed - Saltroad Trading Post
+8D820300	Bekker Dagger
+8D8C2000	Ziggurat Leather Gloves
+8DBF0100	Chizhar Cloth Armor
+8E080200	Walder Leather Boots
+8E0B0200	Whitley Cloth Boots
+8E0D0300	Peltree Sword
+8E230000	Hernandian Honor Guard Armor
+8E3E2000	Calto Leather Armor
+8E420F00	Bounty Hunter's Leather Armor
+8E430F00	Skull Knight Follower's Plate Boots
+8E440F00	Fine Leather Stirrups
+8E450F00	Black Bears' Cloth Cloak
+8E460F00	Poison Arrow Blueprint
+8E470F00	Notable - Duel - Echoes of the Battlefield
+8E480F00	Two-Handled Bronze Cup
+8E490F00	Heloderma Lizard
+8E4A0F00	Wells Elite Plate Helm
+8E4B0F00	Mushroom Rock
+8E4C0F00	Glenbright Manor
+8E4D0F00	Hearty Grilled Vegetables
+8E4E0F00	Outfit Supply Contract - Pailune
+8E4F0F00	Filling Vegetable Porridge
+8E500F00	Fine Pickaxe Blueprint
+8E810B00	Acidic Spider Venom
+8E8C2000	Deshret Leather Boots
+8EB20100	Dunion Plate Armor
+8EBB0100	Davis Leather Armor
+8EBF0100	Dahkavan Cloth Armor
+8F070200	Leontyne Leather Boots
+8F080200	Donaff Leather Boots
+8F230000	Tariv Cloth Attire
+8F3E2000	Gersens Leather Armor
+8F420F00	Orange-Barred Sulphur Butterfly
+8F430F00	Scarecrow Cloak
+8F440F00	Exclaire Stirrups
+8F450F00	Sealed Abyss Artifact
+8F460F00	Helfryn Necklace
+8F470F00	Notable - Execution
+8F480F00	Bright Red Dye
+8F490F00	Arnold's Leather Boots
+8F4A0F00	Bleed Officer's Cloth Cloak
+8F4B0F00	Garden of the Gods
+8F4C0F00	Gear Blueprint: Judgment of the Soul
+8F4D0F00	Sighting of the Red River Hog
+8F4E0F00	Outfit Supply Contract - Tommaso
+8F4F0F00	Hearty Fruit Punch
+8F500F00	Olvald's Logging Axe Blueprint
+8F836E62	Blacksteel Ratti Plate Gloves
+8F960100	Scobby Cloth Headband
+8FB20100	Manios Plate Armor
+8FBF0100	Ziahl Cloth Armor
+8FCCF069	Rhogo Plate Armor
+8FE10100	Dark Ringleader's Leather Gloves
+90330000	Mace of the Fleeting
+903E2000	Akran Cloth Armor
+90420F00	Hwando
+90430F00	The Features of the Visione
+90440F00	Ironstone Horseshoes
+90450F00	Sealed Abyss Artifact
+90460F00	Crimson Warden's Necklace
+90470F00	Notable - Fields of Color
+90480F00	Rich Red Dye
+90490F00	Frilled-neck Lizard
+904A0F00	Kuku Spear Special Blueprint
+904B0F00	Turquoise Rock Pools
+904C0F00	Engineer's Research Log
+904D0F00	Steelbane I
+904E0F00	Outfit Supply Contract - Varnia
+904F0F00	Satisfying Fruit Punch
+90500F00	Bernor's Pickaxe Blueprint
+908A0100	Icewing Plate Helm
+908C2000	Chemists' Mask Leather Helm
+90A90300	Savage Longsword
+90BF0100	Amundule Cloth Armor
+90E00100	Cacoreum Leather Gloves
+90E10100	Salatos Leather Gloves
+91070200	Bollin Leather Boots
+91330000	Marni Devotee's Mace
+913A0100	Recipe: Honey Tea
+913E2000	Fontine Leather Armor
+91420F00	Fine Timber
+91430F00	Scholastone Cloak
+91440F00	Bow Knot Horseshoes
+91450F00	Sealed Abyss Artifact
+91460F00	Jackals' Leather Helm
+91470F00	Acclaimed - Poverty Amidst Plenty
+91480F00	Red Dye
+91490F00	Joan's Leather Boots
+914A0F00	Kuku Pack Special Blueprint
+914B0F00	Adventurer's Refinement Inventory Type F
+914C0F00	Pot Artisans
+914D0F00	Steelbane II
+914E0F00	Equipment Supply Contract - Hernand
+914F0F00	Filling Fruit Punch
+91500F00	Windrose Farm Note
+916E0B00	Horse Tonic
+918A0100	Ator's Will Helm
+918C2000	Ziggurat Cloth Helm
+91920100	Dimfeld Leather Helm
+91B20100	Scorchflame Plate Armor
+91BF0100	Sarendion Cloth Armor
+91D15E15	Lanauk Plate Armor
+92080200	Herdel Leather Boots
+92330000	Mace of Resolve
+923E2000	Flordanus Leather Armor
+92410600	Volcanic Blaster
+92420F00	Derictus Spear
+92430F00	Recipe: Meat and Fish Skewers
+92440F00	Steelheart Horseshoes
+92450F00	Sealed Abyss Artifact
+92460F00	TestNeck 1 1
+92470F00	Study - The Cat and the Bird
+92480F00	Dark Red Dye
+92490F00	Wandering Leather Helm
+924A0F00	Kuku Pack
+924B0F00	Wells Rebel's Silver Plate Helm
+924C0F00	Gear Blueprint: Colossal Might
+924D0F00	Steelbane III
+924E0F00	Equipment Supply Contract - Kharonso
+924F0F00	Hearty Vegetable Rice Cake
+92500F00	Engraved Stone
+928C2000	Chemists' Iron Mask Leather Helm
+92A90300	Balton Longsword
+92BF0100	Hysilda Cloth Armor
+92E10100	Ellisco Leather Bracers
+92E40100	Setri Cloth Gloves
+93070200	Helfryn Leather Boots
+933E2000	Breitzle Leather Armor
+93420F00	Sielos Longsword
+93430F00	Sealed Abyss Artifact
+93440F00	Shai's Pendant
+93450F00	Sealed Abyss Artifact
+93460F00	TestNeck 1 2
+93470F00	Study - Blooming Rabbit
+93480F00	Deep Red Dye
+93490F00	Eternal Darkness
+934A0F00	Linda's Poster
+934B0F00	Journal at the Cabin
+934C0F00	Gear Blueprint: Infinite Arrows
+934D0F00	Hexebane I
+934E0F00	Equipment Supply Contract - Calphade
+934F0F00	Satisfying Vegetable Rice Cake
+93500F00	Engraved Stone
+936E0B00	Horse Stimulant
+938A0100	Ferman Plate Helm
+938C2000	Ziggurat Leather Gloves
+93960100	Fiore Cloth Cap
+93A90300	Dewhaven Longsword
+93BE0100	Ancara Cloth Armor
+93BF0100	Yorkey Cloth Armor
+93BF8C43	Persein Leather Gloves
+93E00100	Claire Leather Gloves
+93E10100	Elashe Leather Gloves
+93E40100	Serbello Cloth Gloves
+943E2000	Tyrannus Leather Armor
+94410600	Copper Knuckledrill
+94420F00	Adventurer's Cooking Inventory Type A
+94430F00	Deer Hat
+94440F00	Glass
+94450F00	Sealed Abyss Artifact
+94460F00	TestNeck 2 1
+94470F00	Study - The Rat's Roll
+94480F00	Bright Violet Dye
+94490F00	Greymanes' Leather Armor
+944A0F00	Small Kuku A.T.A.G.
+944B0F00	Gear Blueprint: Spirit's Judgment
+944C0F00	Gear Blueprint: Gourmet
+944D0F00	Hexebane II
+944E0F00	Equipment Supply Contract - Demeniss
+944F0F00	Filling Vegetable Rice Cake
+94500F00	Colossal Might
+948A0100	Keredeg Plate Helm
+948C2000	Rueconec Leather Boots
+94920100	Daveed Leather Helm
+94960100	Ataram Cloth Cap
+94A90300	Thalwynd Longsword
+94B20100	Aeron Plate Armor
+94BE0100	Esbeth Cloth Armor
+94BF0100	Dollette Cloth Armor
+94CB080A	Killian Plate Armor
+95070200	Eustice Leather Boots
+95080200	Ator's Will Leather Boots
+953E0C00	Alustin's Letter
+953E2000	Formosa Leather Armor
+95420F00	Haiden's Lesser Elixir
+95430F00	Raccoon Cloth Hat
+95440F00	Carpet
+95460F00	TestNeck 2 2
+95470F00	Acclaimed - Bighorn Sheep
+95480F00	Rich Violet Dye
+95490F00	Satisfying Grilled Bird Meat
+954A0F00	Blue Fang Necklace
+954B0F00	Frostward II
+954C0F00	Gear Blueprint: Efficiency
+954D0F00	Hexebane III
+954E0F00	Equipment Supply Contract - Tariv
+954F0F00	Hearty Chewy Rice Cakes
+95500F00	Merchant's Note
+95790B00	Tough Meat
+958A0100	Ferenna Plate Helm
+958C2000	Varnia Cloth Armor
+95B20100	Golden Greed Plate Armor
+95BE0100	Muchia Cloth Armor
+95BF0100	Verette Cloth Armor
+96080200	Quent Leather Boots
+963E2000	Grolla Leather Armor
+96420F00	Shield of Conviction
+96430F00	Ironwilled Guardian's Leather Cloak
+96440F00	Calligraphic Paintings
+96450F00	[QA] Repeated movement within Hernand (Speed 15)
+96460F00	TestNeck 3 1
+96470F00	Masterpiece - Bighorn Sheep
+96480F00	Violet Dye
+96490F00	Duncan's Leather Boots
+964A0F00	Tiorant Cloth Armor
+964B0F00	Gear Blueprint: Crow's Pursuit
+964C0F00	Donny's Note
+964D0F00	Bloodbane I
+964E0F00	Equipment Supply Contract - Stronghelm Forge
+964F0F00	Satisfying Chewy Rice Cakes
+96500F00	Duskway Camp Note
+968A0100	Grace Plate Helm
+968C2000	Varnian Chain Boots
+96B20100	Sliver Plate Armor
+96BE0100	Wyvernflames Cloth Armor
+96BF0100	Haillen Cloth Armor
+96DC0100	Beastman Chain Gloves
+96E10100	Kasria Leather Gloves
+97080200	Grey Rhegis Leather Boots
+97340300	Timberham Axe
+973E2000	Glaville Leather Armor
+97420F00	Recipe: Battered Meat
+97430F00	Boar Cloak
+97440F00	Bounty Notice - Billy
+97450F00	A.T.A.G. Boots Mk III
+97460F00	TestNeck 3 2
+97470F00	Acclaimed - The Lamb
+97480F00	Dark Violet Dye
+97490F00	Letter of Gratitude from Calphade
+974A0F00	Tiorant Cloth Cloak
+974B0F00	Old Quarry
+974C0F00	Flower Shop Customer's Note
+974D0F00	Bloodbane II
+974E0F00	Equipment Supply Contract - Delesyia
+974F0F00	Filling Chewy Rice Cakes
+97500F00	Note Found at the Fence
+978A0100	Flynn Plate Helm
+978C2000	Varnian Leather Gloves
+97A90300	Iris Longsword
+97B20100	Sahazhad Plate Armor
+97BE0100	Duizeh Cloth Armor
+97BF0100	Khalbdan Cloth Armor
+97E00100	Hark Leather Gloves
+97E40100	Ashtu Cloth Gloves
+98080000	Stub Arrow
+983A0000	Aeserion Halberd
+983E2000	Teblecc Leather Armor
+98410600	Furious Waves Gauntlet
+98420F00	The Claw
+98430F00	White Horn Leather Helm
+98440F00	Silk
+98450F00	Light's Guidance
+98460F00	TestNeck 4 1
+98470F00	Acclaimed - Gatekeeper of Death
+98480F00	Deep Violet Dye
+98490F00	Ronald's Leather Boots
+984A0F00	Kuku Enhanced Disruptor
+984B0F00	Signs of Misfortune
+984C0F00	Gear Blueprint: Rising Torrent
+984D0F00	Bloodbane III
+984E0F00	Equipment Supply Contract - Pailune
+984F0F00	Hearty Harvest Roll
+98500F00	Demeniss Cathedral Ring
+988A0100	Crudil Plate Helm
+988C2000	Varnia Cloth Cap
+98B20100	Jerrinmarne Plate Armor
+98BE0100	Izumit Cloth Armor
+98E10100	Renshaku Leather Gloves
+98E40100	Ratisan Cloth Gloves
+993E2000	Goldur Leather Armor
+99410600	Iron Fists Gauntlet
+99420F00	Sticky Flower Bomb
+99430F00	Grave Robber's Leather Armor
+99440F00	Bounty Notice - Gunder
+99450F00	Plague Remedy
+99460F00	TestNeck 4 2
+99470F00	Masterpiece - Gatekeeper of Death
+99480F00	Bright Purple Dye
+99490F00	Brant's Leather Gloves
+994A0F00	Kuku Watcher Pack
+994B0F00	Beginning of the Hunt
+994C0F00	Gear Blueprint: Pillar of Wind
+994D0F00	Primalbane I
+994E0F00	Equipment Supply Contract - Skoghorn
+994F0F00	Satisfying Harvest Roll
+99500F00	Demeniss Cathedral Necklace
+998C2000	Porcell Cloth Gloves
+99920100	Lutinas Leather Helm
+99960100	Gaurra Cloth Cap
+99B20100	Icewing Plate Armor
+99BB0100	Leather Armor of the Fallen Kingdom
+99BE0100	Mugleah Cloth Armor
+99E00100	Weiston Leather Gloves
+99E10100	Reshesh Leather Gloves
+99E40100	Duroin Cloth Gloves
+9A080200	Tyran Leather Boots
+9A3E2000	Deimon Leather Armor
+9A420F00	Rattan Shield
+9A430F00	Grave Robber's Leather Armor
+9A440F00	Richly Flavored Sugar
+9A450F00	Firefly Lantern
+9A460F00	TestNeck 5 1
+9A470F00	Acclaimed - Dawnbreak
+9A480F00	Rich Purple Dye
+9A490F00	Red-spotted Purple Butterfly
+9A4A0F00	Axe of the Apocalypse
+9A4B0F00	Day of the Longleaf Tribe
+9A4C0F00	Gear Blueprint: Ancient Reckoning
+9A4D0F00	Primalbane II
+9A4E0F00	Equipment Supply Contract - Odeck
+9A4F0F00	Filling Harvest Roll
+9A500F00	Condemner's Plate Cloak
+9A8A0100	Berin Plate Helm
+9A8C2000	Lepra Leather Boots
+9A960100	Jermill Cloth Headband
+9AA90300	Rhett's Longsword
+9B080200	Tyrune Cloth Boots
+9B340300	Crow Brothers Axe
+9B3E2000	Bolzers Leather Armor
+9B410600	Muskan's Upper Body Clone
+9B420F00	Bounty Hunter's Cloth Cap
+9B430F00	Grave Robber's Leather Armor
+9B440F00	Honey
+9B450F00	Reventine Monastery Exclusive Document
+9B460F00	TestNeck 5 2
+9B470F00	Masterpiece - Dawnbreak
+9B480F00	Purple Dye
+9B490F00	Vernon's Leather Gloves
+9B4A0F00	Golden Star's Component
+9B4B0F00	Hidden Treasure Map Piece 12
+9B4C0F00	Gear Blueprint: The Showstopper
+9B4D0F00	Primalbane III
+9B4E0F00	Equipment Supply Contract - Varnia
+9B4F0F00	Hearty Pan-Fried Marinated Meat
+9B500F00	Bandit Cloth Cloak
+9B650000	Coral Mushroom Tea
+9BBF0100	Schillerbin Cloth Armor
+9BE00100	Talisin Leather Gloves
+9BE10100	Ravellu Leather Gloves
+9BE40100	Ludynn Cloth Gloves
+9C070200	St. Halssius Priest's Leather Footwear
+9C080200	Tiron Leather Boots
+9C3D0C00	St. Halssius Visitor Pass
+9C3E2000	Gronerd Leather Armor
+9C410600	Muskan's Lower Body Clone
+9C420F00	Bounty Hunter's Cloth Cap
+9C430F00	Grave Robber's Leather Armor
+9C440F00	Bounty Notice - Henrik
+9C450F00	Recipe: Extravagant Meal
+9C460F00	TestNeck 5 3
+9C470F00	Acclaimed - A Dairy Cow
+9C480F00	Dark Purple Dye
+9C490F00	Mine Spider Cannonball
+9C4A0F00	Blessing of the Immortal
+9C4B0F00	Unidentified Abyss Gear
+9C4C0F00	Note at Point of Contact
+9C4D0F00	Malicebane I
+9C4E0F00	Equipment Supply Contract - Tommaso
+9C4F0F00	Satisfying Pan-Fried Marinated Meat
+9C500F00	Fiona's Note
+9C750B00	Coral Mushroom
+9C8C2000	Bessett Plate Gloves
+9CBF0100	Neblin Cloth Armor
+9CE00100	Melvin Leather Gloves
+9CE10100	Remebrou Leather Gloves
+9D310000	Divine Echoes Bow
+9D340300	Parashu Axe
+9D3E2000	Deboros Leather Armor
+9D420F00	Bounty Hunter's Cloth Armor
+9D430F00	Jackals' Leather Helm
+9D440F00	Bounty Notice - Aksel
+9D450F00	Companionship II
+9D470F00	Masterpiece - A Dairy Cow
+9D480F00	Deep Purple Dye
+9D490F00	Recipe: Mild Herbal Tea
+9D4A0F00	Missing Cows
+9D4B0F00	A Painter's Regret
+9D4C0F00	Gear Blueprint: Blessing of the Forest
+9D4D0F00	Malicebane II
+9D4E0F00	Medium Black Bears Banner Pike
+9D4F0F00	Filling Pan-Fried Marinated Meat
+9D500F00	Chief Trainer's Journal
+9D8C2000	Bessett Leather Boots
+9D960100	Torben Cloth Cap
+9DA90300	Vessel of Dark Pursuit
+9DB10100	Frostcursed Plate Armor
+9DE10100	Rainier Leather Gloves
+9DE40100	Derrison Cloth Gloves
+9E070200	Tobias Leather Boots
+9E310000	Noble Man's Bow
+9E3E2000	Nordbeid Leather Armor
+9E420F00	Bounty Hunter's Cloth Boots
+9E430F00	Gladiator's Cloth Armor
+9E440F00	Bounty Notice - Frank
+9E450F00	Mystical Pine Mushroom
+9E460F00	Hernandian Signet
+9E470F00	Acclaimed - Man's Best Friend
+9E480F00	Bright Blue Dye
+9E490F00	Shadowleaf Leather Armor
+9E4A0F00	Plunderer's Gold Chest
+9E4B0F00	Wings of Steel
+9E4C0F00	Gear Blueprint: Solidarity
+9E4D0F00	Malicebane III
+9E4E0F00	Medium Bleed Bandits Banner Pike
+9E4F0F00	Hearty Fish Skewers
+9E500F00	Kinetic Knight
+9E8C2000	Northern Fighter's Leather Gloves
+9E920100	Lanweiter Leather Helm
+9EA90300	Righteous Verdict
+9EBF0100	Skyblazer Cloth Armor
+9ED00300	Incomplete Masterpiece
+9EE00100	Trion Leather Gloves
+9EE10100	Lave Leather Gloves
+9F070200	Arghai Leather Boots
+9F080200	Tiruna Leather Boots
+9F340300	Ring of the Earth
+9F3E2000	Cradbahn Leather Armor
+9F420F00	Bounty Hunter's Leather Armor
+9F430F00	Gladiator's Cloth Armor
+9F440F00	Tobacco
+9F450F00	Thornbriar Dungeon Key
+9F460F00	Hernandian Crown
+9F470F00	Masterpiece - Man's Best Friend
+9F480F00	Rich Blue Dye
+9F490F00	Renee's Poster
+9F4A0F00	Flame Knight's Plate Helm
+9F4B0F00	Snowy Plains Hearth
+9F4C0F00	Researcher's Note
+9F4D0F00	Beastbane I
+9F4E0F00	Medium Caliburn's Banner Pike
+9F4F0F00	Satisfying Fish Skewers
+9F500F00	Large Grain Bowl
+9F650000	Pine Mushroom Tea
+9F8C2000	Blinding Arrow's Mask
+9FA90300	Absolute Justice Greatsword
+9FD00300	Tardik Greataxe
+9FE10100	Mache Leather Gloves
+9FE40100	Gadereich Cloth Gloves
+A0070200	Nevin Leather Boots
+A0080200	Darman Leather Boots
+A00B0200	Kerdmann Cloth Boots
+A0340300	Silverwolf Axe
+A03E2000	Darbaran Leather Armor
+A0420F00	Bounty Hunter's Leather Armor
+A0430F00	Gladiator's Cloth Armor
+A0440F00	Pepper
+A0450F00	Poison-Soaked Oakwood Mushroom
+A0460F00	Hernandian Noble's Cloak
+A0470F00	Acclaimed - Lion's Majesty
+A0480F00	Blue Dye
+A0490F00	Alfred's Poster
+A04A0F00	Hidden Treasure Map Piece 1
+A04B0F00	Empty Grave
+A04C0F00	Filling Grilled Bird Meat
+A04D0F00	Beastbane II
+A04E0F00	Medium Calphadean Banner Pike
+A04F0F00	Filling Fish Skewers
+A0500F00	Excavation Site Manager's Note
+A0650000	Oakwood Mushroom Tea
+A0960100	Ulman Cloth Cap
+A0BB0100	Mohill Leather Armor
+A0BE0100	Myrnen Cloth Armor
+A0D00300	Iris Greataxe
+A0E00100	Ebenezer Leather Gloves
+A0E10100	Martail Leather Gloves
+A0E40100	Chizhar Cloth Gloves
+A1080200	Saruen Leather Boots
+A10B0200	Barrette Cloth Boots
+A1210C00	Worn Necklace
+A13E2000	Berenzard Leather Armor
+A1420F00	Tough Hunter's Leather Gloves
+A1430F00	Gladiator Cloth Gloves
+A1440F00	Bounty Notice - Broll
+A1450F00	Priscus's Cloth Armor
+A1460F00	Flower Basket
+A1470F00	Study - A Sheep with Horns
+A1480F00	Dark Blue Dye
+A1490F00	Dahlia's Poster
+A14A0B00	Thin Hide
+A14A0F00	Eye of the Sky
+A14B0F00	Dead Tree
+A14C0F00	Hearty Grilled Pincers
+A14D0F00	Beastbane III
+A14E0F00	Medium Staglord Banner Pike
+A14F0F00	Hearty Braised Fish
+A1500F00	Foreman's Note
+A1730000	Red Tonguesole
+A18C2000	Acria Leather Gloves
+A1BB0100	Lunpherd Leather Armor
+A1BE0100	Bollin Cloth Armor
+A1D00300	Gorthak Greataxe
+A1E00100	Pavis Leather Gloves
+A1E10100	Wentz Leather Gloves
+A20B0200	Gaut Cloth Boots
+A2210C00	Tarnished Necklace
+A23E2000	Croden Leather Armor
+A2420F00	Bounty Hunter's Plate Helm
+A2430F00	Gladiator Cloth Boots
+A2440F00	Flawless Stone
+A2450F00	Praevus's Cloth Armor
+A2460F00	Daisy Flower Basket
+A2470F00	Study - The Hound
+A2480F00	Deep Blue Dye
+A2490F00	Annabella's Poster
+A24A0B00	Short Hair Hide
+A24A0F00	REN-X Surveillance Record
+A24B0F00	Square Rock
+A24C0F00	Crescent Moon Slash
+A24D0F00	Abyssbane I
+A24E0F00	Medium Delesyian Banner Pike
+A24F0F00	Satisfying Braised Fish
+A2500F00	Eldred's Note
+A2730000	Red Seabream
+A2A90300	Sydmon Longsword
+A2B10100	Inquisitor's Plate Armor
+A2B50100	Lodi Chain Mail
+A2BB0100	Islekk Leather Armor
+A2BE0100	Livner Cloth Armor
+A33E2000	Balgraun Leather Armor
+A3420F00	Bounty Hunter's Plate Armor
+A3430F00	Staglord Acolyte's Leather Armor
+A3440F00	Investigative Log: Truth on the Sands
+A3450F00	Hernandian Guard Captain's Cloth Cloak
+A3460F00	Demenissian Crown
+A3470F00	Masterpiece - King of Death
+A3480F00	Bright Sky Blue Dye
+A3490F00	Shadowleaf Leather Cloak
+A34A0B00	Long Hair Hide
+A34A0F00	Horn Thief
+A34B0F00	Ruins Excavation
+A34C0F00	Half Moon Slash
+A34D0F00	Abyssbane II
+A34E0F00	Medium Dewhaven Banner Pike
+A34F0F00	Filling Braised Fish
+A3500F00	Farmer's Note
+A3730000	Salmon
+A38A0100	Beastman Bone Helmet
+A3B50100	Drivon Chain Mail
+A3BB0100	Baladean Leather Armor
+A3BE0100	Ruvib Cloth Armor
+A3BF0100	The Masked Liberator's Cloth Armor
+A3D00300	Troll Hook Greataxe
+A3E00100	Rondel Leather Gloves
+A3E40100	Sunset Reed Cloth Gloves
+A4080200	Pasti Leather Boots
+A40B0200	Matia Leather Boots
+A4380000	Alpha Wolf Helm
+A43E2000	Rolfe Leather Armor
+A4420F00	Bounty Hunter's Plate Gloves
+A4430F00	Bleed Officer's Cloth Armor
+A4440F00	Brimstone
+A4450F00	Guard Captain's Plate Helm
+A4460F00	Demenissian Noble's Cloak
+A4470F00	Study - Red Bighorn Sheep
+A4480F00	Rich Sky Blue Dye
+A4490F00	Chocolate
+A44A0B00	Thick Hide
+A44A0F00	Missing Wooly
+A44B0F00	Iguana Hatchery
+A44C0F00	Fullmoon Slash
+A44D0F00	Abyssbane III
+A44E0F00	Provisions Supply Contract - Hernand
+A44F0F00	Hearty Marinated Meat
+A4500F00	Provisioner's Shop Note
+A4730000	Sturgeon
+A4B9D663	Orc Blaster
+A4BB0100	Navan Cloth Armor
+A4BE0100	Bleed Cloth Armor
+A4BF0100	Keller Cloth Armor
+A4D00300	Kylus Greataxe
+A4E00100	Perseus Leather Gloves
+A4E2E713	Scarlet Blades Gas Mask
+A5070200	Mulia Leather Boots
+A5380000	Boss Bear Hat
+A53E2000	Dux Leather Armor
+A5420F00	Bounty Hunter's Plate Boots
+A5430F00	Staglord Acolyte's Leather Armor
+A5440F00	Bounty Notice - Patrick
+A5450F00	Guard Captain's Plate Armor
+A5460F00	Delesyian Crown
+A5470F00	Notable - King of Hens
+A5480F00	Sky Blue Dye
+A5490F00	Rising Torrent
+A54A0B00	Sturdy Hide
+A54A0F00	Flame Spear Blueprint
+A54B0F00	Barrick's Hideout
+A54C0F00	Twilight Messengers' Plate Gloves
+A54D0F00	Sighting of the Black Fang
+A54E0F00	Provisions Supply Contract - Calphade
+A54F0F00	Satisfying Marinated Meat
+A5500F00	Order from Above
+A5730000	Sockeye Salmon
+A58C0B00	False Hellebore
+A5B9D663	Steel Blaster
+A5BB0100	Glosope Leather Armor
+A5BE0100	Alsace Cloth Armor
+A5D00300	Bonepit Greataxe
+A5E10100	Bolson Leather Gloves
+A5E40100	Jester Leather Gloves
+A6030200	Regglia Leather Boots
+A60B0200	Chizhar Cloth Boots
+A63E2000	Roverfelt Leather Armor
+A6420F00	Constellation Helm
+A6430F00	Gladiator Leather Armor
+A6440F00	Bounty Notice - Jonathan
+A6450F00	Hernandian Guard Captain's Plate Gloves
+A6460F00	Delesyian Noble's Cloak
+A6470F00	Magnum Opus - Priest of Bulls
+A6480F00	Dark Sky Blue Dye
+A6490F00	Mariana's Poster
+A64A0F00	Giant Brown Sugar Cube
+A64B0F00	Strange Noises from the Cave
+A64C0F00	Equestrian I
+A64D0F00	Sighting of the Silver Fang
+A64E0F00	Provisions Supply Contract - Delesyia
+A64F0F00	Filling Marinated Meat
+A6500F00	Dark Crescent
+A6730000	Blackhead Seabream
+A6B9D663	Reinforced Steel Blaster
+A6BB0100	Norswich Leather Armor
+A6BE0100	Beralt Cloth Armor
+A6D00300	Fan-Blade Greataxe
+A6E10100	Cains Leather Gloves
+A7030200	Rezzcan Leather Boots
+A73E2000	Seddry Plate Armor
+A7420F00	Beehive Club
+A7430F00	Troll Gladiator's Leather Boots
+A7440F00	High-Purity Gunpowder
+A7450F00	Guard Captain's Plate Boots
+A7460F00	Varnian Crown
+A7470F00	Magnum Opus - The Tiger General
+A7480F00	Deep Sky Blue Dye
+A7490F00	Palgar's Poster
+A74A0F00	Gold Vein Map
+A74B0F00	Dolmen
+A74C0F00	Scholastone Celestial Telescope
+A74D0F00	Sighting of the White Tiger
+A74E0F00	Provisions Supply Contract - Pailune
+A74F0F00	Hearty Battered Fish
+A7500F00	Ordinary Gloves
+A7730000	Opaleye
+A78A0100	Rodderham Plate Helm
+A7BB0100	Campo Leather Armor
+A7BE0100	Monterima Cloth Armor
+A7E10100	Dalton Leather Gloves
+A7E40100	Ator's Will Leather Gloves
+A7F70300	Bekker Warhammer
+A8030200	Baku Leather Boots
+A8080200	Kassantra Leather Boots
+A80B0200	Sunset Reed Cloth Boots
+A83E2000	Hubus Leather Armor
+A8420F00	Eastern Monk Pack
+A8430F00	Troll Gladiator's Plate Helm
+A8440F00	Recipe: Mixed Skewers
+A8450F00	Valortread Plate Boots
+A8460F00	Varnian Noble's Cloak
+A8470F00	Notable - Winged Fox
+A8480F00	Bright Teal Dye
+A8490F00	Eldon's Poster
+A84A0F00	Mossy Secret Map
+A84B0F00	Timberdale Cabin
+A84C0F00	Hernand Banquet Hall
+A84D0F00	Fortune I
+A84E0F00	Provisions Supply Contract - Beighen
+A84F0F00	Satisfying Battered Fish
+A8500F00	Ordinary Gloves
+A8730000	Barred Knifejaw
+A88C2000	Barbarian Leather Gloves
+A8BE0100	Deorre Cloth Armor
+A8BF0100	Pailunese Attire
+A8CF4631	Blacksteel Longia Plate Helm
+A8D00300	Horseshoe-Blade Greataxe
+A8E10100	Eplern Leather Gloves
+A8F70300	Saltroad Warhammer
+A9070200	Cyllian Leather Boots
+A90B0200	Rabbit Cloth Boots
+A9420F00	Master Du's Message
+A9430F00	Gladiator's Thorn Plate Helm
+A9440F00	Recipe: Harvest Soup
+A9450F00	Black Bear Leather Armor
+A9460F00	Axiom Bracelet
+A9470F00	Study - My Beloved Steed
+A9480F00	Rich Teal Dye
+A9490F00	Kathor's Poster
+A94A0F00	Voyages of Sir Catfish
+A94B0F00	Rockshard Valley Ruins
+A94C0F00	Demeniss Orphanage
+A94D0F00	Fortune II
+A94E0F00	Provisions Supply Contract - Demeniss
+A94F0F00	Filling Battered Fish
+A9500F00	Wronged Man's Note
+A9730000	Mackerel
+A9960100	Rahelm Cloth Headband
+A9BB0100	Janiklo Leather Armor
+A9D00300	Hellhounds Chopping Axe
+A9E10100	Archen Leather Gloves
+A9E40100	Witters Plate Gloves
+AA070200	Silverwolf Leather Boots
+AA3E2000	Delfreid Leather Armor
+AA420F00	Silver Visione Stand
+AA430F00	Gladiator's Rat Plate Helm
+AA440F00	Gun
+AA450F00	Belkandor Plate Boots
+AA460F00	Recipe: Steamed Seafood
+AA470F00	Study - Bighorn Sheep
+AA480F00	Teal Dye
+AA490F00	Ronnard's Poster
+AA4A0F00	Trace of the Thunder God
+AA4B0F00	Withered Path
+AA4C0F00	Crow's Ambush
+AA4D0F00	Fortune III
+AA4E0F00	Provisions Supply Contract - Tommaso
+AA4F0F00	Hearty Grilled Meat and Fish
+AA500F00	Note at a Man's House
+AA8A0100	Taos Plate Helm
+AA8C2000	Barbarian Leather Greaves
+AA960100	Wyvernflame Cloth Helm
+AAA90300	Ignir
+AAB50100	Reddin Chain Mail
+AABB0100	Nellaccio Leather Armor
+AAD00300	Pailunese Logging Axe
+AAE10100	Dunion Leather Gloves
+AAE40100	Dulone Plate Gloves
+AB070200	Conentry Leather Boots
+AB080200	Leguna Leather Boots
+AB380000	Black Bear Gas Mask
+AB3E2000	Carphalen Leather Armor
+AB420F00	Autumn Banquet Leather Gloves
+AB430F00	Gladiator's Rake Plate Helm
+AB440F00	Ceramic
+AB450F00	Blue Crab
+AB460F00	Autumn Banquet Cloth Cloak
+AB470F00	Notable - The Fox
+AB480F00	Dark Teal Dye
+AB490F00	Terianne's Poster
+AB4A0F00	Mysterious Gift
+AB4B0F00	Empty House of Arcosa
+AB4C0F00	Hernand Office
+AB4D0F00	Infinite Arrows I
+AB4E0F00	Provisions Supply Contract - Varnia
+AB4F0F00	Satisfying Grilled Meat and Fish
+AB500F00	Queen's Fangs
+AB820300	Alabaster Dagger
+AB960100	Muchia Cloth Cap
+ABA90300	Delesyian Longsword
+ABBB0100	Dasala Leather Armor
+ABBE0100	Faians Cloth Armor
+ABE10100	Laplace Leather Gloves
+ABE40100	Dragon Knight Warrior's Plate Gloves
+AC070200	Benberry Leather Boots
+AC080200	Layta Plate Boots
+AC0B0200	Caliburn's Plate Boots
+AC210C00	Worn Ring
+AC2F0000	Maydocs Leather Armor
+AC35DA7C	Grotevant Plate Gloves
+AC3B0100	Recipe: Salt-Roasted Bird Meat
+AC3E2000	Ruschar Leather Armor
+AC420F00	Low-heeled Leather Boots
+AC430F00	Gladiator Plate Gloves
+AC440F00	Recipe: Pan-Fried Rice Cakes
+AC450F00	Titan's Spear
+AC460F00	Yellow Blue-Eyed Grass Basket
+AC470F00	Notable - Snowfield Fox
+AC480F00	Deep Teal Dye
+AC490F00	Ava's Poster
+AC4A0F00	Chalice of Corruption
+AC4B0F00	Old Battlefield
+AC4C0F00	Old Tree
+AC4D0F00	Infinite Arrows II
+AC4E0F00	Provisions Supply Contract - Vellua
+AC4F0F00	Filling Grilled Meat and Fish
+AC500F00	Putrid Touch
+AC730000	Striped Marlin
+ACBB0100	Gerano Leather Armor
+ACBF0100	Spetsahorn Cloth Armor
+ACD00300	Sigremon Greataxe
+ACE00100	Byren's Leather Gloves
+ACE10100	Bristel Leather Gloves
+ACE40100	Dragon Knight Archer's Plate Gloves
+AD070200	Midlier Leather Boots
+AD210C00	Tarnished Ring
+AD2F0000	Vildyne Leather Armor
+AD3E2000	Paltz Leather Armor
+AD420F00	Sandwatcher Watcher Pack
+AD430F00	Gladiator Plate Boots
+AD440F00	Gorthak Orc's Helm
+AD450F00	Smoke Bomb
+AD460F00	Official Knight's Cloth Cloak
+AD470F00	Masterpiece - Crown Prince Edward Thorel
+AD480F00	Bright Green Dye
+AD490F00	Varis's Poster
+AD4A0F00	Bloodstained Blessing
+AD4B0F00	Blood-Soaked Gravestone
+AD4C0F00	Myurdin and Ludvig
+AD4D0F00	Infinite Arrows III
+AD4E0F00	Provisions Supply Contract - Skoghorn
+AD4F0F00	Hearty Pan-Fried Vegetables
+AD500F00	Spiken Cloth Armor
+AD63C13A	Valkyder Plate Armor
+AD730000	Seahorse
+AD8C2000	Orc Bandit's Leather Gloves
+ADBB0100	Pisonia Leather Armor
+ADBF0100	Muddliss Cloth Armor
+ADE00100	Kadallon Leather Gloves
+ADE40100	Caliburn's Plate Gloves
+ADF70300	Bonepit Warhammer
+AE070200	Derting Leather Boots
+AE080200	Dannoche Leather Boots
+AE2F0000	Adoratt Leather Armor
+AE350C00	The Seal of House Serkis
+AE380000	Visione
+AE3E2000	Erday Leather Armor
+AE420F00	Radiant Plate Boots
+AE430F00	Slave Gladiator Branding Spear
+AE440F00	Recipe: Meat Stew
+AE450F00	Flower Basket
+AE460F00	Scorpion
+AE470F00	Notable - Marni's Portrait
+AE480F00	Rich Green Dye
+AE490F00	Leonard's Poster
+AE4A0F00	Medium Demenissian Banner Pike
+AE4B0F00	Clifftop Coffin
+AE4C0F00	Runaway
+AE4D0F00	Gourmet I
+AE4E0F00	Seed Supply Contract - Calphade
+AE4F0F00	Satisfying Pan-Fried Vegetables
+AE500F00	Leonard's Note
+AE8C2000	Bandit's Leather Greaves
+AEBB0100	Paliano Leather Armor
+AEBE0100	Concarr Cloth Armor
+AEBF0100	Delesyian Cloth Attire
+AED80100	Trish Leather Gloves
+AEF70300	Thalwynd Warhammer
+AF080200	Layta Leather Boots
+AF2F0000	Colbill Leather Armor
+AF380000	Bespoke Visione
+AF3E2000	Einz Leather Armor
+AF420F00	Fluttering Radiance Plate Boots
+AF430F00	Gladiator's Cloth Armor
+AF440F00	Boiled Meat
+AF450F00	Black Bear Leather Gloves
+AF460F00	Centipede
+AF470F00	Study - Dignified Genius
+AF480F00	Green Dye
+AF490F00	Caden's Poster
+AF4A0F00	Shadow Gloves
+AF4B0F00	Saddler's Note
+AF4C0F00	Azerian Manor
+AF4D0F00	Gourmet II
+AF4E0F00	Seed Supply Contract - Demeniss
+AF4F0F00	Filling Pan-Fried Vegetables
+AF500F00	Assistant's Note
+AF730000	Starfish
+AF820300	Dagger of Dark Pursuit
+AFBF0100	Kang Cloth Armor
+AFD80100	Leahdra Leather Gloves
+AFE00100	Salun Leather Gloves
+AFF70300	Cactus Warhammer
+B0070200	Steyer Leather Boots
+B0080200	Catcheta Leather Boots
+B02F0000	Coby Leather Armor
+B03E2000	Trier Chain Mail
+B0420F00	Astrid's Lesser Elixir
+B0430F00	Gladiator's Leather Boots
+B0440F00	Golden Free Company's Plate Helm
+B0450F00	Caltrop Explosive
+B0460F00	Mace of Ambition
+B0470F00	Study - Marni's Room
+B0480F00	Dark Green Dye
+B0490F00	Gwendolyn's Poster
+B04A0F00	Golden Piggy Bank
+B04B0F00	Private Soldier's Plate Armor
+B04C0F00	Icy White Glass Lamp
+B04D0F00	Gourmet III
+B04E0F00	Seed Supply Contract - Delesyia
+B04F0F00	Hearty Braised Meat and Fish
+B0500F00	Gear Blueprint: Flames of Judgment
+B06D0000	Salt-Roasted Fish
+B0730000	Squid
+B0920100	Uphren Leather Helm
+B0BB0100	Locasima Leather Armor
+B0BF0100	Zynian Cloth Armor
+B0D80100	Veile Leather Gloves
+B0E10100	Masti Plate Gloves
+B1070200	Ebenezer Leather Boots
+B1080200	Caico Leather Boots
+B11E0400	Rosemond Pistol
+B12F0000	Sherborn Leather Armor
+B13E2000	Lutzen Leather Armor
+B1420F00	Bounty Hunter's Cloth Armor
+B1430F00	Hellhound Leather Helm
+B1440F00	Old Research Journal
+B1450F00	Recipe: Lavish Meal
+B1460F00	Shane's Cloth Headband
+B1470F00	Acclaimed - Fields of Color
+B1480F00	Deep Green Dye
+B1490F00	Rowan's Poster
+B14A0F00	Propeller Spear Blueprint
+B14B0F00	Giant Bone Pile
+B14C0F00	Twilight Glass Lamp
+B14D0F00	Efficiency I
+B14E0F00	Seed Supply Contract - Pailune
+B14F0F00	Satisfying Braised Meat and Fish
+B1500F00	A Hunter's Letter
+B1730000	Saw-Edged Perch
+B1820300	Crow Brothers Dagger
+B18F0600	Soporific Blowpipe
+B1BB0100	Corey Cloth Armor
+B1BE0100	Luwea Cloth Armor
+B1BF0100	Zamir Cloth Armor
+B1D80100	Behrun Hide Bracers
+B1E10100	Takkan Leather Gloves
+B2080200	Cosgrove Leather Boots
+B21E0400	Jemel Pistol
+B23E2000	Pomerin Leather Armor
+B2420F00	Bounty Hunter's Cloth Gloves
+B2430F00	Bear Pack
+B2440F00	Witches of Pywel
+B2450F00	Ziggurat Leather Armor
+B2460F00	Bounty Notice - Rinaldo
+B2470F00	Notable - Golden Lands
+B2480F00	Bright Spring Green Dye
+B2490F00	Brookner's Poster
+B24A0F00	Lightning Spear Blueprint
+B24B0F00	Path of Giant Bones
+B24C0F00	Lilac Glass Lamp
+B24D0F00	Efficiency II
+B24E0F00	Seed Supply Contract - Tommaso
+B24F0F00	Filling Braised Meat and Fish
+B2500F00	Demeniss Earring
+B2650000	Honey Tea
+B2BB0100	Lariano Cloth Armor
+B2BE0100	Gael Cloth Armor
+B2BF0100	Lubonon Cloth Armor
+B2D80100	Inquisitor's Plate Gloves
+B2E10100	Arsen Leather Gloves
+B2F70300	Arlem Warhammer
+B3070200	Tesslit Leather Boots
+B3080200	Caelough Leather Boots
+B31E0400	Falconne Pistol
+B33E2000	Deltin Leather Armor
+B3420F00	Bounty Hunter's Scale Helm
+B3430F00	Caliburn's Captain Plate Armor
+B3440F00	Fruit Tea
+B3450F00	Regal Fritillary Butterfly
+B3460F00	Pomegranate Seed
+B3470F00	Notable - Nameless
+B3480F00	Rich Spring Green Dye
+B3490F00	Tibo's Poster
+B34A0F00	Hologram Projector
+B34B0F00	Remote Ruins
+B34C0F00	Icy White Pavilion Glass Lamp
+B34D0F00	Efficiency III
+B34E0F00	Seed Supply Contract - Varnia
+B34F0F00	Hearty Battered Seafood
+B3500F00	Shadow Claw
+B3710B00	Carrot
+B3BB0100	Ranubio Leather Armor
+B3BE0100	Bolgan Cloth Armor
+B3BF0100	Denill Cloth Armor
+B3DF897F	Dalbich Plate Armor
+B3E10100	Takah Cloth Gloves
+B3F70300	Arlen Warhammer
+B4070200	Rhonda Leather Boots
+B4080200	Kasset Leather Boots
+B41E0400	Vilancia Pistol
+B43E2000	Palen Leather Armor
+B4420F00	Bounty Hunter's Leather Armor
+B4430F00	Bullet
+B4440F00	Chalice Bush Pot
+B4450F00	Elegant Carmine Leather Armor
+B4460F00	Fig Seed
+B4470F00	Study - Emptiness
+B4480F00	Spring Green Dye
+B4490F00	Anne's Poster
+B44A0F00	Dark Red Goblet
+B44B0F00	Burial Mound
+B44C0F00	Twilight Pavilion Glass Lamp
+B44D0F00	Ledgermain I
+B44E0F00	Purple Scout Necklace
+B44F0F00	Satisfying Battered Seafood
+B4500F00	Parting Gift
+B48C2000	Jackals' Leather Armor
+B4BB0100	Ardia Leather Armor
+B4BE0100	Dernat Cloth Armor
+B4E10100	Silver Plate Gloves
+B4F70300	Zargan Warhammer
+B5080200	Cassrow Leather Boots
+B53E2000	Buellen Leather Armor
+B5420F00	Bounty Hunter's Leather Boots
+B5430F00	Nameless Sage's Leather Cloak
+B5440F00	Modest Silver Pouch
+B5450F00	Elegant Carmine Leather Cloak
+B5460F00	Balder's Cloth Armor
+B5470F00	Orange Seed
+B5480F00	Dark Spring Green Dye
+B5490F00	Marin's Poster
+B54A0F00	T'rukan's Fighting Spirit
+B54B0F00	Shipwreck Oak Barrel
+B54C0F00	Lilac Pavilion Glass Lamp
+B54D0F00	Ledgermain II
+B54E0F00	Purple Scout Ring
+B54F0F00	Filling Battered Seafood
+B5500F00	White Crow's Letter
+B5700400	Legion Spearmen's Large Shield
+B58C2000	Jackals' Leather Armor
+B5BB0100	Antika Leather Armor
+B5BE0100	Dondegobi Cloth Armor
+B5BF0100	Noble Cloth Armor
+B5C11100	Eli's Attire
+B5D80100	Canta Plate Gloves
+B5E00100	Lespedan Leather Gloves
+B5E10100	Chent Leather Gloves
+B607BD5F	Patten's Leather Gloves
+B6080200	Katz Leather Boots
+B63E2000	Dark Ringleader's Cloth Armor
+B6420F00	Peddler Cat Hat
+B6430F00	Kuku Spear
+B6440F00	Letter from a Mother
+B6450F00	Elegant Carmine Plate Gloves
+B6460F00	Matilda's Cloth Armor
+B6470F00	Coffee Cherry Seed
+B6480F00	Deep Spring Green Dye
+B6490F00	Grond's Poster
+B64A0F00	Shadow Contract
+B64B0F00	Silverbrook Ruins
+B64C0F00	Icy White Watchtower Glass Lamp
+B64D0F00	Ledgermain III
+B64E0F00	Purple Scout Lantern
+B64F0F00	Hearty Battered Meat and Fish
+B6500F00	Ancient Retribution
+B688D007	Northern Freesword's Leather Gloves
+B68A0100	Tarandus Plate Helm
+B68C2000	Jackals' Leather Armor
+B6920100	Arkhan Leather Helm
+B6960100	Rockington Cloth Cap
+B699EF7A	Condemner's Plate Armor
+B6BB0100	Oustia Leather Armor
+B6BE0100	Gobialta Cloth Armor
+B6CD8774	Grotevant Plate Helm
+B6D80100	Draiga Plate Gloves
+B6E10100	Black Bear Leather Gloves
+B73E2000	Solworth Leather Armor
+B7420F00	Sleepy Scarlet Butterfly
+B7430F00	Nameless Sage's Leather Gloves
+B7440F00	Eastern Wanderer's Shield
+B7450F00	Elegant Carmine Plate Boots
+B7460F00	Devan's Cloth Armor
+B7470F00	Cacao Seed
+B7480F00	Bright Yellow Dye
+B7490F00	Herbert's Poster
+B74A0F00	Frostward I
+B74B0F00	Wooden Pavilion
+B74C0F00	Twilight Watchtower Glass Lamp
+B74D0F00	Blessing of the Earth I
+B74E0F00	Purple Scout Hat
+B74F0F00	Satisfying Battered Meat and Fish
+B7500F00	Adrina's Note
+B7BB0100	Tarabe Leather Armor
+B7BE0100	Orbus Cloth Armor
+B7BF0100	Odorrey Cloth Armor
+B7D80100	Runae Cloth Gloves
+B8080200	Ligatra Leather Boots
+B8240000	Beoneck Cloth Cap
+B83E2000	Dowsampton Leather Armor
+B8420F00	Satisfying Toasted Grains
+B8430F00	One-Armed Jackals' Leather Armor
+B8440F00	Calphadean Contribution Banner Pike
+B8450F00	Stellen Manor Closet Key
+B8460F00	Terry's Cloth Armor
+B8470F00	Marni Laser Helm
+B8480F00	Rich Yellow Dye
+B8490F00	Nancy's Poster
+B84A0F00	Memory of Ancient Nature
+B84B0F00	Forest Memorial Stone
+B84C0F00	Lilac Watchtower Glass Lamp
+B84D0F00	Blessing of the Earth II
+B84E0F00	Purple Scout Armor
+B84F0F00	Filling Battered Meat and Fish
+B8500F00	Carpenter's Note
+B88A0100	Musket Border Guard Standard Helm
+B8920100	Ledan Leather Helm
+B8960100	Deland Plate Helm
+B8BB0100	Montlanico Leather Armor
+B8BE0100	Hentree Cloth Armor
+B8E00100	Rheigis Leather Gloves
+B8E10100	Grey Wolf Cloth Gloves
+B9070200	Ramastern Leather Boots
+B9080200	Cantu Leather Boots
+B9240000	Skyblazer Cloth Helm
+B92F0000	Hungering Fang Leather Armor
+B9420F00	Flames of Judgment
+B9430F00	Meliara's Greater Elixir
+B9440F00	Lean Bird Meat
+B9450F00	Antumbra Bismuth Protection Suit
+B9460F00	Stirrups of the Open Sky
+B9470F00	Noble Private Soldier's Leather Gloves
+B9480F00	Yellow Dye
+B9490F00	Ruddy Daggerwing Butterfly
+B94A0F00	Leebur's Soul
+B94B0F00	Volstein Ruins
+B94C0F00	Icy White Hexagonal Lamp
+B94D0F00	Blessing of the Earth III
+B94E0F00	Purple Scout Cloak
+B94F0F00	Hearty Meat and Fish Skewers
+B9500F00	Training Field Note
+B9820300	Ator's Finger
+B98A0100	Lotas Plate Helm
+B98C2000	Jackals' Leather Armor
+B9BB0100	Carpine Leather Armor
+B9BE0100	Oubreve Cloth Armor
+B9D80100	Frostcursed Plate Gloves
+B9E00100	Hagwood Leather Gloves
+B9E10100	Dherri Leather Gloves
+B9FF0100	Unyielding Warrior's Plate Boots
+BA240000	St. Halssius Priest's Hat
+BA2F0000	Helfryn Leather Armor
+BA3E2000	Doventry Leather Armor
+BA420F00	Recipe: Fish Skewers
+BA430F00	Crow Plate Helm
+BA440F00	Refined Palmar Pill
+BA450F00	Companionship III
+BA460F00	Acorn Mace
+BA470F00	Sungrove Standard Plate Armor
+BA480F00	Dark Yellow Dye
+BA490F00	Little Wood Satyr Butterfly
+BA4A0F00	Sage's Eye
+BA4A4E12	Russet Rhegis Leather Boots
+BA4B0F00	Vanished Statue
+BA4C0F00	Twilight Hexagonal Lamp
+BA4D0F00	Blessing of Nature I
+BA4E0F00	Purple Scout Shield
+BA4F0F00	Satisfying Meat and Fish Skewers
+BA500F00	Maidon's Note
+BA960100	Ducriss Conical Cap
+BABE0100	Harghai Cloth Armor
+BAF70300	Tardik Warhammer
+BAFF0100	Golden Greed Plate Boots
+BB080200	Andaran Leather Boots
+BB1E0400	Shadow of the Past Pistol
+BB2F0000	Weasel Leather Armor
+BB3A0C5D	Large Pavis Leather Gloves
+BB420F00	Deployable Explosive
+BB430F00	Vow of the Dead King
+BB440F00	Twilight Messengers' Plate Helm
+BB450F00	Elegant Carmine Plate Helm
+BB460F00	Grey Wolf Wooden Shield
+BB470F00	Marshell Soldier's Plate Armor
+BB480F00	Deep Yellow Dye
+BB490F00	Guava Skipper Butterfly
+BB4A0F00	Hidden Treasure Map Piece 2
+BB4B0F00	Abandoned House
+BB4C0F00	Lilac Hexagonal Lamp
+BB4D0F00	Blessing of Nature II
+BB4E0F00	Purple Scout Champron
+BB4F0F00	Filling Meat and Fish Skewers
+BB500F00	Harbor Manager's Note
+BBBF0100	Dega Cloth Armor
+BBE10100	Patten's Leather Gloves
+BC080200	Maldrick Leather Boots
+BC31B657	Beaked Plate Helm
+BC340000	Royal Oath
+BC420F00	Small Militia Banner Pike
+BC430F00	Plate Helm of the Shadows
+BC440F00	Recipe: Grilled Meat Patties
+BC450F00	Wanderer of Faith Leather Armor
+BC460F00	The Grove's Thorn
+BC470F00	Marshell Soldier's Plate Armor
+BC480F00	Bright Orange Dye
+BC490F00	Decoy Summon Ball
+BC4A0F00	Golden Beer
+BC4B0F00	Ironcrawler Thief's Hideout
+BC4C0F00	Icy White Crystal
+BC4D0F00	Blessing of Nature III
+BC4E0F00	Purple Scout Saddle
+BC4F0F00	Hearty Grain Soup
+BC500F00	Note from the Bank
+BCE00100	Lasfeld Leather Gloves
+BCE10100	Silverwolf Leather Gloves
+BCF70300	Iris Warhammer
+BD080200	Anderitz Leather Boots
+BD1E0400	Caliburn's Mercy Pistol
+BD420F00	Shield of Ringing
+BD430F00	Plate Gloves of the Shadows
+BD440F00	Roar of the Black Bear
+BD450F00	Wanderer of Faith Leather Cloak
+BD460F00	Odeck Wooden Club Mace
+BD470F00	Azerian Soldier's Plate Armor
+BD480F00	Rich Orange Dye
+BD490F00	Purple Emperor Butterfly
+BD4A0F00	Hagmund Saddle
+BD4B0F00	Pailune Secret Vault
+BD4C0F00	Twilight Crystal
+BD4D0F00	Blessing of the Beast I
+BD4E0F00	Purple Scout Stirrups
+BD4F0F00	Satisfying Grain Soup
+BD500F00	Haverson's Note
+BD8A0100	Black Bears' Leather Helm
+BDBB0100	Kednry Leather Armor
+BDE00100	Wyrdins Leather Gloves
+BDE10100	Rattu Cloth Gloves
+BE070200	Layne Leather Boots
+BE080200	Trilly Leather Boots
+BE420F00	Scarlet Leafwing Butterfly
+BE430F00	Plate Boots of the Shadows
+BE440F00	Nacre Lacquer
+BE450F00	Wanderer of Faith Leather Gloves
+BE460F00	Savage Woodland Spirit Killer
+BE470F00	Azerian Soldier's Plate Armor
+BE480F00	Orange Dye
+BE490F00	Southern Blue Peacock Butterfly
+BE4A0F00	Memory of a Fallen Kingdom
+BE4B0F00	Eerie Pit
+BE4C0F00	Lilac Crystal
+BE4D0F00	Blessing of the Beast II
+BE4E0F00	Blue Scout Earring
+BE4F0F00	Filling Grain Soup
+BE500F00	Baker's Note
+BE8A0100	Chelcia Plate Helm
+BE8C2000	Hyena Helm
+BED80100	Flame Swordsman Plate Gloves
+BEE00100	Andria Leather Gloves
+BEF70300	Gorthak Warhammer
+BEFF0100	Lattua Plate Boots
+BF080200	Fiore Leather Boots
+BF420F00	Light of the Battlefield Cloth Cloak
+BF430F00	Plate Cloak of the Shadows
+BF440F00	Fine Fishing Rod
+BF450F00	Wanderer of Faith Leather Boots
+BF460F00	Journal
+BF470F00	Azerian Soldier's Plate Armor
+BF480F00	Dark Orange Dye
+BF490F00	Nawab Butterfly
+BF4A0F00	Kuku Lightning Spear
+BF4B0F00	Hunters of Odeck
+BF4C0F00	Icy White Processed Crystal
+BF4D0F00	Blessing of the Beast III
+BF4E0F00	Blue Scout Necklace
+BF4F0F00	Hearty Steamed Eggs
+BF500F00	Church Note
+BFB10100	Tarandus Plate Armor
+BFBF0100	Rabbit Leather Coat
+BFFF0100	Icewing Plate Boots
+C0080200	Perelli Leather Boots
+C0420F00	Bounty Hunter's Cloth Armor
+C0430F00	Arrow Skill Instructor Armor
+C0440F00	Pororin Fishing Rod
+C0450F00	Delesyian Guard Captain's Cloth Cloak
+C0460F00	Air Blaster
+C0470F00	Elemore Soldier's Plate Armor
+C0480F00	Deep Orange Dye
+C0490F00	Green Birdwing Butterfly
+C04A0F00	Kuku Flame Spear
+C04B0F00	Mossy Generator
+C04C0F00	Twilight Processed Crystal
+C04D0F00	Blessing of the Forest I
+C04E0F00	Blue Scout Ring
+C04F0F00	Satisfying Steamed Eggs
+C0500F00	Flint's Note
+C08A0100	Scorchflame Plate Helm
+C0920100	Dekter Leather Helm
+C0B10100	Enus Plate Armor
+C0BF0100	Jester Leather Coat
+C0D80100	Batz Plate Gloves
+C0E00100	Larkri Leather Gloves
+C0E10100	Lercent Leather Gloves
+C1000000	InspectSocket 0
+C1040000	InspectSocket 0
+C1080000	InspectSocket 1
+C10C0000	InspectSocket 0
+C1100000	InspectSocket 1
+C1140000	InspectSocket 0
+C1180000	InspectSocket 1
+C11C0000	InspectSocket 0
+C1200000	InspectSocket 1
+C1240000	InspectSocket 0
+C1270900	Engraved Copper Earring
+C1280000	InspectSocket 1
+C12C0000	InspectSocket 0
+C1300000	InspectSocket 1
+C1340000	InspectSocket 0
+C1380000	InspectSocket 1
+C13C0000	InspectSocket 0
+C1400000	InspectSocket 1
+C1420F00	Bounty Hunter's Cloth Armor
+C1430F00	Morgren Cloth Armor
+C1440000	InspectSocket 0
+C1440F00	Wells Military Tack Blueprint
+C1450400	Arlen Musket
+C1450F00	Delesyian Guard Captain's Armor
+C1460F00	Pot
+C1470F00	Elemore Soldier's Plate Armor
+C1480000	InspectSocket 1
+C1480F00	Broken Bismuth Ornament
+C1490F00	Eighty-eight Butterfly
+C14A0F00	Kuku Propeller Spear
+C14B0F00	Unidentified Abyss Gear
+C14C0000	InspectSocket 0
+C14C0F00	Lilac Processed Crystal
+C14D0F00	Blessing of the Forest II
+C14E0F00	Blue Scout Lantern
+C14F0F00	Filling Steamed Eggs
+C1500000	InspectSocket 1
+C1500F00	Potter's Journal
+C1540000	InspectSocket 0
+C1580000	InspectSocket 1
+C15C0000	InspectSocket 0
+C1600000	InspectSocket 1
+C1640000	InspectSocket 0
+C1680000	InspectSocket 1
+C16C0000	InspectSocket 0
+C1700000	InspectSocket 1
+C1740000	InspectSocket 0
+C1780000	InspectSocket 1
+C1790900	Dev Red Dragon HorseArmor Helm
+C17C0000	InspectSocket 0
+C1800000	InspectSocket 1
+C1840000	InspectSocket 0
+C1880000	InspectSocket 1
+C18A0100	Inyr Plate Helm
+C18C0000	InspectSocket 0
+C1900000	InspectSocket 1
+C1920100	Shellus Leather Helm
+C1940000	InspectSocket 0
+C1980000	InspectSocket 1
+C19C0000	InspectSocket 0
+C1B50100	Kallari Chain Mail
+C1D80100	Tarandus Plate Gloves
+C1E10100	Duskfang Leather Gloves
+C1FF0100	Inquisitor's Plate Boots
+C2270900	Engraved Silver Earring
+C234600E	Blacksteel Spiddle Plate Armor
+C23E2000	Duskfang Leather Armor
+C2420F00	Bounty Hunter's Cloth Armor
+C2430F00	Missing Cows
+C2440F00	Red Seaweed
+C2450400	Bekker Musket
+C2450F00	Memory of Tide
+C2470F00	Elemore Soldier's Plate Armor
+C2480F00	Angular Bismuth Ornament
+C2490F00	Crimson Warden's Leather Boots
+C24A0F00	Kuku Disruptor Spear
+C24B0F00	Mistwood Hunters' Hideout
+C24C0F00	Gorthak
+C24D0F00	Blessing of the Forest III
+C24E0F00	Blue Scout Hat
+C24F0F00	Hearty Meat Soup
+C2500F00	Howling of Chaos
+C25FF826	Worn Sarantos Leather Boots
+C2790900	Dev Red Dragon HorseArmor Saddle
+C28A0100	Rueconec Plate Helm
+C2960100	Lashiras Cowl
+C29FBF30	Dumenis Plate Helm
+C2B50100	Tormand Chain Mail
+C2BE0100	Telford Cloth Armor
+C2D80100	Scorchflame Plate Gloves
+C3270900	Engraved Gold Earring
+C3400C00	Notorious Thief's Map Piece 1
+C3420F00	Bounty Hunter's Leather Helm
+C3430F00	Hornless Goats
+C3440F00	Pelt
+C3450400	Delesyian Musket
+C3450F00	Count Grace's Journal
+C3460F00	Tree Frog
+C3470F00	Opossum
+C3480F00	Round Bismuth Ornament
+C3490F00	A.T.A.G. Pincers
+C34A0F00	Kuku Laser Cannon Spear
+C34B0F00	Ridgehunter Tannery
+C34C0F00	Marni's Secret Laboratory
+C34D0F00	Service I
+C34E0F00	Blue Scout Armor
+C34F0F00	Satisfying Meat Soup
+C3500F00	Judgment of the Soul
+C3790900	Dev Red Dragon HorseArmor Stirrup
+C38A0100	Calio Plate Helm
+C3B50100	Hasets Chain Mail
+C3D80100	Camsen Plate Gloves
+C4400C00	Notorious Thief's Map Piece 2
+C4420F00	Bounty Hunter's Leather Armor
+C4430F00	Lair of Animal Thieves
+C4440F00	Grilled Meat
+C4450400	Wells Musket
+C4450F00	Frozen Heart Plate Boots
+C4470F00	Byron's Soldier Plate Armor
+C4480F00	Fennel
+C4490F00	Bounty on the Bloodied Monster
+C44A0F00	Kuku Flamespitter
+C44B0F00	Unidentified Abyss Gear
+C44D0F00	Service II
+C44E0F00	Blue Scout Cloak
+C44F0F00	Filling Meat Soup
+C4500F00	Castiel's Note
+C4790900	Dev Red Dragon HorseArmor Armor
+C4960100	Dark Ringleader's Cloth Helm
+C4B50100	Killi Chain Mail
+C4E10100	Dram Leather Bracers
+C5070200	Kadallon's Leather Boots
+C5100300	White Wind Rapier
+C5270900	Golden Deer's Tear
+C5400C00	Notorious Thief's Map Piece 3
+C5420F00	Bounty Hunter's Leather Armor
+C5430F00	Notepad
+C5440F00	Grilled Fish
+C5450400	Leofric Musket
+C5450F00	Staglord Acolyte's Leather Armor
+C5460F00	Burrowing Toad
+C5470F00	Windmere Standard Plate Armor
+C5480F00	Split Tooth
+C5490F00	Black Bears Banner Pike with Tassel
+C54A0F00	Kuku Frostspitter
+C54B0F00	Coast Windmill Shipwreck
+C54D0F00	Service III
+C54E0F00	Blue Scout Shield
+C54F0F00	Hearty Braised Ribs
+C5500F00	Stained Work Log
+C5790900	Dev Red Dragon Ring Str HP
+C5B50100	Valton Chain Mail
+C5BF0100	Chelcia Plate Armor
+C5D80100	Dimfeld Plate Gloves
+C5E00100	Rossbara Leather Gloves
+C5E10100	Bunce Leather Gloves
+C5FF0100	Canta Plate Boots
+C6100300	Hollow Visage
+C6420F00	Bounty Hunter's Leather Armor
+C6430F00	Feather Pen
+C6440F00	Flour
+C6450F00	Varnian Guard Captain's Cloth Armor
+C6460F00	Satisfying Smoked Eggs
+C6470F00	Byron's Soldier Plate Armor
+C6480F00	Barley
+C6490F00	Trukan Cloth Cloak
+C64A0F00	Enhanced Kuku Pot
+C64B0F00	Stonemire Ruins
+C64D0F00	Aptitude I
+C64E0F00	Blue Scout Champron
+C64F0F00	Satisfying Braised Ribs
+C6500F00	Ancient Wrath
+C66E0400	Gilliam Large Shield
+C6790900	Dev Red Dragon Ring Def HP
+C68A0100	Ashford Plate Helm
+C68C2000	Insulated Gloves
+C6BF0100	Anti-Meyer Plate Armor
+C6E00100	Blyne Leather Bracers
+C6E10100	Maters Leather Gloves
+C73E8041	Blacksteel Lotas Plate Helm
+C7420F00	Thick Hunter's Leather Gloves
+C7430F00	Golden Star's Power Core
+C7440F00	Fragrant Fruit Wine
+C7450F00	Varnian Guard Captain's Cloth Cloak
+C7460F00	Filling Smoked Eggs
+C7470F00	Byron's Soldier Plate Armor
+C7480F00	Strawberry
+C7490F00	Flame Knight's Plate Helm
+C74A0F00	Right Hand Boulder
+C74B0F00	Cliff Edge Altar
+C74D0F00	Aptitude II
+C74E0F00	Blue Scout Saddle
+C74F0F00	Filling Braised Ribs
+C7500F00	Gear Blueprint: Greysoul Howling
+C76E0400	Lifsoth Large Shield
+C7790900	Dev Red Dragon Ring MP Stamina
+C7960100	Sian Cloth Cap
+C7AFD560	Meyer Plate Armor
+C7C36B58	Inquisitor's Plate Helm
+C8100300	Dekarr Sword
+C8420F00	Strapped Bounty Hunter's Leather Boots
+C8430F00	Haiden's Greater Elixir
+C8440F00	Finely Ground Salt
+C8450F00	Varnian Guard Captain's Plate Helm
+C8460F00	Hearty Grilled Meat
+C8470F00	Chipmunk
+C8480F00	Elderberry
+C8490F00	White Butterfly
+C84A0F00	[QA] Profiling (Hernand-Pailune 20)
+C84B0F00	Smugglers' Dock
+C84D0F00	Aptitude III
+C84E0F00	Blue Scout Stirrups
+C84F0F00	Hearty Fish Porridge
+C8500F00	Gear Blueprint: Shadow Claw
+C86E0400	Reinforced Warspike Large Shield
+C8790900	Dev Red Dragon Ring Immune
+C8920100	Scholastone Cap
+C8960100	Karas Cloth Headband
+C8970400	Aeserion Bow
+C8AB627A	Bleed Bandits' Makeshift Gas Mask
+C8D80100	Agatha's Plate Gloves
+C9080200	Lasian Leather Boots
+C9420F00	Crow Bounty Plate Helm
+C9430F00	Maegu's Letter
+C9440F00	Grilled Vegetables
+C9450F00	Memories of the Northern Winds
+C9460F00	Satisfying Grilled Meat
+C9470F00	North Wind Shield
+C9480F00	Pomegranate
+C9490F00	Green Sulphur Butterfly
+C94A0F00	Creaky Fishing Dock
+C94B0F00	Meteorite
+C94D0F00	Energy Drain I
+C94E0F00	[QA] Profiling (Demeniss-Delesyia 2.5)
+C94F0F00	Satisfying Fish Porridge
+C9500F00	Gear Blueprint: Queen's Fangs
+C9710B00	Orange
+C98C2000	Crude Devil Mask
+C9960100	Larkett Cloth Cap
+C9970400	Crimson Warden's Bow
+C9B50100	Lucnaon Chain Mail
+C9BF0100	Anti-Crail Plate Armor
+C9D80100	Ashad Plate Gloves
+C9E10100	Rannys Leather Gloves
+C9EDB665	Kinloch Plate Armor
+CA080200	Ludynn Leather Greaves
+CA420F00	Bounty Hunter's Plate Armor
+CA430F00	Demeniss Royal Guard Shield
+CA440F00	Grilled Fruit
+CA450F00	Golden Greed Plate Helm
+CA460F00	The Knowledge Helm
+CA470F00	Careful Observation of H.A.L.L.
+CA490F00	Violet Hairstreak Butterfly
+CA4A0F00	Jofroy's Poster
+CA4B0F00	Helmara Scrap Graveyard
+CA4D0F00	Energy Drain II
+CA4E0F00	[QA] Profiling (Demeniss-Delesyia 20)
+CA4F0F00	Filling Fish Porridge
+CA500F00	Gear Blueprint: Ancient Wrath
+CA6E0400	Thalwynd Large Shield
+CA960100	Lashir Cloth Cap
+CAB10100	Grey Wolf Leather Armor
+CAB90100	Beastman Leather Armor
+CAD80100	Solas Plate Gloves
+CAEEEF00	Dreer Plate Armor
+CB070200	Pierpont Leather Boots
+CB080200	Kurua Leather Boots
+CB420F00	Sir Catfish's Plate Gloves
+CB430F00	Demenissian Silver-Decorated Shield
+CB450F00	Abidon Fabric Helm T5 QA
+CB460F00	Lightning Spear
+CB470F00	Rosbar Champron
+CB480F00	Pineapple
+CB490F00	Spotted Lycaenid Butterfly
+CB4A0F00	Marielle's Poster
+CB4B0F00	Hat Shaped Boulder
+CB4D0F00	Energy Drain III
+CB4E0F00	Dewhaven Standard Plate Helm
+CB4F0F00	Hearty Meat and Vegetable Porridge
+CB500F00	Gear Blueprint: Ancient Retribution
+CB6D0B00	Hay
+CB960100	Drish Cloth Cap
+CBB50100	Lucnian Chain Mail
+CC080200	Stoddard Leather Boots
+CC420F00	Sir Catfish's Plate Boots
+CC430F00	Enset
+CC440F00	Smoked Egg
+CC450F00	Scalaphynion Fabric Helm T4 QA
+CC460F00	Ryan's Cloth Armor
+CC470F00	Kuku Pot Special Blueprint
+CC480F00	Coffee Cherry
+CC490F00	Bluewing Butterfly
+CC4A0F00	Delkin's Poster
+CC4B0F00	Unidentifiable Corpse
+CC4D0F00	Sighting of Royler
+CC4E0F00	Gorio's Poster
+CC4F0F00	Satisfying Meat and Vegetable Porridge
+CC500F00	Gear Blueprint: Putrid Touch
+CC6E0400	Lucon Large Shield
+CC8A0100	Lyfellen Plate Helm
+CC960100	Triloan Cloth Headband
+CCBB0100	Vainbridge Cloth Armor
+CCE00100	Rhinard Leather Gloves
+CD080200	Wattern Leather Boots
+CD400C00	Legendary Armor Map Piece 1
+CD420F00	Recipe: Braised Fish
+CD430F00	Prickly Pear
+CD440F00	Grilled Meat and Fish
+CD450F00	Tychaon Fabric Armor T5 QA
+CD460F00	Filling Grilled Meat
+CD470F00	Rhinoceros Beetle
+CD490F00	Orange Oakleaf Butterfly
+CD4A0F00	Tina's Poster
+CD4B0F00	Ruins by the Saltroad Camp
+CD4D0F00	Sighting of Rokade
+CD4E0F00	Harry's Poster
+CD4F0F00	Filling Meat and Vegetable Porridge
+CD500F00	Gear Blueprint: Parting Gift
+CD6E0400	Rhonid Large Shield
+CDB50100	Dunion Chain Mail
+CDFF0100	Batz Plate Boots
+CE070200	Dyrfrith Leather Boots
+CE080200	Badran Leather Boots
+CE400C00	Legendary Armor Map Piece 2
+CE420F00	Ginseng
+CE430F00	Chaya
+CE440F00	Meat Skewers
+CE450F00	Tychaon Fabric Cloak T5 QA
+CE460F00	Greymane Signet
+CE470F00	Khaled Shield
+CE480F00	Silver-Decorated Water Bottle
+CE490F00	Trap Bomb
+CE4A0F00	Bran's Poster
+CE4B0F00	Desert Swamp
+CE4D0F00	Sighting of Camora
+CE4E0F00	Bargul's Poster
+CE4F0F00	Hearty Meat and Fish Porridge
+CE500F00	Gear Blueprint: Howling of Chaos
+CE6E0400	Balton Large Shield
+CEB50100	Dragon Flame Armor
+CEFF0100	Chelcia Plate Boots
+CF080200	Hauvern Leather Boots
+CF3E2000	Helpaia Leather Armor
+CF400C00	Legendary Armor Map Piece 3
+CF420F00	Miner's Lantern Hat
+CF430F00	Ice Magic Bullet
+CF440F00	Braised Meat
+CF450F00	Scalaphynion Fabric Armor T4 QA
+CF460F00	Demenissian Signet
+CF470F00	Gear Blueprint: Groundsurge
+CF480F00	Wide-Mouthed Water Bottle
+CF490F00	Itano Cannonball
+CF4A0F00	Temir's Poster
+CF4B0F00	Sacred Chalice
+CF4D0F00	Sighting of the White Bear
+CF4E0F00	Gunter's Poster
+CF4F0F00	Satisfying Meat and Fish Porridge
+CF500F00	Gear Blueprint: Lightning God's Affliction
+CF6D0B00	Sugar Beet
+CF6E0400	Rekel Large Shield
+CF8C2000	Goldleaf Soldier Cloth Headband
+CF960100	Ruckshi Cloth Cap
+CFB50100	Dragon Knight Warrior's Plate Armor
+CFFF0100	Ashad Plate Boots
+D0070200	Ashen Wolf's Leather Boots
+D0080200	Begill Leather Boots
+D0400C00	Ercaid's Treasure Map Piece 1
+D0420F00	Small Grilled Fish
+D0430F00	Amaranth
+D0440F00	Clear Soup
+D0450F00	Scalaphynion Fabric Cloak T4 QA
+D0460F00	Delesyian Signet
+D0470F00	Flameward I
+D0480F00	Small Pot for Boiling
+D0490F00	Green Coral Reef Earring
+D04A0F00	Trolmagg's Poster
+D04B0F00	Well of Enlightenment
+D04D0F00	Giant White Bison Sighting
+D04E0F00	Lola's Poster
+D04F0F00	Filling Meat and Fish Porridge
+D0500F00	Gear Blueprint: Beastbane
+D08C2000	Goldleaves' Cone Leather Helm
+D0960100	Rhytrian Cloth Cap
+D0B50100	Dragon Knight Chain Mail
+D0BF0100	Scarlet Blades Cloth Armor
+D0E10100	Dane Leather Bands
+D0FF0100	Solas Plate Boots
+D1080200	Dreiger Leather Boots
+D13E2000	Dvalin Cloth Armor
+D1400C00	Ercaid's Treasure Map Piece 2
+D1420F00	White Streaked butterfly
+D1430F00	Two-Handed Weapons of the World, Vol. I
+D1440F00	Artisan's Ornamented Shield
+D1450400	Helms Musket
+D1450F00	Heisellen Fabric Cloak T1 QA
+D1460F00	Desert Marauder's Plate Armor
+D1470F00	Flameward II
+D1480F00	Blue-Glazed Container
+D1490F00	Light Fist Magic Bullet
+D14A0F00	Olanelle's Poster
+D14B0F00	Bloodstained Street
+D14D0F00	Sighting of the Phoenix
+D14E0F00	Richart's Poster
+D14F0F00	Hearty Fishball Soup
+D1500F00	Gear Blueprint: Abyssbane
+D16C0400	Balton Shield
+D18A0100	Kiatus Plate Helm
+D18C2000	Goldleaves' Short Leather Boots
+D2080200	Esha Leather Boots
+D2100300	Sword of the Lord
+D2400C00	Ercaid's Treasure Map Piece 3
+D2420F00	Kuku Bird's Egg
+D2430F00	Two-Handed Weapons of the World, Vol. II
+D2440F00	Greymane Contribution
+D2450400	Pailunese Musket
+D2450F00	Reeddevil Fabric Gloves T5 QA
+D2460F00	Golden Sword
+D2470F00	Flameward III
+D2480F00	Black Ceramic Water Bottle
+D2490F00	Delesyian Soldier's Cloth Barding
+D24A0F00	Kiki's Poster
+D24B0F00	Verheim Ruins
+D24D0F00	Sighting of Skevald, the Carrion King
+D24E0900	Engraved Silver Necklace
+D24E0F00	Eldred's Poster
+D24F0F00	Satisfying Fishball Soup
+D2500F00	Gear Blueprint: Energy Drain
+D2875746	Empty Pack
+D28C2000	Goldleaves' Leather Helm
+D2C61100	Scholastone Uniform
+D2D80100	Pernicia Plate Gloves
+D2FF0100	Serval Plate Boots
+D3420F00	Great Purple Hairstreak Butterfly
+D3430F00	Two-Handed Weapons of the World, Vol. III
+D3440F00	Feather
+D3450400	Gustav Musket
+D3450F00	Tarif Fabric Gloves T4 QA
+D3460F00	Lars's Cloth Armor
+D3470F00	Shield of Sacrifice
+D3480F00	Fine Pickaxe
+D3490F00	Snow Magic Bullet
+D34A0F00	Khron's Poster
+D34B0F00	Rocking Boulder
+D34C0F00	Quarry Manager's Log
+D34D0F00	Golden Tench Sighting
+D34E0F00	Rocco's Poster
+D34F0F00	Filling Fishball Soup
+D3500F00	Gear Blueprint: Life Transference
+D36E0400	Lanford Large Shield
+D3710B00	Tomato
+D38C2000	Flame Knight's Leather Boots
+D3C61100	Pororin Cloth Attire
+D3D80100	Ferman Plate Gloves
+D3FF0100	Tyrdall Leather Boots
+D4070200	Ironwilled Guardian's Leather Boots
+D4412000	Leddic Cloth Armor
+D4420F00	Mysterious Letter
+D4430F00	Two-Handed Weapons of the World, Vol. IV
+D4440F00	Large Bone
+D4450F00	Tarif Fabric Gloves T3 QA
+D4460F00	Turncoat Plate Helm
+D4470F00	Shield of the Phantom
+D4480F00	Yellow-Glazed Water Bottle
+D4490F00	Schtump Cloth Cloak
+D44A0F00	Grannard's Poster
+D44B0F00	Shipyard Wood Knot
+D44D0F00	Sighting of the Coelacanth
+D44E0900	Engraved Copper Necklace
+D44E0F00	Tigerfang Ring
+D44F0F00	Hearty Seafood Soup
+D4500F00	Gear Blueprint: Spirit Transference
+D46E0400	The Laughing Marionette Shield
+D4960100	Gadereich Cloth Cap
+D5080200	Vixer Leather Shoes
+D5100300	Spada Sword
+D53D0C00	Engraved Key
+D5412000	Lacas Cloth Armor
+D5420F00	Wooden Rake
+D5430F00	Ranged Weapons of the World - Bows, Vol. I
+D5440F00	Wool
+D5450F00	Hanbok Fabric Gloves T1 QA
+D5460F00	Peach Seed
+D5470F00	A.T.A.G. Boots Mk I
+D5480F00	Light Green-Glazed Water Bottle
+D5490F00	Vulker Leather Gloves
+D54A0F00	Hagmund Champron
+D54B0F00	A Well with a Story
+D54C0F00	Engraved Stone
+D54D0F00	Sighting of the Golden Coelacanth
+D54E0F00	White Lion Necklace
+D54F0F00	Satisfying Seafood Soup
+D5500F00	Gear Blueprint: Stamina Transference
+D58A0100	Rahbae Plate Helm
+D58C2000	Shadowleaf Outfit
+D5960100	Ludynn Cloth Cap
+D5D0202D	Crutch
+D5FF0100	Antumbra Plate Boots
+D6412000	Rikkas Cloth Armor
+D6420F00	Recipe: Fish Porridge
+D6430F00	Ranged Weapons of the World - Bows, Vol. II
+D6450F00	Reeddevil Fabric Boots T5 QA
+D6460F00	Staglord Acolyte's Leather Armor
+D6470F00	Sealed Abyss Artifact
+D6480F00	Clay-Handled Water Bottle
+D6490F00	Leffri's Leather Gloves
+D64A0F00	Small Battery
+D64B0F00	Branch of Birds
+D64C0F00	[QA] Profiling (Hernand)
+D64D0F00	Sighting of the Golden Carp
+D64E0F00	Black Lion Earring
+D64F0F00	Filling Seafood Soup
+D6500F00	Gear Blueprint: Relentless
+D68A0100	Goldbranch Plate Crown
+D68C2000	Shadowleaf Helm
+D6960100	Marc Cloth Headband
+D6AA2219	Mentz Plate Helm
+D7080200	Meravan Leather Boots
+D7100300	Acria Sword
+D71A2000	Larsan Cloth Headband
+D7400C00	Farmer's Treasure Map Piece 1
+D7412000	Lauta Cloth Armor
+D7420F00	Dagger of Radiance
+D7430F00	Ranged Weapons of the World - Bows, Vol. III
+D7440F00	Short Horn
+D7450F00	Tarif Fabric Boots T4 QA
+D7460F00	Pure White Dye
+D7470F00	Snowfield Chipmunk
+D7480F00	Pot
+D7490F00	Leffri's Leather Gloves
+D74A0F00	Seal of Devotion
+D74B0F00	Hayroof Farm Fireflies
+D74C0F00	[QA] Profiling (Hernand-Demeniss 60)
+D74D0F00	Sighting of the Clockwork Fish
+D74E0F00	Pale Predator's Leather Gloves
+D74F0F00	Hearty Vegetable and Seafood Porridge
+D7500F00	Small Battery
+D78C2000	Shadowleaf Gloves
+D7960100	Harker Cloth Cap
+D8080200	Salmae Leather Shoes
+D81A2000	Ricksley Cloth Cap
+D8400C00	Farmer's Treasure Map Piece 2
+D8412000	Marindo Cloth Armor
+D8420F00	Fire Magic Bullet
+D8430F00	Ranged Weapons of the World - Bows, Vol. IV
+D8440F00	Packaged Field Cloth Armor
+D8450F00	Tarif Fabric Boots T3 QA
+D8460F00	Witch's Storehouse Key
+D8470F00	Red Squirrel
+D8480F00	Swords Box
+D8490F00	Laurent's Leather Gloves
+D84A0F00	The Ivory Messenger
+D84B0F00	Unidentified Abyss Gear
+D84C0F00	Gear Blueprint: Destruction
+D84D0F00	Forrex's Note
+D84E0F00	Letter of Fortune
+D84F0F00	Satisfying Vegetable and Seafood Porridge
+D8500F00	Gear Blueprint: Ledgermain
+D8710B00	Wild Honey
+D88C2000	Shadowleaf Boots
+D8E10100	Reak Leather Gloves
+D9080200	Nehrut Leather Shoes
+D9100300	Legionary's Gladius
+D9400C00	Farmer's Treasure Map Piece 3
+D9412000	Killua Cloth Armor
+D9420F00	Water Magic Bullet
+D9430F00	Ranged Weapons of the World - Guns, Vol. I
+D9440F00	Packaged Field Chain Mail
+D9450F00	Deer King Leather Helm T4 QA
+D9460F00	Musket Border Guard Standard Armor
+D9470F00	Shadow Grey Dye
+D9480F00	Weapons Box
+D9490F00	Harkias Leather Gloves
+D94A0F00	Wrecked Keglord
+D94B0F00	Demeniss Cabin
+D94C0F00	Engraved Stone
+D94D0F00	Greater Insight
+D94E0F00	Note with a Suspicious Symbol
+D94F0F00	Filling Vegetable and Seafood Porridge
+D9500F00	Gear Blueprint: Blessing of the Earth
+D9673065	Large Enratte Plate Helm
+D9710B00	Wild Rock Honey
+D9E00100	Sleishorn Leather Gloves
+DA070200	Sarantos Leather Boots
+DA080200	Juman Leather Boots
+DA100300	Survivor's Solitude
+DA300000	Silver Fang Helm
+DA400C00	Farmer's Treasure Map Piece 4
+DA412000	Larcotti Cloth Armor
+DA420F00	Recipe: Battered Fish
+DA430F00	Ranged Weapons of the World - Guns, Vol. II
+DA440F00	Red Ginseng
+DA450F00	Tesslit Leather Helm T2 QA
+DA460F00	Dusksongs Leather Armor
+DA470F00	Flying Squirrel
+DA480F00	Teapot
+DA490F00	Guardian Plate Armor
+DA4A0F00	Secret of the Abandoned Mine
+DA4B0F00	Gorgerock Watchtower
+DA4C0F00	Gear Blueprint: Insight
+DA4D0F00	Greater Swift
+DA4E0F00	Decorative Iron Plate
+DA4F0F00	Hearty Longhorn Soup
+DA500F00	Gear Blueprint: Blessing of Nature
+DA960100	Veronde Cloth Cap
+DAD80100	Grey Wolf Leather Gloves
+DAE10100	Badran Leather Gloves
+DB1A2000	Deccain Cloth Headband
+DB3B4067	Levin Plate Armor
+DB412000	Liorna Cloth Armor
+DB420F00	Fine Logging Axe
+DB430F00	Ranged Weapons of the World - Guns, Vol. III
+DB440F00	Well-Aged Cheese
+DB450F00	Douglas Leather Armor T5 QA
+DB460F00	Dusksongs Leather Boots
+DB470F00	Kuku Rocket Pack
+DB480F00	Iron Basin
+DB490F00	Leather Strap Gourd Bottle
+DB4A0F00	Elegant Carmine Helm Blueprint
+DB4B0F00	Savage Fangs Monument
+DB4C0F00	Apple Pack
+DB4D0F00	Cogwheel
+DB4E0F00	Ceremonial Bowl
+DB4F0F00	Satisfying Longhorn Soup
+DB500F00	Gear Blueprint: Blessing of the Beast
+DB6E0400	Bekker Large Shield
+DB960100	Ghaltain Cloth Cap
+DBE00100	Mornington Cloth Gloves
+DBE10100	Rigma Leather Gloves
+DC100300	Shackle of Might
+DC370000	Executioner of Darkness Plate Gloves
+DC412000	Mauryth Cloth Armor
+DC420F00	Eastern Witch's Fan
+DC430F00	Faded Earring
+DC440F00	Fish Meat
+DC450F00	Deerking Leather Armor T4 QA
+DC460F00	Dusksongs Plate Armor
+DC470F00	Gear Blueprint: Rend
+DC480F00	Hourglass
+DC490F00	Plaid Gourd Bottle
+DC4A0F00	Elegant Carmine Armor Blueprint
+DC4B0F00	Jungle Ruins
+DC4C0F00	[QA] Profiling (Hernand-Demeniss 20)
+DC4D0F00	Greater Flameward
+DC4E0F00	Gear Blueprint: Disarm
+DC4F0F00	Filling Longhorn Soup
+DC500F00	Gear Blueprint: Service
+DCA9570C	Bandit's Scale Leather Gloves
+DCE10100	Verdesh Leather Gloves
+DD1A2000	Skian Cloth Cap
+DD370000	Plate Gloves of Cursed Soul
+DD420F00	Bounty Notice - Skevald, the Carrion King
+DD430F00	Ranged Weapons of the World - Guns, Vol. IV
+DD440F00	Mysterious Dish
+DD450F00	Douglas Leather Gloves T5 QA
+DD460F00	Dusksongs Plate Gloves
+DD470F00	Rescue Puppy Outfit
+DD480F00	Ornate Magnifying Glass
+DD490F00	Combat God's Plate Gloves
+DD4A0F00	Hidden Treasure Map Piece 3
+DD4B0F00	Rockveil Ruins
+DD4C0F00	[QA] Profiling (Hernand-Demeniss 2.5)
+DD4D0F00	Greater Frostward
+DD4E0F00	Disarm I
+DD4F0F00	Hearty Pan-Fried Rice Cakes
+DD500F00	Gear Blueprint: Aptitude
+DD8B0B00	Grisette Mushroom
+DDE00100	Bandellure Leather Gloves
+DDE10100	Jasmern Leather Gloves
+DE1A2000	Laplian Cloth Cap
+DE2BF823	Blacksteel Renkshaw Plate Helm
+DE370000	Crimson Chaser Chain Gloves
+DE420F00	Recipe: Pickled Vegetables
+DE430F00	Shields of the World, Vol. I
+DE440F00	Finely Crafted Ivory
+DE450F00	Legendary Deer Leather Gloves T4 QA
+DE460F00	Rainstorm Necklace
+DE470F00	Red Rose Flower Pot
+DE480F00	Magnifying Glass
+DE490F00	Ruschar Cloth Cloak
+DE4A0F00	Hidden Treasure Map Piece 4
+DE4B0F00	Weeping Rocks
+DE4C0F00	Restraint Rope Fabric Gloves I
+DE4D0F00	Greater Shockward
+DE4E0900	Finely Crafted Gold Necklace
+DE4E0F00	Disarm II
+DE4F0F00	Satisfying Pan-Fried Rice Cakes
+DE500F00	Gear Blueprint: Equestrian
+DE6C0400	Iris Shield
+DE6E0400	Mass-Produced Large Rekel Shield
+DEBE0100	Daraz Cloth Armor
+DED80100	Luon Plate Gloves
+DEE10100	Esha Leather Gloves
+DF1A2000	Dicari Laurel Headband
+DF420F00	Fundamentalist's Cloth Armor
+DF430F00	Shields of the World, Vol. II
+DF440F00	Ceremonial Sword
+DF450F00	Bainian Leather Boots T5 QA
+DF460F00	Laser Cannon Spear
+DF470F00	Yellow Rose Flower Pot
+DF480F00	Scales
+DF490F00	Mistcloaked Owl Plate Helm
+DF4A0F00	Hidden Treasure Map Piece 5
+DF4B0F00	Grave of Warriors' Axes
+DF4C0F00	Black Bear Officer's Leather Gloves
+DF4D0F00	Greater Steelbane
+DF4E0900	Stardust Necklace
+DF4E0F00	Disarm III
+DF4F0F00	Filling Pan-Fried Rice Cakes
+DF500F00	Gear Blueprint: Companionship
+DF8B0B00	Poison Fire Coral Mushroom
+DF960100	Berghill Cloth Cap
+DFD80100	Luthor Plate Gloves
+DFE10100	Shellus Leather Gloves
+DFFF0100	Sigremon Plate Boots
+E0070200	Levinto Leather Boots
+E0080200	Warren Beynon's Leather Boots
+E01A2000	Stian Cloth Headband
+E0370000	Frozen Heart Plate Gloves
+E0420F00	Fundamentalist's Cloth Armor
+E0430F00	Dark Magic Bullet
+E0440F00	Ceremonial Armor
+E0450F00	Ludvic Leather Boots T4 QA
+E0460F00	Herald of Six O'Clock
+E0470F00	Ornamental Plant Pot
+E0480F00	Strongbox
+E0490F00	Hexe Earthen Fish
+E04A0F00	Hidden Treasure Map Piece 6
+E04B0F00	Inside of the Delesyian Institute
+E04C0F00	Black Bear Officer's Leather Armor
+E04D0F00	Greater Hexebane
+E04E0F00	Zesty Fine Meal
+E04F0F00	Hearty Grilled Meat Patties
+E0500F00	Memories of the Disconnected Truth
+E0960100	Meravan Cloth Cap
+E0C41100	Northern Fighter's Chain Mail
+E0D80100	Arkhan Plate Gloves
+E0E00100	Nocburn Leather Gloves
+E0E10100	Waller Leather Gloves
+E0FF0100	Dulone Plate Boots
+E1070200	Ruthie Leather Boots
+E11A2000	Artiree Cloth Cap
+E1370000	Brass Warden's Plate Gloves
+E1400C00	Mysterious Totem Treasure Map Piece 1
+E1420F00	Fundamentalist's Cloth Armor
+E1430F00	Shields of the World, Vol. III
+E1440F00	Recipe: Mixed Harvest Bowl
+E1450F00	Sealed Abyss Artifact
+E1460F00	Watcher Pack
+E1470F00	Colorful Gerbera Pot
+E1480F00	Document Storage
+E1490F00	Kuku Bismuth Spear
+E14A0F00	Hidden Treasure Map Piece 7
+E14B0F00	Eldertree Research Camp
+E14D0F00	Greater Bloodbane
+E14E0F00	Refreshing Fine Meal
+E14F0F00	Satisfying Grilled Meat Patties
+E1500F00	Shadows Within the Ether Fragment
+E16C0400	Sydmon Round Shield
+E16EF123	Large Rhegis Leather Boots
+E1710B00	Cheese
+E1930400	Golden-Knotted Ancestral Bow
+E1960100	Salimi Cloth Cap
+E1D80100	Dumenis Plate Gloves
+E1FF0100	Sahazhad Plate Boots
+E2080200	Sein Leather Boots
+E21A2000	Saristi Cloth Headband
+E2370000	Pailunese Gloves
+E2420F00	Pirate Cloth Armor
+E2430F00	Shields of the World, Vol. IV
+E2440F00	Jade
+E2450F00	Sealed Abyss Artifact
+E2460F00	Sealed Abyss Artifact
+E2470F00	Violet Flower Pot
+E2480F00	Sturdy Wooden Box
+E2490F00	Outfit Supply Contract - Hernand
+E24A0F00	Hidden Treasure Map Piece 8
+E24B0F00	Giant's Boot
+E24D0F00	Greater Primalbane
+E24E0F00	Satisfying Extravagant Meal
+E24F0F00	Filling Grilled Meat Patties
+E2500F00	Memories of the Loop of Life
+E2750900	Ancient Shell Ring
+E28A0100	Bedure Plate Helm
+E2930400	Dekarr Bow
+E2C21100	Beekeeping Suit
+E2E00100	Drumard Leather Gloves
+E2FF0100	Demenissian Plate Boots
+E3080200	Dolters Leather Boots
+E31A2000	Tegri Cloth Headband
+E335B359	Solumen Priest's Big Staff
+E3420F00	Pirate Cloth Armor
+E3430F00	Plate Armors of the World, Vol. I
+E3440F00	Wolf Test OneHandSword
+E3450F00	Sealed Abyss Artifact
+E3460F00	Asparagus
+E3470F00	Purple Gerbera Flower Pot
+E3480F00	Wooden Box
+E3490F00	Matilda's Leather Headband
+E34A0F00	Hidden Treasure Map Piece 9
+E34B0F00	Frostward III
+E34D0F00	Greater Malicebane
+E34E0F00	Energizing Extravagant Meal
+E34F0F00	Hearty Mixed Harvest Bowl
+E3500F00	Demian Skirt Fabric Armor
+E36E0400	Rekel Large Spiked Shield
+E3930400	Bekker Bow
+E3D80100	Ratti Plate Gloves
+E4070200	Colbern Leather Boots
+E4080200	Blackwing Leather Boots
+E4420F00	Dancing Catfish Cloth Armor
+E4430F00	Plate Armors of the World, Vol. II
+E4440F00	Report on Myurdin's Whereabouts
+E4450F00	Sealed Abyss Artifact
+E4460F00	Soul Spear
+E4470F00	Dark Brown Gerbera Flower Pot
+E4480F00	Engraved Wooden Box
+E4490F00	Jian's Leather Helm
+E44A0F00	Hidden Treasure Map Piece 10
+E44B0F00	Corpse of an Adventurer
+E44D0F00	Greater Beastbane
+E44E0F00	Hearty Lavish Meal
+E44F0F00	Satisfying Mixed Harvest Bowl
+E4500F00	Haldin's Hideout
+E46C0400	Mirror of Night
+E46E0400	Thorny Warspike Large Shield
+E4750900	Crude Blue Ring
+E4930400	Twilight Messengers' Bow
+E4D80100	Ettis Plate Gloves
+E5420F00	Pirate Cloth Armor
+E5430F00	Plate Armors of the World, Vol. III
+E5440F00	Investigative Report
+E5450F00	Sealed Abyss Artifact
+E5460F00	Devil of the Reed Field's Doll
+E5470F00	Light Brown Gerbera Flower Pot
+E5480F00	Iron-Adorned Storage
+E5490F00	Dried Fish
+E54A0F00	Hidden Treasure Map Piece 11
+E54B0F00	Hollow Tree
+E54D0F00	Greater Abyssbane
+E54E0F00	Piquant Lavish Meal
+E54F0F00	Filling Mixed Harvest Bowl
+E5500F00	Tashkalp Contribution
+E56C0400	Drake Shield
+E56E0400	Demenissian Soldier's Large Shield
+E5960100	Yuzel Cloth Cap
+E5D80100	Recklin Cloth Gloves
+E5E10100	Salmae Leather Gloves
+E6080200	Orbit Leather Boots
+E61A2000	Kennav Cloth Headband
+E6420F00	Pirate Cloth Armor
+E6430F00	Plate Armors of the World, Vol. IV
+E6440F00	Ashen Wolf's Leather Cloak
+E6450F00	Sealed Abyss Artifact
+E6460F00	Wild Garlic
+E6470F00	Flower-Shaped Marigold Pot
+E6480F00	Jewelry Storage
+E6490F00	Darren Plate Gloves
+E64A0F00	Fiona's Poster
+E64B0F00	Painted Cavern
+E64D0F00	Greater Infinite Arrows
+E64E0F00	Refreshing Grand Meal
+E64F0F00	Hearty Braised Fish and Vegetables
+E6500F00	Fertilizer Sprayer
+E6E00100	Stratton Leather Gloves
+E6E10100	Derrison Leather Gloves
+E6FF0100	Plate Boots of the Fallen Kingdom
+E7080200	Alvitt Leather Boots
+E71A2000	Raditz Cloth Cap
+E7420F00	Pirate Plate Gloves
+E7430F00	Sealed Abyss Artifact
+E7440F00	Leather Cloak of Earth's Honor
+E7450F00	Sealed Abyss Artifact
+E7460F00	Fire Walk Boots
+E7470F00	Chalice Flower Pot
+E7480F00	Jewel Box
+E7490F00	Palmar Pill
+E74A0F00	Zargon's Poster
+E74B0F00	Study - Gathering Genius
+E74C0F00	Ursula's Journal
+E74D0F00	Lonely Jackals' Leather Armor
+E74E0F00	Aromatic Grand Meal
+E74F0F00	Satisfying Braised Fish and Vegetables
+E7500F00	Lubricant Sprayer
+E76C0400	Rising Arrow Shield
+E8080200	Arrenya Leather Boots
+E81A2000	Riven Cloth Cap
+E8350000	Lance OneHandLance
+E8420F00	Pirate Plate Gloves
+E8430F00	Kuku Transmission 999K Pack
+E8440F00	Grasshopper
+E8450F00	Sealed Abyss Artifact
+E8460F00	Gale Shield
+E8470F00	White Flower-Shaped Marigold Pot
+E8480F00	Multipurpose Wooden Box
+E8490F00	Sealed Abyss Artifact
+E84A0F00	Elise's Poster
+E84B0F00	Study - Discovering Genius
+E84C0F00	First Piece
+E84D0F00	Jackals' Leather Gloves
+E84E0F00	Tart Special Meal
+E84F0F00	Filling Braised Fish and Vegetables
+E8500F00	Replenishing Cannonballs
+E8E00100	Hegea Leather Gloves
+E8E10100	Dirrebin Leather Gloves
+E9070200	Bolton Leather Boots
+E9080200	Belui Leather Boots
+E91A2000	Drina Cloth Cap
+E9380C00	Hernand Entry Permit
+E9420F00	Recipe: Vegetable Porridge
+E9430F00	Kuku Communicative Pack Blueprint
+E9440F00	Ashad Plate Cloak
+E9450F00	Sealed Abyss Artifact
+E9460F00	Propeller Spear
+E9470F00	Blue-Green Glass Water Bottle
+E9480F00	Rosebay
+E9490F00	Sealed Abyss Artifact
+E94A0F00	Flint's Poster
+E94B0F00	Study - Contemplative Genius
+E94C0F00	Second Piece
+E94D0F00	Fort Anvil Key
+E94E0F00	Herby Special Meal
+E94F0F00	Hearty Pan-Fried Marinated Fish
+E9500F00	Replenishing Bullets
+E98A0100	Laehbern Plate Helm
+E9960100	Pailunese Hat
+E9BB0100	Durain Chain Mail
+E9D80100	Kevile Plate Gloves
+E9E00100	Camsen Leather Gloves
+EA1A2000	Eryn Cloth Cap
+EA420F00	Journal on Treating Lunatics
+EA430F00	Gear Blueprint: Shatter
+EA440F00	Solas Plate Cloak
+EA450F00	Sealed Abyss Artifact
+EA460F00	Memories of Prosperity
+EA470F00	Wooden Container
+EA490F00	Sealed Abyss Artifact
+EA4A0F00	Suspicious Religion
+EA4B0F00	Unidentified Abyss Gear
+EA4C0F00	Third Piece
+EA4D0F00	Stone Jar
+EA4E0F00	Fancy Meal
+EA4F0F00	Satisfying Pan-Fried Marinated Fish
+EA500F00	Tashkalp Signet
+EA6C0400	Staglord's Shield
+EA750900	Rough Bluestone Ring
+EA8A0100	Offenberg Plate Helm
+EA92D26F	Blacksteel Coogan Plate Armor
+EABB0100	Latrion Chain Mail
+EAE10100	Dallaban Leather Gloves
+EAFF0100	Grey Wolf Leather Boots
+EB420F00	Demenissian Chainsaw
+EB430F00	Velok Champron
+EB440F00	Demenissian Gold-Decorated Shield
+EB450F00	Sealed Abyss Artifact
+EB460F00	Fundamentalist Goblin Cloth Armor
+EB470F00	Portable Wooden Container
+EB480F00	Sealed Abyss Artifact
+EB490F00	Sealed Abyss Artifact
+EB4A0F00	Turnali's Poster
+EB4B0F00	Royal Trading Post Note
+EB4C0F00	Throne of the White Night
+EB4D0F00	Research Suspension Warning
+EB4E0F00	Fluffy Meal
+EB4F0F00	Filling Pan-Fried Marinated Fish
+EB500F00	Kliff Youthful Appearance Change Coupon
+EB750900	Finely Crafted Gold Ring
+EBBB0100	Senian Chain Mail
+EBD80100	Weirren Plate Gloves
+EC420F00	Buckeye Butterfly
+EC430F00	Leather Armors of the World, Vol. I
+EC440F00	Grilled Pincers
+EC450F00	Sealed Abyss Artifact
+EC460F00	Magic Scythe
+EC470F00	Blue Round Water Bottle
+EC480F00	Indigo Bottle
+EC490F00	Sealed Abyss Artifact
+EC4A0F00	Alden's Poster
+EC4B0F00	Muskan Armor
+EC4C0F00	Aged Branch
+EC4D0F00	Sharp Dagger
+EC4E0F00	Competition Sword
+EC4F0F00	Hearty Assorted Braised Fish
+EC500F00	Lubricant
+EC930400	Tardik Bow
+ECBAAC7A	Vennebis Plate Armor
+ECD80100	Devinine Plate Gloves
+ED420F00	Goldleaves' Leather Boots
+ED430F00	Lightning Magic Bullet
+ED440F00	Goldlight Plate Cloak
+ED450F00	Sealed Abyss Artifact
+ED460F00	Spire of the Stars Key
+ED470F00	Ceramic Container
+ED480F00	Wide-Bottomed Water Bottle
+ED490F00	Sealed Abyss Artifact
+ED4A0F00	Bruna's Poster
+ED4B0F00	Skull and Sword
+ED4C0F00	Dumenis Plate Boots II
+ED4D0F00	Hidden Space - 0001
+ED4E0F00	Competition Wooden Bow
+ED4F0F00	Satisfying Assorted Braised Fish
+ED500F00	Mobile Chocolate Workshop Research Journal
+ED8A0100	Ashad Plate Helm
+ED930400	Kylus Bow
+EDD80100	Icewing Plate Gloves
+EDE00100	Matthias' Leather Gloves
+EDE10100	Lawson Leather Gloves
+EE100000	Broken Visione
+EE3D0C00	Recruiting Arm Wrestlers
+EE420F00	Freya's Elixir
+EE430F00	Leather Armors of the World, Vol. II
+EE440F00	Executioner of Darkness Plate Cloak
+EE450F00	Sealed Abyss Artifact
+EE460F00	Camel Cricket
+EE470F00	Short-Necked Ceramic Container
+EE480F00	Decorative Water Bottle with Lid
+EE490F00	Sealed Abyss Artifact
+EE4A0F00	Grania's Poster
+EE4B0F00	Gear Blueprint: Slashing Reeds
+EE4C0F00	Batz Plate Gloves I
+EE4D0F00	Hidden Space - 0002
+EE4E0F00	Competition Musket
+EE4F0F00	Filling Assorted Braised Fish
+EE500F00	Gear Blueprint: Shred
+EE8A0100	Solas Plate Helm
+EE930400	Sydmon Bow
+EEB10100	Bodin Plate Armor
+EEBB0100	Tyran Leather Armor
+EEBE0100	Denmore Cloth Armor
+EED80100	Demenissian Elite Plate Gloves
+EEE10100	Gaiman Leather Gloves
+EF100000	Broken Visione
+EF420F00	Apollonia's Elixir
+EF430F00	Freshwater Clam
+EF440F00	Recipe: Battered Harvest Roll
+EF450F00	Sealed Abyss Artifact
+EF460F00	Giant's Boots
+EF470F00	Liquor Bottle
+EF480F00	Glazed Clay Water Bottle
+EF490F00	Sealed Abyss Artifact
+EF4A0F00	Nork's Poster
+EF4B0F00	Gear Blueprint: Wind Slash
+EF4C0F00	Lamp of Crossed Dreams
+EF4D0F00	Hidden Space - 0003
+EF4E0F00	Competition Spear
+EF4F0F00	Hearty Battered Harvest Roll
+EF500F00	Shatter I
+EF930400	Bloodsteel Bow
+EF960100	Jester Leather Mask
+EFB10100	Breemen Plate Armor
+EFBB0100	Tiron Leather Armor
+EFBE0100	Telin Cloth Armor
+EFC01100	Luon Plate Boots
+EFD80100	Golden Greed Plate Gloves
+EFE00100	Layddete Leather Gloves
+F0100000	Broken Visione
+F0420F00	Blazing Spear
+F0430F00	Leather Armors of the World, Vol. III
+F0440F00	Demenissian Contribution Banner Pike
+F0450F00	Sealed Abyss Artifact
+F0460F00	Sorcerer's Staff
+F0470F00	Sturdy Clay Container
+F0480F00	Cloud Grey Dye
+F0490F00	Sealed Abyss Artifact
+F04A0F00	Berto's Poster
+F04B0F00	Gear Blueprint: Storm Fang
+F04C0F00	Beckoning Forest
+F04D0F00	Hidden Space - 0004
+F04E0F00	Damiane's Axiom Bracelet
+F04F0F00	Satisfying Battered Harvest Roll
+F0500F00	Shatter II
+F0960100	Rabbit Leather Mask
+F0BB0100	Eshrun Leather Armor
+F0BE0100	Calis Cloth Armor
+F0D80100	Belui Plate Gloves
+F1230000	Tariv Cloth Boots
+F1350000	Nazk Sword
+F1420F00	Grilled Seafood
+F1430F00	Leather Armors of the World, Vol. IV
+F1440F00	Stone
+F1450F00	Sealed Abyss Artifact
+F1460F00	Ancient Wood Pole
+F1470F00	Tin Water Bottle
+F1480F00	Pile of Clothing Materials
+F1490F00	Sealed Abyss Artifact
+F14A0F00	Serge's Poster
+F14B0F00	Gear Blueprint: Karmic Pulse
+F14C0F00	Ratti Plate Gloves II
+F14D0F00	Hidden Space - 0005
+F14E0F00	Horse Hire Ledger
+F14F0F00	Filling Battered Harvest Roll
+F1500F00	Shatter III
+F17E0E00	Broom
+F18A0100	Ulrich Plate Helm
+F20D0C00	Empty Bottle
+F2350000	Chillfallen Sword
+F2412000	Tanturi Cloth Armor
+F2420F00	Pailunese Contribution Banner Pike
+F2430F00	Cloth Armors of the World, Vol. I
+F2440F00	Beekeeper Gear Blueprint
+F2450F00	Sealed Abyss Artifact
+F2460F00	Antumbra's Eye
+F2470F00	Round Blue Container
+F2480F00	Pile of Cloth
+F2490F00	Sealed Abyss Artifact
+F24A0F00	Ugmon's Poster
+F24B0F00	Trainee's Note
+F24C0F00	The Beholder
+F24D0F00	Hidden Space - 0006
+F24E0F00	Empty Ledger
+F24F0F00	Hearty Grilled Meat Steak
+F2500F00	Rend I
+F27E0E00	Logging Axe
+F2930400	Tommasoan Bow
+F2BB0100	Groucca Leather Armor
+F2BE0100	Roshayne Cloth Armor
+F2E00100	Khalbdan Leather Gloves
+F3350000	Aeserion Sword
+F3420F00	Wolf Tracker Cloth Armor
+F3430F00	Cloth Armors of the World, Vol. II
+F3440F00	Walking Cane
+F3450F00	Sealed Abyss Artifact
+F3460F00	Dark Worshiper's Staff
+F3470F00	Round Blue Container
+F3480F00	Packaged Ceramic
+F3490F00	Sealed Abyss Artifact
+F34A0F00	Prox's Poster
+F34B0F00	Gear Blueprint: Hound's Claws
+F34C0F00	Chalice of Devouring
+F34D0F00	Hidden Space - 0007
+F34E0F00	Feed Purchase Receipt
+F34F0F00	Satisfying Grilled Meat Steak
+F3500F00	Rend II
+F37E0E00	Shovel
+F3930400	Warspike Bow
+F3BE0100	Minnutan Cloth Armor
+F3BF1100	Ashen Wolf's Leather Armor
+F4350000	Sword of the Fleeting
+F4412000	Bantree Cloth Armor
+F4420F00	Wolf Tracker Leather Gloves
+F4430F00	Cloth Armors of the World, Vol. III
+F4440F00	Small Cannonball
+F4450F00	Sealed Abyss Artifact
+F4460F00	Ceremonial Warhammer
+F4470F00	Slim Indigo Glass Bottle
+F4480F00	Packaged Glass
+F4490F00	Sealed Abyss Artifact
+F44A0F00	Peregrine's Poster
+F44B0F00	Sungrove Standard Plate Helm
+F44C0F00	Corvo Plate Gloves
+F44D0F00	Hidden Space - 0008
+F44E0F00	Trade Schedule Log
+F44F0F00	Filling Grilled Meat Steak
+F4500F00	Rend III
+F47E0E00	Pickaxe
+F5330000	Marni Musket
+F5420F00	Wolf Tracker Leather Boots
+F5430F00	Cloth Armors of the World, Vol. IV
+F5440F00	Sealed Abyss Artifact
+F5450F00	Sealed Abyss Artifact
+F5460F00	Shadowleaf Soul Branch
+F5470F00	Gourd Bottle
+F5480F00	Packaged Carpets
+F5490F00	Sealed Abyss Artifact
+F54A0F00	Haverson's Poster
+F54B0F00	Fundamentalist Goblin Cloth Armor
+F54C0F00	Lightning Greathammer
+F54D0F00	Hidden Space - 0009
+F54E0F00	Tavern Ledger
+F54F0F00	Hearty Mixed Skewers
+F5500F00	Shred I
+F5700000	Fruit Bread
+F57E0E00	Pitchfork
+F5850300	Kylus Dagger
+F58A0100	Paizel Bone Helm
+F5BB0100	Hashaka Leather Armor
+F5BE0100	Drumfin Cloth Armor
+F5CA316F	Kinross Plate Armor
+F6420F00	Kutum Shield
+F6430F00	Lizard Leather Helm
+F6440F00	Zebra Longwing Butterfly
+F6450F00	Sealed Abyss Artifact
+F6460F00	Gilded Mirror
+F6470F00	Pale Blue Container
+F6480F00	Packaged Wool
+F6490F00	Sealed Abyss Artifact
+F64A0F00	Driana's Poster
+F64B0F00	Dante and the Bleed
+F64C0F00	Yrkabel Cloth Cloak
+F64D0F00	Hidden Space - 0010
+F64E0F00	Tax Notice
+F64F0F00	Satisfying Mixed Skewers
+F6500F00	Shred II
+F6550000	Wine
+F67E0E00	Rake
+F6BB0100	Hobbuca Leather Armor
+F6E00100	Rueconec Leather Gloves
+F7420F00	Freesword's Shield
+F7430F00	Small Caliburn's Banner Pike
+F7440F00	Favan Leather Armor
+F7450F00	Sealed Abyss Artifact
+F7460F00	Crow Whisperer
+F7470F00	Waterskin
+F7480F00	Packaged Silk
+F7490F00	Sealed Abyss Artifact
+F74A0F00	Galen's Poster
+F74B0F00	Lioncrest Watchtower
+F74C0F00	A.T.A.G. Cannon
+F74D0F00	Hidden Space - 0011
+F74E0F00	Guard's Report
+F74F0F00	Filling Mixed Skewers
+F7500F00	Shred III
+F77E0E00	Hoe
+F78A0100	The Faceless's Plate Helm
+F7930400	Tormented Soul Bow
+F7BB0100	Batangka Leather Armor
+F7BE0100	Drimrow Cloth Armor
+F8100000	Broken Visione
+F8240100	The First Artifact
+F8330000	Demenissian Hero's Musket
+F8420F00	Artisan's Hand
+F8430F00	Small Wells Brigade Banner Pike
+F8440F00	New Moon Reaper Plate Helm
+F8450F00	Paltry Copper Pouch
+F8460F00	Oblivion of the Past
+F8470F00	Portable Blue Water Bottle
+F8480F00	Packaged Wine
+F8490F00	Sealed Abyss Artifact
+F84A0F00	Matilda's Poster
+F84B0F00	Broken Raft
+F84C0F00	A.T.A.G. Fist
+F84D0F00	Hidden Space - 0012
+F84E0F00	Guard's Letter
+F84F0F00	Hearty Assorted Meat and Fish Skewers
+F8500F00	Recipe: Chocolate
+F87E0E00	Large Farming Scythe
+F88A0100	Bayer Plate Helm
+F8960100	Dragon Flame Helm
+F8BA0400	Sydmon Spear
+F91D1700	Silver Iron Horseshoes
+F9240100	Abyss Artifact
+F92A0000	Fishing Rod
+F9412000	Ushreen Cloth Armor
+F9420F00	Flame-Bordered Butterfly
+F9430F00	Recipe: Braised Meat and Fish
+F9440F00	Full Moon Reaper Plate Helm
+F9450F00	Valortread Plate Armor
+F9460F00	Shaman's Staff
+F9470F00	Water Bottle for Patients
+F9480F00	Packaged Tobacco
+F9490F00	Sealed Abyss Artifact
+F94A0F00	Adrina's Poster
+F94B0F00	Gear Blueprint: Crow Storm
+F94C0F00	A.T.A.G. Machine Gun
+F94D0F00	Hidden Space - 0013
+F94E0F00	Merchant Delivery Seal
+F94F0F00	Satisfying Assorted Meat and Fish Skewers
+F9500F00	Labrak Cloth Cap
+F9550000	Holy Water
+F97E0E00	Saw
+F9850300	Sydmon Dagger
+F98A0100	Bolgan Plate Helm
+F9960100	Dragon Knight's Helm
+F9B90100	Harran Cloth Armor
+F9BA0400	Alfonso Spear
+F9BB0100	Greeney Leather Armor
+F9D80100	Plate Gloves of the Fallen Kingdom
+FA240100	Faded Abyss Artifact
+FA412000	Trilly Cloth Armor
+FA430F00	Small Calphadean Banner Pike
+FA440F00	New Moon Reaper Plate Armor
+FA450F00	Recipe: Longhorn Soup
+FA460F00	Sword of Greed
+FA470F00	White-Handled Water Bottle
+FA480F00	Packaged Ivory
+FA490F00	Sealed Abyss Artifact
+FA4A0F00	Leore's Poster
+FA4B0F00	Gear Blueprint: Abyssal Rays
+FA4C0F00	Gear Blueprint: Composure
+FA4D0F00	Hidden Space - 0014
+FA4E0F00	Proof of Stay
+FA4F0F00	Filling Assorted Meat and Fish Skewers
+FA500F00	Rivellon Cloth Cap
+FA7E0E00	Mallet
+FA8A0100	Dernat Plate Helm
+FAB10100	Bekur Plate Armor
+FABE1100	Hernandian Attire
+FB412000	Tutan Cloth Armor
+FB430F00	Bleed Bandits' Alchemy Explosive Pack
+FB440F00	Full Moon Reaper Plate Armor
+FB450F00	Wide Roots Hideout
+FB460F00	Black Sun
+FB470F00	Purple-Handled Water Bottle
+FB480F00	Packaged Jade
+FB490F00	Sealed Abyss Artifact
+FB4A0F00	Renier's Poster
+FB4B0F00	Demian Fabric Armor
+FB4C0F00	Vigor I
+FB4D0F00	Hidden Space - 0015
+FB4E0F00	Kuku Boltspitter
+FB4F0F00	Hearty Meat Stew
+FB500F00	Boren Leather Helm
+FB8A0100	Dondegobi Plate Helm
+FBB10100	Frente Plate Armor
+FBBB0100	Bulga Leather Armor
+FC210000	Crimson Chaser Mail
+FC3A0000	Earthsplitter
+FC412000	Quandan Cloth Armor
+FC420F00	Demenissian Rebel's Secret Letter
+FC430F00	Wolf Cloak
+FC440F00	New Moon Reaper Plate Boots
+FC450F00	Recipe: Fine Meal
+FC460F00	Disruptor Spear
+FC470F00	Iron Distiller
+FC480F00	Packaged Gunpowder
+FC490F00	Sealed Abyss Artifact
+FC4A0F00	Merrigan's Poster
+FC4B0F00	Demian Fabric Cloak V
+FC4C0F00	Vigor II
+FC4D0F00	Hidden Space - 0016
+FC4F0F00	Satisfying Meat Stew
+FC500F00	Narima's Horn
+FC7E0E00	Trumpet
+FCB10100	Corinne Plate Armor
+FCBA0400	Kylus Spear
+FCBB0100	Barbaros Leather Armor
+FCBE0100	Totte Cloth Armor
+FD070200	Nagmore Leather Boots
+FD412000	Qunanta Cloth Armor
+FD430F00	Recipe: Meat and Fish Porridge
+FD440F00	Recipe: Mixed Stew
+FD450F00	Electro-Mecha Spear
+FD460F00	Braised Fish
+FD470F00	Rusty Iron Water Bottle
+FD480F00	Packaged Cheese
+FD490F00	Sealed Abyss Artifact
+FD4A0F00	Skaldar's Poster
+FD4B0F00	Stonemire Ruins Record No. 2
+FD4C0F00	White King's Candlestick
+FD4D0F00	Hidden Space - 0017
+FD4E0F00	Iguana Rider's Plate Armor
+FD4F0F00	Filling Meat Stew
+FD500F00	A.T.A.G. Power Module
+FD7E0E00	Small Drum
+FD850300	Delesyian Dagger
+FD8A0100	Northern Fighter's Plate Helm
+FDB10100	Takao Plate Armor
+FDBA0400	Alabaster Spear
+FDE00100	Rakhir Cloth Gloves
+FE070200	Mornington Leather Boots
+FE412000	Qutin Cloth Armor
+FE420F00	Gear Blueprint: Vigor
+FE430F00	Caysonne Plate Helm
+FE440F00	Field Cloth Armor
+FE450F00	Investigative Log: Shadows in the Village
+FE460F00	Fish Porridge
+FE470F00	Copper Water Bottle
+FE480F00	Packaged Fish Meat
+FE490F00	Sealed Abyss Artifact
+FE4A0F00	Maidon's Poster
+FE4B0F00	Gear Blueprint: Piercing Bloom
+FE4C0F00	Nightmare Burner
+FE4D0F00	Hidden Space - 0018
+FE4E0F00	Iguana Rider's Plate Armor
+FE4F0F00	Hearty Boiled Meat
+FEB10100	Gwets Plate Armor
+FEBB0100	Greymanes' Leather Armor
+FEBE0100	Radley Cloth Armor
+FF420F00	Goblin Merchant Guild's Plate Gloves
+FF430F00	Boar Camouflage Leather Gloves
+FF440F00	Field Chain Mail
+FF450F00	Letter from Abroad
+FF460F00	Battered Fish
+FF470F00	Brass Container
+FF480F00	Packaged Calligraphic Paintings
+FF490F00	Sealed Abyss Artifact
+FF4A0F00	Martina's Poster
+FF4B0F00	Cacao Snack
+FF4C0F00	Vigor III
+FF4D0F00	Hidden Space - 0019
+FF4E0F00	Iguana Rider's Plate Armor
+FF4F0F00	Satisfying Boiled Meat
+FF4FCB2A	Blacksteel Spiddle Plate Armor
+FF500F00	Greymane's Token
+FF750B00	Rosemary
+FF850300	Dekarr Dagger
+FFB10100	Arkhan Plate Armor
+FFBB0100	Nuslan Leather Armor
+FFBE0100	Lucion Cloth Armor

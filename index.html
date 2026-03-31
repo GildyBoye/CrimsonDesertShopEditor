@@ -255,6 +255,17 @@ header h1 span{color:var(--text-dim);font-weight:400;font-size:.8rem;margin-left
 ::-webkit-scrollbar{width:5px;}
 ::-webkit-scrollbar-track{background:transparent;}
 ::-webkit-scrollbar-thumb{background:var(--border2);border-radius:3px;}
+
+/* base files button */
+.btn-base{
+  width:100%;margin-top:6px;padding:7px 0;
+  font-family:'Cinzel',serif;font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;
+  background:rgba(200,168,75,.08);border:1px solid var(--gold-dim);color:var(--gold);
+  border-radius:3px;cursor:pointer;transition:all .2s;
+}
+.btn-base:hover{background:rgba(200,168,75,.18);}
+.btn-base:disabled{opacity:.4;cursor:not-allowed;}
+.btn-base.loaded{border-color:var(--green);color:var(--green);background:rgba(74,154,90,.08);}
 </style>
 </head>
 <body>
@@ -292,6 +303,10 @@ header h1 span{color:var(--text-dim);font-weight:400;font-size:.8rem;margin-left
         <span class="fdz-ok" id="ok-store">✓ loaded</span>
         <div class="fdz-hint">Use a PAZ Unpacker — this file is found in gamedata/</div>
       </div>
+
+      <button class="btn-base" id="btn-base" onclick="loadBaseFiles()">
+        ⬇ Use pre-built base files (v1.01.02)
+      </button>
 
       <div class="loc-zone">
         <span class="sec-label" style="margin-bottom:5px;">Localization</span>
@@ -946,7 +961,9 @@ function parseStoreInfo(buf) {
 function resolveItem(hexLE) {
   const found=S.itemMap.find(it=>it.hexLE===hexLE);
   if(found) return found.name;
-  return hexLE; // fallback: show raw hex
+  // Zero ID = empty slot
+  if(hexLE==='00000000') return '— Empty Slot —';
+  return `Unknown Item (${hexLE})`;
 }
 
 // ═══════════════════════════════════════════
@@ -1342,6 +1359,104 @@ function exportJSON() {
 // ═══════════════════════════════════════════
 function setMsg(m){document.getElementById('status-msg').textContent=m;}
 function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+
+// ═══════════════════════════════════════════
+// BASE FILE LOADERS (pre-built txt files)
+// ═══════════════════════════════════════════
+async function loadBaseFiles() {
+  const btn = document.getElementById('btn-base');
+  btn.disabled = true;
+  btn.textContent = '⏳ Loading base files…';
+  setMsg('Fetching base files…');
+  try {
+    const [itemRes, storeRes] = await Promise.all([
+      fetch('base/iteminfo.txt'),
+      fetch('base/storeinfo.txt'),
+    ]);
+    if(!itemRes.ok)  throw new Error(`iteminfo.txt not found (HTTP ${itemRes.status})`);
+    if(!storeRes.ok) throw new Error(`storeinfo.txt not found (HTTP ${storeRes.status})`);
+
+    const itemText  = await itemRes.text();
+    const storeText = await storeRes.text();
+
+    // Parse iteminfo.txt: HEXID\tName
+    S.itemMap = [];
+    for(const line of itemText.split('\n')) {
+      const t = line.trim(); if(!t) continue;
+      const tab = t.indexOf('\t');
+      if(tab === -1) continue;
+      const hexLE   = t.slice(0, tab).trim();
+      const name    = t.slice(tab+1).trim();
+      if(hexLE && name) S.itemMap.push({hexLE, name, internal: name, locKey:''});
+    }
+    S.itemMap.sort((a,b)=>a.name.localeCompare(b.name));
+    S.filteredItems = [...S.itemMap];
+
+    // Parse storeinfo.txt: STORE/SLOT/END blocks
+    S.stores = [];
+    S.allStores = [];
+    let cur = null;
+    for(const line of storeText.split('\n')) {
+      const t = line.trim(); if(!t) continue;
+      if(t.startsWith('STORE\t')) {
+        const internalName = t.slice(6).trim();
+        cur = {
+          name: internalName,
+          displayName: getDisplayName(internalName),
+          cityGroup: getCityGroup(internalName),
+          slots: [],
+        };
+      } else if(t.startsWith('SLOT\t') && cur) {
+        const parts = t.split('\t');
+        const index    = parseInt(parts[1]);
+        const hexLE    = parts[2];
+        const limit    = parseInt(parts[3]);
+        const slotBase = parseInt(parts[4]); // real file offset
+        cur.slots.push({index, slotBase, limit, itemIdHex: hexLE,
+                        originalItemIdHex: hexLE, originalLimit: limit});
+      } else if(t === 'END' && cur) {
+        S.stores.push(cur);
+        S.allStores.push(cur);
+        cur = null;
+      }
+    }
+
+    // Update UI
+    document.getElementById('fdz-item').classList.add('loaded');
+    document.getElementById('ok-item').textContent = `✓ ${S.itemMap.length.toLocaleString()} items`;
+    document.getElementById('dot-item').classList.add('ok');
+    document.getElementById('lbl-item').textContent = `iteminfo: ${S.itemMap.length.toLocaleString()} items`;
+
+    document.getElementById('fdz-store').classList.add('loaded');
+    document.getElementById('ok-store').textContent = `✓ ${S.stores.length} stores`;
+    document.getElementById('dot-store').classList.add('ok');
+    document.getElementById('lbl-store').textContent = `storeinfo: ${S.stores.length} stores`;
+
+    document.getElementById('item-search').disabled = false;
+    document.getElementById('store-search').disabled = false;
+    document.getElementById('item-count').textContent = S.itemMap.length.toLocaleString()+' items';
+
+    renderItemList();
+    renderStoreTree(S.stores);
+
+    btn.textContent = '✓ Base files loaded (v1.01.02)';
+    btn.classList.add('loaded');
+    btn.disabled = false;
+    setMsg('Base files loaded. Select a store to begin editing.');
+    showToast('Base files loaded successfully', 'ok');
+
+  } catch(err) {
+    btn.disabled = false;
+    btn.textContent = '⬇ Use pre-built base files (v1.01.02)';
+    showToast('Failed to load base files: ' + err.message, 'err');
+    setMsg('Could not load base files. Check that base/ folder is in your repo.');
+  }
+}
+
+// ═══════════════════════════════════════════
+// NOTE: base files use slot INDEX not file offset
+// Export must handle this — override exportJSON for base mode
+// ═══════════════════════════════════════════
 
 // Auto-load English localization on page start
 window.addEventListener('load', ()=>{
