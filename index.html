@@ -279,11 +279,9 @@ header h1 span{color:var(--text-dim);font-weight:400;font-size:.8rem;margin-left
 </head>
 <body>
 
-<header>
-  <div style="display:flex;flex-direction:column;gap:2px;">
-    <h1>Crimson Desert <span>/ Shop Editor</span></h1>
-    <div style="font-family:'Cinzel',serif;font-size:.55rem;letter-spacing:.14em;color:var(--red);text-transform:uppercase;font-weight:600;">⚠ Back up your saves before modifying your game</div>
-  </div>
+<header style="position:relative;">
+  <h1>Crimson Desert <span>/ Shop Editor</span></h1>
+  <div style="position:absolute;left:50%;transform:translateX(-50%);font-family:'Cinzel',serif;font-size:1.1rem;letter-spacing:.12em;color:var(--red);text-transform:uppercase;font-weight:700;white-space:nowrap;text-shadow:0 0 20px rgba(176,58,58,.4);">⚠ Back up your saves before modifying your game</div>
   <span class="ver-badge" id="ver-badge">v1.01.02</span>
 </header>
 
@@ -320,7 +318,7 @@ header h1 span{color:var(--text-dim);font-weight:400;font-size:.8rem;margin-left
         ⬇ Use pre-built base files (v1.01.02)
       </button>
 
-      <div class="loc-zone">
+      <div class="loc-zone" style="margin-top:14px;">
         <span class="sec-label" style="margin-bottom:5px;">Localization</span>
         <div style="display:flex;gap:6px;align-items:center;">
           <select id="loc-select" onchange="loadLocalization()" style="flex:1;background:var(--bg3);border:1px solid var(--border);color:var(--text);padding:5px 8px;font-family:'Crimson Pro',serif;font-size:.82rem;border-radius:3px;outline:none;cursor:pointer;">
@@ -767,8 +765,8 @@ function getCityGroup(internalName) {
   const raw = internalName.replace('Store_','');
   const prefix = raw.split('_')[0];
   // Special groupings
-  if(['Camp'].includes(prefix)) return 'Camp Stores';
-  if(['GL','SM','RW','Food','Stone','Wood'].includes(prefix)) return 'Trade Routes';
+  if(['Camp'].includes(prefix)) return null;
+  if(['GL','SM','RW','Food','Stone','Wood'].includes(prefix)) return null;
   if(['Picture','Ceramic','Bismuthornament','StuffedAnimal','Statue','Kinetic','FlowerPot','viewingstone'].includes(prefix)) return 'Artwork Galleries';
   if(['South','North','Desert'].includes(prefix)) return 'Street Vendors';
   if(['Iron','Neutral','Flame'].includes(prefix)) return 'Hand Cannon Shops';
@@ -797,6 +795,7 @@ const S = {
   mods:{},
   filteredItems:[],
   collapsedCats: new Set(),
+  openCats: new Set(),
 };
 
 // ═══════════════════════════════════════════
@@ -964,6 +963,7 @@ function parseStoreInfo(buf) {
 
     const displayName=getDisplayName(storeName);
     const cityGroup=getCityGroup(storeName);
+    if(cityGroup===null) continue; // excluded group (Camp/Trade Routes)
     stores.push({name:storeName,displayName,cityGroup,slots});
   }
   return stores;
@@ -1080,7 +1080,7 @@ function renderStoreTree(stores) {
 
   const sortedGroups=Object.keys(groups).sort((a,b)=>{
     // Pin special groups to bottom
-    const special=['Special','Contact Offices','Trade Routes','Street Vendors','Hand Cannon Shops','Black Markets','Artwork Galleries','Camp Stores','Other'];
+    const special=['Special','Contact Offices','Street Vendors','Hand Cannon Shops','Black Markets','Artwork Galleries','Other'];
     const ai=special.indexOf(a),bi=special.indexOf(b);
     if(ai>=0&&bi>=0) return ai-bi;
     if(ai>=0) return 1;
@@ -1346,16 +1346,18 @@ function renderItemList() {
 
   for(const cat of orderedCats){
     const catItems=groups[cat];
-    const collapsed=S.collapsedCats.has(cat);
+    // Default collapsed — expand only if user has explicitly opened it
+  const collapsed=!S.openCats || !S.openCats.has(cat);
 
     const header=document.createElement('div');
     header.className='item-cat-header'+(collapsed?' collapsed':'');
     header.innerHTML=`<span>${esc(cat)}</span><span style="display:flex;align-items:center;gap:6px;"><span style="color:var(--text-faint);font-size:.6rem">${catItems.length}</span><span class="item-cat-arrow">▾</span></span>`;
     header.onclick=()=>{
-      const isNowCollapsed=!S.collapsedCats.has(cat);
-      if(isNowCollapsed) S.collapsedCats.add(cat); else S.collapsedCats.delete(cat);
-      header.classList.toggle('collapsed',isNowCollapsed);
-      body.classList.toggle('collapsed',isNowCollapsed);
+      if(!S.openCats) S.openCats=new Set();
+      const isNowOpen=!S.openCats.has(cat);
+      if(isNowOpen) S.openCats.add(cat); else S.openCats.delete(cat);
+      header.classList.toggle('collapsed',!isNowOpen);
+      body.classList.toggle('collapsed',!isNowOpen);
     };
 
     const body=document.createElement('div');
