@@ -261,7 +261,7 @@ header h1 span{color:var(--text-dim);font-weight:400;font-size:.8rem;margin-left
 
 <header>
   <h1>Crimson Desert <span>/ Shop Editor</span></h1>
-  <span class="ver-badge">v1.01.02</span>
+  <span class="ver-badge" id="ver-badge">v1.01.02</span>
 </header>
 
 <div class="app">
@@ -643,6 +643,51 @@ function toLEHex(n){const b=new Uint8Array(4);new DataView(b.buffer).setUint32(0
 function bytesHex(u8,off,n){return Array.from(u8.slice(off,off+n)).map(b=>b.toString(16).padStart(2,'0').toUpperCase()).join('');}
 
 // ═══════════════════════════════════════════
+// VERSION DETECTION
+// Known version fingerprints: [storeSize, itemSize, label]
+// ═══════════════════════════════════════════
+const VERSION_DB = [
+  [490814, 4836948, '1.01.02'],
+];
+
+function detectVersion(storeBuf, itemBuf) {
+  const ss = storeBuf.byteLength;
+  const is = itemBuf.byteLength;
+  // Exact match
+  for(const [sv,iv,label] of VERSION_DB) {
+    if(sv===ss && iv===is) return {label, confidence:'exact'};
+  }
+  // Closest size match (within 5%)
+  let best=null, bestDiff=Infinity;
+  for(const [sv,iv,label] of VERSION_DB) {
+    const diff = Math.abs(sv-ss)/sv + Math.abs(iv-is)/iv;
+    if(diff < bestDiff) { bestDiff=diff; best={label,confidence:'approximate'}; }
+  }
+  if(best && bestDiff < 0.05) return best;
+  return {label:'Unknown', confidence:'unknown'};
+}
+
+function updateVersionBadge() {
+  if(!S.storeBuf || !S.itemBuf) return;
+  const {label, confidence} = detectVersion(S.storeBuf, S.itemBuf);
+  const el = document.getElementById('ver-badge');
+  if(!el) return;
+  if(confidence === 'exact') {
+    el.textContent = `v${label}`;
+    el.style.color = 'var(--green)';
+    el.title = 'Game version detected from file signatures';
+  } else if(confidence === 'approximate') {
+    el.textContent = `~v${label}`;
+    el.style.color = 'var(--gold)';
+    el.title = 'Approximate version — file sizes are close but not exact';
+  } else {
+    el.textContent = 'version unknown';
+    el.style.color = 'var(--red)';
+    el.title = `No matching version found. storeinfo: ${S.storeBuf.byteLength} bytes, iteminfo: ${S.itemBuf.byteLength} bytes`;
+  }
+}
+
+// ═══════════════════════════════════════════
 // PARSE LOCALIZATION JSON
 // ═══════════════════════════════════════════
 async function parseLocalization(buf) {
@@ -774,6 +819,10 @@ function resolveItem(hexLE) {
 // ═══════════════════════════════════════════
 document.getElementById('f-item').addEventListener('change', async e=>{
   const file=e.target.files[0]; if(!file) return;
+  if(file.name.toLowerCase()!=='iteminfo.pabgb'){
+    alert('Please upload the correct file. Use a PAZ decompiler if you do not have these files.');
+    e.target.value=''; return;
+  }
   setMsg('Parsing iteminfo…');
   try {
     S.itemBuf=await file.arrayBuffer();
@@ -789,11 +838,16 @@ document.getElementById('f-item').addEventListener('change', async e=>{
     // Re-render store if open (names may improve)
     if(S.currentStore) renderSlots();
     setMsg('iteminfo loaded.'+(S.storeBuf?' Ready.':' Now load storeinfo.'));
+    updateVersionBadge();
   } catch(err){ showToast('Error: '+err.message,'err'); }
 });
 
 document.getElementById('f-store').addEventListener('change', async e=>{
   const file=e.target.files[0]; if(!file) return;
+  if(file.name.toLowerCase()!=='storeinfo.pabgb'){
+    alert('Please upload the correct file. Use a PAZ decompiler if you do not have these files.');
+    e.target.value=''; return;
+  }
   setMsg('Parsing storeinfo…');
   try {
     S.storeBuf=await file.arrayBuffer();
@@ -806,6 +860,7 @@ document.getElementById('f-store').addEventListener('change', async e=>{
     document.getElementById('store-search').disabled=false;
     renderStoreTree(S.stores);
     setMsg('storeinfo loaded.'+(S.itemBuf?' Ready.':' Now load iteminfo.'));
+    updateVersionBadge();
   } catch(err){ showToast('Error: '+err.message,'err'); }
 });
 
