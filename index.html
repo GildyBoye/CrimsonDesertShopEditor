@@ -198,6 +198,15 @@ header h1 span{color:var(--text-dim);font-weight:400;font-size:.8rem;margin-left
   transition:all .15s;background:var(--bg3);gap:8px;
 }
 .item-row:hover{border-color:var(--border2);}
+.item-cat-header{
+  font-family:'Cinzel',serif;font-size:.58rem;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--gold-dim);padding:10px 8px 4px;margin-top:4px;border-bottom:1px solid var(--border);
+  display:flex;align-items:center;justify-content:space-between;cursor:pointer;user-select:none;
+}
+.item-cat-header:hover{color:var(--gold);}
+.item-cat-arrow{font-size:.6rem;transition:transform .15s;}
+.item-cat-body.collapsed{display:none;}
+.item-cat-header.collapsed .item-cat-arrow{transform:rotate(-90deg);}
 .item-info{flex:1;overflow:hidden;}
 .item-name{font-size:.82rem;color:var(--text);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
 .item-id{font-size:.64rem;color:var(--text-faint);font-family:monospace;}
@@ -415,7 +424,7 @@ header h1 span{color:var(--text-dim);font-weight:400;font-size:.8rem;margin-left
       <div class="s-dot" id="dot-store"></div><span id="lbl-store">storeinfo: not loaded</span>
       <div class="s-dot" id="dot-loc"></div><span id="lbl-loc">localization: not loaded</span>
       <span class="status-msg" id="status-msg">Load game files to begin</span>
-      <span style="font-family:'Cinzel',serif;font-size:.6rem;letter-spacing:.08em;color:var(--text-faint);white-space:nowrap;flex-shrink:0;">Created by GildyBoye</span>
+      <span style="font-family:'Cinzel',serif;font-size:.6rem;letter-spacing:.08em;color:var(--white);white-space:nowrap;flex-shrink:0;">Created by GildyBoye</span>
     </div>
 
   </main>
@@ -779,14 +788,15 @@ function getCityGroup(internalName) {
 // ═══════════════════════════════════════════
 const S = {
   itemBuf:null, storeBuf:null,
-  locMap:null,      // hexLE -> display name from localization file
-  itemMap:[],       // [{hexLE,name,internal}]
-  stores:[],        // parsed store objects
-  allStores:[],     // same, unfiltered
+  locMap:null,
+  itemMap:[],
+  stores:[],
+  allStores:[],
   currentStore:null,
   selectedSlot:null,
-  mods:{},          // slotBase -> {newItemHex,newItemName,newLimit}
+  mods:{},
   filteredItems:[],
+  collapsedCats: new Set(),
 };
 
 // ═══════════════════════════════════════════
@@ -1140,15 +1150,18 @@ function filterStores() {
 function selectStore(store, el) {
   document.querySelectorAll('.store-item').forEach(e=>e.classList.remove('active'));
   if(el) el.classList.add('active');
-  S.currentStore=store;
-  S.selectedSlot=null;
-  S.mods={};
+  // Full reset before loading new store
+  S.currentStore = store;
+  S.selectedSlot = null;
+  S.mods = {};
   document.getElementById('store-title').textContent=`${store.cityGroup}  ·  ${store.displayName}`;
   document.getElementById('store-meta').textContent=`${store.slots.length} slots  ·  ${store.name}`;
   document.getElementById('btn-reset').disabled=false;
   document.getElementById('btn-export').disabled=false;
+  document.getElementById('mod-count').textContent='';
+  // Clear slot list before re-rendering to avoid stale state
+  document.getElementById('slot-list').innerHTML='';
   renderSlots();
-  updateModCount();
   setMsg(`Editing ${store.displayName} — select a slot, then pick an item.`);
 }
 
@@ -1226,36 +1239,147 @@ function selectSlot(slot,rowEl) {
 // ═══════════════════════════════════════════
 // RENDER ITEMS
 // ═══════════════════════════════════════════
+// ── Item category classification ───────────────────────────────────
+function getItemCategory(item) {
+  const n = item.name.toLowerCase();
+  const i = item.internal.toLowerCase();
+  if(n.includes('unknown item')) return 'Unknown';
+  // Weapons
+  if(/sword|blade|saber|claymore|longsword|greatsword|katana/.test(n)||/sword|blade/.test(i)) return 'Swords';
+  if(/spear|lance|pike|javelin|halberd/.test(n)||/spear|lance/.test(i)) return 'Spears';
+  if(/bow|crossbow/.test(n)||/(onehandbow|twohandbow|crossbow)/.test(i)) return 'Bows';
+  if(/shield/.test(n)||/shield/.test(i)) return 'Shields';
+  if(/shotgun|musket|rifle|pistol|cannon|gun|handcannon/.test(n)||/(shotgun|handgun|handcannon|cannon)/.test(i)) return 'Guns & Cannons';
+  if(/staff|wand|rod|scepter/.test(n)||/(staff|wand|rod)/.test(i)) return 'Staves & Wands';
+  if(/axe|hatchet/.test(n)||/(axe|hatchet|felling)/.test(i)) return 'Axes & Tools';
+  if(/dagger|knife|dirk/.test(n)||/dagger|knife/.test(i)) return 'Daggers';
+  if(/mace|hammer|maul|mallet/.test(n)||/(mace|hammer|mallet)/.test(i)) return 'Hammers & Maces';
+  // Armor pieces
+  if(/plate helm|leather helm|cloth helm|hat|cap|hood|helmet|headwear|circlet/.test(n)||/(helm|helmet|hat|hood|headpiece)/.test(i)) return 'Helms & Hats';
+  if(/plate armor|leather armor|cloth armor|chest|cuirass|jerkin|robe|attire|uniform|mail|tunic|coat/.test(n)||/(armor_armor|fabricarmor|leatherarmor|platearmor_armor)/.test(i)) return 'Chest Armor';
+  if(/plate gloves|leather gloves|cloth gloves|gauntlet|handguard|bracers/.test(n)||/(gloves|gauntlet|bracers)/.test(i)) return 'Gloves';
+  if(/plate boots|leather boots|cloth boots|shoes|footwear|sandal|greave/.test(n)||/(boots|shoes|footwear|greave)/.test(i)) return 'Boots';
+  if(/cloak|cape|mantle|pauldron|shoulder/.test(n)||/(cloak|cape|mantle)/.test(i)) return 'Cloaks';
+  // Accessories
+  if(/necklace|pendant|amulet/.test(n)||/(necklace|pendant|amulet)/.test(i)) return 'Necklaces';
+  if(/ring/.test(n)||/ring/.test(i)) return 'Rings';
+  if(/earring|earpiece/.test(n)||/earring/.test(i)) return 'Earrings';
+  // Abyss
+  if(/abyss/.test(n)||/abyss/.test(i)) return 'Abyss Gear';
+  // Packs & backpacks
+  if(/pack|backpack|bag|satchel/.test(n)||/(backpack|backbag)/.test(i)) return 'Packs & Bags';
+  // Ammunition
+  if(/arrow|bullet|cannonball|shot|bolt|ammo/.test(n)||/(arrow|bullet|cannonball|ammo)/.test(i)) return 'Ammunition';
+  // Food & drink
+  if(/hearty /.test(n)) return 'Food — Hearty';
+  if(/filling /.test(n)) return 'Food — Filling';
+  if(/satisfying /.test(n)) return 'Food — Satisfying';
+  if(/meal|soup|stew|grilled|braised|battered|steamed|roast|porridge|skewer|harvest|meatball|seafood|fishball|pickled/.test(n)) return 'Food — Meals';
+  if(/tea|juice|wine|drink|elixir|potion|water|brew/.test(n)||/(tea|juice|wine|elixir|potion)/.test(i)) return 'Food — Drinks & Elixirs';
+  // Crafting
+  if(/ore|stone|gem|jewel|crystal|mineral|bismuth|copper|iron|silver|gold|scolecite|platinum|bloodstone|brimstone|mercury|rubber|diamond|azurite|epidote/.test(n)) return 'Materials — Ores & Gems';
+  if(/timber|wood|hide|leather|bone|feather|fabric|silk|wool|spider|ivory|carpet/.test(n)) return 'Materials — Hides & Wood';
+  if(/refinement token|blueprint|recipe/.test(n)||/(recipe|blueprint|craftingrecipe)/.test(i)) return 'Blueprints & Recipes';
+  // Trade
+  if(/packaged|trade|provision/.test(n)||/(trade_|packed)/.test(i)) return 'Trade Goods';
+  // Consumables / misc
+  if(/bag|inventory|livestock|stamina|health|spirit|amplification|speed/.test(n)&&!/backpack/.test(i)) return 'Consumables';
+  if(/lantern|torch/.test(n)||/(lantern|torch)/.test(i)) return 'Tools & Lanterns';
+  if(/fishing rod|pickaxe|logging axe|saw|hoe|shovel|rake|scythe|broom|trumpet|drum/.test(n)) return 'Tools & Lanterns';
+  if(/map|treasure/.test(n)||/treasuremap/.test(i)) return 'Treasure Maps';
+  if(/pet|companion/.test(n)||/(pet_|companion)/.test(i)) return 'Pet Items';
+  if(/jewel|decoration|ornament|artwork|statue|vase|pot|furniture|painting/.test(n)) return 'Furniture & Decor';
+  if(/costume|outfit|dye|fashion/.test(n)||/(costume|outfit|dye)/.test(i)) return 'Costumes & Dyes';
+  if(/horse|saddle|stirrup|champron|barding/.test(n)||/(horse|saddle|stirrup|champron)/.test(i)) return 'Horse Equipment';
+  return 'Miscellaneous';
+}
+
+const CAT_ORDER = [
+  'Swords','Spears','Bows','Shields','Guns & Cannons','Staves & Wands',
+  'Axes & Tools','Daggers','Hammers & Maces',
+  'Helms & Hats','Chest Armor','Gloves','Boots','Cloaks',
+  'Necklaces','Rings','Earrings','Abyss Gear',
+  'Packs & Bags','Ammunition',
+  'Food — Hearty','Food — Filling','Food — Satisfying','Food — Meals','Food — Drinks & Elixirs',
+  'Materials — Ores & Gems','Materials — Hides & Wood','Blueprints & Recipes','Trade Goods',
+  'Consumables','Tools & Lanterns','Treasure Maps','Pet Items',
+  'Furniture & Decor','Costumes & Dyes','Horse Equipment',
+  'Miscellaneous','Unknown',
+];
+
 function renderItemList() {
   const el=document.getElementById('item-list');
-  const items=S.filteredItems.slice(0,600);
   el.innerHTML='';
+  const items=S.filteredItems;
   if(items.length===0){
     el.innerHTML='<div class="empty"><div class="empty-d">No items match.</div></div>';
     return;
   }
-  const frag=document.createDocumentFragment();
-  items.forEach(item=>{
-    const row=document.createElement('div');
-    row.className='item-row';
-    row.innerHTML=`
-      <div class="item-info">
-        <div class="item-name">${esc(item.name)}</div>
-        <div class="item-id">${item.hexLE} · ${item.internal}</div>
-      </div>
-      <button class="item-assign" onclick="assignItem('${item.hexLE}','${item.name.replace(/'/g,"\\'")}')">Assign →</button>
-    `;
-    frag.appendChild(row);
-  });
-  el.appendChild(frag);
-  const rem=S.filteredItems.length-items.length;
-  if(rem>0){
-    const note=document.createElement('div');
-    note.className='empty';
-    note.style.padding='10px';
-    note.innerHTML=`<div class="empty-d" style="color:var(--text-dim)">+${rem.toLocaleString()} more — refine search</div>`;
-    el.appendChild(note);
+
+  // When searching, show flat list (no categories)
+  const q=document.getElementById('item-search').value.trim();
+  if(q) {
+    const capped=items.slice(0,400);
+    const frag=document.createDocumentFragment();
+    capped.forEach(item=>frag.appendChild(makeItemRow(item)));
+    el.appendChild(frag);
+    const rem=items.length-capped.length;
+    if(rem>0){
+      const note=document.createElement('div');
+      note.className='empty';note.style.padding='8px';
+      note.innerHTML=`<div class="empty-d" style="color:var(--text-dim)">+${rem.toLocaleString()} more — refine search</div>`;
+      el.appendChild(note);
+    }
+    return;
   }
+
+  // Group by category
+  const groups={};
+  for(const item of items){
+    const cat=getItemCategory(item);
+    if(!groups[cat]) groups[cat]=[];
+    groups[cat].push(item);
+  }
+
+  const frag=document.createDocumentFragment();
+  const orderedCats=[...CAT_ORDER.filter(c=>groups[c]),...Object.keys(groups).filter(c=>!CAT_ORDER.includes(c))];
+
+  for(const cat of orderedCats){
+    const catItems=groups[cat];
+    const collapsed=S.collapsedCats.has(cat);
+
+    const header=document.createElement('div');
+    header.className='item-cat-header'+(collapsed?' collapsed':'');
+    header.innerHTML=`<span>${esc(cat)}</span><span style="display:flex;align-items:center;gap:6px;"><span style="color:var(--text-faint);font-size:.6rem">${catItems.length}</span><span class="item-cat-arrow">▾</span></span>`;
+    header.onclick=()=>{
+      const isNowCollapsed=!S.collapsedCats.has(cat);
+      if(isNowCollapsed) S.collapsedCats.add(cat); else S.collapsedCats.delete(cat);
+      header.classList.toggle('collapsed',isNowCollapsed);
+      body.classList.toggle('collapsed',isNowCollapsed);
+    };
+
+    const body=document.createElement('div');
+    body.className='item-cat-body'+(collapsed?' collapsed':'');
+    catItems.forEach(item=>body.appendChild(makeItemRow(item)));
+
+    frag.appendChild(header);
+    frag.appendChild(body);
+  }
+  el.appendChild(frag);
+}
+
+function makeItemRow(item) {
+  const row=document.createElement('div');
+  row.className='item-row';
+  const safeName=item.name.replace(/'/g,"\'");
+  row.innerHTML=`
+    <div class="item-info">
+      <div class="item-name">${esc(item.name)}</div>
+      <div class="item-id">${item.hexLE}</div>
+    </div>
+    <button class="item-assign" onclick="assignItem('${item.hexLE}','${safeName}')">Assign →</button>
+  `;
+  return row;
 }
 
 function filterItems() {
@@ -1272,6 +1396,9 @@ function filterItems() {
 // ═══════════════════════════════════════════
 function assignItem(hexLE, name) {
   if(!S.selectedSlot){showToast('Select a slot first','err');return;}
+  if(name.startsWith('Unknown Item (')) {
+    if(!confirm('This item is unknown or hidden and may be important to the store.\n\nAre you sure you want to assign it?')) return;
+  }
   const slot=S.selectedSlot;
   // Get current stock from the row's input
   const rows=document.querySelectorAll('.slot-row');
