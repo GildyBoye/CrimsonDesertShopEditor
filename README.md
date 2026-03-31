@@ -136,3 +136,10 @@ This clears all changes for the current store.
 
 14. Use JSON Mod Manager to load your Json
 [JSON Mod Manager](https://www.nexusmods.com/crimsondesert/mods/113)
+
+
+
+ALL THE REQUIRED FILES BELONG TO PEARL ABYSS.
+I DID NOT MAKE THE GAME!
+BUY THE GAME! SUPPORT DEVS! 
+IT'S A GREAT GAME!
