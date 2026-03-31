@@ -340,20 +340,20 @@ header h1 span{color:var(--text-dim);font-weight:400;font-size:.8rem;margin-left
         <div style="display:flex;gap:6px;align-items:center;">
           <select id="loc-select" onchange="loadLocalization()" style="flex:1;background:var(--bg3);border:1px solid var(--border);color:var(--text);padding:5px 8px;font-family:'Crimson Pro',serif;font-size:.82rem;border-radius:3px;outline:none;cursor:pointer;">
             <option value="">— select language —</option>
-            <option value="localization/localizationstring_eng.paloc.txt">English</option>
-            <option value="localization/localizationstring_fre.paloc.txt">French</option>
-            <option value="localization/localizationstring_ger.paloc.txt">German</option>
-            <option value="localization/localizationstring_ita.paloc.txt">Italian</option>
-            <option value="localization/localizationstring_jpn.paloc.txt">Japanese</option>
-            <option value="localization/localizationstring_kor.paloc.txt">Korean</option>
-            <option value="localization/localizationstring_pol.paloc.txt">Polish</option>
-            <option value="localization/localizationstring_por-br.paloc.txt">Portuguese (Brazil)</option>
-            <option value="localization/localizationstring_rus.paloc.txt">Russian</option>
-            <option value="localization/localizationstring_spa-es.paloc.txt">Spanish (Spain)</option>
-            <option value="localization/localizationstring_spa-mx.paloc.txt">Spanish (Mexico)</option>
-            <option value="localization/localizationstring_tur.paloc.txt">Turkish</option>
-            <option value="localization/localizationstring_zho-cn.paloc.txt">Chinese (Simplified)</option>
-            <option value="localization/localizationstring_zho-tw.paloc.txt">Chinese (Traditional)</option>
+            <option value="localization/localizationstring_eng_paloc.txt">English</option>
+            <option value="localization/localizationstring_fre_paloc.txt">French</option>
+            <option value="localization/localizationstring_ger_paloc.txt">German</option>
+            <option value="localization/localizationstring_ita_paloc.txt">Italian</option>
+            <option value="localization/localizationstring_jpn_paloc.txt">Japanese</option>
+            <option value="localization/localizationstring_kor_paloc.txt">Korean</option>
+            <option value="localization/localizationstring_pol_paloc.txt">Polish</option>
+            <option value="localization/localizationstring_por-br_paloc.txt">Portuguese (Brazil)</option>
+            <option value="localization/localizationstring_rus_paloc.txt">Russian</option>
+            <option value="localization/localizationstring_spa-es_paloc.txt">Spanish (Spain)</option>
+            <option value="localization/localizationstring_spa-mx_paloc.txt">Spanish (Mexico)</option>
+            <option value="localization/localizationstring_tur_paloc.txt">Turkish</option>
+            <option value="localization/localizationstring_zho-cn_paloc.txt">Chinese (Simplified)</option>
+            <option value="localization/localizationstring_zho-tw_paloc.txt">Chinese (Traditional)</option>
           </select>
           <span id="ok-loc" style="font-size:.68rem;color:var(--green);display:none;white-space:nowrap;flex-shrink:0;">✓ loaded</span>
         </div>
@@ -863,8 +863,10 @@ function updateVersionBadge() {
 // PARSE LOCALIZATION TXT (KEY\tNAME per line)
 // ═══════════════════════════════════════════
 async function parseLocalization(buf) {
-  const text = new TextDecoder().decode(buf);
+  // UTF-8 handles all scripts: Latin, CJK, Cyrillic, Arabic, etc.
+  const text = new TextDecoder('utf-8').decode(buf);
   const map = new Map();
+  // Format: key\tName (one entry per line)
   for(const line of text.split('\n')) {
     const tab = line.indexOf('\t');
     if(tab === -1) continue;
@@ -1638,7 +1640,7 @@ async function loadBaseFiles() {
 // Auto-load English localization on page start
 window.addEventListener('load', ()=>{
   const sel = document.getElementById('loc-select');
-  sel.value = 'localization/localizationstring_eng.paloc.txt';
+  sel.value = 'localization/localizationstring_eng_paloc.txt';
   loadLocalization();
 });
 
