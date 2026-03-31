@@ -736,18 +736,19 @@ function parseStoreInfo(buf) {
     if(seen.has(storeName)) continue;
     seen.add(storeName);
 
+    // slot count is stored at name_end+37; skip stores with no slots
+    const slotCount=u8[end+1+37];
+    if(slotCount===0) continue;
     const firstSlotBase=end+1+68;
-    if(firstSlotBase+105>u8.length) continue;
+    if(firstSlotBase+slotCount*105>u8.length) continue;
 
     const slots=[];
-    for(let si=0;si<36;si++) {
+    for(let si=0;si<slotCount;si++) {
       const sb=firstSlotBase+si*105;
       if(sb+105>u8.length) break;
       const limit=u32le(buf,sb);
       const idB=u8.slice(sb+16,sb+20);
       const hexLE=Array.from(idB).map(b=>b.toString(16).padStart(2,'0').toUpperCase()).join('');
-      const id32=idB[0]|(idB[1]<<8)|(idB[2]<<16)|(idB[3]<<24);
-      if(limit===0&&id32===0&&si>0) break;
       slots.push({index:si+1,slotBase:sb,limit,itemIdHex:hexLE,originalItemIdHex:hexLE,originalLimit:limit});
     }
     if(slots.length===0) continue;
