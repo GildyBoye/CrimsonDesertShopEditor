@@ -4,12 +4,16 @@ Crimson Desert Shop Editor
 
 
 1. Get the required tools
+2. 
 Download a PAZ unpacker:
+
 [Crimson Desert Unpacker](https://www.nexusmods.com/crimsondesert/mods/62)
+
 [Crimson Browser](https://www.nexusmods.com/crimsondesert/mods/84)
+
 You need one of these to extract game files.
 
-2. Extract the required game files
+4. Extract the required game files
 
 Using the unpacker, go into the game’s data files and extract:
 
