@@ -1498,17 +1498,29 @@ function exportJSON() {
     patches:[{game_file:'gamedata/storeinfo.pabgb',changes}],
   };
 
-  // Generate a provenance fingerprint
-  const sigData = `${modName}|${S.currentStore.name}|${sortedSlots.length}|${version}|${Date.now()}`;
-  const sigHash = Array.from(sigData).reduce((h,c)=>Math.imul(31,h)+c.charCodeAt(0)|0,0x4742);
-  const sigHex  = (sigHash >>> 0).toString(16).toUpperCase().padStart(8,'0');
-  patch._meta = {
-    tool:      "GildyBoye's Crimson Desert Shop Editor Tool",
-    tool_url:  "https://discord.gg/mQjgHCW",
-    generated: new Date().toISOString(),
-    store:     S.currentStore.name,
-    sig:       `GCDS-${sigHex}-${sortedSlots.length}S-${version.replace(/\./g,'')}`,
-  };
+  // Compute a real CRC-32 of the patch content so the hash changes if anyone tampers with it
+  function crc32(str) {
+    const table = new Uint32Array(256);
+    for(let i=0;i<256;i++){
+      let c=i;
+      for(let k=0;k<8;k++) c=c&1?(0xEDB88320^(c>>>1)):(c>>>1);
+      table[i]=c;
+    }
+    let crc=0xFFFFFFFF;
+    for(let i=0;i<str.length;i++) crc=table[(crc^str.charCodeAt(i))&0xFF]^(crc>>>8);
+    return ((crc^0xFFFFFFFF)>>>0).toString(16).toUpperCase().padStart(8,'0');
+  }
+
+  // Encode attribution as Base64 so it doesn't read as plain text
+  const _attr = btoa("GildyBoye's Crimson Desert Shop Editor Tool | discord.gg/mQjgHCW");
+  const _chk  = crc32(JSON.stringify(patch.patches));
+  const _ts   = btoa(new Date().toISOString()).replace(/=/g,'');
+
+  // Spread attribution across the patch: inside the patch block, and as top-level technical fields
+  patch.patches[0]._v    = _attr;            // looks like a version blob
+  patch._compat_hash     = `${_chk}`;        // looks like a required checksum
+  patch._encoding        = _ts;              // looks like an encoding timestamp
+  patch._validator       = btoa(`GCDS|${S.currentStore.name}|${sortedSlots.length}|${version}|${_chk}`);
 
   const blob=new Blob([JSON.stringify(patch,null,2)],{type:'application/json'});
   const url=URL.createObjectURL(blob);
