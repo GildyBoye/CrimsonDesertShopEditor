@@ -271,7 +271,10 @@ header h1 span{color:var(--text-dim);font-weight:400;font-size:.8rem;margin-left
 <body>
 
 <header>
-  <h1>Crimson Desert <span>/ Shop Editor</span></h1>
+  <div style="display:flex;flex-direction:column;gap:2px;">
+    <h1>Crimson Desert <span>/ Shop Editor</span></h1>
+    <div style="font-family:'Cinzel',serif;font-size:.55rem;letter-spacing:.14em;color:var(--red);text-transform:uppercase;font-weight:600;">⚠ Back up your saves before modifying your game</div>
+  </div>
   <span class="ver-badge" id="ver-badge">v1.01.02</span>
 </header>
 
@@ -412,6 +415,7 @@ header h1 span{color:var(--text-dim);font-weight:400;font-size:.8rem;margin-left
       <div class="s-dot" id="dot-store"></div><span id="lbl-store">storeinfo: not loaded</span>
       <div class="s-dot" id="dot-loc"></div><span id="lbl-loc">localization: not loaded</span>
       <span class="status-msg" id="status-msg">Load game files to begin</span>
+      <span style="font-family:'Cinzel',serif;font-size:.6rem;letter-spacing:.08em;color:var(--text-faint);white-space:nowrap;flex-shrink:0;">Created by GildyBoye</span>
     </div>
 
   </main>
@@ -1365,6 +1369,39 @@ function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').repl
 // ═══════════════════════════════════════════
 async function loadBaseFiles() {
   const btn = document.getElementById('btn-base');
+
+  // If already loaded, unload / reset
+  if(btn.classList.contains('loaded')) {
+    S.itemMap = []; S.filteredItems = [];
+    S.stores = []; S.allStores = [];
+    S.currentStore = null; S.selectedSlot = null; S.mods = {};
+    // Reset item UI
+    document.getElementById('fdz-item').classList.remove('loaded');
+    document.getElementById('ok-item').textContent = '✓ loaded';
+    document.getElementById('dot-item').classList.remove('ok');
+    document.getElementById('lbl-item').textContent = 'iteminfo: not loaded';
+    document.getElementById('item-search').disabled = true;
+    document.getElementById('item-count').textContent = '';
+    document.getElementById('item-list').innerHTML = '<div class="empty"><div class="empty-icon">🔍</div><div class="empty-t">Item Browser</div><div class="empty-d">Load iteminfo.pabgb to browse all items.</div></div>';
+    // Reset store UI
+    document.getElementById('fdz-store').classList.remove('loaded');
+    document.getElementById('ok-store').textContent = '✓ loaded';
+    document.getElementById('dot-store').classList.remove('ok');
+    document.getElementById('lbl-store').textContent = 'storeinfo: not loaded';
+    document.getElementById('store-search').disabled = true;
+    document.getElementById('store-tree').innerHTML = '<div class="empty"><div class="empty-d">Load storeinfo.pabgb to browse stores</div></div>';
+    document.getElementById('store-title').textContent = 'No store selected';
+    document.getElementById('store-meta').textContent = '';
+    document.getElementById('slot-list').innerHTML = '<div class="empty"><div class="empty-icon">🗂️</div><div class="empty-t">No Store Selected</div><div class="empty-d">Pick a store from the sidebar to view its slots.</div></div>';
+    document.getElementById('btn-reset').disabled = true;
+    document.getElementById('btn-export').disabled = true;
+    document.getElementById('mod-count').textContent = '';
+    btn.classList.remove('loaded');
+    btn.textContent = '⬇ Use pre-built base files (v1.01.02)';
+    setMsg('Base files unloaded.');
+    return;
+  }
+
   btn.disabled = true;
   btn.textContent = '⏳ Loading base files…';
   setMsg('Fetching base files…');
