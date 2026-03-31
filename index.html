@@ -736,7 +736,7 @@ function parseStoreInfo(buf) {
     if(seen.has(storeName)) continue;
     seen.add(storeName);
 
-    const firstSlotBase=i+92;
+    const firstSlotBase=end+1+68;
     if(firstSlotBase+105>u8.length) continue;
 
     const slots=[];
@@ -943,7 +943,7 @@ function selectStore(store, el) {
 // ═══════════════════════════════════════════
 // RENDER SLOTS
 // ═══════════════════════════════════════════
-const LOCKED_SLOTS=[1,2,3,4,5];
+// All slots are editable on the website
 
 function renderSlots() {
   const el=document.getElementById('slot-list');
@@ -951,7 +951,7 @@ function renderSlots() {
   el.innerHTML='';
 
   S.currentStore.slots.forEach(slot=>{
-    const locked=LOCKED_SLOTS.includes(slot.index);
+    const locked=false;
     const mod=S.mods[slot.slotBase];
     const isSelected=S.selectedSlot&&S.selectedSlot.slotBase===slot.slotBase;
 
@@ -1077,7 +1077,7 @@ function assignItem(hexLE, name) {
   // Auto-advance
   const idx=S.currentStore.slots.findIndex(s=>s.slotBase===slot.slotBase);
   for(let i=idx+1;i<S.currentStore.slots.length;i++) {
-    if(!LOCKED_SLOTS.includes(S.currentStore.slots[i].index)){
+    if(true){
       S.selectedSlot=S.currentStore.slots[i];
       renderSlots();
       const newRows=document.querySelectorAll('.slot-row');
