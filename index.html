@@ -388,8 +388,6 @@ header h1 span{color:var(--text-dim);font-weight:400;font-size:.8rem;margin-left
         <div class="panel-head">
           <span class="panel-title">Store Slots</span>
           <span class="panel-count" id="mod-count"></span>
-          <button class="btn btn-outline" id="btn-add-slot"    onclick="addSlot()"    title="Add a slot (expand visible count)" style="padding:3px 8px;font-size:.55rem;" disabled>+ Slot</button>
-          <button class="btn btn-outline" id="btn-remove-slot" onclick="removeSlot()" title="Remove last slot (shrink visible count)" style="padding:3px 8px;font-size:.55rem;" disabled>− Slot</button>
         </div>
         <div class="panel-body" id="slot-list">
           <div class="empty">
@@ -807,7 +805,6 @@ const S = {
   filteredItems:[],
   collapsedCats: new Set(),
   openCats: new Set(),
-  slotCountDelta: 0,
 };
 
 // ═══════════════════════════════════════════
@@ -980,9 +977,7 @@ function parseStoreInfo(buf) {
     const displayName=getDisplayName(storeName);
     const cityGroup=getCityGroup(storeName);
     if(cityGroup===null) continue; // excluded group (Camp/Trade Routes)
-    const slotCountOffset = end+1+37; // byte offset of slot_count in binary
-    const maxSlots        = slotCount; // can't exceed what was allocated in binary
-    stores.push({name:storeName,displayName,cityGroup,slots,slotCountOffset,maxSlots});
+    stores.push({name:storeName,displayName,cityGroup,slots});
   }
   return stores;
 }
@@ -1177,13 +1172,9 @@ function selectStore(store, el) {
   document.getElementById('btn-reset').disabled=false;
   document.getElementById('btn-export').disabled=false;
   document.getElementById('mod-count').textContent='';
-  S.slotCountDelta=0;
-  document.getElementById('btn-add-slot').disabled=false;
-  document.getElementById('btn-remove-slot').disabled=false;
   // Clear slot list before re-rendering to avoid stale state
   document.getElementById('slot-list').innerHTML='';
   renderSlots();
-  updateSlotButtons();
   setMsg(`Editing ${store.displayName} — select a slot, then pick an item.`);
 }
 
@@ -1197,12 +1188,7 @@ function renderSlots() {
   if(!S.currentStore){return;}
   el.innerHTML='';
 
-  // Apply slotCountDelta: show more/fewer slots than originally parsed
-  const delta = S.slotCountDelta || 0;
-  const store  = S.currentStore;
-  const visibleSlots = store.slots.slice(0, store.slots.length + delta);
-
-  visibleSlots.forEach(slot=>{
+  S.currentStore.slots.forEach(slot=>{
     const locked=false;
     const mod=S.mods[slot.slotBase];
     const isSelected=S.selectedSlot&&S.selectedSlot.slotBase===slot.slotBase;
@@ -1429,16 +1415,8 @@ function filterItems() {
 // ═══════════════════════════════════════════
 function assignItem(hexLE, name) {
   if(!S.selectedSlot){showToast('Select a slot first','err');return;}
-  // Warn if ASSIGNING an unknown item
-  const assigningUnknown = name.startsWith('Unknown Item (');
-  // Warn if REPLACING an unknown item in the selected slot
-  const slot = S.selectedSlot;
-  const currentName = resolveItem(S.mods[slot.slotBase]?.newItemHex || slot.originalItemIdHex);
-  const replacingUnknown = currentName.startsWith('Unknown Item (');
-  if(assigningUnknown) {
-    if(!confirm('⚠ Unknown Item\n\nThis item is not recognised and may be hidden or important to the store\'s function.\n\nAssigning it may cause issues. Continue?')) return;
-  } else if(replacingUnknown) {
-    if(!confirm('⚠ Unknown Item in Slot\n\nThis slot currently contains an unrecognised item that may be important to the store\'s function.\n\nReplacing it may cause issues. Continue?')) return;
+  if(name.startsWith('Unknown Item (')) {
+    if(!confirm('This item is unknown or hidden and may be important to the store.\n\nAre you sure you want to assign it?')) return;
   }
   const slot=S.selectedSlot;
   // Get current stock from the row's input
@@ -1479,49 +1457,8 @@ function updateModCount() {
 function resetMods() {
   if(!S.currentStore) return;
   S.mods={};S.selectedSlot=null;
-  S.slotCountDelta=0;
   renderSlots();updateModCount();
-  updateSlotButtons();
   showToast('All modifications cleared');
-}
-
-// ═══════════════════════════════════════════
-// ADD / REMOVE SLOTS
-// ═══════════════════════════════════════════
-function updateSlotButtons() {
-  if(!S.currentStore) return;
-  const store = S.currentStore;
-  const visibleCount = store.slots.length + (S.slotCountDelta||0);
-  document.getElementById('btn-add-slot').disabled    = visibleCount >= store.maxSlots;
-  document.getElementById('btn-remove-slot').disabled = visibleCount <= 1;
-}
-
-function addSlot() {
-  if(!S.currentStore) return;
-  const store = S.currentStore;
-  const visibleCount = store.slots.length + (S.slotCountDelta||0);
-  if(visibleCount >= store.maxSlots) {
-    showToast('No more slots available — store is at max capacity','err');
-    return;
-  }
-  S.slotCountDelta = (S.slotCountDelta||0) + 1;
-  renderSlots();
-  updateSlotButtons();
-  setMsg(`Slot added — store now shows ${visibleCount+1} slots.`);
-}
-
-function removeSlot() {
-  if(!S.currentStore) return;
-  const visibleCount = S.currentStore.slots.length + (S.slotCountDelta||0);
-  if(visibleCount <= 1) { showToast('Cannot remove last slot','err'); return; }
-  // Remove any mod on the last visible slot
-  const lastSlot = S.currentStore.slots[visibleCount-2]; // 0-indexed
-  if(lastSlot) delete S.mods[lastSlot.slotBase];
-  S.slotCountDelta = (S.slotCountDelta||0) - 1;
-  renderSlots();
-  updateModCount();
-  updateSlotButtons();
-  setMsg(`Slot removed — store now shows ${visibleCount-1} slots.`);
 }
 
 // ═══════════════════════════════════════════
@@ -1536,11 +1473,7 @@ function exportJSON() {
   const version = document.getElementById('ver-badge').textContent.replace(/^v/,'').trim();
 
   const changes=[];
-  const delta = S.slotCountDelta || 0;
-  const store  = S.currentStore;
-  const visibleCount = store.slots.length + delta;
-  const sortedSlots = store.slots
-    .slice(0, visibleCount)
+  const sortedSlots=S.currentStore.slots
     .filter(s=>S.mods[s.slotBase])
     .sort((a,b)=>a.slotBase-b.slotBase);
 
@@ -1558,20 +1491,6 @@ function exportJSON() {
   }
 
   const toolTag = "Generated by GildyBoye's Crimson Desert Shop Editor Tool";
-  // If slot count changed, add a patch for the slot_count byte
-  if(delta !== 0 && store.slotCountOffset != null) {
-    const origCount = store.maxSlots; // original slot count from binary
-    const newCount  = visibleCount;
-    const origHex   = origCount.toString(16).padStart(2,'0').toUpperCase().padEnd(8,'0');
-    const newHex    = newCount.toString(16).padStart(2,'0').toUpperCase().padEnd(8,'0');
-    changes.unshift({
-      offset:  store.slotCountOffset,
-      label:   `${store.name} slot count (${origCount} -> ${newCount})`,
-      original: origHex,
-      patched:  newHex,
-    });
-  }
-
   const patch={
     name:`${modName} — ${toolTag}`,
     version, author,
