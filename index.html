@@ -926,13 +926,7 @@ async function parseItemInfo(buf) {
       name = S.locMap.get(locKey);
     }
     if(!name || name.length<2 || name.includes('<br') || name.includes('Client:')) {
-      // Better fallback: clean up internal name into readable title case
-      name = internal
-        .replace(/^Item_/i,'')
-        .replace(/_(OneHand|TwoHand|Plate|Leather|Cloth|Fabric)/gi, ' $1')
-        .replace(/_/g,' ')
-        .replace(/([a-z])([A-Z])/g,'$1 $2')
-        .trim();
+      name = internal.replace(/_/g,' ');
     }
     out.push({hexLE,name,internal,locKey});
   }
@@ -1421,16 +1415,8 @@ function filterItems() {
 // ═══════════════════════════════════════════
 function assignItem(hexLE, name) {
   if(!S.selectedSlot){showToast('Select a slot first','err');return;}
-  // Warn if ASSIGNING an unknown item
-  const assigningUnknown = name.startsWith('Unknown Item (');
-  // Warn if REPLACING an unknown item in the selected slot
-  const slot = S.selectedSlot;
-  const currentName = resolveItem(S.mods[slot.slotBase]?.newItemHex || slot.originalItemIdHex);
-  const replacingUnknown = currentName.startsWith('Unknown Item (');
-  if(assigningUnknown) {
-    if(!confirm('⚠ Unknown Item\n\nThis item is not recognised and may be hidden or important to the store\'s function.\n\nAssigning it may cause issues. Continue?')) return;
-  } else if(replacingUnknown) {
-    if(!confirm('⚠ Unknown Item in Slot\n\nThis slot currently contains an unrecognised item that may be important to the store\'s function.\n\nReplacing it may cause issues. Continue?')) return;
+  if(name.startsWith('Unknown Item (')) {
+    if(!confirm('This item is unknown or hidden and may be important to the store.\n\nAre you sure you want to assign it?')) return;
   }
   const slot=S.selectedSlot;
   // Get current stock from the row's input
