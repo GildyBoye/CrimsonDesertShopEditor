@@ -1,126 +1,169 @@
-1030796446007408	Tardik Longsword
-1030860870516848	Savage Longsword
-1030869460451440	Balton Longsword
-1030873755418736	Dewhaven Longsword
-1030878050386032	Thalwynd Longsword
-1030890935287920	Iris Longsword
-1030903820189808	Rhett's Longsword
-1030916705091696	Vessel of Dark Pursuit
-1030921000058992	Righteous Verdict
-1030925295026288	Absolute Justice Greatsword
-1030938179928176	Sydmon Longsword
-1030972539666544	Ignir
-1030976834633840	Delesyian Longsword
-1035087118336112	Aeserion Longsword
-1035095708270704	Dandelion Longsword
-1035885922123513968	Blacksteel Spiddle Plate Armor
-1073801953542256	Incomplete Masterpiece
-1073806248509552	Tardik Greataxe
-1073810543476848	Iris Greataxe
-1073814838444144	Gorthak Greataxe
-1073823428378736	Troll Hook Greataxe
-1073827723346032	Kylus Greataxe
-1073832018313328	Bonepit Greataxe
-1073836313280624	Fan-Blade Greataxe
-1073844903215216	Horseshoe-Blade Greataxe
-1073849198182512	Hellhounds Chopping Axe
-1073853493149808	Pailunese Logging Axe
-1073862083084400	Sigremon Greataxe
-1078011021492336	Bekker Greataxe
-1078015316459632	Dekarr Greataxe
-1078036791296112	Aeserion Greataxe
-1091536977313923184	Small Delesyian Banner Pike
+433791697008	Modest Copper Pouch
+442381631600	Light Copper Pouch
+446676598896	Full Silver Pouch
+450971566192	Overflowing Silver Pouch
+9448928051312	Stub Arrow
+18614388260976	Broken Visione
+18618683228272	Broken Visione
+18622978195568	Broken Visione
+18657337933936	Broken Visione
+18799071854704	Broken Visione
+25769803776112	Inventory Expansion Tool
+25774098743408	Small Bag
+25778393710704	Medium Bag
+25782688678000	Extra Large Bag
+25791278612592	Large Bag
+36511516983408	White Horn's Ring
+36515811950704	Ring of Lightning
+36524401885296	Earring of Dark Magic
+36528696852592	Ogre's Ring
+36532991819888	Witch's Ring
+36545876721776	Flower Petal Earring
+37366215475312	Crimson Chaser Mail
+37800007172208	Blizzard Crystal Necklace
+39092792328304	Hernandian Honor Guard Armor
+39097087295600	Tariv Cloth Attire
+39517994090608	Tariv Cloth Boots
+39951785787504	Tariv Cloth Gloves
+40372692582512	Beoneck Cloth Cap
+40376987549808	Skyblazer Cloth Helm
+40381282517104	St. Halssius Priest's Hat
+40806484279408	Marni Tank Blaster
+40810779246704	Mechanical Clockwork Blaster
+40832254083184	Blaster No. 8
+40836549050480	Wyvern Blaster
+43061342109808	Lantern
+43091406880880	Honey
+43134356553840	Shiny Blue Sea Lantern
+43138651521136	Shroud Lantern
+43142946488432	Fancy Flame-Patterned Lantern
+43147241455728	Dark Fog Lantern
+43151536423024	Flame Lantern
+47248935223408	Fishing Rod
+52415780880496	Maydocs Leather Armor
+52420075847792	Vildyne Leather Armor
+52424370815088	Adoratt Leather Armor
+52428665782384	Colbill Leather Armor
+52432960749680	Coby Leather Armor
+52437255716976	Sherborn Leather Armor
+52471615455344	Hungering Fang Leather Armor
+52475910422640	Helfryn Leather Armor
+52480205389936	Weasel Leather Armor
+52840982642800	Dirty Sarantos Leather Boots
+52845277610096	Large Rhegis Leather Boots
+52853867544688	Hungering Fang Leather Boots
+52858162511984	Carta Plate Boots
+52862457479280	Hernandian Honor Guard Boots
+52866752446576	Weasel Leather Boots
+52871047413872	Scholastone Boots
+52875342381168	Hernandian Banquet Leather Boots
+52879637348464	Beekeeping Boots
+53270479372400	Red Rider's Leather Gloves
+53274774339696	Large Pavis Leather Gloves
+53283364274288	Blackwing Leather Gloves
+53287659241584	Skyblazer Leather Gloves
+53291954208880	Hungering Fang Leather Gloves
+53296249176176	Hernandian Honor Guard Gloves
+53300544143472	Helfryn Leather Gloves
+53304839110768	Weasel Leather Gloves
+53309134078064	Carta Leather Gloves
+53313429045360	Beekeeping Gloves
+53317724012656	Bollin Leather Gloves
+53712861003888	Silver Fang Helm
+54116587929712	Double-Headed Axe of Greed
+54550379626608	Divine Echoes Bow
+54554674593904	Noble Man's Bow
+55405078118512	Goblin King's Treasure Dagger
+56693568307312	Mace of the Fleeting
+56697863274608	Marni Devotee's Mace
+56702158241904	Mace of Resolve
+57127360004208	Marni Musket
+57140244906096	Demenissian Hero's Musket
+57982058496112	Royal Oath
+58411555225712	Shell of the Fleeting
+58428735094896	Balgran Shield
+58433030062192	Delesyian Ornamental Shield
+59309203390576	Nazk Sword
+59313498357872	Chillfallen Sword
+59317793325168	Aeserion Sword
+59322088292464	Sword of the Fleeting
+59704340381808	Frostbone Shield
+60563333841008	Plate Armor of Cursed Soul
+60567628808304	Red Rider's Plate Armor
+60571923775600	Meyer Plate Armor
+60576218742896	Spiddle Plate Armor
+60597693579376	Frozen Heart Plate Armor
+60988535603312	Executioner of Darkness Plate Boots
+60992830570608	Plate Boots of Cursed Soul
+60997125537904	Frostcursed Plate Boots
+61418032332912	Executioner of Darkness Plate Gloves
+61422327300208	Plate Gloves of Cursed Soul
+61426622267504	Crimson Chaser Chain Gloves
+61435212202096	Frozen Heart Plate Gloves
+61439507169392	Brass Warden's Plate Gloves
+61443802136688	Pailunese Gloves
+61847529062512	Wanderer of Faith's Plate Helm
+61851824029808	Plate Helm of Cursed Soul
+61856118997104	Red Rider's Plate Helm
+61860413964400	Demenissian Guard's Plate Helm
+61864708931696	Demenissian Guard's Plate Helm
+61869003898992	Crimson Chaser Plate Helm
+61873298866288	Descao Plate Helm
+61877593833584	Demenissian Guard's Plate Helm
+61894773702768	Helms Beetle Helm
+61899068670064	Helms Hornet Helm
+61903363637360	Helms Bull Helm
+61911953571952	Blackwing Mask
+61916248539248	Frostcursed Plate Helm
+61920543506544	Carta Plate Helm
+62277025792112	Alpha Wolf Helm
+62281320759408	Boss Bear Hat
+62307090563184	Black Bear Gas Mask
+62319975465072	Visione
+62324270432368	Bespoke Visione
+63148904153200	Aeserion Greathammer
+63157494087792	Darkbringer
+63161789055088	Wheel of the Last Toll
+63995012710512	Student's Pack
+64424509440112	Aeserion Halberd
+64854006169712	Earthsplitter
+65283502899312	Finest Rhinard Cannon
+65292092833904	Alpha Barrel Cannon
+65300682768496	Gamma Barrel Cannon
+66571993088112	Rune-Engraved Rock
+67430986547312	Aeserion Spear
+67435281514608	Reckoning
+67439576481904	Grasping Moon
+67443871449200	Frostfang
+67448166416496	Spear of the Fleeting
+67456756351088	Diverging Moon
+67461051318384	Circling Moon
+68294274973808	Frozen Anguish
+68298569941104	Hound
+68302864908400	Twisted Verdict
+68723771703408	Ashen Execution
+68732361638000	Sanguine Knell
+85873576116336	Breath of the Abyss
+85877871083632	Spirit of the Abyss
+85882166050928	Vitality of the Abyss
+90271622627440	Milk
+90275917594736	Fine Jerky
+94515050315888	Wine
+94519345283184	Beer
+94523640250480	Water
+94527935217776	Holy Water
 111295487541360	Bird Soup
 111299782508656	Longhorn Soup
 111329847279728	Antler Tea
 111334142247024	Fruit Juice
-11166966509207664	Light of the Battlefield Plate Armor
-11166996573978736	White Bloodwind Plate Helm
-11167043818618992	White Bloodwind Plate Gloves
-11167048113586288	Fluttering Radiance Plate Gloves
-11167052408553584	Light of the Battlefield Plate Gloves
-11167069588422768	White Bloodwind Leather Boots
-11167099653193840	Goldlight Plate Gloves
-11167108243128432	Goldlight Plate Helm
-11167112538095728	Goldlight Plate Boots
-11167116833063024	Raging Tempest's Plate Armor
-11167121128030320	Raging Tempest's Plate Helm
-11167125422997616	Raging Tempest's Plate Boots
-11167129717964912	Raging Tempest's Leather Gloves
-1116721561731184	Bekker Warhammer
-1116725856698480	Saltroad Warhammer
-1116747331534960	Bonepit Warhammer
-1116751626502256	Thalwynd Warhammer
-1116755921469552	Cactus Warhammer
-1116768806371440	Arlem Warhammer
-1116773101338736	Arlen Warhammer
-1116777396306032	Zargan Warhammer
-1116803166109808	Tardik Warhammer
-1116811756044400	Iris Warhammer
-1116820345978992	Gorthak Warhammer
 111716394336368	Coral Mushroom Tea
 111733574205552	Pine Mushroom Tea
 111737869172848	Oakwood Mushroom Tea
 111815178584176	Honey Tea
-1120986464256112	Aeserion Warhammer
-1138170628407408	Marauder's Halberd
-1138174923374704	Alabaster Halberd
-1138179218342000	Iris Halberd
-1138183513309296	Lambert Halberd
-1138187808276592	Gilliam Halberd
-1138192103243888	Bonepit Halberd
-1138196398211184	Freesword Halberd
-1138200693178480	Bekker Halberd
-1138209283113072	Celeste Halberd
-1138213578080368	Golden Vanguard
-1159645464887408	Rosemond Pistol
-1159649759854704	Jemel Pistol
-1159654054822000	Falconne Pistol
-1159658349789296	Vilancia Pistol
-1159688414560368	Shadow of the Past Pistol
-1159697004494960	Caliburn's Mercy Pistol
 119967026511984	Salt-Roasted Bird Meat
-1202595137847408	Arlen Musket
-1202599432814704	Bekker Musket
-1202603727782000	Delesyian Musket
-1202608022749296	Wells Musket
-1202612317716592	Leofric Musket
-1202663857324144	Helms Musket
-1202668152291440	Pailunese Musket
-1202672447258736	Gustav Musket
 120602681671792	Salt-Roasted Fish
+124128849821808	Bread
 124197569298544	Fruit Bread
-1245544810807408	Balton Shield
-1245600645382256	Iris Shield
-1245613530284144	Sydmon Round Shield
-1245626415186032	Mirror of Night
-1245630710153328	Drake Shield
-1245639300087920	Rising Arrow Shield
-1245652184989808	Staglord's Shield
-1245785328975984	Dekarr Shield
-1245789623943280	Sydmon Kite Shield
-1245927062896752	Tardik Shield
-1245931357864048	Dewhaven Shield
-1246025847144560	Shield of a Blossoming Spring Day
-1246030142111856	Demenissian Shield of Valor
-1246034437079152	Demenissian Shield of Loyalty
-1246038732046448	Demenissian Shield of Obedience
-1247696589422704	Gilliam Large Shield
-1247700884390000	Lifsoth Large Shield
-1247705179357296	Reinforced Warspike Large Shield
-1247713769291888	Thalwynd Large Shield
-1247722359226480	Lucon Large Shield
-1247726654193776	Rhonid Large Shield
-1247730949161072	Balton Large Shield
-1247735244128368	Rekel Large Shield
-1247752423997552	Lanford Large Shield
-1247756718964848	The Laughing Marionette Shield
-1247786783735920	Bekker Large Shield
-1247799668637808	Mass-Produced Large Rekel Shield
-1247821143474288	Rekel Large Spiked Shield
-1247825438441584	Thorny Warspike Large Shield
-1247829733408880	Demenissian Soldier's Large Shield
-1249822598234224	Legion Spearmen's Large Shield
 126705830199408	Paddlefish
 126710125166704	Broadnose Sevengill Shark
 126714420134000	Giant Red Seabream
@@ -167,18 +210,6 @@
 128071629799536	Crucian Carp
 128075924766832	Clockwork Fish
 128080219734128	Crayfish
-1288494483767408	Golden-Knotted Ancestral Bow
-1288498778734704	Dekarr Bow
-1288503073702000	Bekker Bow
-1288507368669296	Twilight Messengers' Bow
-1288541728407664	Tardik Bow
-1288546023374960	Kylus Bow
-1288550318342256	Sydmon Bow
-1288554613309552	Bloodsteel Bow
-1288567498211440	Tommasoan Bow
-1288571793178736	Warspike Bow
-1288588973047920	Tormented Soul Bow
-1288704937164912	White Wood Bow
 128891968553072	Gunpowder
 128917738356848	Delesyian Wine
 128943508160624	Lubricant
@@ -186,74 +217,7 @@
 129068062212208	Beacon Key
 129102421950576	Iron Gate Key
 129123896787056	Prison Key
-1292785156096112	Aeserion Bow
-1292789451063408	Crimson Warden's Bow
-1319073903590506608	Russet Rhegis Leather Boots
-1331474221498480	Sydmon Spear
-1331478516465776	Alfonso Spear
-1331491401367664	Kylus Spear
-1331495696334960	Alabaster Spear
-1331517171171440	Warspike Spear
-1331538646007920	Cog Destroyer Spear
-1331542940975216	Spear of Righteousness
-1331547235942512	Valgash's Incomplete Work
-1331560120844400	Thorn of Dark Pursuit
-1331573005746288	North Wind Trident
-1331590185615472	Traitor's Spear
-1331607365484656	Staff of the Fleeting
-1374393829687408	Hyde Crossbow
-1374398124654704	Southern Wandering Troll's Crossbow
-1417343502647408	Rhinard Cannon
-1417347797614704	Electromagnetic Flamespitter
-1417352092582000	Electromagnetic Frostspitter
-1434364200343306352	Scarlet Blades Gas Mask
-1532196335506161776	Pororin Petal Hat
-1539898543307751536	Lanauk Plate Armor
-1564689889109213296	Blacksteel Dumenis Plate Boots
-1589142194487408	Pailunese Shotgun
-1589146489454704	Dewhaven Shotgun
-1589150784422000	Mortimer Shotgun
-1589155079389296	Metilbahm Shotgun
-1589159374356592	Delesyian Shotgun
-1589163669323888	Bleed Shotgun
-1589167964291184	Dane Shotgun
-1597859002413219952	Crail Plate Armor
-1634239351095408	Small Demenissian Banner Pike
-1634252235997296	Small Royal Hunting Ground Banner Pike
-1634260825931888	Small Black Bears Banner Pike
-1681559243473289328	White Horn's Earring
-1681559252063223920	Necklace of Lightning
-1681559303602831472	Oath of Darkness
-1681559307897798768	Mark of Darkness
-1681559312192766064	Relic of Darkness
-1681559320782700656	Karanda's Necklace
-1681559325077667952	Witch's Earring
-1681559329372635248	Seal of Pitch-Black Darkness
-1681559342257537136	Ancient Earring
-1681559346552504432	Ancient Ring
-1681559350847471728	Ancient's Necklace
-1703127164779495536	Bleed Bandits' Gas Mask
-1717986918400112	Bekker Greathammer
-1717991213367408	Golden Dragon's Claw
-1717995508334704	Greathammer of Fire
-1717999803302000	Helms Greathammer
-1718004098269296	Lanford Greathammer
-1718008393236592	Bonepit Greathammer
-1760945181294704	Volcanic Blaster
-1760953771229296	Copper Knuckledrill
-1760970951098480	Furious Waves Gauntlet
-1760975246065776	Iron Fists Gauntlet
-1760983836000368	Muskan's Upper Body Clone
-1760988130967664	Muskan's Lower Body Clone
-1811197836256084080	Mentz Plate Helm
-1846840232247408	Soporific Blowpipe
-18614388260976	Broken Visione
-18618683228272	Broken Visione
-18622978195568	Broken Visione
-18657337933936	Broken Visione
-18799071854704	Broken Visione
-2147487942967408	Inquisitor's Greataxe
-2147505122836592	Patterned Stone Greataxe
+214752659767408	Arrow
 214761249702000	Poison Arrow
 214795609440368	Whistling Arrow
 214993177935984	Bundle of Arrows
@@ -273,19 +237,1238 @@
 227701986164848	Kuku Pot
 227770705641584	Sticky Bomb
 227779295576176	Time Bomb
-2355793221168136304	Rhegis Leather Boots
-25769803776112	Inventory Expansion Tool
+300690660393072	Old Wooden Doll
+322122547200112	The First Artifact
+322126842167408	Abyss Artifact
+322131137134704	Faded Abyss Artifact
+322552043929712	Greymane's Token
+343601678647408	Recipe: Boiled Meat
+343610268582000	Recipe: Fruit Tea
+345341140402288	Recipe: Bird Soup
+345366910206064	Recipe: Antler Tea
+345371205173360	Recipe: Fruit Juice
+345766342164592	Recipe: Coral Mushroom Tea
+345783522033776	Recipe: Pine Mushroom Tea
+345787817001072	Recipe: Oakwood Mushroom Tea
+345869421379696	Recipe: Honey Tea
+347084897124464	Recipe: Salt-Roasted Bird Meat
+433795991863408	Rekhia Plate Helm
+433800286830704	Bolton Plate Helm
+433804581798000	Cassius Morten's Plate Helm
+433826056634480	Icewing Plate Helm
+433830351601776	Ator's Will Helm
+433838941536368	Ferman Plate Helm
+433843236503664	Keredeg Plate Helm
+433847531470960	Ferenna Plate Helm
+433851826438256	Grace Plate Helm
+433856121405552	Flynn Plate Helm
+433860416372848	Crudil Plate Helm
+433869006307440	Berin Plate Helm
+433907661013104	Beastman Bone Helmet
+433924840882288	Rodderham Plate Helm
+433937725784176	Taos Plate Helm
+433989265391728	Tarandus Plate Helm
+433997855326320	Musket Border Guard Standard Helm
+434002150293616	Lotas Plate Helm
+434019330162800	Black Bears' Leather Helm
+434023625130096	Chelcia Plate Helm
+434032215064688	Scorchflame Plate Helm
+434036510031984	Inyr Plate Helm
+434040804999280	Rueconec Plate Helm
+434045099966576	Calio Plate Helm
+434057984868464	Ashford Plate Helm
+434083754672240	Lyfellen Plate Helm
+434105229508720	Kiatus Plate Helm
+434122409377904	Rahbae Plate Helm
+434126704345200	Goldbranch Plate Crown
+434178243952752	Bedure Plate Helm
+434208308723824	Laehbern Plate Helm
+434212603691120	Offenberg Plate Helm
+434225488593008	Ashad Plate Helm
+434229783560304	Solas Plate Helm
+434242668462192	Ulrich Plate Helm
+434259848331376	Paizel Bone Helm
+434268438265968	The Faceless's Plate Helm
+434272733233264	Bayer Plate Helm
+434277028200560	Bolgan Plate Helm
+434281323167856	Dernat Plate Helm
+434285618135152	Dondegobi Plate Helm
+434294208069744	Northern Fighter's Plate Helm
+434307092971632	Casinian Plate Helm
+434315682906224	Canta Plate Helm
+434328567808112	Tanion Plate Helm
+434371517481072	Antra Plate Helm
+434375812448368	Laterna Plate Helm
+434380107415664	Zachar Plate Helm
+434384402382960	Unyielding Warrior's Plate Helm
+434388697350256	Tartry Plate Helm
+434397287284848	Rapps Plate Helm
+434401582252144	Biconio Plate Helm
+434427352055920	Kurua Plate Helm
+438095254126704	Nahu Chain Coif
+438099549094000	Kadallon Chain Coif
+438103844061296	Tailan Plate Helm
+442403106324592	Nevin Cloth Bandana
+442424581161072	Leontyne Plate Helm
+442480415735920	Leather Helm of the Fallen Kingdom
+442506185539696	Schtump Plate Helm
+442523365408880	Melvin Leather Helm
+442531955343472	Helm of Loyal Friendship
+442536250310768	Rondel Leather Helm
+442557725147248	Lacrunias Leather Helm
+442583494951024	Rueconec Leather Helm
+442592084885616	Agatha Leather Helm
+442626444623984	Dimfeld Leather Helm
+442639329525872	Daveed Leather Helm
+442660804362352	Lutinas Leather Helm
+442682279198832	Lanweiter Leather Helm
+442759588610160	Uphren Leather Helm
+442785358413936	Arkhan Leather Helm
+442793948348528	Ledan Leather Helm
+442828308086896	Dekter Leather Helm
+442832603054192	Shellus Leather Helm
+442862667825264	Scholastone Cap
+446736728326256	Bollin Cloth Cap
+446741023293552	Radein Cloth Cap
+446796857868400	Rueconec Cloth Cap
+446805447802992	Agatha Cloth Cap
+446882757214320	Baidan Cloth Headband
+446904232050800	Calprise Cloth Cap
+446917116952688	Rigma Cloth Headband
+446990131396720	Raveed Cloth Cap
+446994426364016	Duvidet Hoops
+447015901200496	Scobby Cloth Headband
+447033081069680	Fiore Cloth Cap
+447037376036976	Ataram Cloth Cap
+447058850873456	Gaurra Cloth Cap
+447063145840752	Jermill Cloth Headband
+447076030742640	Torben Cloth Cap
+447088915644528	Ulman Cloth Cap
+447127570350192	Rahelm Cloth Headband
+447131865317488	Wyvernflame Cloth Helm
+447136160284784	Muchia Cloth Cap
+447183404925040	Rockington Cloth Cap
+447191994859632	Deland Plate Helm
+447200584794224	Ducriss Conical Cap
+447234944532592	Lashiras Cowl
+447243534467184	Dark Ringleader's Cloth Helm
+447256419369072	Sian Cloth Cap
+447260714336368	Karas Cloth Headband
+447265009303664	Larkett Cloth Cap
+447269304270960	Lashir Cloth Cap
+447273599238256	Drish Cloth Cap
+447277894205552	Triloan Cloth Headband
+447290779107440	Ruckshi Cloth Cap
+447295074074736	Rhytrian Cloth Cap
+447312253943920	Gadereich Cloth Cap
+447316548911216	Ludynn Cloth Cap
+447320843878512	Marc Cloth Headband
+447325138845808	Harker Cloth Cap
+447338023747696	Veronde Cloth Cap
+447342318714992	Ghaltain Cloth Cap
+447359498584176	Berghill Cloth Cap
+447363793551472	Meravan Cloth Cap
+447368088518768	Salimi Cloth Cap
+447385268387952	Yuzel Cloth Cap
+447402448257136	Pailunese Hat
+447428218060912	Jester Leather Mask
+447432513028208	Rabbit Leather Mask
+447466872766576	Dragon Flame Helm
+447471167733872	Dragon Knight's Helm
+476762844692592	Frostcursed Plate Armor
+476784319529072	Inquisitor's Plate Armor
+476908873580656	Tarandus Plate Armor
+476913168547952	Enus Plate Armor
+476956118220912	Grey Wolf Leather Armor
+477110737043568	Bodin Plate Armor
+477115032010864	Breemen Plate Armor
+477162276651120	Bekur Plate Armor
+477166571618416	Frente Plate Armor
+477170866585712	Corinne Plate Armor
+477175161553008	Takao Plate Armor
+477179456520304	Gwets Plate Armor
+477183751487600	Arkhan Plate Armor
+477188046454896	Yosef Plate Armor
+477192341422192	Andre Chain Mail
+477196636389488	Albert Plate Armor
+477200931356784	Emil Plate Armor
+477205226324080	Schtump Cloth Armor
+477209521291376	Sven's Cloth Armor
+477213816258672	Yakkov Cloth Armor
+477218111225968	Ernst Chain Mail
+477226701160560	Ditter Cloth Armor
+477235291095152	Redman Plate Armor
+477239586062448	Schmidt Plate Armor
+477291125670000	Dreer Plate Armor
+477295420637296	Rhogo Plate Armor
+477299715604592	Roshee Plate Armor
+477304010571888	Romund Plate Armor
+477308305539184	Valkyder Plate Armor
+477312600506480	Killian Plate Armor
+477316895473776	Kenmore Plate Armor
+477321190441072	Kinloch Plate Armor
+477325485408368	Lanauk Plate Armor
+477329780375664	Spiddle Plate Armor
+477334075342960	Meyer Plate Armor
+477338370310256	Edzel Plate Armor
+477342665277552	Brejin Plate Armor
+477346960244848	Canusti Plate Armor
+477351255212144	Dundree Plate Armor
+477355550179440	Crail Plate Armor
+477359845146736	Levin Plate Armor
+477364140114032	Dunverline Plate Armor
+477368435081328	Kinross Plate Armor
+477372730048624	Demeniss Honor Armor
+477377025015920	Avignon Cloth Armor
+477385614950512	Arghai Cloth Armor
+477389909917808	The Faceless's Cloth Armor
+477450039459952	Bolton Plate Armor
+477454334427248	Blackburn Plate Armor
+477458629394544	Reppin Plate Armor
+477462924361840	Ashad Plate Armor
+477467219329136	Solas Plate Armor
+477471514296432	Beverly Plate Armor
+477540233773168	Lemerick Chain Mail
+477544528740464	Lauer Chain Mail
+477548823707760	Senon Plate Armor
+477553118675056	Leighbog Plate Armor
+477557413642352	Galbon Chain Mail
+477561708609648	Brina Plate Armor
+477570298544240	Prix Plate Armor
+477574593511536	Serroa Plate Armor
+477583183446128	Dutiron Plate Armor
+477587478413424	Dutinion Plate Armor
+477591773380720	Endnion Plate Armor
+477596068348016	Dardnion Plate Armor
+477600363315312	Lavgnion Chain Mail
+477604658282608	Lucion Chain Mail
+477608953249904	Ludeon Plate Armor
+477613248217200	Cerruan Plate Armor
+477617543184496	Mahon Plate Armor
+477621838151792	Caliburn's Plate Armor
+477643312988272	Armor of Loyal Friendship
+477660492857456	Carta Plate Armor
+477673377759344	Ruwaite Plate Armor
+477677672726640	Russell Leather Armor
+477681967693936	Ludus Plate Armor
+477720622399600	Antum Plate Armor
+477724917366896	Entom Plate Armor
+477729212334192	Sitanca Plate Armor
+477733507301488	Markman Plate Armor
+477737802268784	Kantona Plate Armor
+477742097236080	Lukin Leather Armor
+477754982137968	Lachian Plate Armor
+477759277105264	Lacata Plate Armor
+477763572072560	Eccanta Plate Armor
+477767867039856	Eclaon Plate Armor
+477772162007152	Egliss Plate Armor
+477776456974448	Ekklemen Plate Armor
+477780751941744	Ostent Plate Armor
+477785046909040	Oakley Plate Armor
+477797931810928	Dunion Plate Armor
+477802226778224	Manios Plate Armor
+477810816712816	Scorchflame Plate Armor
+477823701614704	Aeron Plate Armor
+477827996582000	Golden Greed Plate Armor
+477832291549296	Sliver Plate Armor
+477836586516592	Sahazhad Plate Armor
+477840881483888	Jerrinmarne Plate Armor
+477845176451184	Icewing Plate Armor
+481182366040176	Lodi Chain Mail
+481186661007472	Drivon Chain Mail
+481216725778544	Reddin Chain Mail
+481315510026352	Kallari Chain Mail
+481319804993648	Tormand Chain Mail
+481324099960944	Hasets Chain Mail
+481328394928240	Killi Chain Mail
+481332689895536	Valton Chain Mail
+481349869764720	Lucnaon Chain Mail
+481358459699312	Lucnian Chain Mail
+481367049633904	Dunion Chain Mail
+481371344601200	Dragon Flame Armor
+481375639568496	Dragon Knight Warrior's Plate Armor
+481379934535792	Dragon Knight Chain Mail
+485365664186480	Twell Leather Armor
+485430088695920	Blackwing Leather Armor
+485455858499696	Benne Leather Armor
+485468743401584	Somier Leather Armor
+485477333336176	Traley Chain Mail
+485481628303472	Antumbra Cloth Armor
+485752211243120	Beastman Leather Armor
+485954074706032	Harran Cloth Armor
+487152370581616	Vyer Leather Armor
+487156665548912	Dewey Leather Armor
+487160960516208	Arqus Leather Armor
+487165255483504	Dremel Leather Armor
+487169550450800	Dyrel Leather Armor
+487173845418096	Merly Leather Armor
+487178140385392	Trudy Leather Armor
+487182435352688	Dreban Leather Armor
+487186730319984	Dellian Leather Armor
+487191025287280	Kenecks Leather Armor
+487195320254576	Vierni Leather Armor
+487199615221872	Blaine Leather Armor
+487203910189168	Cyton Leather Armor
+487264039731312	Wakhan Leather Armor
+487268334698608	Valion Leather Armor
+487272629665904	Plune Leather Armor
+487276924633200	Rittem Leather Armor
+487281219600496	Mocke Leather Armor
+487285514567792	Chayten Leather Armor
+487289809535088	Colatte Leather Armor
+487294104502384	Katerm Leather Armor
+487302694436976	Forest Fae Armor
+487306989404272	White Bloodwind Leather Armor
+487341349142640	Pantafe Cloth Armor
+487345644109936	Echebern Cloth Armor
+487384298815600	Militia Cloth Armor
+487388593782896	Pyrantha Cloth Armor
+487392888750192	Torress Cloth Armor
+487397183717488	Arandhal Cloth Armor
+487405773652080	Toudon Cloth Armor
+487410068619376	Cherke Leather Armor
+487414363586672	Blin Leather Armor
+487457313259632	Dunqane Leather Armor
+487461608226928	Elliot Leather Armor
+487465903194224	Cuthbertson Leather Armor
+487470198161520	Buchanan Cloth Armor
+487474493128816	Finneron Leather Armor
+487478788096112	Torrance Leather Armor
+487487378030704	Ohara Leather Armor
+487491672998000	Conally Cloth Armor
+487504557899888	Rexlan Cloth Armor
+487513147834480	Tarmiden Cloth Armor
+487521737769072	Seiden Leather Armor
+487526032736368	Soron Leather Armor
+487530327703664	Barunin Leather Armor
+487577572343920	Gorg Leather Armor
+487581867311216	Dewhaven Standard Leather Armor
+487586162278512	Johannes Plate Armor
+487693536460912	Davis Leather Armor
+487740781101168	Leather Armor of the Fallen Kingdom
+487770845872240	Mohill Leather Armor
+487775140839536	Lunpherd Leather Armor
+487779435806832	Islekk Leather Armor
+487783730774128	Baladean Leather Armor
+487788025741424	Navan Cloth Armor
+487792320708720	Glosope Leather Armor
+487796615676016	Norswich Leather Armor
+487800910643312	Campo Leather Armor
+487809500577904	Janiklo Leather Armor
+487813795545200	Nellaccio Leather Armor
+487818090512496	Dasala Leather Armor
+487822385479792	Gerano Leather Armor
+487826680447088	Pisonia Leather Armor
+487830975414384	Paliano Leather Armor
+487839565348976	Locasima Leather Armor
+487843860316272	Corey Cloth Armor
+487848155283568	Lariano Cloth Armor
+487852450250864	Ranubio Leather Armor
+487856745218160	Ardia Leather Armor
+487861040185456	Antika Leather Armor
+487865335152752	Oustia Leather Armor
+487869630120048	Tarabe Leather Armor
+487873925087344	Montlanico Leather Armor
+487878220054640	Carpine Leather Armor
+487895399923824	Kednry Leather Armor
+487959824433264	Vainbridge Cloth Armor
+488084378484848	Durain Chain Mail
+488088673452144	Latrion Chain Mail
+488092968419440	Senian Chain Mail
+488105853321328	Tyran Leather Armor
+488110148288624	Tiron Leather Armor
+488114443255920	Eshrun Leather Armor
+488123033190512	Groucca Leather Armor
+488135918092400	Hashaka Leather Armor
+488140213059696	Hobbuca Leather Armor
+488144508026992	Batangka Leather Armor
+488153097961584	Greeney Leather Armor
+488161687896176	Bulga Leather Armor
+488165982863472	Barbaros Leather Armor
+488174572798064	Greymanes' Leather Armor
+488178867765360	Nuslan Leather Armor
+488183162732656	Ravirun Leather Armor
+488187457699952	Mondian Leather Armor
+488191752667248	Saruen Leather Armor
+488196047634544	Rubidan Leather Armor
+488200342601840	Resian Leather Armor
+488213227503728	Larkson Leather Armor
+488217522471024	Matana Leather Armor
+488221817438320	Radian Cloth Armor
+488286241947760	Acria Chain Mail
+488294831882352	Rotunso Leather Armor
+488299126849648	Rombardina Leather Armor
+488303421816944	Sicillion Leather Armor
+488307716784240	Rhodelphine Leather Armor
+488312011751536	Tallofer Leather Armor
+488320601686128	Unyielding Warrior's Plate Armor
+488324896653424	Meishod Cloth Armor
+488329191620720	Valldren Leather Armor
+488333486588016	Moldur Leather Armor
+488337781555312	Churrchen Leather Armor
+488342076522608	Saolo Leather Armor
+488346371489904	Jevanars Leather Armor
+488354961424496	Drossel Leather Armor
+488359256391792	Dumenis Cloth Armor
+488367846326384	Laplace Leather Armor
+488372141293680	Radiano Leather Armor
+488376436260976	Dorness Leather Armor
+488380731228272	Undriga Leather Armor
+488385026195568	Anderitz Leather Armor
+488389321162864	Rapps Leather Armor
+488393616130160	Cantars Leather Armor
+488397911097456	Pictead Leather Armor
+488402206064752	Varanguard Leather Armor
+488406501032048	Scarteau Leather Armor
+488410795999344	Huskall Leather Armor
+488415090966640	Barbaroy Leather Armor
+488419385933936	Kordaav Leather Armor
+488423680901232	Lespedan Leather Armor
+488427975868528	Stiv Leather Armor
+488432270835824	Dyrfrith Leather Armor
+488436565803120	Stugrub Leather Armor
+488440860770416	Barrette Leather Armor
+488445155737712	Gaut Leather Armor
+488462335606896	Bettert Leather Armor
+488466630574192	Schlitz Leather Armor
+488470925541488	Binden Leather Armor
+488475220508784	Auld Leather Armor
+488479515476080	Mavin Leather Armor
+488488105410672	Raspin Leather Armor
+488492400377968	Duvelle Leather Armor
+488496695345264	Karius Leather Armor
+488500990312560	Slouwen Leather Armor
+488505285279856	Bleawin Leather Armor
+488513875214448	Trellian Leather Armor
+488518170181744	Sunset Reed Leather Armor
+488535350050928	Nameless Sage's Leather Armor
+488543939985520	Ludynn Leather Armor
+488548234952816	Reak Leather Armor
+488552529920112	Marc Leather Armor
+488556824887408	Smilodon Leather Armor
+488561119854704	Noyvarn Leather Armor
+488595479593072	Luverne Leather Armor
+488599774560368	Galanta Leather Armor
+488604069527664	Nelton Leather Armor
+488608364494960	Brogue Leather Armor
+488612659462256	Hodges Leather Armor
+488616954429552	Ducca Leather Armor
+488625544364144	Berker Leather Armor
+488629839331440	Tatura Leather Armor
+488634134298736	Tavat Leather Armor
+488638429266032	Gomel Leather Armor
+488642724233328	Enge Leather Armor
+488647019200624	Tikkal Leather Armor
+488651314167920	Murad Leather Armor
+488655609135216	Dannon Leather Armor
+488659904102512	Ulontai Leather Armor
+488664199069808	Huron Leather Armor
+488668494037104	Begill Leather Armor
+488672789004400	Rigma Leather Armor
+488677083971696	Verdesh Leather Armor
+488681378938992	Herwin Leather Armor
+488685673906288	Dekter Leather Armor
+488689968873584	Guff Leather Armor
+488702853775472	Grommet Leather Armor
+488707148742768	Ajure Leather Armor
+488711443710064	Salimi Leather Armor
+488715738677360	Nehrut Leather Armor
+488720033644656	Takkat Leather Armor
+488724328611952	Whitley Leather Armor
+488728623579248	Kaisan Leather Armor
+488732918546544	Derrison Leather Armor
+488758688350320	Berblin Leather Armor
+488767278284912	Reed Devil Underling's Red Armor
+488771573252208	Reed Devil Underling's Yellow Armor
+488775868219504	Reed Devil Underling's Armor
+490906171998320	Cocotar Cloth Armor
+490910466965616	Tryah Cloth Armor
+490914761932912	Ator's Will Cloth Armor
+490919056900208	Paifo Cloth Armor
+491013546180720	Ancara Cloth Armor
+491017841148016	Esbeth Cloth Armor
+491022136115312	Muchia Cloth Armor
+491026431082608	Wyvernflames Cloth Armor
+491030726049904	Duizeh Cloth Armor
+491035021017200	Izumit Cloth Armor
+491039315984496	Mugleah Cloth Armor
+491069380755568	Myrnen Cloth Armor
+491073675722864	Bollin Cloth Armor
+491077970690160	Livner Cloth Armor
+491082265657456	Ruvib Cloth Armor
+491086560624752	Bleed Cloth Armor
+491090855592048	Alsace Cloth Armor
+491095150559344	Beralt Cloth Armor
+491099445526640	Monterima Cloth Armor
+491103740493936	Deorre Cloth Armor
+491116625395824	Faians Cloth Armor
+491129510297712	Concarr Cloth Armor
+491142395199600	Luwea Cloth Armor
+491146690166896	Gael Cloth Armor
+491150985134192	Bolgan Cloth Armor
+491155280101488	Dernat Cloth Armor
+491159575068784	Dondegobi Cloth Armor
+491163870036080	Gobialta Cloth Armor
+491168165003376	Orbus Cloth Armor
+491172459970672	Hentree Cloth Armor
+491176754937968	Oubreve Cloth Armor
+491181049905264	Harghai Cloth Armor
+491215409643632	Telford Cloth Armor
+491335668727920	Daraz Cloth Armor
+491404388204656	Denmore Cloth Armor
+491408683171952	Telin Cloth Armor
+491412978139248	Calis Cloth Armor
+491421568073840	Roshayne Cloth Armor
+491425863041136	Minnutan Cloth Armor
+491434452975728	Drumfin Cloth Armor
+491443042910320	Drimrow Cloth Armor
+491464517746800	Totte Cloth Armor
+491473107681392	Radley Cloth Armor
+491477402648688	Lucion Cloth Armor
+491481697615984	Senian Cloth Armor
+491503172452464	Lackey Cloth Armor
+491507467419760	Kassa Cloth Armor
+491511762387056	Annis Cloth Armor
+491524647288944	Marka Cloth Armor
+491528942256240	Makri Cloth Armor
+491593366765680	Tyran Cloth Armor
+491597661732976	Tiron Cloth Armor
+491601956700272	Tyrune Cloth Armor
+491606251667568	Tarun Cloth Armor
+491610546634864	Tynion Cloth Armor
+491614841602160	Tanion Cloth Armor
+491619136569456	Neslan Cloth Armor
+491623431536752	Eshrun Cloth Armor
+491636316438640	Deshret Cloth Armor
+491649201340528	Takana Cloth Armor
+491657791275120	Lakshi Leather Armor
+491670676177008	Ladran Cloth Armor
+491674971144304	Nuslan Cloth Armor
+491679266111600	Ravirun Cloth Armor
+491683561078896	Barian Cloth Armor
+491687856046192	Barcy Cloth Armor
+491692151013488	Bartmun Cloth Armor
+491696445980784	Orthu Cloth Armor
+491700740948080	Tohkar Cloth Armor
+491705035915376	Verdinan Cloth Armor
+491709330882672	Borsehir Cloth Armor
+491713625849968	Keanoff Cloth Armor
+491743690621040	Rhonid Cloth Armor
+491747985588336	Pouhel Cloth Armor
+491752280555632	Dillinger Cloth Armor
+491756575522928	Eckney Cloth Armor
+491786640294000	Baratum Cloth Armor
+491790935261296	Baritum Cloth Armor
+491795230228592	Baras Cloth Armor
+491803820163184	Baraccuro Cloth Armor
+491825294999664	Barrow Cloth Armor
+491829589966960	Bailao Cloth Armor
+491833884934256	Barclao Cloth Armor
+491842474868848	Barch Cloth Armor
+491863949705328	Bedure Chain Mail
+491872539639920	Riksha Chain Mail
+491876834607216	Lathia Cloth Armor
+491885424541808	Kennav Cloth Armor
+491889719509104	Lancats Cloth Armor
+491894014476400	Rangtua Cloth Armor
+491898309443696	Nevin Cloth Armor
+491902604410992	Ranphas Cloth Armor
+491906899378288	Roctar Cloth Armor
+491911194345584	Barbaroy Cloth Armor
+491915489312880	Fiore Cloth Armor
+491919784280176	Warstein Cloth Armor
+491924079247472	Conentry Cloth Armor
+491928374214768	Berkhia Cloth Armor
+491932669182064	Austfeld Cloth Armor
+491941259116656	Gaut Cloth Armor
+491945554083952	Gadereich Cloth Armor
+491949849051248	Ewen Cloth Armor
+491954144018544	Primus's Cloth Armor
+491962733953136	Diggs Cloth Armor
+491967028920432	Raddler Cloth Armor
+492001388658800	Volghad Cloth Armor
+492005683626096	Ultar Cloth Armor
+492009978593392	Dohann Cloth Armor
+492014273560688	Bahlmers Cloth Armor
+492018568527984	Tolkane Cloth Armor
+492022863495280	Bandide Cloth Armor
+492027158462576	Dwelker Cloth Armor
+492031453429872	Veronde Cloth Armor
+492035748397168	Ruschelle Cloth Armor
+492040043364464	Rosarduin Cloth Armor
+492044338331760	Sherwood Cloth Armor
+492048633299056	Eyratt Cloth Armor
+492052928266352	Gruun Cloth Armor
+492057223233648	Auron Cloth Armor
+492065813168240	Salash Cloth Armor
+492070108135536	Borman Cloth Armor
+492074403102832	Berghill Cloth Armor
+492078698070128	Hassal Cloth Armor
+492082993037424	Meravan Cloth Armor
+492087288004720	Chizhar Cloth Armor
+492091582972016	Dahkavan Cloth Armor
+492095877939312	Ziahl Cloth Armor
+492100172906608	Amundule Cloth Armor
+492104467873904	Sarendion Cloth Armor
+492108762841200	Hysilda Cloth Armor
+492113057808496	Yorkey Cloth Armor
+492117352775792	Dollette Cloth Armor
+492121647743088	Verette Cloth Armor
+492125942710384	Haillen Cloth Armor
+492130237677680	Khalbdan Cloth Armor
+492147417546864	Schillerbin Cloth Armor
+492151712514160	Neblin Cloth Armor
+492160302448752	Skyblazer Cloth Armor
+492181777285232	The Masked Liberator's Cloth Armor
+492186072252528	Keller Cloth Armor
+492203252121712	Pailunese Attire
+492220431990896	Spetsahorn Cloth Armor
+492224726958192	Muddliss Cloth Armor
+492229021925488	Delesyian Cloth Attire
+492233316892784	Kang Cloth Armor
+492237611860080	Zynian Cloth Armor
+492241906827376	Zamir Cloth Armor
+492246201794672	Lubonon Cloth Armor
+492250496761968	Denill Cloth Armor
+492259086696560	Noble Cloth Armor
+492267676631152	Odorrey Cloth Armor
+492284856500336	Dega Cloth Armor
+492302036369520	Rabbit Leather Coat
+492306331336816	Jester Leather Coat
+492327806173296	Chelcia Plate Armor
+492332101140592	Anti-Meyer Plate Armor
+492344986042480	Anti-Crail Plate Armor
+492375050813552	Scarlet Blades Cloth Armor
+519716812619888	Trish Leather Gloves
+519721107587184	Leahdra Leather Gloves
+519725402554480	Veile Leather Gloves
+519729697521776	Behrun Hide Bracers
+519733992489072	Inquisitor's Plate Gloves
+519746877390960	Canta Plate Gloves
+519751172358256	Draiga Plate Gloves
+519755467325552	Runae Cloth Gloves
+519764057260144	Frostcursed Plate Gloves
+519785532096624	Flame Swordsman Plate Gloves
+519794122031216	Batz Plate Gloves
+519798416998512	Tarandus Plate Gloves
+519802711965808	Scorchflame Plate Gloves
+519807006933104	Camsen Plate Gloves
+519815596867696	Dimfeld Plate Gloves
+519828481769584	Agatha's Plate Gloves
+519832776736880	Ashad Plate Gloves
+519837071704176	Solas Plate Gloves
+519871431442544	Pernicia Plate Gloves
+519875726409840	Ferman Plate Gloves
+519905791180912	Grey Wolf Leather Gloves
+519922971050096	Luon Plate Gloves
+519927266017392	Luthor Plate Gloves
+519931560984688	Arkhan Plate Gloves
+519935855951984	Dumenis Plate Gloves
+519944445886576	Ratti Plate Gloves
+519948740853872	Ettis Plate Gloves
+519953035821168	Recklin Cloth Gloves
+519970215690352	Kevile Plate Gloves
+519978805624944	Weirren Plate Gloves
+519983100592240	Devinine Plate Gloves
+519987395559536	Icewing Plate Gloves
+519991690526832	Demenissian Elite Plate Gloves
+519995985494128	Golden Greed Plate Gloves
+520000280461424	Belui Plate Gloves
+520038935167088	Plate Gloves of the Fallen Kingdom
+524011779915888	Beastman Chain Gloves
+528315337146480	Austfeld Leather Gloves
+528336811982960	Fiori Leather Gloves
+528341106950256	Janiklo Leather Gloves
+528353991852144	Barre Leather Gloves
+528358286819440	Berkhia Leather Gloves
+528362581786736	Goldheart Chain Gloves
+528366876754032	Kordaav Leather Gloves
+528384056623216	Cacoreum Leather Gloves
+528396941525104	Claire Leather Gloves
+528414121394288	Hark Leather Gloves
+528422711328880	Weiston Leather Gloves
+528431301263472	Talisin Leather Gloves
+528435596230768	Melvin Leather Gloves
+528444186165360	Trion Leather Gloves
+528452776099952	Ebenezer Leather Gloves
+528457071067248	Pavis Leather Gloves
+528465661001840	Rondel Leather Gloves
+528469955969136	Perseus Leather Gloves
+528504315707504	Byren's Leather Gloves
+528508610674800	Kadallon Leather Gloves
+528517200609392	Salun Leather Gloves
+528542970413168	Lespedan Leather Gloves
+528555855315056	Rheigis Leather Gloves
+528560150282352	Hagwood Leather Gloves
+528573035184240	Lasfeld Leather Gloves
+528577330151536	Wyrdins Leather Gloves
+528581625118832	Andria Leather Gloves
+528590215053424	Larkri Leather Gloves
+528611689889904	Rossbara Leather Gloves
+528615984857200	Blyne Leather Bracers
+528641754660976	Rhinard Leather Gloves
+528697589235824	Sleishorn Leather Gloves
+528706179170416	Mornington Cloth Gloves
+528714769105008	Bandellure Leather Gloves
+528727654006896	Nocburn Leather Gloves
+528736243941488	Drumard Leather Gloves
+528753423810672	Stratton Leather Gloves
+528762013745264	Hegea Leather Gloves
+528766308712560	Camsen Leather Gloves
+528783488581744	Matthias' Leather Gloves
+528792078516336	Layddete Leather Gloves
+528804963418224	Khalbdan Leather Gloves
+528822143287408	Rueconec Leather Gloves
+528852208058480	Rakhir Cloth Gloves
+528865092960368	Satyros Plate Gloves
+528869387927664	Ironwilled Guardian's Leather Gloves
+528877977862256	Steinmers Leather Gloves
+528899452698736	Adeion Leather Gloves
+528908042633328	Crudil Leather Gloves
+528916632567920	Conchetta Leather Gloves
+528925222502512	Loudan Leather Gloves
+528929517469808	Calio's Leather Gloves
+528933812437104	Viraiton Leather Gloves
+528946697338992	Maeve Leather Gloves
+528955287273584	Deskio Leather Gloves
+528968172175472	Geloufeld Plate Gloves
+528985352044656	Asty Cloth Gloves
+528998236946544	Dimfeld Leather Gloves
+529002531913840	Trowder Leather Gloves
+529006826881136	Caviden Leather Gloves
+529041186619504	Mistum Leather Gloves
+529058366488688	Rowley Leather Gloves
+529066956423280	Daveed Leather Gloves
+529071251390576	Bettie Leather Gloves
+529109906096240	Lennigen Leather Gloves
+529118496030832	Kaeridyn Leather Gloves
+529127085965424	Merridew Leather Gloves
+529144265834608	Astia Cloth Gloves
+529152855769200	Aldwin Leather Gloves
+529161445703792	Latian Leather Gloves
+529178625572976	Vicaron Leather Gloves
+529187215507568	Leppo Leather Gloves
+529191510474864	Brogant Leather Gloves
+529204395376752	Delise Leather Gloves
+529208690344048	Boggen Leather Gloves
+529221575245936	Delinell's Leather Gloves
+529225870213232	Wertesh Leather Gloves
+529230165180528	Keimbel Leather Gloves
+529234460147824	Sladen Leather Gloves
+529243050082416	Persein Leather Gloves
+529255934984304	Mechlin Leather Gloves
+529260229951600	Essembel Leather Gloves
+529264524918896	Contra Leather Gloves
+529311769559152	The Masked Liberator's Leather Gloves
+529320359493744	Dondegobi Leather Gloves
+529324654461040	Gobialta Leather Gloves
+529328949428336	Tershan Leather Gloves
+529337539362928	Rignon Leather Gloves
+529341834330224	Reclonne Leather Gloves
+529346129297520	Ricrau Leather Gloves
+529359014199408	Tiron Leather Gloves
+529363309166704	Taylonne Leather Gloves
+529384784003184	Haron Cloth Gloves
+529397668905072	Kattinan Leather Gloves
+529401963872368	Saruen Leather Gloves
+529427733676144	Luca Leather Gloves
+529436323610736	Tikkal Leather Gloves
+529440618578032	Markna Leather Gloves
+529457798447216	Lukas' Leather Gloves
+529479273283696	Dark Ringleader's Leather Gloves
+529483568250992	Salatos Leather Gloves
+529492158185584	Ellisco Leather Bracers
+529496453152880	Elashe Leather Gloves
+529509338054768	Kasria Leather Gloves
+529517927989360	Renshaku Leather Gloves
+529522222956656	Reshesh Leather Gloves
+529530812891248	Ravellu Leather Gloves
+529535107858544	Remebrou Leather Gloves
+529539402825840	Rainier Leather Gloves
+529543697793136	Lave Leather Gloves
+529547992760432	Mache Leather Gloves
+529552287727728	Martail Leather Gloves
+529556582695024	Wentz Leather Gloves
+529573762564208	Bolson Leather Gloves
+529578057531504	Cains Leather Gloves
+529582352498800	Dalton Leather Gloves
+529586647466096	Eplern Leather Gloves
+529590942433392	Archen Leather Gloves
+529595237400688	Dunion Leather Gloves
+529599532367984	Laplace Leather Gloves
+529603827335280	Bristel Leather Gloves
+529621007204464	Masti Plate Gloves
+529625302171760	Takkan Leather Gloves
+529629597139056	Arsen Leather Gloves
+529633892106352	Takah Cloth Gloves
+529638187073648	Silver Plate Gloves
+529642482040944	Chent Leather Gloves
+529646777008240	Black Bear Leather Gloves
+529655366942832	Grey Wolf Cloth Gloves
+529659661910128	Dherri Leather Gloves
+529668251844720	Patten's Leather Gloves
+529672546812016	Silverwolf Leather Gloves
+529676841779312	Rattu Cloth Gloves
+529689726681200	Lercent Leather Gloves
+529694021648496	Duskfang Leather Gloves
+529706906550384	Dram Leather Bracers
+529711201517680	Bunce Leather Gloves
+529715496484976	Maters Leather Gloves
+529728381386864	Rannys Leather Gloves
+529758446157936	Dane Leather Bands
+529792805896304	Reak Leather Gloves
+529801395830896	Badran Leather Gloves
+529805690798192	Rigma Leather Gloves
+529809985765488	Verdesh Leather Gloves
+529814280732784	Jasmern Leather Gloves
+529818575700080	Esha Leather Gloves
+529822870667376	Shellus Leather Gloves
+529827165634672	Waller Leather Gloves
+529848640471152	Salmae Leather Gloves
+529852935438448	Derrison Leather Gloves
+529861525373040	Dirrebin Leather Gloves
+529870115307632	Dallaban Leather Gloves
+529883000209520	Lawson Leather Gloves
+529887295176816	Gaiman Leather Gloves
+532597419540592	Stugrub Cloth Gloves
+532610304442480	Arti Leather Gloves
+532657549082736	Crowcaller's White Leather Gloves
+532661844050032	Baidan Cloth Gloves
+532674728951920	Porcell Cloth Gloves
+532700498755696	Whitley Cloth Gloves
+532713383657584	Tyran Leather Gloves
+532717678624880	Tiron Cloth Gloves
+532790693068912	Setri Cloth Gloves
+532794988036208	Serbello Cloth Gloves
+532812167905392	Ashtu Cloth Gloves
+532816462872688	Ratisan Cloth Gloves
+532820757839984	Duroin Cloth Gloves
+532829347774576	Ludynn Cloth Gloves
+532837937709168	Derrison Cloth Gloves
+532846527643760	Gadereich Cloth Gloves
+532850822611056	Chizhar Cloth Gloves
+532863707512944	Sunset Reed Cloth Gloves
+532872297447536	Jester Leather Gloves
+532880887382128	Ator's Will Leather Gloves
+532889477316720	Witters Plate Gloves
+532893772284016	Dulone Plate Gloves
+532898067251312	Dragon Knight Warrior's Plate Gloves
+532902362218608	Dragon Knight Archer's Plate Gloves
+532906657185904	Caliburn's Plate Gloves
+562645010743408	Unyielding Warrior's Plate Boots
+562649305710704	Golden Greed Plate Boots
+562666485579888	Lattua Plate Boots
+562670780547184	Icewing Plate Boots
+562679370481776	Inquisitor's Plate Boots
+562696550350960	Canta Plate Boots
+562730910089328	Batz Plate Boots
+562735205056624	Chelcia Plate Boots
+562739500023920	Ashad Plate Boots
+562743794991216	Solas Plate Boots
+562752384925808	Serval Plate Boots
+562756679893104	Tyrdall Leather Boots
+562765269827696	Antumbra Plate Boots
+562808219500656	Sigremon Plate Boots
+562812514467952	Dulone Plate Boots
+562816809435248	Sahazhad Plate Boots
+562821104402544	Demenissian Plate Boots
+562838284271728	Plate Boots of the Fallen Kingdom
+562855464140912	Grey Wolf Leather Boots
+566961452875888	Regglia Leather Boots
+566965747843184	Rezzcan Leather Boots
+566970042810480	Baku Leather Boots
+571234945335408	Seiger Leather Boots
+571252125204592	Rodderham Leather Boots
+571260715139184	Leontyne Leather Boots
+571269305073776	Bollin Leather Boots
+571277895008368	Helfryn Leather Boots
+571286484942960	Eustice Leather Boots
+571316549714032	St. Halssius Priest's Leather Footwear
+571325139648624	Tobias Leather Boots
+571329434615920	Arghai Leather Boots
+571333729583216	Nevin Leather Boots
+571355204419696	Mulia Leather Boots
+571372384288880	Cyllian Leather Boots
+571376679256176	Silverwolf Leather Boots
+571380974223472	Conentry Leather Boots
+571385269190768	Benberry Leather Boots
+571389564158064	Midlier Leather Boots
+571393859125360	Derting Leather Boots
+571402449059952	Steyer Leather Boots
+571406744027248	Ebenezer Leather Boots
+571415333961840	Tesslit Leather Boots
+571419628929136	Rhonda Leather Boots
+571441103765616	Ramastern Leather Boots
+571462578602096	Layne Leather Boots
+571492643373168	Kadallon's Leather Boots
+571518413176944	Pierpont Leather Boots
+571531298078832	Dyrfrith Leather Boots
+571539888013424	Ashen Wolf's Leather Boots
+571557067882608	Ironwilled Guardian's Leather Boots
+571582837686384	Sarantos Leather Boots
+571608607490160	Levinto Leather Boots
+571612902457456	Ruthie Leather Boots
+571625787359344	Colbern Leather Boots
+571647262195824	Bolton Leather Boots
+571733161541744	Nagmore Leather Boots
+571737456509040	Mornington Leather Boots
+571750341410928	Woodbrock Leather Boots
+571763226312816	Russmore Leather Boots
+571771816247408	Clarille Leather Boots
+571780406182000	Meadows Leather Boots
+571823355854960	Keredig Leather Boots
+571831945789552	Neirnim Leather Boots
+571857715593328	Matis Leather Greaves
+571935025004656	Tarandus Leather Boots
+571943614939248	Sydmon Leather Boots
+571952204873840	Pahna Leather Boots
+571965089775728	Rhegis Leather Boots
+571969384743024	The Masked Liberator's Leather Boots
+571982269644912	Crudil Leather Boots
+571995154546800	Scorchflame Leather Boots
+572016629383280	Huntington Leather Boots
+572020924350576	Adeion Leather Boots
+572038104219760	Diencia Cloth Boots
+572055284088944	Pavis Leather Boots
+572059579056240	Trowder Leather Boots
+572072463958128	Pieti Leather Boots
+572076758925424	Norman Leather Boots
+572085348860016	Driseld Leather Boots
+572093938794608	Dutrat Leather Boots
+572098233761904	Reus Leather Boots
+572102528729200	Lascaux Leather Boots
+572106823696496	Mistum Leather Boots
+572111118663792	Sillau Leather Boots
+572115413631088	Fiatol Leather Boots
+572132593500272	Aurelian Leather Boots
+572145478402160	Eshian Leather Boots
+572192723042416	Clays Leather Boots
+572197018009712	Daveed Leather Boots
+572201312977008	Beattie Leather Boots
+572205607944304	Leegrau Leather Boots
+572214197878896	Hoardroar Leather Boots
+572239967682672	Trish Leather Boots
+572244262649968	Katitz Leather Boots
+572248557617264	Isilon Leather Boots
+572261442519152	Elish Leather Boots
+572265737486448	Runae Leather Boots
+572270032453744	Carcon Leather Boots
+572274327421040	Diovern Leather Boots
+572300097224816	Erphy Leather Boots
+572308687159408	Oakten Leather Boots
+572317277094000	Seras Leather Boots
+572321572061296	Cateine Leather Boots
+572330161995888	Loutte Leather Boots
+572338751930480	Bourveten Leather Boots
+572343046897776	Lankel Leather Boots
+572347341865072	Gannech Leather Boots
+572351636832368	Kervel Leather Boots
+572355931799664	Walder Leather Boots
+572360226766960	Donaff Leather Boots
+572373111668848	Herdel Leather Boots
+572385996570736	Ator's Will Leather Boots
+572390291538032	Quent Leather Boots
+572394586505328	Grey Rhegis Leather Boots
+572407471407216	Tyran Leather Boots
+572411766374512	Tyrune Cloth Boots
+572416061341808	Tiron Leather Boots
+572428946243696	Tiruna Leather Boots
+572433241210992	Darman Leather Boots
+572437536178288	Saruen Leather Boots
+572450421080176	Pasti Leather Boots
+572467600949360	Kassantra Leather Boots
+572480485851248	Leguna Leather Boots
+572484780818544	Layta Plate Boots
+572493370753136	Dannoche Leather Boots
+572497665720432	Layta Leather Boots
+572501960687728	Catcheta Leather Boots
+572506255655024	Caico Leather Boots
+572510550622320	Cosgrove Leather Boots
+572514845589616	Caelough Leather Boots
+572519140556912	Kasset Leather Boots
+572523435524208	Cassrow Leather Boots
+572527730491504	Katz Leather Boots
+572536320426096	Ligatra Leather Boots
+572540615393392	Cantu Leather Boots
+572549205327984	Andaran Leather Boots
+572553500295280	Maldrick Leather Boots
+572557795262576	Anderitz Leather Boots
+572562090229872	Trilly Leather Boots
+572566385197168	Fiore Leather Boots
+572570680164464	Perelli Leather Boots
+572609334870128	Lasian Leather Boots
+572613629837424	Ludynn Leather Greaves
+572617924804720	Kurua Leather Boots
+572622219772016	Stoddard Leather Boots
+572626514739312	Wattern Leather Boots
+572630809706608	Badran Leather Boots
+572635104673904	Hauvern Leather Boots
+572639399641200	Begill Leather Boots
+572643694608496	Dreiger Leather Boots
+572647989575792	Esha Leather Boots
+572660874477680	Vixer Leather Shoes
+572669464412272	Meravan Leather Boots
+572673759379568	Salmae Leather Shoes
+572678054346864	Nehrut Leather Shoes
+572682349314160	Juman Leather Boots
+572708119117936	Warren Beynon's Leather Boots
+572716709052528	Sein Leather Boots
+572721004019824	Dolters Leather Boots
+572725298987120	Blackwing Leather Boots
+572733888921712	Orbit Leather Boots
+572738183889008	Alvitt Leather Boots
+572742478856304	Arrenya Leather Boots
+572746773823600	Belui Leather Boots
+575551387467888	Triloan Leather Boots
+575564272369776	Bayer Leather Boots
+575572862304368	Pailunese Boots
+575581452238960	Reus Cloth Boots
+575590042173552	Eckney Cloth Boots
+575620106944624	Marrada Leather Boots
+575624401911920	Endoron Leather Boots
+575645876748400	Scoppa Leather Boots
+575654466682992	Whitley Cloth Boots
+575731776094320	Kerdmann Cloth Boots
+575736071061616	Barrette Cloth Boots
+575740366028912	Gaut Cloth Boots
+575748955963504	Matia Leather Boots
+575757545898096	Chizhar Cloth Boots
+575766135832688	Sunset Reed Cloth Boots
+575770430799984	Rabbit Cloth Boots
+575783315701872	Caliburn's Plate Boots
+858997754167408	Grey Wolf's Sword
+859053588742256	Torch
+859083653513328	Glenmore Sword
+859096538415216	Sydmon Sword
+859143783055472	Wells Sword
+859203912597616	Alabaster Curved Sword
+859212502532208	Varnian Sword
+859216797499504	Knightlord's Sword
+859221092466800	Fallen Kingdom's Sword
+859302696845424	Melted Ambition
+859324171681904	Volono Sword
+859328466649200	Peltree Sword
+862863224733808	White Wind Rapier
+862867519701104	Hollow Visage
+862876109635696	Dekarr Sword
+862919059308656	Sword of the Lord
+862931944210544	Spada Sword
+862940534145136	Acria Sword
+862949124079728	Legionary's Gladius
+862953419047024	Survivor's Solitude
+862962008981616	Shackle of Might
+863301311398000	Inquisitor's Rapier
+863305606365296	Grace Rapier
+863309901332592	Leonne Rapier
+863314196299888	Brass Rose Rapier
+863318491267184	Fallen Noble's Rapier
+863322786234480	Volono Rapier
+863327081201776	Fallen Kingdom's Rapier
+863331376169072	Elemore Rapier
+863335671136368	Dueling Rapier
+863339966103664	Gilliam Rapier
+863344261070960	Lambert Rapier
+863348556038256	Rapier of Amity
+863352851005552	Elenore Rapier
+863370030874736	Liberre Rapier
+901956017062000	Bekker Axe
+901981786865776	Lanford Axe
+901990376800368	Lambert Axe
+901998966734960	Gilliam Axe
+902041916407920	Maeve Axe
+902067686211696	Rhias's Axe
+902093456015472	Kylus Axe
+902136405688432	Tardik Axe
+902162175492208	Delonde Axe
+902187945295984	Leofric Double-Headed Axe
+902196535230576	Black Iron Axe
+902248074838128	Timberham Axe
+902265254707312	Crow Brothers Axe
+902273844641904	Parashu Axe
+902282434576496	Ring of the Earth
+902286729543792	Silverwolf Axe
+944901395054704	Kadel Mace
+944909984989296	Kordaav Mace
+944918574923888	Marching Baton
+944922869891184	Lanford Mace
+944927164858480	Frozen Soul
+944944344727664	Octarr's Legacy
+944952934662256	Rogue's Mace
+944970114531440	Wells Mace
+944974409498736	Bonepit Mace
+944982999433328	Alabaster Mace
+944987294400624	Balton Mace
+944991589367920	Iris Mace
+949187772416112	Aeserion Mace
+987855362982000	Varnian Dagger
+987967032131696	Bekker Dagger
+988095881150576	Alabaster Dagger
+988113061019760	Dagger of Dark Pursuit
+988121650954352	Crow Brothers Dagger
+988156010692720	Ator's Finger
+991712243613808	Kylus Dagger
+991729423482992	Sydmon Dagger
+991746603352176	Delesyian Dagger
+991755193286768	Dekarr Dagger
+991780963090544	Pailunese Riteblade
+992137445376112	Aeserion Dagger
+1030796446007408	Tardik Longsword
+1030860870516848	Savage Longsword
+1030869460451440	Balton Longsword
+1030873755418736	Dewhaven Longsword
+1030878050386032	Thalwynd Longsword
+1030890935287920	Iris Longsword
+1030903820189808	Rhett's Longsword
+1030916705091696	Vessel of Dark Pursuit
+1030921000058992	Righteous Verdict
+1030925295026288	Absolute Justice Greatsword
+1030938179928176	Sydmon Longsword
+1030972539666544	Ignir
+1030976834633840	Delesyian Longsword
+1035087118336112	Aeserion Longsword
+1035095708270704	Dandelion Longsword
+1073801953542256	Incomplete Masterpiece
+1073806248509552	Tardik Greataxe
+1073810543476848	Iris Greataxe
+1073814838444144	Gorthak Greataxe
+1073823428378736	Troll Hook Greataxe
+1073827723346032	Kylus Greataxe
+1073832018313328	Bonepit Greataxe
+1073836313280624	Fan-Blade Greataxe
+1073844903215216	Horseshoe-Blade Greataxe
+1073849198182512	Hellhounds Chopping Axe
+1073853493149808	Pailunese Logging Axe
+1073862083084400	Sigremon Greataxe
+1078011021492336	Bekker Greataxe
+1078015316459632	Dekarr Greataxe
+1078036791296112	Aeserion Greataxe
+1116721561731184	Bekker Warhammer
+1116725856698480	Saltroad Warhammer
+1116747331534960	Bonepit Warhammer
+1116751626502256	Thalwynd Warhammer
+1116755921469552	Cactus Warhammer
+1116768806371440	Arlem Warhammer
+1116773101338736	Arlen Warhammer
+1116777396306032	Zargan Warhammer
+1116803166109808	Tardik Warhammer
+1116811756044400	Iris Warhammer
+1116820345978992	Gorthak Warhammer
+1120986464256112	Aeserion Warhammer
+1138170628407408	Marauder's Halberd
+1138174923374704	Alabaster Halberd
+1138179218342000	Iris Halberd
+1138183513309296	Lambert Halberd
+1138187808276592	Gilliam Halberd
+1138192103243888	Bonepit Halberd
+1138196398211184	Freesword Halberd
+1138200693178480	Bekker Halberd
+1138209283113072	Celeste Halberd
+1138213578080368	Golden Vanguard
+1159645464887408	Rosemond Pistol
+1159649759854704	Jemel Pistol
+1159654054822000	Falconne Pistol
+1159658349789296	Vilancia Pistol
+1159688414560368	Shadow of the Past Pistol
+1159697004494960	Caliburn's Mercy Pistol
+1202595137847408	Arlen Musket
+1202599432814704	Bekker Musket
+1202603727782000	Delesyian Musket
+1202608022749296	Wells Musket
+1202612317716592	Leofric Musket
+1202663857324144	Helms Musket
+1202668152291440	Pailunese Musket
+1202672447258736	Gustav Musket
+1245544810807408	Balton Shield
+1245600645382256	Iris Shield
+1245613530284144	Sydmon Round Shield
+1245626415186032	Mirror of Night
+1245630710153328	Drake Shield
+1245639300087920	Rising Arrow Shield
+1245652184989808	Staglord's Shield
+1245785328975984	Dekarr Shield
+1245789623943280	Sydmon Kite Shield
+1245927062896752	Tardik Shield
+1245931357864048	Dewhaven Shield
+1246025847144560	Shield of a Blossoming Spring Day
+1246030142111856	Demenissian Shield of Valor
+1246034437079152	Demenissian Shield of Loyalty
+1246038732046448	Demenissian Shield of Obedience
+1247696589422704	Gilliam Large Shield
+1247700884390000	Lifsoth Large Shield
+1247705179357296	Reinforced Warspike Large Shield
+1247713769291888	Thalwynd Large Shield
+1247722359226480	Lucon Large Shield
+1247726654193776	Rhonid Large Shield
+1247730949161072	Balton Large Shield
+1247735244128368	Rekel Large Shield
+1247752423997552	Lanford Large Shield
+1247756718964848	The Laughing Marionette Shield
+1247786783735920	Bekker Large Shield
+1247799668637808	Mass-Produced Large Rekel Shield
+1247821143474288	Rekel Large Spiked Shield
+1247825438441584	Thorny Warspike Large Shield
+1247829733408880	Demenissian Soldier's Large Shield
+1249822598234224	Legion Spearmen's Large Shield
+1288494483767408	Golden-Knotted Ancestral Bow
+1288498778734704	Dekarr Bow
+1288503073702000	Bekker Bow
+1288507368669296	Twilight Messengers' Bow
+1288541728407664	Tardik Bow
+1288546023374960	Kylus Bow
+1288550318342256	Sydmon Bow
+1288554613309552	Bloodsteel Bow
+1288567498211440	Tommasoan Bow
+1288571793178736	Warspike Bow
+1288588973047920	Tormented Soul Bow
+1288704937164912	White Wood Bow
+1292785156096112	Aeserion Bow
+1292789451063408	Crimson Warden's Bow
+1331474221498480	Sydmon Spear
+1331478516465776	Alfonso Spear
+1331491401367664	Kylus Spear
+1331495696334960	Alabaster Spear
+1331517171171440	Warspike Spear
+1331538646007920	Cog Destroyer Spear
+1331542940975216	Spear of Righteousness
+1331547235942512	Valgash's Incomplete Work
+1331560120844400	Thorn of Dark Pursuit
+1331573005746288	North Wind Trident
+1331590185615472	Traitor's Spear
+1331607365484656	Staff of the Fleeting
+1374393829687408	Hyde Crossbow
+1374398124654704	Southern Wandering Troll's Crossbow
+1417343502647408	Rhinard Cannon
+1417347797614704	Electromagnetic Flamespitter
+1417352092582000	Electromagnetic Frostspitter
+1589142194487408	Pailunese Shotgun
+1589146489454704	Dewhaven Shotgun
+1589150784422000	Mortimer Shotgun
+1589155079389296	Metilbahm Shotgun
+1589159374356592	Delesyian Shotgun
+1589163669323888	Bleed Shotgun
+1589167964291184	Dane Shotgun
+1634239351095408	Small Demenissian Banner Pike
+1634252235997296	Small Royal Hunting Ground Banner Pike
+1634260825931888	Small Black Bears Banner Pike
+1717986918400112	Bekker Greathammer
+1717991213367408	Golden Dragon's Claw
+1717995508334704	Greathammer of Fire
+1717999803302000	Helms Greathammer
+1718004098269296	Lanford Greathammer
+1718008393236592	Bonepit Greathammer
+1760945181294704	Volcanic Blaster
+1760953771229296	Copper Knuckledrill
+1760970951098480	Furious Waves Gauntlet
+1760975246065776	Iron Fists Gauntlet
+1760983836000368	Muskan's Upper Body Clone
+1760988130967664	Muskan's Lower Body Clone
+1846840232247408	Soporific Blowpipe
+2147487942967408	Inquisitor's Greataxe
+2147505122836592	Patterned Stone Greataxe
 2576984672567408	Engraved Copper Earring
 2576988967534704	Engraved Silver Earring
 2576993262502000	Engraved Gold Earring
 2577001852436592	Golden Deer's Tear
-25774098743408	Small Bag
-25778393710704	Medium Bag
-25782688678000	Extra Large Bag
-25791278612592	Large Bag
-2589973173361442928	Large Rhegis Leather Boots
-2591869818034454640	Blacksteel Renkshaw Plate Helm
-2609680446115545200	Heavy Bucket
 2619938640494704	Engraved Silver Necklace
 2619947230429296	Engraved Copper Necklace
 2619990180102256	Finely Crafted Gold Necklace
@@ -294,24 +1477,19 @@
 2662896903389296	Crude Blue Ring
 2662922673193072	Rough Bluestone Ring
 2662926968160368	Finely Crafted Gold Ring
-276518962408194160	Wells Military Champron
-2808099654493798512	Worn Sarantos Leather Boots
-2851662060373147760	Blacksteel Descao Plate Helm
-2995175360322076784	Grotevant Plate Boots
-300690660393072	Old Wooden Doll
-3083646326500491376	Blacksteel Spiddle Plate Armor
+3006481402167408	Cloth Piece
+3049431075127408	Timber
 3092380748087408	Iron Ore
 3092385043054704	Silver Ore
 3092389338022000	Gold Ore
 3092393632989296	Copper Ore
 3092419402793072	Bismuth Ore
+3098823199031408	Garnet
 3098827493998704	Epidote
 3098831788966000	Azurite
 3098836083933296	Diamond
 3098840378900592	Bloodstone
 3098844673867888	Scolecite Ore
-310989639781449840	Desert Clays Leather Boots
-3117835747940368496	Canusti Plate Armor
 3178280094007408	Thin Hide
 3178284388974704	Short Hair Hide
 3178288683942000	Long Hair Hide
@@ -322,16 +1500,21 @@
 3217364296401008	Sugar Cubes
 3217793793130608	Horse Tonic
 3217802383065200	Horse Stimulant
-322122547200112	The First Artifact
+3221234061934704	Wheat
 3221238356902000	Carrot
-322126842167408	Abyss Artifact
-322131137134704	Faded Abyss Artifact
+3221242651869296	Beans
+3221251241803888	Apple
+3221259831738480	Grape
+3221264126705776	Acorn
+3221302781411440	Oats
+3221307076378736	Corn
+3221328551215216	Onion
 3221332846182512	Orange
+3221354321018992	Peach
 3221375795855472	Tomato
 3221397270691952	Wild Honey
 3221401565659248	Wild Rock Honey
 3221435925397616	Cheese
-322552043929712	Greymane's Token
 3225537619165296	Coral Mushroom
 3225962820927600	Rosemary
 3225967115894896	Pink Rosemary
@@ -342,6 +1525,7 @@
 3225988590731376	White Lavender
 3225992885698672	Yellow Lavender
 3225997180665968	Garlic
+3226001475633264	Flax
 3226027245437040	Desert Melon
 3226044425306224	Croton
 3226048720273520	Red Croton
@@ -350,12 +1534,15 @@
 3226087374979184	Potato
 3226091669946480	Sweet Potato
 3226095964913776	Blackberry
+3229819701559408	Salt
+3229828291494000	Sugar
 3229836881428592	Cooking Oil
 3229905600905328	Tough Meat
 3233040927031408	Manure
 3238422521053296	Poison
 3238431110987888	Spider Web
 3238671629156464	Acidic Spider Venom
+3242764732989552	Egg
 3249194299031664	Beehive
 3249198593998960	Wild Ginseng
 3249220068835440	Long Horn
@@ -369,22 +1556,20 @@
 3250865041309808	False Hellebore
 3251298833006704	Marigold
 3251307422941296	Snapdragon
+3251316012875888	Peony
 3251320307843184	Begonia
+3251328897777776	Pansy
 3251333192745072	Lily of the Valley
 3251337487712368	Dunbaria
 3251341782679664	Cotton
 3251346077646960	Dendrobium Orchid
-3251828544208109680	Crutch
 3337193883959408	Golden Apple
-3341530332049440880	Kunan Plate Armor
 3393032753774704	Empty Bottle
 3414537655025776	Small Bone
 3414675093979248	Worn Necklace
 3414679388946544	Tarnished Necklace
 3414722338619504	Worn Ring
 3414726633586800	Tarnished Ring
-343601678647408	Recipe: Boiled Meat
-343610268582000	Recipe: Fruit Tea
 3436175700263024	Mysterious Elixir
 3436721161109616	The Seal of House Serkis
 3440273099063408	Hernand Entry Permit
@@ -417,31 +1602,6 @@
 3449000472608880	Farmer's Treasure Map Piece 3
 3449004767576176	Farmer's Treasure Map Piece 4
 3449034832347248	Mysterious Totem Treasure Map Piece 1
-345341140402288	Recipe: Bird Soup
-345366910206064	Recipe: Antler Tea
-345371205173360	Recipe: Fruit Juice
-345766342164592	Recipe: Coral Mushroom Tea
-345783522033776	Recipe: Pine Mushroom Tea
-345787817001072	Recipe: Oakwood Mushroom Tea
-345869421379696	Recipe: Honey Tea
-347084897124464	Recipe: Salt-Roasted Bird Meat
-3512701889944748144	Dumenis Plate Helm
-3550753676689670256	Blacksteel Longia Plate Helm
-36511516983408	White Horn's Ring
-36515811950704	Ring of Lightning
-36524401885296	Earring of Dark Magic
-36528696852592	Ogre's Ring
-36532991819888	Witch's Ring
-36545876721776	Flower Petal Earring
-37366215475312	Crimson Chaser Mail
-37800007172208	Blizzard Crystal Necklace
-39092792328304	Hernandian Honor Guard Armor
-39097087295600	Tariv Cloth Attire
-39517994090608	Tariv Cloth Boots
-39951785787504	Tariv Cloth Gloves
-40372692582512	Beoneck Cloth Cap
-40376987549808	Skyblazer Cloth Helm
-40381282517104	St. Halssius Priest's Hat
 4080223226167408	Broom
 4080227521134704	Logging Axe
 4080231816102000	Shovel
@@ -512,12 +1672,6 @@
 4080541053747312	Scrap Metal Pack
 4080545348714608	Scrap Metal Pack
 4080549643681904	Scrap Metal Pack
-40806484279408	Marni Tank Blaster
-40810779246704	Mechanical Clockwork Blaster
-40832254083184	Blaster No. 8
-40836549050480	Wyvern Blaster
-4233774719385469040	Valkyder Plate Armor
-4257868012742246512	Edzel Plate Armor
 4294967296000112	Health Amplification
 4294971590967408	Spirit Amplification
 4294975885934704	Stamina Amplification
@@ -703,7 +1857,10 @@
 4295753275015280	Freesword's Shield
 4295757569982576	Artisan's Hand
 4295761864949872	Flame-Bordered Butterfly
+4295766159917168	Goldleaves' Cloth Armor
+4295770454884464	Nibrak Cloth Armor
 4295774749851760	Demenissian Rebel's Secret Letter
+4295779044819056	Goldleaves' Cloth Armor
 4295783339786352	Gear Blueprint: Vigor
 4295787634753648	Goblin Merchant Guild's Plate Gloves
 4295791929720944	Demenissian Rebel Cloth Armor
@@ -795,6 +1952,8 @@
 4296169886842992	Lunar Reapers' Plate Gloves
 4296174181810288	Adventurer's Cooking Inventory Type C
 4296178476777584	Unicorn Glass Art
+4296182771744880	Goldleaves' Cloth Cloak
+4296187066712176	Goldleaves' Cloth Cloak
 4296191361679472	Northern Fighter's Chain Cloak
 4296195656646768	Dragon Flame Cloak
 4296199951614064	Crimson Chaser Chain Cloak
@@ -1057,6 +2216,7 @@
 4297303758209136	Rubber
 4297308053176432	Bringer of Balance
 4297312348143728	Kairos Cloak
+4297316643111024	Cogwheel
 4297320938078320	Leafy Pot
 4297325233045616	Dwarf Necklace
 4297329528012912	Elise's Note
@@ -1160,6 +2320,7 @@
 4297750434807920	Finely Ground Salt
 4297754729775216	Grilled Vegetables
 4297759024742512	Grilled Fruit
+4297763319709808	Toasted Grains
 4297767614677104	Smoked Egg
 4297771909644400	Grilled Meat and Fish
 4297776204611696	Meat Skewers
@@ -1170,6 +2331,7 @@
 4297797679448176	Feather
 4297801974415472	Large Bone
 4297806269382768	Wool
+4297810564350064	Ivory
 4297814859317360	Short Horn
 4297819154284656	Packaged Field Cloth Armor
 4297823449251952	Packaged Field Chain Mail
@@ -1359,6 +2521,7 @@
 4298618018201712	Sealed Abyss Artifact
 4298622313169008	Sealed Abyss Artifact
 4298626608136304	Sealed Abyss Artifact
+4298630903103600	Fang
 4298635198070896	[QA] Repeated movement within Hernand (Speed 15)
 4298639493038192	A.T.A.G. Boots Mk III
 4298643788005488	Light's Guidance
@@ -1586,6 +2749,7 @@
 4299704644927600	Helfryn Necklace
 4299708939894896	Crimson Warden's Necklace
 4299713234862192	Jackals' Leather Helm
+4299764774469744	Fleece
 4299769069437040	Hernandian Signet
 4299773364404336	Hernandian Crown
 4299777659371632	Hernandian Noble's Cloak
@@ -1622,7 +2786,9 @@
 4299910803357808	Journal
 4299915098325104	Air Blaster
 4299919393292400	Pot
+4299923688259696	Poison Frog
 4299927983226992	Tree Frog
+4299932278194288	Toad
 4299936573161584	Burrowing Toad
 4299940868128880	Satisfying Smoked Eggs
 4299945163096176	Filling Smoked Eggs
@@ -2031,6 +3197,7 @@
 4301684624851056	Iron Bowl
 4301688919818352	Golden Bowl
 4301693214785648	Cucumber
+4301697509752944	Turnip
 4301701804720240	Beet
 4301706099687536	Lentils
 4301710394654832	Parsley
@@ -2137,8 +3304,10 @@
 4302144186351728	Strawberry
 4302148481319024	Elderberry
 4302152776286320	Pomegranate
+4302157071253616	Fig
 4302161366220912	Pineapple
 4302165661188208	Coffee Cherry
+4302169956155504	Cacao
 4302174251122800	Silver-Decorated Water Bottle
 4302178546090096	Wide-Mouthed Water Bottle
 4302182841057392	Small Pot for Boiling
@@ -2167,6 +3336,7 @@
 4302281625305200	Jewel Box
 4302285920272496	Multipurpose Wooden Box
 4302290215239792	Rosebay
+4302294510207088	Peas
 4302298805174384	Sealed Abyss Artifact
 4302303100141680	Indigo Bottle
 4302307395108976	Wide-Bottomed Water Bottle
@@ -2302,7 +3472,9 @@
 4302870035824752	Luminous Seed
 4302874330792048	Brimstone Bomb
 4302878625759344	Water Bomb
+4302882920726640	Pear
 4302887215693936	Vine Bomb
+4302891510661232	Dart
 4302895805628528	Harris's Letter
 4302900100595824	Ursula's Treasure Map
 4302904395563120	Greymane Cloth Armor
@@ -3055,7 +4227,6 @@
 4306125621035120	Serkis's Study
 4306129916002416	Bernor's Pickaxe
 4306134210969712	Driana's Note
-43061342109808	Lantern
 4306138505937008	St. Halssius's House of Healing
 4306142800904304	Crow Storm
 4306147095871600	Greymane's Leather Armor
@@ -4233,608 +5404,6 @@
 4311769208062064	Archive Record: Ch. 4
 4311773503029360	Archive Record: Ch. 5
 4311777797996656	Archive Record: Final Chapter
-43134356553840	Shiny Blue Sea Lantern
-43138651521136	Shroud Lantern
-43142946488432	Fancy Flame-Patterned Lantern
-43147241455728	Dark Fog Lantern
-43151536423024	Flame Lantern
-433791697008	Modest Copper Pouch
-433795991863408	Rekhia Plate Helm
-433800286830704	Bolton Plate Helm
-433804581798000	Cassius Morten's Plate Helm
-433826056634480	Icewing Plate Helm
-433830351601776	Ator's Will Helm
-433838941536368	Ferman Plate Helm
-433843236503664	Keredeg Plate Helm
-433847531470960	Ferenna Plate Helm
-433851826438256	Grace Plate Helm
-433856121405552	Flynn Plate Helm
-433860416372848	Crudil Plate Helm
-433869006307440	Berin Plate Helm
-433907661013104	Beastman Bone Helmet
-433924840882288	Rodderham Plate Helm
-433937725784176	Taos Plate Helm
-433989265391728	Tarandus Plate Helm
-433997855326320	Musket Border Guard Standard Helm
-434002150293616	Lotas Plate Helm
-434019330162800	Black Bears' Leather Helm
-434023625130096	Chelcia Plate Helm
-434032215064688	Scorchflame Plate Helm
-434036510031984	Inyr Plate Helm
-434040804999280	Rueconec Plate Helm
-434045099966576	Calio Plate Helm
-434057984868464	Ashford Plate Helm
-434083754672240	Lyfellen Plate Helm
-434105229508720	Kiatus Plate Helm
-434122409377904	Rahbae Plate Helm
-434126704345200	Goldbranch Plate Crown
-434178243952752	Bedure Plate Helm
-434208308723824	Laehbern Plate Helm
-434212603691120	Offenberg Plate Helm
-434225488593008	Ashad Plate Helm
-434229783560304	Solas Plate Helm
-434242668462192	Ulrich Plate Helm
-434259848331376	Paizel Bone Helm
-434268438265968	The Faceless's Plate Helm
-434272733233264	Bayer Plate Helm
-434277028200560	Bolgan Plate Helm
-434281323167856	Dernat Plate Helm
-434285618135152	Dondegobi Plate Helm
-434294208069744	Northern Fighter's Plate Helm
-434307092971632	Casinian Plate Helm
-434315682906224	Canta Plate Helm
-434328567808112	Tanion Plate Helm
-434371517481072	Antra Plate Helm
-434375812448368	Laterna Plate Helm
-434380107415664	Zachar Plate Helm
-434384402382960	Unyielding Warrior's Plate Helm
-434388697350256	Tartry Plate Helm
-434397287284848	Rapps Plate Helm
-434401582252144	Biconio Plate Helm
-434427352055920	Kurua Plate Helm
-438086664304	Full Copper Pouch
-438095254126704	Nahu Chain Coif
-438099549094000	Kadallon Chain Coif
-438103844061296	Tailan Plate Helm
-442381631600	Light Copper Pouch
-442403106324592	Nevin Cloth Bandana
-442424581161072	Leontyne Plate Helm
-442480415735920	Leather Helm of the Fallen Kingdom
-442506185539696	Schtump Plate Helm
-442523365408880	Melvin Leather Helm
-442531955343472	Helm of Loyal Friendship
-442536250310768	Rondel Leather Helm
-442557725147248	Lacrunias Leather Helm
-442583494951024	Rueconec Leather Helm
-442592084885616	Agatha Leather Helm
-442626444623984	Dimfeld Leather Helm
-442639329525872	Daveed Leather Helm
-442660804362352	Lutinas Leather Helm
-442682279198832	Lanweiter Leather Helm
-442759588610160	Uphren Leather Helm
-442785358413936	Arkhan Leather Helm
-442793948348528	Ledan Leather Helm
-442828308086896	Dekter Leather Helm
-442832603054192	Shellus Leather Helm
-442862667825264	Scholastone Cap
-446676598896	Full Silver Pouch
-446736728326256	Bollin Cloth Cap
-446741023293552	Radein Cloth Cap
-446796857868400	Rueconec Cloth Cap
-446805447802992	Agatha Cloth Cap
-446882757214320	Baidan Cloth Headband
-446904232050800	Calprise Cloth Cap
-446917116952688	Rigma Cloth Headband
-446990131396720	Raveed Cloth Cap
-446994426364016	Duvidet Hoops
-447015901200496	Scobby Cloth Headband
-447033081069680	Fiore Cloth Cap
-447037376036976	Ataram Cloth Cap
-447058850873456	Gaurra Cloth Cap
-447063145840752	Jermill Cloth Headband
-447076030742640	Torben Cloth Cap
-447088915644528	Ulman Cloth Cap
-447127570350192	Rahelm Cloth Headband
-447131865317488	Wyvernflame Cloth Helm
-447136160284784	Muchia Cloth Cap
-447183404925040	Rockington Cloth Cap
-447191994859632	Deland Plate Helm
-447200584794224	Ducriss Conical Cap
-447234944532592	Lashiras Cowl
-447243534467184	Dark Ringleader's Cloth Helm
-447256419369072	Sian Cloth Cap
-447260714336368	Karas Cloth Headband
-447265009303664	Larkett Cloth Cap
-447269304270960	Lashir Cloth Cap
-447273599238256	Drish Cloth Cap
-447277894205552	Triloan Cloth Headband
-447290779107440	Ruckshi Cloth Cap
-447295074074736	Rhytrian Cloth Cap
-447312253943920	Gadereich Cloth Cap
-447316548911216	Ludynn Cloth Cap
-447320843878512	Marc Cloth Headband
-447325138845808	Harker Cloth Cap
-447338023747696	Veronde Cloth Cap
-447342318714992	Ghaltain Cloth Cap
-447359498584176	Berghill Cloth Cap
-447363793551472	Meravan Cloth Cap
-447368088518768	Salimi Cloth Cap
-447385268387952	Yuzel Cloth Cap
-447402448257136	Pailunese Hat
-447428218060912	Jester Leather Mask
-447432513028208	Rabbit Leather Mask
-447466872766576	Dragon Flame Helm
-447471167733872	Dragon Knight's Helm
-450971566192	Overflowing Silver Pouch
-4644006381769195632	Russet Pavis Leather Gloves
-4719841433903693936	Blacksteel Lotas Plate Helm
-47248935223408	Fishing Rod
-476762844692592	Frostcursed Plate Armor
-476784319529072	Inquisitor's Plate Armor
-476908873580656	Tarandus Plate Armor
-476913168547952	Enus Plate Armor
-476956118220912	Grey Wolf Leather Armor
-477110737043568	Bodin Plate Armor
-477115032010864	Breemen Plate Armor
-477162276651120	Bekur Plate Armor
-477166571618416	Frente Plate Armor
-477170866585712	Corinne Plate Armor
-477175161553008	Takao Plate Armor
-477179456520304	Gwets Plate Armor
-477183751487600	Arkhan Plate Armor
-477188046454896	Yosef Plate Armor
-477192341422192	Andre Chain Mail
-477196636389488	Albert Plate Armor
-477200931356784	Emil Plate Armor
-477205226324080	Schtump Cloth Armor
-477209521291376	Sven's Cloth Armor
-477213816258672	Yakkov Cloth Armor
-477218111225968	Ernst Chain Mail
-477226701160560	Ditter Cloth Armor
-477235291095152	Redman Plate Armor
-477239586062448	Schmidt Plate Armor
-477291125670000	Dreer Plate Armor
-477295420637296	Rhogo Plate Armor
-477299715604592	Roshee Plate Armor
-477304010571888	Romund Plate Armor
-477308305539184	Valkyder Plate Armor
-477312600506480	Killian Plate Armor
-477316895473776	Kenmore Plate Armor
-477321190441072	Kinloch Plate Armor
-477325485408368	Lanauk Plate Armor
-477329780375664	Spiddle Plate Armor
-477334075342960	Meyer Plate Armor
-477338370310256	Edzel Plate Armor
-477342665277552	Brejin Plate Armor
-477346960244848	Canusti Plate Armor
-477351255212144	Dundree Plate Armor
-477355550179440	Crail Plate Armor
-477359845146736	Levin Plate Armor
-477364140114032	Dunverline Plate Armor
-477368435081328	Kinross Plate Armor
-477372730048624	Demeniss Honor Armor
-477377025015920	Avignon Cloth Armor
-477385614950512	Arghai Cloth Armor
-477389909917808	The Faceless's Cloth Armor
-477450039459952	Bolton Plate Armor
-477454334427248	Blackburn Plate Armor
-477458629394544	Reppin Plate Armor
-477462924361840	Ashad Plate Armor
-477467219329136	Solas Plate Armor
-477471514296432	Beverly Plate Armor
-477540233773168	Lemerick Chain Mail
-477544528740464	Lauer Chain Mail
-477548823707760	Senon Plate Armor
-477553118675056	Leighbog Plate Armor
-477557413642352	Galbon Chain Mail
-477561708609648	Brina Plate Armor
-477570298544240	Prix Plate Armor
-477574593511536	Serroa Plate Armor
-477583183446128	Dutiron Plate Armor
-477587478413424	Dutinion Plate Armor
-477591773380720	Endnion Plate Armor
-477596068348016	Dardnion Plate Armor
-477600363315312	Lavgnion Chain Mail
-477604658282608	Lucion Chain Mail
-477608953249904	Ludeon Plate Armor
-477613248217200	Cerruan Plate Armor
-477617543184496	Mahon Plate Armor
-477621838151792	Caliburn's Plate Armor
-477643312988272	Armor of Loyal Friendship
-477660492857456	Carta Plate Armor
-477673377759344	Ruwaite Plate Armor
-477677672726640	Russell Leather Armor
-477681967693936	Ludus Plate Armor
-477720622399600	Antum Plate Armor
-477724917366896	Entom Plate Armor
-477729212334192	Sitanca Plate Armor
-477733507301488	Markman Plate Armor
-477737802268784	Kantona Plate Armor
-477742097236080	Lukin Leather Armor
-477754982137968	Lachian Plate Armor
-477759277105264	Lacata Plate Armor
-477763572072560	Eccanta Plate Armor
-477767867039856	Eclaon Plate Armor
-477772162007152	Egliss Plate Armor
-477776456974448	Ekklemen Plate Armor
-477780751941744	Ostent Plate Armor
-477785046909040	Oakley Plate Armor
-477797931810928	Dunion Plate Armor
-477802226778224	Manios Plate Armor
-477810816712816	Scorchflame Plate Armor
-477823701614704	Aeron Plate Armor
-477827996582000	Golden Greed Plate Armor
-477832291549296	Sliver Plate Armor
-477836586516592	Sahazhad Plate Armor
-477840881483888	Jerrinmarne Plate Armor
-477845176451184	Icewing Plate Armor
-481182366040176	Lodi Chain Mail
-481186661007472	Drivon Chain Mail
-481216725778544	Reddin Chain Mail
-481315510026352	Kallari Chain Mail
-481319804993648	Tormand Chain Mail
-481324099960944	Hasets Chain Mail
-481328394928240	Killi Chain Mail
-481332689895536	Valton Chain Mail
-481349869764720	Lucnaon Chain Mail
-481358459699312	Lucnian Chain Mail
-481367049633904	Dunion Chain Mail
-481371344601200	Dragon Flame Armor
-481375639568496	Dragon Knight Warrior's Plate Armor
-481379934535792	Dragon Knight Chain Mail
-485365664186480	Twell Leather Armor
-485430088695920	Blackwing Leather Armor
-485455858499696	Benne Leather Armor
-485468743401584	Somier Leather Armor
-485477333336176	Traley Chain Mail
-485481628303472	Antumbra Cloth Armor
-485752211243120	Beastman Leather Armor
-485954074706032	Harran Cloth Armor
-4867475935361761392	Persein Leather Gloves
-487152370581616	Vyer Leather Armor
-487156665548912	Dewey Leather Armor
-487160960516208	Arqus Leather Armor
-487165255483504	Dremel Leather Armor
-487169550450800	Dyrel Leather Armor
-487173845418096	Merly Leather Armor
-487178140385392	Trudy Leather Armor
-487182435352688	Dreban Leather Armor
-487186730319984	Dellian Leather Armor
-487191025287280	Kenecks Leather Armor
-487195320254576	Vierni Leather Armor
-487199615221872	Blaine Leather Armor
-487203910189168	Cyton Leather Armor
-487264039731312	Wakhan Leather Armor
-487268334698608	Valion Leather Armor
-487272629665904	Plune Leather Armor
-487276924633200	Rittem Leather Armor
-487281219600496	Mocke Leather Armor
-487285514567792	Chayten Leather Armor
-487289809535088	Colatte Leather Armor
-487294104502384	Katerm Leather Armor
-487302694436976	Forest Fae Armor
-487306989404272	White Bloodwind Leather Armor
-487341349142640	Pantafe Cloth Armor
-487345644109936	Echebern Cloth Armor
-487384298815600	Militia Cloth Armor
-487388593782896	Pyrantha Cloth Armor
-487392888750192	Torress Cloth Armor
-487397183717488	Arandhal Cloth Armor
-487405773652080	Toudon Cloth Armor
-487410068619376	Cherke Leather Armor
-487414363586672	Blin Leather Armor
-487457313259632	Dunqane Leather Armor
-487461608226928	Elliot Leather Armor
-487465903194224	Cuthbertson Leather Armor
-487470198161520	Buchanan Cloth Armor
-487474493128816	Finneron Leather Armor
-487478788096112	Torrance Leather Armor
-487487378030704	Ohara Leather Armor
-487491672998000	Conally Cloth Armor
-487504557899888	Rexlan Cloth Armor
-487513147834480	Tarmiden Cloth Armor
-487521737769072	Seiden Leather Armor
-487526032736368	Soron Leather Armor
-487530327703664	Barunin Leather Armor
-487577572343920	Gorg Leather Armor
-487581867311216	Dewhaven Standard Leather Armor
-487586162278512	Johannes Plate Armor
-487693536460912	Davis Leather Armor
-487740781101168	Leather Armor of the Fallen Kingdom
-487770845872240	Mohill Leather Armor
-487775140839536	Lunpherd Leather Armor
-487779435806832	Islekk Leather Armor
-487783730774128	Baladean Leather Armor
-487788025741424	Navan Cloth Armor
-487792320708720	Glosope Leather Armor
-487796615676016	Norswich Leather Armor
-487800910643312	Campo Leather Armor
-487809500577904	Janiklo Leather Armor
-487813795545200	Nellaccio Leather Armor
-487818090512496	Dasala Leather Armor
-487822385479792	Gerano Leather Armor
-487826680447088	Pisonia Leather Armor
-487830975414384	Paliano Leather Armor
-487839565348976	Locasima Leather Armor
-487843860316272	Corey Cloth Armor
-487848155283568	Lariano Cloth Armor
-487852450250864	Ranubio Leather Armor
-487856745218160	Ardia Leather Armor
-487861040185456	Antika Leather Armor
-487865335152752	Oustia Leather Armor
-487869630120048	Tarabe Leather Armor
-487873925087344	Montlanico Leather Armor
-487878220054640	Carpine Leather Armor
-487895399923824	Kednry Leather Armor
-487959824433264	Vainbridge Cloth Armor
-488084378484848	Durain Chain Mail
-488088673452144	Latrion Chain Mail
-488092968419440	Senian Chain Mail
-488105853321328	Tyran Leather Armor
-488110148288624	Tiron Leather Armor
-488114443255920	Eshrun Leather Armor
-488123033190512	Groucca Leather Armor
-488135918092400	Hashaka Leather Armor
-488140213059696	Hobbuca Leather Armor
-488144508026992	Batangka Leather Armor
-488153097961584	Greeney Leather Armor
-488161687896176	Bulga Leather Armor
-488165982863472	Barbaros Leather Armor
-488174572798064	Greymanes' Leather Armor
-488178867765360	Nuslan Leather Armor
-488183162732656	Ravirun Leather Armor
-488187457699952	Mondian Leather Armor
-488191752667248	Saruen Leather Armor
-488196047634544	Rubidan Leather Armor
-488200342601840	Resian Leather Armor
-488213227503728	Larkson Leather Armor
-488217522471024	Matana Leather Armor
-488221817438320	Radian Cloth Armor
-488286241947760	Acria Chain Mail
-488294831882352	Rotunso Leather Armor
-488299126849648	Rombardina Leather Armor
-488303421816944	Sicillion Leather Armor
-488307716784240	Rhodelphine Leather Armor
-488312011751536	Tallofer Leather Armor
-488320601686128	Unyielding Warrior's Plate Armor
-488324896653424	Meishod Cloth Armor
-488329191620720	Valldren Leather Armor
-488333486588016	Moldur Leather Armor
-488337781555312	Churrchen Leather Armor
-488342076522608	Saolo Leather Armor
-488346371489904	Jevanars Leather Armor
-488354961424496	Drossel Leather Armor
-488359256391792	Dumenis Cloth Armor
-488367846326384	Laplace Leather Armor
-488372141293680	Radiano Leather Armor
-488376436260976	Dorness Leather Armor
-488380731228272	Undriga Leather Armor
-488385026195568	Anderitz Leather Armor
-488389321162864	Rapps Leather Armor
-488393616130160	Cantars Leather Armor
-488397911097456	Pictead Leather Armor
-488402206064752	Varanguard Leather Armor
-488406501032048	Scarteau Leather Armor
-488410795999344	Huskall Leather Armor
-488415090966640	Barbaroy Leather Armor
-488419385933936	Kordaav Leather Armor
-488423680901232	Lespedan Leather Armor
-488427975868528	Stiv Leather Armor
-488432270835824	Dyrfrith Leather Armor
-488436565803120	Stugrub Leather Armor
-488440860770416	Barrette Leather Armor
-488445155737712	Gaut Leather Armor
-488462335606896	Bettert Leather Armor
-488466630574192	Schlitz Leather Armor
-488470925541488	Binden Leather Armor
-488475220508784	Auld Leather Armor
-488479515476080	Mavin Leather Armor
-488488105410672	Raspin Leather Armor
-488492400377968	Duvelle Leather Armor
-488496695345264	Karius Leather Armor
-488500990312560	Slouwen Leather Armor
-488505285279856	Bleawin Leather Armor
-488513875214448	Trellian Leather Armor
-488518170181744	Sunset Reed Leather Armor
-488535350050928	Nameless Sage's Leather Armor
-488543939985520	Ludynn Leather Armor
-488548234952816	Reak Leather Armor
-488552529920112	Marc Leather Armor
-488556824887408	Smilodon Leather Armor
-488561119854704	Noyvarn Leather Armor
-488595479593072	Luverne Leather Armor
-488599774560368	Galanta Leather Armor
-488604069527664	Nelton Leather Armor
-488608364494960	Brogue Leather Armor
-488612659462256	Hodges Leather Armor
-488616954429552	Ducca Leather Armor
-488625544364144	Berker Leather Armor
-488629839331440	Tatura Leather Armor
-488634134298736	Tavat Leather Armor
-488638429266032	Gomel Leather Armor
-488642724233328	Enge Leather Armor
-488647019200624	Tikkal Leather Armor
-488651314167920	Murad Leather Armor
-488655609135216	Dannon Leather Armor
-488659904102512	Ulontai Leather Armor
-488664199069808	Huron Leather Armor
-488668494037104	Begill Leather Armor
-488672789004400	Rigma Leather Armor
-488677083971696	Verdesh Leather Armor
-488681378938992	Herwin Leather Armor
-488685673906288	Dekter Leather Armor
-488689968873584	Guff Leather Armor
-488702853775472	Grommet Leather Armor
-488707148742768	Ajure Leather Armor
-488711443710064	Salimi Leather Armor
-488715738677360	Nehrut Leather Armor
-488720033644656	Takkat Leather Armor
-488724328611952	Whitley Leather Armor
-488728623579248	Kaisan Leather Armor
-488732918546544	Derrison Leather Armor
-488758688350320	Berblin Leather Armor
-488767278284912	Reed Devil Underling's Red Armor
-488771573252208	Reed Devil Underling's Yellow Armor
-488775868219504	Reed Devil Underling's Armor
-490906171998320	Cocotar Cloth Armor
-490910466965616	Tryah Cloth Armor
-490914761932912	Ator's Will Cloth Armor
-490919056900208	Paifo Cloth Armor
-491013546180720	Ancara Cloth Armor
-491017841148016	Esbeth Cloth Armor
-491022136115312	Muchia Cloth Armor
-491026431082608	Wyvernflames Cloth Armor
-491030726049904	Duizeh Cloth Armor
-491035021017200	Izumit Cloth Armor
-491039315984496	Mugleah Cloth Armor
-491069380755568	Myrnen Cloth Armor
-491073675722864	Bollin Cloth Armor
-491077970690160	Livner Cloth Armor
-491082265657456	Ruvib Cloth Armor
-491086560624752	Bleed Cloth Armor
-491090855592048	Alsace Cloth Armor
-491095150559344	Beralt Cloth Armor
-491099445526640	Monterima Cloth Armor
-491103740493936	Deorre Cloth Armor
-491116625395824	Faians Cloth Armor
-491129510297712	Concarr Cloth Armor
-491142395199600	Luwea Cloth Armor
-491146690166896	Gael Cloth Armor
-491150985134192	Bolgan Cloth Armor
-491155280101488	Dernat Cloth Armor
-491159575068784	Dondegobi Cloth Armor
-491163870036080	Gobialta Cloth Armor
-491168165003376	Orbus Cloth Armor
-491172459970672	Hentree Cloth Armor
-491176754937968	Oubreve Cloth Armor
-491181049905264	Harghai Cloth Armor
-491215409643632	Telford Cloth Armor
-491335668727920	Daraz Cloth Armor
-491404388204656	Denmore Cloth Armor
-491408683171952	Telin Cloth Armor
-491412978139248	Calis Cloth Armor
-491421568073840	Roshayne Cloth Armor
-491425863041136	Minnutan Cloth Armor
-491434452975728	Drumfin Cloth Armor
-491443042910320	Drimrow Cloth Armor
-491464517746800	Totte Cloth Armor
-491473107681392	Radley Cloth Armor
-491477402648688	Lucion Cloth Armor
-491481697615984	Senian Cloth Armor
-491503172452464	Lackey Cloth Armor
-491507467419760	Kassa Cloth Armor
-491511762387056	Annis Cloth Armor
-491524647288944	Marka Cloth Armor
-491528942256240	Makri Cloth Armor
-491593366765680	Tyran Cloth Armor
-491597661732976	Tiron Cloth Armor
-491601956700272	Tyrune Cloth Armor
-491606251667568	Tarun Cloth Armor
-491610546634864	Tynion Cloth Armor
-491614841602160	Tanion Cloth Armor
-491619136569456	Neslan Cloth Armor
-491623431536752	Eshrun Cloth Armor
-491636316438640	Deshret Cloth Armor
-491649201340528	Takana Cloth Armor
-491657791275120	Lakshi Leather Armor
-491670676177008	Ladran Cloth Armor
-491674971144304	Nuslan Cloth Armor
-491679266111600	Ravirun Cloth Armor
-491683561078896	Barian Cloth Armor
-491687856046192	Barcy Cloth Armor
-491692151013488	Bartmun Cloth Armor
-491696445980784	Orthu Cloth Armor
-491700740948080	Tohkar Cloth Armor
-491705035915376	Verdinan Cloth Armor
-491709330882672	Borsehir Cloth Armor
-491713625849968	Keanoff Cloth Armor
-491743690621040	Rhonid Cloth Armor
-491747985588336	Pouhel Cloth Armor
-491752280555632	Dillinger Cloth Armor
-491756575522928	Eckney Cloth Armor
-491786640294000	Baratum Cloth Armor
-491790935261296	Baritum Cloth Armor
-491795230228592	Baras Cloth Armor
-491803820163184	Baraccuro Cloth Armor
-491825294999664	Barrow Cloth Armor
-491829589966960	Bailao Cloth Armor
-491833884934256	Barclao Cloth Armor
-491842474868848	Barch Cloth Armor
-491863949705328	Bedure Chain Mail
-491872539639920	Riksha Chain Mail
-491876834607216	Lathia Cloth Armor
-491885424541808	Kennav Cloth Armor
-491889719509104	Lancats Cloth Armor
-491894014476400	Rangtua Cloth Armor
-491898309443696	Nevin Cloth Armor
-491902604410992	Ranphas Cloth Armor
-491906899378288	Roctar Cloth Armor
-491911194345584	Barbaroy Cloth Armor
-491915489312880	Fiore Cloth Armor
-491919784280176	Warstein Cloth Armor
-491924079247472	Conentry Cloth Armor
-491928374214768	Berkhia Cloth Armor
-491932669182064	Austfeld Cloth Armor
-491941259116656	Gaut Cloth Armor
-491945554083952	Gadereich Cloth Armor
-491949849051248	Ewen Cloth Armor
-491954144018544	Primus's Cloth Armor
-491962733953136	Diggs Cloth Armor
-491967028920432	Raddler Cloth Armor
-492001388658800	Volghad Cloth Armor
-492005683626096	Ultar Cloth Armor
-492009978593392	Dohann Cloth Armor
-492014273560688	Bahlmers Cloth Armor
-492018568527984	Tolkane Cloth Armor
-492022863495280	Bandide Cloth Armor
-492027158462576	Dwelker Cloth Armor
-492031453429872	Veronde Cloth Armor
-492035748397168	Ruschelle Cloth Armor
-492040043364464	Rosarduin Cloth Armor
-492044338331760	Sherwood Cloth Armor
-492048633299056	Eyratt Cloth Armor
-492052928266352	Gruun Cloth Armor
-492057223233648	Auron Cloth Armor
-492065813168240	Salash Cloth Armor
-492070108135536	Borman Cloth Armor
-492074403102832	Berghill Cloth Armor
-492078698070128	Hassal Cloth Armor
-492082993037424	Meravan Cloth Armor
-492087288004720	Chizhar Cloth Armor
-492091582972016	Dahkavan Cloth Armor
-492095877939312	Ziahl Cloth Armor
-492100172906608	Amundule Cloth Armor
-492104467873904	Sarendion Cloth Armor
-492108762841200	Hysilda Cloth Armor
-492113057808496	Yorkey Cloth Armor
-492117352775792	Dollette Cloth Armor
-492121647743088	Verette Cloth Armor
-492125942710384	Haillen Cloth Armor
-492130237677680	Khalbdan Cloth Armor
-492147417546864	Schillerbin Cloth Armor
-492151712514160	Neblin Cloth Armor
-492160302448752	Skyblazer Cloth Armor
-492181777285232	The Masked Liberator's Cloth Armor
-492186072252528	Keller Cloth Armor
-492203252121712	Pailunese Attire
-492220431990896	Spetsahorn Cloth Armor
-492224726958192	Muddliss Cloth Armor
-492229021925488	Delesyian Cloth Attire
-492233316892784	Kang Cloth Armor
-492237611860080	Zynian Cloth Armor
-492241906827376	Zamir Cloth Armor
-492246201794672	Lubonon Cloth Armor
-492250496761968	Denill Cloth Armor
-492259086696560	Noble Cloth Armor
-492267676631152	Odorrey Cloth Armor
-492284856500336	Dega Cloth Armor
-492302036369520	Rabbit Leather Coat
-492306331336816	Jester Leather Coat
-492327806173296	Chelcia Plate Armor
-492332101140592	Anti-Meyer Plate Armor
-492344986042480	Anti-Crail Plate Armor
-492375050813552	Scarlet Blades Cloth Armor
-4990507880600830064	Kenmore Plate Armor
 4995055555182704	Hernandian Attire
 4995227353874544	Sword of the Wolf
 4995231648841840	Bekker Shield
@@ -4856,501 +5425,6 @@
 5001540955799664	Northern Fighter's Chain Mail
 5003679849513072	Scholastone Uniform
 5003684144480368	Pororin Cloth Attire
-5029885523750027376	Bandit's Leather Greaves
-5068669241641664624	Empty Pack
-519716812619888	Trish Leather Gloves
-519721107587184	Leahdra Leather Gloves
-519725402554480	Veile Leather Gloves
-519729697521776	Behrun Hide Bracers
-519733992489072	Inquisitor's Plate Gloves
-519746877390960	Canta Plate Gloves
-519751172358256	Draiga Plate Gloves
-519755467325552	Runae Cloth Gloves
-519764057260144	Frostcursed Plate Gloves
-519785532096624	Flame Swordsman Plate Gloves
-519794122031216	Batz Plate Gloves
-519798416998512	Tarandus Plate Gloves
-519802711965808	Scorchflame Plate Gloves
-519807006933104	Camsen Plate Gloves
-519815596867696	Dimfeld Plate Gloves
-519828481769584	Agatha's Plate Gloves
-519832776736880	Ashad Plate Gloves
-519837071704176	Solas Plate Gloves
-519871431442544	Pernicia Plate Gloves
-519875726409840	Ferman Plate Gloves
-519905791180912	Grey Wolf Leather Gloves
-519922971050096	Luon Plate Gloves
-519927266017392	Luthor Plate Gloves
-519931560984688	Arkhan Plate Gloves
-519935855951984	Dumenis Plate Gloves
-519944445886576	Ratti Plate Gloves
-519948740853872	Ettis Plate Gloves
-519953035821168	Recklin Cloth Gloves
-519970215690352	Kevile Plate Gloves
-519978805624944	Weirren Plate Gloves
-519983100592240	Devinine Plate Gloves
-519987395559536	Icewing Plate Gloves
-519991690526832	Demenissian Elite Plate Gloves
-519995985494128	Golden Greed Plate Gloves
-520000280461424	Belui Plate Gloves
-520038935167088	Plate Gloves of the Fallen Kingdom
-524011779915888	Beastman Chain Gloves
-52415780880496	Maydocs Leather Armor
-52420075847792	Vildyne Leather Armor
-52424370815088	Adoratt Leather Armor
-52428665782384	Colbill Leather Armor
-52432960749680	Coby Leather Armor
-52437255716976	Sherborn Leather Armor
-52471615455344	Hungering Fang Leather Armor
-52475910422640	Helfryn Leather Armor
-52480205389936	Weasel Leather Armor
-5255562342640386160	Pavis Leather Boots
-528315337146480	Austfeld Leather Gloves
-528336811982960	Fiori Leather Gloves
-528341106950256	Janiklo Leather Gloves
-528353991852144	Barre Leather Gloves
-528358286819440	Berkhia Leather Gloves
-528362581786736	Goldheart Chain Gloves
-528366876754032	Kordaav Leather Gloves
-528384056623216	Cacoreum Leather Gloves
-528396941525104	Claire Leather Gloves
-52840982642800	Dirty Sarantos Leather Boots
-528414121394288	Hark Leather Gloves
-528422711328880	Weiston Leather Gloves
-528431301263472	Talisin Leather Gloves
-528435596230768	Melvin Leather Gloves
-528444186165360	Trion Leather Gloves
-528452776099952	Ebenezer Leather Gloves
-52845277610096	Large Rhegis Leather Boots
-528457071067248	Pavis Leather Gloves
-528465661001840	Rondel Leather Gloves
-528469955969136	Perseus Leather Gloves
-528504315707504	Byren's Leather Gloves
-528508610674800	Kadallon Leather Gloves
-528517200609392	Salun Leather Gloves
-52853867544688	Hungering Fang Leather Boots
-528542970413168	Lespedan Leather Gloves
-528555855315056	Rheigis Leather Gloves
-528560150282352	Hagwood Leather Gloves
-528573035184240	Lasfeld Leather Gloves
-528577330151536	Wyrdins Leather Gloves
-528581625118832	Andria Leather Gloves
-52858162511984	Carta Plate Boots
-528590215053424	Larkri Leather Gloves
-528611689889904	Rossbara Leather Gloves
-528615984857200	Blyne Leather Bracers
-52862457479280	Hernandian Honor Guard Boots
-528641754660976	Rhinard Leather Gloves
-52866752446576	Weasel Leather Boots
-528697589235824	Sleishorn Leather Gloves
-528706179170416	Mornington Cloth Gloves
-52871047413872	Scholastone Boots
-528714769105008	Bandellure Leather Gloves
-528727654006896	Nocburn Leather Gloves
-528736243941488	Drumard Leather Gloves
-528753423810672	Stratton Leather Gloves
-52875342381168	Hernandian Banquet Leather Boots
-528762013745264	Hegea Leather Gloves
-528766308712560	Camsen Leather Gloves
-528783488581744	Matthias' Leather Gloves
-528792078516336	Layddete Leather Gloves
-52879637348464	Beekeeping Boots
-528804963418224	Khalbdan Leather Gloves
-528822143287408	Rueconec Leather Gloves
-528852208058480	Rakhir Cloth Gloves
-528865092960368	Satyros Plate Gloves
-528869387927664	Ironwilled Guardian's Leather Gloves
-528877977862256	Steinmers Leather Gloves
-528899452698736	Adeion Leather Gloves
-528908042633328	Crudil Leather Gloves
-528916632567920	Conchetta Leather Gloves
-528925222502512	Loudan Leather Gloves
-528929517469808	Calio's Leather Gloves
-528933812437104	Viraiton Leather Gloves
-528946697338992	Maeve Leather Gloves
-528955287273584	Deskio Leather Gloves
-528968172175472	Geloufeld Plate Gloves
-528985352044656	Asty Cloth Gloves
-528998236946544	Dimfeld Leather Gloves
-529002531913840	Trowder Leather Gloves
-529006826881136	Caviden Leather Gloves
-529041186619504	Mistum Leather Gloves
-529058366488688	Rowley Leather Gloves
-529066956423280	Daveed Leather Gloves
-529071251390576	Bettie Leather Gloves
-529109906096240	Lennigen Leather Gloves
-529118496030832	Kaeridyn Leather Gloves
-529127085965424	Merridew Leather Gloves
-529144265834608	Astia Cloth Gloves
-529152855769200	Aldwin Leather Gloves
-529161445703792	Latian Leather Gloves
-529178625572976	Vicaron Leather Gloves
-529187215507568	Leppo Leather Gloves
-529191510474864	Brogant Leather Gloves
-529204395376752	Delise Leather Gloves
-529208690344048	Boggen Leather Gloves
-529221575245936	Delinell's Leather Gloves
-529225870213232	Wertesh Leather Gloves
-529230165180528	Keimbel Leather Gloves
-529234460147824	Sladen Leather Gloves
-529243050082416	Persein Leather Gloves
-529255934984304	Mechlin Leather Gloves
-529260229951600	Essembel Leather Gloves
-529264524918896	Contra Leather Gloves
-529311769559152	The Masked Liberator's Leather Gloves
-529320359493744	Dondegobi Leather Gloves
-529324654461040	Gobialta Leather Gloves
-529328949428336	Tershan Leather Gloves
-529337539362928	Rignon Leather Gloves
-529341834330224	Reclonne Leather Gloves
-529346129297520	Ricrau Leather Gloves
-529359014199408	Tiron Leather Gloves
-529363309166704	Taylonne Leather Gloves
-529384784003184	Haron Cloth Gloves
-529397668905072	Kattinan Leather Gloves
-529401963872368	Saruen Leather Gloves
-529427733676144	Luca Leather Gloves
-529436323610736	Tikkal Leather Gloves
-529440618578032	Markna Leather Gloves
-529457798447216	Lukas' Leather Gloves
-529479273283696	Dark Ringleader's Leather Gloves
-529483568250992	Salatos Leather Gloves
-529492158185584	Ellisco Leather Bracers
-529496453152880	Elashe Leather Gloves
-529509338054768	Kasria Leather Gloves
-529517927989360	Renshaku Leather Gloves
-529522222956656	Reshesh Leather Gloves
-529530812891248	Ravellu Leather Gloves
-529535107858544	Remebrou Leather Gloves
-529539402825840	Rainier Leather Gloves
-529543697793136	Lave Leather Gloves
-529547992760432	Mache Leather Gloves
-529552287727728	Martail Leather Gloves
-529556582695024	Wentz Leather Gloves
-529573762564208	Bolson Leather Gloves
-529578057531504	Cains Leather Gloves
-529582352498800	Dalton Leather Gloves
-529586647466096	Eplern Leather Gloves
-529590942433392	Archen Leather Gloves
-529595237400688	Dunion Leather Gloves
-529599532367984	Laplace Leather Gloves
-529603827335280	Bristel Leather Gloves
-529621007204464	Masti Plate Gloves
-529625302171760	Takkan Leather Gloves
-529629597139056	Arsen Leather Gloves
-529633892106352	Takah Cloth Gloves
-529638187073648	Silver Plate Gloves
-529642482040944	Chent Leather Gloves
-529646777008240	Black Bear Leather Gloves
-529655366942832	Grey Wolf Cloth Gloves
-529659661910128	Dherri Leather Gloves
-529668251844720	Patten's Leather Gloves
-529672546812016	Silverwolf Leather Gloves
-529676841779312	Rattu Cloth Gloves
-529689726681200	Lercent Leather Gloves
-529694021648496	Duskfang Leather Gloves
-529706906550384	Dram Leather Bracers
-529711201517680	Bunce Leather Gloves
-529715496484976	Maters Leather Gloves
-529728381386864	Rannys Leather Gloves
-529758446157936	Dane Leather Bands
-529792805896304	Reak Leather Gloves
-529801395830896	Badran Leather Gloves
-529805690798192	Rigma Leather Gloves
-529809985765488	Verdesh Leather Gloves
-529814280732784	Jasmern Leather Gloves
-529818575700080	Esha Leather Gloves
-529822870667376	Shellus Leather Gloves
-529827165634672	Waller Leather Gloves
-529848640471152	Salmae Leather Gloves
-529852935438448	Derrison Leather Gloves
-529861525373040	Dirrebin Leather Gloves
-529870115307632	Dallaban Leather Gloves
-529883000209520	Lawson Leather Gloves
-529887295176816	Gaiman Leather Gloves
-532597419540592	Stugrub Cloth Gloves
-532610304442480	Arti Leather Gloves
-532657549082736	Crowcaller's White Leather Gloves
-532661844050032	Baidan Cloth Gloves
-532674728951920	Porcell Cloth Gloves
-532700498755696	Whitley Cloth Gloves
-53270479372400	Red Rider's Leather Gloves
-532713383657584	Tyran Leather Gloves
-532717678624880	Tiron Cloth Gloves
-53274774339696	Large Pavis Leather Gloves
-532790693068912	Setri Cloth Gloves
-532794988036208	Serbello Cloth Gloves
-532812167905392	Ashtu Cloth Gloves
-532816462872688	Ratisan Cloth Gloves
-532820757839984	Duroin Cloth Gloves
-532829347774576	Ludynn Cloth Gloves
-53283364274288	Blackwing Leather Gloves
-532837937709168	Derrison Cloth Gloves
-532846527643760	Gadereich Cloth Gloves
-532850822611056	Chizhar Cloth Gloves
-532863707512944	Sunset Reed Cloth Gloves
-532872297447536	Jester Leather Gloves
-53287659241584	Skyblazer Leather Gloves
-532880887382128	Ator's Will Leather Gloves
-532889477316720	Witters Plate Gloves
-532893772284016	Dulone Plate Gloves
-532898067251312	Dragon Knight Warrior's Plate Gloves
-532902362218608	Dragon Knight Archer's Plate Gloves
-532906657185904	Caliburn's Plate Gloves
-53291954208880	Hungering Fang Leather Gloves
-53296249176176	Hernandian Honor Guard Gloves
-53300544143472	Helfryn Leather Gloves
-53304839110768	Weasel Leather Gloves
-53309134078064	Carta Leather Gloves
-53313429045360	Beekeeping Gloves
-53317724012656	Bollin Leather Gloves
-53712861003888	Silver Fang Helm
-54116587929712	Double-Headed Axe of Greed
-54550379626608	Divine Echoes Bow
-54554674593904	Noble Man's Bow
-55405078118512	Goblin King's Treasure Dagger
-562645010743408	Unyielding Warrior's Plate Boots
-562649305710704	Golden Greed Plate Boots
-562666485579888	Lattua Plate Boots
-562670780547184	Icewing Plate Boots
-562679370481776	Inquisitor's Plate Boots
-562696550350960	Canta Plate Boots
-562730910089328	Batz Plate Boots
-562735205056624	Chelcia Plate Boots
-562739500023920	Ashad Plate Boots
-562743794991216	Solas Plate Boots
-562752384925808	Serval Plate Boots
-562756679893104	Tyrdall Leather Boots
-562765269827696	Antumbra Plate Boots
-562808219500656	Sigremon Plate Boots
-562812514467952	Dulone Plate Boots
-562816809435248	Sahazhad Plate Boots
-562821104402544	Demenissian Plate Boots
-562838284271728	Plate Boots of the Fallen Kingdom
-562855464140912	Grey Wolf Leather Boots
-563100268686737520	Northern Freesword's Leather Gloves
-56693568307312	Mace of the Fleeting
-566961452875888	Regglia Leather Boots
-566965747843184	Rezzcan Leather Boots
-566970042810480	Baku Leather Boots
-56697863274608	Marni Devotee's Mace
-56702158241904	Mace of Resolve
-571234945335408	Seiger Leather Boots
-571252125204592	Rodderham Leather Boots
-571260715139184	Leontyne Leather Boots
-571269305073776	Bollin Leather Boots
-57127360004208	Marni Musket
-571277895008368	Helfryn Leather Boots
-571286484942960	Eustice Leather Boots
-571316549714032	St. Halssius Priest's Leather Footwear
-571325139648624	Tobias Leather Boots
-571329434615920	Arghai Leather Boots
-571333729583216	Nevin Leather Boots
-571355204419696	Mulia Leather Boots
-571372384288880	Cyllian Leather Boots
-571376679256176	Silverwolf Leather Boots
-571380974223472	Conentry Leather Boots
-571385269190768	Benberry Leather Boots
-571389564158064	Midlier Leather Boots
-571393859125360	Derting Leather Boots
-571402449059952	Steyer Leather Boots
-57140244906096	Demenissian Hero's Musket
-571406744027248	Ebenezer Leather Boots
-571415333961840	Tesslit Leather Boots
-571419628929136	Rhonda Leather Boots
-571441103765616	Ramastern Leather Boots
-571462578602096	Layne Leather Boots
-571492643373168	Kadallon's Leather Boots
-571518413176944	Pierpont Leather Boots
-571531298078832	Dyrfrith Leather Boots
-571539888013424	Ashen Wolf's Leather Boots
-571557067882608	Ironwilled Guardian's Leather Boots
-571582837686384	Sarantos Leather Boots
-571608607490160	Levinto Leather Boots
-571612902457456	Ruthie Leather Boots
-571625787359344	Colbern Leather Boots
-571647262195824	Bolton Leather Boots
-571733161541744	Nagmore Leather Boots
-571737456509040	Mornington Leather Boots
-571750341410928	Woodbrock Leather Boots
-571763226312816	Russmore Leather Boots
-571771816247408	Clarille Leather Boots
-571780406182000	Meadows Leather Boots
-571823355854960	Keredig Leather Boots
-571831945789552	Neirnim Leather Boots
-571857715593328	Matis Leather Greaves
-571935025004656	Tarandus Leather Boots
-571943614939248	Sydmon Leather Boots
-571952204873840	Pahna Leather Boots
-571965089775728	Rhegis Leather Boots
-571969384743024	The Masked Liberator's Leather Boots
-571982269644912	Crudil Leather Boots
-571995154546800	Scorchflame Leather Boots
-572016629383280	Huntington Leather Boots
-572020924350576	Adeion Leather Boots
-572038104219760	Diencia Cloth Boots
-572055284088944	Pavis Leather Boots
-572059579056240	Trowder Leather Boots
-572072463958128	Pieti Leather Boots
-572076758925424	Norman Leather Boots
-572085348860016	Driseld Leather Boots
-572093938794608	Dutrat Leather Boots
-572098233761904	Reus Leather Boots
-572102528729200	Lascaux Leather Boots
-572106823696496	Mistum Leather Boots
-572111118663792	Sillau Leather Boots
-572115413631088	Fiatol Leather Boots
-572132593500272	Aurelian Leather Boots
-572145478402160	Eshian Leather Boots
-572192723042416	Clays Leather Boots
-572197018009712	Daveed Leather Boots
-572201312977008	Beattie Leather Boots
-572205607944304	Leegrau Leather Boots
-572214197878896	Hoardroar Leather Boots
-572239967682672	Trish Leather Boots
-572244262649968	Katitz Leather Boots
-572248557617264	Isilon Leather Boots
-572261442519152	Elish Leather Boots
-572265737486448	Runae Leather Boots
-572270032453744	Carcon Leather Boots
-572274327421040	Diovern Leather Boots
-572300097224816	Erphy Leather Boots
-572308687159408	Oakten Leather Boots
-572317277094000	Seras Leather Boots
-572321572061296	Cateine Leather Boots
-572330161995888	Loutte Leather Boots
-572338751930480	Bourveten Leather Boots
-572343046897776	Lankel Leather Boots
-572347341865072	Gannech Leather Boots
-572351636832368	Kervel Leather Boots
-572355931799664	Walder Leather Boots
-572360226766960	Donaff Leather Boots
-572373111668848	Herdel Leather Boots
-572385996570736	Ator's Will Leather Boots
-572390291538032	Quent Leather Boots
-572394586505328	Grey Rhegis Leather Boots
-572407471407216	Tyran Leather Boots
-572411766374512	Tyrune Cloth Boots
-572416061341808	Tiron Leather Boots
-572428946243696	Tiruna Leather Boots
-572433241210992	Darman Leather Boots
-572437536178288	Saruen Leather Boots
-572450421080176	Pasti Leather Boots
-572467600949360	Kassantra Leather Boots
-572480485851248	Leguna Leather Boots
-572484780818544	Layta Plate Boots
-572493370753136	Dannoche Leather Boots
-572497665720432	Layta Leather Boots
-572501960687728	Catcheta Leather Boots
-572506255655024	Caico Leather Boots
-572510550622320	Cosgrove Leather Boots
-572514845589616	Caelough Leather Boots
-572519140556912	Kasset Leather Boots
-572523435524208	Cassrow Leather Boots
-572527730491504	Katz Leather Boots
-572536320426096	Ligatra Leather Boots
-572540615393392	Cantu Leather Boots
-572549205327984	Andaran Leather Boots
-572553500295280	Maldrick Leather Boots
-572557795262576	Anderitz Leather Boots
-572562090229872	Trilly Leather Boots
-572566385197168	Fiore Leather Boots
-572570680164464	Perelli Leather Boots
-572609334870128	Lasian Leather Boots
-572613629837424	Ludynn Leather Greaves
-572617924804720	Kurua Leather Boots
-572622219772016	Stoddard Leather Boots
-572626514739312	Wattern Leather Boots
-572630809706608	Badran Leather Boots
-572635104673904	Hauvern Leather Boots
-572639399641200	Begill Leather Boots
-572643694608496	Dreiger Leather Boots
-572647989575792	Esha Leather Boots
-572660874477680	Vixer Leather Shoes
-572669464412272	Meravan Leather Boots
-572673759379568	Salmae Leather Shoes
-572678054346864	Nehrut Leather Shoes
-572682349314160	Juman Leather Boots
-572708119117936	Warren Beynon's Leather Boots
-572716709052528	Sein Leather Boots
-572721004019824	Dolters Leather Boots
-572725298987120	Blackwing Leather Boots
-572733888921712	Orbit Leather Boots
-572738183889008	Alvitt Leather Boots
-572742478856304	Arrenya Leather Boots
-572746773823600	Belui Leather Boots
-575551387467888	Triloan Leather Boots
-575564272369776	Bayer Leather Boots
-575572862304368	Pailunese Boots
-575581452238960	Reus Cloth Boots
-575590042173552	Eckney Cloth Boots
-575620106944624	Marrada Leather Boots
-575624401911920	Endoron Leather Boots
-575645876748400	Scoppa Leather Boots
-575654466682992	Whitley Cloth Boots
-575731776094320	Kerdmann Cloth Boots
-575736071061616	Barrette Cloth Boots
-575740366028912	Gaut Cloth Boots
-575748955963504	Matia Leather Boots
-575757545898096	Chizhar Cloth Boots
-575766135832688	Sunset Reed Cloth Boots
-575770430799984	Rabbit Cloth Boots
-575783315701872	Caliburn's Plate Boots
-5780346486525001840	Jar Lid
-57982058496112	Royal Oath
-58411555225712	Shell of the Fleeting
-58428735094896	Balgran Shield
-58433030062192	Delesyian Ornamental Shield
-5906878924599591024	Wide Basket
-59309203390576	Nazk Sword
-59313498357872	Chillfallen Sword
-59317793325168	Aeserion Sword
-59322088292464	Sword of the Fleeting
-59704340381808	Frostbone Shield
-60563333841008	Plate Armor of Cursed Soul
-60567628808304	Red Rider's Plate Armor
-60571923775600	Meyer Plate Armor
-60576218742896	Spiddle Plate Armor
-60597693579376	Frozen Heart Plate Armor
-60988535603312	Executioner of Darkness Plate Boots
-60992830570608	Plate Boots of Cursed Soul
-60997125537904	Frostcursed Plate Boots
-61418032332912	Executioner of Darkness Plate Gloves
-61422327300208	Plate Gloves of Cursed Soul
-61426622267504	Crimson Chaser Chain Gloves
-61435212202096	Frozen Heart Plate Gloves
-61439507169392	Brass Warden's Plate Gloves
-61443802136688	Pailunese Gloves
-61847529062512	Wanderer of Faith's Plate Helm
-61851824029808	Plate Helm of Cursed Soul
-61856118997104	Red Rider's Plate Helm
-61860413964400	Demenissian Guard's Plate Helm
-61864708931696	Demenissian Guard's Plate Helm
-61869003898992	Crimson Chaser Plate Helm
-61873298866288	Descao Plate Helm
-61877593833584	Demenissian Guard's Plate Helm
-61894773702768	Helms Beetle Helm
-61899068670064	Helms Hornet Helm
-61903363637360	Helms Bull Helm
-61911953571952	Blackwing Mask
-61916248539248	Frostcursed Plate Helm
-61920543506544	Carta Plate Helm
-62277025792112	Alpha Wolf Helm
-62281320759408	Boss Bear Hat
-62307090563184	Black Bear Gas Mask
-62319975465072	Visione
-62324270432368	Bespoke Visione
-6300844201508601968	Dunverline Plate Armor
-63148904153200	Aeserion Greathammer
-63157494087792	Darkbringer
-63161789055088	Wheel of the Last Toll
-6320293810584682608	Beaked Plate Helm
-6327985392637182064	Grotevant Plate Armor
-6371401357311606896	Inquisitor's Plate Helm
-63995012710512	Student's Pack
-64424509440112	Aeserion Halberd
-6463569139280642160	Solumen Priest's Big Staff
-64854006169712	Earthsplitter
 6489699879223408	Hyperion Barding
 6489721354059888	Sahareum Barding
 6489725649027184	Berkei Barding
@@ -5388,114 +5462,6 @@
 6502627730784368	Varnian Stirrups
 6502632025751664	Demenissian Stirrups
 6506879748407408	Silver Iron Horseshoes
-6516250194521096304	Cacoreum Leather Gloves
-65283502899312	Finest Rhinard Cannon
-65292092833904	Alpha Barrel Cannon
-65300682768496	Gamma Barrel Cannon
-66571993088112	Rune-Engraved Rock
-6704798520081121392	Large Pavis Leather Gloves
-6710262560295223408	Exclaire Barding
-67430986547312	Aeserion Spear
-67435281514608	Reckoning
-67439576481904	Grasping Moon
-67443871449200	Frostfang
-67448166416496	Spear of the Fleeting
-67456756351088	Diverging Moon
-67461051318384	Circling Moon
-67535070784651376	Dreer Plate Armor
-6779758206341087344	Golden Fire
-68294274973808	Frozen Anguish
-68298569941104	Hound
-68302864908400	Twisted Verdict
-68723771703408	Ashen Execution
-68732361638000	Sanguine Knell
-6894008592727277680	Levin Plate Armor
-6898678682466910320	Patten's Leather Gloves
-6906379438569554032	Blacksteel Roshee Plate Armor
-6971729650900795504	Calio's Leather Gloves
-6977676466913804400	Meyer Plate Armor
-7092751113358671984	Blacksteel Ratti Plate Gloves
-7117024524758941808	Inquisitor's Plate Helm
-7194141568796721264	Orc Blaster
-7194141573091688560	Steel Blaster
-7194141577386655856	Reinforced Steel Blaster
-723051576708563056	Killian Plate Armor
-7291441978418397296	Large Enratte Plate Helm
-7329306891136270448	Kinloch Plate Armor
-7440012396199936112	Levin Plate Armor
-7633826282945380464	Rhogo Plate Armor
-7660060213772288112	Romund Plate Armor
-7721337143544512624	Meyer Plate Armor
-7806228443460272240	Blacksteel Lattua Plate Boots
-7809981226969727088	Dundree Plate Armor
-7861209178809827440	Large Clays Leather Boots
-8012408365684621424	Kinross Plate Armor
-8057664217039241328	Blacksteel Coogan Plate Armor
-8240636824645533808	Demenissian Soldiers' Brimstone Gas Mask
-8303593494652387440	Inquisitor's Plate Helm
-8396906211823321200	Grotevant Plate Helm
-85873576116336	Breath of the Abyss
-85877871083632	Spirit of the Abyss
-85882166050928	Vitality of the Abyss
-858997754167408	Grey Wolf's Sword
-859083653513328	Glenmore Sword
-859096538415216	Sydmon Sword
-859143783055472	Wells Sword
-859203912597616	Alabaster Curved Sword
-859212502532208	Varnian Sword
-859216797499504	Knightlord's Sword
-859221092466800	Fallen Kingdom's Sword
-859302696845424	Melted Ambition
-859324171681904	Volono Sword
-859328466649200	Peltree Sword
-862863224733808	White Wind Rapier
-862867519701104	Hollow Visage
-862876109635696	Dekarr Sword
-862919059308656	Sword of the Lord
-862931944210544	Spada Sword
-862940534145136	Acria Sword
-862949124079728	Legionary's Gladius
-862953419047024	Survivor's Solitude
-862962008981616	Shackle of Might
-863301311398000	Inquisitor's Rapier
-863305606365296	Grace Rapier
-863309901332592	Leonne Rapier
-863314196299888	Brass Rose Rapier
-863318491267184	Fallen Noble's Rapier
-863322786234480	Volono Rapier
-863327081201776	Fallen Kingdom's Rapier
-863331376169072	Elemore Rapier
-863335671136368	Dueling Rapier
-863339966103664	Gilliam Rapier
-863344261070960	Lambert Rapier
-863348556038256	Rapier of Amity
-863352851005552	Elenore Rapier
-863370030874736	Liberre Rapier
-8675116429273464944	Delinell's Leather Gloves
-8798741144423891056	Blacksteel Mottie Plate Helm
-8818799895826661488	Bleed Bandits' Makeshift Gas Mask
-8839645691396489328	Vennebis Plate Armor
-8858467999024152688	Condemner's Plate Armor
-889366213786861680	Bandit's Scale Leather Gloves
-8917868689512988784	Katunan Chain Mail
-8992792491321196656	Brejin Plate Armor
-8996562218476634224	Grotevant Plate Gloves
-901956017062000	Bekker Axe
-901981786865776	Lanford Axe
-901990376800368	Lambert Axe
-901998966734960	Gilliam Axe
-902041916407920	Maeve Axe
-902067686211696	Rhias's Axe
-902093456015472	Kylus Axe
-902136405688432	Tardik Axe
-902162175492208	Delonde Axe
-902187945295984	Leofric Double-Headed Axe
-902196535230576	Black Iron Axe
-902248074838128	Timberham Axe
-902265254707312	Crow Brothers Axe
-902273844641904	Parashu Axe
-902282434576496	Ring of the Earth
-902286729543792	Silverwolf Axe
 9023739173798000	Sorin Plate Helm
 9023743468765296	Matarion Plate Helm
 9023747763732592	Langris Plate Helm
@@ -5865,85 +5831,109 @@
 9162050005631088	Shadowleaf Helm
 9162054300598384	Shadowleaf Gloves
 9162058595565680	Shadowleaf Boots
+11166966509207664	Light of the Battlefield Plate Armor
+11166996573978736	White Bloodwind Plate Helm
+11167043818618992	White Bloodwind Plate Gloves
+11167048113586288	Fluttering Radiance Plate Gloves
+11167052408553584	Light of the Battlefield Plate Gloves
+11167069588422768	White Bloodwind Leather Boots
+11167099653193840	Goldlight Plate Gloves
+11167108243128432	Goldlight Plate Helm
+11167112538095728	Goldlight Plate Boots
+11167116833063024	Raging Tempest's Plate Armor
+11167121128030320	Raging Tempest's Plate Helm
+11167125422997616	Raging Tempest's Plate Boots
+11167129717964912	Raging Tempest's Leather Gloves
+67535070784651376	Dreer Plate Armor
+276518962408194160	Wells Military Champron
+310989639781449840	Desert Clays Leather Boots
+563100268686737520	Northern Freesword's Leather Gloves
+723051576708563056	Killian Plate Armor
+889366213786861680	Bandit's Scale Leather Gloves
+1035885922123513968	Blacksteel Spiddle Plate Armor
+1091536977313923184	Small Delesyian Banner Pike
+1319073903590506608	Russet Rhegis Leather Boots
+1434364200343306352	Scarlet Blades Gas Mask
+1532196335506161776	Pororin Petal Hat
+1539898543307751536	Lanauk Plate Armor
+1564689889109213296	Blacksteel Dumenis Plate Boots
+1597859002413219952	Crail Plate Armor
+1681559243473289328	White Horn's Earring
+1681559252063223920	Necklace of Lightning
+1681559303602831472	Oath of Darkness
+1681559307897798768	Mark of Darkness
+1681559312192766064	Relic of Darkness
+1681559320782700656	Karanda's Necklace
+1681559325077667952	Witch's Earring
+1681559329372635248	Seal of Pitch-Black Darkness
+1681559342257537136	Ancient Earring
+1681559346552504432	Ancient Ring
+1681559350847471728	Ancient's Necklace
+1703127164779495536	Bleed Bandits' Gas Mask
+1811197836256084080	Mentz Plate Helm
+2355793221168136304	Rhegis Leather Boots
+2589973173361442928	Large Rhegis Leather Boots
+2591869818034454640	Blacksteel Renkshaw Plate Helm
+2609680446115545200	Heavy Bucket
+2808099654493798512	Worn Sarantos Leather Boots
+2851662060373147760	Blacksteel Descao Plate Helm
+2995175360322076784	Grotevant Plate Boots
+3083646326500491376	Blacksteel Spiddle Plate Armor
+3117835747940368496	Canusti Plate Armor
+3251828544208109680	Crutch
+3341530332049440880	Kunan Plate Armor
+3512701889944748144	Dumenis Plate Helm
+3550753676689670256	Blacksteel Longia Plate Helm
+4233774719385469040	Valkyder Plate Armor
+4257868012742246512	Edzel Plate Armor
+4644006381769195632	Russet Pavis Leather Gloves
+4719841433903693936	Blacksteel Lotas Plate Helm
+4867475935361761392	Persein Leather Gloves
+4990507880600830064	Kenmore Plate Armor
+5029885523750027376	Bandit's Leather Greaves
+5068669241641664624	Empty Pack
+5255562342640386160	Pavis Leather Boots
+5780346486525001840	Jar Lid
+5906878924599591024	Wide Basket
+6300844201508601968	Dunverline Plate Armor
+6320293810584682608	Beaked Plate Helm
+6327985392637182064	Grotevant Plate Armor
+6371401357311606896	Inquisitor's Plate Helm
+6463569139280642160	Solumen Priest's Big Staff
+6516250194521096304	Cacoreum Leather Gloves
+6704798520081121392	Large Pavis Leather Gloves
+6710262560295223408	Exclaire Barding
+6779758206341087344	Golden Fire
+6894008592727277680	Levin Plate Armor
+6898678682466910320	Patten's Leather Gloves
+6906379438569554032	Blacksteel Roshee Plate Armor
+6971729650900795504	Calio's Leather Gloves
+6977676466913804400	Meyer Plate Armor
+7092751113358671984	Blacksteel Ratti Plate Gloves
+7117024524758941808	Inquisitor's Plate Helm
+7194141568796721264	Orc Blaster
+7194141573091688560	Steel Blaster
+7194141577386655856	Reinforced Steel Blaster
+7291441978418397296	Large Enratte Plate Helm
+7329306891136270448	Kinloch Plate Armor
+7440012396199936112	Levin Plate Armor
+7633826282945380464	Rhogo Plate Armor
+7660060213772288112	Romund Plate Armor
+7721337143544512624	Meyer Plate Armor
+7806228443460272240	Blacksteel Lattua Plate Boots
+7809981226969727088	Dundree Plate Armor
+7861209178809827440	Large Clays Leather Boots
+8012408365684621424	Kinross Plate Armor
+8057664217039241328	Blacksteel Coogan Plate Armor
+8240636824645533808	Demenissian Soldiers' Brimstone Gas Mask
+8303593494652387440	Inquisitor's Plate Helm
+8396906211823321200	Grotevant Plate Helm
+8675116429273464944	Delinell's Leather Gloves
+8798741144423891056	Blacksteel Mottie Plate Helm
+8818799895826661488	Bleed Bandits' Makeshift Gas Mask
+8839645691396489328	Vennebis Plate Armor
+8858467999024152688	Condemner's Plate Armor
+8917868689512988784	Katunan Chain Mail
+8992792491321196656	Brejin Plate Armor
+8996562218476634224	Grotevant Plate Gloves
 9190122474518347888	Dalbich Plate Armor
-9448928051312	Stub Arrow
-944901395054704	Kadel Mace
-944909984989296	Kordaav Mace
-944918574923888	Marching Baton
-944922869891184	Lanford Mace
-944927164858480	Frozen Soul
-944944344727664	Octarr's Legacy
-944952934662256	Rogue's Mace
-944970114531440	Wells Mace
-944974409498736	Bonepit Mace
-944982999433328	Alabaster Mace
-944987294400624	Balton Mace
-944991589367920	Iris Mace
-94515050315888	Wine
-94527935217776	Holy Water
-949187772416112	Aeserion Mace
-987855362982000	Varnian Dagger
-987967032131696	Bekker Dagger
-988095881150576	Alabaster Dagger
-988113061019760	Dagger of Dark Pursuit
-988121650954352	Crow Brothers Dagger
-988156010692720	Ator's Finger
-991712243613808	Kylus Dagger
-991729423482992	Sydmon Dagger
-991746603352176	Delesyian Dagger
-991755193286768	Dekarr Dagger
-991780963090544	Pailunese Riteblade
-992137445376112	Aeserion Dagger
-214752659767408	Arrow
-4302891510661232	Dart
-4299923688259696	Poison Frog
-4299932278194288	Toad
-3251316012875888	Peony
-3251328897777776	Pansy
-3098823199031408	Garnet
-3049431075127408	Timber
-3006481402167408	Cloth Piece
-4299764774469744	Fleece
-4298630903103600	Fang
-4297810564350064	Ivory
-4302294510207088	Peas
-3221242651869296	Beans
-3221234061934704	Wheat
-3221307076378736	Corn
-3221302781411440	Oats
-4302157071253616	Fig
-3221354321018992	Peach
-3221251241803888	Apple
-3221259831738480	Grape
-4302169956155504	Cacao
-3221328551215216	Onion
-3226001475633264	Flax
-4301697509752944	Turnip
-43091406880880	Honey
-3242764732989552	Egg
-90271622627440	Milk
-3221264126705776	Acorn
-3229819701559408	Salt
-3229828291494000	Sugar
-94523640250480	Water
-90275917594736	Fine Jerky
-124128849821808	Bread
-94519345283184	Beer
-4297763319709808	Toasted Grains
-4297316643111024	Cogwheel
-4302882920726640	Pear
-859053588742256	Torch
-4295766159917168	Goldleaves' Cloth Armor
-4296182771744880	Goldleaves' Cloth Cloak
-4295779044819056	Goldleaves' Cloth Armor
-4296187066712176	Goldleaves' Cloth Cloak
-4295770454884464	Nibrak Cloth Armor
-15797375398179767453	Garnet
-4294967408	Copper
-4294967410	Silver
-47244640368	Camp Funds
-51539607664	Camp Food
-55834574960	Camp Timber
-60129542256	Camp Stone
-3094553229787184	Gold Bar
-12130294615337075856	Ginseng

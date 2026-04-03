@@ -1,126 +1,169 @@
-1030796446007408	Tardik Langschwert
-1030860870516848	Wildes Langschwert
-1030869460451440	Balton Langschwert
-1030873755418736	Tauhafen-Langschwert
-1030878050386032	Thalwynd Langschwert
-1030890935287920	Iris Langschwert
-1030903820189808	Rhetts Langschwert
-1030916705091696	Gefäß der Finsteren Jagd
-1030921000058992	Gerechtes Urteil
-1030925295026288	Großschwert der absoluten Gerechtigkeit
-1030938179928176	Sydmon-Langschwert
-1030972539666544	Ignir
-1030976834633840	Delesyisches Langschwert
-1035087118336112	Aeserion-Langschwert
-1035095708270704	Dandelion-Langschwert
-1035885922123513968	Schwarzstahl-Spiddle-Plattenpanzer
-1073801953542256	Unfertiges Meisterwerk
-1073806248509552	Tardik-Großaxt
-1073810543476848	Iris-Großaxt
-1073814838444144	Gorthak-Großaxt
-1073823428378736	Troll-Hakengroßaxt
-1073827723346032	Kylus' Großaxt
-1073832018313328	Knochengrube-Großaxt
-1073836313280624	Fächerblatt-Großaxt
-1073844903215216	Hufeisenklinge-Großaxt
-1073849198182512	Axt des Hunds
-1073853493149808	Holzfälleraxt von Pailune
-1073862083084400	Sigremon-Großaxt
-1078011021492336	Becker-Großaxt
-1078015316459632	Dekarr-Großaxt
-1078036791296112	Aeserion-Großaxt
-1091536977313923184	Delesyia-Bannerlanze (S)
+433791697008	Kupferbeutel
+442381631600	Leichter Kupferbeutel
+446676598896	Bedeutsamer Silberbeutel
+450971566192	Dicker Silberbeutel
+9448928051312	Stumpfpfeil
+18614388260976	Kaputtes Visione
+18618683228272	Kaputtes Visione
+18622978195568	Kaputtes Visione
+18657337933936	Kaputtes Visione
+18799071854704	Kaputtes Visione
+25769803776112	Inventarerweiterungswerkzeug
+25774098743408	Kleine Tasche
+25778393710704	Mittelgroße Tasche
+25782688678000	Extragroße Tasche
+25791278612592	Große Tasche
+36511516983408	Weißhorns Ring
+36515811950704	Ring der Blitze
+36524401885296	Ohrring der dunklen Magie
+36528696852592	Ogerring
+36532991819888	Ring der Hexe
+36545876721776	Blütenblattohrringe
+37366215475312	Rote Jägerkettenrüstung
+37800007172208	Schneesturm-Kristallhalskette
+39092792328304	Hernand-Ehrengarde-Rüstung
+39097087295600	Tarivs Stoffkleidung
+39517994090608	Tariv-Stoffschuhwerk
+39951785787504	Tariv-Stoffhandschuhe
+40372692582512	Beonecks Stoffkappe
+40376987549808	Brennende Himmel Stoffkappe
+40381282517104	Hut des Priesters Halsius
+40806484279408	Marnis Panzer-Handkanone
+40810779246704	Mechanische Uhrwerk-Handkanone
+40832254083184	Handkanone Nr. 8
+40836549050480	Wyvern-Handkanone
+43061342109808	Laterne
+43091406880880	Honig
+43134356553840	Glänzend blaue Meereslaterne
+43138651521136	Shroud-Laterne
+43142946488432	Ausgefallene Laterne mit Flammenmuster
+43147241455728	Dunkle Nebellaterne
+43151536423024	Flammenlaterne
+47248935223408	Angelrute
+52415780880496	Maydocs Lederrüstung
+52420075847792	Vildyne Lederrüstung
+52424370815088	Adoratt Lederrüstung
+52428665782384	Colbill Lederrüstung
+52432960749680	Coby Lederrüstung
+52437255716976	Sherborn Lederrüstung
+52471615455344	„Dürstender Reißzahn“-Lederrüstung
+52475910422640	Helfryn Lederrüstung
+52480205389936	Wiesel-Lederrüstung
+52840982642800	Schlammverschmierte Sarantos Lederstiefel
+52845277610096	Große Rhegis Lederstiefel
+52853867544688	„Dürstender Reißzahn“-Lederstiefel
+52858162511984	Carta Plattenstiefel
+52862457479280	Hernand-Ehrengarde-Schuhe
+52866752446576	Wiesel-Lederstiefel
+52871047413872	Scholastein-Stiefel
+52875342381168	Hernandianische Bankett-Lederstiefel
+52879637348464	Imkerstiefel
+53270479372400	Roter Reiter Lederhandschuhe
+53274774339696	Große Pavis-Lederhandschuhe
+53283364274288	Schwarzfeder-Lederhandschuhe
+53287659241584	Lederhandschuhe des lodernden Himmels
+53291954208880	„Dürstender Reißzahn“-Lederhandschuhe
+53296249176176	Hernands Ehrengarde-Handschuhe
+53300544143472	Helfryn Lederhandschuhe
+53304839110768	Wiesel-Lederhandschuhe
+53309134078064	Carta Lederhandschuhe
+53313429045360	Imkerhandschuhe
+53317724012656	Bollin Lederhandschuhe
+53712861003888	Silberfang-Mütze
+54116587929712	Doppelklingenaxt der Gier
+54550379626608	Göttliche Echos Bogen
+54554674593904	Bogen der Adligen
+55405078118512	Schatzdolch des Goblinkönigs
+56693568307312	Flegel des Vergänglichen
+56697863274608	Keule der Marni-Anhänger
+56702158241904	Streitkolben der Entschlossenheit
+57127360004208	Marnis Muskete
+57140244906096	Demeniss Heldenmuskete
+57982058496112	Königlicher Eid
+58411555225712	Panzer des Vergänglichen
+58428735094896	Balgran-Schild
+58433030062192	Delesyia-Zierschild
+59309203390576	Nazk-Schwert
+59313498357872	Schwert der klirrenden Kälte
+59317793325168	Aeserion-Schwert
+59322088292464	Schwert des Vergänglichen
+59704340381808	Frostknochenschild
+60563333841008	Platten-Körperpanzerung der verfluchten Seele
+60567628808304	Plattenpanzer des Roten Reiters
+60571923775600	Meyer Plattenpanzer
+60576218742896	Spiddle Plattenpanzer
+60597693579376	Platten-Körperpanzerung des gefrorenen Herzens
+60988535603312	Platten-Schuhwerk des dunklen Henkers
+60992830570608	Platten-Schuhwerk der verfluchten Seele
+60997125537904	Gefrorene Plattenstiefel des Fluchs
+61418032332912	Plattenhandschuhe des dunklen Henkers
+61422327300208	Plattenhandschuhe der verfluchten Seele
+61426622267504	Rote Jägerkettenhandschuhe
+61435212202096	Plattenhandschuhe des gefrorenen Herzens
+61439507169392	Messingwächter-Plattenhandschuhe
+61443802136688	Pailunische Handschuhe
+61847529062512	Plattenhelm des Wanderers des Glaubens
+61851824029808	Plattenhelm der verfluchten Seele
+61856118997104	Roter Reiter Plattenhelm
+61860413964400	Plattenhelm der Demeniss-Wache
+61864708931696	Plattenhelm der Demeniss-Wache
+61869003898992	Roter Jägerplattenhelm
+61873298866288	Descao Plattenhelm
+61877593833584	Plattenhelm der Demeniss-Wache
+61894773702768	Kopfbedeckung der Helms-Käfer
+61899068670064	Die Helms Hornisse Kopfbedeckung
+61903363637360	Die Helms – Stier-Kopfbedeckung
+61911953571952	Schwarzfeder-Plattenmaske
+61916248539248	Plattenhelm des frostigen Fluchs
+61920543506544	Carta Plattenhelm
+62277025792112	Alphawolf-Kopfbedeckung
+62281320759408	Alphabären-Mütze
+62307090563184	Schwarzbären-Gasmaske
+62319975465072	Visione
+62324270432368	Massenproduzierte Visione
+63148904153200	Aeserion-Großhammer
+63157494087792	Bringer der Finsternis
+63161789055088	Rad des letzten Läutens
+63995012710512	Studentenrucksack
+64424509440112	Aeserion-Hellebarde
+64854006169712	Erdspalter
+65283502899312	Ausgezeichnete Rhinard-Kanone
+65292092833904	Kaiserliche Chongtong-Kanone
+65300682768496	Geheimwaffe Chongtong-Kanone
+66571993088112	Runenverzierter Fels
+67430986547312	Aeserion-Speer
+67435281514608	Vergeltung
+67439576481904	Mondhaken
+67443871449200	Frost-Fangzahn
+67448166416496	Speer der Vergänglichkeit
+67456756351088	Gespaltener Mond
+67461051318384	Gespaltener Mond
+68294274973808	Gefrorene Qual
+68298569941104	Bluthund
+68302864908400	Verzerrtes Urteil
+68723771703408	Aschgraue Exekution
+68732361638000	Blutiges Totengeläut
+85873576116336	Hauch des Abyss
+85877871083632	Geist des Abyss
+85882166050928	Vitalität des Abyss
+90271622627440	Milch
+90275917594736	Ausgezeichnetes Trockenfleisch
+94515050315888	Obstwein
+94519345283184	Bier
+94523640250480	Wasser
+94527935217776	Weihwasser
 111295487541360	Vogelfleischsuppe
 111299782508656	Langhornsuppe
 111329847279728	Hirschgeweih-Tee
 111334142247024	Fruchtsaft
-11166966509207664	Platten-Körperpanzerung des Lichts des Schlachtfelds
-11166996573978736	Weiße Blutwind-Plattenkopfbedeckung
-11167043818618992	Weiße Blutwind-Plattenhandschuhe
-11167048113586288	Wehende reinweiße Plattenhandschuhe
-11167052408553584	Plattenhandschuhe des Schlachtfeldlichts
-11167069588422768	Weißes Blutwind-Lederschuhwerk
-11167099653193840	Goldene Strahlenglanz-Plattenhandschuhe
-11167108243128432	Goldstrahlende Plattenkopfbedeckung
-11167112538095728	Platten-Schuhwerk des goldenen Lichts
-11167116833063024	Platten-Körperpanzerung der Tobenden Stürme
-11167121128030320	Plattenhelm der Tobenden Stürme
-11167125422997616	Plattenstiefel der Tobenden Stürme
-11167129717964912	Lederhandschuhe der Tobenden Stürme
-1116721561731184	Becker-Streithammer
-1116725856698480	Salzstraßen-Streithammer
-1116747331534960	Knochengrube-Streithammer
-1116751626502256	Thalwynd-Streithammer
-1116755921469552	Kaktus-Streithammer
-1116768806371440	Arlem-Streithammer
-1116773101338736	Arlen-Streithammer
-1116777396306032	Zargan-Streithammer
-1116803166109808	Tardik Streithammer
-1116811756044400	Iris Streithammer
-1116820345978992	Gorthak-Streithammer
 111716394336368	Korallenpilztee
 111733574205552	Starkriechender Ritterlingtee
 111737869172848	Pasaniapilztee
 111815178584176	Honigtee
-1120986464256112	Aeserion-Streithammer
-1138170628407408	Plündererhellebarde
-1138174923374704	Alabasterhellebarde
-1138179218342000	Iris-Hellebarde
-1138183513309296	Lambert-Hellebarde
-1138187808276592	Gilliam-Hellebarde
-1138192103243888	Knochengrube-Hellebarde
-1138196398211184	Söldner-Hellebarde
-1138200693178480	Becker Hellebarde
-1138209283113072	Celestes Hellebarde
-1138213578080368	Goldene Vorhut
-1159645464887408	Rosemond-Pistole
-1159649759854704	Jemel-Pistole
-1159654054822000	Falconne-Pistole
-1159658349789296	Vilancia-Pistole
-1159688414560368	Pistole „Schatten der Vergangenheit“
-1159697004494960	Caliburns Gnadenpistole
 119967026511984	Gegrilltes Vogelfleisch mit Salz
-1202595137847408	Arlen-Muskete
-1202599432814704	Becker-Muskete
-1202603727782000	Delesyische Muskete
-1202608022749296	Wells-Muskete
-1202612317716592	Leofric Muskete
-1202663857324144	Muskete der Helms
-1202668152291440	Pailunische Muskete
-1202672447258736	Gustav-Muskete
 120602681671792	Gesalzener gegrillter Fisch
+124128849821808	Brot
 124197569298544	Weiches Früchtebrot
-1245544810807408	Balton Schild
-1245600645382256	Iris Schild
-1245613530284144	Sydmon-Rundschild
-1245626415186032	Spiegel der Nacht
-1245630710153328	Drake Schild
-1245639300087920	Aufsteigender Pfeil-Schild
-1245652184989808	Hirschkönigs Schild
-1245785328975984	Dekarr-Schild
-1245789623943280	Sydmon-Dr
-1245927062896752	Tardik Schild
-1245931357864048	Tauhafen-Schild
-1246025847144560	Schild eines blühenden Frühlingstags
-1246030142111856	Demenissianischer Schild der Tapferkeit
-1246034437079152	Demenissianischer Schild der Loyalität
-1246038732046448	Demenissianischer Schild des Gehorsams
-1247696589422704	Gilliam Großschild
-1247700884390000	Lifsoth Großschild
-1247705179357296	Kriegsdorn Verstärkter Großschild
-1247713769291888	Thalwynd Großschild
-1247722359226480	Lucon Großschild
-1247726654193776	Rhonid Großschild
-1247730949161072	Balton Großschild
-1247735244128368	Rekel Großschild
-1247752423997552	Lanford-Großschild
-1247756718964848	Die Lachende Marionette Schild
-1247786783735920	Becker Großschild
-1247799668637808	Massenproduzierter Rekel Großschild
-1247821143474288	Rekel Großer Dornenschild
-1247825438441584	Kriegsdorn Großschild
-1247829733408880	Demenissianischer Soldat Großschild
-1249822598234224	Großschild der Speerträger-Legion
 126705830199408	Löffelstör
 126710125166704	Siebenkiemerhai
 126714420134000	Riesenrotmeerbrasse
@@ -167,18 +210,6 @@
 128071629799536	Karausche
 128075924766832	Uhrwerkfisch
 128080219734128	Flusskrebs
-1288494483767408	Goldknoten-Ahnenbogen
-1288498778734704	Dekkar-Bogen
-1288503073702000	Becker-Bogen
-1288507368669296	Bogen der Boten der Dämmerung
-1288541728407664	Tardik Bogen
-1288546023374960	Kylus-Bogen
-1288550318342256	Sydmon-Bogen
-1288554613309552	Blutstahlbogen
-1288567498211440	Tommasoischer Bogen
-1288571793178736	Kriegsdorn Bogen
-1288588973047920	Bogen der strahlenden Seele
-1288704937164912	Weißholzbogen
 128891968553072	Schießpulver
 128917738356848	Delesyischer Obstwein
 128943508160624	Schmiermittel
@@ -186,74 +217,7 @@
 129068062212208	Leuchtfeuer-Türschlüssel
 129102421950576	Schlüssel zum Eisentor
 129123896787056	Gefängnisschlüssel
-1292785156096112	Aeserion-Bogen
-1292789451063408	Bogen des Roten Wächters
-1319073903590506608	Rotbraune Rhegis Lederstiefel
-1331474221498480	Sydmon-Speer
-1331478516465776	Alfonso-Speer
-1331491401367664	Kylus' Speer
-1331495696334960	Alabasterspeer
-1331517171171440	Kriegsdorn-Speer
-1331538646007920	Speer des Sägezahn-Zerstörers
-1331542940975216	Speer der Gerechtigkeit
-1331547235942512	Valgashs unvollendetes Werk
-1331560120844400	Dorn der Finsteren Jagd
-1331573005746288	Dreizack des Nordwinds
-1331590185615472	Speer des Verräters
-1331607365484656	Stab der Vergänglichkeit
-1374393829687408	Hyde-Armbrust
-1374398124654704	Südländischer Wandertrolls Armbrust
-1417343502647408	Rhinard Kanone
-1417347797614704	Elektromagnetischer Flammenspeier
-1417352092582000	Elektromagnetischer Frostspeier
-1434364200343306352	Rotklingen-Gasmaske
-1532196335506161776	Pororin-Blütenmütze
-1539898543307751536	Lanauk Plattenpanzer
-1564689889109213296	Schwarzstahl-Dumenis-Plattenstiefel
-1589142194487408	Pailune-Schrotflinte
-1589146489454704	Tauhafen-Schrotflinte
-1589150784422000	Mortimer-Schrotflinte
-1589155079389296	Metilbahm-Schrotflinte
-1589159374356592	Delesyia-Schrotflinte
-1589163669323888	Blut-Schrotflinte
-1589167964291184	Dane-Schrotflinte
-1597859002413219952	Crail Plattenpanzer
-1634239351095408	Demeniss-Bannerlanze (S)
-1634252235997296	Königliches Jagdrevier-Bannerlanze (S)
-1634260825931888	Schwarzbären-Bannerlanze (S)
-1681559243473289328	Weißhorns Ohrringe
-1681559252063223920	Halskette des Donners
-1681559303602831472	Eid der Dunkelheit
-1681559307897798768	Mal der Finsternis
-1681559312192766064	Reliquie der Dunkelheit
-1681559320782700656	Karandas Halskette
-1681559325077667952	Hexen-Ohrring
-1681559329372635248	Siegel der pechschwarzen Dunkelheit
-1681559342257537136	Ohrring der Ältesten
-1681559346552504432	Uralter Ring
-1681559350847471728	Halskette der Ältesten
-1703127164779495536	Blut-Banditen-Gasmaske
-1717986918400112	Becker-Großhammer
-1717991213367408	Klaue des Goldenen Drachen
-1717995508334704	Großhammer des Feuers
-1717999803302000	Großhammer der Helms
-1718004098269296	Lanford-Großhammer
-1718008393236592	Knochengrube-Großhammer
-1760945181294704	Vulkan-Handkanone
-1760953771229296	Kupfer-Knöchelbohrer
-1760970951098480	Wütende Wellen Panzerhandschuh
-1760975246065776	Panzerhandschuh der Eisenfäuste
-1760983836000368	Muskans Oberkörperklon
-1760988130967664	Muskans Unterkörperklon
-1811197836256084080	Mentz Plattenhelm
-1846840232247408	Schlafnadel
-18614388260976	Kaputtes Visione
-18618683228272	Kaputtes Visione
-18622978195568	Kaputtes Visione
-18657337933936	Kaputtes Visione
-18799071854704	Kaputtes Visione
-2147487942967408	Großaxt des Inquisitors
-2147505122836592	Gemusterte Steinaxt
+214752659767408	Pfeil
 214761249702000	Giftpfeil
 214795609440368	Pfeifender Pfeil
 214993177935984	Pfeilbündel
@@ -273,19 +237,1238 @@
 227701986164848	Kuku-Eisentopf
 227770705641584	Haftbombe
 227779295576176	Zeitbombe
-2355793221168136304	Rhegis Lederstiefel
-25769803776112	Inventarerweiterungswerkzeug
+300690660393072	Alte Holzpuppe
+322122547200112	Das Erste Artefakt
+322126842167408	Abyss-Artefakt
+322131137134704	Verblasstes Abyss-Artefakt
+322552043929712	Graumähnen Marke
+343601678647408	Rezept: Gedämpftes Fleisch
+343610268582000	Rezept: Früchtetee
+345341140402288	Rezept: Vogelfleischsuppe
+345366910206064	Rezept: Hirschgeweih-Tee
+345371205173360	Rezept: Fruchtsaft
+345766342164592	Rezept: Korallenpilztee
+345783522033776	Rezept: Starkriechender Ritterlingtee
+345787817001072	Rezept: Pasaniapilztee
+345869421379696	Rezept: Honigtee
+347084897124464	Rezept: Gegrilltes Vogelfleisch mit Salz
+433795991863408	Rekhia Plattenhelm
+433800286830704	Bolton Plattenhelm
+433804581798000	Cassius Mortens Plattenhelm
+433826056634480	Eisflügel-Plattenhelm
+433830351601776	Helm des Willens von Ator
+433838941536368	Ferman Plattenhelm
+433843236503664	Keredegs Plattenhelm
+433847531470960	Ferenna Plattenhelm
+433851826438256	Grace Plattenhelm
+433856121405552	Flynn Plattenhelm
+433860416372848	Crudil Plattenhelm
+433869006307440	Berin Plattenhelm
+433907661013104	Bestienmann Knochenhelm
+433924840882288	Rodderham Plattenhelm
+433937725784176	Taos Plattenhelm
+433989265391728	Tarandus Plattenhelm
+433997855326320	Standard-Kopfbedeckung der Musketen-Grenzschützer
+434002150293616	Lotas Plattenhelm
+434019330162800	Ledermütze der Schwarzbären
+434023625130096	Chelcia Plattenhelm
+434032215064688	Aschenflammen-Plattenhelm
+434036510031984	Inyr Plattenhelm
+434040804999280	Rueconec Plattenhelm
+434045099966576	Calio Plattenhelm
+434057984868464	Ashford Plattenhelm
+434083754672240	Lyfellen Plattenhelm
+434105229508720	Kiatus Plattenhelm
+434122409377904	Rahbae Plattenhelm
+434126704345200	Goldzweigkrone
+434178243952752	Vduer-Plattenhelm
+434208308723824	Laehbern Plattenhelm
+434212603691120	Offenberg Plattenhelm
+434225488593008	Ashad Plattenhelm
+434229783560304	Solas Plattenhelm
+434242668462192	Ulrich Plattenhelm
+434259848331376	Paizel Knochenhelm
+434268438265968	Plattenhelm der Gesichtslosen
+434272733233264	Bayer Plattenhelm
+434277028200560	Bolgan Plattenhelm
+434281323167856	Dernat Plattenhelm
+434285618135152	Dondegobi Plattenhelm
+434294208069744	Plattenhelm der nordischen Kämpfer
+434307092971632	Casinian Plattenhelm
+434315682906224	Canta Plattenhelm
+434328567808112	Tanion Plattenhelm
+434371517481072	Antra Plattenhelm
+434375812448368	Laterna Plattenhelm
+434380107415664	Zachar Plattenhelm
+434384402382960	Plattenhelm des unbeugsamen Kriegers
+434388697350256	Tartry Plattenhelm
+434397287284848	Rapps Plattenhelm
+434401582252144	Biconio Plattenhelm
+434427352055920	Kuruas Plattenhelm
+438095254126704	Nahus Kettenhaube
+438099549094000	Kadallons Kettenhaube
+438103844061296	Tailan Plattenhelm
+442403106324592	Nevin-Stoffbandana
+442424581161072	Leontyne Plattenhelm
+442480415735920	Lederhelm des gefallenen Königreichs
+442506185539696	Stumpf-Plattenhelm
+442523365408880	Melvins Lederhelm
+442531955343472	Helm der treuen Freundschaft
+442536250310768	Rondels Lederhelm
+442557725147248	Lederhelm von Lacrunias
+442583494951024	Rueconecs Lederhelm
+442592084885616	Agathas Lederhelm
+442626444623984	Dimfelds Lederhelm
+442639329525872	Daveeds Lederhelm
+442660804362352	Lutinas' Lederhelm
+442682279198832	Lederhelm von Lanweiter
+442759588610160	Lederhelm von Uphren
+442785358413936	Arkhan-Lederhelm
+442793948348528	Ledans Lederhelm
+442828308086896	Dekters Lederhelm
+442832603054192	Lederhelm von Shellus
+442862667825264	Scholastein-Kappe
+446736728326256	Bollin Stoffkappe
+446741023293552	Radein Stoffkappe
+446796857868400	Rueconec Stoffkappe
+446805447802992	Agatha Stoffkappe
+446882757214320	Baidans Stoffstirnband
+446904232050800	Calprise Stoffkappe
+446917116952688	Rigma Stoffstirnband
+446990131396720	Raveed Stoffkappe
+446994426364016	Duvidet Ringe
+447015901200496	Scobby Stoffstirnband
+447033081069680	Fiore Stoffkappe
+447037376036976	Ataram Stoffkappe
+447058850873456	Gaurra Stoffkappe
+447063145840752	Jermill Stoffstirnband
+447076030742640	Torben Stoffkappe
+447088915644528	Ulman Stoffkappe
+447127570350192	Rahelm Stoffstirnband
+447131865317488	Stoffhelm der Wyvernflammen
+447136160284784	Muchia Stoffkappe
+447183404925040	Rockington Stoffkappe
+447191994859632	Deland Plattenhelm
+447200584794224	Ducriss Kegelkappe
+447234944532592	Lashiras Kutte
+447243534467184	Stoffkappe des Herrschers der schattigen Straßen
+447256419369072	Sianische Stoffkappe
+447260714336368	Karas Stoffstirnband
+447265009303664	Larkett Stoffkappe
+447269304270960	Lashir Stoffkappe
+447273599238256	Drish Stoffkappe
+447277894205552	Triloisches Stoffstirnband
+447290779107440	Ruckshi Stoffkappe
+447295074074736	Rhytrianische Stoffkappe
+447312253943920	Gadereich Stoffkappe
+447316548911216	Ludynn Stoffkappe
+447320843878512	Marc Stoffkappe
+447325138845808	Harker Stoffkappe
+447338023747696	Veronde Stoffkappe
+447342318714992	Ghaltain Stoffkappe
+447359498584176	Berghills Stoffkappe
+447363793551472	Meravan Stoffkappe
+447368088518768	Salimis Stoffkappe
+447385268387952	Yuzel Stoffkappe
+447402448257136	Pailunischer Hut
+447428218060912	Jester-Ledermaske
+447432513028208	Hasen-Ledermaske
+447466872766576	Drachenflammen-Helm
+447471167733872	Helm des Drachenritters
+476762844692592	Frostfluch-Plattenpanzer
+476784319529072	Inquisitors Plattenpanzer
+476908873580656	Tarandus Plattenpanzer
+476913168547952	Enus Plattenpanzer
+476956118220912	Grauwolf Lederrüstung
+477110737043568	Bodin Plattenpanzer
+477115032010864	Breemen Plattenpanzer
+477162276651120	Bekur Plattenpanzer
+477166571618416	Frente Plattenpanzer
+477170866585712	Corinne Plattenpanzer
+477175161553008	Takao Plattenpanzer
+477179456520304	Gwets Plattenpanzer
+477183751487600	Arkhan Plattenpanzer
+477188046454896	Yosef Plattenpanzer
+477192341422192	Andres Kettenpanzer
+477196636389488	Albert Plattenpanzer
+477200931356784	Emil Plattenpanzer
+477205226324080	Stoffrüstung von Schtump
+477209521291376	Svens Stoffrüstung
+477213816258672	Yakkovs Stoffrüstung
+477218111225968	Ernsts Kettenpanzer
+477226701160560	Stoffrüstung von Ditter
+477235291095152	Redman Plattenpanzer
+477239586062448	Schmidt Plattenpanzer
+477291125670000	Dreer Plattenpanzer
+477295420637296	Rhogo Plattenpanzer
+477299715604592	Roshee Plattenpanzer
+477304010571888	Romund Plattenpanzer
+477308305539184	Valkyder Plattenpanzer
+477312600506480	Killianischer Plattenpanzer
+477316895473776	Kenmore Plattenpanzer
+477321190441072	Kinloch Plattenpanzer
+477325485408368	Lanauk Plattenpanzer
+477329780375664	Spiddle Plattenpanzer
+477334075342960	Meyer Plattenpanzer
+477338370310256	Edzel Plattenpanzer
+477342665277552	Brejin Plattenpanzer
+477346960244848	Canusti Plattenpanzer
+477351255212144	Dundree Plattenpanzer
+477355550179440	Crail Plattenpanzer
+477359845146736	Levin Plattenpanzer
+477364140114032	Dunverline Plattenpanzer
+477368435081328	Kinross Plattenpanzer
+477372730048624	Demeniss-Ehrenrüstung
+477377025015920	Stoffrüstung von Avignon
+477385614950512	Arghais Stoffrüstung
+477389909917808	Stoffrüstung der Gesichtslosen
+477450039459952	Bolton Plattenpanzer
+477454334427248	Blackburn Plattenpanzer
+477458629394544	Reppin Plattenpanzer
+477462924361840	Ashad Plattenpanzer
+477467219329136	Solas Plattenpanzer
+477471514296432	Beverly Plattenpanzer
+477540233773168	Lemericks Kettenpanzer
+477544528740464	Lauers Kettenpanzer
+477548823707760	Senon Plattenpanzer
+477553118675056	Leighbog Plattenpanzer
+477557413642352	Galbons Kettenpanzer
+477561708609648	Brina Plattenpanzer
+477570298544240	Prix Plattenpanzer
+477574593511536	Serroa Plattenpanzer
+477583183446128	Dutiron Plattenpanzer
+477587478413424	Dutinion Plattenpanzer
+477591773380720	Endnion Plattenpanzer
+477596068348016	Dardnion Plattenpanzer
+477600363315312	Lavgnions Kettenpanzer
+477604658282608	Lucions Kettenpanzer
+477608953249904	Ludeon Plattenpanzer
+477613248217200	Cerruan Plattenpanzer
+477617543184496	Mahon Plattenpanzer
+477621838151792	Caliburns Plattenpanzer
+477643312988272	Rüstung der treuen Freundschaft
+477660492857456	Carta Plattenpanzer
+477673377759344	Ruwaite Plattenpanzer
+477677672726640	Russell Lederrüstung
+477681967693936	Ludus Plattenpanzer
+477720622399600	Antum Plattenpanzer
+477724917366896	Entum Plattenpanzer
+477729212334192	Sitanca Plattenpanzer
+477733507301488	Markman Plattenpanzer
+477737802268784	Kantona Plattenpanzer
+477742097236080	Lederrüstung von Lukin
+477754982137968	Lachianischer Plattenpanzer
+477759277105264	Lacata Plattenpanzer
+477763572072560	Eccanta Plattenpanzer
+477767867039856	Eclaon Plattenpanzer
+477772162007152	Egliss Plattenpanzer
+477776456974448	Ekklemen Plattenpanzer
+477780751941744	Ostent Plattenpanzer
+477785046909040	Oakley Plattenpanzer
+477797931810928	Dunion Plattenpanzer
+477802226778224	Manios Plattenpanzer
+477810816712816	Aschenflammen-Plattenpanzer
+477823701614704	Aeron Plattenpanzer
+477827996582000	Goldene Platten-Körperpanzerung der lüsternen Begierde
+477832291549296	Sliberplattenpanzer
+477836586516592	Sahazhad Plattenpanzer
+477840881483888	Jerrinmarne Plattenpanzer
+477845176451184	Eisflügel-Platten-Körperpanzerung
+481182366040176	Lodis Kettenpanzer
+481186661007472	Drivons Kettenpanzer
+481216725778544	Reddins Kettenpanzer
+481315510026352	Kallaris Kettenpanzer
+481319804993648	Tormands Kettenpanzer
+481324099960944	Hasets' Kettenpanzer
+481328394928240	Killis Kettenpanzer
+481332689895536	Valtons Kettenpanzer
+481349869764720	Lucnaons Kettenpanzer
+481358459699312	Lucnianischer Kettenpanzer
+481367049633904	Dunions Kettenpanzer
+481371344601200	Drachenflammen-Rüstung
+481375639568496	Plattenpanzer des Drachenritter-Kriegers
+481379934535792	Drachenritter-Kettenpanzer
+485365664186480	Twell Lederrüstung
+485430088695920	Schwarzflügel-Lederrüstung
+485455858499696	Benne Lederrüstung
+485468743401584	Lederrüstung von Somier
+485477333336176	Traleys Kettenpanzer
+485481628303472	Antumbra-Stoffrüstung
+485752211243120	Bestienmann Lederrüstung
+485954074706032	Harran Stoffrüstung
+487152370581616	Vyer Lederrüstung
+487156665548912	Dewey Lederrüstung
+487160960516208	Arqus Lederrüstung
+487165255483504	Dremel Lederrüstung
+487169550450800	Dyrel Lederrüstung
+487173845418096	Merly Lederrüstung
+487178140385392	Trudy Lederrüstung
+487182435352688	Dreban Lederrüstung
+487186730319984	Dellianische Lederrüstung
+487191025287280	Kenecks Lederrüstung
+487195320254576	Vierni Lederrüstung
+487199615221872	Blaines Lederrüstung
+487203910189168	Cyton Lederrüstung
+487264039731312	Wakhan Lederrüstung
+487268334698608	Valion Lederrüstung
+487272629665904	Plune Lederrüstung
+487276924633200	Rittem Lederrüstung
+487281219600496	Mocke Lederrüstung
+487285514567792	Chayten Lederrüstung
+487289809535088	Colatte Lederrüstung
+487294104502384	Katerm Lederrüstung
+487302694436976	Waldfee Rüstung
+487306989404272	Weiße Blutwind-Leder-Körperpanzerung
+487341349142640	Stoffrüstung von Pantafe
+487345644109936	Echebern Stoffrüstung
+487384298815600	Miliz-Stoffrüstung
+487388593782896	Pyrantha Stoffrüstung
+487392888750192	Torress Stoffrüstung
+487397183717488	Arandhal Stoffrüstung
+487405773652080	Toudon Stoffrüstung
+487410068619376	Lederrüstung von Cherke
+487414363586672	Blin Lederrüstung
+487457313259632	Dunqane Lederrüstung
+487461608226928	Elliot Lederrüstung
+487465903194224	Cuthbertson Lederrüstung
+487470198161520	Stoffrüstung von Buchanan
+487474493128816	Finneron Lederrüstung
+487478788096112	Torrance Lederrüstung
+487487378030704	Ohara Lederrüstung
+487491672998000	Conally Stoffrüstung
+487504557899888	Rexlan Stoffrüstung
+487513147834480	Tarmiden Stoffrüstung
+487521737769072	Seiden Lederrüstung
+487526032736368	Soron Lederrüstung
+487530327703664	Barunin Lederrüstung
+487577572343920	Gorg Lederrüstung
+487581867311216	Tauhafen-Lederrüstung
+487586162278512	Johannes Plattenpanzer
+487693536460912	Davis Lederrüstung
+487740781101168	Leder-Körperpanzerung des gefallenen Königreichs
+487770845872240	Mohills Lederrüstung
+487775140839536	Lunpherd Lederrüstung
+487779435806832	Islekk Lederrüstung
+487783730774128	Baladean Lederrüstung
+487788025741424	Navan Stoffrüstung
+487792320708720	Glosope Lederrüstung
+487796615676016	Norswich Lederrüstung
+487800910643312	Campo Lederrüstung
+487809500577904	Janiklo Lederrüstung
+487813795545200	Nellaccio Lederrüstung
+487818090512496	Dasala Lederrüstung
+487822385479792	Gerano Lederrüstung
+487826680447088	Pisonia Lederrüstung
+487830975414384	Paliano Lederrüstung
+487839565348976	Locasima Lederrüstung
+487843860316272	Corey Stoffrüstung
+487848155283568	Lariano Stoffrüstung
+487852450250864	Ranubio Lederrüstung
+487856745218160	Ardia Lederrüstung
+487861040185456	Antika Lederrüstung
+487865335152752	Oustia Lederrüstung
+487869630120048	Tarabe Lederrüstung
+487873925087344	Montlanico Lederrüstung
+487878220054640	Carpine Lederrüstung
+487895399923824	Kednry Lederrüstung
+487959824433264	Vainbridge Stoffrüstung
+488084378484848	Durains Kettenpanzer
+488088673452144	Latrions Kettenpanzer
+488092968419440	Senianisches Kettenhemd
+488105853321328	Tyrans Lederrüstung
+488110148288624	Tiron Lederrüstung
+488114443255920	Eshrun Lederrüstung
+488123033190512	Groucca Lederrüstung
+488135918092400	Hashaka Lederrüstung
+488140213059696	Hobbuca Lederrüstung
+488144508026992	Batangka Lederrüstung
+488153097961584	Greeney Lederrüstung
+488161687896176	Bulga Lederrüstung
+488165982863472	Barbaros Lederrüstung
+488174572798064	Lederrüstung der Graumähnen
+488178867765360	Nuslan Lederrüstung
+488183162732656	Ravirun Lederrüstung
+488187457699952	Mondianische Lederrüstung
+488191752667248	Saruen Lederrüstung
+488196047634544	Rubidan Lederrüstung
+488200342601840	Resianische Lederrüstung
+488213227503728	Larkson Lederrüstung
+488217522471024	Matana Lederrüstung
+488221817438320	Radianische Stoffrüstung
+488286241947760	Acrias Kettenpanzer
+488294831882352	Rotunso Lederrüstung
+488299126849648	Rombardina Lederrüstung
+488303421816944	Sicillion Lederrüstung
+488307716784240	Rhodelphine Lederrüstung
+488312011751536	Tallofer Lederrüstung
+488320601686128	Plattenpanzer des unbeugsamen Kriegers
+488324896653424	Meishod Stoffrüstung
+488329191620720	Valldren Lederrüstung
+488333486588016	Moldur Lederrüstung
+488337781555312	Churrchen Lederrüstung
+488342076522608	Saolo Lederrüstung
+488346371489904	Jevanars Lederrüstung
+488354961424496	Drossel Lederrüstung
+488359256391792	Dumenis Stoffrüstung
+488367846326384	Laplace Lederrüstung
+488372141293680	Radiano Lederrüstung
+488376436260976	Dorness Lederrüstung
+488380731228272	Undriga Lederrüstung
+488385026195568	Anderitz Lederrüstung
+488389321162864	Rapps Lederrüstung
+488393616130160	Cantars Lederrüstung
+488397911097456	Pictead Lederrüstung
+488402206064752	Varanguard Lederrüstung
+488406501032048	Scarteau Lederrüstung
+488410795999344	Huskall Lederrüstung
+488415090966640	Barbaroy Lederrüstung
+488419385933936	Kordaav Lederrüstung
+488423680901232	Lespedan Lederrüstung
+488427975868528	Lederrüstung von Stiv
+488432270835824	Dyrfrith Lederrüstung
+488436565803120	Stugrub Lederrüstung
+488440860770416	Barrette Lederrüstung
+488445155737712	Gaut Lederrüstung
+488462335606896	Bettert-Lederrüstung
+488466630574192	Schlitz Lederrüstung
+488470925541488	Binden Lederrüstung
+488475220508784	Auld Lederrüstung
+488479515476080	Mavin Lederrüstung
+488488105410672	Raspin Lederrüstung
+488492400377968	Duvelle Lederrüstung
+488496695345264	Karius Lederrüstung
+488500990312560	Slouwen Lederrüstung
+488505285279856	Bleawin Lederrüstung
+488513875214448	Trellianische Lederrüstung
+488518170181744	Lederrüstung des Sonnenuntergangstals
+488535350050928	Lederrüstung des namenlosen Weisen
+488543939985520	Ludynn Lederrüstung
+488548234952816	Reaks Lederrüstung
+488552529920112	Marc Lederrüstung
+488556824887408	Smilodon-Lederrüstung
+488561119854704	Noyvarn Lederrüstung
+488595479593072	Luverne Lederrüstung
+488599774560368	Galanta Lederrüstung
+488604069527664	Nelton Lederrüstung
+488608364494960	Brogue Lederrüstung
+488612659462256	Hodges Lederrüstung
+488616954429552	Ducca Lederrüstung
+488625544364144	Berker Lederrüstung
+488629839331440	Tatura Lederrüstung
+488634134298736	Tavat Lederrüstung
+488638429266032	Gomel Lederrüstung
+488642724233328	Enge Lederrüstung
+488647019200624	Tikkal Lederrüstung
+488651314167920	Murad Lederrüstung
+488655609135216	Dannon Lederrüstung
+488659904102512	Ulontai Lederrüstung
+488664199069808	Huron Lederrüstung
+488668494037104	Begill Lederrüstung
+488672789004400	Rigma Lederrüstung
+488677083971696	Verdesh Lederrüstung
+488681378938992	Herwin Lederrüstung
+488685673906288	Dekter Lederrüstung
+488689968873584	Lederrüstung von Guff
+488702853775472	Grommet Lederrüstung
+488707148742768	Ajures Lederrüstung
+488711443710064	Lederrüstung von Salimi
+488715738677360	Nehrut Lederrüstung
+488720033644656	Takkat Lederrüstung
+488724328611952	Whitley Lederrüstung
+488728623579248	Kaisan Lederrüstung
+488732918546544	Derrison Lederrüstung
+488758688350320	Berblin Lederrüstung
+488767278284912	Rote Rüstung eines Untergebenen des Riedteufels
+488771573252208	Gelbe Rüstung eines Untergebenen des Riedteufels
+488775868219504	Riedteufel Untergebener Rüstung
+490906171998320	Stoffrüstung von Cocotar
+490910466965616	Stoffrüstung von Tryah
+490914761932912	Ators Wille Stoffkörperpanzerung
+490919056900208	Stoffrüstung von Paifo
+491013546180720	Ancara Stoffrüstung
+491017841148016	Esbeth Stoffrüstung
+491022136115312	Muchia Stoffrüstung
+491026431082608	Stoffrüstung der Wyvernflammen
+491030726049904	Duizeh Stoffrüstung
+491035021017200	Izumit Stoffrüstung
+491039315984496	Mugleah Stoffrüstung
+491069380755568	Myrnen Stoffrüstung
+491073675722864	Bollin Stoffrüstung
+491077970690160	Livner Stoffrüstung
+491082265657456	Ruvib Stoffrüstung
+491086560624752	Stoffrüstung der Blut-Banditen
+491090855592048	Alsace Stoffrüstung
+491095150559344	Beralt Stoffrüstung
+491099445526640	Monterima Stoffrüstung
+491103740493936	Deorre Stoffrüstung
+491116625395824	Faians Stoffrüstung
+491129510297712	Concarr Stoffrüstung
+491142395199600	Luwea Stoffrüstung
+491146690166896	Stoffrüstung von Gael
+491150985134192	Bolgan Stoffrüstung
+491155280101488	Dernat Stoffrüstung
+491159575068784	Dondegobi Stoffrüstung
+491163870036080	Gobialta Stoffrüstung
+491168165003376	Orbus Stoffrüstung
+491172459970672	Hentree Stoffrüstung
+491176754937968	Stoffrüstung von Oubreve
+491181049905264	Harghai Stoffrüstung
+491215409643632	Telford Stoffrüstung
+491335668727920	Stoffrüstung von Daraz
+491404388204656	Denmores Stoffrüstung
+491408683171952	Telin Stoffrüstung
+491412978139248	Stoffrüstung von Calis
+491421568073840	Roshayne Stoffrüstung
+491425863041136	Stoffrüstung von Minnutan
+491434452975728	Drumfin Stoffrüstung
+491443042910320	Drimrow Stoffrüstung
+491464517746800	Stoffrüstung von Totte
+491473107681392	Radleys Stoffrüstung
+491477402648688	Lucion Stoffrüstung
+491481697615984	Senianische Stoffrüstung
+491503172452464	Stoffrüstung von Lackey
+491507467419760	Stoffrüstung von Kassa
+491511762387056	Stoffrüstung von Annis
+491524647288944	Stoffrüstung von Marka
+491528942256240	Stoffrüstung von Makri
+491593366765680	Stoffrüstung von Tyran
+491597661732976	Stoffrüstung von Tiron
+491601956700272	Tyrune Stoffrüstung
+491606251667568	Tarun Stoffrüstung
+491610546634864	Tynions Stoffrüstung
+491614841602160	Tanion Stoffrüstung
+491619136569456	Stoffrüstung von Neslan
+491623431536752	Stoffrüstung von Eshrun
+491636316438640	Deshret Stoffrüstung
+491649201340528	Stoffrüstung von Takana
+491657791275120	Lakshi Lederrüstung
+491670676177008	Ladran Stoffrüstung
+491674971144304	Nuslan Stoffrüstung
+491679266111600	Stoffrüstung von Ravirun
+491683561078896	Barianische Stoffrüstung
+491687856046192	Barcy Stoffrüstung
+491692151013488	Bartmun Stoffrüstung
+491696445980784	Orthu Stoffrüstung
+491700740948080	Stoffrüstung von Tohkar
+491705035915376	Verdinan Stoffrüstung
+491709330882672	Borsehir Stoffrüstung
+491713625849968	Keanoff Stoffrüstung
+491743690621040	Rhonid Stoffrüstung
+491747985588336	Pouhel Stoffrüstung
+491752280555632	Dillinger Stoffrüstung
+491756575522928	Eckney Stoffrüstung
+491786640294000	Stoffrüstung von Baratum
+491790935261296	Baritum Stoffrüstung
+491795230228592	Baras Stoffrüstung
+491803820163184	Baraccuro Stoffrüstung
+491825294999664	Barrow Stoffrüstung
+491829589966960	Bailao Stoffrüstung
+491833884934256	Barclao Stoffrüstung
+491842474868848	Stoffrüstung von Barch
+491863949705328	Bedure Kettenpanzer
+491872539639920	Rikshas Kettenpanzer
+491876834607216	Lathia Stoffrüstung
+491885424541808	Kennav Stoffrüstung
+491889719509104	Lancats Stoffrüstung
+491894014476400	Rangtua Stoffrüstung
+491898309443696	Nebin Stoffrüstung
+491902604410992	Ranphas Stoffrüstung
+491906899378288	Roctar Stoffrüstung
+491911194345584	Barbaroys Stoffrüstung
+491915489312880	Fiore Stoffrüstung
+491919784280176	Warstein Stoffrüstung
+491924079247472	Conentry Stoffrüstung
+491928374214768	Berkhia Stoffrüstung
+491932669182064	Austfeld Stoffrüstung
+491941259116656	Gaut Stoffrüstung
+491945554083952	Gadereich Stoffrüstung
+491949849051248	Ewen Stoffrüstung
+491954144018544	Stoff-Körperpanzerung von Primus, dem Ältesten
+491962733953136	Stoffrüstung von Diggs
+491967028920432	Raddler Stoffrüstung
+492001388658800	Volghad Stoffrüstung
+492005683626096	Ultar Stoffrüstung
+492009978593392	Dohann Stoffrüstung
+492014273560688	Bahlmers Stoffrüstung
+492018568527984	Tolkane Stoffrüstung
+492022863495280	Stoffrüstung von Bandide
+492027158462576	Dwelker Stoffrüstung
+492031453429872	Veronde Stoffrüstung
+492035748397168	Ruschelle Stoffrüstung
+492040043364464	Rosarduin Stoffrüstung
+492044338331760	Sherwood Stoffrüstung
+492048633299056	Eyratt Stoffrüstung
+492052928266352	Gruun Stoffrüstung
+492057223233648	Auron Stoffrüstung
+492065813168240	Salash Stoffrüstung
+492070108135536	Borman Stoffrüstung
+492074403102832	Berghill Stoffrüstung
+492078698070128	Hassal Stoffrüstung
+492082993037424	Meravan Stoffrüstung
+492087288004720	Chizhar Stoffrüstung
+492091582972016	Dahkavan Stoffrüstung
+492095877939312	Ziahl Stoffrüstung
+492100172906608	Amundule Stoffrüstung
+492104467873904	Sarendion Stoffrüstung
+492108762841200	Hysilda Stoffrüstung
+492113057808496	Stoffrüstung von Yorkey
+492117352775792	Dollette Stoffrüstung
+492121647743088	Verette Stoffrüstung
+492125942710384	Haillen Stoffrüstung
+492130237677680	Khalbdan Stoffrüstung
+492147417546864	Schillerbin Stoffrüstung
+492151712514160	Neblin Stoffrüstung
+492160302448752	Stoff-Körperpanzerung des lodernden Himmels
+492181777285232	Stoffrüstung der maskierten Befreierin
+492186072252528	Keller Stoffrüstung
+492203252121712	Pailunische Kleidung
+492220431990896	Stoffrüstung von Spetsahorn
+492224726958192	Stoffrüstung von Muddliss
+492229021925488	Delesyia-Stoffkleidung
+492233316892784	Stoffrüstung von Kang
+492237611860080	Zynianische Stoffrüstung
+492241906827376	Zamir Stoffrüstung
+492246201794672	Lubonon Stoffrüstung
+492250496761968	Denill Stoffrüstung
+492259086696560	Edle Stoffrüstung
+492267676631152	Odorrey Stoffrüstung
+492284856500336	Dega Stoffrüstung
+492302036369520	Kaninchenledermantel
+492306331336816	Jester-Ledermantel
+492327806173296	Chelcia Plattenpanzer
+492332101140592	Anti-Meyer Plattenpanzer
+492344986042480	Halb-Crail-Plattenpanzer
+492375050813552	Stoff-Körperpanzerung der roten Klinge
+519716812619888	Trishs Lederhandschuhe
+519721107587184	Leahdras Lederhandschuhe
+519725402554480	Lederhandschuhe von Veile
+519729697521776	Behrun Fellarmschienen
+519733992489072	Inquisitors Plattenhandschuhe
+519746877390960	Canta Plattenhandschuhe
+519751172358256	Draiga Plattenhandschuhe
+519755467325552	Runae-Stoffhandschuhe
+519764057260144	Plattenhandschuhe des Frostfluchs
+519785532096624	Flammenschwertkämpfers Plattenhandschuhe
+519794122031216	Batz Plattenhandschuhe
+519798416998512	Tarandus' Plattenhandschuhe
+519802711965808	Aschenflammen-Plattenhandschuhe
+519807006933104	Camsen Plattenhandschuhe
+519815596867696	Dimfeld Plattenhandschuhe
+519828481769584	Agathas Plattenhandschuhe
+519832776736880	Ashad Plattenhandschuhe
+519837071704176	Solas Plattenhandschuhe
+519871431442544	Pernicia Plattenhandschuhe
+519875726409840	Ferman Plattenhandschuhe
+519905791180912	Grauwolf Lederhandschuhe
+519922971050096	Luon Plattenhandschuhe
+519927266017392	Luthor Plattenhandschuhe
+519931560984688	Arkhan Plattenhandschuhe
+519935855951984	Dumenis Plattenhandschuhe
+519944445886576	Ratti Plattenhandschuhe
+519948740853872	Ettis Plattenhandschuhe
+519953035821168	Recklin Stoffhandschuhe
+519970215690352	Kevile Plattenhandschuhe
+519978805624944	Weirren Plattenhandschuhe
+519983100592240	Devinine Plattenhandschuhe
+519987395559536	Eisflügel-Plattenhandschuhe
+519991690526832	Demeniss-Elite-Plattenhandschuhe
+519995985494128	Goldene Verlangen-Plattenhandschuhe
+520000280461424	Belui Plattenhandschuhe
+520038935167088	Plattenhandschuhe des gefallenen Königreichs
+524011779915888	Beastmans Kettenarmschienen
+528315337146480	Austfelds Lederhandschuhe
+528336811982960	Lederhandschuhe von Fiore
+528341106950256	Janiklos Lederhandschuhe
+528353991852144	Lederhandschuhe von Barre
+528358286819440	Lederhandschuhe von Berkhia
+528362581786736	Goldherz-Kettenhandschuhe
+528366876754032	Lederhandschuhe von Kordaav
+528384056623216	Cacoreum-Lederhandschuhe
+528396941525104	Claires Lederhandschuhe
+528414121394288	Lederhandschuhe von Hark
+528422711328880	Lederhandschuhe von Weiston
+528431301263472	Lederhandschuhe von Talisin
+528435596230768	Melvins Lederhandschuhe
+528444186165360	Trions Lederhandschuhe
+528452776099952	Lederhandschuhe von Ebenezer
+528457071067248	Pavis Lederhandschuhe
+528465661001840	Rondels Lederhandschuhe
+528469955969136	Lederhandschuhe von Perseus
+528504315707504	Byrens Lederhandschuhe
+528508610674800	Kadallons Lederhandschuhe
+528517200609392	Saluns Lederhandschuhe
+528542970413168	Lespedans Lederhandschuhe
+528555855315056	Rheigis-Lederhandschuhe
+528560150282352	Lederhandschuhe von Hagwood
+528573035184240	Lederhandschuhe von Lasfeld
+528577330151536	Lederhandschuhe von Wyrdins
+528581625118832	Andrias Lederhandschuhe
+528590215053424	Lederhandschuhe von Larki
+528611689889904	Lederhandschuhe von Rossbara
+528615984857200	Blynes Lederhandschuhe
+528641754660976	Rhinards Lederhandschuhe
+528697589235824	Lederhandschuhe von Sleishorn
+528706179170416	Mornington Stoffhandschuhe
+528714769105008	Bandellures Lederhandschuhe
+528727654006896	Nocburns Lederhandschuhe
+528736243941488	Drumards Lederhandschuhe
+528753423810672	Lederhandschuhe von Stratton
+528762013745264	Lederhandschuhe von Hegea
+528766308712560	Camsens Lederhandschuhe
+528783488581744	Lederhandschuhe von Matthias
+528792078516336	Lederhandschuhe von Layddete
+528804963418224	Lederhandschuhe von Khalbdan
+528822143287408	Lederhandschuhe von Rueconec
+528852208058480	Rakhir Stoffhandschuhe
+528865092960368	Satyros' Plattenhandschuhe
+528869387927664	Lederhandschuhe des gefallenen Abtrünnigen
+528877977862256	Steinmers Lederhandschuhe
+528899452698736	Adeions Lederhandschuhe
+528908042633328	Crudils Lederhandschuhe
+528916632567920	Conchettas Lederhandschuhe
+528925222502512	Loudans Lederhandschuhe
+528929517469808	Calios Lederhandschuhe
+528933812437104	Viraitons Lederhandschuhe
+528946697338992	Maeves Lederhandschuhe
+528955287273584	Lederhandschuhe von Deskio
+528968172175472	Geloufeld Plattenhandschuhe
+528985352044656	Asty Stoffhandschuhe
+528998236946544	Dimfelds Lederhandschuhe
+529002531913840	Lederhandschuhe von Trowder
+529006826881136	Cavidens Lederhandschuhe
+529041186619504	Lederhandschuhe von Mistrum
+529058366488688	Rowleys Lederhandschuhe
+529066956423280	Daveeds Lederhandschuhe
+529071251390576	Betties Lederhandschuhe
+529109906096240	Lennigens Lederhandschuhe
+529118496030832	Lederhandschuhe von Kaeridyn
+529127085965424	Merridews Lederhandschuhe
+529144265834608	Astia Stoffhandschuhe
+529152855769200	Aldwins Lederhandschuhe
+529161445703792	Latianische Lederhandschuhe
+529178625572976	Lederhandschuhe von Vicaron
+529187215507568	Leppos Lederhandschuhe
+529191510474864	Brogants Lederhandschuhe
+529204395376752	Lederhandschuhe von Delise
+529208690344048	Lederhandschuhe von Boggen
+529221575245936	Delinells Lederhandschuhe
+529225870213232	Lederhandschuhe von Wertesh
+529230165180528	Lederhandschuhe von Keimbel
+529234460147824	Lederhandschuhe von Sladen
+529243050082416	Lederhandschuhe von Persein
+529255934984304	Mechlins Lederhandschuhe
+529260229951600	Lederhandschuhe von Essembel
+529264524918896	Contras Lederhandschuhe
+529311769559152	Lederhandschuhe der maskierten Befreierin
+529320359493744	Dondegobis Lederhandschuhe
+529324654461040	Lederhandschuhe von Gobialta
+529328949428336	Lederhandschuhe von Terschan
+529337539362928	Rignons Lederhandschuhe
+529341834330224	Reclonnes Lederhandschuhe
+529346129297520	Ricraus Lederhandschuhe
+529359014199408	Lederhandschuhe von Tiron
+529363309166704	Lederhandschuhe von Taylonne
+529384784003184	Haron Stoffhandschuhe
+529397668905072	Lederhandschuhe von Kattinan
+529401963872368	Lederhandschuhe von Saruen
+529427733676144	Lucas Lederhandschuhe
+529436323610736	Lederhandschuhe von Tikkal
+529440618578032	Marknas Lederhandschuhe
+529457798447216	Lukas' Lederhandschuhe
+529479273283696	Lederhandschuhe des Herrschers der schattigen Straße
+529483568250992	Lederhandschuhe von Salatos
+529492158185584	Lederhandschuhe von Ellisco
+529496453152880	Lederhandschuhe von Elashe
+529509338054768	Lederhandschuhe von Kasria
+529517927989360	Renshakus Lederhandschuhe
+529522222956656	Lederhandschuhe von Reshesh
+529530812891248	Ravellus Lederhandschuhe
+529535107858544	Remebrous Lederhandschuhe
+529539402825840	Rainiers Lederhandschuhe
+529543697793136	Lederhandschuhe von Lave
+529547992760432	Maches Lederhandschuhe
+529552287727728	Martails Lederhandschuhe
+529556582695024	Lederhandschuhe von Wentz
+529573762564208	Lederhandschuhe von Bolson
+529578057531504	Lederhandschuhe von Cains
+529582352498800	Daltons Lederhandschuhe
+529586647466096	Lederhandschuhe von Eplern
+529590942433392	Archens Lederhandschuhe
+529595237400688	Lederhandschuhe von Dunion
+529599532367984	Lederhandschuhe von Laplace
+529603827335280	Lederhandschuhe von Bristel
+529621007204464	Masti Plattenhandschuhe
+529625302171760	Lederhandschuhe von Takkan
+529629597139056	Arsens Lederhandschuhe
+529633892106352	Takah Stoffhandschuhe
+529638187073648	Silberne Plattenhandschuhe
+529642482040944	Chents Lederhandschuhe
+529646777008240	Lederhandschuhe der Schwarzbären
+529655366942832	Grauwolf Stoffhandschuhe
+529659661910128	Dherris Lederhandschuhe
+529668251844720	Pattens Lederhandschuhe
+529672546812016	Silberwolf Lederhandschuhe
+529676841779312	Rattu Stoffhandschuhe
+529689726681200	Lercents Lederhandschuhe
+529694021648496	Dämmerfangzahn-Lederhandschuhe
+529706906550384	Dram Lederarmschienen
+529711201517680	Lederhandschuhe von Bunce
+529715496484976	Maters' Lederhandschuhe
+529728381386864	Rannys' Lederhandschuhe
+529758446157936	Dane Lederbänder
+529792805896304	Reaks Lederhandschuhe
+529801395830896	Badrans Lederhandschuhe
+529805690798192	Rigmas Lederhandschuhe
+529809985765488	Lederhandschuhe von Verdesh
+529814280732784	Lederhandschuhe von Jasmern
+529818575700080	Lederhandschuhe von Esha
+529822870667376	Lederhandschuhe von Shellus
+529827165634672	Lederhandschuhe von Waller
+529848640471152	Lederhandschuhe von Salmae
+529852935438448	Derrisons Lederhandschuhe
+529861525373040	Dirrebins Lederhandschuhe
+529870115307632	Dallaban Lederhandschuhe
+529883000209520	Lawsons Lederhandschuhe
+529887295176816	Lederhandschuhe von Gaiman
+532597419540592	Stugrub Stoffhandschuhe
+532610304442480	Artis Lederhandschuhe
+532657549082736	Weiße Lederhandschuhe des Krähenmanns
+532661844050032	Baidan Stoffhandschuhe
+532674728951920	Porcell Stoffhandschuhe
+532700498755696	Whitley Stoffhandschuhe
+532713383657584	Lederhandschuhe von Tyran
+532717678624880	Stoffhandschuhe von Tiron
+532790693068912	Setri Stoffhandschuhe
+532794988036208	Serbello Stoffhandschuhe
+532812167905392	Ashtu Stoffhandschuhe
+532816462872688	Ratisan Stoffhandschuhe
+532820757839984	Duroin Stoffhandschuhe
+532829347774576	Ludynn Stoffhandschuhe
+532837937709168	Derrison Stoffhandschuhe
+532846527643760	Gadereich Stoffhandschuhe
+532850822611056	Chizhar Stoffhandschuhe
+532863707512944	Stoffhandschuhe des Sonnenuntergangstals
+532872297447536	Jesters Lederhandschuhe
+532880887382128	Ators Wille Lederhandschuhe
+532889477316720	Witters Plattenhandschuhe
+532893772284016	Dulone Plattenhandschuhe
+532898067251312	Drachenritter-Krieger Plattenhandschuhe
+532902362218608	Plattenhandschuhe des Drachenritter-Bogenschützen
+532906657185904	Caliburns Plattenhandschuhe
+562645010743408	Plattenstiefel des unbeugsamen Kriegers
+562649305710704	Platten-Schuhwerk der goldenen Begierde
+562666485579888	Lattua Plattenstiefel
+562670780547184	Eisflügel-Platten-Schuhwerk
+562679370481776	Inquisitors Plattenstiefel
+562696550350960	Canta Plattenstiefel
+562730910089328	Batz Plattenstiefel
+562735205056624	Chelcia Plattenstiefel
+562739500023920	Ashad Plattenstiefel
+562743794991216	Solas Plattenstiefel
+562752384925808	Serval Plattenstiefel
+562756679893104	Lederstiefel von Tyrdall
+562765269827696	Antumbra Plattenstiefel
+562808219500656	Sigremon Plattenstiefel
+562812514467952	Dulone Plattenschuhe
+562816809435248	Sahazhad Plattenstiefel
+562821104402544	Demeniss-Platten-Schuhwerk
+562838284271728	Platten-Schuhwerk des gefallenen Königreichs
+562855464140912	Grauwolf Lederstiefel
+566961452875888	Regglia Lederstiefel
+566965747843184	Rezzcan Lederstiefel
+566970042810480	Baku Lederstiefel
+571234945335408	Seiger Lederstiefel
+571252125204592	Rodderham Lederstiefel
+571260715139184	Leontynes Lederstiefel
+571269305073776	Bollin Lederstiefel
+571277895008368	Helfryn Lederstiefel
+571286484942960	Eustice Lederstiefel
+571316549714032	Leder-Schuhwerk des Halcius-Priesters
+571325139648624	Tobias' Lederstiefel
+571329434615920	Arghai Lederstiefel
+571333729583216	Nevin Lederstiefel
+571355204419696	Mulia Lederstiefel
+571372384288880	Cyllianische Lederstiefel
+571376679256176	Silberwolf-Lederstiefel
+571380974223472	Correllys Lederstiefel
+571385269190768	Benberry Lederstiefel
+571389564158064	Midlier Lederstiefel
+571393859125360	Derting Lederstiefel
+571402449059952	Steyer Lederstiefel
+571406744027248	Ebenezer Lederstiefel
+571415333961840	Tesslit Lederstiefel
+571419628929136	Rhonda Lederstiefel
+571441103765616	Ramastern Lederstiefel
+571462578602096	Layne Lederstiefel
+571492643373168	Kadallons Lederstiefel
+571518413176944	Pierponts Lederstiefel
+571531298078832	Dyrfrith Lederstiefel
+571539888013424	Grauwolfs Lederstiefel
+571557067882608	Lederstiefel des gefallenen Abtrünnigen
+571582837686384	Sarantos Lederstiefel
+571608607490160	Levinto Lederstiefel
+571612902457456	Ruthie Lederstiefel
+571625787359344	Colberns Lederstiefel
+571647262195824	Bolton-Lederstiefel
+571733161541744	Nagmore Lederstiefel
+571737456509040	Mornington Lederstiefel
+571750341410928	Woodbrock Lederstiefel
+571763226312816	Russmore Lederstiefel
+571771816247408	Clarilles Lederstiefel
+571780406182000	Meadows Lederstiefel
+571823355854960	Lederstiefel von Keredig
+571831945789552	Neirnim Lederstiefel
+571857715593328	Matis' Lederstiefel
+571935025004656	Lederstiefel von Tarandus
+571943614939248	Sydmon Lederstiefel
+571952204873840	Panhas Lederstiefel
+571965089775728	Rhegis Lederstiefel
+571969384743024	Lederhandschuhe der maskierten Befreierin
+571982269644912	Crudils Lederstiefel
+571995154546800	Aschenflammen-Lederstiefel
+572016629383280	Lederstiefel von Huntington
+572020924350576	Adeion Lederstiefel
+572038104219760	Stoffschuhe von Diencia
+572055284088944	Pavis Lederschuhe
+572059579056240	Lederschuhe von trowder
+572072463958128	Pietis Lederstiefel
+572076758925424	Norman Lederstiefel
+572085348860016	Driseld Lederstiefel
+572093938794608	Dutrat Lederstiefel
+572098233761904	Reus Lederstiefel
+572102528729200	Lascaux Lederstiefel
+572106823696496	Mistum Lederstiefel
+572111118663792	Sillau Lederstiefel
+572115413631088	Lederstiefel von Fiatal
+572132593500272	Aurelianische Lederstiefel
+572145478402160	Eshianische Lederstiefel
+572192723042416	Lederstiefel von Clays
+572197018009712	Daveed Lederstiefel
+572201312977008	Beattie Lederstiefel
+572205607944304	Leegrau Lederstiefel
+572214197878896	Lederstiefel von Hroadar
+572239967682672	Trishs Lederstiefel
+572244262649968	Lederstiefel von Katitz
+572248557617264	Isilon Lederstiefel
+572261442519152	Elish Lederstiefel
+572265737486448	Runae Lederstiefel
+572270032453744	Carcons Lederstiefel
+572274327421040	Diovern Lederstiefel
+572300097224816	Erphy Lederstiefel
+572308687159408	Oakten Lederstiefel
+572317277094000	Seras Lederstiefel
+572321572061296	Cateines Lederstiefel
+572330161995888	Loutte Lederstiefel
+572338751930480	Bourveten Lederstiefel
+572343046897776	Lankel Lederstiefel
+572347341865072	Gannech Lederstiefel
+572351636832368	Lederstiefel von Kervel
+572355931799664	Walder Lederstiefel
+572360226766960	Donaff Lederstiefel
+572373111668848	Lederstiefel von Herdel
+572385996570736	Ators Wille Lederstiefel
+572390291538032	Quents Lederstiefel
+572394586505328	Graue Rhegis Lederstiefel
+572407471407216	Lederstiefel von Tyran
+572411766374512	Stoffschuhe von Tyrune
+572416061341808	Lederstiefel von Tiron
+572428946243696	Lederschuhe von Tiruna
+572433241210992	Darman Lederstiefel
+572437536178288	Saruen Lederstiefel
+572450421080176	Pastis Lederstiefel
+572467600949360	Lederstiefel von Kassantra
+572480485851248	Legunas Lederschuhe
+572484780818544	Layta Plattenstiefel
+572493370753136	Dannoche Lederstiefel
+572497665720432	Layta Lederstiefel
+572501960687728	Catchetas Lederstiefel
+572506255655024	Lederstiefel von Caico
+572510550622320	Cosgroves Lederstiefel
+572514845589616	Lederstiefel von Caelough
+572519140556912	Lederstiefel von Kasset
+572523435524208	Cassrows Lederstiefel
+572527730491504	Lederstiefel von Katz
+572536320426096	Ligatra Lederstiefel
+572540615393392	Lederstiefel von Cantu
+572549205327984	Andaran Lederstiefel
+572553500295280	Maldrick Lederstiefel
+572557795262576	Anderitz Lederstiefel
+572562090229872	Trillys Lederstiefel
+572566385197168	Lederstiefel von Fiore
+572570680164464	Perellis Lederschuhe
+572609334870128	Lasianische Lederstiefel
+572613629837424	Ludynns' Lederstiefel
+572617924804720	Lederstiefel von Kurua
+572622219772016	Stoddard Lederstiefel
+572626514739312	Lederstiefel von Wattern
+572630809706608	Badran Lederstiefel
+572635104673904	Lederstiefel von Hauvern
+572639399641200	Begill Lederstiefel
+572643694608496	Dreiger Lederstiefel
+572647989575792	Esha Lederstiefel
+572660874477680	Vitzers Lederstiefel
+572669464412272	Meravans Lederstiefel
+572673759379568	Lederstiefel von Salmae
+572678054346864	Nehruts Lederstiefel
+572682349314160	Lederstiefel von Juman
+572708119117936	Warren Beynons Lederstiefel
+572716709052528	Sein Lederstiefel
+572721004019824	Dolters Lederstiefel
+572725298987120	Schwarzfeder-Lederstiefel
+572733888921712	Orbit Lederstiefel
+572738183889008	Alvitt Lederstiefel
+572742478856304	Arrenya Lederstiefel
+572746773823600	Belui Lederstiefel
+575551387467888	Lederhandschuhe von Triloan
+575564272369776	Bayer Lederstiefel
+575572862304368	Pailunische Schuhe
+575581452238960	Stoffschuhe von Reus
+575590042173552	Stoffschuhe von Eckney
+575620106944624	Marrada Lederstiefel
+575624401911920	Endoron Lederstiefel
+575645876748400	Scoppa Lederstiefel
+575654466682992	Stoffschuhe von Whitley
+575731776094320	Kerdmanns Stoffschuhe
+575736071061616	Stoffschuhe von Barrette
+575740366028912	Stoffschuhe von Gaut
+575748955963504	Matia Lederstiefel
+575757545898096	Stoffschuhe von Chizhar
+575766135832688	Stoffschuhwerk des Sonnenuntergangstals
+575770430799984	Hasen-Stoff-Schuhwerk
+575783315701872	Caliburns Plattenstiefel
+858997754167408	Grauwolfs Schwert
+859053588742256	Fackel
+859083653513328	Glenmour-Schwert
+859096538415216	Sydmon-Schwert
+859143783055472	Wells' Schwert
+859203912597616	Alabaster-Krummschwert
+859212502532208	Varnia-Schwert
+859216797499504	Schwert des Ritterlords
+859221092466800	Schwert der zerstörten Nation
+859302696845424	Geschmolzener Ehrgeiz
+859324171681904	Volono-Schwert
+859328466649200	Peltrees Schwert
+862863224733808	Weißes Wind-Rapier
+862867519701104	Hohles Antlitz
+862876109635696	Dekarr-Schwert
+862919059308656	Schwert des Fürsten
+862931944210544	Spada
+862940534145136	Acrias Schwert
+862949124079728	Legionärs-Gladius
+862953419047024	Einsamkeit des Überlebenden
+862962008981616	Fessel der Macht
+863301311398000	Inquisitors Rapier
+863305606365296	Grace-Rapier
+863309901332592	Leone-Rapier
+863314196299888	Messingrosenrapier
+863318491267184	Rapier des gefallenen Adelshauses
+863322786234480	Volono-Rapier
+863327081201776	Rapier des Gefallenen Königreichs
+863331376169072	Elemore-Rapier
+863335671136368	Kampfrapier
+863339966103664	Gilliam-Rapier
+863344261070960	Lambert-Rapier
+863348556038256	Friedensrapier
+863352851005552	Eleonore-Rapier
+863370030874736	Liberre-Rapier
+901956017062000	Becker-Axt
+901981786865776	Lanford-Axt
+901990376800368	Lamberts Axt
+901998966734960	Gilliam-Axt
+902041916407920	Maeve-Axt
+902067686211696	Rhias' Axt
+902093456015472	Kylus' Axt
+902136405688432	Tardik Axt
+902162175492208	Delonde-Axt
+902187945295984	Leofric Doppelaxt
+902196535230576	Schwarzeisenaxt
+902248074838128	Axt von Scheitheim
+902265254707312	Axt der Krähenbrüder
+902273844641904	Parashu-Axt
+902282434576496	Ring der Erde
+902286729543792	Silberwolf-Axt
+944901395054704	Keule von Kadel
+944909984989296	Kordaav-Flegel
+944918574923888	Marsch-Schlagstock
+944922869891184	Lanford-Keule
+944927164858480	Gefrorene Seele
+944944344727664	Octarrs Vermächtnis
+944952934662256	Schurkenkeule
+944970114531440	Wells-Keule
+944974409498736	Knochengrube-Keule
+944982999433328	Alabasterkeule
+944987294400624	Baltons Keule
+944991589367920	Iris-Keule
+949187772416112	Aeserion-Flegel
+987855362982000	Varnia-Dolch
+987967032131696	Becker-Dolch
+988095881150576	Alabasterdolch
+988113061019760	Dolch der Finsteren Jagd
+988121650954352	Dolch der Krähenbrüder
+988156010692720	Ators Finger
+991712243613808	Kylus' Dolch
+991729423482992	Sydmon-Dolch
+991746603352176	Delesyischer Dolch
+991755193286768	Dekarr-Dolch
+991780963090544	Pailunische Ritualklinge
+992137445376112	Aeserion-Dolch
+1030796446007408	Tardik Langschwert
+1030860870516848	Wildes Langschwert
+1030869460451440	Balton Langschwert
+1030873755418736	Tauhafen-Langschwert
+1030878050386032	Thalwynd Langschwert
+1030890935287920	Iris Langschwert
+1030903820189808	Rhetts Langschwert
+1030916705091696	Gefäß der Finsteren Jagd
+1030921000058992	Gerechtes Urteil
+1030925295026288	Großschwert der absoluten Gerechtigkeit
+1030938179928176	Sydmon-Langschwert
+1030972539666544	Ignir
+1030976834633840	Delesyisches Langschwert
+1035087118336112	Aeserion-Langschwert
+1035095708270704	Dandelion-Langschwert
+1073801953542256	Unfertiges Meisterwerk
+1073806248509552	Tardik-Großaxt
+1073810543476848	Iris-Großaxt
+1073814838444144	Gorthak-Großaxt
+1073823428378736	Troll-Hakengroßaxt
+1073827723346032	Kylus' Großaxt
+1073832018313328	Knochengrube-Großaxt
+1073836313280624	Fächerblatt-Großaxt
+1073844903215216	Hufeisenklinge-Großaxt
+1073849198182512	Axt des Hunds
+1073853493149808	Holzfälleraxt von Pailune
+1073862083084400	Sigremon-Großaxt
+1078011021492336	Becker-Großaxt
+1078015316459632	Dekarr-Großaxt
+1078036791296112	Aeserion-Großaxt
+1116721561731184	Becker-Streithammer
+1116725856698480	Salzstraßen-Streithammer
+1116747331534960	Knochengrube-Streithammer
+1116751626502256	Thalwynd-Streithammer
+1116755921469552	Kaktus-Streithammer
+1116768806371440	Arlem-Streithammer
+1116773101338736	Arlen-Streithammer
+1116777396306032	Zargan-Streithammer
+1116803166109808	Tardik Streithammer
+1116811756044400	Iris Streithammer
+1116820345978992	Gorthak-Streithammer
+1120986464256112	Aeserion-Streithammer
+1138170628407408	Plündererhellebarde
+1138174923374704	Alabasterhellebarde
+1138179218342000	Iris-Hellebarde
+1138183513309296	Lambert-Hellebarde
+1138187808276592	Gilliam-Hellebarde
+1138192103243888	Knochengrube-Hellebarde
+1138196398211184	Söldner-Hellebarde
+1138200693178480	Becker Hellebarde
+1138209283113072	Celestes Hellebarde
+1138213578080368	Goldene Vorhut
+1159645464887408	Rosemond-Pistole
+1159649759854704	Jemel-Pistole
+1159654054822000	Falconne-Pistole
+1159658349789296	Vilancia-Pistole
+1159688414560368	Pistole „Schatten der Vergangenheit“
+1159697004494960	Caliburns Gnadenpistole
+1202595137847408	Arlen-Muskete
+1202599432814704	Becker-Muskete
+1202603727782000	Delesyische Muskete
+1202608022749296	Wells-Muskete
+1202612317716592	Leofric Muskete
+1202663857324144	Muskete der Helms
+1202668152291440	Pailunische Muskete
+1202672447258736	Gustav-Muskete
+1245544810807408	Balton Schild
+1245600645382256	Iris Schild
+1245613530284144	Sydmon-Rundschild
+1245626415186032	Spiegel der Nacht
+1245630710153328	Drake Schild
+1245639300087920	Aufsteigender Pfeil-Schild
+1245652184989808	Hirschkönigs Schild
+1245785328975984	Dekarr-Schild
+1245789623943280	Sydmon-Dr
+1245927062896752	Tardik Schild
+1245931357864048	Tauhafen-Schild
+1246025847144560	Schild eines blühenden Frühlingstags
+1246030142111856	Demenissianischer Schild der Tapferkeit
+1246034437079152	Demenissianischer Schild der Loyalität
+1246038732046448	Demenissianischer Schild des Gehorsams
+1247696589422704	Gilliam Großschild
+1247700884390000	Lifsoth Großschild
+1247705179357296	Kriegsdorn Verstärkter Großschild
+1247713769291888	Thalwynd Großschild
+1247722359226480	Lucon Großschild
+1247726654193776	Rhonid Großschild
+1247730949161072	Balton Großschild
+1247735244128368	Rekel Großschild
+1247752423997552	Lanford-Großschild
+1247756718964848	Die Lachende Marionette Schild
+1247786783735920	Becker Großschild
+1247799668637808	Massenproduzierter Rekel Großschild
+1247821143474288	Rekel Großer Dornenschild
+1247825438441584	Kriegsdorn Großschild
+1247829733408880	Demenissianischer Soldat Großschild
+1249822598234224	Großschild der Speerträger-Legion
+1288494483767408	Goldknoten-Ahnenbogen
+1288498778734704	Dekkar-Bogen
+1288503073702000	Becker-Bogen
+1288507368669296	Bogen der Boten der Dämmerung
+1288541728407664	Tardik Bogen
+1288546023374960	Kylus-Bogen
+1288550318342256	Sydmon-Bogen
+1288554613309552	Blutstahlbogen
+1288567498211440	Tommasoischer Bogen
+1288571793178736	Kriegsdorn Bogen
+1288588973047920	Bogen der strahlenden Seele
+1288704937164912	Weißholzbogen
+1292785156096112	Aeserion-Bogen
+1292789451063408	Bogen des Roten Wächters
+1331474221498480	Sydmon-Speer
+1331478516465776	Alfonso-Speer
+1331491401367664	Kylus' Speer
+1331495696334960	Alabasterspeer
+1331517171171440	Kriegsdorn-Speer
+1331538646007920	Speer des Sägezahn-Zerstörers
+1331542940975216	Speer der Gerechtigkeit
+1331547235942512	Valgashs unvollendetes Werk
+1331560120844400	Dorn der Finsteren Jagd
+1331573005746288	Dreizack des Nordwinds
+1331590185615472	Speer des Verräters
+1331607365484656	Stab der Vergänglichkeit
+1374393829687408	Hyde-Armbrust
+1374398124654704	Südländischer Wandertrolls Armbrust
+1417343502647408	Rhinard Kanone
+1417347797614704	Elektromagnetischer Flammenspeier
+1417352092582000	Elektromagnetischer Frostspeier
+1589142194487408	Pailune-Schrotflinte
+1589146489454704	Tauhafen-Schrotflinte
+1589150784422000	Mortimer-Schrotflinte
+1589155079389296	Metilbahm-Schrotflinte
+1589159374356592	Delesyia-Schrotflinte
+1589163669323888	Blut-Schrotflinte
+1589167964291184	Dane-Schrotflinte
+1634239351095408	Demeniss-Bannerlanze (S)
+1634252235997296	Königliches Jagdrevier-Bannerlanze (S)
+1634260825931888	Schwarzbären-Bannerlanze (S)
+1717986918400112	Becker-Großhammer
+1717991213367408	Klaue des Goldenen Drachen
+1717995508334704	Großhammer des Feuers
+1717999803302000	Großhammer der Helms
+1718004098269296	Lanford-Großhammer
+1718008393236592	Knochengrube-Großhammer
+1760945181294704	Vulkan-Handkanone
+1760953771229296	Kupfer-Knöchelbohrer
+1760970951098480	Wütende Wellen Panzerhandschuh
+1760975246065776	Panzerhandschuh der Eisenfäuste
+1760983836000368	Muskans Oberkörperklon
+1760988130967664	Muskans Unterkörperklon
+1846840232247408	Schlafnadel
+2147487942967408	Großaxt des Inquisitors
+2147505122836592	Gemusterte Steinaxt
 2576984672567408	Gravierte Kupferohrringe
 2576988967534704	Gravierte Silberohrringe
 2576993262502000	Gravierte Goldohrringe
 2577001852436592	Träne des goldenen Hirsches
-25774098743408	Kleine Tasche
-25778393710704	Mittelgroße Tasche
-25782688678000	Extragroße Tasche
-25791278612592	Große Tasche
-2589973173361442928	Große Rhegis Lederstiefel
-2591869818034454640	Schwarzstahl-Renkshaw-Plattenhelm
-2609680446115545200	Schwerer Eimer
 2619938640494704	Gravierte Silberhalskette
 2619947230429296	Gravierte Kupferhalskette
 2619990180102256	Ausgezeichnet gearbeitete Goldhalskette
@@ -294,24 +1477,19 @@
 2662896903389296	Primitiver blauer Ring
 2662922673193072	Schlichter Blauquarz-Ring
 2662926968160368	Exquisiter Goldring
-276518962408194160	Wells' Kavallerie-Rosskopf
-2808099654493798512	Abgenutzte Lederstiefel von Sarantos
-2851662060373147760	Schwarzstahl-Descao-Plattenhelm
-2995175360322076784	Grotevant-Plattenschuhe
-300690660393072	Alte Holzpuppe
-3083646326500491376	Schwarzstahl-Spiddle-Plattenpanzer
+3006481402167408	Stoff-Fetzen
+3049431075127408	Bauholz
 3092380748087408	Eisenerz
 3092385043054704	Silbererz
 3092389338022000	Golderz
 3092393632989296	Kupfererz
 3092419402793072	Bismuterz
+3098823199031408	Granat
 3098827493998704	Epidot
 3098831788966000	Azurit
 3098836083933296	Diamant
 3098840378900592	Blutgestein
 3098844673867888	Skoleziterz
-310989639781449840	Wüsten-Lederstiefel von Clays
-3117835747940368496	Canusti Plattenpanzer
 3178280094007408	Dünnes Fell
 3178284388974704	Kurzes Fell
 3178288683942000	Langes Fell
@@ -322,16 +1500,21 @@
 3217364296401008	Würfelzucker
 3217793793130608	Pferde-Tonikum
 3217802383065200	Pferdeaufputschmittel
-322122547200112	Das Erste Artefakt
+3221234061934704	Weizen
 3221238356902000	Karotte
-322126842167408	Abyss-Artefakt
-322131137134704	Verblasstes Abyss-Artefakt
+3221242651869296	Bohnen
+3221251241803888	Apfel
+3221259831738480	Traube
+3221264126705776	Eichel
+3221302781411440	Hafer
+3221307076378736	Mais
+3221328551215216	Zwiebel
 3221332846182512	Orange
+3221354321018992	Pfirsich
 3221375795855472	Tomate
 3221397270691952	Baumhonig
 3221401565659248	Wilder Honig
 3221435925397616	Käse
-322552043929712	Graumähnen Marke
 3225537619165296	Korallenpilz
 3225962820927600	Rosmarin
 3225967115894896	Rosa Rosmarin
@@ -342,6 +1525,7 @@
 3225988590731376	Weißer Lavendel
 3225992885698672	Gelber Lavendel
 3225997180665968	Knoblauch
+3226001475633264	Flachs
 3226027245437040	Wüstenmelone
 3226044425306224	Wunderstrauch
 3226048720273520	Roter Wunderstrauch
@@ -350,12 +1534,15 @@
 3226087374979184	Kartoffel
 3226091669946480	Süßkartoffel
 3226095964913776	Brombeere
+3229819701559408	Salz
+3229828291494000	Zucker
 3229836881428592	Speiseöl
 3229905600905328	Zähes Fleisch
 3233040927031408	Dünger
 3238422521053296	Vergiften
 3238431110987888	Spinnennetz
 3238671629156464	Säurehaltiges Spinnengift
+3242764732989552	Ei
 3249194299031664	Bienenwaben
 3249198593998960	Wilder Ginseng
 3249220068835440	Langhorn
@@ -369,22 +1556,20 @@
 3250865041309808	Germer
 3251298833006704	Ringelblume
 3251307422941296	Löwenmäulchen
+3251316012875888	Frühlingsrose
 3251320307843184	Begonie
+3251328897777776	Stiefmütterchen
 3251333192745072	Maiglöckchen
 3251337487712368	Dunbaria
 3251341782679664	Baumwolle
 3251346077646960	Steinorchidee
-3251828544208109680	Krücke
 3337193883959408	Goldener Apfel
-3341530332049440880	Kunan Plattenpanzer
 3393032753774704	Leere Flasche
 3414537655025776	Kleiner Knochen
 3414675093979248	Abgenutzte Halskette
 3414679388946544	Angelaufene Halskette
 3414722338619504	Alter Ring
 3414726633586800	Angelaufener Ring
-343601678647408	Rezept: Gedämpftes Fleisch
-343610268582000	Rezept: Früchtetee
 3436175700263024	Geheimnisvolles Elixier
 3436721161109616	Siegel des Hauses Serkis
 3440273099063408	Zugangserlaubnis für Hernand
@@ -417,31 +1602,6 @@
 3449000472608880	Schatzkarte des Bauern – Stück 3
 3449004767576176	Schatzkarte des Bauern – Stück 4
 3449034832347248	Schatzkarte des geheimnisvollen Totems – Stück 1
-345341140402288	Rezept: Vogelfleischsuppe
-345366910206064	Rezept: Hirschgeweih-Tee
-345371205173360	Rezept: Fruchtsaft
-345766342164592	Rezept: Korallenpilztee
-345783522033776	Rezept: Starkriechender Ritterlingtee
-345787817001072	Rezept: Pasaniapilztee
-345869421379696	Rezept: Honigtee
-347084897124464	Rezept: Gegrilltes Vogelfleisch mit Salz
-3512701889944748144	Dumenis Plattenhelm
-3550753676689670256	Schwarzstahl-Longia-Plattenhelm
-36511516983408	Weißhorns Ring
-36515811950704	Ring der Blitze
-36524401885296	Ohrring der dunklen Magie
-36528696852592	Ogerring
-36532991819888	Ring der Hexe
-36545876721776	Blütenblattohrringe
-37366215475312	Rote Jägerkettenrüstung
-37800007172208	Schneesturm-Kristallhalskette
-39092792328304	Hernand-Ehrengarde-Rüstung
-39097087295600	Tarivs Stoffkleidung
-39517994090608	Tariv-Stoffschuhwerk
-39951785787504	Tariv-Stoffhandschuhe
-40372692582512	Beonecks Stoffkappe
-40376987549808	Brennende Himmel Stoffkappe
-40381282517104	Hut des Priesters Halsius
 4080223226167408	Besen
 4080227521134704	Holzfälleraxt
 4080231816102000	Schaufel
@@ -512,12 +1672,6 @@
 4080541053747312	Rucksack voll Schrott
 4080545348714608	Rucksack voll Schrott
 4080549643681904	Rucksack voll Schrott
-40806484279408	Marnis Panzer-Handkanone
-40810779246704	Mechanische Uhrwerk-Handkanone
-40832254083184	Handkanone Nr. 8
-40836549050480	Wyvern-Handkanone
-4233774719385469040	Valkyder Plattenpanzer
-4257868012742246512	Edzel Plattenpanzer
 4294967296000112	Gesundheitsverstärkung
 4294971590967408	Mut-Verstärkung
 4294975885934704	Ausdauer-Verstärkung
@@ -703,7 +1857,10 @@
 4295753275015280	Schild der Freiklingen
 4295757569982576	Kunsthandwerkerhand
 4295761864949872	Geflammter Turtelfalter
+4295766159917168	Blattgold-Händlergilde Stoff-Körperpanzerung
+4295770454884464	Niburak-Stoff-Körperpanzerung
 4295774749851760	Geheimer Brief des demenissianischen Rebellen
+4295779044819056	Blattgold-Händlergilde Stoff-Körperpanzerung
 4295783339786352	Ausrüstungs-Blaupause: Ausdauerregeneration
 4295787634753648	Goblinhändler Plattenhandschuhe
 4295791929720944	Demeniss-Rebell Stoffrüstung
@@ -795,6 +1952,8 @@
 4296169886842992	Plattenhandschuhe der Mondgesandten
 4296174181810288	Kochinventar des Abenteurers, Typ C
 4296178476777584	Glaskunsteinhorn
+4296182771744880	Blattgold-Händlergilde Stoffumhang
+4296187066712176	Blattgold-Händlergilde Stoffumhang
 4296191361679472	Nordische Kämpfer Kettenumhang
 4296195656646768	Drachenflammen-Umhang
 4296199951614064	Roter Jägerkettenumhang
@@ -1057,6 +2216,7 @@
 4297303758209136	Gummi
 4297308053176432	Bringer des Gleichgewichts
 4297312348143728	Kairos-Umhang
+4297316643111024	Zahnrad
 4297320938078320	Agaven-Blumentopf
 4297325233045616	Zwergen-Halskette
 4297329528012912	Elises Notiz
@@ -1160,6 +2320,7 @@
 4297750434807920	Fein gemahlenes Salz
 4297754729775216	Gegrilltes Gemüse
 4297759024742512	Gegrillte Frucht
+4297763319709808	Getreidekruste
 4297767614677104	Geräucherte Eier
 4297771909644400	Grillfisch und Grillfleisch
 4297776204611696	Gegrillte Fleischspieße
@@ -1170,6 +2331,7 @@
 4297797679448176	Feder
 4297801974415472	Großer Knochen
 4297806269382768	Wolle
+4297810564350064	Elfenbein
 4297814859317360	Kurzes Horn
 4297819154284656	Verpackte Feld-Stoffrüstung
 4297823449251952	Verpackte Feld-Kettenrüstung
@@ -1359,6 +2521,7 @@
 4298618018201712	Versiegeltes Abyss-Artefakt
 4298622313169008	Versiegeltes Abyss-Artefakt
 4298626608136304	Versiegeltes Abyss-Artefakt
+4298630903103600	Fangzahn
 4298635198070896	[QA] Repetitive Bewegung in Hernand (Tempo 15)
 4298639493038192	A.T.A.G.-Fuß Mk III
 4298643788005488	Führung zum Licht
@@ -1586,6 +2749,7 @@
 4299704644927600	Helfryn-Halskette
 4299708939894896	Halskette des Roten Wächters
 4299713234862192	Schakal-Lederhelm
+4299764774469744	Wolle
 4299769069437040	Hernand-Siegel
 4299773364404336	Hernandianische Krone
 4299777659371632	Hochklassiger hernandianischer Umhang
@@ -1622,7 +2786,9 @@
 4299910803357808	Tagebuch
 4299915098325104	Luft-Handkanone
 4299919393292400	Topf
+4299923688259696	Giftfrosch
 4299927983226992	Baumfrosch
+4299932278194288	Kröte
 4299936573161584	Nasenkröte
 4299940868128880	Vollgeladene geräucherte Eier
 4299945163096176	Füllende geräucherte Eier
@@ -2031,6 +3197,7 @@
 4301684624851056	Eisenschüssel
 4301688919818352	Goldschüssel
 4301693214785648	Gurke
+4301697509752944	Rübe
 4301701804720240	Rote Beete
 4301706099687536	Linsen
 4301710394654832	Petersilie
@@ -2137,8 +3304,10 @@
 4302144186351728	Erdbeere
 4302148481319024	Holunder
 4302152776286320	Granatapfel
+4302157071253616	Feige
 4302161366220912	Ananas
 4302165661188208	Kaffeekirsche
+4302169956155504	Kakao
 4302174251122800	Silberverzierte Wasserflasche
 4302178546090096	Wasserflasche mit breiter Öffnung
 4302182841057392	Kleine Wasserflasche zum Aufkochen
@@ -2167,6 +3336,7 @@
 4302281625305200	Schmuckschatulle
 4302285920272496	Mehrzweck-Holzkiste
 4302290215239792	Assassinenklinge
+4302294510207088	Erbsen
 4302298805174384	Versiegeltes Abyss-Artefakt
 4302303100141680	Schmale Indigo-Flasche
 4302307395108976	Wasserflasche mit breitem Boden
@@ -2302,7 +3472,9 @@
 4302870035824752	Leuchtkraut-Samen
 4302874330792048	Schwefelbombe
 4302878625759344	Wasserbombe
+4302882920726640	Birne
 4302887215693936	Rankenbombe
+4302891510661232	Wurfpfeil
 4302895805628528	Harris' Brief
 4302900100595824	Ursulas Schatzkarte
 4302904395563120	Stoffrüstung der Graumähnen
@@ -3055,7 +4227,6 @@
 4306125621035120	Serkis' Büro
 4306129916002416	Bernors Spitzhacke
 4306134210969712	Dryanas Notiz
-43061342109808	Laterne
 4306138505937008	St. Halssius Haus der Heilung
 4306142800904304	Krähensturm
 4306147095871600	Lederrüstung der Graumähnen
@@ -4233,608 +5404,6 @@
 4311769208062064	Aufzeichnungen aus dem Archiv: Kapitel 4
 4311773503029360	Aufzeichnungen aus dem Archiv: Kapitel 5
 4311777797996656	Aufzeichnungen aus dem Archiv: Letztes Kapitel
-43134356553840	Glänzend blaue Meereslaterne
-43138651521136	Shroud-Laterne
-43142946488432	Ausgefallene Laterne mit Flammenmuster
-43147241455728	Dunkle Nebellaterne
-43151536423024	Flammenlaterne
-433791697008	Kupferbeutel
-433795991863408	Rekhia Plattenhelm
-433800286830704	Bolton Plattenhelm
-433804581798000	Cassius Mortens Plattenhelm
-433826056634480	Eisflügel-Plattenhelm
-433830351601776	Helm des Willens von Ator
-433838941536368	Ferman Plattenhelm
-433843236503664	Keredegs Plattenhelm
-433847531470960	Ferenna Plattenhelm
-433851826438256	Grace Plattenhelm
-433856121405552	Flynn Plattenhelm
-433860416372848	Crudil Plattenhelm
-433869006307440	Berin Plattenhelm
-433907661013104	Bestienmann Knochenhelm
-433924840882288	Rodderham Plattenhelm
-433937725784176	Taos Plattenhelm
-433989265391728	Tarandus Plattenhelm
-433997855326320	Standard-Kopfbedeckung der Musketen-Grenzschützer
-434002150293616	Lotas Plattenhelm
-434019330162800	Ledermütze der Schwarzbären
-434023625130096	Chelcia Plattenhelm
-434032215064688	Aschenflammen-Plattenhelm
-434036510031984	Inyr Plattenhelm
-434040804999280	Rueconec Plattenhelm
-434045099966576	Calio Plattenhelm
-434057984868464	Ashford Plattenhelm
-434083754672240	Lyfellen Plattenhelm
-434105229508720	Kiatus Plattenhelm
-434122409377904	Rahbae Plattenhelm
-434126704345200	Goldzweigkrone
-434178243952752	Vduer-Plattenhelm
-434208308723824	Laehbern Plattenhelm
-434212603691120	Offenberg Plattenhelm
-434225488593008	Ashad Plattenhelm
-434229783560304	Solas Plattenhelm
-434242668462192	Ulrich Plattenhelm
-434259848331376	Paizel Knochenhelm
-434268438265968	Plattenhelm der Gesichtslosen
-434272733233264	Bayer Plattenhelm
-434277028200560	Bolgan Plattenhelm
-434281323167856	Dernat Plattenhelm
-434285618135152	Dondegobi Plattenhelm
-434294208069744	Plattenhelm der nordischen Kämpfer
-434307092971632	Casinian Plattenhelm
-434315682906224	Canta Plattenhelm
-434328567808112	Tanion Plattenhelm
-434371517481072	Antra Plattenhelm
-434375812448368	Laterna Plattenhelm
-434380107415664	Zachar Plattenhelm
-434384402382960	Plattenhelm des unbeugsamen Kriegers
-434388697350256	Tartry Plattenhelm
-434397287284848	Rapps Plattenhelm
-434401582252144	Biconio Plattenhelm
-434427352055920	Kuruas Plattenhelm
-438086664304	Schwerer Kupferbeutel
-438095254126704	Nahus Kettenhaube
-438099549094000	Kadallons Kettenhaube
-438103844061296	Tailan Plattenhelm
-442381631600	Leichter Kupferbeutel
-442403106324592	Nevin-Stoffbandana
-442424581161072	Leontyne Plattenhelm
-442480415735920	Lederhelm des gefallenen Königreichs
-442506185539696	Stumpf-Plattenhelm
-442523365408880	Melvins Lederhelm
-442531955343472	Helm der treuen Freundschaft
-442536250310768	Rondels Lederhelm
-442557725147248	Lederhelm von Lacrunias
-442583494951024	Rueconecs Lederhelm
-442592084885616	Agathas Lederhelm
-442626444623984	Dimfelds Lederhelm
-442639329525872	Daveeds Lederhelm
-442660804362352	Lutinas' Lederhelm
-442682279198832	Lederhelm von Lanweiter
-442759588610160	Lederhelm von Uphren
-442785358413936	Arkhan-Lederhelm
-442793948348528	Ledans Lederhelm
-442828308086896	Dekters Lederhelm
-442832603054192	Lederhelm von Shellus
-442862667825264	Scholastein-Kappe
-446676598896	Bedeutsamer Silberbeutel
-446736728326256	Bollin Stoffkappe
-446741023293552	Radein Stoffkappe
-446796857868400	Rueconec Stoffkappe
-446805447802992	Agatha Stoffkappe
-446882757214320	Baidans Stoffstirnband
-446904232050800	Calprise Stoffkappe
-446917116952688	Rigma Stoffstirnband
-446990131396720	Raveed Stoffkappe
-446994426364016	Duvidet Ringe
-447015901200496	Scobby Stoffstirnband
-447033081069680	Fiore Stoffkappe
-447037376036976	Ataram Stoffkappe
-447058850873456	Gaurra Stoffkappe
-447063145840752	Jermill Stoffstirnband
-447076030742640	Torben Stoffkappe
-447088915644528	Ulman Stoffkappe
-447127570350192	Rahelm Stoffstirnband
-447131865317488	Stoffhelm der Wyvernflammen
-447136160284784	Muchia Stoffkappe
-447183404925040	Rockington Stoffkappe
-447191994859632	Deland Plattenhelm
-447200584794224	Ducriss Kegelkappe
-447234944532592	Lashiras Kutte
-447243534467184	Stoffkappe des Herrschers der schattigen Straßen
-447256419369072	Sianische Stoffkappe
-447260714336368	Karas Stoffstirnband
-447265009303664	Larkett Stoffkappe
-447269304270960	Lashir Stoffkappe
-447273599238256	Drish Stoffkappe
-447277894205552	Triloisches Stoffstirnband
-447290779107440	Ruckshi Stoffkappe
-447295074074736	Rhytrianische Stoffkappe
-447312253943920	Gadereich Stoffkappe
-447316548911216	Ludynn Stoffkappe
-447320843878512	Marc Stoffkappe
-447325138845808	Harker Stoffkappe
-447338023747696	Veronde Stoffkappe
-447342318714992	Ghaltain Stoffkappe
-447359498584176	Berghills Stoffkappe
-447363793551472	Meravan Stoffkappe
-447368088518768	Salimis Stoffkappe
-447385268387952	Yuzel Stoffkappe
-447402448257136	Pailunischer Hut
-447428218060912	Jester-Ledermaske
-447432513028208	Hasen-Ledermaske
-447466872766576	Drachenflammen-Helm
-447471167733872	Helm des Drachenritters
-450971566192	Dicker Silberbeutel
-4644006381769195632	Rotbraune Pavise-Lederhandschuhe
-4719841433903693936	Schwarzstahl-Lotas-Plattenhelm
-47248935223408	Angelrute
-476762844692592	Frostfluch-Plattenpanzer
-476784319529072	Inquisitors Plattenpanzer
-476908873580656	Tarandus Plattenpanzer
-476913168547952	Enus Plattenpanzer
-476956118220912	Grauwolf Lederrüstung
-477110737043568	Bodin Plattenpanzer
-477115032010864	Breemen Plattenpanzer
-477162276651120	Bekur Plattenpanzer
-477166571618416	Frente Plattenpanzer
-477170866585712	Corinne Plattenpanzer
-477175161553008	Takao Plattenpanzer
-477179456520304	Gwets Plattenpanzer
-477183751487600	Arkhan Plattenpanzer
-477188046454896	Yosef Plattenpanzer
-477192341422192	Andres Kettenpanzer
-477196636389488	Albert Plattenpanzer
-477200931356784	Emil Plattenpanzer
-477205226324080	Stoffrüstung von Schtump
-477209521291376	Svens Stoffrüstung
-477213816258672	Yakkovs Stoffrüstung
-477218111225968	Ernsts Kettenpanzer
-477226701160560	Stoffrüstung von Ditter
-477235291095152	Redman Plattenpanzer
-477239586062448	Schmidt Plattenpanzer
-477291125670000	Dreer Plattenpanzer
-477295420637296	Rhogo Plattenpanzer
-477299715604592	Roshee Plattenpanzer
-477304010571888	Romund Plattenpanzer
-477308305539184	Valkyder Plattenpanzer
-477312600506480	Killianischer Plattenpanzer
-477316895473776	Kenmore Plattenpanzer
-477321190441072	Kinloch Plattenpanzer
-477325485408368	Lanauk Plattenpanzer
-477329780375664	Spiddle Plattenpanzer
-477334075342960	Meyer Plattenpanzer
-477338370310256	Edzel Plattenpanzer
-477342665277552	Brejin Plattenpanzer
-477346960244848	Canusti Plattenpanzer
-477351255212144	Dundree Plattenpanzer
-477355550179440	Crail Plattenpanzer
-477359845146736	Levin Plattenpanzer
-477364140114032	Dunverline Plattenpanzer
-477368435081328	Kinross Plattenpanzer
-477372730048624	Demeniss-Ehrenrüstung
-477377025015920	Stoffrüstung von Avignon
-477385614950512	Arghais Stoffrüstung
-477389909917808	Stoffrüstung der Gesichtslosen
-477450039459952	Bolton Plattenpanzer
-477454334427248	Blackburn Plattenpanzer
-477458629394544	Reppin Plattenpanzer
-477462924361840	Ashad Plattenpanzer
-477467219329136	Solas Plattenpanzer
-477471514296432	Beverly Plattenpanzer
-477540233773168	Lemericks Kettenpanzer
-477544528740464	Lauers Kettenpanzer
-477548823707760	Senon Plattenpanzer
-477553118675056	Leighbog Plattenpanzer
-477557413642352	Galbons Kettenpanzer
-477561708609648	Brina Plattenpanzer
-477570298544240	Prix Plattenpanzer
-477574593511536	Serroa Plattenpanzer
-477583183446128	Dutiron Plattenpanzer
-477587478413424	Dutinion Plattenpanzer
-477591773380720	Endnion Plattenpanzer
-477596068348016	Dardnion Plattenpanzer
-477600363315312	Lavgnions Kettenpanzer
-477604658282608	Lucions Kettenpanzer
-477608953249904	Ludeon Plattenpanzer
-477613248217200	Cerruan Plattenpanzer
-477617543184496	Mahon Plattenpanzer
-477621838151792	Caliburns Plattenpanzer
-477643312988272	Rüstung der treuen Freundschaft
-477660492857456	Carta Plattenpanzer
-477673377759344	Ruwaite Plattenpanzer
-477677672726640	Russell Lederrüstung
-477681967693936	Ludus Plattenpanzer
-477720622399600	Antum Plattenpanzer
-477724917366896	Entum Plattenpanzer
-477729212334192	Sitanca Plattenpanzer
-477733507301488	Markman Plattenpanzer
-477737802268784	Kantona Plattenpanzer
-477742097236080	Lederrüstung von Lukin
-477754982137968	Lachianischer Plattenpanzer
-477759277105264	Lacata Plattenpanzer
-477763572072560	Eccanta Plattenpanzer
-477767867039856	Eclaon Plattenpanzer
-477772162007152	Egliss Plattenpanzer
-477776456974448	Ekklemen Plattenpanzer
-477780751941744	Ostent Plattenpanzer
-477785046909040	Oakley Plattenpanzer
-477797931810928	Dunion Plattenpanzer
-477802226778224	Manios Plattenpanzer
-477810816712816	Aschenflammen-Plattenpanzer
-477823701614704	Aeron Plattenpanzer
-477827996582000	Goldene Platten-Körperpanzerung der lüsternen Begierde
-477832291549296	Sliberplattenpanzer
-477836586516592	Sahazhad Plattenpanzer
-477840881483888	Jerrinmarne Plattenpanzer
-477845176451184	Eisflügel-Platten-Körperpanzerung
-481182366040176	Lodis Kettenpanzer
-481186661007472	Drivons Kettenpanzer
-481216725778544	Reddins Kettenpanzer
-481315510026352	Kallaris Kettenpanzer
-481319804993648	Tormands Kettenpanzer
-481324099960944	Hasets' Kettenpanzer
-481328394928240	Killis Kettenpanzer
-481332689895536	Valtons Kettenpanzer
-481349869764720	Lucnaons Kettenpanzer
-481358459699312	Lucnianischer Kettenpanzer
-481367049633904	Dunions Kettenpanzer
-481371344601200	Drachenflammen-Rüstung
-481375639568496	Plattenpanzer des Drachenritter-Kriegers
-481379934535792	Drachenritter-Kettenpanzer
-485365664186480	Twell Lederrüstung
-485430088695920	Schwarzflügel-Lederrüstung
-485455858499696	Benne Lederrüstung
-485468743401584	Lederrüstung von Somier
-485477333336176	Traleys Kettenpanzer
-485481628303472	Antumbra-Stoffrüstung
-485752211243120	Bestienmann Lederrüstung
-485954074706032	Harran Stoffrüstung
-4867475935361761392	Lederhandschuhe von Persein
-487152370581616	Vyer Lederrüstung
-487156665548912	Dewey Lederrüstung
-487160960516208	Arqus Lederrüstung
-487165255483504	Dremel Lederrüstung
-487169550450800	Dyrel Lederrüstung
-487173845418096	Merly Lederrüstung
-487178140385392	Trudy Lederrüstung
-487182435352688	Dreban Lederrüstung
-487186730319984	Dellianische Lederrüstung
-487191025287280	Kenecks Lederrüstung
-487195320254576	Vierni Lederrüstung
-487199615221872	Blaines Lederrüstung
-487203910189168	Cyton Lederrüstung
-487264039731312	Wakhan Lederrüstung
-487268334698608	Valion Lederrüstung
-487272629665904	Plune Lederrüstung
-487276924633200	Rittem Lederrüstung
-487281219600496	Mocke Lederrüstung
-487285514567792	Chayten Lederrüstung
-487289809535088	Colatte Lederrüstung
-487294104502384	Katerm Lederrüstung
-487302694436976	Waldfee Rüstung
-487306989404272	Weiße Blutwind-Leder-Körperpanzerung
-487341349142640	Stoffrüstung von Pantafe
-487345644109936	Echebern Stoffrüstung
-487384298815600	Miliz-Stoffrüstung
-487388593782896	Pyrantha Stoffrüstung
-487392888750192	Torress Stoffrüstung
-487397183717488	Arandhal Stoffrüstung
-487405773652080	Toudon Stoffrüstung
-487410068619376	Lederrüstung von Cherke
-487414363586672	Blin Lederrüstung
-487457313259632	Dunqane Lederrüstung
-487461608226928	Elliot Lederrüstung
-487465903194224	Cuthbertson Lederrüstung
-487470198161520	Stoffrüstung von Buchanan
-487474493128816	Finneron Lederrüstung
-487478788096112	Torrance Lederrüstung
-487487378030704	Ohara Lederrüstung
-487491672998000	Conally Stoffrüstung
-487504557899888	Rexlan Stoffrüstung
-487513147834480	Tarmiden Stoffrüstung
-487521737769072	Seiden Lederrüstung
-487526032736368	Soron Lederrüstung
-487530327703664	Barunin Lederrüstung
-487577572343920	Gorg Lederrüstung
-487581867311216	Tauhafen-Lederrüstung
-487586162278512	Johannes Plattenpanzer
-487693536460912	Davis Lederrüstung
-487740781101168	Leder-Körperpanzerung des gefallenen Königreichs
-487770845872240	Mohills Lederrüstung
-487775140839536	Lunpherd Lederrüstung
-487779435806832	Islekk Lederrüstung
-487783730774128	Baladean Lederrüstung
-487788025741424	Navan Stoffrüstung
-487792320708720	Glosope Lederrüstung
-487796615676016	Norswich Lederrüstung
-487800910643312	Campo Lederrüstung
-487809500577904	Janiklo Lederrüstung
-487813795545200	Nellaccio Lederrüstung
-487818090512496	Dasala Lederrüstung
-487822385479792	Gerano Lederrüstung
-487826680447088	Pisonia Lederrüstung
-487830975414384	Paliano Lederrüstung
-487839565348976	Locasima Lederrüstung
-487843860316272	Corey Stoffrüstung
-487848155283568	Lariano Stoffrüstung
-487852450250864	Ranubio Lederrüstung
-487856745218160	Ardia Lederrüstung
-487861040185456	Antika Lederrüstung
-487865335152752	Oustia Lederrüstung
-487869630120048	Tarabe Lederrüstung
-487873925087344	Montlanico Lederrüstung
-487878220054640	Carpine Lederrüstung
-487895399923824	Kednry Lederrüstung
-487959824433264	Vainbridge Stoffrüstung
-488084378484848	Durains Kettenpanzer
-488088673452144	Latrions Kettenpanzer
-488092968419440	Senianisches Kettenhemd
-488105853321328	Tyrans Lederrüstung
-488110148288624	Tiron Lederrüstung
-488114443255920	Eshrun Lederrüstung
-488123033190512	Groucca Lederrüstung
-488135918092400	Hashaka Lederrüstung
-488140213059696	Hobbuca Lederrüstung
-488144508026992	Batangka Lederrüstung
-488153097961584	Greeney Lederrüstung
-488161687896176	Bulga Lederrüstung
-488165982863472	Barbaros Lederrüstung
-488174572798064	Lederrüstung der Graumähnen
-488178867765360	Nuslan Lederrüstung
-488183162732656	Ravirun Lederrüstung
-488187457699952	Mondianische Lederrüstung
-488191752667248	Saruen Lederrüstung
-488196047634544	Rubidan Lederrüstung
-488200342601840	Resianische Lederrüstung
-488213227503728	Larkson Lederrüstung
-488217522471024	Matana Lederrüstung
-488221817438320	Radianische Stoffrüstung
-488286241947760	Acrias Kettenpanzer
-488294831882352	Rotunso Lederrüstung
-488299126849648	Rombardina Lederrüstung
-488303421816944	Sicillion Lederrüstung
-488307716784240	Rhodelphine Lederrüstung
-488312011751536	Tallofer Lederrüstung
-488320601686128	Plattenpanzer des unbeugsamen Kriegers
-488324896653424	Meishod Stoffrüstung
-488329191620720	Valldren Lederrüstung
-488333486588016	Moldur Lederrüstung
-488337781555312	Churrchen Lederrüstung
-488342076522608	Saolo Lederrüstung
-488346371489904	Jevanars Lederrüstung
-488354961424496	Drossel Lederrüstung
-488359256391792	Dumenis Stoffrüstung
-488367846326384	Laplace Lederrüstung
-488372141293680	Radiano Lederrüstung
-488376436260976	Dorness Lederrüstung
-488380731228272	Undriga Lederrüstung
-488385026195568	Anderitz Lederrüstung
-488389321162864	Rapps Lederrüstung
-488393616130160	Cantars Lederrüstung
-488397911097456	Pictead Lederrüstung
-488402206064752	Varanguard Lederrüstung
-488406501032048	Scarteau Lederrüstung
-488410795999344	Huskall Lederrüstung
-488415090966640	Barbaroy Lederrüstung
-488419385933936	Kordaav Lederrüstung
-488423680901232	Lespedan Lederrüstung
-488427975868528	Lederrüstung von Stiv
-488432270835824	Dyrfrith Lederrüstung
-488436565803120	Stugrub Lederrüstung
-488440860770416	Barrette Lederrüstung
-488445155737712	Gaut Lederrüstung
-488462335606896	Bettert-Lederrüstung
-488466630574192	Schlitz Lederrüstung
-488470925541488	Binden Lederrüstung
-488475220508784	Auld Lederrüstung
-488479515476080	Mavin Lederrüstung
-488488105410672	Raspin Lederrüstung
-488492400377968	Duvelle Lederrüstung
-488496695345264	Karius Lederrüstung
-488500990312560	Slouwen Lederrüstung
-488505285279856	Bleawin Lederrüstung
-488513875214448	Trellianische Lederrüstung
-488518170181744	Lederrüstung des Sonnenuntergangstals
-488535350050928	Lederrüstung des namenlosen Weisen
-488543939985520	Ludynn Lederrüstung
-488548234952816	Reaks Lederrüstung
-488552529920112	Marc Lederrüstung
-488556824887408	Smilodon-Lederrüstung
-488561119854704	Noyvarn Lederrüstung
-488595479593072	Luverne Lederrüstung
-488599774560368	Galanta Lederrüstung
-488604069527664	Nelton Lederrüstung
-488608364494960	Brogue Lederrüstung
-488612659462256	Hodges Lederrüstung
-488616954429552	Ducca Lederrüstung
-488625544364144	Berker Lederrüstung
-488629839331440	Tatura Lederrüstung
-488634134298736	Tavat Lederrüstung
-488638429266032	Gomel Lederrüstung
-488642724233328	Enge Lederrüstung
-488647019200624	Tikkal Lederrüstung
-488651314167920	Murad Lederrüstung
-488655609135216	Dannon Lederrüstung
-488659904102512	Ulontai Lederrüstung
-488664199069808	Huron Lederrüstung
-488668494037104	Begill Lederrüstung
-488672789004400	Rigma Lederrüstung
-488677083971696	Verdesh Lederrüstung
-488681378938992	Herwin Lederrüstung
-488685673906288	Dekter Lederrüstung
-488689968873584	Lederrüstung von Guff
-488702853775472	Grommet Lederrüstung
-488707148742768	Ajures Lederrüstung
-488711443710064	Lederrüstung von Salimi
-488715738677360	Nehrut Lederrüstung
-488720033644656	Takkat Lederrüstung
-488724328611952	Whitley Lederrüstung
-488728623579248	Kaisan Lederrüstung
-488732918546544	Derrison Lederrüstung
-488758688350320	Berblin Lederrüstung
-488767278284912	Rote Rüstung eines Untergebenen des Riedteufels
-488771573252208	Gelbe Rüstung eines Untergebenen des Riedteufels
-488775868219504	Riedteufel Untergebener Rüstung
-490906171998320	Stoffrüstung von Cocotar
-490910466965616	Stoffrüstung von Tryah
-490914761932912	Ators Wille Stoffkörperpanzerung
-490919056900208	Stoffrüstung von Paifo
-491013546180720	Ancara Stoffrüstung
-491017841148016	Esbeth Stoffrüstung
-491022136115312	Muchia Stoffrüstung
-491026431082608	Stoffrüstung der Wyvernflammen
-491030726049904	Duizeh Stoffrüstung
-491035021017200	Izumit Stoffrüstung
-491039315984496	Mugleah Stoffrüstung
-491069380755568	Myrnen Stoffrüstung
-491073675722864	Bollin Stoffrüstung
-491077970690160	Livner Stoffrüstung
-491082265657456	Ruvib Stoffrüstung
-491086560624752	Stoffrüstung der Blut-Banditen
-491090855592048	Alsace Stoffrüstung
-491095150559344	Beralt Stoffrüstung
-491099445526640	Monterima Stoffrüstung
-491103740493936	Deorre Stoffrüstung
-491116625395824	Faians Stoffrüstung
-491129510297712	Concarr Stoffrüstung
-491142395199600	Luwea Stoffrüstung
-491146690166896	Stoffrüstung von Gael
-491150985134192	Bolgan Stoffrüstung
-491155280101488	Dernat Stoffrüstung
-491159575068784	Dondegobi Stoffrüstung
-491163870036080	Gobialta Stoffrüstung
-491168165003376	Orbus Stoffrüstung
-491172459970672	Hentree Stoffrüstung
-491176754937968	Stoffrüstung von Oubreve
-491181049905264	Harghai Stoffrüstung
-491215409643632	Telford Stoffrüstung
-491335668727920	Stoffrüstung von Daraz
-491404388204656	Denmores Stoffrüstung
-491408683171952	Telin Stoffrüstung
-491412978139248	Stoffrüstung von Calis
-491421568073840	Roshayne Stoffrüstung
-491425863041136	Stoffrüstung von Minnutan
-491434452975728	Drumfin Stoffrüstung
-491443042910320	Drimrow Stoffrüstung
-491464517746800	Stoffrüstung von Totte
-491473107681392	Radleys Stoffrüstung
-491477402648688	Lucion Stoffrüstung
-491481697615984	Senianische Stoffrüstung
-491503172452464	Stoffrüstung von Lackey
-491507467419760	Stoffrüstung von Kassa
-491511762387056	Stoffrüstung von Annis
-491524647288944	Stoffrüstung von Marka
-491528942256240	Stoffrüstung von Makri
-491593366765680	Stoffrüstung von Tyran
-491597661732976	Stoffrüstung von Tiron
-491601956700272	Tyrune Stoffrüstung
-491606251667568	Tarun Stoffrüstung
-491610546634864	Tynions Stoffrüstung
-491614841602160	Tanion Stoffrüstung
-491619136569456	Stoffrüstung von Neslan
-491623431536752	Stoffrüstung von Eshrun
-491636316438640	Deshret Stoffrüstung
-491649201340528	Stoffrüstung von Takana
-491657791275120	Lakshi Lederrüstung
-491670676177008	Ladran Stoffrüstung
-491674971144304	Nuslan Stoffrüstung
-491679266111600	Stoffrüstung von Ravirun
-491683561078896	Barianische Stoffrüstung
-491687856046192	Barcy Stoffrüstung
-491692151013488	Bartmun Stoffrüstung
-491696445980784	Orthu Stoffrüstung
-491700740948080	Stoffrüstung von Tohkar
-491705035915376	Verdinan Stoffrüstung
-491709330882672	Borsehir Stoffrüstung
-491713625849968	Keanoff Stoffrüstung
-491743690621040	Rhonid Stoffrüstung
-491747985588336	Pouhel Stoffrüstung
-491752280555632	Dillinger Stoffrüstung
-491756575522928	Eckney Stoffrüstung
-491786640294000	Stoffrüstung von Baratum
-491790935261296	Baritum Stoffrüstung
-491795230228592	Baras Stoffrüstung
-491803820163184	Baraccuro Stoffrüstung
-491825294999664	Barrow Stoffrüstung
-491829589966960	Bailao Stoffrüstung
-491833884934256	Barclao Stoffrüstung
-491842474868848	Stoffrüstung von Barch
-491863949705328	Bedure Kettenpanzer
-491872539639920	Rikshas Kettenpanzer
-491876834607216	Lathia Stoffrüstung
-491885424541808	Kennav Stoffrüstung
-491889719509104	Lancats Stoffrüstung
-491894014476400	Rangtua Stoffrüstung
-491898309443696	Nebin Stoffrüstung
-491902604410992	Ranphas Stoffrüstung
-491906899378288	Roctar Stoffrüstung
-491911194345584	Barbaroys Stoffrüstung
-491915489312880	Fiore Stoffrüstung
-491919784280176	Warstein Stoffrüstung
-491924079247472	Conentry Stoffrüstung
-491928374214768	Berkhia Stoffrüstung
-491932669182064	Austfeld Stoffrüstung
-491941259116656	Gaut Stoffrüstung
-491945554083952	Gadereich Stoffrüstung
-491949849051248	Ewen Stoffrüstung
-491954144018544	Stoff-Körperpanzerung von Primus, dem Ältesten
-491962733953136	Stoffrüstung von Diggs
-491967028920432	Raddler Stoffrüstung
-492001388658800	Volghad Stoffrüstung
-492005683626096	Ultar Stoffrüstung
-492009978593392	Dohann Stoffrüstung
-492014273560688	Bahlmers Stoffrüstung
-492018568527984	Tolkane Stoffrüstung
-492022863495280	Stoffrüstung von Bandide
-492027158462576	Dwelker Stoffrüstung
-492031453429872	Veronde Stoffrüstung
-492035748397168	Ruschelle Stoffrüstung
-492040043364464	Rosarduin Stoffrüstung
-492044338331760	Sherwood Stoffrüstung
-492048633299056	Eyratt Stoffrüstung
-492052928266352	Gruun Stoffrüstung
-492057223233648	Auron Stoffrüstung
-492065813168240	Salash Stoffrüstung
-492070108135536	Borman Stoffrüstung
-492074403102832	Berghill Stoffrüstung
-492078698070128	Hassal Stoffrüstung
-492082993037424	Meravan Stoffrüstung
-492087288004720	Chizhar Stoffrüstung
-492091582972016	Dahkavan Stoffrüstung
-492095877939312	Ziahl Stoffrüstung
-492100172906608	Amundule Stoffrüstung
-492104467873904	Sarendion Stoffrüstung
-492108762841200	Hysilda Stoffrüstung
-492113057808496	Stoffrüstung von Yorkey
-492117352775792	Dollette Stoffrüstung
-492121647743088	Verette Stoffrüstung
-492125942710384	Haillen Stoffrüstung
-492130237677680	Khalbdan Stoffrüstung
-492147417546864	Schillerbin Stoffrüstung
-492151712514160	Neblin Stoffrüstung
-492160302448752	Stoff-Körperpanzerung des lodernden Himmels
-492181777285232	Stoffrüstung der maskierten Befreierin
-492186072252528	Keller Stoffrüstung
-492203252121712	Pailunische Kleidung
-492220431990896	Stoffrüstung von Spetsahorn
-492224726958192	Stoffrüstung von Muddliss
-492229021925488	Delesyia-Stoffkleidung
-492233316892784	Stoffrüstung von Kang
-492237611860080	Zynianische Stoffrüstung
-492241906827376	Zamir Stoffrüstung
-492246201794672	Lubonon Stoffrüstung
-492250496761968	Denill Stoffrüstung
-492259086696560	Edle Stoffrüstung
-492267676631152	Odorrey Stoffrüstung
-492284856500336	Dega Stoffrüstung
-492302036369520	Kaninchenledermantel
-492306331336816	Jester-Ledermantel
-492327806173296	Chelcia Plattenpanzer
-492332101140592	Anti-Meyer Plattenpanzer
-492344986042480	Halb-Crail-Plattenpanzer
-492375050813552	Stoff-Körperpanzerung der roten Klinge
-4990507880600830064	Kenmore Plattenpanzer
 4995055555182704	Hernandianische Kleidung
 4995227353874544	Wolfs Schwert
 4995231648841840	Becker-Schild
@@ -4856,501 +5425,6 @@
 5001540955799664	Nordische Kämpfer Kettenrüstung
 5003679849513072	Scholastein-Uniform
 5003684144480368	Pororin-Stoffkleidung
-5029885523750027376	Banditenlederstiefel
-5068669241641664624	Leerer Rucksack
-519716812619888	Trishs Lederhandschuhe
-519721107587184	Leahdras Lederhandschuhe
-519725402554480	Lederhandschuhe von Veile
-519729697521776	Behrun Fellarmschienen
-519733992489072	Inquisitors Plattenhandschuhe
-519746877390960	Canta Plattenhandschuhe
-519751172358256	Draiga Plattenhandschuhe
-519755467325552	Runae-Stoffhandschuhe
-519764057260144	Plattenhandschuhe des Frostfluchs
-519785532096624	Flammenschwertkämpfers Plattenhandschuhe
-519794122031216	Batz Plattenhandschuhe
-519798416998512	Tarandus' Plattenhandschuhe
-519802711965808	Aschenflammen-Plattenhandschuhe
-519807006933104	Camsen Plattenhandschuhe
-519815596867696	Dimfeld Plattenhandschuhe
-519828481769584	Agathas Plattenhandschuhe
-519832776736880	Ashad Plattenhandschuhe
-519837071704176	Solas Plattenhandschuhe
-519871431442544	Pernicia Plattenhandschuhe
-519875726409840	Ferman Plattenhandschuhe
-519905791180912	Grauwolf Lederhandschuhe
-519922971050096	Luon Plattenhandschuhe
-519927266017392	Luthor Plattenhandschuhe
-519931560984688	Arkhan Plattenhandschuhe
-519935855951984	Dumenis Plattenhandschuhe
-519944445886576	Ratti Plattenhandschuhe
-519948740853872	Ettis Plattenhandschuhe
-519953035821168	Recklin Stoffhandschuhe
-519970215690352	Kevile Plattenhandschuhe
-519978805624944	Weirren Plattenhandschuhe
-519983100592240	Devinine Plattenhandschuhe
-519987395559536	Eisflügel-Plattenhandschuhe
-519991690526832	Demeniss-Elite-Plattenhandschuhe
-519995985494128	Goldene Verlangen-Plattenhandschuhe
-520000280461424	Belui Plattenhandschuhe
-520038935167088	Plattenhandschuhe des gefallenen Königreichs
-524011779915888	Beastmans Kettenarmschienen
-52415780880496	Maydocs Lederrüstung
-52420075847792	Vildyne Lederrüstung
-52424370815088	Adoratt Lederrüstung
-52428665782384	Colbill Lederrüstung
-52432960749680	Coby Lederrüstung
-52437255716976	Sherborn Lederrüstung
-52471615455344	„Dürstender Reißzahn“-Lederrüstung
-52475910422640	Helfryn Lederrüstung
-52480205389936	Wiesel-Lederrüstung
-5255562342640386160	Pavis Lederschuhe
-528315337146480	Austfelds Lederhandschuhe
-528336811982960	Lederhandschuhe von Fiore
-528341106950256	Janiklos Lederhandschuhe
-528353991852144	Lederhandschuhe von Barre
-528358286819440	Lederhandschuhe von Berkhia
-528362581786736	Goldherz-Kettenhandschuhe
-528366876754032	Lederhandschuhe von Kordaav
-528384056623216	Cacoreum-Lederhandschuhe
-528396941525104	Claires Lederhandschuhe
-52840982642800	Schlammverschmierte Sarantos Lederstiefel
-528414121394288	Lederhandschuhe von Hark
-528422711328880	Lederhandschuhe von Weiston
-528431301263472	Lederhandschuhe von Talisin
-528435596230768	Melvins Lederhandschuhe
-528444186165360	Trions Lederhandschuhe
-528452776099952	Lederhandschuhe von Ebenezer
-52845277610096	Große Rhegis Lederstiefel
-528457071067248	Pavis Lederhandschuhe
-528465661001840	Rondels Lederhandschuhe
-528469955969136	Lederhandschuhe von Perseus
-528504315707504	Byrens Lederhandschuhe
-528508610674800	Kadallons Lederhandschuhe
-528517200609392	Saluns Lederhandschuhe
-52853867544688	„Dürstender Reißzahn“-Lederstiefel
-528542970413168	Lespedans Lederhandschuhe
-528555855315056	Rheigis-Lederhandschuhe
-528560150282352	Lederhandschuhe von Hagwood
-528573035184240	Lederhandschuhe von Lasfeld
-528577330151536	Lederhandschuhe von Wyrdins
-528581625118832	Andrias Lederhandschuhe
-52858162511984	Carta Plattenstiefel
-528590215053424	Lederhandschuhe von Larki
-528611689889904	Lederhandschuhe von Rossbara
-528615984857200	Blynes Lederhandschuhe
-52862457479280	Hernand-Ehrengarde-Schuhe
-528641754660976	Rhinards Lederhandschuhe
-52866752446576	Wiesel-Lederstiefel
-528697589235824	Lederhandschuhe von Sleishorn
-528706179170416	Mornington Stoffhandschuhe
-52871047413872	Scholastein-Stiefel
-528714769105008	Bandellures Lederhandschuhe
-528727654006896	Nocburns Lederhandschuhe
-528736243941488	Drumards Lederhandschuhe
-528753423810672	Lederhandschuhe von Stratton
-52875342381168	Hernandianische Bankett-Lederstiefel
-528762013745264	Lederhandschuhe von Hegea
-528766308712560	Camsens Lederhandschuhe
-528783488581744	Lederhandschuhe von Matthias
-528792078516336	Lederhandschuhe von Layddete
-52879637348464	Imkerstiefel
-528804963418224	Lederhandschuhe von Khalbdan
-528822143287408	Lederhandschuhe von Rueconec
-528852208058480	Rakhir Stoffhandschuhe
-528865092960368	Satyros' Plattenhandschuhe
-528869387927664	Lederhandschuhe des gefallenen Abtrünnigen
-528877977862256	Steinmers Lederhandschuhe
-528899452698736	Adeions Lederhandschuhe
-528908042633328	Crudils Lederhandschuhe
-528916632567920	Conchettas Lederhandschuhe
-528925222502512	Loudans Lederhandschuhe
-528929517469808	Calios Lederhandschuhe
-528933812437104	Viraitons Lederhandschuhe
-528946697338992	Maeves Lederhandschuhe
-528955287273584	Lederhandschuhe von Deskio
-528968172175472	Geloufeld Plattenhandschuhe
-528985352044656	Asty Stoffhandschuhe
-528998236946544	Dimfelds Lederhandschuhe
-529002531913840	Lederhandschuhe von Trowder
-529006826881136	Cavidens Lederhandschuhe
-529041186619504	Lederhandschuhe von Mistrum
-529058366488688	Rowleys Lederhandschuhe
-529066956423280	Daveeds Lederhandschuhe
-529071251390576	Betties Lederhandschuhe
-529109906096240	Lennigens Lederhandschuhe
-529118496030832	Lederhandschuhe von Kaeridyn
-529127085965424	Merridews Lederhandschuhe
-529144265834608	Astia Stoffhandschuhe
-529152855769200	Aldwins Lederhandschuhe
-529161445703792	Latianische Lederhandschuhe
-529178625572976	Lederhandschuhe von Vicaron
-529187215507568	Leppos Lederhandschuhe
-529191510474864	Brogants Lederhandschuhe
-529204395376752	Lederhandschuhe von Delise
-529208690344048	Lederhandschuhe von Boggen
-529221575245936	Delinells Lederhandschuhe
-529225870213232	Lederhandschuhe von Wertesh
-529230165180528	Lederhandschuhe von Keimbel
-529234460147824	Lederhandschuhe von Sladen
-529243050082416	Lederhandschuhe von Persein
-529255934984304	Mechlins Lederhandschuhe
-529260229951600	Lederhandschuhe von Essembel
-529264524918896	Contras Lederhandschuhe
-529311769559152	Lederhandschuhe der maskierten Befreierin
-529320359493744	Dondegobis Lederhandschuhe
-529324654461040	Lederhandschuhe von Gobialta
-529328949428336	Lederhandschuhe von Terschan
-529337539362928	Rignons Lederhandschuhe
-529341834330224	Reclonnes Lederhandschuhe
-529346129297520	Ricraus Lederhandschuhe
-529359014199408	Lederhandschuhe von Tiron
-529363309166704	Lederhandschuhe von Taylonne
-529384784003184	Haron Stoffhandschuhe
-529397668905072	Lederhandschuhe von Kattinan
-529401963872368	Lederhandschuhe von Saruen
-529427733676144	Lucas Lederhandschuhe
-529436323610736	Lederhandschuhe von Tikkal
-529440618578032	Marknas Lederhandschuhe
-529457798447216	Lukas' Lederhandschuhe
-529479273283696	Lederhandschuhe des Herrschers der schattigen Straße
-529483568250992	Lederhandschuhe von Salatos
-529492158185584	Lederhandschuhe von Ellisco
-529496453152880	Lederhandschuhe von Elashe
-529509338054768	Lederhandschuhe von Kasria
-529517927989360	Renshakus Lederhandschuhe
-529522222956656	Lederhandschuhe von Reshesh
-529530812891248	Ravellus Lederhandschuhe
-529535107858544	Remebrous Lederhandschuhe
-529539402825840	Rainiers Lederhandschuhe
-529543697793136	Lederhandschuhe von Lave
-529547992760432	Maches Lederhandschuhe
-529552287727728	Martails Lederhandschuhe
-529556582695024	Lederhandschuhe von Wentz
-529573762564208	Lederhandschuhe von Bolson
-529578057531504	Lederhandschuhe von Cains
-529582352498800	Daltons Lederhandschuhe
-529586647466096	Lederhandschuhe von Eplern
-529590942433392	Archens Lederhandschuhe
-529595237400688	Lederhandschuhe von Dunion
-529599532367984	Lederhandschuhe von Laplace
-529603827335280	Lederhandschuhe von Bristel
-529621007204464	Masti Plattenhandschuhe
-529625302171760	Lederhandschuhe von Takkan
-529629597139056	Arsens Lederhandschuhe
-529633892106352	Takah Stoffhandschuhe
-529638187073648	Silberne Plattenhandschuhe
-529642482040944	Chents Lederhandschuhe
-529646777008240	Lederhandschuhe der Schwarzbären
-529655366942832	Grauwolf Stoffhandschuhe
-529659661910128	Dherris Lederhandschuhe
-529668251844720	Pattens Lederhandschuhe
-529672546812016	Silberwolf Lederhandschuhe
-529676841779312	Rattu Stoffhandschuhe
-529689726681200	Lercents Lederhandschuhe
-529694021648496	Dämmerfangzahn-Lederhandschuhe
-529706906550384	Dram Lederarmschienen
-529711201517680	Lederhandschuhe von Bunce
-529715496484976	Maters' Lederhandschuhe
-529728381386864	Rannys' Lederhandschuhe
-529758446157936	Dane Lederbänder
-529792805896304	Reaks Lederhandschuhe
-529801395830896	Badrans Lederhandschuhe
-529805690798192	Rigmas Lederhandschuhe
-529809985765488	Lederhandschuhe von Verdesh
-529814280732784	Lederhandschuhe von Jasmern
-529818575700080	Lederhandschuhe von Esha
-529822870667376	Lederhandschuhe von Shellus
-529827165634672	Lederhandschuhe von Waller
-529848640471152	Lederhandschuhe von Salmae
-529852935438448	Derrisons Lederhandschuhe
-529861525373040	Dirrebins Lederhandschuhe
-529870115307632	Dallaban Lederhandschuhe
-529883000209520	Lawsons Lederhandschuhe
-529887295176816	Lederhandschuhe von Gaiman
-532597419540592	Stugrub Stoffhandschuhe
-532610304442480	Artis Lederhandschuhe
-532657549082736	Weiße Lederhandschuhe des Krähenmanns
-532661844050032	Baidan Stoffhandschuhe
-532674728951920	Porcell Stoffhandschuhe
-532700498755696	Whitley Stoffhandschuhe
-53270479372400	Roter Reiter Lederhandschuhe
-532713383657584	Lederhandschuhe von Tyran
-532717678624880	Stoffhandschuhe von Tiron
-53274774339696	Große Pavis-Lederhandschuhe
-532790693068912	Setri Stoffhandschuhe
-532794988036208	Serbello Stoffhandschuhe
-532812167905392	Ashtu Stoffhandschuhe
-532816462872688	Ratisan Stoffhandschuhe
-532820757839984	Duroin Stoffhandschuhe
-532829347774576	Ludynn Stoffhandschuhe
-53283364274288	Schwarzfeder-Lederhandschuhe
-532837937709168	Derrison Stoffhandschuhe
-532846527643760	Gadereich Stoffhandschuhe
-532850822611056	Chizhar Stoffhandschuhe
-532863707512944	Stoffhandschuhe des Sonnenuntergangstals
-532872297447536	Jesters Lederhandschuhe
-53287659241584	Lederhandschuhe des lodernden Himmels
-532880887382128	Ators Wille Lederhandschuhe
-532889477316720	Witters Plattenhandschuhe
-532893772284016	Dulone Plattenhandschuhe
-532898067251312	Drachenritter-Krieger Plattenhandschuhe
-532902362218608	Plattenhandschuhe des Drachenritter-Bogenschützen
-532906657185904	Caliburns Plattenhandschuhe
-53291954208880	„Dürstender Reißzahn“-Lederhandschuhe
-53296249176176	Hernands Ehrengarde-Handschuhe
-53300544143472	Helfryn Lederhandschuhe
-53304839110768	Wiesel-Lederhandschuhe
-53309134078064	Carta Lederhandschuhe
-53313429045360	Imkerhandschuhe
-53317724012656	Bollin Lederhandschuhe
-53712861003888	Silberfang-Mütze
-54116587929712	Doppelklingenaxt der Gier
-54550379626608	Göttliche Echos Bogen
-54554674593904	Bogen der Adligen
-55405078118512	Schatzdolch des Goblinkönigs
-562645010743408	Plattenstiefel des unbeugsamen Kriegers
-562649305710704	Platten-Schuhwerk der goldenen Begierde
-562666485579888	Lattua Plattenstiefel
-562670780547184	Eisflügel-Platten-Schuhwerk
-562679370481776	Inquisitors Plattenstiefel
-562696550350960	Canta Plattenstiefel
-562730910089328	Batz Plattenstiefel
-562735205056624	Chelcia Plattenstiefel
-562739500023920	Ashad Plattenstiefel
-562743794991216	Solas Plattenstiefel
-562752384925808	Serval Plattenstiefel
-562756679893104	Lederstiefel von Tyrdall
-562765269827696	Antumbra Plattenstiefel
-562808219500656	Sigremon Plattenstiefel
-562812514467952	Dulone Plattenschuhe
-562816809435248	Sahazhad Plattenstiefel
-562821104402544	Demeniss-Platten-Schuhwerk
-562838284271728	Platten-Schuhwerk des gefallenen Königreichs
-562855464140912	Grauwolf Lederstiefel
-563100268686737520	Lederhandschuhe der Nordland-Freiklingen
-56693568307312	Flegel des Vergänglichen
-566961452875888	Regglia Lederstiefel
-566965747843184	Rezzcan Lederstiefel
-566970042810480	Baku Lederstiefel
-56697863274608	Keule der Marni-Anhänger
-56702158241904	Streitkolben der Entschlossenheit
-571234945335408	Seiger Lederstiefel
-571252125204592	Rodderham Lederstiefel
-571260715139184	Leontynes Lederstiefel
-571269305073776	Bollin Lederstiefel
-57127360004208	Marnis Muskete
-571277895008368	Helfryn Lederstiefel
-571286484942960	Eustice Lederstiefel
-571316549714032	Leder-Schuhwerk des Halcius-Priesters
-571325139648624	Tobias' Lederstiefel
-571329434615920	Arghai Lederstiefel
-571333729583216	Nevin Lederstiefel
-571355204419696	Mulia Lederstiefel
-571372384288880	Cyllianische Lederstiefel
-571376679256176	Silberwolf-Lederstiefel
-571380974223472	Correllys Lederstiefel
-571385269190768	Benberry Lederstiefel
-571389564158064	Midlier Lederstiefel
-571393859125360	Derting Lederstiefel
-571402449059952	Steyer Lederstiefel
-57140244906096	Demeniss Heldenmuskete
-571406744027248	Ebenezer Lederstiefel
-571415333961840	Tesslit Lederstiefel
-571419628929136	Rhonda Lederstiefel
-571441103765616	Ramastern Lederstiefel
-571462578602096	Layne Lederstiefel
-571492643373168	Kadallons Lederstiefel
-571518413176944	Pierponts Lederstiefel
-571531298078832	Dyrfrith Lederstiefel
-571539888013424	Grauwolfs Lederstiefel
-571557067882608	Lederstiefel des gefallenen Abtrünnigen
-571582837686384	Sarantos Lederstiefel
-571608607490160	Levinto Lederstiefel
-571612902457456	Ruthie Lederstiefel
-571625787359344	Colberns Lederstiefel
-571647262195824	Bolton-Lederstiefel
-571733161541744	Nagmore Lederstiefel
-571737456509040	Mornington Lederstiefel
-571750341410928	Woodbrock Lederstiefel
-571763226312816	Russmore Lederstiefel
-571771816247408	Clarilles Lederstiefel
-571780406182000	Meadows Lederstiefel
-571823355854960	Lederstiefel von Keredig
-571831945789552	Neirnim Lederstiefel
-571857715593328	Matis' Lederstiefel
-571935025004656	Lederstiefel von Tarandus
-571943614939248	Sydmon Lederstiefel
-571952204873840	Panhas Lederstiefel
-571965089775728	Rhegis Lederstiefel
-571969384743024	Lederhandschuhe der maskierten Befreierin
-571982269644912	Crudils Lederstiefel
-571995154546800	Aschenflammen-Lederstiefel
-572016629383280	Lederstiefel von Huntington
-572020924350576	Adeion Lederstiefel
-572038104219760	Stoffschuhe von Diencia
-572055284088944	Pavis Lederschuhe
-572059579056240	Lederschuhe von trowder
-572072463958128	Pietis Lederstiefel
-572076758925424	Norman Lederstiefel
-572085348860016	Driseld Lederstiefel
-572093938794608	Dutrat Lederstiefel
-572098233761904	Reus Lederstiefel
-572102528729200	Lascaux Lederstiefel
-572106823696496	Mistum Lederstiefel
-572111118663792	Sillau Lederstiefel
-572115413631088	Lederstiefel von Fiatal
-572132593500272	Aurelianische Lederstiefel
-572145478402160	Eshianische Lederstiefel
-572192723042416	Lederstiefel von Clays
-572197018009712	Daveed Lederstiefel
-572201312977008	Beattie Lederstiefel
-572205607944304	Leegrau Lederstiefel
-572214197878896	Lederstiefel von Hroadar
-572239967682672	Trishs Lederstiefel
-572244262649968	Lederstiefel von Katitz
-572248557617264	Isilon Lederstiefel
-572261442519152	Elish Lederstiefel
-572265737486448	Runae Lederstiefel
-572270032453744	Carcons Lederstiefel
-572274327421040	Diovern Lederstiefel
-572300097224816	Erphy Lederstiefel
-572308687159408	Oakten Lederstiefel
-572317277094000	Seras Lederstiefel
-572321572061296	Cateines Lederstiefel
-572330161995888	Loutte Lederstiefel
-572338751930480	Bourveten Lederstiefel
-572343046897776	Lankel Lederstiefel
-572347341865072	Gannech Lederstiefel
-572351636832368	Lederstiefel von Kervel
-572355931799664	Walder Lederstiefel
-572360226766960	Donaff Lederstiefel
-572373111668848	Lederstiefel von Herdel
-572385996570736	Ators Wille Lederstiefel
-572390291538032	Quents Lederstiefel
-572394586505328	Graue Rhegis Lederstiefel
-572407471407216	Lederstiefel von Tyran
-572411766374512	Stoffschuhe von Tyrune
-572416061341808	Lederstiefel von Tiron
-572428946243696	Lederschuhe von Tiruna
-572433241210992	Darman Lederstiefel
-572437536178288	Saruen Lederstiefel
-572450421080176	Pastis Lederstiefel
-572467600949360	Lederstiefel von Kassantra
-572480485851248	Legunas Lederschuhe
-572484780818544	Layta Plattenstiefel
-572493370753136	Dannoche Lederstiefel
-572497665720432	Layta Lederstiefel
-572501960687728	Catchetas Lederstiefel
-572506255655024	Lederstiefel von Caico
-572510550622320	Cosgroves Lederstiefel
-572514845589616	Lederstiefel von Caelough
-572519140556912	Lederstiefel von Kasset
-572523435524208	Cassrows Lederstiefel
-572527730491504	Lederstiefel von Katz
-572536320426096	Ligatra Lederstiefel
-572540615393392	Lederstiefel von Cantu
-572549205327984	Andaran Lederstiefel
-572553500295280	Maldrick Lederstiefel
-572557795262576	Anderitz Lederstiefel
-572562090229872	Trillys Lederstiefel
-572566385197168	Lederstiefel von Fiore
-572570680164464	Perellis Lederschuhe
-572609334870128	Lasianische Lederstiefel
-572613629837424	Ludynns' Lederstiefel
-572617924804720	Lederstiefel von Kurua
-572622219772016	Stoddard Lederstiefel
-572626514739312	Lederstiefel von Wattern
-572630809706608	Badran Lederstiefel
-572635104673904	Lederstiefel von Hauvern
-572639399641200	Begill Lederstiefel
-572643694608496	Dreiger Lederstiefel
-572647989575792	Esha Lederstiefel
-572660874477680	Vitzers Lederstiefel
-572669464412272	Meravans Lederstiefel
-572673759379568	Lederstiefel von Salmae
-572678054346864	Nehruts Lederstiefel
-572682349314160	Lederstiefel von Juman
-572708119117936	Warren Beynons Lederstiefel
-572716709052528	Sein Lederstiefel
-572721004019824	Dolters Lederstiefel
-572725298987120	Schwarzfeder-Lederstiefel
-572733888921712	Orbit Lederstiefel
-572738183889008	Alvitt Lederstiefel
-572742478856304	Arrenya Lederstiefel
-572746773823600	Belui Lederstiefel
-575551387467888	Lederhandschuhe von Triloan
-575564272369776	Bayer Lederstiefel
-575572862304368	Pailunische Schuhe
-575581452238960	Stoffschuhe von Reus
-575590042173552	Stoffschuhe von Eckney
-575620106944624	Marrada Lederstiefel
-575624401911920	Endoron Lederstiefel
-575645876748400	Scoppa Lederstiefel
-575654466682992	Stoffschuhe von Whitley
-575731776094320	Kerdmanns Stoffschuhe
-575736071061616	Stoffschuhe von Barrette
-575740366028912	Stoffschuhe von Gaut
-575748955963504	Matia Lederstiefel
-575757545898096	Stoffschuhe von Chizhar
-575766135832688	Stoffschuhwerk des Sonnenuntergangstals
-575770430799984	Hasen-Stoff-Schuhwerk
-575783315701872	Caliburns Plattenstiefel
-5780346486525001840	Krugdeckel
-57982058496112	Königlicher Eid
-58411555225712	Panzer des Vergänglichen
-58428735094896	Balgran-Schild
-58433030062192	Delesyia-Zierschild
-5906878924599591024	Breiter Korb
-59309203390576	Nazk-Schwert
-59313498357872	Schwert der klirrenden Kälte
-59317793325168	Aeserion-Schwert
-59322088292464	Schwert des Vergänglichen
-59704340381808	Frostknochenschild
-60563333841008	Platten-Körperpanzerung der verfluchten Seele
-60567628808304	Plattenpanzer des Roten Reiters
-60571923775600	Meyer Plattenpanzer
-60576218742896	Spiddle Plattenpanzer
-60597693579376	Platten-Körperpanzerung des gefrorenen Herzens
-60988535603312	Platten-Schuhwerk des dunklen Henkers
-60992830570608	Platten-Schuhwerk der verfluchten Seele
-60997125537904	Gefrorene Plattenstiefel des Fluchs
-61418032332912	Plattenhandschuhe des dunklen Henkers
-61422327300208	Plattenhandschuhe der verfluchten Seele
-61426622267504	Rote Jägerkettenhandschuhe
-61435212202096	Plattenhandschuhe des gefrorenen Herzens
-61439507169392	Messingwächter-Plattenhandschuhe
-61443802136688	Pailunische Handschuhe
-61847529062512	Plattenhelm des Wanderers des Glaubens
-61851824029808	Plattenhelm der verfluchten Seele
-61856118997104	Roter Reiter Plattenhelm
-61860413964400	Plattenhelm der Demeniss-Wache
-61864708931696	Plattenhelm der Demeniss-Wache
-61869003898992	Roter Jägerplattenhelm
-61873298866288	Descao Plattenhelm
-61877593833584	Plattenhelm der Demeniss-Wache
-61894773702768	Kopfbedeckung der Helms-Käfer
-61899068670064	Die Helms Hornisse Kopfbedeckung
-61903363637360	Die Helms – Stier-Kopfbedeckung
-61911953571952	Schwarzfeder-Plattenmaske
-61916248539248	Plattenhelm des frostigen Fluchs
-61920543506544	Carta Plattenhelm
-62277025792112	Alphawolf-Kopfbedeckung
-62281320759408	Alphabären-Mütze
-62307090563184	Schwarzbären-Gasmaske
-62319975465072	Visione
-62324270432368	Massenproduzierte Visione
-6300844201508601968	Dunverline Plattenpanzer
-63148904153200	Aeserion-Großhammer
-63157494087792	Bringer der Finsternis
-63161789055088	Rad des letzten Läutens
-6320293810584682608	Plattenhelm mit schnabelartigem Visier
-6327985392637182064	Grotevant-Plattenrüstung
-6371401357311606896	Gerechter Inquisitors Plattenhelm
-63995012710512	Studentenrucksack
-64424509440112	Aeserion-Hellebarde
-6463569139280642160	Solumens großer Priesterstab
-64854006169712	Erdspalter
 6489699879223408	Hyperion-Rossharnisch
 6489721354059888	Sahareum-Rossrüstung
 6489725649027184	Berkei Rossharnisch
@@ -5388,114 +5462,6 @@
 6502627730784368	Varnia-Steigbügel
 6502632025751664	Demenissianischer Steigbügel
 6506879748407408	Silberstahl-Hufeisen
-6516250194521096304	Cacoreum-Lederhandschuhe
-65283502899312	Ausgezeichnete Rhinard-Kanone
-65292092833904	Kaiserliche Chongtong-Kanone
-65300682768496	Geheimwaffe Chongtong-Kanone
-66571993088112	Runenverzierter Fels
-6704798520081121392	Große Pavis-Lederhandschuhe
-6710262560295223408	Diclaire-Rossharnisch
-67430986547312	Aeserion-Speer
-67435281514608	Vergeltung
-67439576481904	Mondhaken
-67443871449200	Frost-Fangzahn
-67448166416496	Speer der Vergänglichkeit
-67456756351088	Gespaltener Mond
-67461051318384	Gespaltener Mond
-67535070784651376	Dreer Plattenpanzer
-6779758206341087344	Goldene Flamme
-68294274973808	Gefrorene Qual
-68298569941104	Bluthund
-68302864908400	Verzerrtes Urteil
-68723771703408	Aschgraue Exekution
-68732361638000	Blutiges Totengeläut
-6894008592727277680	Levin Plattenpanzer
-6898678682466910320	Pattens Lederhandschuhe
-6906379438569554032	Schwarzstahl-Roshee-Plattenpanzer
-6971729650900795504	Calios Lederhandschuhe
-6977676466913804400	Meyer Plattenpanzer
-7092751113358671984	Schwarzstahl-Ratti-Plattenhandschuhe
-7117024524758941808	Gerechter Inquisitors Plattenhelm
-7194141568796721264	Ork-Handkanone
-7194141573091688560	Stahl-Handkanone
-7194141577386655856	Verstärkte Stahl-Handkanone
-723051576708563056	Killianischer Plattenpanzer
-7291441978418397296	Großer Enratte-Plattenhelm
-7329306891136270448	Kinloch Plattenpanzer
-7440012396199936112	Levin Plattenpanzer
-7633826282945380464	Rhogo Plattenpanzer
-7660060213772288112	Romund Plattenpanzer
-7721337143544512624	Meyer Plattenpanzer
-7806228443460272240	Schwarzstahl-Lattua-Plattenstiefel
-7809981226969727088	Dundree Plattenpanzer
-7861209178809827440	Große Lederstiefel von Clays
-8012408365684621424	Kinross Plattenpanzer
-8057664217039241328	Schwarzstahl-Coogan-Plattenpanzer
-8240636824645533808	Demenissianische Soldaten-Schwefelmaske
-8303593494652387440	Gerechter Inquisitors Plattenhelm
-8396906211823321200	Grotevant-Plattenhelm
-85873576116336	Hauch des Abyss
-85877871083632	Geist des Abyss
-85882166050928	Vitalität des Abyss
-858997754167408	Grauwolfs Schwert
-859083653513328	Glenmour-Schwert
-859096538415216	Sydmon-Schwert
-859143783055472	Wells' Schwert
-859203912597616	Alabaster-Krummschwert
-859212502532208	Varnia-Schwert
-859216797499504	Schwert des Ritterlords
-859221092466800	Schwert der zerstörten Nation
-859302696845424	Geschmolzener Ehrgeiz
-859324171681904	Volono-Schwert
-859328466649200	Peltrees Schwert
-862863224733808	Weißes Wind-Rapier
-862867519701104	Hohles Antlitz
-862876109635696	Dekarr-Schwert
-862919059308656	Schwert des Fürsten
-862931944210544	Spada
-862940534145136	Acrias Schwert
-862949124079728	Legionärs-Gladius
-862953419047024	Einsamkeit des Überlebenden
-862962008981616	Fessel der Macht
-863301311398000	Inquisitors Rapier
-863305606365296	Grace-Rapier
-863309901332592	Leone-Rapier
-863314196299888	Messingrosenrapier
-863318491267184	Rapier des gefallenen Adelshauses
-863322786234480	Volono-Rapier
-863327081201776	Rapier des Gefallenen Königreichs
-863331376169072	Elemore-Rapier
-863335671136368	Kampfrapier
-863339966103664	Gilliam-Rapier
-863344261070960	Lambert-Rapier
-863348556038256	Friedensrapier
-863352851005552	Eleonore-Rapier
-863370030874736	Liberre-Rapier
-8675116429273464944	Delinells Lederhandschuhe
-8798741144423891056	Schwarzstahl-Mottie Plattenhelm
-8818799895826661488	Blut-Banditen-Provisorische Gasmaske
-8839645691396489328	Vennebis Plattenpanzer
-8858467999024152688	Plattenrüstung des Verdammnisrichters
-889366213786861680	Banditen-Schuppenlederhandschuhe
-8917868689512988784	Katunans Kettenpanzer
-8992792491321196656	Brejin Plattenpanzer
-8996562218476634224	Grotevant-Plattenhandschuhe
-901956017062000	Becker-Axt
-901981786865776	Lanford-Axt
-901990376800368	Lamberts Axt
-901998966734960	Gilliam-Axt
-902041916407920	Maeve-Axt
-902067686211696	Rhias' Axt
-902093456015472	Kylus' Axt
-902136405688432	Tardik Axt
-902162175492208	Delonde-Axt
-902187945295984	Leofric Doppelaxt
-902196535230576	Schwarzeisenaxt
-902248074838128	Axt von Scheitheim
-902265254707312	Axt der Krähenbrüder
-902273844641904	Parashu-Axt
-902282434576496	Ring der Erde
-902286729543792	Silberwolf-Axt
 9023739173798000	Sorin Plattenhelm
 9023743468765296	Matarion Plattenhelm
 9023747763732592	Langris Plattenhelm
@@ -5865,85 +5831,109 @@
 9162050005631088	Schattenblatt-Helm
 9162054300598384	Schattenblatt-Handschuhe
 9162058595565680	Schattenblatt-Stiefel
+11166966509207664	Platten-Körperpanzerung des Lichts des Schlachtfelds
+11166996573978736	Weiße Blutwind-Plattenkopfbedeckung
+11167043818618992	Weiße Blutwind-Plattenhandschuhe
+11167048113586288	Wehende reinweiße Plattenhandschuhe
+11167052408553584	Plattenhandschuhe des Schlachtfeldlichts
+11167069588422768	Weißes Blutwind-Lederschuhwerk
+11167099653193840	Goldene Strahlenglanz-Plattenhandschuhe
+11167108243128432	Goldstrahlende Plattenkopfbedeckung
+11167112538095728	Platten-Schuhwerk des goldenen Lichts
+11167116833063024	Platten-Körperpanzerung der Tobenden Stürme
+11167121128030320	Plattenhelm der Tobenden Stürme
+11167125422997616	Plattenstiefel der Tobenden Stürme
+11167129717964912	Lederhandschuhe der Tobenden Stürme
+67535070784651376	Dreer Plattenpanzer
+276518962408194160	Wells' Kavallerie-Rosskopf
+310989639781449840	Wüsten-Lederstiefel von Clays
+563100268686737520	Lederhandschuhe der Nordland-Freiklingen
+723051576708563056	Killianischer Plattenpanzer
+889366213786861680	Banditen-Schuppenlederhandschuhe
+1035885922123513968	Schwarzstahl-Spiddle-Plattenpanzer
+1091536977313923184	Delesyia-Bannerlanze (S)
+1319073903590506608	Rotbraune Rhegis Lederstiefel
+1434364200343306352	Rotklingen-Gasmaske
+1532196335506161776	Pororin-Blütenmütze
+1539898543307751536	Lanauk Plattenpanzer
+1564689889109213296	Schwarzstahl-Dumenis-Plattenstiefel
+1597859002413219952	Crail Plattenpanzer
+1681559243473289328	Weißhorns Ohrringe
+1681559252063223920	Halskette des Donners
+1681559303602831472	Eid der Dunkelheit
+1681559307897798768	Mal der Finsternis
+1681559312192766064	Reliquie der Dunkelheit
+1681559320782700656	Karandas Halskette
+1681559325077667952	Hexen-Ohrring
+1681559329372635248	Siegel der pechschwarzen Dunkelheit
+1681559342257537136	Ohrring der Ältesten
+1681559346552504432	Uralter Ring
+1681559350847471728	Halskette der Ältesten
+1703127164779495536	Blut-Banditen-Gasmaske
+1811197836256084080	Mentz Plattenhelm
+2355793221168136304	Rhegis Lederstiefel
+2589973173361442928	Große Rhegis Lederstiefel
+2591869818034454640	Schwarzstahl-Renkshaw-Plattenhelm
+2609680446115545200	Schwerer Eimer
+2808099654493798512	Abgenutzte Lederstiefel von Sarantos
+2851662060373147760	Schwarzstahl-Descao-Plattenhelm
+2995175360322076784	Grotevant-Plattenschuhe
+3083646326500491376	Schwarzstahl-Spiddle-Plattenpanzer
+3117835747940368496	Canusti Plattenpanzer
+3251828544208109680	Krücke
+3341530332049440880	Kunan Plattenpanzer
+3512701889944748144	Dumenis Plattenhelm
+3550753676689670256	Schwarzstahl-Longia-Plattenhelm
+4233774719385469040	Valkyder Plattenpanzer
+4257868012742246512	Edzel Plattenpanzer
+4644006381769195632	Rotbraune Pavise-Lederhandschuhe
+4719841433903693936	Schwarzstahl-Lotas-Plattenhelm
+4867475935361761392	Lederhandschuhe von Persein
+4990507880600830064	Kenmore Plattenpanzer
+5029885523750027376	Banditenlederstiefel
+5068669241641664624	Leerer Rucksack
+5255562342640386160	Pavis Lederschuhe
+5780346486525001840	Krugdeckel
+5906878924599591024	Breiter Korb
+6300844201508601968	Dunverline Plattenpanzer
+6320293810584682608	Plattenhelm mit schnabelartigem Visier
+6327985392637182064	Grotevant-Plattenrüstung
+6371401357311606896	Gerechter Inquisitors Plattenhelm
+6463569139280642160	Solumens großer Priesterstab
+6516250194521096304	Cacoreum-Lederhandschuhe
+6704798520081121392	Große Pavis-Lederhandschuhe
+6710262560295223408	Diclaire-Rossharnisch
+6779758206341087344	Goldene Flamme
+6894008592727277680	Levin Plattenpanzer
+6898678682466910320	Pattens Lederhandschuhe
+6906379438569554032	Schwarzstahl-Roshee-Plattenpanzer
+6971729650900795504	Calios Lederhandschuhe
+6977676466913804400	Meyer Plattenpanzer
+7092751113358671984	Schwarzstahl-Ratti-Plattenhandschuhe
+7117024524758941808	Gerechter Inquisitors Plattenhelm
+7194141568796721264	Ork-Handkanone
+7194141573091688560	Stahl-Handkanone
+7194141577386655856	Verstärkte Stahl-Handkanone
+7291441978418397296	Großer Enratte-Plattenhelm
+7329306891136270448	Kinloch Plattenpanzer
+7440012396199936112	Levin Plattenpanzer
+7633826282945380464	Rhogo Plattenpanzer
+7660060213772288112	Romund Plattenpanzer
+7721337143544512624	Meyer Plattenpanzer
+7806228443460272240	Schwarzstahl-Lattua-Plattenstiefel
+7809981226969727088	Dundree Plattenpanzer
+7861209178809827440	Große Lederstiefel von Clays
+8012408365684621424	Kinross Plattenpanzer
+8057664217039241328	Schwarzstahl-Coogan-Plattenpanzer
+8240636824645533808	Demenissianische Soldaten-Schwefelmaske
+8303593494652387440	Gerechter Inquisitors Plattenhelm
+8396906211823321200	Grotevant-Plattenhelm
+8675116429273464944	Delinells Lederhandschuhe
+8798741144423891056	Schwarzstahl-Mottie Plattenhelm
+8818799895826661488	Blut-Banditen-Provisorische Gasmaske
+8839645691396489328	Vennebis Plattenpanzer
+8858467999024152688	Plattenrüstung des Verdammnisrichters
+8917868689512988784	Katunans Kettenpanzer
+8992792491321196656	Brejin Plattenpanzer
+8996562218476634224	Grotevant-Plattenhandschuhe
 9190122474518347888	Dalbich-Plattenrüstung
-9448928051312	Stumpfpfeil
-944901395054704	Keule von Kadel
-944909984989296	Kordaav-Flegel
-944918574923888	Marsch-Schlagstock
-944922869891184	Lanford-Keule
-944927164858480	Gefrorene Seele
-944944344727664	Octarrs Vermächtnis
-944952934662256	Schurkenkeule
-944970114531440	Wells-Keule
-944974409498736	Knochengrube-Keule
-944982999433328	Alabasterkeule
-944987294400624	Baltons Keule
-944991589367920	Iris-Keule
-94515050315888	Obstwein
-94527935217776	Weihwasser
-949187772416112	Aeserion-Flegel
-987855362982000	Varnia-Dolch
-987967032131696	Becker-Dolch
-988095881150576	Alabasterdolch
-988113061019760	Dolch der Finsteren Jagd
-988121650954352	Dolch der Krähenbrüder
-988156010692720	Ators Finger
-991712243613808	Kylus' Dolch
-991729423482992	Sydmon-Dolch
-991746603352176	Delesyischer Dolch
-991755193286768	Dekarr-Dolch
-991780963090544	Pailunische Ritualklinge
-992137445376112	Aeserion-Dolch
-214752659767408	Pfeil
-4302891510661232	Wurfpfeil
-4299923688259696	Giftfrosch
-4299932278194288	Kröte
-3251316012875888	Frühlingsrose
-3251328897777776	Stiefmütterchen
-3098823199031408	Granat
-3049431075127408	Bauholz
-3006481402167408	Stoff-Fetzen
-4299764774469744	Wolle
-4298630903103600	Fangzahn
-4297810564350064	Elfenbein
-4302294510207088	Erbsen
-3221242651869296	Bohnen
-3221234061934704	Weizen
-3221307076378736	Mais
-3221302781411440	Hafer
-4302157071253616	Feige
-3221354321018992	Pfirsich
-3221251241803888	Apfel
-3221259831738480	Traube
-4302169956155504	Kakao
-3221328551215216	Zwiebel
-3226001475633264	Flachs
-4301697509752944	Rübe
-43091406880880	Honig
-3242764732989552	Ei
-90271622627440	Milch
-3221264126705776	Eichel
-3229819701559408	Salz
-3229828291494000	Zucker
-94523640250480	Wasser
-90275917594736	Ausgezeichnetes Trockenfleisch
-124128849821808	Brot
-94519345283184	Bier
-4297763319709808	Getreidekruste
-4297316643111024	Zahnrad
-4302882920726640	Birne
-859053588742256	Fackel
-4295766159917168	Blattgold-Händlergilde Stoff-Körperpanzerung
-4296182771744880	Blattgold-Händlergilde Stoffumhang
-4295779044819056	Blattgold-Händlergilde Stoff-Körperpanzerung
-4296187066712176	Blattgold-Händlergilde Stoffumhang
-4295770454884464	Niburak-Stoff-Körperpanzerung
-15797375398179767453	Granat
-4294967408	Kupfer
-4294967410	Silber
-47244640368	Camp-Mittel
-51539607664	Lagerverpflegung
-55834574960	Lagerholz
-60129542256	Lagerstein
-3094553229787184	Gold Bar
-12130294615337075856	Ginseng

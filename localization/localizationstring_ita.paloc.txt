@@ -1,126 +1,169 @@
-1030796446007408	Spada a due mani dei Tardik
-1030860870516848	Spada lunga selvaggia
-1030869460451440	Spada a due mani di Balton
-1030873755418736	Spada a due mani di Rugiadaquieta
-1030878050386032	Spada a due mani di Thalwynd
-1030890935287920	Spada a due mani degli Iris
-1030903820189808	Spada a due mani di Rhett
-1030916705091696	Ricettacolo della Caccia oscura
-1030921000058992	Verdetto giusto
-1030925295026288	Spadone della giustizia assoluta
-1030938179928176	Spada a due mani di Sydmon
-1030972539666544	Ignir
-1030976834633840	Spada a due mani di Delesyia
-1035087118336112	Spada lunga di Aeserion
-1035095708270704	Spada lunga di Dandelion
-1035885922123513968	Armatura a piastre di Spiddle in ferro nero
-1073801953542256	Capolavoro incompiuto
-1073806248509552	Grandascia dei Tardik
-1073810543476848	Grandascia degli Iris
-1073814838444144	Grandascia di Gorthak
-1073823428378736	Grandascia a uncino dei troll
-1073827723346032	Grandascia di Kylus
-1073832018313328	Grandascia della Fossa delle ossa
-1073836313280624	Grandascia a ventaglio
-1073844903215216	Grandascia dei ferri di cavallo
-1073849198182512	Ascia squartante dei Segugi
-1073853493149808	Ascia da taglialegna di Pailune
-1073862083084400	Grandascia di Sigremon
-1078011021492336	Grandascia di Bekker
-1078015316459632	Grandascia di Dekarr
-1078036791296112	Grandascia di Aeserion
-1091536977313923184	Picca stendardo piccola di Delesyia
+433791697008	Sacca per rame
+442381631600	Sacca per rame leggera
+446676598896	Sacca per argento pesante
+450971566192	Sacca per argento gonfia
+9448928051312	Freccia mozza
+18614388260976	Visione spezzata
+18618683228272	Visione spezzata
+18622978195568	Visione spezzata
+18657337933936	Visione spezzata
+18799071854704	Visione spezzata
+25769803776112	Strumento di espansione dell'inventario
+25774098743408	Borsa piccola
+25778393710704	Borsa media
+25782688678000	Borsa molto grande
+25791278612592	Borsa grande
+36511516983408	Anello di Corno Bianco
+36515811950704	Anello del fulmine
+36524401885296	Orecchino della magia nera
+36528696852592	Anello dell'orco
+36532991819888	Anello della strega
+36545876721776	Orecchini petalo di fiore
+37366215475312	Maglia dell'Inseguitrice cremisi
+37800007172208	Collana di cristallo della bufera
+39092792328304	Armatura della Guardia d'onore di Hernand
+39097087295600	Vesti di stoffa di Tariv
+39517994090608	Stivali di stoffa di Tariv
+39951785787504	Guanti di stoffa di Tariv
+40372692582512	Berretto di stoffa di Beoneck
+40376987549808	Elmo di stoffa del Bruciacielo
+40381282517104	Cappello del prete Halsius
+40806484279408	Cannone a mano del carro di Marni
+40810779246704	Bombardino a orologeria meccanico
+40832254083184	Bombardino No. 8
+40836549050480	Bombardino della viverna
+43061342109808	Lanterna
+43091406880880	Miele
+43134356553840	Lanterna dell'oceano scintillante
+43138651521136	Lanterna del Velo
+43142946488432	Lanterna pregiata con fantasia di fiamme
+43147241455728	Lanterna fendinebbia
+43151536423024	Lanterna fiammeggiante
+47248935223408	Canna da pesca
+52415780880496	Armatura di pelle di Maydocs
+52420075847792	Armatura di pelle di Vildyne
+52424370815088	Armatura di pelle di Adoratt
+52428665782384	Armatura di pelle di Colbill
+52432960749680	Armatura di pelle di Coby
+52437255716976	Armatura di pelle di Sherborn
+52471615455344	Armatura di cuoio della Zanna famelica
+52475910422640	Armatura di pelle di Helfryn
+52480205389936	Armatura di pelle di donnola
+52840982642800	Stivali di pelle di Sarantos sporchi di terra
+52845277610096	Stivali di pelle di Rhegis grandi
+52853867544688	Stivali di pelle della Zanna famelica
+52858162511984	Stivali a piastre di Carta
+52862457479280	Scarpe della guardia d'onore di Hernand
+52866752446576	Stivali di pelle di donnola
+52871047413872	Stivali della Petraschola
+52875342381168	Stivali in pelle cerimoniali di Hernand
+52879637348464	Stivali da apicoltura
+53270479372400	Guanti di pelle del Fante rosso
+53274774339696	Guanti di pelle di Pavis grandi
+53283364274288	Guanti di cuoio dell'Ala nera
+53287659241584	Guanti di cuoio del Bruciacielo
+53291954208880	Guanti della Zanna famelica
+53296249176176	Guanti della guardia d'onore di Hernand
+53300544143472	Guanti di pelle di Helfryn
+53304839110768	Guanti di pelle di donnola
+53309134078064	Guanti di pelle di Carta
+53313429045360	Guanti da apicoltura
+53317724012656	Guanti di pelle di Bollin
+53712861003888	Elmo di Zanna d'argento
+54116587929712	Ascia bipenne dell'avidità
+54550379626608	Arco degli Echi divini
+54554674593904	Arco del nobile
+55405078118512	Pugnale del tesoro del re goblin
+56693568307312	Flagello dell'effimero
+56697863274608	Mazza dei fedeli di Marni
+56702158241904	Mazza della risolutezza
+57127360004208	Moschetto di Marni
+57140244906096	Moschetto dell'eroe di Demeniss
+57982058496112	Giuramento reale
+58411555225712	Guscio dell'effimero
+58428735094896	Scudo di Balgran
+58433030062192	Scudo ornamentale di Delesyia
+59309203390576	Spada di Nazk
+59313498357872	Spada di Gelofranto
+59317793325168	Spada di Aeserion
+59322088292464	Spada dell'effimero
+59704340381808	Scudo dell'assideramento
+60563333841008	Armatura a piastre dell'Anima dannata
+60567628808304	Armatura a piastre del Fante rosso
+60571923775600	Armatura a piastre di Meyer
+60576218742896	Armatura a piastre di Spiddle
+60597693579376	Armatura a piastre del Cuore gelido
+60988535603312	Stivali a piastre del Boia delle tenebre
+60992830570608	Stivali a piastre dell'Anima dannata
+60997125537904	Stivali a piastre del Gelo maledetto
+61418032332912	Guanti a piastre del Boia delle tenebre
+61422327300208	Guanti a piastre dell'Anima dannata
+61426622267504	Guanti di maglia dell'Inseguitrice cremisi
+61435212202096	Guanti a piastre del Cuore gelido
+61439507169392	Guanti a piastre del Guardiano d'ottone
+61443802136688	Guanti di Pailune
+61847529062512	Elmo a piastre del Viandante della fede
+61851824029808	Elmo a piastre dell'Anima dannata
+61856118997104	Elmo a piastre del Fante rosso
+61860413964400	Elmo a piastre della Guardia di Demeniss
+61864708931696	Elmo a piastre della Guardia di Demeniss
+61869003898992	Elmo a piastre dell'Inseguitrice cremisi
+61873298866288	Elmo a piastre di Descao
+61877593833584	Elmo a piastre della Guardia di Demeniss
+61894773702768	Copricapo da scarafaggio degli Elmi
+61899068670064	Copricapo a forma di vespa degli Elmi
+61903363637360	Copricapo del toro degli Elmi
+61911953571952	Maschera dell'Ala nera
+61916248539248	Elmo a piastre del Gelo maledetto
+61920543506544	Elmo a piastre di Carta
+62277025792112	Copricapo del lupo alfa
+62281320759408	Copricapo dell'orso alfa
+62307090563184	Respiratore degli Orsi neri
+62319975465072	Visione
+62324270432368	Visione di serie
+63148904153200	Granmartello di Aeserion
+63157494087792	Portatrice di oscurità
+63161789055088	Ruota dell'ultimo rintocco
+63995012710512	Carico accademico
+64424509440112	Alabarda di Aeserion
+64854006169712	Spaccaterra
+65283502899312	Cannone pregiato di Rhinard
+65292092833904	Cannone portatile Alpha
+65300682768496	Cannone portatile Gamma
+66571993088112	Masso runico inciso
+67430986547312	Lancia di Aeserion
+67435281514608	Giudizio
+67439576481904	Luna ghermitrice
+67443871449200	Zanna gelida
+67448166416496	Lancia dell'effimero
+67456756351088	Luna divergente
+67461051318384	Luna orbitante
+68294274973808	Angoscia gelida
+68298569941104	Segugio
+68302864908400	Verdetto contorto
+68723771703408	Esecuzione cinerea
+68732361638000	Rintocco sanguigno
+85873576116336	Respiro dell'Abisso
+85877871083632	Lo spirito dell'Abisso
+85882166050928	Vitalità dell'Abisso
+90271622627440	Latte
+90275917594736	Carne pregiata essiccata
+94515050315888	Vino di frutta
+94519345283184	Birra
+94523640250480	Acqua
+94527935217776	Acqua santa
 111295487541360	Zuppa di volatile
 111299782508656	Zuppa di bovino lungocorno
 111329847279728	Infuso di corna di cervo
 111334142247024	Succo di frutta
-11166966509207664	Armatura a piastre della Luce di battaglia
-11166996573978736	Elmo a piastre del Ventosangue bianco
-11167043818618992	Guanti a piastre del Ventosangue bianco
-11167048113586288	Guanti a piastre del Candore fluttuante
-11167052408553584	Guanti a piastre della Luce di battaglia
-11167069588422768	Stivali di cuoio del Ventosangue bianco
-11167099653193840	Guanti a piastre di Luceaurea
-11167108243128432	Elmo a piastre di Luceaurea
-11167112538095728	Stivali a piastre di Luceaurea
-11167116833063024	Corazza a piastra delle Tempeste furenti
-11167121128030320	Elmo a piastre delle Tempeste furenti
-11167125422997616	Stivali a piastre delle Tempeste furenti
-11167129717964912	Guanti di pelle delle Tempeste furenti
-1116721561731184	Martello d'arme di Bekker
-1116725856698480	Martello d'arme della Via del sale
-1116747331534960	Martello d'arme della Fossa delle ossa
-1116751626502256	Martello d'arme di Thalwynd
-1116755921469552	Martello d'arme del cactus
-1116768806371440	Martello d'arme degli Arlem
-1116773101338736	Un martello d'arme realizzato dalla casata Arlen. Si rumoreggia che sia stato modellato su un antico scettro reale di Demeniss, smarrito da così tanto tempo che la sua autenticità non può essere accertata.
-1116777396306032	Martello d'arme di Zargan
-1116803166109808	Martello d'arme dei Tardik
-1116811756044400	Martello d'arme degli Iris
-1116820345978992	Martello da guerra di Gorthak
 111716394336368	Tè di funghi corallini
 111733574205552	Tè di funghi del pino
 111737869172848	Tè di funghi della quercia
 111815178584176	Tè al miele
-1120986464256112	Martello da guerra di Aeserion
-1138170628407408	Alabarda dei predoni
-1138174923374704	Alabarda di alabastro
-1138179218342000	Alabarda degli Iris
-1138183513309296	Alabarda di Lambert
-1138187808276592	Alabarda dei Gilliam
-1138192103243888	Alabarda della Fossa delle ossa
-1138196398211184	Alabarda dei mercenari
-1138200693178480	Alabarda di Bekker
-1138209283113072	Alabarda dei Celeste
-1138213578080368	Avanguardia dorata
-1159645464887408	Pistola Rosemond
-1159649759854704	Pistola Jemel
-1159654054822000	Pistola Falconne
-1159658349789296	Pistola Vilancia
-1159688414560368	Pistola Ombra del passato
-1159697004494960	Pistola della misericordia di Caliburn
 119967026511984	Carne di volatile salata alla griglia
-1202595137847408	Moschetto degli Arlen
-1202599432814704	Moschetto di Bekker
-1202603727782000	Moschetto di Delesyia
-1202608022749296	Moschetto di Wells
-1202612317716592	Moschetto di Leofric
-1202663857324144	Moschetto degli Elmi
-1202668152291440	Moschetto di Pailune
-1202672447258736	Moschetto di Gustav
 120602681671792	Pesce salato alla griglia
+124128849821808	Pane
 124197569298544	Pane morbido alla frutta
-1245544810807408	Scudo di Balton
-1245600645382256	Scudo degli Iris
-1245613530284144	Scudo rotondo di Sydmon
-1245626415186032	Specchio della notte
-1245630710153328	Scudo draconico
-1245639300087920	Scudo della freccia nascente
-1245652184989808	Scudo di Lord Cervo
-1245785328975984	Scudo di Dekarr
-1245789623943280	Scudo aquilone di Sydmon
-1245927062896752	Scudo dei Tardik
-1245931357864048	Scudo di Rugiadaquieta
-1246025847144560	Scudo della primavera in fiore
-1246030142111856	Scudo del valore di Demeniss
-1246034437079152	Scudo della lealtà di Demeniss
-1246038732046448	Scudo dell'obbedienza di Demeniss
-1247696589422704	Scudo grande dei Gilliam
-1247700884390000	Scudo grande di Lifsoth
-1247705179357296	Scudo grande rinforzato di Lanciaguerra
-1247713769291888	Scudo grande di Thalwynd
-1247722359226480	Scudo grande di Lucon
-1247726654193776	Scudo grande di Rhonid
-1247730949161072	Scudo grande di Balton
-1247735244128368	Scudo grande di Rekel
-1247752423997552	Scudo grande dei Lanford
-1247756718964848	Scudo de La marionetta gioconda
-1247786783735920	Scudo grande di Bekker
-1247799668637808	Scudo grande di Rekel prodotto in serie
-1247821143474288	Scudo grande spinato di Rekel
-1247825438441584	Scudo grande di Lanciaguerra
-1247829733408880	Scudo grande del Soldato di Demeniss
-1249822598234224	Granscudo dei lancieri della legione
 126705830199408	Pesce spatola
 126710125166704	Squalo manzo nasolargo
 126714420134000	Orata rossa gigante
@@ -167,18 +210,6 @@
 128071629799536	Carassio
 128075924766832	Pesce meccanico
 128080219734128	Gambero d'acqua dolce
-1288494483767408	Arco ancestrale con nodo dorato
-1288498778734704	Arco di Dekarr
-1288503073702000	Arco di Bekker
-1288507368669296	Arco dei Messaggeri del crepuscolo
-1288541728407664	Arco di Tardik
-1288546023374960	Arco di Kylus
-1288550318342256	Arco di Sydmon
-1288554613309552	Arco di Sangueferro
-1288567498211440	Arco di Tommasia
-1288571793178736	Arco di Lanciaguerra
-1288588973047920	Arco dell'Anima Tormentata
-1288704937164912	Arco di legno bianco
 128891968553072	Polvere da sparo
 128917738356848	Vino di frutta di Delesyia
 128943508160624	Lubrificante
@@ -186,74 +217,7 @@
 129068062212208	Chiave della porta del Fuoco
 129102421950576	Chiave della porta di ferro
 129123896787056	Chiave della prigione
-1292785156096112	Arco di Aeserion
-1292789451063408	Arco del Custode cremisi
-1319073903590506608	Stivali di pelle di Rhegis color rosso-bruno
-1331474221498480	Lancia di Sydmon
-1331478516465776	Lancia di Alfonso
-1331491401367664	Lancia di Kylus
-1331495696334960	Lancia di alabastro
-1331517171171440	Lancia di Lanciaguerra
-1331538646007920	Lancia spezza-ingranaggi
-1331542940975216	Lancia della rettitudine
-1331547235942512	Opera incompiuta di Valgash
-1331560120844400	Spina della Caccia oscura
-1331573005746288	Tridente del vento del Nord
-1331590185615472	Lancia del traditore
-1331607365484656	Bastone dell'Effimero
-1374393829687408	Balestra di Hyde
-1374398124654704	Balestra del Troll errante del sud
-1417343502647408	Cannone di Rhinard
-1417347797614704	Sputafiamme elettromagnetico
-1417352092582000	Sputaghiaccio elettromagnetico
-1434364200343306352	Maschera antigas Lama Rossa
-1532196335506161776	Copricapo di petali di Pororin
-1539898543307751536	Armatura a piastre di Lanauk
-1564689889109213296	Stivali a piastre di Dumenis in ferro nero
-1589142194487408	Fucile di Pailune
-1589146489454704	Fucile di Rugiadaquieta
-1589150784422000	Fucile Mortimer
-1589155079389296	Fucile Metilbahm
-1589159374356592	Fucile di Delesyia
-1589163669323888	Fucile dei Sanguinari
-1589167964291184	Fucile Dane
-1597859002413219952	Armatura a piastre di Crail
-1634239351095408	Picca stendardo piccola di Demeniss
-1634252235997296	Picca stendardo piccola della Riserva di caccia reale
-1634260825931888	Picca stendardo piccola degli Orsi neri
-1681559243473289328	Orecchini di Corno bianco
-1681559252063223920	Collana del tuono
-1681559303602831472	Giuramento dell'oscurità
-1681559307897798768	Marchio dell'oscurità
-1681559312192766064	Reliquia dell'oscurità
-1681559320782700656	Collana di Karanda
-1681559325077667952	Orecchino della strega
-1681559329372635248	Sigillo dell'oscurità plumbea
-1681559342257537136	Orecchino antico
-1681559346552504432	Antico anello
-1681559350847471728	Collana degli Antichi
-1703127164779495536	Respiratore anti-allucinogeni dei Sanguinari
-1717986918400112	Granmartello di Bekker
-1717991213367408	Artiglio del Drago dorato
-1717995508334704	Granmartello del fuoco
-1717999803302000	Granmartello degli Helms
-1718004098269296	Granmartello dei Lanford
-1718008393236592	Granmartello della Fossa delle ossa
-1760945181294704	Bombardino vulcanico
-1760953771229296	Tirapunte di rame
-1760970951098480	Guanto d'arme della marea furiosa
-1760975246065776	Guanto d'arme dei Pugni di ferro
-1760983836000368	Clone della parte superiore di Muskan
-1760988130967664	Clone della parte inferiore di Muskan
-1811197836256084080	Elmo a piastre di Mentz
-1846840232247408	Ago soporifero
-18614388260976	Visione spezzata
-18618683228272	Visione spezzata
-18622978195568	Visione spezzata
-18657337933936	Visione spezzata
-18799071854704	Visione spezzata
-2147487942967408	Grandascia degli Inquisitori
-2147505122836592	Grandascia di pietra incisa
+214752659767408	Freccia
 214761249702000	Freccia avvelenata
 214795609440368	Freccia sibilante
 214993177935984	Mazzo di frecce
@@ -273,19 +237,1238 @@
 227701986164848	Calderone di ferro del Kuku
 227770705641584	Bomba appiccicosa
 227779295576176	Bomba a orologeria
-2355793221168136304	Stivali di pelle di Rhegis
-25769803776112	Strumento di espansione dell'inventario
+300690660393072	Vecchia bambola di legno
+322122547200112	Il primo manufatto
+322126842167408	Manufatti dell'Abisso
+322131137134704	Manufatto dell'abisso sbiadito
+322552043929712	Gettone del Mantogrigio
+343601678647408	Ricetta: Carne al vapore
+343610268582000	Ricetta: Tè alla frutta
+345341140402288	Ricetta: Zuppa di volatile
+345366910206064	Ricetta: Tè alle corna di cervo
+345371205173360	Ricetta: Succo di frutta
+345766342164592	Ricetta: Tè di funghi corallini
+345783522033776	Ricetta: Tè di funghi del pino
+345787817001072	Ricetta: Tè di funghi della quercia
+345869421379696	Ricetta: Tè al miele
+347084897124464	Ricetta: Carne di volatile salata alla griglia
+433795991863408	Elmo a piastre di Rekhia
+433800286830704	Elmo a piastre di Bolton
+433804581798000	Elmo a piastre di Cassius Morten
+433826056634480	Elmo a piastre dell'Ala glaciale
+433830351601776	Elmo della volontà di Ator
+433838941536368	Elmo a piastre di Ferman
+433843236503664	Elmo a piastre di Keredeg
+433847531470960	Elmo a piastre di Ferenna
+433851826438256	Elmo a piastre dei Grace
+433856121405552	Elmo a piastre di Flynn
+433860416372848	Elmo a piastre di Crudil
+433869006307440	Elmo a piastre di Berin
+433907661013104	Elmo d'osso dell'Uomo bestia
+433924840882288	Elmo a piastre di Rodderham
+433937725784176	Elmo a piastre di Taos
+433989265391728	Elmo a piastre di Tarandus
+433997855326320	Copricapo d'ordinanza della Guardia di Frontiera del Moschetto
+434002150293616	Elmo a piastre di Lotas
+434019330162800	Elmo di cuoio degli Orsi neri
+434023625130096	Elmo a piastre di Chelcia
+434032215064688	Elmo a piastre della Fiamma ardente
+434036510031984	Elmo a piastre di Inyr
+434040804999280	Elmo a piastre di Rueconec
+434045099966576	Elmo a piastre di Calio
+434057984868464	Elmo a piastre di Ashford
+434083754672240	Elmo a piastre di Lyfellen
+434105229508720	Elmo a piastre di Kiatus
+434122409377904	Elmo a piastre di Rahbae
+434126704345200	Corona di rami d'oro
+434178243952752	Elmo a piastre di Vduer
+434208308723824	Elmo a piastre di Laehbern
+434212603691120	Elmo a piastre di Offenberg
+434225488593008	Elmo a piastre di Ashad
+434229783560304	Elmo a piastre di Solas
+434242668462192	Elmo a piastre di Ulrich
+434259848331376	Elmo d'osso di Paizel
+434268438265968	Elmo a piastre dei Senza volto
+434272733233264	Elmo a piastre di Bayer
+434277028200560	Elmo a piastre di Bolgan
+434281323167856	Elmo a piastre di Dernat
+434285618135152	Elmo a piastre di Dondegobi
+434294208069744	Elmo a piastre dei guerrieri del Nord
+434307092971632	Elmo a piastre di Casinian
+434315682906224	Elmo a piastre di Canta
+434328567808112	Elmo a piastre di Tanion
+434371517481072	Elmo a piastre di Antra
+434375812448368	Elmo a piastre di Laterna
+434380107415664	Elmo a piastre di Zachar
+434384402382960	Elmo a piastre del Guerriero indomito
+434388697350256	Elmo a piastre di Tartry
+434397287284848	Elmo a piastre di Rapps
+434401582252144	Elmo a piastre di Biconio
+434427352055920	Elmo a piastre di Kurua
+438095254126704	Cuffia di maglia di Nahu
+438099549094000	Cuffia di maglia di Kadallon
+438103844061296	Elmo a piastre di Tailan
+442403106324592	Bandana di stoffa di Nevin
+442424581161072	Elmo a piastre di Leontyne
+442480415735920	Elmo di pelle del regno caduto
+442506185539696	Elmo a piastre di Schtump
+442523365408880	Elmo di pelle di Melvin
+442531955343472	Elmo dell'amicizia leale
+442536250310768	Elmo di pelle di Rondel
+442557725147248	Elmo di pelle di Lacrunias
+442583494951024	Elmo di pelle di Rueconec
+442592084885616	Elmo di pelle di Agatha
+442626444623984	Elmo di pelle di Dimfeld
+442639329525872	Elmo di pelle di Daveed
+442660804362352	Elmo di pelle di Lutinas
+442682279198832	Elmo di pelle di Lanweiter
+442759588610160	Elmo di pelle di Uphren
+442785358413936	Elmo di pelle di Arkhan
+442793948348528	Elmo di pelle di Ledan
+442828308086896	Elmo di pelle di Dekter
+442832603054192	Elmo di pelle di Shellus
+442862667825264	Berretto della Petraschola
+446736728326256	Berretto di stoffa di Bollin
+446741023293552	Berretto di stoffa di Radein
+446796857868400	Berretto di stoffa di Rueconec
+446805447802992	Berretto di stoffa di Agatha
+446882757214320	Fascia di stoffa di Baidan
+446904232050800	Berretto di stoffa di Calprise
+446917116952688	Fascia di stoffa di Rigma
+446990131396720	Berretto di stoffa di Raveed
+446994426364016	Anelli di Duvidet
+447015901200496	Fascia di stoffa di Scobby
+447033081069680	Berretto di stoffa di Fiore
+447037376036976	Berretto di stoffa di Ataram
+447058850873456	Berretto di stoffa di Gaurra
+447063145840752	Fascia di stoffa di Jermill
+447076030742640	Berretto di stoffa di Torben
+447088915644528	Berretto di stoffa di Ulman
+447127570350192	Fascia di stoffa di Rahelm
+447131865317488	Elmo di stoffa delle Viverne fiammeggianti
+447136160284784	Berretto di stoffa di Muchia
+447183404925040	Berretto di stoffa di Rockington
+447191994859632	Elmo a piastre di Deland
+447200584794224	Cappello conico di Ducriss
+447234944532592	Tunica di Lashiras
+447243534467184	Elmo di stoffa del Capobanda oscuro
+447256419369072	Berretto di stoffa di Sian
+447260714336368	Fascia di stoffa di Karas
+447265009303664	Berretto di stoffa di Larkett
+447269304270960	Berretto di stoffa di Lashir
+447273599238256	Berretto di stoffa di Drish
+447277894205552	Fascia di stoffa di Triloan
+447290779107440	Berretto di stoffa di Ruckshi
+447295074074736	Berretto di stoffa di Rhytrian
+447312253943920	Berretto di stoffa di Gadereich
+447316548911216	Berretto di stoffa di Ludynn
+447320843878512	Berretto di stoffa di Marc
+447325138845808	Berretto di stoffa di Harker
+447338023747696	Berretto di stoffa di Veronde
+447342318714992	Berretto di stoffa di Ghaltain
+447359498584176	Berretto di stoffa di Berghill
+447363793551472	Berretto di stoffa di Meravan
+447368088518768	Berretto di stoffa di Salimi
+447385268387952	Berretto di stoffa di Yuzel
+447402448257136	Cappello di Pailune
+447428218060912	Maschera di pelle da giullare
+447432513028208	Maschera di pelle da coniglio
+447466872766576	Elmo della fiamma draconica
+447471167733872	Elmo dei Cavalieri del drago
+476762844692592	Armatura a piastre del Gelo maledetto
+476784319529072	Armatura a piastre degli Inquisitori
+476908873580656	Armatura a piastre di Tarandus
+476913168547952	Armatura a piastre di Enus
+476956118220912	Armatura di pelle del Lupo grigio
+477110737043568	Armatura a piastre di Bodin
+477115032010864	Armatura a piastre di Breemen
+477162276651120	Armatura a piastre di Bekur
+477166571618416	Armatura a piastre di Frente
+477170866585712	Armatura a piastre di Corinne
+477175161553008	Armatura a piastre di Takao
+477179456520304	Armatura a piastre di Gwets
+477183751487600	Armatura a piastre di Arkhan
+477188046454896	Armatura a piastre di Yosef
+477192341422192	Cotta di maglia di Andre
+477196636389488	Armatura a piastre di Albert
+477200931356784	Armatura a piastre di Emil
+477205226324080	Armatura di stoffa di Schtump
+477209521291376	Armatura di stoffa di Sven
+477213816258672	Armatura di stoffa di Yakkov
+477218111225968	Cotta di maglia di Ernst
+477226701160560	Armatura di stoffa di Ditter
+477235291095152	Armatura a piastre di Redman
+477239586062448	Armatura a piastre di Schmidt
+477291125670000	Armatura a piastre di Dreer
+477295420637296	Armatura a piastre di Rhogo
+477299715604592	Armatura a piastre di Roshee
+477304010571888	Armatura a piastre di Romund
+477308305539184	Armatura a piastre di Valkyder
+477312600506480	Armatura a piastre di Killian
+477316895473776	Armatura a piastre di Kenmore
+477321190441072	Armatura a piastre di Kinloch
+477325485408368	Armatura a piastre di Lanauk
+477329780375664	Armatura a piastre di Spiddle
+477334075342960	Armatura a piastre di Meyer
+477338370310256	Armatura a piastre di Edzel
+477342665277552	Armatura a piastre di Brejin
+477346960244848	Armatura a piastre di Canusti
+477351255212144	Armatura a piastre di Dundree
+477355550179440	Armatura a piastre di Crail
+477359845146736	Armatura a piastre di Levin
+477364140114032	Armatura a piastre di Dunverline
+477368435081328	Armatura a piastre di Kinross
+477372730048624	Armature d'onore di Demeniss
+477377025015920	Armatura di stoffa di Avignon
+477385614950512	Armatura di stoffa di Arghai
+477389909917808	Armatura di stoffa dei Senza volto
+477450039459952	Armatura a piastre di Bolton
+477454334427248	Armatura a piastre di Blackburn
+477458629394544	Armatura a piastre di Reppin
+477462924361840	Armatura a piastre di Ashad
+477467219329136	Armatura a piastre di Solas
+477471514296432	Armatura a piastre di Beverly
+477540233773168	Cotta di maglia di Lemerick
+477544528740464	Cotta di maglia di Lauer
+477548823707760	Armatura a piastre di Senon
+477553118675056	Armatura a piastre di Leighbog
+477557413642352	Cotta di maglia di Galbon
+477561708609648	Armatura a piastre di Brina
+477570298544240	Armatura a piastre di Prix
+477574593511536	Armatura a piastre di Serroa
+477583183446128	Armatura a piastre di Dutiron
+477587478413424	Armatura a piastre di Dutinion
+477591773380720	Armatura a piastre di Endnion
+477596068348016	Armatura a piastre di Dardnion
+477600363315312	Cotta di maglia di Lavgnon
+477604658282608	Cotta di maglia di Lucion
+477608953249904	Armatura a piastre di Ludeon
+477613248217200	Armatura a piastre di Cerruan
+477617543184496	Armatura a piastre di Mahon
+477621838151792	Armatura a piastre di Caliburn
+477643312988272	Armatura dell'amicizia sincera
+477660492857456	Armatura a piastre di Carta
+477673377759344	Armatura a piastre di Ruwaite
+477677672726640	Armatura di pelle di Russell
+477681967693936	Armatura a piastre di Ludus
+477720622399600	Armatura a piastre di Antum
+477724917366896	Armatura a piastre di Entum
+477729212334192	Armatura a piastre di Sitanca
+477733507301488	Armatura a piastre di Markman
+477737802268784	Armatura a piastre di Kantona
+477742097236080	Armatura di pelle di Lukin
+477754982137968	Armatura a piastre di Lachian
+477759277105264	Armatura a piastre di Lacata
+477763572072560	Armatura a piastre di Eccanta
+477767867039856	Armatura a piastre di Eclaon
+477772162007152	Armatura a piastre di Egliss
+477776456974448	Armatura a piastre di Ekklemen
+477780751941744	Armatura a piastre di Ostent
+477785046909040	Armatura a piastre di Oakley
+477797931810928	Armatura a piastre di Dunion
+477802226778224	Armatura a piastre di Manios
+477810816712816	Armatura a piastre della Fiamma ardente
+477823701614704	Armatura a piastre di Aeron
+477827996582000	Armatura a piastre dell'Avidità aurea
+477832291549296	Armatura a piastre d'argento
+477836586516592	Armatura a piastre di Sahazhad
+477840881483888	Armatura a piastre di Jerrinmarne
+477845176451184	Armatura a piastre dell'Ala glaciale
+481182366040176	Cotta di maglia di Lodi
+481186661007472	Cotta di maglia di Drivon
+481216725778544	Cotta di maglia di Reddin
+481315510026352	Cotta di maglia di Kallari
+481319804993648	Cotta di maglia di Tormand
+481324099960944	Cotta di maglia di Hasets
+481328394928240	Cotta di maglia di Killi
+481332689895536	Cotta di maglia di Balton
+481349869764720	Cotta di maglia di Lucnaon
+481358459699312	Cotta di maglia di Lucnian
+481367049633904	Cotta di maglia di Dunion
+481371344601200	Armatura della fiamma draconica
+481375639568496	Armatura a piastre del guerriero dei Cavalieri del drago
+481379934535792	Cotta di maglia dei Cavalieri del drago
+485365664186480	Armatura di pelle di Twell
+485430088695920	Armatura di cuoio dell'Ala Nera
+485455858499696	Armatura di pelle di Benne
+485468743401584	Armatura di pelle di Somier
+485477333336176	Cotta di maglia di Traley
+485481628303472	Armatura di stoffa di Antumbra
+485752211243120	Armatura di pelle di Uomo bestia
+485954074706032	Armatura di stoffa di Harran
+487152370581616	Armatura di pelle di Vyer
+487156665548912	Armatura di pelle di Dewey
+487160960516208	Armatura di pelle di Arqus
+487165255483504	Armatura di pelle di Dremel
+487169550450800	Armatura di pelle di Dyrel
+487173845418096	Armatura di pelle di Merly
+487178140385392	Armatura di pelle di Trudy
+487182435352688	Armatura di pelle di Dreban
+487186730319984	Armatura di pelle di Dellian
+487191025287280	Armatura di pelle di Kenecks
+487195320254576	Armatura di pelle di Vierni
+487199615221872	Armatura di pelle di Blaine
+487203910189168	Armatura di pelle di Cyton
+487264039731312	Armatura di pelle di Wakhan
+487268334698608	Armatura di pelle di Valion
+487272629665904	Armatura di pelle di Plune
+487276924633200	Armatura di pelle di Rittem
+487281219600496	Armatura di pelle di Mocke
+487285514567792	Armatura di pelle di Chayten
+487289809535088	Armatura di pelle di Colatte
+487294104502384	Armatura di pelle di Katerm
+487302694436976	Armatura di Fae della foresta
+487306989404272	Armatura di cuoio del Ventosangue bianco
+487341349142640	Armatura di stoffa di Pantafe
+487345644109936	Armatura di stoffa di Echebern
+487384298815600	Armatura di stoffa della milizia
+487388593782896	Armatura di stoffa di Pyrantha
+487392888750192	Armatura di stoffa di Torress
+487397183717488	Armatura di stoffa di Arandhal
+487405773652080	Armatura di stoffa di Toudon
+487410068619376	Armatura di pelle di Cherke
+487414363586672	Armatura di pelle di Blin
+487457313259632	Armatura di pelle di Dunqane
+487461608226928	Armatura di pelle di Elliot
+487465903194224	Armatura di pelle di Cuthbertson
+487470198161520	Armatura di stoffa di Buchanan
+487474493128816	Armatura di pelle di Finneron
+487478788096112	Armatura di pelle di Torrance
+487487378030704	Armatura di pelle di Ohara
+487491672998000	Armatura di stoffa di Conally
+487504557899888	Armatura di stoffa di Rexlan
+487513147834480	Armatura di stoffa di Tarmiden
+487521737769072	Armatura di pelle di Seiden
+487526032736368	Armatura di pelle di Soron
+487530327703664	Armatura di pelle di Barunin
+487577572343920	Armatura di pelle di Gorg
+487581867311216	Armatura di pelle di Rugiadaquieta
+487586162278512	Armatura a piastre di Johannes
+487693536460912	Armatura di pelle di Davis
+487740781101168	Armatura di cuoio del Regno caduto
+487770845872240	Armatura di pelle di Mohill
+487775140839536	Armatura di pelle di Lunpherd
+487779435806832	Armatura di pelle di Islekk
+487783730774128	Armatura di pelle di Baladean
+487788025741424	Armatura di stoffa di Navan
+487792320708720	Armatura di pelle di Glosope
+487796615676016	Armatura di pelle di Norswich
+487800910643312	Armatura di pelle di Campo
+487809500577904	Armatura di pelle di Janiklo
+487813795545200	Armatura di pelle di Nellaccio
+487818090512496	Armatura di pelle di Dasala
+487822385479792	Armatura di pelle di Gerano
+487826680447088	Armatura di pelle di Pisonia
+487830975414384	Armatura di pelle di Paliano
+487839565348976	Armatura di pelle di Locasima
+487843860316272	Armatura di stoffa di Corey
+487848155283568	Armatura di stoffa di Lariano
+487852450250864	Armatura di pelle di Ranubio
+487856745218160	Armatura di pelle di Ardia
+487861040185456	Armatura di pelle di Antika
+487865335152752	Armatura di pelle di Oustia
+487869630120048	Armatura di pelle di Tarabe
+487873925087344	Armatura di pelle di Montlanico
+487878220054640	Armatura di pelle di Carpine
+487895399923824	Armatura di pelle di Kednry
+487959824433264	Armatura di stoffa di Vainbridge
+488084378484848	Cotta di maglia di Durain
+488088673452144	Cotta di maglia di Latrion
+488092968419440	Cotta di maglia di Senian
+488105853321328	Armatura di pelle di Tyran
+488110148288624	Armatura di pelle di Tiron
+488114443255920	Armatura di pelle di Eshrun
+488123033190512	Armatura di pelle di Groucca
+488135918092400	Armatura di pelle di Hashaka
+488140213059696	Armatura di pelle di Hobucca
+488144508026992	Armatura di pelle di Batangka
+488153097961584	Armatura di pelle di Greeney
+488161687896176	Armatura di pelle di Bulga
+488165982863472	Armatura di pelle di Barbaros
+488174572798064	Armatura di pelle dei Mantogrigio
+488178867765360	Armatura di pelle di Nuslan
+488183162732656	Armatura di pelle Ravirun
+488187457699952	Armatura di pelle di Mondian
+488191752667248	Armatura di pelle di Saruen
+488196047634544	Armatura di pelle di Rubidan
+488200342601840	Armatura di pelle di Resian
+488213227503728	Armatura di pelle di Larkson
+488217522471024	Armatura di pelle di Matana
+488221817438320	Armatura di stoffa di Radian
+488286241947760	Cotta di maglia di Acria
+488294831882352	Armatura di pelle di Rotunso
+488299126849648	Armatura di pelle di Rombardina
+488303421816944	Armatura di pelle di Sicillion
+488307716784240	Armatura di pelle di Rhodelphine
+488312011751536	Armatura di pelle di Tallofer
+488320601686128	Armatura a piastre del Guerriero indomito
+488324896653424	Armatura di stoffa di Meishod
+488329191620720	Armatura di pelle di Valldren
+488333486588016	Armatura di pelle di Moldur
+488337781555312	Armatura di pelle di Churrchen
+488342076522608	Armatura di pelle di Saolo
+488346371489904	Armatura di pelle di Jevanars
+488354961424496	Armatura di pelle di Drossel
+488359256391792	Armatura di stoffa di Dumenis
+488367846326384	Armatura di pelle di Laplace
+488372141293680	Armatura di pelle di Radiano
+488376436260976	Armatura di pelle di Dorness
+488380731228272	Armatura di pelle di Undriga
+488385026195568	Armatura di pelle di Anderitz
+488389321162864	Armatura di pelle di Rapps
+488393616130160	Armatura di pelle di Cantars
+488397911097456	Armatura di pelle di Pictead
+488402206064752	Armatura di pelle di Varanguard
+488406501032048	Armatura di pelle di Scarteau
+488410795999344	Armatura di pelle di Huskall
+488415090966640	Armatura di pelle di Barbaroy
+488419385933936	Armatura di pelle di Kordaav
+488423680901232	Armatura di pelle di Lespedan
+488427975868528	Armatura di pelle di Stiv
+488432270835824	Armatura di pelle di Dyrfrith
+488436565803120	Armatura di pelle di Stugrub
+488440860770416	Armatura di pelle di Barrette
+488445155737712	Armatura di pelle di Gaut
+488462335606896	Armatura di pelle di Bettert
+488466630574192	Armatura di pelle di Schlitz
+488470925541488	Armatura di pelle di Binden
+488475220508784	Armatura di pelle di Auld
+488479515476080	Armatura di pelle di Mavin
+488488105410672	Armatura di pelle di Raspin
+488492400377968	Armatura di pelle di Duvelle
+488496695345264	Armatura di pelle di Karius
+488500990312560	Armatura di pelle di Slouwen
+488505285279856	Armatura di pelle di Bleawin
+488513875214448	Armatura di pelle di Trellian
+488518170181744	Armatura di pelle dei giunchi del tramonto
+488535350050928	Armatura di pelle dei Sapienti senza nome
+488543939985520	Armatura di pelle di Ludynn
+488548234952816	Armatura di pelle di Reak
+488552529920112	Armatura di pelle di Marc
+488556824887408	Armatura di pelle di smilodonte
+488561119854704	Armatura di pelle di Noyvarn
+488595479593072	Armatura di pelle di Luverne
+488599774560368	Armatura di pelle di Galanta
+488604069527664	Armatura di pelle di Nelton
+488608364494960	Armatura di pelle di Brogue
+488612659462256	Armatura di pelle di Hodges
+488616954429552	Armatura di pelle di Ducca
+488625544364144	Armatura di pelle di Berker
+488629839331440	Armatura di pelle di Tatura
+488634134298736	Armatura di pelle di Tavat
+488638429266032	Armatura di pelle di Gomel
+488642724233328	Armatura di pelle di Enge
+488647019200624	Armatura di pelle di Tikkal
+488651314167920	Armatura di pelle di Murad
+488655609135216	Armatura di pelle di Dannon
+488659904102512	Armatura di pelle di Ulontai
+488664199069808	Armatura di pelle di Huron
+488668494037104	Armatura di pelle di Begill
+488672789004400	Armatura di pelle di Rigma
+488677083971696	Armatura di pelle di Verdesh
+488681378938992	Armatura di pelle di Herwin
+488685673906288	Armatura di pelle di Dekter
+488689968873584	Armatura di pelle di Guff
+488702853775472	Armatura di pelle di Grommet
+488707148742768	Armatura di pelle di Ajure
+488711443710064	Armatura di pelle di Salimi
+488715738677360	Armatura di pelle di Nehrut
+488720033644656	Armatura di pelle di Takkat
+488724328611952	Armatura di pelle di Whitley
+488728623579248	Armatura di pelle di Kaisan
+488732918546544	Armatura di pelle di Derrison
+488758688350320	Armatura di pelle di Berblin
+488767278284912	Armatura rossa del sottoposto del Diavolo dei giunchi
+488771573252208	Armatura gialla del sottoposto del Diavolo dei giunchi
+488775868219504	Armatura del sottoposto del Diavolo dei giunchi
+490906171998320	Armatura di stoffa di Cocotar
+490910466965616	Armatura di stoffa di Tryah
+490914761932912	Corazza di stoffa della Volontà di Ator
+490919056900208	Armatura di stoffa di Paifo
+491013546180720	Armatura di stoffa di Ankara
+491017841148016	Armatura di stoffa di Esbeth
+491022136115312	Armatura di stoffa di Muchia
+491026431082608	Armatura di stoffa delle Viverne fiammeggianti
+491030726049904	Armatura di stoffa di Duizeh
+491035021017200	Armatura di stoffa di Izumit
+491039315984496	Armatura di stoffa Mugleah
+491069380755568	Armatura di stoffa di Myrnen
+491073675722864	Armatura di stoffa di Bollin
+491077970690160	Armatura di stoffa di Livner
+491082265657456	Armatura di stoffa di Ruvib
+491086560624752	Corazza in stoffa dei Sanguinari
+491090855592048	Armatura di stoffa di Alsace
+491095150559344	Armatura di stoffa di Beralt
+491099445526640	Armatura di stoffa di Monterima
+491103740493936	Armatura di stoffa di Deorre
+491116625395824	Armatura di stoffa di Faians
+491129510297712	Armatura di stoffa di Concarr
+491142395199600	Armatura di stoffa di Luwea
+491146690166896	Armatura di stoffa di Gael
+491150985134192	Armatura di stoffa di Bolgan
+491155280101488	Armatura di stoffa di Dernat
+491159575068784	Armatura di stoffa di Dondegobi
+491163870036080	Armatura di stoffa di Gobialta
+491168165003376	Armatura di stoffa di Orbus
+491172459970672	Armatura di stoffa di Hentree
+491176754937968	Armatura di stoffa di Oubreve
+491181049905264	Armatura di stoffa di Harghai
+491215409643632	Armatura di stoffa di Telford
+491335668727920	Armatura di stoffa di Daraz
+491404388204656	Armatura di stoffa di Denmore
+491408683171952	Armatura di stoffa di Telin
+491412978139248	Armatura di stoffa di Calis
+491421568073840	Armatura di stoffa di Roshayne
+491425863041136	Armatura di stoffa di Minnutan
+491434452975728	Armatura di stoffa di Drumfin
+491443042910320	Armatura di stoffa di Drimrow
+491464517746800	Armatura di stoffa di Totte
+491473107681392	Armatura di stoffa di Radley
+491477402648688	Armatura di stoffa di Lucion
+491481697615984	Armatura di stoffa di Senian
+491503172452464	Armatura di stoffa di Lackey
+491507467419760	Armatura di stoffa di Kassa
+491511762387056	Armatura di stoffa di Annis
+491524647288944	Armatura di stoffa di Marka
+491528942256240	Armatura di stoffa di Makri
+491593366765680	Armatura di stoffa di Tyran
+491597661732976	Armatura di stoffa di Tiron
+491601956700272	Armatura di stoffa di Tyrune
+491606251667568	Armatura di stoffa di Tarun
+491610546634864	Armatura di stoffa di Tynion
+491614841602160	Armatura di stoffa di Tanion
+491619136569456	Armatura di stoffa di Neslan
+491623431536752	Armatura di stoffa di Eshrun
+491636316438640	Armatura di stoffa di Deshret
+491649201340528	Armatura di stoffa di Takana
+491657791275120	Armatura di pelle di Lakshi
+491670676177008	Armatura di stoffa di Ladran
+491674971144304	Armatura di stoffa di Nuslan
+491679266111600	Armatura di stoffa di Ravirun
+491683561078896	Armatura di stoffa di Barian
+491687856046192	Armatura di stoffa di Barcy
+491692151013488	Armatura di stoffa di Bartmun
+491696445980784	Armatura di stoffa di Orthu
+491700740948080	Armatura di stoffa di Tohkar
+491705035915376	Armatura di stoffa di Verdinan
+491709330882672	Armatura di stoffa di Borsehir
+491713625849968	Armatura di stoffa di Keanoff
+491743690621040	Armatura di stoffa di Rhonid
+491747985588336	Armatura di stoffa di Pouhel
+491752280555632	Armatura di stoffa di Dillinger
+491756575522928	Armatura di stoffa di Eckney
+491786640294000	Armatura di stoffa di Baratum
+491790935261296	Armatura di stoffa di Baritum
+491795230228592	Armatura di stoffa di Baras
+491803820163184	Armatura di stoffa di Baraccuro
+491825294999664	Armatura di stoffa di Barrow
+491829589966960	Armatura di stoffa di Bailao
+491833884934256	Armatura di stoffa di Barclao
+491842474868848	Armatura di stoffa di Barch
+491863949705328	Cotta di maglia di Bedure
+491872539639920	Cotta di maglia di Riksha
+491876834607216	Armatura di stoffa di Lathia
+491885424541808	Armatura di stoffa di Kennav
+491889719509104	Armatura di stoffa di Lancats
+491894014476400	Armatura di stoffa di Rangtua
+491898309443696	Armatura di stoffa di Nebin
+491902604410992	Armatura di stoffa di Ranphas
+491906899378288	Armatura di stoffa di Roctar
+491911194345584	Armatura di stoffa di Barbaroy
+491915489312880	Armatura di stoffa di Fiore
+491919784280176	Armatura di stoffa di Warstein
+491924079247472	Armatura di stoffa di Conentry
+491928374214768	Armatura di stoffa di Berkhia
+491932669182064	Armatura di stoffa di Austfeld
+491941259116656	Armatura di stoffa di Gaut
+491945554083952	Armatura di stoffa di Gadereich
+491949849051248	Armatura di stoffa di Ewen
+491954144018544	Corazza in stoffa di Primus l'Antico
+491962733953136	Armatura di stoffa di Diggs
+491967028920432	Armatura di stoffa di Raddler
+492001388658800	Armatura di stoffa di Volghad
+492005683626096	Armatura di stoffa di Ultar
+492009978593392	Armatura di stoffa di Dohann
+492014273560688	Armatura di stoffa di Bahlmers
+492018568527984	Armatura di stoffa di Tolkane
+492022863495280	Armatura di stoffa di Bandide
+492027158462576	Armatura di stoffa di Dwelker
+492031453429872	Armatura di stoffa di Veronde
+492035748397168	Armatura di stoffa di Ruschelle
+492040043364464	Armatura di stoffa di Rosarduin
+492044338331760	Armatura di stoffa di Sherwood
+492048633299056	Armatura di stoffa di Eyratt
+492052928266352	Armatura di stoffa di Gruun
+492057223233648	Armatura di stoffa di Auron
+492065813168240	Armatura di stoffa di Salash
+492070108135536	Armatura di stoffa di Borman
+492074403102832	Armatura di stoffa di Berghill
+492078698070128	Armatura di stoffa di Hassal
+492082993037424	Armatura di stoffa di Meravan
+492087288004720	Armatura di stoffa di Chizhar
+492091582972016	Armatura di stoffa di Dahkavan
+492095877939312	Armatura di stoffa di Ziahl
+492100172906608	Armatura di stoffa di Amundule
+492104467873904	Armatura di stoffa di Sarendion
+492108762841200	Armatura di stoffa di Hysilda
+492113057808496	Armatura di stoffa di Yorkey
+492117352775792	Armatura di stoffa di Dollette
+492121647743088	Armatura di stoffa di Verette
+492125942710384	Armatura di stoffa di Haillen
+492130237677680	Armatura di stoffa di Kalbdan
+492147417546864	Armatura di stoffa di Schillerbin
+492151712514160	Armatura di stoffa di Neblin
+492160302448752	Armatura di stoffa del Bruciacielo
+492181777285232	Armatura di stoffa della Liberatrice mascherata
+492186072252528	Armatura di stoffa di Keller
+492203252121712	Abito di Pailune
+492220431990896	Armatura di stoffa di Spetsahorn
+492224726958192	Armatura di stoffa di Muddliss
+492229021925488	Vesti di stoffa di Delesyia
+492233316892784	Armatura di stoffa di Kang
+492237611860080	Armatura di stoffa di Zynian
+492241906827376	Armatura di stoffa di Zamir
+492246201794672	Armatura di stoffa di Lubonon
+492250496761968	Armatura di stoffa di Denill
+492259086696560	Armatura di stoffa di Noble
+492267676631152	Armatura di stoffa di Odorrey
+492284856500336	Armatura di stoffa di Dega
+492302036369520	Cappotto di pelle di coniglio
+492306331336816	Cappotto di pelle del Giullare
+492327806173296	Armatura a piastre di Chelcia
+492332101140592	Armatura a piastre di Meyer metà
+492344986042480	Armatura a piastre anti-Crail
+492375050813552	Corazza in stoffa dei Sanguinari
+519716812619888	Guanti di pelle di Trish
+519721107587184	Guanti di pelle di Leahdra
+519725402554480	Guanti di pelle di Veile
+519729697521776	Bracciali di pelle di Behrun
+519733992489072	Guanti a piastre degli Inquisitori
+519746877390960	Guanti a piastre di Canta
+519751172358256	Guanti a piastre di Draiga
+519755467325552	Guanti di stoffa di Runae
+519764057260144	Guanti a piastre del Gelo maledetto
+519785532096624	Guanti a piastre dello Spadaccino della fiamma
+519794122031216	Guanti a piastre di Batz
+519798416998512	Guanti a piastre di Tarandus
+519802711965808	Guanti a piastre della Fiamma ardente
+519807006933104	Guanti a piastre di Camsen
+519815596867696	Guanti a piastre di Dimfeld
+519828481769584	Guanti a piastre di Agatha
+519832776736880	Guanti a piastre di Ashad
+519837071704176	Guanti a piastre di Solas
+519871431442544	Guanti a piastre di Pernicia
+519875726409840	Guanti a piastre di Ferman
+519905791180912	Guanti di pelle del Lupo grigio
+519922971050096	Guanti a piastre di Luon
+519927266017392	Guanti a piastre di Luthor
+519931560984688	Guanti a piastre di Arkhan
+519935855951984	Guanti a piastre di Dumenis
+519944445886576	Guanti a piastre di Ratti
+519948740853872	Guanti a piastre di Ettis
+519953035821168	Guanti di stoffa di Recklin
+519970215690352	Guanti a piastre di Kevile
+519978805624944	Guanti a piastre di Weirren
+519983100592240	Guanti a piastre di Devinine
+519987395559536	Guanti a piastre dell'Ala glaciale
+519991690526832	Guanti a piastre demenissiani
+519995985494128	Guanti a piastre dell'Avidità aurea
+520000280461424	Guanti a piastre di Belui
+520038935167088	Guanti a piastre del Regno caduto
+524011779915888	Bracciali di maglia di Uomo bestia
+528315337146480	Guanti di pelle di Austfeld
+528336811982960	Guanti di pelle di Fiori
+528341106950256	Guanti di pelle di Janiklo
+528353991852144	Guanti di pelle di Barre
+528358286819440	Guanti di pelle di Berkhia
+528362581786736	Guanti di maglia di Goldheart
+528366876754032	Guanti di pelle di Kordaav
+528384056623216	Guanti di pelle di Cacoreum
+528396941525104	Guanti di pelle di Claire
+528414121394288	Guanti di pelle di Hark
+528422711328880	Guanti di pelle di Weiston
+528431301263472	Guanti di pelle di Talisin
+528435596230768	Guanti di cuoio di Melvin
+528444186165360	Guanti di pelle di Trion
+528452776099952	Guanti di pelle di Ebenezer
+528457071067248	Guanti di cuoio di Pavis
+528465661001840	Guanti di pelle di Rondel
+528469955969136	Guanti di pelle di Perseus
+528504315707504	Guanti di pelle di Byren
+528508610674800	Guanti di pelle di Kadallon
+528517200609392	Guanti di pelle di Salun
+528542970413168	Guanti di pelle di Lespedan
+528555855315056	Guanti di pelle di Rheigis
+528560150282352	Guanti di pelle di Hagwood
+528573035184240	Guanti di pelle di Lasfeld
+528577330151536	Guanti di pelle di Wyrdins
+528581625118832	Guanti di pelle di Andria
+528590215053424	Guanti di pelle di Larkri
+528611689889904	Guanti di pelle di Rossbara
+528615984857200	Guanti di pelle di Blyne
+528641754660976	Guanti di pelle di Rhinard
+528697589235824	Guanti di pelle di Sleishorn
+528706179170416	Guanti di stoffa di Mornington
+528714769105008	Guanti di pelle di Bandellure
+528727654006896	Guanti di pelle di Nocburn
+528736243941488	Guanti di pelle di Drumard
+528753423810672	Guanti di pelle di Stratton
+528762013745264	Guanti di pelle di Hegea
+528766308712560	Guanti di pelle di Camsen
+528783488581744	Guanti di pelle di Matthias
+528792078516336	Guanti di pelle di Layddete
+528804963418224	Guanti di pelle di Khalbdan
+528822143287408	Guanti di pelle di Rueconec
+528852208058480	Guanti di stoffa di Rakhir
+528865092960368	Guanti a piastre di Satyros
+528869387927664	Guanti di pelle della protezione incrollabile
+528877977862256	Guanti di pelle di Steinmers
+528899452698736	Guanti di pelle di Adeion
+528908042633328	Guanti di pelle di Crudil
+528916632567920	Guanti di pelle di Conchetta
+528925222502512	Guanti di pelle di Loudan
+528929517469808	Guanti di pelle di Calio
+528933812437104	Guanti di pelle di Viraiton
+528946697338992	Guanti di pelle di Maeve
+528955287273584	Guanti di pelle di Deskio
+528968172175472	Guanti a piastre di Geloufeld
+528985352044656	Guanti di stoffa di Asty
+528998236946544	Guanti di pelle di Dimfeld
+529002531913840	Guanti di pelle di Trowder
+529006826881136	Guanti di pelle di Caviden
+529041186619504	Guanti di pelle di Mistum
+529058366488688	Guanti di pelle di Rowley
+529066956423280	Guanti di pelle di Daveed
+529071251390576	Guanti di pelle di Bettie
+529109906096240	Guanti di pelle di Lennigen
+529118496030832	Guanti di pelle di Kaeridyn
+529127085965424	Guanti di pelle di Merridew
+529144265834608	Guanti di stoffa di Astia
+529152855769200	Guanti di pelle di Aldwin
+529161445703792	Guanti di pelle di Latian
+529178625572976	Guanti di pelle di Vicaron
+529187215507568	Guanti di pelle di Leppo
+529191510474864	Guanti di pelle di Brogant
+529204395376752	Guanti di pelle di Delise
+529208690344048	Guanti di pelle di Boggen
+529221575245936	Guanti di pelle di Delinell
+529225870213232	Guanti di pelle di Wertesh
+529230165180528	Guanti di pelle di Keimbel
+529234460147824	Guanti di pelle di Sladen
+529243050082416	Guanti di pelle di Persein
+529255934984304	Guanti di pelle di Mechlin
+529260229951600	Guanti di pelle di Essembel
+529264524918896	Guanti di pelle di Contra
+529311769559152	Guanti di pelle della Liberatrice mascherata
+529320359493744	Guanti di pelle di Dondegobi
+529324654461040	Guanti di pelle di Gobialta
+529328949428336	Guanti di pelle di Tershan
+529337539362928	Guanti di pelle di Rignon
+529341834330224	Guanti di pelle di Reclonne
+529346129297520	Guanti di pelle di Ricrau
+529359014199408	Guanti di pelle di Tiron
+529363309166704	Guanti di pelle di Taylonne
+529384784003184	Guanti di stoffa di Haron
+529397668905072	Guanti di pelle di Kattinan
+529401963872368	Guanti di pelle di Saruen
+529427733676144	Guanti di pelle di Luca
+529436323610736	Guanti di pelle di Tikkal
+529440618578032	Guanti di pelle di Markna
+529457798447216	Guanti di pelle di Lukas
+529479273283696	Guanti di cuoio del Capobanda oscuro
+529483568250992	Guanti di pelle di Salatos
+529492158185584	Guanti di pelle di Ellisco
+529496453152880	Guanti di pelle di Elashe
+529509338054768	Guanti di pelle di Kasria
+529517927989360	Guanti di pelle di Renshaku
+529522222956656	Guanti di pelle di Reshesh
+529530812891248	Guanti di pelle di Ravellu
+529535107858544	Guanti di pelle di Remebrou
+529539402825840	Guanti di pelle di Rainier
+529543697793136	Guanti di pelle di Lave
+529547992760432	Guanti di pelle di Mache
+529552287727728	Guanti di pelle di Martail
+529556582695024	Guanti di pelle di Wentz
+529573762564208	Guanti di pelle di Bolson
+529578057531504	Guanti di pelle di Cains
+529582352498800	Guanti di pelle di Dalton
+529586647466096	Guanti di pelle di Eplern
+529590942433392	Guanti di pelle di Archen
+529595237400688	Guanti di pelle di Dunion
+529599532367984	Guanti di pelle di Laplace
+529603827335280	Guanti di pelle di Bristel
+529621007204464	Guanti a piastre di Masti
+529625302171760	Guanti di pelle di Takkan
+529629597139056	Guanti di pelle di Arsen
+529633892106352	Guanti di stoffa di Takah
+529638187073648	Guanti a piastre argentate
+529642482040944	Guanti di pelle di Chent
+529646777008240	Guanti di pelle degli Orsi neri
+529655366942832	Guanti di stoffa del Lupo grigio
+529659661910128	Guanti di pelle di Dherri
+529668251844720	Guanti di pelle di Patten
+529672546812016	Guanti di cuoio del Lupo d'argento
+529676841779312	Guanti di stoffa di Rattu
+529689726681200	Guanti di pelle di Lercent
+529694021648496	Guanti di cuoio della Zanna vespertina
+529706906550384	Bracciali di pelle di Dram
+529711201517680	Guanti di pelle di Bunce
+529715496484976	Guanti di pelle di Maters
+529728381386864	Guanti di pelle di Rannys
+529758446157936	Fasce di pelle di Dane
+529792805896304	Guanti di pelle di Reak
+529801395830896	Guanti di pelle di Badran
+529805690798192	Guanti di pelle di Rigma
+529809985765488	Guanti di pelle di Verdesh
+529814280732784	Guanti di pelle di Jasmern
+529818575700080	Guanti di pelle di Esha
+529822870667376	Guanti di pelle di Shellus
+529827165634672	Guanti di pelle di Waller
+529848640471152	Guanti di pelle di Salmae
+529852935438448	Guanti di pelle di Derrison
+529861525373040	Guanti di pelle di Dirrebin
+529870115307632	Guanti di pelle di Dallaban
+529883000209520	Guanti di pelle di Lawson
+529887295176816	Guanti di pelle di Gaiman
+532597419540592	Guanti di stoffa di Stugrub
+532610304442480	Guanti di pelle di Arti
+532657549082736	Guanti di pelle bianchi dell'Uomo-corvo
+532661844050032	Guanti di stoffa di Baidan
+532674728951920	Guanti di stoffa di Borcell
+532700498755696	Guanti di stoffa di Whitley
+532713383657584	Guanti di pelle di Tyran
+532717678624880	Guanti di stoffa di Tiron
+532790693068912	Guanti di stoffa di Setri
+532794988036208	Guanti di stoffa di Serbello
+532812167905392	Guanti di stoffa di Ashtu
+532816462872688	Guanti di stoffa di Ratisan
+532820757839984	Guanti di stoffa di Duroin
+532829347774576	Guanti di stoffa di Ludynn
+532837937709168	Guanti di stoffa di Derrison
+532846527643760	Guanti di stoffa di Gadereich
+532850822611056	Guanti di stoffa di Chizhar
+532863707512944	Guanti di stoffa dei giunchi del tramonto
+532872297447536	Guanti di cuoio del Giullare
+532880887382128	Guanti di pelle della Volontà di Ator
+532889477316720	Guanti a piastre di Witters
+532893772284016	Guanti a piastre di Dulone
+532898067251312	Guanti a piastre del guerriero dei Cavalieri del drago
+532902362218608	Guanti a piastre dell'arciere dei Cavalieri del drago
+532906657185904	Guanti a piastre di Caliburn
+562645010743408	Stivali a piastre del Guerriero indomito
+562649305710704	Stivali a piastre dell'Avidità aurea
+562666485579888	Stivali a piastre di Lattua
+562670780547184	Stivali a piastre dell'Ala glaciale
+562679370481776	Stivali a piastre degli Inquisitori
+562696550350960	Stivali a piastre di Canta
+562730910089328	Stivali a piastre di Batz
+562735205056624	Stivali a piastre di Chelcia
+562739500023920	Stivali a piastre di Ashad
+562743794991216	Stivali a piastre di Solas
+562752384925808	Stivali a piastre di Serval
+562756679893104	Stivali di pelle di Tyrdall
+562765269827696	Stivali a piastre di Antumbra
+562808219500656	Stivali a piastre di Sigremon
+562812514467952	Scarpe a piastre di Dulone
+562816809435248	Stivali a piastre di Sahazhad
+562821104402544	Stivali a piastre demenissiani
+562838284271728	Stivali a piastre del Regno caduto
+562855464140912	Stivali di pelle del Lupo grigio
+566961452875888	Stivali di pelle di Regglia
+566965747843184	Stivali di pelle di Rezzcan
+566970042810480	Stivali di pelle di Baku
+571234945335408	Stivali di pelle di Seiger
+571252125204592	Stivali di pelle di Rodderham
+571260715139184	Stivali di pelle di Leontyne
+571269305073776	Stivali di pelle di Bollin
+571277895008368	Stivali di pelle di Helfryn
+571286484942960	Stivali di pelle di Eustice
+571316549714032	Calzature in pelle del prete Halsius
+571325139648624	Stivali di pelle di Tobias
+571329434615920	Stivali di pelle di Arghai
+571333729583216	Stivali di pelle di Nevin
+571355204419696	Stivali di pelle di Mulia
+571372384288880	Stivali di pelle di Cyllian
+571376679256176	Stivali di cuoio del Lupo d'argento
+571380974223472	Stivali di pelle di Correlly
+571385269190768	Stivali di pelle di Benberry
+571389564158064	Stivali di pelle di Midlier
+571393859125360	Stivali di pelle di Derting
+571402449059952	Stivali di pelle di Steyer
+571406744027248	Stivali di pelle di Ebenezer
+571415333961840	Stivali di pelle di Tesslit
+571419628929136	Stivali di pelle di Rhonda
+571441103765616	Stivali di pelle di Ramastern
+571462578602096	Stivali di pelle di Layne
+571492643373168	Stivali di pelle di Kadallon
+571518413176944	Stivali di pelle di Pierpont
+571531298078832	Stivali di pelle di Dyrfrith
+571539888013424	Stivali di cuoio del Lupo grigio
+571557067882608	Stivali di pelle della protezione incrollabile
+571582837686384	Stivali di pelle di Sarantos
+571608607490160	Stivali di pelle di Levinto
+571612902457456	Stivali di pelle di Ruthie
+571625787359344	Stivali di pelle di Colbern
+571647262195824	Stivali di pelle di Bolton
+571733161541744	Stivali di pelle di Nagmore
+571737456509040	Stivali di pelle di Mornington
+571750341410928	Stivali di pelle di Woodbrock
+571763226312816	Stivali di pelle di Russmore
+571771816247408	Stivali di pelle di Clarille
+571780406182000	Stivali di pelle dei campi
+571823355854960	Stivali di pelle di Keredig
+571831945789552	Stivali di pelle di Neirnim
+571857715593328	Stivali di pelle di Matis
+571935025004656	Stivali di pelle di Tarandus
+571943614939248	Stivali di pelle di Sydmon
+571952204873840	Stivali di pelle di Pahna
+571965089775728	Stivali di pelle di Rhegis
+571969384743024	Stivali di pelle della Liberatrice mascherata
+571982269644912	Stivali di pelle di Crudil
+571995154546800	Stivali di cuoio della Fiamma ardente
+572016629383280	Stivali di pelle di Huntington
+572020924350576	Stivali di pelle di Adeion
+572038104219760	Scarpe di stoffa di Diencia
+572055284088944	Scarpe di pelle di Pavis
+572059579056240	Scarpe di pelle di Trowder
+572072463958128	Stivali di pelle di Pieti
+572076758925424	Stivali di pelle di Norman
+572085348860016	Stivali di pelle di Driseld
+572093938794608	Stivali di pelle di Dutrat
+572098233761904	Stivali di pelle di Reus
+572102528729200	Stivali di pelle di Lascaux
+572106823696496	Stivali di pelle di Mistum
+572111118663792	Stivali di pelle di Sillau
+572115413631088	Stivali di pelle di Fiatal
+572132593500272	Stivali di pelle di Aurelian
+572145478402160	Stivali di pelle di Eshian
+572192723042416	Stivali di pelle di Clays
+572197018009712	Stivali di pelle di Daveed
+572201312977008	Stivali di pelle di Beattie
+572205607944304	Stivali di pelle di Leegrau
+572214197878896	Stivali di pelle di Hroadar
+572239967682672	Stivali di pelle di Trish
+572244262649968	Stivali di pelle di Katitz
+572248557617264	Stivali di pelle di Isilon
+572261442519152	Stivali di pelle di Elish
+572265737486448	Stivali di pelle di Runae
+572270032453744	Stivali di pelle di Carcon
+572274327421040	Stivali di pelle di Diovern
+572300097224816	Stivali di pelle di Erphy
+572308687159408	Stivali di pelle di Oakten
+572317277094000	Stivali di pelle di Seras
+572321572061296	Stivali di pelle di Cateine
+572330161995888	Stivali di pelle di Loutte
+572338751930480	Stivali di pelle di Bourveten
+572343046897776	Stivali di pelle di Lankel
+572347341865072	Stivali di pelle di Gannech
+572351636832368	Stivali di pelle di Kervel
+572355931799664	Stivali di pelle di Walder
+572360226766960	Stivali di pelle di Donaff
+572373111668848	Stivali di pelle di Herdel
+572385996570736	Stivali di pelle della Volontà di Ator
+572390291538032	Stivali di pelle di Quent
+572394586505328	Stivali di pelle di Rhegis grigi
+572407471407216	Stivali di pelle di Tyran
+572411766374512	Scarpe di stoffa di Tyrune
+572416061341808	Stivali di pelle di Tiron
+572428946243696	Scarpe di pelle di Tiruna
+572433241210992	Stivali di pelle di Darman
+572437536178288	Stivali di pelle di Saruen
+572450421080176	Stivali di pelle di Pasti
+572467600949360	Stivali di pelle di Kassantra
+572480485851248	Stivali di pelle di Leguna
+572484780818544	Stivali a piastre di Layta
+572493370753136	Stivali di pelle di Dannoche
+572497665720432	Stivali di pelle di Layta
+572501960687728	Stivali di pelle di Catcheta
+572506255655024	Stivali di pelle di Caico
+572510550622320	Stivali di pelle di Cosgrove
+572514845589616	Stivali di pelle di Caelough
+572519140556912	Stivali di pelle di Kasset
+572523435524208	Stivali di pelle di Cassrow
+572527730491504	Stivali di pelle di Katz
+572536320426096	Stivali di pelle di Ligatra
+572540615393392	Stivali di pelle di Cantu
+572549205327984	Stivali di pelle di Andaran
+572553500295280	Stivali di pelle di Maldrick
+572557795262576	Stivali di pelle di Anderitz
+572562090229872	Stivali di pelle di Trilly
+572566385197168	Stivali di pelle di Fiore
+572570680164464	Scarpe di pelle di Perelli
+572609334870128	Stivali di pelle di Lasian
+572613629837424	Stivali di pelle di Ludynn
+572617924804720	Stivali di pelle di Kurua
+572622219772016	Stivali di pelle di Stoddard
+572626514739312	Stivali di pelle di Wattern
+572630809706608	Stivali di pelle di Badran
+572635104673904	Stivali di pelle di Hauvern
+572639399641200	Stivali di pelle di Begill
+572643694608496	Stivali di pelle di Dreiger
+572647989575792	Stivali di pelle di Esha
+572660874477680	Stivali di pelle di Vixer
+572669464412272	Stivali di pelle di Meravan
+572673759379568	Stivali di pelle di Salmae
+572678054346864	Stivali di pelle di Nehrut
+572682349314160	Stivali di pelle di Juman
+572708119117936	Stivali di pelle di Warren Beynon
+572716709052528	Stivali di pelle di Sein
+572721004019824	Stivali di pelle di Dolters
+572725298987120	Stivali di cuoio dell'Ala nera
+572733888921712	Stivali di pelle di Orbit
+572738183889008	Stivali di pelle di Alvitt
+572742478856304	Stivali di pelle di Arrenya
+572746773823600	Stivali di pelle di Belui
+575551387467888	Stivali di pelle di Triloan
+575564272369776	Stivali di pelle di Bayer
+575572862304368	Scarpe di Pailune
+575581452238960	Scarpe di stoffa di Reus
+575590042173552	Scarpe di stoffa di Eckney
+575620106944624	Stivali di pelle di Marrada
+575624401911920	Stivali di pelle di Endoron
+575645876748400	Stivali di pelle di Scoppa
+575654466682992	Scarpe di stoffa di Whitley
+575731776094320	Scarpe di stoffa di Kerdmann
+575736071061616	Scarpe di stoffa di Barrette
+575740366028912	Scarpe di stoffa di Gaut
+575748955963504	Stivali di pelle di Matia
+575757545898096	Scarpe di stoffa di Chizhar
+575766135832688	Calzature di stoffa dei giunchi del tramonto
+575770430799984	Stivali di stoffa di coniglio
+575783315701872	Stivali a piastre di Caliburn
+858997754167408	Spada del Lupo grigio
+859053588742256	Torcia
+859083653513328	Spada dei Glenmour
+859096538415216	Spada di Sydmon
+859143783055472	Molti brandiscono questa spada, ignari che sia stata forgiata a Rosaspina, la fortezza della casata Wells. Le loro armi sono famose per la praticità e rapidità.
+859203912597616	Spada curva d'alabastro
+859212502532208	Spada di Varnia
+859216797499504	Spada del Signore dei cavalieri
+859221092466800	Spada del regno decaduto
+859302696845424	Ambizione fusa
+859324171681904	Spada di Volono
+859328466649200	Spada di Peltree
+862863224733808	Spadino del vento bianco
+862867519701104	Volto vuoto
+862876109635696	Spada di Dekarr
+862919059308656	Spada del lord
+862931944210544	Spada di Gladius
+862940534145136	Spada di Acria
+862949124079728	Gladio del legionario
+862953419047024	Solitudine del sopravvissuto
+862962008981616	Ceppo del potere
+863301311398000	Spadino degli Inquisitori
+863305606365296	Spadino dei Grace
+863309901332592	Spadino di Leone
+863314196299888	Spadino rosato d'ottone
+863318491267184	Spadino del casato decaduto
+863322786234480	Spadino di Volono
+863327081201776	Spadino del regno decaduto
+863331376169072	Spadino degli Elemore
+863335671136368	Spadino da combattimento
+863339966103664	Spadino dei Gilliam
+863344261070960	Spadino di Lambert
+863348556038256	Spadino della pace
+863352851005552	Spadino di Elenore
+863370030874736	Spadino di Liberre
+901956017062000	Ascia di Bekker
+901981786865776	Ascia dei Lanford
+901990376800368	Ascia a una mano di Lambert
+901998966734960	Ascia dei Gilliam
+902041916407920	Ascia di Maeve
+902067686211696	Ascia di Rhias
+902093456015472	Ascia di Kylus
+902136405688432	Ascia dei Tardik
+902162175492208	Ascia di Delonde
+902187945295984	Ascia bipenne di Leofric
+902196535230576	Ascia di ferro nero
+902248074838128	Ascia Troncovecchio
+902265254707312	Ascia della Confraternita dei Corvi
+902273844641904	Ascia di Parashu
+902282434576496	Anello terrestre
+902286729543792	Ascia del Lupo d'argento
+944901395054704	Mazza di Kadel
+944909984989296	Flagello di Kordaav
+944918574923888	Bastone da parata
+944922869891184	Mazza dei Lanford
+944927164858480	Anima congelata
+944944344727664	Eredità di Octarr
+944952934662256	Mazza del Fuorilegge
+944970114531440	Mazza di Wells
+944974409498736	Mazza della Fossa delle ossa
+944982999433328	Mazza di alabastro
+944987294400624	Mazza di Balton
+944991589367920	Mazza degli Iris
+949187772416112	Flagello di Aeserion
+987855362982000	Pugnale di Varnia
+987967032131696	Pugnale di Bekker
+988095881150576	Pugnale di alabastro
+988113061019760	Pugnale della Caccia oscura
+988121650954352	Pugnale della Confraternita dei Corvi
+988156010692720	Dito di Ator
+991712243613808	Pugnale di Kylus
+991729423482992	Pugnale di Sydmon
+991746603352176	Pugnale di Delesyia
+991755193286768	Pugnale di Dekarr
+991780963090544	Lama rituale di Pailune
+992137445376112	Pugnale di Aeserion
+1030796446007408	Spada a due mani dei Tardik
+1030860870516848	Spada lunga selvaggia
+1030869460451440	Spada a due mani di Balton
+1030873755418736	Spada a due mani di Rugiadaquieta
+1030878050386032	Spada a due mani di Thalwynd
+1030890935287920	Spada a due mani degli Iris
+1030903820189808	Spada a due mani di Rhett
+1030916705091696	Ricettacolo della Caccia oscura
+1030921000058992	Verdetto giusto
+1030925295026288	Spadone della giustizia assoluta
+1030938179928176	Spada a due mani di Sydmon
+1030972539666544	Ignir
+1030976834633840	Spada a due mani di Delesyia
+1035087118336112	Spada lunga di Aeserion
+1035095708270704	Spada lunga di Dandelion
+1073801953542256	Capolavoro incompiuto
+1073806248509552	Grandascia dei Tardik
+1073810543476848	Grandascia degli Iris
+1073814838444144	Grandascia di Gorthak
+1073823428378736	Grandascia a uncino dei troll
+1073827723346032	Grandascia di Kylus
+1073832018313328	Grandascia della Fossa delle ossa
+1073836313280624	Grandascia a ventaglio
+1073844903215216	Grandascia dei ferri di cavallo
+1073849198182512	Ascia squartante dei Segugi
+1073853493149808	Ascia da taglialegna di Pailune
+1073862083084400	Grandascia di Sigremon
+1078011021492336	Grandascia di Bekker
+1078015316459632	Grandascia di Dekarr
+1078036791296112	Grandascia di Aeserion
+1116721561731184	Martello d'arme di Bekker
+1116725856698480	Martello d'arme della Via del sale
+1116747331534960	Martello d'arme della Fossa delle ossa
+1116751626502256	Martello d'arme di Thalwynd
+1116755921469552	Martello d'arme del cactus
+1116768806371440	Martello d'arme degli Arlem
+1116773101338736	Un martello d'arme realizzato dalla casata Arlen. Si rumoreggia che sia stato modellato su un antico scettro reale di Demeniss, smarrito da così tanto tempo che la sua autenticità non può essere accertata.
+1116777396306032	Martello d'arme di Zargan
+1116803166109808	Martello d'arme dei Tardik
+1116811756044400	Martello d'arme degli Iris
+1116820345978992	Martello da guerra di Gorthak
+1120986464256112	Martello da guerra di Aeserion
+1138170628407408	Alabarda dei predoni
+1138174923374704	Alabarda di alabastro
+1138179218342000	Alabarda degli Iris
+1138183513309296	Alabarda di Lambert
+1138187808276592	Alabarda dei Gilliam
+1138192103243888	Alabarda della Fossa delle ossa
+1138196398211184	Alabarda dei mercenari
+1138200693178480	Alabarda di Bekker
+1138209283113072	Alabarda dei Celeste
+1138213578080368	Avanguardia dorata
+1159645464887408	Pistola Rosemond
+1159649759854704	Pistola Jemel
+1159654054822000	Pistola Falconne
+1159658349789296	Pistola Vilancia
+1159688414560368	Pistola Ombra del passato
+1159697004494960	Pistola della misericordia di Caliburn
+1202595137847408	Moschetto degli Arlen
+1202599432814704	Moschetto di Bekker
+1202603727782000	Moschetto di Delesyia
+1202608022749296	Moschetto di Wells
+1202612317716592	Moschetto di Leofric
+1202663857324144	Moschetto degli Elmi
+1202668152291440	Moschetto di Pailune
+1202672447258736	Moschetto di Gustav
+1245544810807408	Scudo di Balton
+1245600645382256	Scudo degli Iris
+1245613530284144	Scudo rotondo di Sydmon
+1245626415186032	Specchio della notte
+1245630710153328	Scudo draconico
+1245639300087920	Scudo della freccia nascente
+1245652184989808	Scudo di Lord Cervo
+1245785328975984	Scudo di Dekarr
+1245789623943280	Scudo aquilone di Sydmon
+1245927062896752	Scudo dei Tardik
+1245931357864048	Scudo di Rugiadaquieta
+1246025847144560	Scudo della primavera in fiore
+1246030142111856	Scudo del valore di Demeniss
+1246034437079152	Scudo della lealtà di Demeniss
+1246038732046448	Scudo dell'obbedienza di Demeniss
+1247696589422704	Scudo grande dei Gilliam
+1247700884390000	Scudo grande di Lifsoth
+1247705179357296	Scudo grande rinforzato di Lanciaguerra
+1247713769291888	Scudo grande di Thalwynd
+1247722359226480	Scudo grande di Lucon
+1247726654193776	Scudo grande di Rhonid
+1247730949161072	Scudo grande di Balton
+1247735244128368	Scudo grande di Rekel
+1247752423997552	Scudo grande dei Lanford
+1247756718964848	Scudo de La marionetta gioconda
+1247786783735920	Scudo grande di Bekker
+1247799668637808	Scudo grande di Rekel prodotto in serie
+1247821143474288	Scudo grande spinato di Rekel
+1247825438441584	Scudo grande di Lanciaguerra
+1247829733408880	Scudo grande del Soldato di Demeniss
+1249822598234224	Granscudo dei lancieri della legione
+1288494483767408	Arco ancestrale con nodo dorato
+1288498778734704	Arco di Dekarr
+1288503073702000	Arco di Bekker
+1288507368669296	Arco dei Messaggeri del crepuscolo
+1288541728407664	Arco di Tardik
+1288546023374960	Arco di Kylus
+1288550318342256	Arco di Sydmon
+1288554613309552	Arco di Sangueferro
+1288567498211440	Arco di Tommasia
+1288571793178736	Arco di Lanciaguerra
+1288588973047920	Arco dell'Anima Tormentata
+1288704937164912	Arco di legno bianco
+1292785156096112	Arco di Aeserion
+1292789451063408	Arco del Custode cremisi
+1331474221498480	Lancia di Sydmon
+1331478516465776	Lancia di Alfonso
+1331491401367664	Lancia di Kylus
+1331495696334960	Lancia di alabastro
+1331517171171440	Lancia di Lanciaguerra
+1331538646007920	Lancia spezza-ingranaggi
+1331542940975216	Lancia della rettitudine
+1331547235942512	Opera incompiuta di Valgash
+1331560120844400	Spina della Caccia oscura
+1331573005746288	Tridente del vento del Nord
+1331590185615472	Lancia del traditore
+1331607365484656	Bastone dell'Effimero
+1374393829687408	Balestra di Hyde
+1374398124654704	Balestra del Troll errante del sud
+1417343502647408	Cannone di Rhinard
+1417347797614704	Sputafiamme elettromagnetico
+1417352092582000	Sputaghiaccio elettromagnetico
+1589142194487408	Fucile di Pailune
+1589146489454704	Fucile di Rugiadaquieta
+1589150784422000	Fucile Mortimer
+1589155079389296	Fucile Metilbahm
+1589159374356592	Fucile di Delesyia
+1589163669323888	Fucile dei Sanguinari
+1589167964291184	Fucile Dane
+1634239351095408	Picca stendardo piccola di Demeniss
+1634252235997296	Picca stendardo piccola della Riserva di caccia reale
+1634260825931888	Picca stendardo piccola degli Orsi neri
+1717986918400112	Granmartello di Bekker
+1717991213367408	Artiglio del Drago dorato
+1717995508334704	Granmartello del fuoco
+1717999803302000	Granmartello degli Helms
+1718004098269296	Granmartello dei Lanford
+1718008393236592	Granmartello della Fossa delle ossa
+1760945181294704	Bombardino vulcanico
+1760953771229296	Tirapunte di rame
+1760970951098480	Guanto d'arme della marea furiosa
+1760975246065776	Guanto d'arme dei Pugni di ferro
+1760983836000368	Clone della parte superiore di Muskan
+1760988130967664	Clone della parte inferiore di Muskan
+1846840232247408	Ago soporifero
+2147487942967408	Grandascia degli Inquisitori
+2147505122836592	Grandascia di pietra incisa
 2576984672567408	Orecchini di rame incisi
 2576988967534704	Orecchini d'argento incisi
 2576993262502000	Orecchini d'oro incisi
 2577001852436592	Lacrima del cervo d'oro
-25774098743408	Borsa piccola
-25778393710704	Borsa media
-25782688678000	Borsa molto grande
-25791278612592	Borsa grande
-2589973173361442928	Stivali di pelle di Rhegis grandi
-2591869818034454640	Elmo a piastre di Renkshaw in ferro nero
-2609680446115545200	Cesto pesante
 2619938640494704	Collana d'argento incisa
 2619947230429296	Collana di rame incisa
 2619990180102256	Collana d'oro finemente lavorata
@@ -294,24 +1477,19 @@
 2662896903389296	Anello grezzo blu
 2662922673193072	Anello di pietra grezza blu
 2662926968160368	Anello d'oro raffinato
-276518962408194160	Testiera militare di Wells
-2808099654493798512	Stivali di pelle di Sarantos usurati
-2851662060373147760	Elmo a piastre di Descao in ferro nero
-2995175360322076784	Stivali a piastre di Grovetant
-300690660393072	Vecchia bambola di legno
-3083646326500491376	Armatura a piastre di Spiddle in ferro nero
+3006481402167408	Pezzi di stoffa
+3049431075127408	Legno
 3092380748087408	Minerale di ferro
 3092385043054704	Minerale d'argento
 3092389338022000	Minerale d'oro
 3092393632989296	Minerale di rame
 3092419402793072	Minerale di bismuto
+3098823199031408	Granato
 3098827493998704	Epidoto
 3098831788966000	Azzurrite
 3098836083933296	Diamante
 3098840378900592	Diaspro sanguigno
 3098844673867888	Minerale di scolecite
-310989639781449840	Stivali di pelle di Clays del deserto
-3117835747940368496	Armatura a piastre di Canusti
 3178280094007408	Pelle sottile
 3178284388974704	Pelle a pelo corto
 3178288683942000	Pelle a pelo lungo
@@ -322,16 +1500,21 @@
 3217364296401008	Cubetto di zucchero
 3217793793130608	Tonico per cavalli
 3217802383065200	Stimolante per cavalli
-322122547200112	Il primo manufatto
+3221234061934704	Grano
 3221238356902000	Carota
-322126842167408	Manufatti dell'Abisso
-322131137134704	Manufatto dell'abisso sbiadito
+3221242651869296	Fagioli
+3221251241803888	Mela
+3221259831738480	Uva
+3221264126705776	Ghianda
+3221302781411440	Avena
+3221307076378736	Mais
+3221328551215216	Cipolla
 3221332846182512	Arancia
+3221354321018992	Pesca
 3221375795855472	Pomodoro
 3221397270691952	Miele d'albero
 3221401565659248	Miele selvatico
 3221435925397616	Formaggio
-322552043929712	Gettone del Mantogrigio
 3225537619165296	Fungo corallino
 3225962820927600	Rosmarino
 3225967115894896	Rosmarino rosa
@@ -342,6 +1525,7 @@
 3225988590731376	Lavanda bianca
 3225992885698672	Lavanda gialla
 3225997180665968	Aglio
+3226001475633264	Lino
 3226027245437040	Anguria del deserto
 3226044425306224	Croton
 3226048720273520	Croton rosso
@@ -350,12 +1534,15 @@
 3226087374979184	Patata
 3226091669946480	Patata dolce
 3226095964913776	Mora
+3229819701559408	Sale
+3229828291494000	Zucchero
 3229836881428592	Olio da cucina
 3229905600905328	Carne coriacea
 3233040927031408	Letame
 3238422521053296	Veleno
 3238431110987888	Ragnatela
 3238671629156464	Veleno di ragno acido
+3242764732989552	Uovo
 3249194299031664	Alveare
 3249198593998960	Ginseng selvatico
 3249220068835440	Corno lungo
@@ -369,22 +1556,20 @@
 3250865041309808	Gladiolo dei campi
 3251298833006704	Calendula
 3251307422941296	Antirrino
+3251316012875888	Peonia
 3251320307843184	Begonia
+3251328897777776	Viola del pensiero
 3251333192745072	Mughetto
 3251337487712368	Dunbaria
 3251341782679664	Cotone
 3251346077646960	Orchidea di pietra
-3251828544208109680	Stampella
 3337193883959408	Mela d'oro
-3341530332049440880	Armatura a piastre di Kunan
 3393032753774704	Bottiglia vuota
 3414537655025776	Osso piccolo
 3414675093979248	Collana consumata
 3414679388946544	Collana annerita
 3414722338619504	Vecchio anello
 3414726633586800	Anello annerito
-343601678647408	Ricetta: Carne al vapore
-343610268582000	Ricetta: Tè alla frutta
 3436175700263024	Elisir misterioso
 3436721161109616	Sigillo della casata Serkis
 3440273099063408	Lasciapassare di Hernand
@@ -417,31 +1602,6 @@
 3449000472608880	Mappa del tesoro del contadino - pezzo 3
 3449004767576176	Mappa del tesoro del contadino - pezzo 4
 3449034832347248	Mappa del totem misterioso - pezzo 1
-345341140402288	Ricetta: Zuppa di volatile
-345366910206064	Ricetta: Tè alle corna di cervo
-345371205173360	Ricetta: Succo di frutta
-345766342164592	Ricetta: Tè di funghi corallini
-345783522033776	Ricetta: Tè di funghi del pino
-345787817001072	Ricetta: Tè di funghi della quercia
-345869421379696	Ricetta: Tè al miele
-347084897124464	Ricetta: Carne di volatile salata alla griglia
-3512701889944748144	Elmo a piastre di Dumenis
-3550753676689670256	Elmo a piastre di Longia in ferro nero
-36511516983408	Anello di Corno Bianco
-36515811950704	Anello del fulmine
-36524401885296	Orecchino della magia nera
-36528696852592	Anello dell'orco
-36532991819888	Anello della strega
-36545876721776	Orecchini petalo di fiore
-37366215475312	Maglia dell'Inseguitrice cremisi
-37800007172208	Collana di cristallo della bufera
-39092792328304	Armatura della Guardia d'onore di Hernand
-39097087295600	Vesti di stoffa di Tariv
-39517994090608	Stivali di stoffa di Tariv
-39951785787504	Guanti di stoffa di Tariv
-40372692582512	Berretto di stoffa di Beoneck
-40376987549808	Elmo di stoffa del Bruciacielo
-40381282517104	Cappello del prete Halsius
 4080223226167408	Scopa
 4080227521134704	Ascia da taglialegna
 4080231816102000	Pala
@@ -512,12 +1672,6 @@
 4080541053747312	Carico di ferraglia
 4080545348714608	Carico di ferraglia
 4080549643681904	Carico di ferraglia
-40806484279408	Cannone a mano del carro di Marni
-40810779246704	Bombardino a orologeria meccanico
-40832254083184	Bombardino No. 8
-40836549050480	Bombardino della viverna
-4233774719385469040	Armatura a piastre di Valkyder
-4257868012742246512	Armatura a piastre di Edzel
 4294967296000112	Amplificazione salute
 4294971590967408	Amplificazione dello spirito
 4294975885934704	Amplifica energia
@@ -703,7 +1857,10 @@
 4295753275015280	Scudo del soldato di ventura
 4295757569982576	Mano dell'artigiano
 4295761864949872	Farfalla tartaruga dall'orlo di fiamma
+4295766159917168	Corazza in stoffa della Gilda dei mercanti della Foglia d'oro
+4295770454884464	Armatura di stoffa di Nibrak
 4295774749851760	Lettera segreta di un ribelle di Demeniss
+4295779044819056	Corazza in stoffa della Gilda dei mercanti della Foglia d'oro
 4295783339786352	Progetto equipaggiamento: Recupero energia
 4295787634753648	Guanti a piastre del mercante goblin
 4295791929720944	Armatura di stoffa dei ribelli di Demeniss
@@ -795,6 +1952,8 @@
 4296169886842992	Guanti a piastra degli Emissari lunari
 4296174181810288	Inventario di cucina dell'animo avventuriero, tipo C
 4296178476777584	Arte vetraria con unicorno
+4296182771744880	Mantello di stoffa della Gilda dei mercanti della Foglia d'oro
+4296187066712176	Mantello di stoffa della Gilda dei mercanti della Foglia d'oro
 4296191361679472	Mantello di maglia del Guerriero del Nord
 4296195656646768	Mantello della fiamma draconica
 4296199951614064	Mantello di maglia dell'Inseguitrice cremisi
@@ -1057,6 +2216,7 @@
 4297303758209136	Gomma
 4297308053176432	Araldo dell'equilibrio
 4297312348143728	Mantello di Kairos
+4297316643111024	Ingranaggio
 4297320938078320	Vaso di agave
 4297325233045616	Collana nanica
 4297329528012912	Nota di Elaijah
@@ -1160,6 +2320,7 @@
 4297750434807920	Sale finemente macinato
 4297754729775216	Verdure grigliate
 4297759024742512	Frutta alla griglia
+4297763319709808	Crosta di cereali
 4297767614677104	Uova affumicate
 4297771909644400	Pesce e carne alla griglia
 4297776204611696	Spiedini di carne alla griglia
@@ -1170,6 +2331,7 @@
 4297797679448176	Piuma
 4297801974415472	Osso grande
 4297806269382768	Lana
+4297810564350064	Avorio
 4297814859317360	Corno corto
 4297819154284656	Armatura di stoffa da campo confezionata
 4297823449251952	Cotta di maglia da campo confezionata
@@ -1359,6 +2521,7 @@
 4298618018201712	Manufatto dell'Abisso sigillato
 4298622313169008	Manufatto dell'Abisso sigillato
 4298626608136304	Manufatto dell'Abisso sigillato
+4298630903103600	Zanna
 4298635198070896	[QA] Movimento ripetuto a Hernand (Velocità 15)
 4298639493038192	Piede A.T.A.G. Mk III
 4298643788005488	Guida della Luce
@@ -1586,6 +2749,7 @@
 4299704644927600	Collana di Helfryn
 4299708939894896	Collana del Guardiano scarlatto
 4299713234862192	Un elmo in pelle di sciacallo.
+4299764774469744	Lana
 4299769069437040	Sigillo di Hernand
 4299773364404336	Corona di Hernand
 4299777659371632	Mantello d'élite di Hernand
@@ -1622,7 +2786,9 @@
 4299910803357808	Diario
 4299915098325104	Bombardino ad aria
 4299919393292400	Pentola
+4299923688259696	Rana velenosa
 4299927983226992	Raganella
+4299932278194288	Rospo
 4299936573161584	Rospo scavatore
 4299940868128880	Uova affumicate opulente
 4299945163096176	Uova affumicate sostanziose
@@ -2031,6 +3197,7 @@
 4301684624851056	Ciotola di ferro
 4301688919818352	Ciotola d'oro
 4301693214785648	Cetriolo
+4301697509752944	Rapa
 4301701804720240	Bietola
 4301706099687536	Lenticchie
 4301710394654832	Prezzemolo
@@ -2137,8 +3304,10 @@
 4302144186351728	Fragola
 4302148481319024	Sambuco
 4302152776286320	Melagrana
+4302157071253616	Fico
 4302161366220912	Ananas
 4302165661188208	Ciliegia di caffè
+4302169956155504	Cacao
 4302174251122800	Bottiglia d'acqua decorata in argento
 4302178546090096	Bottiglia d'acqua dall'apertura ampia
 4302182841057392	Bottiglia d'acqua piccola per bollire
@@ -2167,6 +3336,7 @@
 4302281625305200	Scrigno
 4302285920272496	Cassa di legno multiuso
 4302290215239792	Lama d'assassino
+4302294510207088	Piselli
 4302298805174384	Manufatto dell'Abisso sigillato
 4302303100141680	Bottiglia indaco sottile
 4302307395108976	Bottiglia d'acqua dalla base ampia
@@ -2302,7 +3472,9 @@
 4302870035824752	Seme di erba luminosa
 4302874330792048	Bomba di zolfo
 4302878625759344	Bomba d'acqua
+4302882920726640	Pera
 4302887215693936	Bomba rampicante
+4302891510661232	Dardo
 4302895805628528	Lettera di Harris
 4302900100595824	Mappa del tesoro di Ursula
 4302904395563120	Armatura di stoffa dei Mantogrigio
@@ -3055,7 +4227,6 @@
 4306125621035120	Ufficio di Serkis
 4306129916002416	Piccone di Bernor
 4306134210969712	Nota di Dryana
-43061342109808	Lanterna
 4306138505937008	Casa di guarigione San Halssius
 4306142800904304	Tempesta di corvi
 4306147095871600	Corazza in pelle di Mantogrigio
@@ -4233,608 +5404,6 @@
 4311769208062064	Cronache dell'Archivio - Capitolo 4
 4311773503029360	Cronache dell'Archivio - Capitolo 5
 4311777797996656	Cronache dell'Archivio - Ultimo Capitolo
-43134356553840	Lanterna dell'oceano scintillante
-43138651521136	Lanterna del Velo
-43142946488432	Lanterna pregiata con fantasia di fiamme
-43147241455728	Lanterna fendinebbia
-43151536423024	Lanterna fiammeggiante
-433791697008	Sacca per rame
-433795991863408	Elmo a piastre di Rekhia
-433800286830704	Elmo a piastre di Bolton
-433804581798000	Elmo a piastre di Cassius Morten
-433826056634480	Elmo a piastre dell'Ala glaciale
-433830351601776	Elmo della volontà di Ator
-433838941536368	Elmo a piastre di Ferman
-433843236503664	Elmo a piastre di Keredeg
-433847531470960	Elmo a piastre di Ferenna
-433851826438256	Elmo a piastre dei Grace
-433856121405552	Elmo a piastre di Flynn
-433860416372848	Elmo a piastre di Crudil
-433869006307440	Elmo a piastre di Berin
-433907661013104	Elmo d'osso dell'Uomo bestia
-433924840882288	Elmo a piastre di Rodderham
-433937725784176	Elmo a piastre di Taos
-433989265391728	Elmo a piastre di Tarandus
-433997855326320	Copricapo d'ordinanza della Guardia di Frontiera del Moschetto
-434002150293616	Elmo a piastre di Lotas
-434019330162800	Elmo di cuoio degli Orsi neri
-434023625130096	Elmo a piastre di Chelcia
-434032215064688	Elmo a piastre della Fiamma ardente
-434036510031984	Elmo a piastre di Inyr
-434040804999280	Elmo a piastre di Rueconec
-434045099966576	Elmo a piastre di Calio
-434057984868464	Elmo a piastre di Ashford
-434083754672240	Elmo a piastre di Lyfellen
-434105229508720	Elmo a piastre di Kiatus
-434122409377904	Elmo a piastre di Rahbae
-434126704345200	Corona di rami d'oro
-434178243952752	Elmo a piastre di Vduer
-434208308723824	Elmo a piastre di Laehbern
-434212603691120	Elmo a piastre di Offenberg
-434225488593008	Elmo a piastre di Ashad
-434229783560304	Elmo a piastre di Solas
-434242668462192	Elmo a piastre di Ulrich
-434259848331376	Elmo d'osso di Paizel
-434268438265968	Elmo a piastre dei Senza volto
-434272733233264	Elmo a piastre di Bayer
-434277028200560	Elmo a piastre di Bolgan
-434281323167856	Elmo a piastre di Dernat
-434285618135152	Elmo a piastre di Dondegobi
-434294208069744	Elmo a piastre dei guerrieri del Nord
-434307092971632	Elmo a piastre di Casinian
-434315682906224	Elmo a piastre di Canta
-434328567808112	Elmo a piastre di Tanion
-434371517481072	Elmo a piastre di Antra
-434375812448368	Elmo a piastre di Laterna
-434380107415664	Elmo a piastre di Zachar
-434384402382960	Elmo a piastre del Guerriero indomito
-434388697350256	Elmo a piastre di Tartry
-434397287284848	Elmo a piastre di Rapps
-434401582252144	Elmo a piastre di Biconio
-434427352055920	Elmo a piastre di Kurua
-438086664304	Sacca per rame grande
-438095254126704	Cuffia di maglia di Nahu
-438099549094000	Cuffia di maglia di Kadallon
-438103844061296	Elmo a piastre di Tailan
-442381631600	Sacca per rame leggera
-442403106324592	Bandana di stoffa di Nevin
-442424581161072	Elmo a piastre di Leontyne
-442480415735920	Elmo di pelle del regno caduto
-442506185539696	Elmo a piastre di Schtump
-442523365408880	Elmo di pelle di Melvin
-442531955343472	Elmo dell'amicizia leale
-442536250310768	Elmo di pelle di Rondel
-442557725147248	Elmo di pelle di Lacrunias
-442583494951024	Elmo di pelle di Rueconec
-442592084885616	Elmo di pelle di Agatha
-442626444623984	Elmo di pelle di Dimfeld
-442639329525872	Elmo di pelle di Daveed
-442660804362352	Elmo di pelle di Lutinas
-442682279198832	Elmo di pelle di Lanweiter
-442759588610160	Elmo di pelle di Uphren
-442785358413936	Elmo di pelle di Arkhan
-442793948348528	Elmo di pelle di Ledan
-442828308086896	Elmo di pelle di Dekter
-442832603054192	Elmo di pelle di Shellus
-442862667825264	Berretto della Petraschola
-446676598896	Sacca per argento pesante
-446736728326256	Berretto di stoffa di Bollin
-446741023293552	Berretto di stoffa di Radein
-446796857868400	Berretto di stoffa di Rueconec
-446805447802992	Berretto di stoffa di Agatha
-446882757214320	Fascia di stoffa di Baidan
-446904232050800	Berretto di stoffa di Calprise
-446917116952688	Fascia di stoffa di Rigma
-446990131396720	Berretto di stoffa di Raveed
-446994426364016	Anelli di Duvidet
-447015901200496	Fascia di stoffa di Scobby
-447033081069680	Berretto di stoffa di Fiore
-447037376036976	Berretto di stoffa di Ataram
-447058850873456	Berretto di stoffa di Gaurra
-447063145840752	Fascia di stoffa di Jermill
-447076030742640	Berretto di stoffa di Torben
-447088915644528	Berretto di stoffa di Ulman
-447127570350192	Fascia di stoffa di Rahelm
-447131865317488	Elmo di stoffa delle Viverne fiammeggianti
-447136160284784	Berretto di stoffa di Muchia
-447183404925040	Berretto di stoffa di Rockington
-447191994859632	Elmo a piastre di Deland
-447200584794224	Cappello conico di Ducriss
-447234944532592	Tunica di Lashiras
-447243534467184	Elmo di stoffa del Capobanda oscuro
-447256419369072	Berretto di stoffa di Sian
-447260714336368	Fascia di stoffa di Karas
-447265009303664	Berretto di stoffa di Larkett
-447269304270960	Berretto di stoffa di Lashir
-447273599238256	Berretto di stoffa di Drish
-447277894205552	Fascia di stoffa di Triloan
-447290779107440	Berretto di stoffa di Ruckshi
-447295074074736	Berretto di stoffa di Rhytrian
-447312253943920	Berretto di stoffa di Gadereich
-447316548911216	Berretto di stoffa di Ludynn
-447320843878512	Berretto di stoffa di Marc
-447325138845808	Berretto di stoffa di Harker
-447338023747696	Berretto di stoffa di Veronde
-447342318714992	Berretto di stoffa di Ghaltain
-447359498584176	Berretto di stoffa di Berghill
-447363793551472	Berretto di stoffa di Meravan
-447368088518768	Berretto di stoffa di Salimi
-447385268387952	Berretto di stoffa di Yuzel
-447402448257136	Cappello di Pailune
-447428218060912	Maschera di pelle da giullare
-447432513028208	Maschera di pelle da coniglio
-447466872766576	Elmo della fiamma draconica
-447471167733872	Elmo dei Cavalieri del drago
-450971566192	Sacca per argento gonfia
-4644006381769195632	Guanti di pelle di Pavis color rosso-mattone
-4719841433903693936	Elmo a piastre di Lotas in ferro nero
-47248935223408	Canna da pesca
-476762844692592	Armatura a piastre del Gelo maledetto
-476784319529072	Armatura a piastre degli Inquisitori
-476908873580656	Armatura a piastre di Tarandus
-476913168547952	Armatura a piastre di Enus
-476956118220912	Armatura di pelle del Lupo grigio
-477110737043568	Armatura a piastre di Bodin
-477115032010864	Armatura a piastre di Breemen
-477162276651120	Armatura a piastre di Bekur
-477166571618416	Armatura a piastre di Frente
-477170866585712	Armatura a piastre di Corinne
-477175161553008	Armatura a piastre di Takao
-477179456520304	Armatura a piastre di Gwets
-477183751487600	Armatura a piastre di Arkhan
-477188046454896	Armatura a piastre di Yosef
-477192341422192	Cotta di maglia di Andre
-477196636389488	Armatura a piastre di Albert
-477200931356784	Armatura a piastre di Emil
-477205226324080	Armatura di stoffa di Schtump
-477209521291376	Armatura di stoffa di Sven
-477213816258672	Armatura di stoffa di Yakkov
-477218111225968	Cotta di maglia di Ernst
-477226701160560	Armatura di stoffa di Ditter
-477235291095152	Armatura a piastre di Redman
-477239586062448	Armatura a piastre di Schmidt
-477291125670000	Armatura a piastre di Dreer
-477295420637296	Armatura a piastre di Rhogo
-477299715604592	Armatura a piastre di Roshee
-477304010571888	Armatura a piastre di Romund
-477308305539184	Armatura a piastre di Valkyder
-477312600506480	Armatura a piastre di Killian
-477316895473776	Armatura a piastre di Kenmore
-477321190441072	Armatura a piastre di Kinloch
-477325485408368	Armatura a piastre di Lanauk
-477329780375664	Armatura a piastre di Spiddle
-477334075342960	Armatura a piastre di Meyer
-477338370310256	Armatura a piastre di Edzel
-477342665277552	Armatura a piastre di Brejin
-477346960244848	Armatura a piastre di Canusti
-477351255212144	Armatura a piastre di Dundree
-477355550179440	Armatura a piastre di Crail
-477359845146736	Armatura a piastre di Levin
-477364140114032	Armatura a piastre di Dunverline
-477368435081328	Armatura a piastre di Kinross
-477372730048624	Armature d'onore di Demeniss
-477377025015920	Armatura di stoffa di Avignon
-477385614950512	Armatura di stoffa di Arghai
-477389909917808	Armatura di stoffa dei Senza volto
-477450039459952	Armatura a piastre di Bolton
-477454334427248	Armatura a piastre di Blackburn
-477458629394544	Armatura a piastre di Reppin
-477462924361840	Armatura a piastre di Ashad
-477467219329136	Armatura a piastre di Solas
-477471514296432	Armatura a piastre di Beverly
-477540233773168	Cotta di maglia di Lemerick
-477544528740464	Cotta di maglia di Lauer
-477548823707760	Armatura a piastre di Senon
-477553118675056	Armatura a piastre di Leighbog
-477557413642352	Cotta di maglia di Galbon
-477561708609648	Armatura a piastre di Brina
-477570298544240	Armatura a piastre di Prix
-477574593511536	Armatura a piastre di Serroa
-477583183446128	Armatura a piastre di Dutiron
-477587478413424	Armatura a piastre di Dutinion
-477591773380720	Armatura a piastre di Endnion
-477596068348016	Armatura a piastre di Dardnion
-477600363315312	Cotta di maglia di Lavgnon
-477604658282608	Cotta di maglia di Lucion
-477608953249904	Armatura a piastre di Ludeon
-477613248217200	Armatura a piastre di Cerruan
-477617543184496	Armatura a piastre di Mahon
-477621838151792	Armatura a piastre di Caliburn
-477643312988272	Armatura dell'amicizia sincera
-477660492857456	Armatura a piastre di Carta
-477673377759344	Armatura a piastre di Ruwaite
-477677672726640	Armatura di pelle di Russell
-477681967693936	Armatura a piastre di Ludus
-477720622399600	Armatura a piastre di Antum
-477724917366896	Armatura a piastre di Entum
-477729212334192	Armatura a piastre di Sitanca
-477733507301488	Armatura a piastre di Markman
-477737802268784	Armatura a piastre di Kantona
-477742097236080	Armatura di pelle di Lukin
-477754982137968	Armatura a piastre di Lachian
-477759277105264	Armatura a piastre di Lacata
-477763572072560	Armatura a piastre di Eccanta
-477767867039856	Armatura a piastre di Eclaon
-477772162007152	Armatura a piastre di Egliss
-477776456974448	Armatura a piastre di Ekklemen
-477780751941744	Armatura a piastre di Ostent
-477785046909040	Armatura a piastre di Oakley
-477797931810928	Armatura a piastre di Dunion
-477802226778224	Armatura a piastre di Manios
-477810816712816	Armatura a piastre della Fiamma ardente
-477823701614704	Armatura a piastre di Aeron
-477827996582000	Armatura a piastre dell'Avidità aurea
-477832291549296	Armatura a piastre d'argento
-477836586516592	Armatura a piastre di Sahazhad
-477840881483888	Armatura a piastre di Jerrinmarne
-477845176451184	Armatura a piastre dell'Ala glaciale
-481182366040176	Cotta di maglia di Lodi
-481186661007472	Cotta di maglia di Drivon
-481216725778544	Cotta di maglia di Reddin
-481315510026352	Cotta di maglia di Kallari
-481319804993648	Cotta di maglia di Tormand
-481324099960944	Cotta di maglia di Hasets
-481328394928240	Cotta di maglia di Killi
-481332689895536	Cotta di maglia di Balton
-481349869764720	Cotta di maglia di Lucnaon
-481358459699312	Cotta di maglia di Lucnian
-481367049633904	Cotta di maglia di Dunion
-481371344601200	Armatura della fiamma draconica
-481375639568496	Armatura a piastre del guerriero dei Cavalieri del drago
-481379934535792	Cotta di maglia dei Cavalieri del drago
-485365664186480	Armatura di pelle di Twell
-485430088695920	Armatura di cuoio dell'Ala Nera
-485455858499696	Armatura di pelle di Benne
-485468743401584	Armatura di pelle di Somier
-485477333336176	Cotta di maglia di Traley
-485481628303472	Armatura di stoffa di Antumbra
-485752211243120	Armatura di pelle di Uomo bestia
-485954074706032	Armatura di stoffa di Harran
-4867475935361761392	Guanti di pelle di Persein
-487152370581616	Armatura di pelle di Vyer
-487156665548912	Armatura di pelle di Dewey
-487160960516208	Armatura di pelle di Arqus
-487165255483504	Armatura di pelle di Dremel
-487169550450800	Armatura di pelle di Dyrel
-487173845418096	Armatura di pelle di Merly
-487178140385392	Armatura di pelle di Trudy
-487182435352688	Armatura di pelle di Dreban
-487186730319984	Armatura di pelle di Dellian
-487191025287280	Armatura di pelle di Kenecks
-487195320254576	Armatura di pelle di Vierni
-487199615221872	Armatura di pelle di Blaine
-487203910189168	Armatura di pelle di Cyton
-487264039731312	Armatura di pelle di Wakhan
-487268334698608	Armatura di pelle di Valion
-487272629665904	Armatura di pelle di Plune
-487276924633200	Armatura di pelle di Rittem
-487281219600496	Armatura di pelle di Mocke
-487285514567792	Armatura di pelle di Chayten
-487289809535088	Armatura di pelle di Colatte
-487294104502384	Armatura di pelle di Katerm
-487302694436976	Armatura di Fae della foresta
-487306989404272	Armatura di cuoio del Ventosangue bianco
-487341349142640	Armatura di stoffa di Pantafe
-487345644109936	Armatura di stoffa di Echebern
-487384298815600	Armatura di stoffa della milizia
-487388593782896	Armatura di stoffa di Pyrantha
-487392888750192	Armatura di stoffa di Torress
-487397183717488	Armatura di stoffa di Arandhal
-487405773652080	Armatura di stoffa di Toudon
-487410068619376	Armatura di pelle di Cherke
-487414363586672	Armatura di pelle di Blin
-487457313259632	Armatura di pelle di Dunqane
-487461608226928	Armatura di pelle di Elliot
-487465903194224	Armatura di pelle di Cuthbertson
-487470198161520	Armatura di stoffa di Buchanan
-487474493128816	Armatura di pelle di Finneron
-487478788096112	Armatura di pelle di Torrance
-487487378030704	Armatura di pelle di Ohara
-487491672998000	Armatura di stoffa di Conally
-487504557899888	Armatura di stoffa di Rexlan
-487513147834480	Armatura di stoffa di Tarmiden
-487521737769072	Armatura di pelle di Seiden
-487526032736368	Armatura di pelle di Soron
-487530327703664	Armatura di pelle di Barunin
-487577572343920	Armatura di pelle di Gorg
-487581867311216	Armatura di pelle di Rugiadaquieta
-487586162278512	Armatura a piastre di Johannes
-487693536460912	Armatura di pelle di Davis
-487740781101168	Armatura di cuoio del Regno caduto
-487770845872240	Armatura di pelle di Mohill
-487775140839536	Armatura di pelle di Lunpherd
-487779435806832	Armatura di pelle di Islekk
-487783730774128	Armatura di pelle di Baladean
-487788025741424	Armatura di stoffa di Navan
-487792320708720	Armatura di pelle di Glosope
-487796615676016	Armatura di pelle di Norswich
-487800910643312	Armatura di pelle di Campo
-487809500577904	Armatura di pelle di Janiklo
-487813795545200	Armatura di pelle di Nellaccio
-487818090512496	Armatura di pelle di Dasala
-487822385479792	Armatura di pelle di Gerano
-487826680447088	Armatura di pelle di Pisonia
-487830975414384	Armatura di pelle di Paliano
-487839565348976	Armatura di pelle di Locasima
-487843860316272	Armatura di stoffa di Corey
-487848155283568	Armatura di stoffa di Lariano
-487852450250864	Armatura di pelle di Ranubio
-487856745218160	Armatura di pelle di Ardia
-487861040185456	Armatura di pelle di Antika
-487865335152752	Armatura di pelle di Oustia
-487869630120048	Armatura di pelle di Tarabe
-487873925087344	Armatura di pelle di Montlanico
-487878220054640	Armatura di pelle di Carpine
-487895399923824	Armatura di pelle di Kednry
-487959824433264	Armatura di stoffa di Vainbridge
-488084378484848	Cotta di maglia di Durain
-488088673452144	Cotta di maglia di Latrion
-488092968419440	Cotta di maglia di Senian
-488105853321328	Armatura di pelle di Tyran
-488110148288624	Armatura di pelle di Tiron
-488114443255920	Armatura di pelle di Eshrun
-488123033190512	Armatura di pelle di Groucca
-488135918092400	Armatura di pelle di Hashaka
-488140213059696	Armatura di pelle di Hobucca
-488144508026992	Armatura di pelle di Batangka
-488153097961584	Armatura di pelle di Greeney
-488161687896176	Armatura di pelle di Bulga
-488165982863472	Armatura di pelle di Barbaros
-488174572798064	Armatura di pelle dei Mantogrigio
-488178867765360	Armatura di pelle di Nuslan
-488183162732656	Armatura di pelle Ravirun
-488187457699952	Armatura di pelle di Mondian
-488191752667248	Armatura di pelle di Saruen
-488196047634544	Armatura di pelle di Rubidan
-488200342601840	Armatura di pelle di Resian
-488213227503728	Armatura di pelle di Larkson
-488217522471024	Armatura di pelle di Matana
-488221817438320	Armatura di stoffa di Radian
-488286241947760	Cotta di maglia di Acria
-488294831882352	Armatura di pelle di Rotunso
-488299126849648	Armatura di pelle di Rombardina
-488303421816944	Armatura di pelle di Sicillion
-488307716784240	Armatura di pelle di Rhodelphine
-488312011751536	Armatura di pelle di Tallofer
-488320601686128	Armatura a piastre del Guerriero indomito
-488324896653424	Armatura di stoffa di Meishod
-488329191620720	Armatura di pelle di Valldren
-488333486588016	Armatura di pelle di Moldur
-488337781555312	Armatura di pelle di Churrchen
-488342076522608	Armatura di pelle di Saolo
-488346371489904	Armatura di pelle di Jevanars
-488354961424496	Armatura di pelle di Drossel
-488359256391792	Armatura di stoffa di Dumenis
-488367846326384	Armatura di pelle di Laplace
-488372141293680	Armatura di pelle di Radiano
-488376436260976	Armatura di pelle di Dorness
-488380731228272	Armatura di pelle di Undriga
-488385026195568	Armatura di pelle di Anderitz
-488389321162864	Armatura di pelle di Rapps
-488393616130160	Armatura di pelle di Cantars
-488397911097456	Armatura di pelle di Pictead
-488402206064752	Armatura di pelle di Varanguard
-488406501032048	Armatura di pelle di Scarteau
-488410795999344	Armatura di pelle di Huskall
-488415090966640	Armatura di pelle di Barbaroy
-488419385933936	Armatura di pelle di Kordaav
-488423680901232	Armatura di pelle di Lespedan
-488427975868528	Armatura di pelle di Stiv
-488432270835824	Armatura di pelle di Dyrfrith
-488436565803120	Armatura di pelle di Stugrub
-488440860770416	Armatura di pelle di Barrette
-488445155737712	Armatura di pelle di Gaut
-488462335606896	Armatura di pelle di Bettert
-488466630574192	Armatura di pelle di Schlitz
-488470925541488	Armatura di pelle di Binden
-488475220508784	Armatura di pelle di Auld
-488479515476080	Armatura di pelle di Mavin
-488488105410672	Armatura di pelle di Raspin
-488492400377968	Armatura di pelle di Duvelle
-488496695345264	Armatura di pelle di Karius
-488500990312560	Armatura di pelle di Slouwen
-488505285279856	Armatura di pelle di Bleawin
-488513875214448	Armatura di pelle di Trellian
-488518170181744	Armatura di pelle dei giunchi del tramonto
-488535350050928	Armatura di pelle dei Sapienti senza nome
-488543939985520	Armatura di pelle di Ludynn
-488548234952816	Armatura di pelle di Reak
-488552529920112	Armatura di pelle di Marc
-488556824887408	Armatura di pelle di smilodonte
-488561119854704	Armatura di pelle di Noyvarn
-488595479593072	Armatura di pelle di Luverne
-488599774560368	Armatura di pelle di Galanta
-488604069527664	Armatura di pelle di Nelton
-488608364494960	Armatura di pelle di Brogue
-488612659462256	Armatura di pelle di Hodges
-488616954429552	Armatura di pelle di Ducca
-488625544364144	Armatura di pelle di Berker
-488629839331440	Armatura di pelle di Tatura
-488634134298736	Armatura di pelle di Tavat
-488638429266032	Armatura di pelle di Gomel
-488642724233328	Armatura di pelle di Enge
-488647019200624	Armatura di pelle di Tikkal
-488651314167920	Armatura di pelle di Murad
-488655609135216	Armatura di pelle di Dannon
-488659904102512	Armatura di pelle di Ulontai
-488664199069808	Armatura di pelle di Huron
-488668494037104	Armatura di pelle di Begill
-488672789004400	Armatura di pelle di Rigma
-488677083971696	Armatura di pelle di Verdesh
-488681378938992	Armatura di pelle di Herwin
-488685673906288	Armatura di pelle di Dekter
-488689968873584	Armatura di pelle di Guff
-488702853775472	Armatura di pelle di Grommet
-488707148742768	Armatura di pelle di Ajure
-488711443710064	Armatura di pelle di Salimi
-488715738677360	Armatura di pelle di Nehrut
-488720033644656	Armatura di pelle di Takkat
-488724328611952	Armatura di pelle di Whitley
-488728623579248	Armatura di pelle di Kaisan
-488732918546544	Armatura di pelle di Derrison
-488758688350320	Armatura di pelle di Berblin
-488767278284912	Armatura rossa del sottoposto del Diavolo dei giunchi
-488771573252208	Armatura gialla del sottoposto del Diavolo dei giunchi
-488775868219504	Armatura del sottoposto del Diavolo dei giunchi
-490906171998320	Armatura di stoffa di Cocotar
-490910466965616	Armatura di stoffa di Tryah
-490914761932912	Corazza di stoffa della Volontà di Ator
-490919056900208	Armatura di stoffa di Paifo
-491013546180720	Armatura di stoffa di Ankara
-491017841148016	Armatura di stoffa di Esbeth
-491022136115312	Armatura di stoffa di Muchia
-491026431082608	Armatura di stoffa delle Viverne fiammeggianti
-491030726049904	Armatura di stoffa di Duizeh
-491035021017200	Armatura di stoffa di Izumit
-491039315984496	Armatura di stoffa Mugleah
-491069380755568	Armatura di stoffa di Myrnen
-491073675722864	Armatura di stoffa di Bollin
-491077970690160	Armatura di stoffa di Livner
-491082265657456	Armatura di stoffa di Ruvib
-491086560624752	Corazza in stoffa dei Sanguinari
-491090855592048	Armatura di stoffa di Alsace
-491095150559344	Armatura di stoffa di Beralt
-491099445526640	Armatura di stoffa di Monterima
-491103740493936	Armatura di stoffa di Deorre
-491116625395824	Armatura di stoffa di Faians
-491129510297712	Armatura di stoffa di Concarr
-491142395199600	Armatura di stoffa di Luwea
-491146690166896	Armatura di stoffa di Gael
-491150985134192	Armatura di stoffa di Bolgan
-491155280101488	Armatura di stoffa di Dernat
-491159575068784	Armatura di stoffa di Dondegobi
-491163870036080	Armatura di stoffa di Gobialta
-491168165003376	Armatura di stoffa di Orbus
-491172459970672	Armatura di stoffa di Hentree
-491176754937968	Armatura di stoffa di Oubreve
-491181049905264	Armatura di stoffa di Harghai
-491215409643632	Armatura di stoffa di Telford
-491335668727920	Armatura di stoffa di Daraz
-491404388204656	Armatura di stoffa di Denmore
-491408683171952	Armatura di stoffa di Telin
-491412978139248	Armatura di stoffa di Calis
-491421568073840	Armatura di stoffa di Roshayne
-491425863041136	Armatura di stoffa di Minnutan
-491434452975728	Armatura di stoffa di Drumfin
-491443042910320	Armatura di stoffa di Drimrow
-491464517746800	Armatura di stoffa di Totte
-491473107681392	Armatura di stoffa di Radley
-491477402648688	Armatura di stoffa di Lucion
-491481697615984	Armatura di stoffa di Senian
-491503172452464	Armatura di stoffa di Lackey
-491507467419760	Armatura di stoffa di Kassa
-491511762387056	Armatura di stoffa di Annis
-491524647288944	Armatura di stoffa di Marka
-491528942256240	Armatura di stoffa di Makri
-491593366765680	Armatura di stoffa di Tyran
-491597661732976	Armatura di stoffa di Tiron
-491601956700272	Armatura di stoffa di Tyrune
-491606251667568	Armatura di stoffa di Tarun
-491610546634864	Armatura di stoffa di Tynion
-491614841602160	Armatura di stoffa di Tanion
-491619136569456	Armatura di stoffa di Neslan
-491623431536752	Armatura di stoffa di Eshrun
-491636316438640	Armatura di stoffa di Deshret
-491649201340528	Armatura di stoffa di Takana
-491657791275120	Armatura di pelle di Lakshi
-491670676177008	Armatura di stoffa di Ladran
-491674971144304	Armatura di stoffa di Nuslan
-491679266111600	Armatura di stoffa di Ravirun
-491683561078896	Armatura di stoffa di Barian
-491687856046192	Armatura di stoffa di Barcy
-491692151013488	Armatura di stoffa di Bartmun
-491696445980784	Armatura di stoffa di Orthu
-491700740948080	Armatura di stoffa di Tohkar
-491705035915376	Armatura di stoffa di Verdinan
-491709330882672	Armatura di stoffa di Borsehir
-491713625849968	Armatura di stoffa di Keanoff
-491743690621040	Armatura di stoffa di Rhonid
-491747985588336	Armatura di stoffa di Pouhel
-491752280555632	Armatura di stoffa di Dillinger
-491756575522928	Armatura di stoffa di Eckney
-491786640294000	Armatura di stoffa di Baratum
-491790935261296	Armatura di stoffa di Baritum
-491795230228592	Armatura di stoffa di Baras
-491803820163184	Armatura di stoffa di Baraccuro
-491825294999664	Armatura di stoffa di Barrow
-491829589966960	Armatura di stoffa di Bailao
-491833884934256	Armatura di stoffa di Barclao
-491842474868848	Armatura di stoffa di Barch
-491863949705328	Cotta di maglia di Bedure
-491872539639920	Cotta di maglia di Riksha
-491876834607216	Armatura di stoffa di Lathia
-491885424541808	Armatura di stoffa di Kennav
-491889719509104	Armatura di stoffa di Lancats
-491894014476400	Armatura di stoffa di Rangtua
-491898309443696	Armatura di stoffa di Nebin
-491902604410992	Armatura di stoffa di Ranphas
-491906899378288	Armatura di stoffa di Roctar
-491911194345584	Armatura di stoffa di Barbaroy
-491915489312880	Armatura di stoffa di Fiore
-491919784280176	Armatura di stoffa di Warstein
-491924079247472	Armatura di stoffa di Conentry
-491928374214768	Armatura di stoffa di Berkhia
-491932669182064	Armatura di stoffa di Austfeld
-491941259116656	Armatura di stoffa di Gaut
-491945554083952	Armatura di stoffa di Gadereich
-491949849051248	Armatura di stoffa di Ewen
-491954144018544	Corazza in stoffa di Primus l'Antico
-491962733953136	Armatura di stoffa di Diggs
-491967028920432	Armatura di stoffa di Raddler
-492001388658800	Armatura di stoffa di Volghad
-492005683626096	Armatura di stoffa di Ultar
-492009978593392	Armatura di stoffa di Dohann
-492014273560688	Armatura di stoffa di Bahlmers
-492018568527984	Armatura di stoffa di Tolkane
-492022863495280	Armatura di stoffa di Bandide
-492027158462576	Armatura di stoffa di Dwelker
-492031453429872	Armatura di stoffa di Veronde
-492035748397168	Armatura di stoffa di Ruschelle
-492040043364464	Armatura di stoffa di Rosarduin
-492044338331760	Armatura di stoffa di Sherwood
-492048633299056	Armatura di stoffa di Eyratt
-492052928266352	Armatura di stoffa di Gruun
-492057223233648	Armatura di stoffa di Auron
-492065813168240	Armatura di stoffa di Salash
-492070108135536	Armatura di stoffa di Borman
-492074403102832	Armatura di stoffa di Berghill
-492078698070128	Armatura di stoffa di Hassal
-492082993037424	Armatura di stoffa di Meravan
-492087288004720	Armatura di stoffa di Chizhar
-492091582972016	Armatura di stoffa di Dahkavan
-492095877939312	Armatura di stoffa di Ziahl
-492100172906608	Armatura di stoffa di Amundule
-492104467873904	Armatura di stoffa di Sarendion
-492108762841200	Armatura di stoffa di Hysilda
-492113057808496	Armatura di stoffa di Yorkey
-492117352775792	Armatura di stoffa di Dollette
-492121647743088	Armatura di stoffa di Verette
-492125942710384	Armatura di stoffa di Haillen
-492130237677680	Armatura di stoffa di Kalbdan
-492147417546864	Armatura di stoffa di Schillerbin
-492151712514160	Armatura di stoffa di Neblin
-492160302448752	Armatura di stoffa del Bruciacielo
-492181777285232	Armatura di stoffa della Liberatrice mascherata
-492186072252528	Armatura di stoffa di Keller
-492203252121712	Abito di Pailune
-492220431990896	Armatura di stoffa di Spetsahorn
-492224726958192	Armatura di stoffa di Muddliss
-492229021925488	Vesti di stoffa di Delesyia
-492233316892784	Armatura di stoffa di Kang
-492237611860080	Armatura di stoffa di Zynian
-492241906827376	Armatura di stoffa di Zamir
-492246201794672	Armatura di stoffa di Lubonon
-492250496761968	Armatura di stoffa di Denill
-492259086696560	Armatura di stoffa di Noble
-492267676631152	Armatura di stoffa di Odorrey
-492284856500336	Armatura di stoffa di Dega
-492302036369520	Cappotto di pelle di coniglio
-492306331336816	Cappotto di pelle del Giullare
-492327806173296	Armatura a piastre di Chelcia
-492332101140592	Armatura a piastre di Meyer metà
-492344986042480	Armatura a piastre anti-Crail
-492375050813552	Corazza in stoffa dei Sanguinari
-4990507880600830064	Armatura a piastre di Kenmore
 4995055555182704	Abito hernandiano
 4995227353874544	Spada del lupo
 4995231648841840	Scudo di Bekker
@@ -4856,501 +5425,6 @@
 5001540955799664	Cotta di maglia del Guerriero del Nord
 5003679849513072	Uniforme della Petraschola
 5003684144480368	Vesti di stoffa di Pororin
-5029885523750027376	Stivali di pelle dei banditi
-5068669241641664624	Carico vuoto
-519716812619888	Guanti di pelle di Trish
-519721107587184	Guanti di pelle di Leahdra
-519725402554480	Guanti di pelle di Veile
-519729697521776	Bracciali di pelle di Behrun
-519733992489072	Guanti a piastre degli Inquisitori
-519746877390960	Guanti a piastre di Canta
-519751172358256	Guanti a piastre di Draiga
-519755467325552	Guanti di stoffa di Runae
-519764057260144	Guanti a piastre del Gelo maledetto
-519785532096624	Guanti a piastre dello Spadaccino della fiamma
-519794122031216	Guanti a piastre di Batz
-519798416998512	Guanti a piastre di Tarandus
-519802711965808	Guanti a piastre della Fiamma ardente
-519807006933104	Guanti a piastre di Camsen
-519815596867696	Guanti a piastre di Dimfeld
-519828481769584	Guanti a piastre di Agatha
-519832776736880	Guanti a piastre di Ashad
-519837071704176	Guanti a piastre di Solas
-519871431442544	Guanti a piastre di Pernicia
-519875726409840	Guanti a piastre di Ferman
-519905791180912	Guanti di pelle del Lupo grigio
-519922971050096	Guanti a piastre di Luon
-519927266017392	Guanti a piastre di Luthor
-519931560984688	Guanti a piastre di Arkhan
-519935855951984	Guanti a piastre di Dumenis
-519944445886576	Guanti a piastre di Ratti
-519948740853872	Guanti a piastre di Ettis
-519953035821168	Guanti di stoffa di Recklin
-519970215690352	Guanti a piastre di Kevile
-519978805624944	Guanti a piastre di Weirren
-519983100592240	Guanti a piastre di Devinine
-519987395559536	Guanti a piastre dell'Ala glaciale
-519991690526832	Guanti a piastre demenissiani
-519995985494128	Guanti a piastre dell'Avidità aurea
-520000280461424	Guanti a piastre di Belui
-520038935167088	Guanti a piastre del Regno caduto
-524011779915888	Bracciali di maglia di Uomo bestia
-52415780880496	Armatura di pelle di Maydocs
-52420075847792	Armatura di pelle di Vildyne
-52424370815088	Armatura di pelle di Adoratt
-52428665782384	Armatura di pelle di Colbill
-52432960749680	Armatura di pelle di Coby
-52437255716976	Armatura di pelle di Sherborn
-52471615455344	Armatura di cuoio della Zanna famelica
-52475910422640	Armatura di pelle di Helfryn
-52480205389936	Armatura di pelle di donnola
-5255562342640386160	Scarpe di pelle di Pavis
-528315337146480	Guanti di pelle di Austfeld
-528336811982960	Guanti di pelle di Fiori
-528341106950256	Guanti di pelle di Janiklo
-528353991852144	Guanti di pelle di Barre
-528358286819440	Guanti di pelle di Berkhia
-528362581786736	Guanti di maglia di Goldheart
-528366876754032	Guanti di pelle di Kordaav
-528384056623216	Guanti di pelle di Cacoreum
-528396941525104	Guanti di pelle di Claire
-52840982642800	Stivali di pelle di Sarantos sporchi di terra
-528414121394288	Guanti di pelle di Hark
-528422711328880	Guanti di pelle di Weiston
-528431301263472	Guanti di pelle di Talisin
-528435596230768	Guanti di cuoio di Melvin
-528444186165360	Guanti di pelle di Trion
-528452776099952	Guanti di pelle di Ebenezer
-52845277610096	Stivali di pelle di Rhegis grandi
-528457071067248	Guanti di cuoio di Pavis
-528465661001840	Guanti di pelle di Rondel
-528469955969136	Guanti di pelle di Perseus
-528504315707504	Guanti di pelle di Byren
-528508610674800	Guanti di pelle di Kadallon
-528517200609392	Guanti di pelle di Salun
-52853867544688	Stivali di pelle della Zanna famelica
-528542970413168	Guanti di pelle di Lespedan
-528555855315056	Guanti di pelle di Rheigis
-528560150282352	Guanti di pelle di Hagwood
-528573035184240	Guanti di pelle di Lasfeld
-528577330151536	Guanti di pelle di Wyrdins
-528581625118832	Guanti di pelle di Andria
-52858162511984	Stivali a piastre di Carta
-528590215053424	Guanti di pelle di Larkri
-528611689889904	Guanti di pelle di Rossbara
-528615984857200	Guanti di pelle di Blyne
-52862457479280	Scarpe della guardia d'onore di Hernand
-528641754660976	Guanti di pelle di Rhinard
-52866752446576	Stivali di pelle di donnola
-528697589235824	Guanti di pelle di Sleishorn
-528706179170416	Guanti di stoffa di Mornington
-52871047413872	Stivali della Petraschola
-528714769105008	Guanti di pelle di Bandellure
-528727654006896	Guanti di pelle di Nocburn
-528736243941488	Guanti di pelle di Drumard
-528753423810672	Guanti di pelle di Stratton
-52875342381168	Stivali in pelle cerimoniali di Hernand
-528762013745264	Guanti di pelle di Hegea
-528766308712560	Guanti di pelle di Camsen
-528783488581744	Guanti di pelle di Matthias
-528792078516336	Guanti di pelle di Layddete
-52879637348464	Stivali da apicoltura
-528804963418224	Guanti di pelle di Khalbdan
-528822143287408	Guanti di pelle di Rueconec
-528852208058480	Guanti di stoffa di Rakhir
-528865092960368	Guanti a piastre di Satyros
-528869387927664	Guanti di pelle della protezione incrollabile
-528877977862256	Guanti di pelle di Steinmers
-528899452698736	Guanti di pelle di Adeion
-528908042633328	Guanti di pelle di Crudil
-528916632567920	Guanti di pelle di Conchetta
-528925222502512	Guanti di pelle di Loudan
-528929517469808	Guanti di pelle di Calio
-528933812437104	Guanti di pelle di Viraiton
-528946697338992	Guanti di pelle di Maeve
-528955287273584	Guanti di pelle di Deskio
-528968172175472	Guanti a piastre di Geloufeld
-528985352044656	Guanti di stoffa di Asty
-528998236946544	Guanti di pelle di Dimfeld
-529002531913840	Guanti di pelle di Trowder
-529006826881136	Guanti di pelle di Caviden
-529041186619504	Guanti di pelle di Mistum
-529058366488688	Guanti di pelle di Rowley
-529066956423280	Guanti di pelle di Daveed
-529071251390576	Guanti di pelle di Bettie
-529109906096240	Guanti di pelle di Lennigen
-529118496030832	Guanti di pelle di Kaeridyn
-529127085965424	Guanti di pelle di Merridew
-529144265834608	Guanti di stoffa di Astia
-529152855769200	Guanti di pelle di Aldwin
-529161445703792	Guanti di pelle di Latian
-529178625572976	Guanti di pelle di Vicaron
-529187215507568	Guanti di pelle di Leppo
-529191510474864	Guanti di pelle di Brogant
-529204395376752	Guanti di pelle di Delise
-529208690344048	Guanti di pelle di Boggen
-529221575245936	Guanti di pelle di Delinell
-529225870213232	Guanti di pelle di Wertesh
-529230165180528	Guanti di pelle di Keimbel
-529234460147824	Guanti di pelle di Sladen
-529243050082416	Guanti di pelle di Persein
-529255934984304	Guanti di pelle di Mechlin
-529260229951600	Guanti di pelle di Essembel
-529264524918896	Guanti di pelle di Contra
-529311769559152	Guanti di pelle della Liberatrice mascherata
-529320359493744	Guanti di pelle di Dondegobi
-529324654461040	Guanti di pelle di Gobialta
-529328949428336	Guanti di pelle di Tershan
-529337539362928	Guanti di pelle di Rignon
-529341834330224	Guanti di pelle di Reclonne
-529346129297520	Guanti di pelle di Ricrau
-529359014199408	Guanti di pelle di Tiron
-529363309166704	Guanti di pelle di Taylonne
-529384784003184	Guanti di stoffa di Haron
-529397668905072	Guanti di pelle di Kattinan
-529401963872368	Guanti di pelle di Saruen
-529427733676144	Guanti di pelle di Luca
-529436323610736	Guanti di pelle di Tikkal
-529440618578032	Guanti di pelle di Markna
-529457798447216	Guanti di pelle di Lukas
-529479273283696	Guanti di cuoio del Capobanda oscuro
-529483568250992	Guanti di pelle di Salatos
-529492158185584	Guanti di pelle di Ellisco
-529496453152880	Guanti di pelle di Elashe
-529509338054768	Guanti di pelle di Kasria
-529517927989360	Guanti di pelle di Renshaku
-529522222956656	Guanti di pelle di Reshesh
-529530812891248	Guanti di pelle di Ravellu
-529535107858544	Guanti di pelle di Remebrou
-529539402825840	Guanti di pelle di Rainier
-529543697793136	Guanti di pelle di Lave
-529547992760432	Guanti di pelle di Mache
-529552287727728	Guanti di pelle di Martail
-529556582695024	Guanti di pelle di Wentz
-529573762564208	Guanti di pelle di Bolson
-529578057531504	Guanti di pelle di Cains
-529582352498800	Guanti di pelle di Dalton
-529586647466096	Guanti di pelle di Eplern
-529590942433392	Guanti di pelle di Archen
-529595237400688	Guanti di pelle di Dunion
-529599532367984	Guanti di pelle di Laplace
-529603827335280	Guanti di pelle di Bristel
-529621007204464	Guanti a piastre di Masti
-529625302171760	Guanti di pelle di Takkan
-529629597139056	Guanti di pelle di Arsen
-529633892106352	Guanti di stoffa di Takah
-529638187073648	Guanti a piastre argentate
-529642482040944	Guanti di pelle di Chent
-529646777008240	Guanti di pelle degli Orsi neri
-529655366942832	Guanti di stoffa del Lupo grigio
-529659661910128	Guanti di pelle di Dherri
-529668251844720	Guanti di pelle di Patten
-529672546812016	Guanti di cuoio del Lupo d'argento
-529676841779312	Guanti di stoffa di Rattu
-529689726681200	Guanti di pelle di Lercent
-529694021648496	Guanti di cuoio della Zanna vespertina
-529706906550384	Bracciali di pelle di Dram
-529711201517680	Guanti di pelle di Bunce
-529715496484976	Guanti di pelle di Maters
-529728381386864	Guanti di pelle di Rannys
-529758446157936	Fasce di pelle di Dane
-529792805896304	Guanti di pelle di Reak
-529801395830896	Guanti di pelle di Badran
-529805690798192	Guanti di pelle di Rigma
-529809985765488	Guanti di pelle di Verdesh
-529814280732784	Guanti di pelle di Jasmern
-529818575700080	Guanti di pelle di Esha
-529822870667376	Guanti di pelle di Shellus
-529827165634672	Guanti di pelle di Waller
-529848640471152	Guanti di pelle di Salmae
-529852935438448	Guanti di pelle di Derrison
-529861525373040	Guanti di pelle di Dirrebin
-529870115307632	Guanti di pelle di Dallaban
-529883000209520	Guanti di pelle di Lawson
-529887295176816	Guanti di pelle di Gaiman
-532597419540592	Guanti di stoffa di Stugrub
-532610304442480	Guanti di pelle di Arti
-532657549082736	Guanti di pelle bianchi dell'Uomo-corvo
-532661844050032	Guanti di stoffa di Baidan
-532674728951920	Guanti di stoffa di Borcell
-532700498755696	Guanti di stoffa di Whitley
-53270479372400	Guanti di pelle del Fante rosso
-532713383657584	Guanti di pelle di Tyran
-532717678624880	Guanti di stoffa di Tiron
-53274774339696	Guanti di pelle di Pavis grandi
-532790693068912	Guanti di stoffa di Setri
-532794988036208	Guanti di stoffa di Serbello
-532812167905392	Guanti di stoffa di Ashtu
-532816462872688	Guanti di stoffa di Ratisan
-532820757839984	Guanti di stoffa di Duroin
-532829347774576	Guanti di stoffa di Ludynn
-53283364274288	Guanti di cuoio dell'Ala nera
-532837937709168	Guanti di stoffa di Derrison
-532846527643760	Guanti di stoffa di Gadereich
-532850822611056	Guanti di stoffa di Chizhar
-532863707512944	Guanti di stoffa dei giunchi del tramonto
-532872297447536	Guanti di cuoio del Giullare
-53287659241584	Guanti di cuoio del Bruciacielo
-532880887382128	Guanti di pelle della Volontà di Ator
-532889477316720	Guanti a piastre di Witters
-532893772284016	Guanti a piastre di Dulone
-532898067251312	Guanti a piastre del guerriero dei Cavalieri del drago
-532902362218608	Guanti a piastre dell'arciere dei Cavalieri del drago
-532906657185904	Guanti a piastre di Caliburn
-53291954208880	Guanti della Zanna famelica
-53296249176176	Guanti della guardia d'onore di Hernand
-53300544143472	Guanti di pelle di Helfryn
-53304839110768	Guanti di pelle di donnola
-53309134078064	Guanti di pelle di Carta
-53313429045360	Guanti da apicoltura
-53317724012656	Guanti di pelle di Bollin
-53712861003888	Elmo di Zanna d'argento
-54116587929712	Ascia bipenne dell'avidità
-54550379626608	Arco degli Echi divini
-54554674593904	Arco del nobile
-55405078118512	Pugnale del tesoro del re goblin
-562645010743408	Stivali a piastre del Guerriero indomito
-562649305710704	Stivali a piastre dell'Avidità aurea
-562666485579888	Stivali a piastre di Lattua
-562670780547184	Stivali a piastre dell'Ala glaciale
-562679370481776	Stivali a piastre degli Inquisitori
-562696550350960	Stivali a piastre di Canta
-562730910089328	Stivali a piastre di Batz
-562735205056624	Stivali a piastre di Chelcia
-562739500023920	Stivali a piastre di Ashad
-562743794991216	Stivali a piastre di Solas
-562752384925808	Stivali a piastre di Serval
-562756679893104	Stivali di pelle di Tyrdall
-562765269827696	Stivali a piastre di Antumbra
-562808219500656	Stivali a piastre di Sigremon
-562812514467952	Scarpe a piastre di Dulone
-562816809435248	Stivali a piastre di Sahazhad
-562821104402544	Stivali a piastre demenissiani
-562838284271728	Stivali a piastre del Regno caduto
-562855464140912	Stivali di pelle del Lupo grigio
-563100268686737520	Guanti di pelle dei soldati di ventura del nord
-56693568307312	Flagello dell'effimero
-566961452875888	Stivali di pelle di Regglia
-566965747843184	Stivali di pelle di Rezzcan
-566970042810480	Stivali di pelle di Baku
-56697863274608	Mazza dei fedeli di Marni
-56702158241904	Mazza della risolutezza
-571234945335408	Stivali di pelle di Seiger
-571252125204592	Stivali di pelle di Rodderham
-571260715139184	Stivali di pelle di Leontyne
-571269305073776	Stivali di pelle di Bollin
-57127360004208	Moschetto di Marni
-571277895008368	Stivali di pelle di Helfryn
-571286484942960	Stivali di pelle di Eustice
-571316549714032	Calzature in pelle del prete Halsius
-571325139648624	Stivali di pelle di Tobias
-571329434615920	Stivali di pelle di Arghai
-571333729583216	Stivali di pelle di Nevin
-571355204419696	Stivali di pelle di Mulia
-571372384288880	Stivali di pelle di Cyllian
-571376679256176	Stivali di cuoio del Lupo d'argento
-571380974223472	Stivali di pelle di Correlly
-571385269190768	Stivali di pelle di Benberry
-571389564158064	Stivali di pelle di Midlier
-571393859125360	Stivali di pelle di Derting
-571402449059952	Stivali di pelle di Steyer
-57140244906096	Moschetto dell'eroe di Demeniss
-571406744027248	Stivali di pelle di Ebenezer
-571415333961840	Stivali di pelle di Tesslit
-571419628929136	Stivali di pelle di Rhonda
-571441103765616	Stivali di pelle di Ramastern
-571462578602096	Stivali di pelle di Layne
-571492643373168	Stivali di pelle di Kadallon
-571518413176944	Stivali di pelle di Pierpont
-571531298078832	Stivali di pelle di Dyrfrith
-571539888013424	Stivali di cuoio del Lupo grigio
-571557067882608	Stivali di pelle della protezione incrollabile
-571582837686384	Stivali di pelle di Sarantos
-571608607490160	Stivali di pelle di Levinto
-571612902457456	Stivali di pelle di Ruthie
-571625787359344	Stivali di pelle di Colbern
-571647262195824	Stivali di pelle di Bolton
-571733161541744	Stivali di pelle di Nagmore
-571737456509040	Stivali di pelle di Mornington
-571750341410928	Stivali di pelle di Woodbrock
-571763226312816	Stivali di pelle di Russmore
-571771816247408	Stivali di pelle di Clarille
-571780406182000	Stivali di pelle dei campi
-571823355854960	Stivali di pelle di Keredig
-571831945789552	Stivali di pelle di Neirnim
-571857715593328	Stivali di pelle di Matis
-571935025004656	Stivali di pelle di Tarandus
-571943614939248	Stivali di pelle di Sydmon
-571952204873840	Stivali di pelle di Pahna
-571965089775728	Stivali di pelle di Rhegis
-571969384743024	Stivali di pelle della Liberatrice mascherata
-571982269644912	Stivali di pelle di Crudil
-571995154546800	Stivali di cuoio della Fiamma ardente
-572016629383280	Stivali di pelle di Huntington
-572020924350576	Stivali di pelle di Adeion
-572038104219760	Scarpe di stoffa di Diencia
-572055284088944	Scarpe di pelle di Pavis
-572059579056240	Scarpe di pelle di Trowder
-572072463958128	Stivali di pelle di Pieti
-572076758925424	Stivali di pelle di Norman
-572085348860016	Stivali di pelle di Driseld
-572093938794608	Stivali di pelle di Dutrat
-572098233761904	Stivali di pelle di Reus
-572102528729200	Stivali di pelle di Lascaux
-572106823696496	Stivali di pelle di Mistum
-572111118663792	Stivali di pelle di Sillau
-572115413631088	Stivali di pelle di Fiatal
-572132593500272	Stivali di pelle di Aurelian
-572145478402160	Stivali di pelle di Eshian
-572192723042416	Stivali di pelle di Clays
-572197018009712	Stivali di pelle di Daveed
-572201312977008	Stivali di pelle di Beattie
-572205607944304	Stivali di pelle di Leegrau
-572214197878896	Stivali di pelle di Hroadar
-572239967682672	Stivali di pelle di Trish
-572244262649968	Stivali di pelle di Katitz
-572248557617264	Stivali di pelle di Isilon
-572261442519152	Stivali di pelle di Elish
-572265737486448	Stivali di pelle di Runae
-572270032453744	Stivali di pelle di Carcon
-572274327421040	Stivali di pelle di Diovern
-572300097224816	Stivali di pelle di Erphy
-572308687159408	Stivali di pelle di Oakten
-572317277094000	Stivali di pelle di Seras
-572321572061296	Stivali di pelle di Cateine
-572330161995888	Stivali di pelle di Loutte
-572338751930480	Stivali di pelle di Bourveten
-572343046897776	Stivali di pelle di Lankel
-572347341865072	Stivali di pelle di Gannech
-572351636832368	Stivali di pelle di Kervel
-572355931799664	Stivali di pelle di Walder
-572360226766960	Stivali di pelle di Donaff
-572373111668848	Stivali di pelle di Herdel
-572385996570736	Stivali di pelle della Volontà di Ator
-572390291538032	Stivali di pelle di Quent
-572394586505328	Stivali di pelle di Rhegis grigi
-572407471407216	Stivali di pelle di Tyran
-572411766374512	Scarpe di stoffa di Tyrune
-572416061341808	Stivali di pelle di Tiron
-572428946243696	Scarpe di pelle di Tiruna
-572433241210992	Stivali di pelle di Darman
-572437536178288	Stivali di pelle di Saruen
-572450421080176	Stivali di pelle di Pasti
-572467600949360	Stivali di pelle di Kassantra
-572480485851248	Stivali di pelle di Leguna
-572484780818544	Stivali a piastre di Layta
-572493370753136	Stivali di pelle di Dannoche
-572497665720432	Stivali di pelle di Layta
-572501960687728	Stivali di pelle di Catcheta
-572506255655024	Stivali di pelle di Caico
-572510550622320	Stivali di pelle di Cosgrove
-572514845589616	Stivali di pelle di Caelough
-572519140556912	Stivali di pelle di Kasset
-572523435524208	Stivali di pelle di Cassrow
-572527730491504	Stivali di pelle di Katz
-572536320426096	Stivali di pelle di Ligatra
-572540615393392	Stivali di pelle di Cantu
-572549205327984	Stivali di pelle di Andaran
-572553500295280	Stivali di pelle di Maldrick
-572557795262576	Stivali di pelle di Anderitz
-572562090229872	Stivali di pelle di Trilly
-572566385197168	Stivali di pelle di Fiore
-572570680164464	Scarpe di pelle di Perelli
-572609334870128	Stivali di pelle di Lasian
-572613629837424	Stivali di pelle di Ludynn
-572617924804720	Stivali di pelle di Kurua
-572622219772016	Stivali di pelle di Stoddard
-572626514739312	Stivali di pelle di Wattern
-572630809706608	Stivali di pelle di Badran
-572635104673904	Stivali di pelle di Hauvern
-572639399641200	Stivali di pelle di Begill
-572643694608496	Stivali di pelle di Dreiger
-572647989575792	Stivali di pelle di Esha
-572660874477680	Stivali di pelle di Vixer
-572669464412272	Stivali di pelle di Meravan
-572673759379568	Stivali di pelle di Salmae
-572678054346864	Stivali di pelle di Nehrut
-572682349314160	Stivali di pelle di Juman
-572708119117936	Stivali di pelle di Warren Beynon
-572716709052528	Stivali di pelle di Sein
-572721004019824	Stivali di pelle di Dolters
-572725298987120	Stivali di cuoio dell'Ala nera
-572733888921712	Stivali di pelle di Orbit
-572738183889008	Stivali di pelle di Alvitt
-572742478856304	Stivali di pelle di Arrenya
-572746773823600	Stivali di pelle di Belui
-575551387467888	Stivali di pelle di Triloan
-575564272369776	Stivali di pelle di Bayer
-575572862304368	Scarpe di Pailune
-575581452238960	Scarpe di stoffa di Reus
-575590042173552	Scarpe di stoffa di Eckney
-575620106944624	Stivali di pelle di Marrada
-575624401911920	Stivali di pelle di Endoron
-575645876748400	Stivali di pelle di Scoppa
-575654466682992	Scarpe di stoffa di Whitley
-575731776094320	Scarpe di stoffa di Kerdmann
-575736071061616	Scarpe di stoffa di Barrette
-575740366028912	Scarpe di stoffa di Gaut
-575748955963504	Stivali di pelle di Matia
-575757545898096	Scarpe di stoffa di Chizhar
-575766135832688	Calzature di stoffa dei giunchi del tramonto
-575770430799984	Stivali di stoffa di coniglio
-575783315701872	Stivali a piastre di Caliburn
-5780346486525001840	Coperchio del vaso
-57982058496112	Giuramento reale
-58411555225712	Guscio dell'effimero
-58428735094896	Scudo di Balgran
-58433030062192	Scudo ornamentale di Delesyia
-5906878924599591024	Cesto ampio
-59309203390576	Spada di Nazk
-59313498357872	Spada di Gelofranto
-59317793325168	Spada di Aeserion
-59322088292464	Spada dell'effimero
-59704340381808	Scudo dell'assideramento
-60563333841008	Armatura a piastre dell'Anima dannata
-60567628808304	Armatura a piastre del Fante rosso
-60571923775600	Armatura a piastre di Meyer
-60576218742896	Armatura a piastre di Spiddle
-60597693579376	Armatura a piastre del Cuore gelido
-60988535603312	Stivali a piastre del Boia delle tenebre
-60992830570608	Stivali a piastre dell'Anima dannata
-60997125537904	Stivali a piastre del Gelo maledetto
-61418032332912	Guanti a piastre del Boia delle tenebre
-61422327300208	Guanti a piastre dell'Anima dannata
-61426622267504	Guanti di maglia dell'Inseguitrice cremisi
-61435212202096	Guanti a piastre del Cuore gelido
-61439507169392	Guanti a piastre del Guardiano d'ottone
-61443802136688	Guanti di Pailune
-61847529062512	Elmo a piastre del Viandante della fede
-61851824029808	Elmo a piastre dell'Anima dannata
-61856118997104	Elmo a piastre del Fante rosso
-61860413964400	Elmo a piastre della Guardia di Demeniss
-61864708931696	Elmo a piastre della Guardia di Demeniss
-61869003898992	Elmo a piastre dell'Inseguitrice cremisi
-61873298866288	Elmo a piastre di Descao
-61877593833584	Elmo a piastre della Guardia di Demeniss
-61894773702768	Copricapo da scarafaggio degli Elmi
-61899068670064	Copricapo a forma di vespa degli Elmi
-61903363637360	Copricapo del toro degli Elmi
-61911953571952	Maschera dell'Ala nera
-61916248539248	Elmo a piastre del Gelo maledetto
-61920543506544	Elmo a piastre di Carta
-62277025792112	Copricapo del lupo alfa
-62281320759408	Copricapo dell'orso alfa
-62307090563184	Respiratore degli Orsi neri
-62319975465072	Visione
-62324270432368	Visione di serie
-6300844201508601968	Armatura a piastre di Dunverline
-63148904153200	Granmartello di Aeserion
-63157494087792	Portatrice di oscurità
-63161789055088	Ruota dell'ultimo rintocco
-6320293810584682608	Elmo a piastre a becco d'uccello
-6327985392637182064	Armatura a piastre di Grovetant
-6371401357311606896	Elmo a piastre degli Inquisitori virtuosi
-63995012710512	Carico accademico
-64424509440112	Alabarda di Aeserion
-6463569139280642160	Grande bastone sacerdotale di Solumen
-64854006169712	Spaccaterra
 6489699879223408	Bardatura di Hyperion
 6489721354059888	Bardatura di Sahareum
 6489725649027184	Bardatura di Berkei
@@ -5388,114 +5462,6 @@
 6502627730784368	Staffe di Varnia
 6502632025751664	Staffe di Demeniss
 6506879748407408	Ferri di cavallo d'argento
-6516250194521096304	Guanti di pelle di Cacoreum
-65283502899312	Cannone pregiato di Rhinard
-65292092833904	Cannone portatile Alpha
-65300682768496	Cannone portatile Gamma
-66571993088112	Masso runico inciso
-6704798520081121392	Guanti di pelle di Pavis grandi
-6710262560295223408	Bardatura di Exclaire
-67430986547312	Lancia di Aeserion
-67435281514608	Giudizio
-67439576481904	Luna ghermitrice
-67443871449200	Zanna gelida
-67448166416496	Lancia dell'effimero
-67456756351088	Luna divergente
-67461051318384	Luna orbitante
-67535070784651376	Armatura a piastre di Dreer
-6779758206341087344	Fuoco dorato
-68294274973808	Angoscia gelida
-68298569941104	Segugio
-68302864908400	Verdetto contorto
-68723771703408	Esecuzione cinerea
-68732361638000	Rintocco sanguigno
-6894008592727277680	Armatura a piastre di Levin
-6898678682466910320	Guanti di pelle di Patten
-6906379438569554032	Armatura a piastre di Roshee in ferro nero
-6971729650900795504	Guanti di pelle di Calio
-6977676466913804400	Armatura a piastre di Meyer
-7092751113358671984	Guanti a piastre di Ratti in ferro nero
-7117024524758941808	Elmo a piastre degli Inquisitori virtuosi
-7194141568796721264	Bombardino orchesco.
-7194141573091688560	Bombardino in acciaio
-7194141577386655856	Bombardino in acciaio rinforzato
-723051576708563056	Armatura a piastre di Killian
-7291441978418397296	Elmo a piastre di Enratte grande
-7329306891136270448	Armatura a piastre di Kinloch
-7440012396199936112	Armatura a piastre di Levin
-7633826282945380464	Armatura a piastre di Rhogo
-7660060213772288112	Armatura a piastre di Romund
-7721337143544512624	Armatura a piastre di Meyer
-7806228443460272240	Stivali a piastre di Lattua in ferro nero
-7809981226969727088	Armatura a piastre di Dundree
-7861209178809827440	Grandi stivali di pelle di Clays
-8012408365684621424	Armatura a piastre di Kinross
-8057664217039241328	Corazza a piastre di Coogan in ferro nero
-8240636824645533808	Maschera antigas allo zolfo dei soldati di Demeniss
-8303593494652387440	Elmo a piastre degli Inquisitori virtuosi
-8396906211823321200	Elmo a piastre di Grovetant
-85873576116336	Respiro dell'Abisso
-85877871083632	Lo spirito dell'Abisso
-85882166050928	Vitalità dell'Abisso
-858997754167408	Spada del Lupo grigio
-859083653513328	Spada dei Glenmour
-859096538415216	Spada di Sydmon
-859143783055472	Molti brandiscono questa spada, ignari che sia stata forgiata a Rosaspina, la fortezza della casata Wells. Le loro armi sono famose per la praticità e rapidità.
-859203912597616	Spada curva d'alabastro
-859212502532208	Spada di Varnia
-859216797499504	Spada del Signore dei cavalieri
-859221092466800	Spada del regno decaduto
-859302696845424	Ambizione fusa
-859324171681904	Spada di Volono
-859328466649200	Spada di Peltree
-862863224733808	Spadino del vento bianco
-862867519701104	Volto vuoto
-862876109635696	Spada di Dekarr
-862919059308656	Spada del lord
-862931944210544	Spada di Gladius
-862940534145136	Spada di Acria
-862949124079728	Gladio del legionario
-862953419047024	Solitudine del sopravvissuto
-862962008981616	Ceppo del potere
-863301311398000	Spadino degli Inquisitori
-863305606365296	Spadino dei Grace
-863309901332592	Spadino di Leone
-863314196299888	Spadino rosato d'ottone
-863318491267184	Spadino del casato decaduto
-863322786234480	Spadino di Volono
-863327081201776	Spadino del regno decaduto
-863331376169072	Spadino degli Elemore
-863335671136368	Spadino da combattimento
-863339966103664	Spadino dei Gilliam
-863344261070960	Spadino di Lambert
-863348556038256	Spadino della pace
-863352851005552	Spadino di Elenore
-863370030874736	Spadino di Liberre
-8675116429273464944	Guanti di pelle di Delinell
-8798741144423891056	Elmo a piastre di Mottie in ferro nero
-8818799895826661488	Maschera antigas portatile dei Sanguinari
-8839645691396489328	Armatura a piastre di Vennebis
-8858467999024152688	Armatura a piastre degli Inquisitori
-889366213786861680	Guanti di pelle squamata dei briganti
-8917868689512988784	Cotta di maglia di Katunan
-8992792491321196656	Armatura a piastre di Brejin
-8996562218476634224	Guanti a piastre di Grovetant
-901956017062000	Ascia di Bekker
-901981786865776	Ascia dei Lanford
-901990376800368	Ascia a una mano di Lambert
-901998966734960	Ascia dei Gilliam
-902041916407920	Ascia di Maeve
-902067686211696	Ascia di Rhias
-902093456015472	Ascia di Kylus
-902136405688432	Ascia dei Tardik
-902162175492208	Ascia di Delonde
-902187945295984	Ascia bipenne di Leofric
-902196535230576	Ascia di ferro nero
-902248074838128	Ascia Troncovecchio
-902265254707312	Ascia della Confraternita dei Corvi
-902273844641904	Ascia di Parashu
-902282434576496	Anello terrestre
-902286729543792	Ascia del Lupo d'argento
 9023739173798000	Elmo a piastre di Sorin
 9023743468765296	Elmo a piastre di Matarion
 9023747763732592	Elmo a piastre di Langris
@@ -5865,85 +5831,109 @@
 9162050005631088	Elmo di Ombrafoglia
 9162054300598384	Guanti di Ombrafoglia
 9162058595565680	Stivali di Ombrafoglia
+11166966509207664	Armatura a piastre della Luce di battaglia
+11166996573978736	Elmo a piastre del Ventosangue bianco
+11167043818618992	Guanti a piastre del Ventosangue bianco
+11167048113586288	Guanti a piastre del Candore fluttuante
+11167052408553584	Guanti a piastre della Luce di battaglia
+11167069588422768	Stivali di cuoio del Ventosangue bianco
+11167099653193840	Guanti a piastre di Luceaurea
+11167108243128432	Elmo a piastre di Luceaurea
+11167112538095728	Stivali a piastre di Luceaurea
+11167116833063024	Corazza a piastra delle Tempeste furenti
+11167121128030320	Elmo a piastre delle Tempeste furenti
+11167125422997616	Stivali a piastre delle Tempeste furenti
+11167129717964912	Guanti di pelle delle Tempeste furenti
+67535070784651376	Armatura a piastre di Dreer
+276518962408194160	Testiera militare di Wells
+310989639781449840	Stivali di pelle di Clays del deserto
+563100268686737520	Guanti di pelle dei soldati di ventura del nord
+723051576708563056	Armatura a piastre di Killian
+889366213786861680	Guanti di pelle squamata dei briganti
+1035885922123513968	Armatura a piastre di Spiddle in ferro nero
+1091536977313923184	Picca stendardo piccola di Delesyia
+1319073903590506608	Stivali di pelle di Rhegis color rosso-bruno
+1434364200343306352	Maschera antigas Lama Rossa
+1532196335506161776	Copricapo di petali di Pororin
+1539898543307751536	Armatura a piastre di Lanauk
+1564689889109213296	Stivali a piastre di Dumenis in ferro nero
+1597859002413219952	Armatura a piastre di Crail
+1681559243473289328	Orecchini di Corno bianco
+1681559252063223920	Collana del tuono
+1681559303602831472	Giuramento dell'oscurità
+1681559307897798768	Marchio dell'oscurità
+1681559312192766064	Reliquia dell'oscurità
+1681559320782700656	Collana di Karanda
+1681559325077667952	Orecchino della strega
+1681559329372635248	Sigillo dell'oscurità plumbea
+1681559342257537136	Orecchino antico
+1681559346552504432	Antico anello
+1681559350847471728	Collana degli Antichi
+1703127164779495536	Respiratore anti-allucinogeni dei Sanguinari
+1811197836256084080	Elmo a piastre di Mentz
+2355793221168136304	Stivali di pelle di Rhegis
+2589973173361442928	Stivali di pelle di Rhegis grandi
+2591869818034454640	Elmo a piastre di Renkshaw in ferro nero
+2609680446115545200	Cesto pesante
+2808099654493798512	Stivali di pelle di Sarantos usurati
+2851662060373147760	Elmo a piastre di Descao in ferro nero
+2995175360322076784	Stivali a piastre di Grovetant
+3083646326500491376	Armatura a piastre di Spiddle in ferro nero
+3117835747940368496	Armatura a piastre di Canusti
+3251828544208109680	Stampella
+3341530332049440880	Armatura a piastre di Kunan
+3512701889944748144	Elmo a piastre di Dumenis
+3550753676689670256	Elmo a piastre di Longia in ferro nero
+4233774719385469040	Armatura a piastre di Valkyder
+4257868012742246512	Armatura a piastre di Edzel
+4644006381769195632	Guanti di pelle di Pavis color rosso-mattone
+4719841433903693936	Elmo a piastre di Lotas in ferro nero
+4867475935361761392	Guanti di pelle di Persein
+4990507880600830064	Armatura a piastre di Kenmore
+5029885523750027376	Stivali di pelle dei banditi
+5068669241641664624	Carico vuoto
+5255562342640386160	Scarpe di pelle di Pavis
+5780346486525001840	Coperchio del vaso
+5906878924599591024	Cesto ampio
+6300844201508601968	Armatura a piastre di Dunverline
+6320293810584682608	Elmo a piastre a becco d'uccello
+6327985392637182064	Armatura a piastre di Grovetant
+6371401357311606896	Elmo a piastre degli Inquisitori virtuosi
+6463569139280642160	Grande bastone sacerdotale di Solumen
+6516250194521096304	Guanti di pelle di Cacoreum
+6704798520081121392	Guanti di pelle di Pavis grandi
+6710262560295223408	Bardatura di Exclaire
+6779758206341087344	Fuoco dorato
+6894008592727277680	Armatura a piastre di Levin
+6898678682466910320	Guanti di pelle di Patten
+6906379438569554032	Armatura a piastre di Roshee in ferro nero
+6971729650900795504	Guanti di pelle di Calio
+6977676466913804400	Armatura a piastre di Meyer
+7092751113358671984	Guanti a piastre di Ratti in ferro nero
+7117024524758941808	Elmo a piastre degli Inquisitori virtuosi
+7194141568796721264	Bombardino orchesco.
+7194141573091688560	Bombardino in acciaio
+7194141577386655856	Bombardino in acciaio rinforzato
+7291441978418397296	Elmo a piastre di Enratte grande
+7329306891136270448	Armatura a piastre di Kinloch
+7440012396199936112	Armatura a piastre di Levin
+7633826282945380464	Armatura a piastre di Rhogo
+7660060213772288112	Armatura a piastre di Romund
+7721337143544512624	Armatura a piastre di Meyer
+7806228443460272240	Stivali a piastre di Lattua in ferro nero
+7809981226969727088	Armatura a piastre di Dundree
+7861209178809827440	Grandi stivali di pelle di Clays
+8012408365684621424	Armatura a piastre di Kinross
+8057664217039241328	Corazza a piastre di Coogan in ferro nero
+8240636824645533808	Maschera antigas allo zolfo dei soldati di Demeniss
+8303593494652387440	Elmo a piastre degli Inquisitori virtuosi
+8396906211823321200	Elmo a piastre di Grovetant
+8675116429273464944	Guanti di pelle di Delinell
+8798741144423891056	Elmo a piastre di Mottie in ferro nero
+8818799895826661488	Maschera antigas portatile dei Sanguinari
+8839645691396489328	Armatura a piastre di Vennebis
+8858467999024152688	Armatura a piastre degli Inquisitori
+8917868689512988784	Cotta di maglia di Katunan
+8992792491321196656	Armatura a piastre di Brejin
+8996562218476634224	Guanti a piastre di Grovetant
 9190122474518347888	Armatura a piastre di Dalbich
-9448928051312	Freccia mozza
-944901395054704	Mazza di Kadel
-944909984989296	Flagello di Kordaav
-944918574923888	Bastone da parata
-944922869891184	Mazza dei Lanford
-944927164858480	Anima congelata
-944944344727664	Eredità di Octarr
-944952934662256	Mazza del Fuorilegge
-944970114531440	Mazza di Wells
-944974409498736	Mazza della Fossa delle ossa
-944982999433328	Mazza di alabastro
-944987294400624	Mazza di Balton
-944991589367920	Mazza degli Iris
-94515050315888	Vino di frutta
-94527935217776	Acqua santa
-949187772416112	Flagello di Aeserion
-987855362982000	Pugnale di Varnia
-987967032131696	Pugnale di Bekker
-988095881150576	Pugnale di alabastro
-988113061019760	Pugnale della Caccia oscura
-988121650954352	Pugnale della Confraternita dei Corvi
-988156010692720	Dito di Ator
-991712243613808	Pugnale di Kylus
-991729423482992	Pugnale di Sydmon
-991746603352176	Pugnale di Delesyia
-991755193286768	Pugnale di Dekarr
-991780963090544	Lama rituale di Pailune
-992137445376112	Pugnale di Aeserion
-214752659767408	Freccia
-4302891510661232	Dardo
-4299923688259696	Rana velenosa
-4299932278194288	Rospo
-3251316012875888	Peonia
-3251328897777776	Viola del pensiero
-3098823199031408	Granato
-3049431075127408	Legno
-3006481402167408	Pezzi di stoffa
-4299764774469744	Lana
-4298630903103600	Zanna
-4297810564350064	Avorio
-4302294510207088	Piselli
-3221242651869296	Fagioli
-3221234061934704	Grano
-3221307076378736	Mais
-3221302781411440	Avena
-4302157071253616	Fico
-3221354321018992	Pesca
-3221251241803888	Mela
-3221259831738480	Uva
-4302169956155504	Cacao
-3221328551215216	Cipolla
-3226001475633264	Lino
-4301697509752944	Rapa
-43091406880880	Miele
-3242764732989552	Uovo
-90271622627440	Latte
-3221264126705776	Ghianda
-3229819701559408	Sale
-3229828291494000	Zucchero
-94523640250480	Acqua
-90275917594736	Carne pregiata essiccata
-124128849821808	Pane
-94519345283184	Birra
-4297763319709808	Crosta di cereali
-4297316643111024	Ingranaggio
-4302882920726640	Pera
-859053588742256	Torcia
-4295766159917168	Corazza in stoffa della Gilda dei mercanti della Foglia d'oro
-4296182771744880	Mantello di stoffa della Gilda dei mercanti della Foglia d'oro
-4295779044819056	Corazza in stoffa della Gilda dei mercanti della Foglia d'oro
-4296187066712176	Mantello di stoffa della Gilda dei mercanti della Foglia d'oro
-4295770454884464	Armatura di stoffa di Nibrak
-15797375398179767453	Granato
-4294967408	Rame
-4294967410	Argento
-47244640368	Fondi dell'accampamento
-51539607664	Viveri del campo
-55834574960	Legname del campo
-60129542256	Pietre del campo
-3094553229787184	Gold Bar
-12130294615337075856	Ginseng

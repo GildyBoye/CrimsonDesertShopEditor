@@ -1,126 +1,169 @@
-1030796446007408	Tardik Uzun Kılıcı
-1030860870516848	Vahşi Çift Elli Kılıç
-1030869460451440	Balton Uzun Kılıcı
-1030873755418736	Çiy Yuvası Uzun Kılıcı
-1030878050386032	Thalwynd Uzun Kılıcı
-1030890935287920	Iris Uzun Kılıcı
-1030903820189808	Rhett'in Uzun Kılıcı
-1030916705091696	Karanlık Kovalamaca Kâse
-1030921000058992	Adaletin Hükmü
-1030925295026288	Mutlak Adalet Uzun Kılıcı
-1030938179928176	Sydmon Uzun Kılıcı
-1030972539666544	İgnir
-1030976834633840	Delesyia Uzun Kılıcı
-1035087118336112	Aeserion Uzun Kılıcı
-1035095708270704	Dandelion Çift Elli Kılıcı
-1035885922123513968	Siyah Çelik Spiddle Plaka Vücut Zırhı
-1073801953542256	Tamamlanmamış Başyapıt
-1073806248509552	Tardik Büyük Baltası
-1073810543476848	Iris Büyük Baltası
-1073814838444144	Gorthak Çift Elli Balta
-1073823428378736	Trol Kancalı Büyük Baltası
-1073827723346032	Kylus'un Büyük Baltası
-1073832018313328	Kemik Çukuru Büyük Baltası
-1073836313280624	Yelpaze Bıçaklı Büyük Balta
-1073844903215216	At Nalı Bıçaklı Büyük Balta
-1073849198182512	Tazıların Kesme Baltası
-1073853493149808	Pailune Ağaç Kesme Baltası
-1073862083084400	Sigremon Büyük Baltası
-1078011021492336	Becker Büyük Baltası
-1078015316459632	Dekarr Büyük Baltası
-1078036791296112	Aeserion Büyük Baltası
-1091536977313923184	Küçük Delesyia Sancak Mızrağı
+433791697008	Bakır Kesesi
+442381631600	Hafif Bakır Kesesi
+446676598896	Ağır Gümüş Kesesi
+450971566192	Şişkin Gümüş Kesesi
+9448928051312	Küt Ok
+18614388260976	Kırık Visione
+18618683228272	Kırık Visione
+18622978195568	Kırık Visione
+18657337933936	Kırık Visione
+18799071854704	Kırık Visione
+25769803776112	Envanter Genişletme Aracı
+25774098743408	Küçük Çanta
+25778393710704	Orta Çanta
+25782688678000	Ekstra Büyük Çanta
+25791278612592	Büyük Çanta
+36511516983408	Beyaz Boynuz'un Yüzüğü
+36515811950704	Yıldırım Yüzüğü
+36524401885296	Karanlık Sihir Küpesi
+36528696852592	Ogre'nin Yüzüğü
+36532991819888	Cadı'nın Yüzüğü
+36545876721776	Taç Yaprak Küpeleri
+37366215475312	Kızıl Avcı Zincir Zırhı
+37800007172208	Kar Fırtınası Kristali Kolyesi
+39092792328304	Hernand Onur Muhafızı Zırhı
+39097087295600	Tariv Kumaş Kıyafet
+39517994090608	Tariv Kumaş Çizmeleri
+39951785787504	Tariv Kumaş Eldivenler
+40372692582512	Beoneck Kumaş Başlığı
+40376987549808	Skyblazer Kumaş Miğfer
+40381282517104	Halssius Rahibi'nin Şapkası
+40806484279408	Marni Tankı El Topu
+40810779246704	Mekanik Saat Mekanizması Patlatıcı
+40832254083184	Patlatıcı No. 8
+40836549050480	Wyvern Patlatıcısı
+43061342109808	Fener
+43091406880880	Bal
+43134356553840	Parlak Mavi Deniz Feneri
+43138651521136	Shroud Fener
+43142946488432	Havalı Alev Desenli Fener
+43147241455728	Karanlık Sis Feneri
+43151536423024	Alev Feneri
+47248935223408	Olta
+52415780880496	Maydocs Deri Zırh
+52420075847792	Vildyne Deri Zırh
+52424370815088	Adoratt Deri Zırh
+52428665782384	Colbill Deri Zırh
+52432960749680	Coby Deri Zırh
+52437255716976	Sherborn Deri Zırh
+52471615455344	Aç Diş Zırhı
+52475910422640	Helfryn Deri Zırhı
+52480205389936	Sansar Deri Zırhı
+52840982642800	Kirli Sarantos Deri Çizmeleri
+52845277610096	Büyük Rhegis Deri Çizmeleri
+52853867544688	Aç Diş Çizmeleri
+52858162511984	Carta Plaka Çizmesi
+52862457479280	Hernand Onur Kıtası Ayakkabısı
+52866752446576	Sansar Deri Çizmesi
+52871047413872	Bilge Taş Çizmesi
+52875342381168	Hernandian Ziyafet Deri Çizmeleri
+52879637348464	Arıcılık Çizmesi
+53270479372400	Kızıl Binici'nin Deri Eldiveni
+53274774339696	Büyük Pavis Deri Eldivenleri
+53283364274288	Kara Kanat Deri Eldivenleri
+53287659241584	Skyblazer Deri Eldivenleri
+53291954208880	Aç Diş Eldivenleri
+53296249176176	Hernand Şeref Kıtası Eldiveni
+53300544143472	Helfryn Deri Eldiveni
+53304839110768	Sansar Deri Eldiveni
+53309134078064	Carta Deri Eldiveni
+53313429045360	Arıcılık Eldiveni
+53317724012656	Bollin Deri Eldiveni
+53712861003888	Gümüş Diş Miğfer
+54116587929712	Çift Başlı Açgözlülük Baltası
+54550379626608	İlahi Yankılar Yayı
+54554674593904	Soylu Adamın Yayı
+55405078118512	Goblin Kralının Hazine Hançeri
+56693568307312	Faninin Gürzü
+56697863274608	Marni Takipçisinin Gürzü
+56702158241904	Kararlılık Topuzu
+57127360004208	Marni'nin Misket Tüfeği
+57140244906096	Demeniss Kahraman Misket Tüfeği
+57982058496112	Kraliyet Yemini
+58411555225712	Faninin Kabuğu
+58428735094896	Balgran Kalkan
+58433030062192	Delesyia Süs Kalkanı
+59309203390576	Nazk Kılıcı
+59313498357872	Ürperten Kılıç
+59317793325168	Aeserion Kılıcı
+59322088292464	Faninin Kılıcı
+59704340381808	Donuk Kemik Kalkanı
+60563333841008	Lanetli Ruhun Plaka Zırhı
+60567628808304	Kızıl Binici'nin Plaka Zırhı
+60571923775600	Meyer Plaka Zırhı
+60576218742896	Spiddle Plaka Zırhı
+60597693579376	Donmuş Kalp Plaka Zırhı
+60988535603312	Karanlığın Celladı Plaka Çizmeleri
+60992830570608	Lanetli Ruhun Plaka Çizmeleri
+60997125537904	Buz Lanetli Plaka Çizmeleri
+61418032332912	Karanlığın Celladı Plaka Eldivenleri
+61422327300208	Lanetli Ruhun Plaka Eldivenleri
+61426622267504	Kızıl Avcı Zincir Eldivenleri
+61435212202096	Donmuş Kalp Plaka Eldivenleri
+61439507169392	Pirinç Muhafızının Plaka Eldivenleri
+61443802136688	Pailune Eldiveni
+61847529062512	İnanç Gezgini'nin Plaka Miğferi
+61851824029808	Lanetli Ruhun Plaka Miğferi
+61856118997104	Kızıl Binici'nin Plaka Miğferi
+61860413964400	Demeniss Muhafızları Plaka Miğferi
+61864708931696	Demeniss Muhafızları Plaka Miğferi
+61869003898992	Kızıl Avcı Plaka Miğferi
+61873298866288	Descao Plaka Miğferi
+61877593833584	Demeniss Muhafızları Plaka Miğferi
+61894773702768	Hilekârlar Böcek Miğferi
+61899068670064	Hilekârlar Eşek Arısı Miğferi
+61903363637360	Hilekârlar Boğa Miğferi
+61911953571952	Kara Kanat Maskesi
+61916248539248	Buz Lanetli Plaka Miğferi
+61920543506544	Carta Plaka Miğferi
+62277025792112	Alfa Kurt Başlığı
+62281320759408	Alfa Ayı Şapkası
+62307090563184	Kara Ayı Gaz Maskesi
+62319975465072	Visione
+62324270432368	Seri Üretim Visione
+63148904153200	Aeserion Büyük Çekici
+63157494087792	Karanlığın Taşıyıcısı
+63161789055088	Son Çan'ın Tekerleği
+63995012710512	Öğrencinin Paketi
+64424509440112	Aeserion Baltalı Kargısı
+64854006169712	Toprak Yarıcı
+65283502899312	En İyi Kalite Rhinard Topu
+65292092833904	İmparatorun Chongtong Topu
+65300682768496	Gizli Silah Chongtong Topu
+66571993088112	Runik Oyma Kaya
+67430986547312	Aeserion Mızrağı
+67435281514608	Hesaplaşma
+67439576481904	Ayı Kavrayan
+67443871449200	Don Dişi
+67448166416496	Geçici Mızrak
+67456756351088	Ayrılan Ay
+67461051318384	Yuvarlak Ay
+68294274973808	Donmuş Izdırap
+68298569941104	Tazı
+68302864908400	Çarpık Hüküm
+68723771703408	Küllü İnfaz
+68732361638000	Kanlı Çan
+85873576116336	Abis'in Nefesi
+85877871083632	Abis'in Ruhu
+85882166050928	Abis'in Canlılığı
+90271622627440	Süt
+90275917594736	Kurutulmuş Güzel Et
+94515050315888	Meyve Şarabı
+94519345283184	Bira
+94523640250480	Su
+94527935217776	Kutsal Su
 111295487541360	Kuş Çorbası
 111299782508656	Uzunboynuzlu Çorbası
 111329847279728	Boynuz Çayı
 111334142247024	Meyve Suyu
-11166966509207664	Savaş Alanının Işığı Plaka Zırhı
-11166996573978736	Beyaz Kan Rüzgarı Plaka Miğferi
-11167043818618992	Beyaz Kanlı Rüzgar Plaka Eldivenleri
-11167048113586288	Çırpınan Saf Beyaz Plaka Eldivenleri
-11167052408553584	Savaş Alanının Işığı Plaka Eldivenleri
-11167069588422768	Beyaz Kan Rüzgarı Deri Çizmeleri
-11167099653193840	Altın Işık Plaka Eldivenleri
-11167108243128432	Altın Işık Plaka Miğferi
-11167112538095728	Altın Işık Plaka Çizmeleri
-11167116833063024	Azgın Fırtınalar Plaka Zırhı
-11167121128030320	Azgın Fırtına'nın Plaka Miğferi
-11167125422997616	Azgın Fırtınalar Plaka Çizmeleri
-11167129717964912	Azgın Fırtınalar'ın Deri Eldivenleri
-1116721561731184	Becker Savaş Çekici
-1116725856698480	Tuz Yolu Savaş Çekici
-1116747331534960	Kemik Çukuru Savaş Çekici
-1116751626502256	Thalwynd Savaş Çekici
-1116755921469552	Kaktüs Savaş Çekici
-1116768806371440	Arlen Savaş Çekici
-1116773101338736	Arlen Savaş Çekici
-1116777396306032	Zagran Savaş Çekici
-1116803166109808	Tardik Savaş Çekici
-1116811756044400	Iris Savaş Çekici
-1116820345978992	Gorthak Savaş Çekici
 111716394336368	Mercan Mantarlı Çay
 111733574205552	Çam Mantarlı Çay
 111737869172848	Şitaki Mantarlı Çay
 111815178584176	Ballı Çay
-1120986464256112	Aeserion Savaş Çekici
-1138170628407408	Yağmacının Baltalı Kargısı
-1138174923374704	Kaymak Taşı Baltalı Kargısı
-1138179218342000	Iris Baltalı Kargısı
-1138183513309296	Lambert Halberdı
-1138187808276592	Gilliam Balta Mızrağı
-1138192103243888	Kemik Çukuru Baltalı Kargısı
-1138196398211184	Gezgin Kılıç Balta Mızrağı
-1138200693178480	Becker Baltalı Kargısı
-1138209283113072	Celeste'in Baltalı Kargısı
-1138213578080368	Altın Öncü
-1159645464887408	Rosemond Tabancası
-1159649759854704	Jemel Tabancası
-1159654054822000	Falconne Tabancası
-1159658349789296	Vilancia Tabancası
-1159688414560368	Geçmişin Gölgesi Tabancası
-1159697004494960	Caliburn'un Merhameti Tabancası
 119967026511984	Tuzlu Izgara Kuş Eti
-1202595137847408	Arlen Misket Tüfeği
-1202599432814704	Becker Misket Tüfeği
-1202603727782000	Delesyialı Misket Tüfeği
-1202608022749296	Wells Misket Tüfeği
-1202612317716592	Leofric Misket Tüfeği
-1202663857324144	Hilekârlar'ın Misket Tüfeği
-1202668152291440	Pailune Misket Tüfeği
-1202672447258736	Gustav Misket Tüfeği
 120602681671792	Tuzlu Izgara Balık
+124128849821808	Ekmek
 124197569298544	Yumuşak Meyveli Ekmek
-1245544810807408	Balton Kalkanı
-1245600645382256	Iris Kalkanı
-1245613530284144	Sydmon Yuvarlak Kalkanı
-1245626415186032	Gecenin Aynası
-1245630710153328	Drake Kalkanı
-1245639300087920	Yükselen Ok Kalkanı
-1245652184989808	Geyik Lordu'nun Kalkanı
-1245785328975984	Dekarr Kalkanı
-1245789623943280	Sydmon Uçurtma Kalkanı
-1245927062896752	Tardik Kalkanı
-1245931357864048	Çiy Yuvası Kalkanı
-1246025847144560	Çiçekli Bahar Gününün Kalkanı
-1246030142111856	Demeniss Cesaret Kalkanı
-1246034437079152	Demeniss Sadakat Kalkanı
-1246038732046448	Demeniss İtaat Kalkanı
-1247696589422704	Gilliam Geniş Kalkanı
-1247700884390000	Lifsoth Geniş Kalkanı
-1247705179357296	Savaşdikeni Güçlendirilmiş Geniş Kalkanı
-1247713769291888	Thalwynd Geniş Kalkanı
-1247722359226480	Lucon Geniş Kalkanı
-1247726654193776	Rhonid Geniş Kalkanı
-1247730949161072	Balton Geniş Kalkanı
-1247735244128368	Rekel Geniş Kalkanı
-1247752423997552	Lanford Geniş Kalkanı
-1247756718964848	Gülen Kukla Kalkanı
-1247786783735920	Becker Geniş Kalkanı
-1247799668637808	Seri Üretim Rekel Geniş Kalkanı
-1247821143474288	Rekel Geniş Dikenli Kalkanı
-1247825438441584	Savaşdikeni Geniş Kalkanı
-1247829733408880	Demeniss Askerinin Geniş Kalkanı
-1249822598234224	Lejyon Mızrakçılarının Büyük Kalkanı
 126705830199408	Kaşık Ağızlı Morina Balığı
 126710125166704	Yedi Solungaçlı Köpek Balığı
 126714420134000	Dev Kırmızı Çipura
@@ -167,18 +210,6 @@
 128071629799536	Havuz Sazanı
 128075924766832	Makine Balık
 128080219734128	Kerevit
-1288494483767408	Altın Düğümlü Ata Yayı
-1288498778734704	Dekarr Yayı
-1288503073702000	Becker Yayı
-1288507368669296	Alaca Karanlık Ulakları'nın Yayı
-1288541728407664	Tardik Yayı
-1288546023374960	Kylus Yayı
-1288550318342256	Sydmon Yayı
-1288554613309552	Kançelik Yayı
-1288567498211440	Tommaso Yayı
-1288571793178736	Savaşdikeni Yayı
-1288588973047920	Çılgın Ruh Yay
-1288704937164912	Beyaz Tahta Yayı
 128891968553072	Barut
 128917738356848	Delesyia Meyve Şarabı
 128943508160624	Yağ
@@ -186,74 +217,7 @@
 129068062212208	Fener Kapısının Anahtarı
 129102421950576	Demir Kapı Anahtarı
 129123896787056	Hapishane Anahtarı
-1292785156096112	Aeserion Yayı
-1292789451063408	Kızıl Muhafız Yayı
-1319073903590506608	Kızıl Kahve Rheigis Deri Çizmeleri
-1331474221498480	Sydmon Mızrağı
-1331478516465776	Alfonso'nun Mızrağı
-1331491401367664	Kylus'un Mızrağı
-1331495696334960	Kaymak Taşı Mızrağı
-1331517171171440	Savaşdikeni Mızrağı
-1331538646007920	Testere Dişi Yok Edici'nin Mızrağı
-1331542940975216	Dürüstlük Mızrağı
-1331547235942512	Valgash'ın Bitmemiş İşi
-1331560120844400	Karanlık Kovalamaca Dikeni
-1331573005746288	Kuzey Rüzgârının Yabası
-1331590185615472	Hainin Mızrağı
-1331607365484656	Geçici Asa
-1374393829687408	Hyde Arbaleti
-1374398124654704	Güneyli Gezgin Trol Arbaleti
-1417343502647408	Rhinard Topu
-1417347797614704	Elektromanyetik Alev Püskürtücü
-1417352092582000	Elektromanyetik Buz Püskürtücü
-1434364200343306352	Kızıl Bıçak Gaz Maskesi
-1532196335506161776	Pororin Yaprak Şapka
-1539898543307751536	Lanauk Plaka Zırhı
-1564689889109213296	Siyah Çelik Dumenis Plaka Çizmeleri
-1589142194487408	Pailune Pompalı Tüfeği
-1589146489454704	Çiy Yuvası Pompalı Tüfeği
-1589150784422000	Mortimer Pompalı Tüfeği
-1589155079389296	Metilbahm Pompalı Tüfeği
-1589159374356592	Delesyia Pompalı Tüfeği
-1589163669323888	Kan Pompalı Tüfeği
-1589167964291184	Dane Pompalı Tüfeği
-1597859002413219952	Crail Plaka Zırhı
-1634239351095408	Küçük Demeniss Sancak Mızrağı
-1634252235997296	Küçük Kraliyet Av Alanı Sancak Mızrağı
-1634260825931888	Küçük Kara Ayılar Sancak Mızrağı
-1681559243473289328	Beyaz Boynuz'un Kolyesi
-1681559252063223920	Yıldırım Kolyesi
-1681559303602831472	Karanlık Yemini
-1681559307897798768	Karanlığın İşareti
-1681559312192766064	Karanlığın Yadigârı
-1681559320782700656	Karanda'nın Kolyesi
-1681559325077667952	Cadının Küpesi
-1681559329372635248	Zifirî Karanlık Mührü
-1681559342257537136	Kadim Küpeler
-1681559346552504432	Kadim Yüzük
-1681559350847471728	Kadim'in Kolyesi
-1703127164779495536	Kan Haydutları Gaz Maskesi
-1717986918400112	Becker Büyük Çekici
-1717991213367408	Altın Ejderha Pençesi
-1717995508334704	Ateşin Büyük Çekici
-1717999803302000	Hilekârlar Büyük Çekici
-1718004098269296	Lanford Büyük Çekici
-1718008393236592	Kemik Çukuru Büyük Çekici
-1760945181294704	Volkanik Patlatıcı
-1760953771229296	Bakır Yumruk Matkabı
-1760970951098480	Öfkeli Dalgalar Zırh Eldiveni
-1760975246065776	Demir Yumruklar Zırh Eldiveni
-1760983836000368	Muskan'ın Üst Gövde Klonu
-1760988130967664	Muskan'ın Alt Gövde Klonu
-1811197836256084080	Mentz Plaka Miğferi
-1846840232247408	Uyku İğnesi
-18614388260976	Kırık Visione
-18618683228272	Kırık Visione
-18622978195568	Kırık Visione
-18657337933936	Kırık Visione
-18799071854704	Kırık Visione
-2147487942967408	Engizisyoncunun Büyük Baltası
-2147505122836592	Desenli Taş Çift Elli Balta
+214752659767408	Ok
 214761249702000	Zehirli Ok
 214795609440368	Islıklı Ok
 214993177935984	Ok Demeti
@@ -273,19 +237,1238 @@
 227701986164848	Gugu Demir Kazanı
 227770705641584	Yapışkan Bomba
 227779295576176	Saatli Bomba
-2355793221168136304	Rhegis Deri Çizmesi
-25769803776112	Envanter Genişletme Aracı
+300690660393072	Eski Ahşap Bebek
+322122547200112	İlk Eser
+322126842167408	Abis Eseri
+322131137134704	Solgun Abis Eseri
+322552043929712	Gri Yeleli'nin Jetonu
+343601678647408	Tarif: Buharda Et
+343610268582000	Tarif: Meyve Çayı
+345341140402288	Tarif: Kuş Eti Çorbası
+345366910206064	Tarif: Boynuz Çayı
+345371205173360	Tarif: Meyve Suyu
+345766342164592	Tarif: Mercan Mantarlı Çay
+345783522033776	Tarif: Çam Mantarlı Çay
+345787817001072	Tarif: Şitaki Mantarlı Çay
+345869421379696	Tarif: Ballı Çay
+347084897124464	Tarif: Tuzlu Izgara Kuş Eti
+433795991863408	Rekhia Plaka Miğferi
+433800286830704	Bolton Plaka Miğferi
+433804581798000	Cassius Morten'in Plaka Miğferi
+433826056634480	Buz Kanat Plaka Miğferi
+433830351601776	Ator'un İradesi Miğferi
+433838941536368	Ferman Plaka Miğferi
+433843236503664	Keredeg Plaka Miğferi
+433847531470960	Ferenna Plaka Miğferi
+433851826438256	Grace Plaka Miğferi
+433856121405552	Flynn Plaka Miğferi
+433860416372848	Crudil Plaka Miğferi
+433869006307440	Berin Plaka Miğferi
+433907661013104	Hayvani Kemik Miğferi
+433924840882288	Rodderham Plaka Miğferi
+433937725784176	Taos Plaka Miğferi
+433989265391728	Tarandus Plaka Miğferi
+433997855326320	Misket Tüfekli Sınır Muhafızı Standart Başlığı
+434002150293616	Lotas Plaka Miğferi
+434019330162800	Kara Ayı Deri Miğfer
+434023625130096	Chelcia Plaka Miğferi
+434032215064688	Kavurucu Alev Plaka Miğferi
+434036510031984	Inyr Plaka Miğferi
+434040804999280	Rueconec Plaka Miğferi
+434045099966576	Calio Plaka Miğferi
+434057984868464	Ashford Plaka Miğferi
+434083754672240	Lyfellen Plaka Miğferi
+434105229508720	Kiatus Plaka Miğferi
+434122409377904	Rahbae Plaka Miğferi
+434126704345200	Altın Dal Plaka Tacı
+434178243952752	Bduer Plaka Miğferi
+434208308723824	Laehbern Plaka Miğferi
+434212603691120	Offenberg Plaka Miğferi
+434225488593008	Ashad Plaka Miğferi
+434229783560304	Solas Plaka Miğferi
+434242668462192	Ulrich Plaka Miğferi
+434259848331376	Paizel Kemik Miğferi
+434268438265968	Yüzü Olmayan Plaka Miğfer
+434272733233264	Bayer Plaka Miğferi
+434277028200560	Bolgan Plaka Miğferi
+434281323167856	Dernat Plaka Miğferi
+434285618135152	Dondegobi Plaka Miğferi
+434294208069744	Kuzeyli Savaşçıların Plaka Miğferi
+434307092971632	Casinian Plaka Miğferi
+434315682906224	Canta Plaka Miğferi
+434328567808112	Tanion Plaka Miğferi
+434371517481072	Antra Plaka Miğferi
+434375812448368	Laterna Plaka Miğferi
+434380107415664	Zachar Plaka Miğferi
+434384402382960	Boyun Eğmez Savaşçı'nın Plaka Miğferi
+434388697350256	Tartry Plaka Miğferi
+434397287284848	Rapps Plaka Miğferi
+434401582252144	Biconio Plaka Miğferi
+434427352055920	Kurua Plaka Miğferi
+438095254126704	Nahu Zincir Miğferi
+438099549094000	Kadallon Zincir Peçeliği
+438103844061296	Tailan Plaka Miğferi
+442403106324592	Nevin Kumaş Bandana
+442424581161072	Leontyne Plaka Miğferi
+442480415735920	Düşmüş Krallığın Deri Miğferi
+442506185539696	Schtump Plaka Miğfer
+442523365408880	Melvin Deri Miğferi
+442531955343472	Sadık Dostluk Miğferi
+442536250310768	Rondel Deri Miğferi
+442557725147248	Lacrunias Deri Miğferi
+442583494951024	Rueconec Deri Miğferi
+442592084885616	Agatha Deri Miğferi
+442626444623984	Dimfeld Deri Miğferi
+442639329525872	Daveed Deri Miğferi
+442660804362352	Lutinas Deri Miğferi
+442682279198832	Lanweiter Deri Miğferi
+442759588610160	Uphren Deri Miğferi
+442785358413936	Arkhan Deri Miğferi
+442793948348528	Ledan Deri Miğferi
+442828308086896	Dekter Deri Miğferi
+442832603054192	Shellus Deri Miğferi
+442862667825264	Bilge Taş Şapkası
+446736728326256	Bollin Kumaş Başlığı
+446741023293552	Radein Kumaş Başlığı
+446796857868400	Rueconec Kumaş Başlığı
+446805447802992	Agatha Kumaş Şapkası
+446882757214320	Baidan Kumaş Kafa Bandı
+446904232050800	Calprise Kumaş Başlığı
+446917116952688	Rigma Kumaş Kafa Bandı
+446990131396720	Raveed Kumaş Başlığı
+446994426364016	Duvidet Miğferi
+447015901200496	Scobby Kumaş Kafa Bandı
+447033081069680	Fiore Kumaş Başlığı
+447037376036976	Ataram Kumaş Başlığı
+447058850873456	Gaurra Kumaş Başlığı
+447063145840752	Jermill Kumaş Kafa Bandı
+447076030742640	Torben Kumaş Başlığı
+447088915644528	Ulman Kumaş Başlığı
+447127570350192	Rahelm Kumaş Kafa Bandı
+447131865317488	Wyvern Alevi Kumaş Miğfer
+447136160284784	Muchia Kumaş Başlığı
+447183404925040	Rockington Kumaş Başlığı
+447191994859632	Deland Plaka Miğferi
+447200584794224	Ducriss Konik Başlığı
+447234944532592	Lashiras Miğferi
+447243534467184	Karanlık Liderin Kumaş Miğferi
+447256419369072	Sian Kumaş Başlığı
+447260714336368	Karas Kumaş Kafa Bandı
+447265009303664	Larkett Kumaş Başlığı
+447269304270960	Lashir Kumaş Başlığı
+447273599238256	Drish Kumaş Başlığı
+447277894205552	Triloan Kumaş Kafa Bandı
+447290779107440	Ruckshi Kumaş Başlığı
+447295074074736	Rhytrian Kumaş Başlığı
+447312253943920	Gadereich Kumaş Başlığı
+447316548911216	Ludynn Kumaş Başlığı
+447320843878512	Marc Kumaş Başlığı
+447325138845808	Harker Kumaş Başlığı
+447338023747696	Veronde Kumaş Başlığı
+447342318714992	Ghaltain Kumaş Başlığı
+447359498584176	Berghill Kumaş Başlığı
+447363793551472	Meravan Kumaş Başlığı
+447368088518768	Salimi Kumaş Başlığı
+447385268387952	Yuzel Kumaş Başlığı
+447402448257136	Pailune Şapkası
+447428218060912	Soytarı Deri Maskesi
+447432513028208	Tavşan Deri Maskesi
+447466872766576	Ejderha Alevi Miğferi
+447471167733872	Ejder Şövalyesi'nin Miğferi
+476762844692592	Buz Lanetli Plaka Zırh
+476784319529072	Yargıç'ın Plaka Zırhı
+476908873580656	Tarandus Plaka Zırhı
+476913168547952	Enus Plaka Zırhı
+476956118220912	Gri Kurt Deri Zırhı
+477110737043568	Bodin Plaka Zırhı
+477115032010864	Breemen Plaka Zırhı
+477162276651120	Bekur Plaka Zırhı
+477166571618416	Frente Plaka Zırhı
+477170866585712	Corinne Plaka Zırhı
+477175161553008	Takao Plaka Zırhı
+477179456520304	Gwets Plaka Zırhı
+477183751487600	Arkhan Plaka Zırhı
+477188046454896	Yosef Plaka Zırhı
+477192341422192	Andre Zincir Zırhı
+477196636389488	Albert Plaka Zırhı
+477200931356784	Emil Plaka Zırhı
+477205226324080	Schtump Kumaş Zırhı
+477209521291376	Sven'in Kumaş Zırhı
+477213816258672	Yakkov Kumaş Zırhı
+477218111225968	Ernst Zincir Zırhı
+477226701160560	Ditter Kumaş Zırhı
+477235291095152	Redman Plaka Zırhı
+477239586062448	Schmidt Plaka Zırhı
+477291125670000	Dreer Plaka Zırhı
+477295420637296	Rhogo Plaka Zırhı
+477299715604592	Roshee Plaka Zırhı
+477304010571888	Romund Plaka Zırhı
+477308305539184	Valkyder Plaka Zırhı
+477312600506480	Killian Plaka Zırhı
+477316895473776	Kenmore Plaka Zırhı
+477321190441072	Kinloch Plaka Zırhı
+477325485408368	Lanauk Plaka Zırhı
+477329780375664	Spiddle Plaka Zırhı
+477334075342960	Meyer Plaka Zırhı
+477338370310256	Edzel Plaka Zırhı
+477342665277552	Brejin Plaka Zırhı
+477346960244848	Canusti Plaka Zırhı
+477351255212144	Dundree Plaka Zırhı
+477355550179440	Crail Plaka Zırhı
+477359845146736	Levin Plaka Zırhı
+477364140114032	Dunverline Plaka Zırhı
+477368435081328	Kinross Plaka Zırhı
+477372730048624	Demeniss Onur Zırhı
+477377025015920	Avignon Kumaş Zırhı
+477385614950512	Arghai Kumaş Zırhı
+477389909917808	Yüzü Olmayan'ın Kumaş Zırhı
+477450039459952	Bolton Plaka Zırhı
+477454334427248	Blackburn Plaka Zırhı
+477458629394544	Reppin Plaka Zırhı
+477462924361840	Ashad Plaka Zırhı
+477467219329136	Solas Plaka Zırhı
+477471514296432	Beverly Plaka Zırhı
+477540233773168	Lemerick Zincir Zırhı
+477544528740464	Lauer Zincir Zırhı
+477548823707760	Senon Plaka Zırhı
+477553118675056	Leighbog Plaka Zırhı
+477557413642352	Galbon Zincir Zırhı
+477561708609648	Brina Plaka Zırhı
+477570298544240	Prix Plaka Zırhı
+477574593511536	Serroa Plaka Zırhı
+477583183446128	Dutiron Plaka Zırhı
+477587478413424	Dutinion Plaka Zırhı
+477591773380720	Endnion Plaka Zırhı
+477596068348016	Dardnion Plaka Zırhı
+477600363315312	Lavgnion Zincir Zırhı
+477604658282608	Lucion Zincir Zırhı
+477608953249904	Ludeon Plaka Zırhı
+477613248217200	Cerruan Plaka Zırhı
+477617543184496	Mahon Plaka Zırhı
+477621838151792	Caliburn'ün Plaka Zırhı
+477643312988272	Sadık Arkadaşlığın Zırhı
+477660492857456	Carta Plaka Zırhı
+477673377759344	Ruwaite Plaka Zırhı
+477677672726640	Russell Deri Zırhı
+477681967693936	Ludus Plaka Zırhı
+477720622399600	Antum Plaka Zırhı
+477724917366896	Entom Plaka Zırhı
+477729212334192	Sitanca Plaka Zırhı
+477733507301488	Markman Plaka Zırhı
+477737802268784	Kantona Plaka Zırhı
+477742097236080	Lukin Deri Zırhı
+477754982137968	Lachian Plaka Zırhı
+477759277105264	Lacata Plaka Zırhı
+477763572072560	Eccanta Plaka Zırhı
+477767867039856	Eclaon Plaka Zırhı
+477772162007152	Egliss Plaka Zırhı
+477776456974448	Ekklemen Plaka Zırhı
+477780751941744	Ostent Plaka Zırhı
+477785046909040	Oakley Plaka Zırhı
+477797931810928	Dunion Plaka Zırhı
+477802226778224	Manios Plaka Zırhı
+477810816712816	Kavuran Ateş Plaka Zırhı
+477823701614704	Aeron Plaka Zırhı
+477827996582000	Altın Hırs Plaka Zırhı
+477832291549296	Gümüş Plaka Zırhı
+477836586516592	Sahazad Plaka Zırhı
+477840881483888	Jerrinmarne Plaka Zırhı
+477845176451184	Buz Kanat Plaka Zırhı
+481182366040176	Lodi Zincir Zırhı
+481186661007472	Drivon Zincir Zırhı
+481216725778544	Reddin Zincir Zırhı
+481315510026352	Kallari Zincir Zırhı
+481319804993648	Tormand Zincir Zırhı
+481324099960944	Hasets Zincir Zırhı
+481328394928240	Killi Zincir Zırhı
+481332689895536	Valton Zincir Zırhı
+481349869764720	Lucnaon Zincir Zırhı
+481358459699312	Lucnian Zincir Zırhı
+481367049633904	Dunion Zincir Zırhı
+481371344601200	Ejderha Alevi Zırhı
+481375639568496	Ejder Şövalyesi Savaşçısı'nın Plaka Zırhı
+481379934535792	Ejder Şövalyesi Zincir Zırhı
+485365664186480	Twell Deri Zırhı
+485430088695920	Kara Kanat Deri Zırh
+485455858499696	Benne Deri Zırhı
+485468743401584	Somier Deri Zırhı
+485477333336176	Traley Zincir Zırhı
+485481628303472	Antumbra Kumaş Zırhı
+485752211243120	Hayvani Deri Zırhı
+485954074706032	Haran Kumaş Zırhı
+487152370581616	Vyer Deri Zırhı
+487156665548912	Dewey Deri Zırhı
+487160960516208	Arqus Deri Zırhı
+487165255483504	Dremel Deri Zırhı
+487169550450800	Dyrel Deri Zırhı
+487173845418096	Merly Deri Zırhı
+487178140385392	Trudy Deri Zırhı
+487182435352688	Dreban Deri Zırhı
+487186730319984	Dellian Deri Zırhı
+487191025287280	Kenecks Deri Zırhı
+487195320254576	Vierni Deri Zırhı
+487199615221872	Blaine Deri Zırhı
+487203910189168	Cyton Deri Zırhı
+487264039731312	Wakhan Deri Zırhı
+487268334698608	Valion Deri Zırhı
+487272629665904	Plune Deri Zırhı
+487276924633200	Rittem Deri Zırhı
+487281219600496	Mocke Deri Zırhı
+487285514567792	Chayten Deri Zırhı
+487289809535088	Colatte Deri Zırhı
+487294104502384	Katerm Deri Zırhı
+487302694436976	Orman Perisi Zırhı
+487306989404272	Beyaz Kan Rüzgarı Deri Zırhı
+487341349142640	Pantafe Kumaş Zırhı
+487345644109936	Echebern Kumaş Zırhı
+487384298815600	Milis Kumaş Gövde Zırhı
+487388593782896	Pyrantha Kumaş Zırhı
+487392888750192	Torress Kumaş Zırhı
+487397183717488	Arandhal Kumaş Zırhı
+487405773652080	Toudon Kumaş Zırhı
+487410068619376	Cherke Deri Zırhı
+487414363586672	Blin Deri Zırhı
+487457313259632	Dunqane Deri Zırhı
+487461608226928	Elliot Deri Zırhı
+487465903194224	Cuthbertson Deri Zırhı
+487470198161520	Buchanan Kumaş Zırhı
+487474493128816	Finneron Deri Zırhı
+487478788096112	Torrance Deri Zırhı
+487487378030704	Ohara Deri Zırhı
+487491672998000	Conally Kumaş Zırhı
+487504557899888	Rexlan Kumaş Zırhı
+487513147834480	Tarmiden Kumaş Zırhı
+487521737769072	Seiden Deri Zırhı
+487526032736368	Soron Deri Zırhı
+487530327703664	Barunin Deri Zırhı
+487577572343920	Gorg Deri Zırhı
+487581867311216	Dewhaven Deri Zırhı
+487586162278512	Johannes Plaka Zırhı
+487693536460912	Davis Deri Zırhı
+487740781101168	Düşmüş Krallığın Deri Zırhı
+487770845872240	Mohill Deri Zırhı
+487775140839536	Lunpherd Deri Zırhı
+487779435806832	Islekk Deri Zırhı
+487783730774128	Baladean Deri Zırhı
+487788025741424	Navan Kumaş Zırhı
+487792320708720	Glosope Deri Zırhı
+487796615676016	Norswich Deri Zırhı
+487800910643312	Campo Deri Zırhı
+487809500577904	Janiklo Deri Zırhı
+487813795545200	Nellaccio Deri Zırhı
+487818090512496	Dasala Deri Zırhı
+487822385479792	Gerano Deri Zırhı
+487826680447088	Pisonia Deri Zırhı
+487830975414384	Paliano Deri Zırhı
+487839565348976	Locasima Deri Zırhı
+487843860316272	Corey Kumaş Zırhı
+487848155283568	Lariano Kumaş Zırhı
+487852450250864	Ranubio Deri Zırhı
+487856745218160	Ardia Deri Zırhı
+487861040185456	Antika Deri Zırhı
+487865335152752	Oustia Deri Zırhı
+487869630120048	Tarabe Deri Zırhı
+487873925087344	Montlanico Deri Zırhı
+487878220054640	Carpine Deri Zırhı
+487895399923824	Kednry Deri Zırhı
+487959824433264	Vainbridge Kumaş Zırhı
+488084378484848	Durain Zincir Zırhı
+488088673452144	Latrion Zincir Zırhı
+488092968419440	Senian Zincir Zırhı
+488105853321328	Tyran Deri Zırhı
+488110148288624	Tiron Deri Zırhı
+488114443255920	Eshrun Deri Zırhı
+488123033190512	Groucca Deri Zırhı
+488135918092400	Hashaka Deri Zırhı
+488140213059696	Hobbuca Deri Zırhı
+488144508026992	Batangka Deri Zırhı
+488153097961584	Greeney Deri Zırhı
+488161687896176	Bulga Deri Zırhı
+488165982863472	Barbaros Deri Zırhı
+488174572798064	Gri Yeleli Deri Zırhı
+488178867765360	Nuslan Deri Zırhı
+488183162732656	Ravirun Deri Zırhı
+488187457699952	Mondian Deri Zırhı
+488191752667248	Saruen Deri Zırhı
+488196047634544	Rubidan Deri Zırhı
+488200342601840	Resian Deri Zırhı
+488213227503728	Larkson Deri Zırhı
+488217522471024	Matana Deri Zırhı
+488221817438320	Radian Kumaş Zırhı
+488286241947760	Acria Zincir Zırhı
+488294831882352	Rotunso Deri Zırhı
+488299126849648	Rombardina Deri Zırhı
+488303421816944	Sicillion Deri Zırhı
+488307716784240	Rhodelphine Deri Zırhı
+488312011751536	Tallofer Deri Zırhı
+488320601686128	Boyun Eğmez Savaşçı'nın Plaka Zırhı
+488324896653424	Meishod Kumaş Zırhı
+488329191620720	Valldren Deri Zırhı
+488333486588016	Moldur Deri Zırhı
+488337781555312	Churrchen Deri Zırhı
+488342076522608	Saolo Deri Zırhı
+488346371489904	Jevanars Deri Zırhı
+488354961424496	Drossel Deri Zırhı
+488359256391792	Dumenis Kumaş Zırhı
+488367846326384	Laplace Deri Zırhı
+488372141293680	Radiano Deri Zırhı
+488376436260976	Dorness Deri Zırhı
+488380731228272	Undriga Deri Zırhı
+488385026195568	Anderitz Deri Zırhı
+488389321162864	Rapps Deri Zırhı
+488393616130160	Cantars Deri Zırhı
+488397911097456	Pictead Deri Zırhı
+488402206064752	Varanguard Deri Zırhı
+488406501032048	Scarteau Deri Zırhı
+488410795999344	Huskall Deri Zırhı
+488415090966640	Barbaroy Deri Zırhı
+488419385933936	Kordaav Deri Zırhı
+488423680901232	Lespedan Deri Zırhı
+488427975868528	Stiv Deri Zırhı
+488432270835824	Dyrfrith Deri Zırhı
+488436565803120	Stugrub Deri Zırhı
+488440860770416	Barrette Deri Zırhı
+488445155737712	Gaut Deri Zırhı
+488462335606896	Bettert Deri Zırh
+488466630574192	Schlitz Deri Zırhı
+488470925541488	Binden Deri Zırhı
+488475220508784	Auld Deri Zırhı
+488479515476080	Mavin Deri Zırhı
+488488105410672	Raspin Deri Zırhı
+488492400377968	Duvelle Deri Zırhı
+488496695345264	Karius Deri Zırhı
+488500990312560	Slouwen Deri Zırhı
+488505285279856	Bleawin Deri Zırhı
+488513875214448	Trellian Deri Zırhı
+488518170181744	Gün Batımı Sazlığı Deri Zırhı
+488535350050928	Adsız Bilgelerin Deri Zırhı
+488543939985520	Ludynn Deri Zırhı
+488548234952816	Reak Deri Zırhı
+488552529920112	Marc Deri Zırhı
+488556824887408	Smilodon Deri Zırhı
+488561119854704	Noyvarn Deri Zırhı
+488595479593072	Luverne Deri Zırhı
+488599774560368	Galanta Deri Zırhı
+488604069527664	Nelton Deri Zırhı
+488608364494960	Brogue Deri Zırhı
+488612659462256	Hodges Deri Zırhı
+488616954429552	Ducca Deri Zırhı
+488625544364144	Berker Deri Zırhı
+488629839331440	Tatura Deri Zırhı
+488634134298736	Tavat Deri Zırhı
+488638429266032	Gomel Deri Zırhı
+488642724233328	Enge Deri Zırhı
+488647019200624	Tikkal Deri Zırhı
+488651314167920	Murad Deri Zırhı
+488655609135216	Dannon Deri Zırhı
+488659904102512	Ulontai Deri Zırhı
+488664199069808	Huron Deri Zırhı
+488668494037104	Begill Deri Zırhı
+488672789004400	Rigma Deri Zırhı
+488677083971696	Verdesh Deri Zırhı
+488681378938992	Herwin Deri Zırhı
+488685673906288	Dekter Deri Zırhı
+488689968873584	Guff Deri Zırhı
+488702853775472	Grommet Deri Zırhı
+488707148742768	Ajure Deri Zırhı
+488711443710064	Salimi Deri Zırhı
+488715738677360	Nehrut Deri Zırhı
+488720033644656	Takkat Deri Zırhı
+488724328611952	Whitley Deri Zırhı
+488728623579248	Kaisan Deri Zırhı
+488732918546544	Derrison Deri Zırhı
+488758688350320	Berblin Deri Zırhı
+488767278284912	Sazlık Şeytanı Kölesinin Kırmızı Zırhı
+488771573252208	Sazlık Şeytanı Kölesinin Sarı Zırhı
+488775868219504	Sazlık Şeytanı Kölesinin Zırhı
+490906171998320	Cocotar Kumaş Zırhı
+490910466965616	Tryah Kumaş Zırhı
+490914761932912	Ator'un İradesi Kumaş Gövde Zırhı
+490919056900208	Paifo Kumaş Zırhı
+491013546180720	Ancara Kumaş Zırhı
+491017841148016	Esbeth Kumaş Zırhı
+491022136115312	Muchia Kumaş Zırhı
+491026431082608	Wyvern Alevi Kumaş Zırh
+491030726049904	Duizeh Kumaş Zırhı
+491035021017200	Izumit Kumaş Zırhı
+491039315984496	Mugleah Kumaş Zırhı
+491069380755568	Myrnen Kumaş Zırhı
+491073675722864	Bollin Kumaş Zırhı
+491077970690160	Livner Kumaş Zırhı
+491082265657456	Ruvib Kumaş Zırhı
+491086560624752	Kan Haydutları Kumaş Vücut Zırhı
+491090855592048	Alzath Kumaş Zırhı
+491095150559344	Beralt Kumaş Zırhı
+491099445526640	Monterima Kumaş Zırhı
+491103740493936	Deorre Kumaş Zırhı
+491116625395824	Faians Kumaş Zırhı
+491129510297712	Concarr Kumaş Zırhı
+491142395199600	Luwea Kumaş Zırhı
+491146690166896	Gael Kumaş Zırhı
+491150985134192	Bolgan Kumaş Zırhı
+491155280101488	Dernat Kumaş Zırhı
+491159575068784	Dondegobi Kumaş Zırhı
+491163870036080	Gobialta Kumaş Zırhı
+491168165003376	Orbus Kumaş Zırhı
+491172459970672	Hentree Kumaş Zırhı
+491176754937968	Oubreve Kumaş Zırhı
+491181049905264	Harghai Kumaş Zırhı
+491215409643632	Telford Kumaş Zırhı
+491335668727920	Daraz Kumaş Zırhı
+491404388204656	Denmore Kumaş Zırhı
+491408683171952	Telin Kumaş Zırhı
+491412978139248	Calis Kumaş Zırhı
+491421568073840	Roshayne Kumaş Zırhı
+491425863041136	Minnutan Kumaş Zırhı
+491434452975728	Drumfin Kumaş Zırhı
+491443042910320	Drimrow Kumaş Zırhı
+491464517746800	Totte Kumaş Zırhı
+491473107681392	Radley Kumaş Zırhı
+491477402648688	Lucion Kumaş Zırhı
+491481697615984	Senian Kumaş Zırhı
+491503172452464	Lackey Kumaş Zırhı
+491507467419760	Kassa Kumaş Zırhı
+491511762387056	Annis Kumaş Zırhı
+491524647288944	Marka Kumaş Zırhı
+491528942256240	Makri Kumaş Zırhı
+491593366765680	Tyran Kumaş Zırhı
+491597661732976	Tiron Kumaş Zırhı
+491601956700272	Tyrune Kumaş Zırhı
+491606251667568	Tarun Kumaş Zırhı
+491610546634864	Tynion Kumaş Zırhı
+491614841602160	Tanion Kumaş Zırhı
+491619136569456	Neslan Kumaş Zırhı
+491623431536752	Eshrun Kumaş Zırhı
+491636316438640	Deshret Kumaş Zırhı
+491649201340528	Takana Kumaş Zırhı
+491657791275120	Lakshi Deri Zırhı
+491670676177008	Ladran Kumaş Zırhı
+491674971144304	Nuslan Kumaş Zırhı
+491679266111600	Ravirun Kumaş Zırhı
+491683561078896	Barian Kumaş Zırhı
+491687856046192	Barcy Kumaş Zırhı
+491692151013488	Bartmun Kumaş Zırhı
+491696445980784	Orthu Kumaş Zırhı
+491700740948080	Tohkar Kumaş Zırhı
+491705035915376	Verdinan Kumaş Zırhı
+491709330882672	Borsehir Kumaş Zırhı
+491713625849968	Keanoff Kumaş Zırhı
+491743690621040	Rhonid Kumaş Zırhı
+491747985588336	Pouhel Kumaş Zırhı
+491752280555632	Dillinger Kumaş Zırhı
+491756575522928	Eckney Kumaş Zırhı
+491786640294000	Baratum Kumaş Zırhı
+491790935261296	Baritum Kumaş Zırhı
+491795230228592	Baras Kumaş Zırhı
+491803820163184	Baraccuro Kumaş Zırhı
+491825294999664	Barrow Kumaş Zırhı
+491829589966960	Bailao Kumaş Zırhı
+491833884934256	Barclao Kumaş Zırhı
+491842474868848	Barch Kumaş Zırhı
+491863949705328	Bedure Zincir Zırhı
+491872539639920	Riksha Zincir Zırhı
+491876834607216	Lathia Kumaş Zırhı
+491885424541808	Kennav Kumaş Zırhı
+491889719509104	Lancats Kumaş Zırhı
+491894014476400	Rangtua Kumaş Zırhı
+491898309443696	Nebin Kumaş Zırhı
+491902604410992	Ranphas Kumaş Zırhı
+491906899378288	Roctar Kumaş Zırhı
+491911194345584	Barbaroy Kumaş Zırhı
+491915489312880	Fiore Kumaş Zırhı
+491919784280176	Warstein Kumaş Zırhı
+491924079247472	Conentry Kumaş Zırhı
+491928374214768	Berkhia Kumaş Zırhı
+491932669182064	Austfeld Kumaş Zırhı
+491941259116656	Gaut Kumaş Zırhı
+491945554083952	Gadereich Kumaş Zırhı
+491949849051248	Ewen Kumaş Zırhı
+491954144018544	Primus'un Kumaş Zırhı
+491962733953136	Diggs Kumaş Zırhı
+491967028920432	Raddler Kumaş Zırhı
+492001388658800	Volghad Kumaş Zırhı
+492005683626096	Ultar Kumaş Zırhı
+492009978593392	Dohann Kumaş Zırhı
+492014273560688	Bahlmers Kumaş Zırhı
+492018568527984	Tolkane Kumaş Zırhı
+492022863495280	Bandide Kumaş Zırhı
+492027158462576	Dwelker Kumaş Zırhı
+492031453429872	Veronde Kumaş Zırhı
+492035748397168	Ruschelle Kumaş Zırhı
+492040043364464	Rosarduin Kumaş Zırhı
+492044338331760	Sherwood Kumaş Zırhı
+492048633299056	Eyratt Kumaş Zırhı
+492052928266352	Gruun Kumaş Zırhı
+492057223233648	Auron Kumaş Zırhı
+492065813168240	Salash Kumaş Zırhı
+492070108135536	Borman Kumaş Zırhı
+492074403102832	Berghill Kumaş Zırhı
+492078698070128	Hassal Kumaş Zırhı
+492082993037424	Meravan Kumaş Zırhı
+492087288004720	Chizhar Kumaş Zırhı
+492091582972016	Dahkavan Kumaş Zırhı
+492095877939312	Ziahl Kumaş Zırhı
+492100172906608	Amundule Kumaş Zırhı
+492104467873904	Sarendion Kumaş Zırhı
+492108762841200	Hysilda Kumaş Zırhı
+492113057808496	Yorkey Kumaş Zırhı
+492117352775792	Dollette Kumaş Zırhı
+492121647743088	Verette Kumaş Zırhı
+492125942710384	Haillen Kumaş Zırhı
+492130237677680	Khalbdan Kumaş Zırhı
+492147417546864	Schillerbin Kumaş Zırhı
+492151712514160	Neblin Kumaş Zırhı
+492160302448752	Skyblazer Kumaş Zırh
+492181777285232	Maskeli Kurtarıcının Kumaş Zırhı
+492186072252528	Keller Kumaş Zırhı
+492203252121712	Pailune Kıyafeti
+492220431990896	Spetsahorn Kumaş Zırhı
+492224726958192	Muddliss Kumaş Zırhı
+492229021925488	Delesyian Kumaş Kıyafet
+492233316892784	Kang Kumaş Zırhı
+492237611860080	Zynian Kumaş Zırhı
+492241906827376	Zamir Kumaş Zırhı
+492246201794672	Lubonon Kumaş Zırhı
+492250496761968	Denill Kumaş Zırhı
+492259086696560	Soylu Kumaş Zırhı
+492267676631152	Odorrey Kumaş Zırhı
+492284856500336	Dega Kumaş Zırhı
+492302036369520	Lapin Deri Ceket
+492306331336816	Jester Deri Ceketi
+492327806173296	Chelcia Plaka Zırhı
+492332101140592	Anti-Meyer Plaka Zırhı
+492344986042480	Anti-Crail Plaka Zırhı
+492375050813552	Kızıl Bıçak Kumaş Vücut Zırhı
+519716812619888	Trish Deri Eldiveni
+519721107587184	Leahdra Deri Eldiveni
+519725402554480	Veile Deri Eldiveni
+519729697521776	Behrun Post Kol Zırhı
+519733992489072	Yargıç'ın Plaka Eldiveni
+519746877390960	Canta Plaka Eldiveni
+519751172358256	Draiga Plaka Eldiveni
+519755467325552	Runae Kumaş Eldiven
+519764057260144	Buz Lanetli Plaka Eldivenleri
+519785532096624	Alev Silahşoru Plaka Eldiveni
+519794122031216	Batz Plaka Eldiveni
+519798416998512	Tarandus Plaka Eldiveni
+519802711965808	Kavurucu Alev Plaka Eldivenleri
+519807006933104	Camsen Plaka Eldiveni
+519815596867696	Dimfeld Plaka Eldiveni
+519828481769584	Agatha'nın Plaka Eldiveni
+519832776736880	Ashad Plaka Eldiveni
+519837071704176	Solas Plaka Eldiveni
+519871431442544	Pernicia Plaka Eldiveni
+519875726409840	Ferman Plaka Eldiveni
+519905791180912	Gri Kurt Deri Eldiveni
+519922971050096	Luon Plaka Eldiveni
+519927266017392	Luthor Plaka Eldiveni
+519931560984688	Akan Plaka Eldiveni
+519935855951984	Dumenis Plaka Eldiveni
+519944445886576	Ratti Plaka Eldiveni
+519948740853872	Ettis Plaka Eldiveni
+519953035821168	Recklin Kumaş Eldiveni
+519970215690352	Kevile Plaka Eldiveni
+519978805624944	Weirren Plaka Eldiveni
+519983100592240	Devinine Plaka Eldiveni
+519987395559536	Buz Kanat Plaka Eldivenleri
+519991690526832	Demenissli Plaka Eldivenleri
+519995985494128	Altın Hırs Plaka Eldivenleri
+520000280461424	Belui Plaka Eldiveni
+520038935167088	Düşmüş Krallığın Plaka Eldivenleri
+524011779915888	Hayvani Zincir Kol Zırhı
+528315337146480	Austfeld Deri Eldiveni
+528336811982960	Fiory Deri Eldiveni
+528341106950256	Janiklo Deri Eldiveni
+528353991852144	Barre Deri Eldiveni
+528358286819440	Berkhia Deri Eldiveni
+528362581786736	Goldheart Zincir Eldiveni
+528366876754032	Kordaav Deri Eldiveni
+528384056623216	Cacoreum Deri Eldiveni
+528396941525104	Claire Deri Eldiveni
+528414121394288	Hark Deri Eldiveni
+528422711328880	Weiston Deri Eldiveni
+528431301263472	Talisin Deri Eldiveni
+528435596230768	Melvin Deri Eldivenleri
+528444186165360	Trion Deri Eldiveni
+528452776099952	Ebenezer Deri Eldiveni
+528457071067248	Pavis Deri Eldivenleri
+528465661001840	Rondel Deri Eldiveni
+528469955969136	Perseus Deri Eldiveni
+528504315707504	Byren'in Deri Eldiveni
+528508610674800	Kadallon Deri Eldiveni
+528517200609392	Salun Deri Eldiveni
+528542970413168	Lespedan Deri Eldiveni
+528555855315056	Rheigis Deri Eldiveni
+528560150282352	Cadı Ormanı Deri Eldiveni
+528573035184240	Lasfeld Deri Eldiveni
+528577330151536	Wyrdins Deri Eldiveni
+528581625118832	Andria Deri Eldiveni
+528590215053424	Larkri Deri Eldiveni
+528611689889904	Rossbara Deri Eldiveni
+528615984857200	Blyne Deri Eldiveni
+528641754660976	Rhinard Deri Eldiveni
+528697589235824	Sleishorn Deri Eldiveni
+528706179170416	Mornington Kumaş Eldiveni
+528714769105008	Bandellure Deri Eldiveni
+528727654006896	Nocburn Deri Eldiveni
+528736243941488	Drumard Deri Eldiveni
+528753423810672	Stratton Deri Eldiveni
+528762013745264	Hegea Deri Eldiveni
+528766308712560	Camsen Deri Eldiveni
+528783488581744	Matthias Deri Eldiveni
+528792078516336	Layddete Deri Eldiveni
+528804963418224	Khalbdan Deri Eldiveni
+528822143287408	Rueconec Deri Eldiveni
+528852208058480	Rakhir Kumaş Eldiveni
+528865092960368	Satyros Plaka Eldiveni
+528869387927664	Düşmüş Hain'in Deri Eldiveni
+528877977862256	Steinmers Deri Eldiveni
+528899452698736	Adeion Deri Eldiveni
+528908042633328	Crudil Deri Eldiveni
+528916632567920	Conchetta Deri Eldiveni
+528925222502512	Loudan Deri Eldiveni
+528929517469808	Calio Deri Eldiveni
+528933812437104	Viraiton Deri Eldiveni
+528946697338992	Maeve Deri Eldiveni
+528955287273584	Deskio Deri Eldiveni
+528968172175472	Geloufeld Plaka Eldiveni
+528985352044656	Asty Kumaş Eldiveni
+528998236946544	Dimfeld Deri Eldiveni
+529002531913840	Trowder Deri Eldiveni
+529006826881136	Caviden Deri Eldiveni
+529041186619504	Mistum Deri Eldiveni
+529058366488688	Rowley Deri Eldiveni
+529066956423280	Daveed Deri Eldiveni
+529071251390576	Bettie Deri Eldiveni
+529109906096240	Lennigen Deri Eldiveni
+529118496030832	Kaeridyn Deri Eldiveni
+529127085965424	Merridew Deri Eldiveni
+529144265834608	Astia Kumaş Eldiveni
+529152855769200	Aldwin Deri Eldiveni
+529161445703792	Latian Deri Eldiveni
+529178625572976	Vicaron Deri Eldiveni
+529187215507568	Leppo Deri Eldiveni
+529191510474864	Brogant Deri Eldiveni
+529204395376752	Delise Deri Eldiveni
+529208690344048	Boggen Deri Eldiveni
+529221575245936	Dernyl Deri Eldiveni
+529225870213232	Wertesh Deri Eldiveni
+529230165180528	Keimbel Deri Eldiveni
+529234460147824	Sladen Deri Eldiveni
+529243050082416	Persein Deri Eldiveni
+529255934984304	Mechlin Deri Eldiveni
+529260229951600	Essembel Deri Eldiveni
+529264524918896	Contra Deri Eldiveni
+529311769559152	Maskeli Kurtarıcının Deri Eldiveni
+529320359493744	Dondegobi Deri Eldiveni
+529324654461040	Gobialta Deri Eldiveni
+529328949428336	Tershan Deri Eldiveni
+529337539362928	Rignon Deri Eldiveni
+529341834330224	Reclonne Deri Eldiveni
+529346129297520	Ricrau Deri Eldiveni
+529359014199408	Tiron Deri Eldiveni
+529363309166704	Taylonne Deri Eldiveni
+529384784003184	Haron Kumaş Eldiveni
+529397668905072	Kattinan Deri Eldiveni
+529401963872368	Saruen Deri Eldiveni
+529427733676144	Luca Deri Eldiveni
+529436323610736	Tikkal Deri Eldiveni
+529440618578032	Markna Deri Eldiveni
+529457798447216	Lukas Deri Eldiveni
+529479273283696	Karanlık Liderin Deri Eldivenleri
+529483568250992	Salatos Deri Eldiveni
+529492158185584	Ellisco Deri Eldiveni
+529496453152880	Elashe Deri Eldiveni
+529509338054768	Kasria Deri Eldiveni
+529517927989360	Renshaku Deri Eldiveni
+529522222956656	Reshesh Deri Eldiveni
+529530812891248	Ravellu Deri Eldiveni
+529535107858544	Remebrou Deri Eldiveni
+529539402825840	Rainier Deri Eldiveni
+529543697793136	Lave Deri Eldiveni
+529547992760432	Mache Deri Eldiveni
+529552287727728	Martail Deri Eldiveni
+529556582695024	Wentz Deri Eldiveni
+529573762564208	Bolson Deri Eldiveni
+529578057531504	Cains Deri Eldiveni
+529582352498800	Dalton Deri Eldiveni
+529586647466096	Eplern Deri Eldiveni
+529590942433392	Archen Deri Eldiveni
+529595237400688	Dunion Deri Eldiveni
+529599532367984	Laplace Deri Eldiveni
+529603827335280	Bristel Deri Eldiveni
+529621007204464	Masti Plaka Eldiveni
+529625302171760	Takkan Deri Eldiveni
+529629597139056	Arsen Deri Eldiveni
+529633892106352	Takah Kumaş Eldiveni
+529638187073648	Gümüş Plaka Eldivenleri
+529642482040944	Chent Deri Eldiveni
+529646777008240	Kara Ayılar'ın Deri Eldiveni
+529655366942832	Gri Kurt Kumaş Eldivenleri
+529659661910128	Dherri Deri Eldiveni
+529668251844720	Patten Deri Eldiveni
+529672546812016	Gümüş Kurt Deri Eldivenleri
+529676841779312	Rattu Kumaş Eldiveni
+529689726681200	Lercent Deri Eldiveni
+529694021648496	Alaca Karanlık Dişi Deri Eldivenleri
+529706906550384	Dram Deri Kol Zırhı
+529711201517680	Bunce Deri Eldiveni
+529715496484976	Maters Deri Eldiveni
+529728381386864	Rannys Deri Eldiveni
+529758446157936	Dane Deri Bilekliği
+529792805896304	Reak Deri Eldiveni
+529801395830896	Badran Deri Eldiveni
+529805690798192	Rigma Deri Eldiveni
+529809985765488	Verdesh Deri Eldiveni
+529814280732784	Jasmern Deri Eldiveni
+529818575700080	Esha Deri Eldiveni
+529822870667376	Shellus Deri Eldiveni
+529827165634672	Waller Deri Eldiveni
+529848640471152	Salmae Deri Eldiveni
+529852935438448	Derrison Deri Eldiveni
+529861525373040	Dirrebin Deri Eldiveni
+529870115307632	Dallaban Deri Eldiveni
+529883000209520	Lawson Deri Eldiveni
+529887295176816	Gaiman Deri Eldiveni
+532597419540592	Stugrub Kumaş Eldiveni
+532610304442480	Arti Deri Eldiveni
+532657549082736	Beyaz Karga Adam Deri Eldiveni
+532661844050032	Baidan Kumaş Eldiveni
+532674728951920	Porcell Kumaş Eldiveni
+532700498755696	Whitley Kumaş Eldiveni
+532713383657584	Tyran Deri Eldiveni
+532717678624880	Tiron Kumaş Eldiveni
+532790693068912	Setri Kumaş Eldiveni
+532794988036208	Serbello Kumaş Eldiveni
+532812167905392	Ashtu Kumaş Eldiveni
+532816462872688	Ratisan Kumaş Eldiveni
+532820757839984	Duroin Kumaş Eldiveni
+532829347774576	Ludynn Kumaş Eldiveni
+532837937709168	Derrison Kumaş Eldiveni
+532846527643760	Gadereich Kumaş Eldiveni
+532850822611056	Chizhar Kumaş Eldiveni
+532863707512944	Gün Batımı Sazlığı Kumaş Eldiveni
+532872297447536	Jester Deri Eldivenler
+532880887382128	Ator'un İradesi Deri Eldiveni
+532889477316720	Witters Plaka Eldiveni
+532893772284016	Dulone Plaka Eldivenleri
+532898067251312	Ejder Şövalyesi Savaşçısı'nın Plaka Eldiveni
+532902362218608	Ejder Şövalyesi Okçusunun Plaka Eldiveni
+532906657185904	Caliburn'ün Plaka Eldiveni
+562645010743408	Boyun Eğmez Savaşçının Plaka Çizmeleri
+562649305710704	Altın Hırs Plaka Çizmeleri
+562666485579888	Lattua Plaka Çizmesi
+562670780547184	Buz Kanat Plaka Çizmeleri
+562679370481776	Yargıç'ın Plaka Çizmesi
+562696550350960	Canta Plaka Çizmesi
+562730910089328	Batz Plaka Çizmesi
+562735205056624	Chelcia Plaka Çizmesi
+562739500023920	Ashad Plaka Çizmesi
+562743794991216	Solas Plaka Çizmesi
+562752384925808	Serval Plaka Çizmesi
+562756679893104	Tyrdall Deri Çizmesi
+562765269827696	Antumbra Plaka Çizmesi
+562808219500656	Sigremon Plaka Çizmesi
+562812514467952	Dulone Plaka Ayakkabı
+562816809435248	Sahazad Plaka Çizmesi
+562821104402544	Demenissian Plaka Çizmeleri
+562838284271728	Düşmüş Krallığın Plaka Pelerini
+562855464140912	Gri Kurt Deri Çizmesi
+566961452875888	Regglia Deri Çizmesi
+566965747843184	Rezzcan Deri Çizmesi
+566970042810480	Baku Deri Çizmesi
+571234945335408	Seiger Deri Çizmesi
+571252125204592	Rodderham Deri Çizmesi
+571260715139184	Leontyne Deri Çizmesi
+571269305073776	Bollin Deri Çizmesi
+571277895008368	Helfryn Deri Çizmesi
+571286484942960	Eustice Deri Çizmesi
+571316549714032	Halssius Rahibi Deri Ayakkabısı
+571325139648624	Tobias Deri Çizmesi
+571329434615920	Arghai Deri Çizmesi
+571333729583216	Nevin Deri Çizmesi
+571355204419696	Mulia Deri Çizmesi
+571372384288880	Cyllian Deri Çizmesi
+571376679256176	Gümüş Kurt Deri Çizmeleri
+571380974223472	Correlly Deri Çizmesi
+571385269190768	Benberry Deri Çizmesi
+571389564158064	Midlier Deri Çizmesi
+571393859125360	Derting Deri Çizmesi
+571402449059952	Steyer Deri Çizmesi
+571406744027248	Ebenezer Deri Çizmesi
+571415333961840	Tesslit Deri Çizmesi
+571419628929136	Rhonda Deri Çizmesi
+571441103765616	Ramastern Deri Çizmesi
+571462578602096	Layne Deri Çizmesi
+571492643373168	Kadallon'un Deri Çizmesi
+571518413176944	Pierpont Deri Çizmesi
+571531298078832	Dyrfrith Deri Çizmesi
+571539888013424	Gri Kurt Deri Çizmeleri
+571557067882608	Düşmüş Hain'in Deri Çizmesi
+571582837686384	Sarantos Deri Çizmesi
+571608607490160	Levinto Deri Çizmesi
+571612902457456	Ruthie Deri Çizmesi
+571625787359344	Colbern Deri Çizmesi
+571647262195824	Bolton Deri Çizmesi
+571733161541744	Nagmore Deri Çizmesi
+571737456509040	Mornington Deri Çizmesi
+571750341410928	Woodbrock Deri Çizmesi
+571763226312816	Russmore Deri Çizmesi
+571771816247408	Clarille Deri Çizmesi
+571780406182000	Meadows Deri Çizmesi
+571823355854960	Keredig Deri Çizmesi
+571831945789552	Neirnim Deri Çizmesi
+571857715593328	Matis Deri Çizmesi
+571935025004656	Tarandus Deri Çizmesi
+571943614939248	Sydmon Deri Çizmesi
+571952204873840	Pahna Deri Çizmesi
+571965089775728	Rhegis Deri Çizmesi
+571969384743024	Maskeli Kurtarıcının Deri Çizmesi
+571982269644912	Crudil Deri Çizmesi
+571995154546800	Kavurucu Alev Deri Çizmeleri
+572016629383280	Huntington Deri Çizmesi
+572020924350576	Adeion Deri Çizmesi
+572038104219760	Diencia Kumaş Ayakkabısı
+572055284088944	Pavis Deri Ayakkabısı
+572059579056240	Trowder Deri Ayakkabısı
+572072463958128	Pieti Deri Çizmesi
+572076758925424	Norman Deri Çizmesi
+572085348860016	Driseld Deri Çizmesi
+572093938794608	Dutrat Deri Çizmesi
+572098233761904	Reus Deri Çizmesi
+572102528729200	Lascaux Deri Çizmesi
+572106823696496	Mistum Deri Çizmesi
+572111118663792	Sillau Deri Çizmesi
+572115413631088	Fiatal Deri Çizmesi
+572132593500272	Aurelian Deri Çizmesi
+572145478402160	Eshian Deri Çizmesi
+572192723042416	Clays Deri Çizmesi
+572197018009712	Daveed Deri Çizmesi
+572201312977008	Beattie Deri Çizmesi
+572205607944304	Leegrau Deri Çizmesi
+572214197878896	Hroadar Deri Çizmesi
+572239967682672	Trish Deri Çizmesi
+572244262649968	Katitz Deri Çizmesi
+572248557617264	Isilon Deri Çizmesi
+572261442519152	Elish Deri Çizmesi
+572265737486448	Runae Deri Çizmesi
+572270032453744	Carcon Deri Çizmesi
+572274327421040	Diovern Deri Çizmesi
+572300097224816	Erphy Deri Çizmesi
+572308687159408	Oakten Deri Çizmesi
+572317277094000	Seras Deri Çizmesi
+572321572061296	Cateine Deri Çizmesi
+572330161995888	Loutte Deri Çizmesi
+572338751930480	Bourveten Deri Çizmesi
+572343046897776	Lankel Deri Çizmesi
+572347341865072	Gannech Deri Çizmesi
+572351636832368	Kervel Deri Çizmesi
+572355931799664	Walder Deri Çizmesi
+572360226766960	Donaff Deri Çizmesi
+572373111668848	Herdel Deri Çizmesi
+572385996570736	Ator'un İradesi Deri Çizmesi
+572390291538032	Quent Deri Çizmesi
+572394586505328	Gri Rhegis Deri Çizmeleri
+572407471407216	Tyran Deri Çizmesi
+572411766374512	Tyrune Kumaş Ayakkabısı
+572416061341808	Tiron Deri Çizmesi
+572428946243696	Tiruna Deri Ayakkabısı
+572433241210992	Darman Deri Çizmesi
+572437536178288	Saruen Deri Çizmesi
+572450421080176	Pasti Deri Çizmesi
+572467600949360	Kassantra Deri Çizmesi
+572480485851248	Leguna Deri Çizmesi
+572484780818544	Layta Plaka Çizmesi
+572493370753136	Dannoche Deri Çizmesi
+572497665720432	Layta Deri Çizmesi
+572501960687728	Catcheta Deri Çizmesi
+572506255655024	Caico Deri Çizmesi
+572510550622320	Cosgrove Deri Çizmesi
+572514845589616	Caelough Deri Çizmesi
+572519140556912	Kasset Deri Çizmesi
+572523435524208	Cassrow Deri Çizmesi
+572527730491504	Katz Deri Çizmesi
+572536320426096	Ligatra Deri Çizmesi
+572540615393392	Cantu Deri Çizmesi
+572549205327984	Andaran Deri Çizmesi
+572553500295280	Maldrick Deri Çizmesi
+572557795262576	Anderitz Deri Çizmesi
+572562090229872	Trilly Deri Çizmesi
+572566385197168	Fiore Deri Çizmesi
+572570680164464	Perelli Deri Ayakkabısı
+572609334870128	Lasian Deri Çizmesi
+572613629837424	Ludynn Deri Çizmesi
+572617924804720	Kurua Deri Çizmesi
+572622219772016	Stoddard Deri Çizmesi
+572626514739312	Wattern Deri Çizmesi
+572630809706608	Badran Deri Çizmesi
+572635104673904	Hauvern Deri Çizmesi
+572639399641200	Begill Deri Çizmesi
+572643694608496	Dreiger Deri Çizmesi
+572647989575792	Esha Deri Çizmesi
+572660874477680	Vixer Deri Çizmesi
+572669464412272	Meravan Deri Çizmesi
+572673759379568	Salmae Deri Çizmesi
+572678054346864	Nehrut Deri Çizmesi
+572682349314160	Juman Deri Çizmesi
+572708119117936	Warren Beynon'un Deri Çizmesi
+572716709052528	Sein Deri Çizmesi
+572721004019824	Dolters Deri Çizmesi
+572725298987120	Kara Kanat Deri Çizmeleri
+572733888921712	Orbit Deri Çizmesi
+572738183889008	Alvitt Deri Çizmesi
+572742478856304	Arrenya Deri Çizmesi
+572746773823600	Belui Deri Çizmesi
+575551387467888	Triloan Deri Çizmesi
+575564272369776	Bayer Deri Çizmesi
+575572862304368	Pailune Ayakkabısı
+575581452238960	Reus Kumaş Ayakkabısı
+575590042173552	Eckney Kumaş Ayakkabısı
+575620106944624	Marrada Deri Çizmesi
+575624401911920	Endoron Deri Çizmesi
+575645876748400	Scoppa Deri Çizmesi
+575654466682992	Whitley Kumaş Ayakkabısı
+575731776094320	Kerdmann Kumaş Ayakkabısı
+575736071061616	Barrette Kumaş Ayakkabısı
+575740366028912	Gaut Kumaş Ayakkabısı
+575748955963504	Matia Deri Çizmesi
+575757545898096	Chizhar Kumaş Ayakkabısı
+575766135832688	Gün Batımı Sazlığı Kumaş Ayakkabısı
+575770430799984	Lapin Kumaş Çizmeleri
+575783315701872	Caliburn'ün Plaka Çizmesi
+858997754167408	Gri Kurt'un Kılıcı
+859053588742256	Meşale
+859083653513328	Glenmour Kılıcı
+859096538415216	Sydmon Kılıcı
+859143783055472	Wells'in Kılıcı
+859203912597616	Alabaster Kavisli Kılıç
+859212502532208	Varnia Kılıcı
+859216797499504	Şövalye Lordun Kılıcı
+859221092466800	Yıkılmış Ülkenin Kılıcı
+859302696845424	Erimiş Hırs
+859324171681904	Volono Kılıcı
+859328466649200	Peltree Kılıcı
+862863224733808	Beyaz Rüzgâr Meçi
+862867519701104	İllüzyon Kılıcı
+862876109635696	Dekarr Kılıcı
+862919059308656	Lord'un Kılıcı
+862931944210544	Spada Kılıcı
+862940534145136	Acria'nın Kılıcı
+862949124079728	Lejyonerin Gladius'u
+862953419047024	Hayatta Kalanın Yalnızlığı
+862962008981616	Gücün Prangası
+863301311398000	Yargıç'ın Meçi
+863305606365296	Grace Meçi
+863309901332592	Leone Meçi
+863314196299888	Pirinç Gül Meçi
+863318491267184	Düşmüş Bir Hanedanın Meçisi
+863322786234480	Volono Meçi
+863327081201776	Yıkık Krallığın Meçi
+863331376169072	Elemore Meçi
+863335671136368	Dövüş Meçi
+863339966103664	Gilliam Meçi
+863344261070960	Lambert Meçi
+863348556038256	Barış Meçi
+863352851005552	Elenore Meçi
+863370030874736	Liberre Meçi
+901956017062000	Becker Baltası
+901981786865776	Lanford Baltası
+901990376800368	Lambert Tek El Baltası
+901998966734960	Gilliam Baltası
+902041916407920	Maeve Baltası
+902067686211696	Rhias'ın Baltası
+902093456015472	Kylus'un Baltası
+902136405688432	Tardik Baltası
+902162175492208	Delonde Baltası
+902187945295984	Leofric İki Başlı Baltası
+902196535230576	Kara Demir Balta
+902248074838128	Timberham Baltası
+902265254707312	Karga Kardeşlerin Baltası
+902273844641904	Parashu Baltası
+902282434576496	Toprağın Halkası
+902286729543792	Gümüş Kurt Baltası
+944901395054704	Kadel Gürzü
+944909984989296	Kordaav Gürzü
+944918574923888	Yürüyen Baston
+944922869891184	Lanford Gürzü
+944927164858480	Donmuş Ruh
+944944344727664	Octarr'ın Mirası
+944952934662256	Düzenbazın Gürzü
+944970114531440	Wells Gürzü
+944974409498736	Kemik Çukuru Gürzü
+944982999433328	Kaymak Taşı Gürzü
+944987294400624	Balton Gürzü
+944991589367920	Iris Gürzü
+949187772416112	Aeserion Zincirli Gürzü
+987855362982000	Varnia Hançeri
+987967032131696	Becker Hançeri
+988095881150576	Kaymak Taşı Hançeri
+988113061019760	Karanlık Kovalamaca Hançeri
+988121650954352	Karga Kardeşlerin Hançeri
+988156010692720	Ator'un Parmağı
+991712243613808	Kylus'un Hançeri
+991729423482992	Sydmon Hançeri
+991746603352176	Delesyialı Hançeri
+991755193286768	Dekarr Hançeri
+991780963090544	Pailune Ayin Bıçağı
+992137445376112	Aeserion Hançeri
+1030796446007408	Tardik Uzun Kılıcı
+1030860870516848	Vahşi Çift Elli Kılıç
+1030869460451440	Balton Uzun Kılıcı
+1030873755418736	Çiy Yuvası Uzun Kılıcı
+1030878050386032	Thalwynd Uzun Kılıcı
+1030890935287920	Iris Uzun Kılıcı
+1030903820189808	Rhett'in Uzun Kılıcı
+1030916705091696	Karanlık Kovalamaca Kâse
+1030921000058992	Adaletin Hükmü
+1030925295026288	Mutlak Adalet Uzun Kılıcı
+1030938179928176	Sydmon Uzun Kılıcı
+1030972539666544	İgnir
+1030976834633840	Delesyia Uzun Kılıcı
+1035087118336112	Aeserion Uzun Kılıcı
+1035095708270704	Dandelion Çift Elli Kılıcı
+1073801953542256	Tamamlanmamış Başyapıt
+1073806248509552	Tardik Büyük Baltası
+1073810543476848	Iris Büyük Baltası
+1073814838444144	Gorthak Çift Elli Balta
+1073823428378736	Trol Kancalı Büyük Baltası
+1073827723346032	Kylus'un Büyük Baltası
+1073832018313328	Kemik Çukuru Büyük Baltası
+1073836313280624	Yelpaze Bıçaklı Büyük Balta
+1073844903215216	At Nalı Bıçaklı Büyük Balta
+1073849198182512	Tazıların Kesme Baltası
+1073853493149808	Pailune Ağaç Kesme Baltası
+1073862083084400	Sigremon Büyük Baltası
+1078011021492336	Becker Büyük Baltası
+1078015316459632	Dekarr Büyük Baltası
+1078036791296112	Aeserion Büyük Baltası
+1116721561731184	Becker Savaş Çekici
+1116725856698480	Tuz Yolu Savaş Çekici
+1116747331534960	Kemik Çukuru Savaş Çekici
+1116751626502256	Thalwynd Savaş Çekici
+1116755921469552	Kaktüs Savaş Çekici
+1116768806371440	Arlen Savaş Çekici
+1116773101338736	Arlen Savaş Çekici
+1116777396306032	Zagran Savaş Çekici
+1116803166109808	Tardik Savaş Çekici
+1116811756044400	Iris Savaş Çekici
+1116820345978992	Gorthak Savaş Çekici
+1120986464256112	Aeserion Savaş Çekici
+1138170628407408	Yağmacının Baltalı Kargısı
+1138174923374704	Kaymak Taşı Baltalı Kargısı
+1138179218342000	Iris Baltalı Kargısı
+1138183513309296	Lambert Halberdı
+1138187808276592	Gilliam Balta Mızrağı
+1138192103243888	Kemik Çukuru Baltalı Kargısı
+1138196398211184	Gezgin Kılıç Balta Mızrağı
+1138200693178480	Becker Baltalı Kargısı
+1138209283113072	Celeste'in Baltalı Kargısı
+1138213578080368	Altın Öncü
+1159645464887408	Rosemond Tabancası
+1159649759854704	Jemel Tabancası
+1159654054822000	Falconne Tabancası
+1159658349789296	Vilancia Tabancası
+1159688414560368	Geçmişin Gölgesi Tabancası
+1159697004494960	Caliburn'un Merhameti Tabancası
+1202595137847408	Arlen Misket Tüfeği
+1202599432814704	Becker Misket Tüfeği
+1202603727782000	Delesyialı Misket Tüfeği
+1202608022749296	Wells Misket Tüfeği
+1202612317716592	Leofric Misket Tüfeği
+1202663857324144	Hilekârlar'ın Misket Tüfeği
+1202668152291440	Pailune Misket Tüfeği
+1202672447258736	Gustav Misket Tüfeği
+1245544810807408	Balton Kalkanı
+1245600645382256	Iris Kalkanı
+1245613530284144	Sydmon Yuvarlak Kalkanı
+1245626415186032	Gecenin Aynası
+1245630710153328	Drake Kalkanı
+1245639300087920	Yükselen Ok Kalkanı
+1245652184989808	Geyik Lordu'nun Kalkanı
+1245785328975984	Dekarr Kalkanı
+1245789623943280	Sydmon Uçurtma Kalkanı
+1245927062896752	Tardik Kalkanı
+1245931357864048	Çiy Yuvası Kalkanı
+1246025847144560	Çiçekli Bahar Gününün Kalkanı
+1246030142111856	Demeniss Cesaret Kalkanı
+1246034437079152	Demeniss Sadakat Kalkanı
+1246038732046448	Demeniss İtaat Kalkanı
+1247696589422704	Gilliam Geniş Kalkanı
+1247700884390000	Lifsoth Geniş Kalkanı
+1247705179357296	Savaşdikeni Güçlendirilmiş Geniş Kalkanı
+1247713769291888	Thalwynd Geniş Kalkanı
+1247722359226480	Lucon Geniş Kalkanı
+1247726654193776	Rhonid Geniş Kalkanı
+1247730949161072	Balton Geniş Kalkanı
+1247735244128368	Rekel Geniş Kalkanı
+1247752423997552	Lanford Geniş Kalkanı
+1247756718964848	Gülen Kukla Kalkanı
+1247786783735920	Becker Geniş Kalkanı
+1247799668637808	Seri Üretim Rekel Geniş Kalkanı
+1247821143474288	Rekel Geniş Dikenli Kalkanı
+1247825438441584	Savaşdikeni Geniş Kalkanı
+1247829733408880	Demeniss Askerinin Geniş Kalkanı
+1249822598234224	Lejyon Mızrakçılarının Büyük Kalkanı
+1288494483767408	Altın Düğümlü Ata Yayı
+1288498778734704	Dekarr Yayı
+1288503073702000	Becker Yayı
+1288507368669296	Alaca Karanlık Ulakları'nın Yayı
+1288541728407664	Tardik Yayı
+1288546023374960	Kylus Yayı
+1288550318342256	Sydmon Yayı
+1288554613309552	Kançelik Yayı
+1288567498211440	Tommaso Yayı
+1288571793178736	Savaşdikeni Yayı
+1288588973047920	Çılgın Ruh Yay
+1288704937164912	Beyaz Tahta Yayı
+1292785156096112	Aeserion Yayı
+1292789451063408	Kızıl Muhafız Yayı
+1331474221498480	Sydmon Mızrağı
+1331478516465776	Alfonso'nun Mızrağı
+1331491401367664	Kylus'un Mızrağı
+1331495696334960	Kaymak Taşı Mızrağı
+1331517171171440	Savaşdikeni Mızrağı
+1331538646007920	Testere Dişi Yok Edici'nin Mızrağı
+1331542940975216	Dürüstlük Mızrağı
+1331547235942512	Valgash'ın Bitmemiş İşi
+1331560120844400	Karanlık Kovalamaca Dikeni
+1331573005746288	Kuzey Rüzgârının Yabası
+1331590185615472	Hainin Mızrağı
+1331607365484656	Geçici Asa
+1374393829687408	Hyde Arbaleti
+1374398124654704	Güneyli Gezgin Trol Arbaleti
+1417343502647408	Rhinard Topu
+1417347797614704	Elektromanyetik Alev Püskürtücü
+1417352092582000	Elektromanyetik Buz Püskürtücü
+1589142194487408	Pailune Pompalı Tüfeği
+1589146489454704	Çiy Yuvası Pompalı Tüfeği
+1589150784422000	Mortimer Pompalı Tüfeği
+1589155079389296	Metilbahm Pompalı Tüfeği
+1589159374356592	Delesyia Pompalı Tüfeği
+1589163669323888	Kan Pompalı Tüfeği
+1589167964291184	Dane Pompalı Tüfeği
+1634239351095408	Küçük Demeniss Sancak Mızrağı
+1634252235997296	Küçük Kraliyet Av Alanı Sancak Mızrağı
+1634260825931888	Küçük Kara Ayılar Sancak Mızrağı
+1717986918400112	Becker Büyük Çekici
+1717991213367408	Altın Ejderha Pençesi
+1717995508334704	Ateşin Büyük Çekici
+1717999803302000	Hilekârlar Büyük Çekici
+1718004098269296	Lanford Büyük Çekici
+1718008393236592	Kemik Çukuru Büyük Çekici
+1760945181294704	Volkanik Patlatıcı
+1760953771229296	Bakır Yumruk Matkabı
+1760970951098480	Öfkeli Dalgalar Zırh Eldiveni
+1760975246065776	Demir Yumruklar Zırh Eldiveni
+1760983836000368	Muskan'ın Üst Gövde Klonu
+1760988130967664	Muskan'ın Alt Gövde Klonu
+1846840232247408	Uyku İğnesi
+2147487942967408	Engizisyoncunun Büyük Baltası
+2147505122836592	Desenli Taş Çift Elli Balta
 2576984672567408	Oymalı Bakır Küpeler
 2576988967534704	Oymalı Gümüş Küpeler
 2576993262502000	Oymalı Altın Küpeler
 2577001852436592	Altın Geyiğin Gözyaşı
-25774098743408	Küçük Çanta
-25778393710704	Orta Çanta
-25782688678000	Ekstra Büyük Çanta
-25791278612592	Büyük Çanta
-2589973173361442928	Büyük Rhegis Deri Çizmeleri
-2591869818034454640	Siyah Çelik Renkshaw Plaka Miğferi
-2609680446115545200	Ağır Kova
 2619938640494704	Oymalı Gümüş Kolye
 2619947230429296	Oymalı Bakır Kolye
 2619990180102256	Özenle Üretilmiş Altın Kolye
@@ -294,24 +1477,19 @@
 2662896903389296	Pürüzlü Mavi Yüzük
 2662922673193072	Pürüzlü Mavi Taş Yüzük
 2662926968160368	Mükemmel Altın Yüzük
-276518962408194160	Wells Süvari At Başlığı
-2808099654493798512	Aşınmış Sarantos Deri Çizmeleri
-2851662060373147760	Siyah Çelik Descao Plaka Miğferi
-2995175360322076784	Grotevant Plaka Ayakkabı
-300690660393072	Eski Ahşap Bebek
-3083646326500491376	Siyah Çelik Spiddle Plaka Zırhı
+3006481402167408	Kumaş Parçaları
+3049431075127408	Kereste
 3092380748087408	Demir Cevheri
 3092385043054704	Gümüş Cevheri
 3092389338022000	Altın Cevheri
 3092393632989296	Bakır Cevheri
 3092419402793072	Bizmut Cevheri
+3098823199031408	Garnet
 3098827493998704	Epidot
 3098831788966000	Azurit
 3098836083933296	Elmas
 3098840378900592	Kan Taşı
 3098844673867888	Skolezit Cevheri
-310989639781449840	Çöl Killi Deri Çizmeler
-3117835747940368496	Canusti Plaka Zırhı
 3178280094007408	İnce Post
 3178284388974704	Kısa Tüylü Post
 3178288683942000	Uzun Tüylü Post
@@ -322,16 +1500,21 @@
 3217364296401008	Küp Şeker
 3217793793130608	At Toniği
 3217802383065200	At Uyarıcısı
-322122547200112	İlk Eser
+3221234061934704	Buğday
 3221238356902000	Havuç
-322126842167408	Abis Eseri
-322131137134704	Solgun Abis Eseri
+3221242651869296	Fasulye
+3221251241803888	Elma
+3221259831738480	Üzüm
+3221264126705776	Meşe Palamudu
+3221302781411440	Yulaf
+3221307076378736	Mısır
+3221328551215216	Soğan
 3221332846182512	Portakal
+3221354321018992	Şeftali
 3221375795855472	Domates
 3221397270691952	Ağaç Balı
 3221401565659248	Yaban Balı
 3221435925397616	Peynir
-322552043929712	Gri Yeleli'nin Jetonu
 3225537619165296	Mercan Mantarı
 3225962820927600	Biberiye
 3225967115894896	Pembe Biberiye
@@ -342,6 +1525,7 @@
 3225988590731376	Beyaz Lavanta
 3225992885698672	Sarı Lavanta
 3225997180665968	Sarımsak
+3226001475633264	Keten
 3226027245437040	Çöl Kavunu
 3226044425306224	Sütleğen
 3226048720273520	Kırmızı Sütleğen
@@ -350,12 +1534,15 @@
 3226087374979184	Patates
 3226091669946480	Tatlı Patates
 3226095964913776	Böğürtlen
+3229819701559408	Tuz
+3229828291494000	Şeker
 3229836881428592	Yemeklik Yağ
 3229905600905328	Sert Et
 3233040927031408	Hayvan Gübresi
 3238422521053296	Zehir
 3238431110987888	Örümcek Ağı
 3238671629156464	Asit Örümceği Zehri
+3242764732989552	Yumurta
 3249194299031664	Arı Kovanı
 3249198593998960	Yabani Ginseng
 3249220068835440	Uzun Boynuz
@@ -369,22 +1556,20 @@
 3250865041309808	Gelin Soğanı
 3251298833006704	Kadife Çiçeği
 3251307422941296	Kapanejder
+3251316012875888	Şakayık
 3251320307843184	Begonya
+3251328897777776	Hercai Menekşe
 3251333192745072	Müge
 3251337487712368	Dunbarya
 3251341782679664	Pamuk
 3251346077646960	Taş Orkidesi
-3251828544208109680	Koltuk Değneği
 3337193883959408	Altın Elma
-3341530332049440880	Kunan Plaka Zırhı
 3393032753774704	Boş Şişe
 3414537655025776	Küçük Kemik
 3414675093979248	Eskimiş Kolye
 3414679388946544	Lekeli Kolye
 3414722338619504	Eski Yüzük
 3414726633586800	Kararmış Yüzük
-343601678647408	Tarif: Buharda Et
-343610268582000	Tarif: Meyve Çayı
 3436175700263024	Gizemli İksir
 3436721161109616	Serkis Hanesi'nin Mührü
 3440273099063408	Hernand Giriş İzni
@@ -417,31 +1602,6 @@
 3449000472608880	Çiftçinin Hazine Haritası Parçası 3
 3449004767576176	Çiftçinin Hazine Haritası Parçası 4
 3449034832347248	Gizemli Totem Hazine Haritası Parçası 1
-345341140402288	Tarif: Kuş Eti Çorbası
-345366910206064	Tarif: Boynuz Çayı
-345371205173360	Tarif: Meyve Suyu
-345766342164592	Tarif: Mercan Mantarlı Çay
-345783522033776	Tarif: Çam Mantarlı Çay
-345787817001072	Tarif: Şitaki Mantarlı Çay
-345869421379696	Tarif: Ballı Çay
-347084897124464	Tarif: Tuzlu Izgara Kuş Eti
-3512701889944748144	Dumenis Plaka Miğferi
-3550753676689670256	Siyah Çelik Longia Plaka Miğferi
-36511516983408	Beyaz Boynuz'un Yüzüğü
-36515811950704	Yıldırım Yüzüğü
-36524401885296	Karanlık Sihir Küpesi
-36528696852592	Ogre'nin Yüzüğü
-36532991819888	Cadı'nın Yüzüğü
-36545876721776	Taç Yaprak Küpeleri
-37366215475312	Kızıl Avcı Zincir Zırhı
-37800007172208	Kar Fırtınası Kristali Kolyesi
-39092792328304	Hernand Onur Muhafızı Zırhı
-39097087295600	Tariv Kumaş Kıyafet
-39517994090608	Tariv Kumaş Çizmeleri
-39951785787504	Tariv Kumaş Eldivenler
-40372692582512	Beoneck Kumaş Başlığı
-40376987549808	Skyblazer Kumaş Miğfer
-40381282517104	Halssius Rahibi'nin Şapkası
 4080223226167408	Süpürge
 4080227521134704	Ağaç Kesme Baltası
 4080231816102000	Kürek
@@ -512,12 +1672,6 @@
 4080541053747312	Hurda Metal Paketi
 4080545348714608	Hurda Metal Paketi
 4080549643681904	Hurda Metal Paketi
-40806484279408	Marni Tankı El Topu
-40810779246704	Mekanik Saat Mekanizması Patlatıcı
-40832254083184	Patlatıcı No. 8
-40836549050480	Wyvern Patlatıcısı
-4233774719385469040	Valkyder Plaka Zırhı
-4257868012742246512	Edzel Plaka Zırhı
 4294967296000112	Can Artışı
 4294971590967408	Ruh Amplifikasyonu
 4294975885934704	Dayanıklılık Artır
@@ -703,7 +1857,10 @@
 4295753275015280	Özgür Kılıcın Kalkanı
 4295757569982576	Ustanın Eli
 4295761864949872	Alev Kenarlı Kaplumbağa Kelebeği
+4295766159917168	Altın Yapraklar'ın Kumaş Zırhı
+4295770454884464	Nibrak Kumaş Zırhı
 4295774749851760	Demenissli Asinin Gizli Mektubu
+4295779044819056	Altın Yapraklar'ın Kumaş Zırhı
 4295783339786352	Ekipman Şablonu: Dayanıklılık Geri Kazanma
 4295787634753648	Goblin Tüccar Loncası'nın Plaka Eldivenleri
 4295791929720944	Demeniss Asisi Kumaş Zırhı
@@ -795,6 +1952,8 @@
 4296169886842992	Ay Biçicisi Plaka Eldivenleri
 4296174181810288	Maceracının Yemek Envanteri Tip C
 4296178476777584	Tek Boynuzlu At Biçimli Cam Eser
+4296182771744880	Altın Yapraklar'ın Kumaş Pelerini
+4296187066712176	Altın Yapraklar'ın Kumaş Pelerini
 4296191361679472	Kuzeyli Savaşçının Zincirli Pelerini
 4296195656646768	Ejderha Alevi Pelerini
 4296199951614064	Kızıl Avcı Zincir Pelerini
@@ -1057,6 +2216,7 @@
 4297303758209136	Kauçuk
 4297308053176432	Denge Rehberi
 4297312348143728	Kairos Pelerin
+4297316643111024	Dişli
 4297320938078320	Agave Çiçek Saksısı
 4297325233045616	Cüce Kolyesi
 4297329528012912	Elise'in Notu
@@ -1160,6 +2320,7 @@
 4297750434807920	İnce Öğütülmüş Tuz
 4297754729775216	Izgara Sebzeler
 4297759024742512	Izgara Meyve
+4297763319709808	Tahıllı Gevrek
 4297767614677104	Tütsülenmiş Yumurta
 4297771909644400	Izgara Balık ve Et
 4297776204611696	Izgara Et Şiş
@@ -1170,6 +2331,7 @@
 4297797679448176	Tüy
 4297801974415472	Büyük Kemik
 4297806269382768	Yün
+4297810564350064	Fil Dişi
 4297814859317360	Kısa Boynuz
 4297819154284656	Paketli Sahra Tipi Kumaş Vücut Zırhı
 4297823449251952	Paketli Sahra Zincir Zırhı
@@ -1359,6 +2521,7 @@
 4298618018201712	Mühürlenmiş Abis Eseri
 4298622313169008	Mühürlenmiş Abis Eseri
 4298626608136304	Mühürlenmiş Abis Eseri
+4298630903103600	Diş
 4298635198070896	[QA] Hernand bölgesinde tekrar eden hareket (hız 15)
 4298639493038192	A.T.A.G Ayağı Mk III
 4298643788005488	Işığın Rehberliği
@@ -1586,6 +2749,7 @@
 4299704644927600	Helfryn Kolyesi
 4299708939894896	Kızıl Gardiyan'ın Kolyesi
 4299713234862192	Çakalların Deri Miğferi
+4299764774469744	Yün
 4299769069437040	Hernand Mührü
 4299773364404336	Hernand Tacı
 4299777659371632	Üst Sınıf Hernandlı Pelerini
@@ -1622,7 +2786,9 @@
 4299910803357808	Günlük
 4299915098325104	Hava Patlatıcısı
 4299919393292400	Tencere
+4299923688259696	Zehirli Kurbağa
 4299927983226992	Ağaç Kurbağası
+4299932278194288	Kara Kurbağası
 4299936573161584	Oyuk Kurbağası
 4299940868128880	Bol Malzemeli Tütsülenmiş Yumurta
 4299945163096176	Doyurucu Tütsülenmiş Yumurta
@@ -2031,6 +3197,7 @@
 4301684624851056	Demir Kâse
 4301688919818352	Altın Kâse
 4301693214785648	Salatalık
+4301697509752944	Turp
 4301701804720240	Pancar
 4301706099687536	Mercimek
 4301710394654832	Maydanoz
@@ -2137,8 +3304,10 @@
 4302144186351728	Çilek
 4302148481319024	Mürver
 4302152776286320	Nar
+4302157071253616	İncir
 4302161366220912	Ananas
 4302165661188208	Kahve Kirazı
+4302169956155504	Kakao
 4302174251122800	Gümüş Süslemeli Su Şişesi
 4302178546090096	Geniş Ağızlı Su Şişesi
 4302182841057392	Küçük Kaynatma Su Şişesi
@@ -2167,6 +3336,7 @@
 4302281625305200	Mücevher Kutusu
 4302285920272496	Çok Amaçlı Tahta Kutu
 4302290215239792	Katil Bıçağı
+4302294510207088	Bezelye
 4302298805174384	Mühürlenmiş Abis Eseri
 4302303100141680	İnce Çivit Mavisi Şişe
 4302307395108976	Geniş Tabanlı Su Şişesi
@@ -2302,7 +3472,9 @@
 4302870035824752	Işık Saçan Ot Tohumu
 4302874330792048	Kükürt Bombası
 4302878625759344	Su Bombası
+4302882920726640	Armut
 4302887215693936	Sarmaşık Bombası
+4302891510661232	Dart
 4302895805628528	Harris'in Mektubu
 4302900100595824	Ursula'nın Hazine Haritası
 4302904395563120	Gri Yeleli Kumaş Zırhı
@@ -3055,7 +4227,6 @@
 4306125621035120	Serkis'in Ofisi
 4306129916002416	Bernor'un Kazması
 4306134210969712	Driana'nın Notu
-43061342109808	Fener
 4306138505937008	Halssius Şifaevi
 4306142800904304	Karga Fırtınası
 4306147095871600	Gri Yeleli Deri Vücut Zırhı
@@ -4233,608 +5404,6 @@
 4311769208062064	Arşiv Kayıtları 4. Bölüm
 4311773503029360	Arşiv Kayıtları 5. Bölüm
 4311777797996656	Arşiv Kayıtları Son Bölüm
-43134356553840	Parlak Mavi Deniz Feneri
-43138651521136	Shroud Fener
-43142946488432	Havalı Alev Desenli Fener
-43147241455728	Karanlık Sis Feneri
-43151536423024	Alev Feneri
-433791697008	Bakır Kesesi
-433795991863408	Rekhia Plaka Miğferi
-433800286830704	Bolton Plaka Miğferi
-433804581798000	Cassius Morten'in Plaka Miğferi
-433826056634480	Buz Kanat Plaka Miğferi
-433830351601776	Ator'un İradesi Miğferi
-433838941536368	Ferman Plaka Miğferi
-433843236503664	Keredeg Plaka Miğferi
-433847531470960	Ferenna Plaka Miğferi
-433851826438256	Grace Plaka Miğferi
-433856121405552	Flynn Plaka Miğferi
-433860416372848	Crudil Plaka Miğferi
-433869006307440	Berin Plaka Miğferi
-433907661013104	Hayvani Kemik Miğferi
-433924840882288	Rodderham Plaka Miğferi
-433937725784176	Taos Plaka Miğferi
-433989265391728	Tarandus Plaka Miğferi
-433997855326320	Misket Tüfekli Sınır Muhafızı Standart Başlığı
-434002150293616	Lotas Plaka Miğferi
-434019330162800	Kara Ayı Deri Miğfer
-434023625130096	Chelcia Plaka Miğferi
-434032215064688	Kavurucu Alev Plaka Miğferi
-434036510031984	Inyr Plaka Miğferi
-434040804999280	Rueconec Plaka Miğferi
-434045099966576	Calio Plaka Miğferi
-434057984868464	Ashford Plaka Miğferi
-434083754672240	Lyfellen Plaka Miğferi
-434105229508720	Kiatus Plaka Miğferi
-434122409377904	Rahbae Plaka Miğferi
-434126704345200	Altın Dal Plaka Tacı
-434178243952752	Bduer Plaka Miğferi
-434208308723824	Laehbern Plaka Miğferi
-434212603691120	Offenberg Plaka Miğferi
-434225488593008	Ashad Plaka Miğferi
-434229783560304	Solas Plaka Miğferi
-434242668462192	Ulrich Plaka Miğferi
-434259848331376	Paizel Kemik Miğferi
-434268438265968	Yüzü Olmayan Plaka Miğfer
-434272733233264	Bayer Plaka Miğferi
-434277028200560	Bolgan Plaka Miğferi
-434281323167856	Dernat Plaka Miğferi
-434285618135152	Dondegobi Plaka Miğferi
-434294208069744	Kuzeyli Savaşçıların Plaka Miğferi
-434307092971632	Casinian Plaka Miğferi
-434315682906224	Canta Plaka Miğferi
-434328567808112	Tanion Plaka Miğferi
-434371517481072	Antra Plaka Miğferi
-434375812448368	Laterna Plaka Miğferi
-434380107415664	Zachar Plaka Miğferi
-434384402382960	Boyun Eğmez Savaşçı'nın Plaka Miğferi
-434388697350256	Tartry Plaka Miğferi
-434397287284848	Rapps Plaka Miğferi
-434401582252144	Biconio Plaka Miğferi
-434427352055920	Kurua Plaka Miğferi
-438086664304	Ağır Bakır Kesesi
-438095254126704	Nahu Zincir Miğferi
-438099549094000	Kadallon Zincir Peçeliği
-438103844061296	Tailan Plaka Miğferi
-442381631600	Hafif Bakır Kesesi
-442403106324592	Nevin Kumaş Bandana
-442424581161072	Leontyne Plaka Miğferi
-442480415735920	Düşmüş Krallığın Deri Miğferi
-442506185539696	Schtump Plaka Miğfer
-442523365408880	Melvin Deri Miğferi
-442531955343472	Sadık Dostluk Miğferi
-442536250310768	Rondel Deri Miğferi
-442557725147248	Lacrunias Deri Miğferi
-442583494951024	Rueconec Deri Miğferi
-442592084885616	Agatha Deri Miğferi
-442626444623984	Dimfeld Deri Miğferi
-442639329525872	Daveed Deri Miğferi
-442660804362352	Lutinas Deri Miğferi
-442682279198832	Lanweiter Deri Miğferi
-442759588610160	Uphren Deri Miğferi
-442785358413936	Arkhan Deri Miğferi
-442793948348528	Ledan Deri Miğferi
-442828308086896	Dekter Deri Miğferi
-442832603054192	Shellus Deri Miğferi
-442862667825264	Bilge Taş Şapkası
-446676598896	Ağır Gümüş Kesesi
-446736728326256	Bollin Kumaş Başlığı
-446741023293552	Radein Kumaş Başlığı
-446796857868400	Rueconec Kumaş Başlığı
-446805447802992	Agatha Kumaş Şapkası
-446882757214320	Baidan Kumaş Kafa Bandı
-446904232050800	Calprise Kumaş Başlığı
-446917116952688	Rigma Kumaş Kafa Bandı
-446990131396720	Raveed Kumaş Başlığı
-446994426364016	Duvidet Miğferi
-447015901200496	Scobby Kumaş Kafa Bandı
-447033081069680	Fiore Kumaş Başlığı
-447037376036976	Ataram Kumaş Başlığı
-447058850873456	Gaurra Kumaş Başlığı
-447063145840752	Jermill Kumaş Kafa Bandı
-447076030742640	Torben Kumaş Başlığı
-447088915644528	Ulman Kumaş Başlığı
-447127570350192	Rahelm Kumaş Kafa Bandı
-447131865317488	Wyvern Alevi Kumaş Miğfer
-447136160284784	Muchia Kumaş Başlığı
-447183404925040	Rockington Kumaş Başlığı
-447191994859632	Deland Plaka Miğferi
-447200584794224	Ducriss Konik Başlığı
-447234944532592	Lashiras Miğferi
-447243534467184	Karanlık Liderin Kumaş Miğferi
-447256419369072	Sian Kumaş Başlığı
-447260714336368	Karas Kumaş Kafa Bandı
-447265009303664	Larkett Kumaş Başlığı
-447269304270960	Lashir Kumaş Başlığı
-447273599238256	Drish Kumaş Başlığı
-447277894205552	Triloan Kumaş Kafa Bandı
-447290779107440	Ruckshi Kumaş Başlığı
-447295074074736	Rhytrian Kumaş Başlığı
-447312253943920	Gadereich Kumaş Başlığı
-447316548911216	Ludynn Kumaş Başlığı
-447320843878512	Marc Kumaş Başlığı
-447325138845808	Harker Kumaş Başlığı
-447338023747696	Veronde Kumaş Başlığı
-447342318714992	Ghaltain Kumaş Başlığı
-447359498584176	Berghill Kumaş Başlığı
-447363793551472	Meravan Kumaş Başlığı
-447368088518768	Salimi Kumaş Başlığı
-447385268387952	Yuzel Kumaş Başlığı
-447402448257136	Pailune Şapkası
-447428218060912	Soytarı Deri Maskesi
-447432513028208	Tavşan Deri Maskesi
-447466872766576	Ejderha Alevi Miğferi
-447471167733872	Ejder Şövalyesi'nin Miğferi
-450971566192	Şişkin Gümüş Kesesi
-4644006381769195632	Kızıl Kahve Pavis Deri Eldivenleri
-4719841433903693936	Siyah Çelik Lotas Plaka Miğferi
-47248935223408	Olta
-476762844692592	Buz Lanetli Plaka Zırh
-476784319529072	Yargıç'ın Plaka Zırhı
-476908873580656	Tarandus Plaka Zırhı
-476913168547952	Enus Plaka Zırhı
-476956118220912	Gri Kurt Deri Zırhı
-477110737043568	Bodin Plaka Zırhı
-477115032010864	Breemen Plaka Zırhı
-477162276651120	Bekur Plaka Zırhı
-477166571618416	Frente Plaka Zırhı
-477170866585712	Corinne Plaka Zırhı
-477175161553008	Takao Plaka Zırhı
-477179456520304	Gwets Plaka Zırhı
-477183751487600	Arkhan Plaka Zırhı
-477188046454896	Yosef Plaka Zırhı
-477192341422192	Andre Zincir Zırhı
-477196636389488	Albert Plaka Zırhı
-477200931356784	Emil Plaka Zırhı
-477205226324080	Schtump Kumaş Zırhı
-477209521291376	Sven'in Kumaş Zırhı
-477213816258672	Yakkov Kumaş Zırhı
-477218111225968	Ernst Zincir Zırhı
-477226701160560	Ditter Kumaş Zırhı
-477235291095152	Redman Plaka Zırhı
-477239586062448	Schmidt Plaka Zırhı
-477291125670000	Dreer Plaka Zırhı
-477295420637296	Rhogo Plaka Zırhı
-477299715604592	Roshee Plaka Zırhı
-477304010571888	Romund Plaka Zırhı
-477308305539184	Valkyder Plaka Zırhı
-477312600506480	Killian Plaka Zırhı
-477316895473776	Kenmore Plaka Zırhı
-477321190441072	Kinloch Plaka Zırhı
-477325485408368	Lanauk Plaka Zırhı
-477329780375664	Spiddle Plaka Zırhı
-477334075342960	Meyer Plaka Zırhı
-477338370310256	Edzel Plaka Zırhı
-477342665277552	Brejin Plaka Zırhı
-477346960244848	Canusti Plaka Zırhı
-477351255212144	Dundree Plaka Zırhı
-477355550179440	Crail Plaka Zırhı
-477359845146736	Levin Plaka Zırhı
-477364140114032	Dunverline Plaka Zırhı
-477368435081328	Kinross Plaka Zırhı
-477372730048624	Demeniss Onur Zırhı
-477377025015920	Avignon Kumaş Zırhı
-477385614950512	Arghai Kumaş Zırhı
-477389909917808	Yüzü Olmayan'ın Kumaş Zırhı
-477450039459952	Bolton Plaka Zırhı
-477454334427248	Blackburn Plaka Zırhı
-477458629394544	Reppin Plaka Zırhı
-477462924361840	Ashad Plaka Zırhı
-477467219329136	Solas Plaka Zırhı
-477471514296432	Beverly Plaka Zırhı
-477540233773168	Lemerick Zincir Zırhı
-477544528740464	Lauer Zincir Zırhı
-477548823707760	Senon Plaka Zırhı
-477553118675056	Leighbog Plaka Zırhı
-477557413642352	Galbon Zincir Zırhı
-477561708609648	Brina Plaka Zırhı
-477570298544240	Prix Plaka Zırhı
-477574593511536	Serroa Plaka Zırhı
-477583183446128	Dutiron Plaka Zırhı
-477587478413424	Dutinion Plaka Zırhı
-477591773380720	Endnion Plaka Zırhı
-477596068348016	Dardnion Plaka Zırhı
-477600363315312	Lavgnion Zincir Zırhı
-477604658282608	Lucion Zincir Zırhı
-477608953249904	Ludeon Plaka Zırhı
-477613248217200	Cerruan Plaka Zırhı
-477617543184496	Mahon Plaka Zırhı
-477621838151792	Caliburn'ün Plaka Zırhı
-477643312988272	Sadık Arkadaşlığın Zırhı
-477660492857456	Carta Plaka Zırhı
-477673377759344	Ruwaite Plaka Zırhı
-477677672726640	Russell Deri Zırhı
-477681967693936	Ludus Plaka Zırhı
-477720622399600	Antum Plaka Zırhı
-477724917366896	Entom Plaka Zırhı
-477729212334192	Sitanca Plaka Zırhı
-477733507301488	Markman Plaka Zırhı
-477737802268784	Kantona Plaka Zırhı
-477742097236080	Lukin Deri Zırhı
-477754982137968	Lachian Plaka Zırhı
-477759277105264	Lacata Plaka Zırhı
-477763572072560	Eccanta Plaka Zırhı
-477767867039856	Eclaon Plaka Zırhı
-477772162007152	Egliss Plaka Zırhı
-477776456974448	Ekklemen Plaka Zırhı
-477780751941744	Ostent Plaka Zırhı
-477785046909040	Oakley Plaka Zırhı
-477797931810928	Dunion Plaka Zırhı
-477802226778224	Manios Plaka Zırhı
-477810816712816	Kavuran Ateş Plaka Zırhı
-477823701614704	Aeron Plaka Zırhı
-477827996582000	Altın Hırs Plaka Zırhı
-477832291549296	Gümüş Plaka Zırhı
-477836586516592	Sahazad Plaka Zırhı
-477840881483888	Jerrinmarne Plaka Zırhı
-477845176451184	Buz Kanat Plaka Zırhı
-481182366040176	Lodi Zincir Zırhı
-481186661007472	Drivon Zincir Zırhı
-481216725778544	Reddin Zincir Zırhı
-481315510026352	Kallari Zincir Zırhı
-481319804993648	Tormand Zincir Zırhı
-481324099960944	Hasets Zincir Zırhı
-481328394928240	Killi Zincir Zırhı
-481332689895536	Valton Zincir Zırhı
-481349869764720	Lucnaon Zincir Zırhı
-481358459699312	Lucnian Zincir Zırhı
-481367049633904	Dunion Zincir Zırhı
-481371344601200	Ejderha Alevi Zırhı
-481375639568496	Ejder Şövalyesi Savaşçısı'nın Plaka Zırhı
-481379934535792	Ejder Şövalyesi Zincir Zırhı
-485365664186480	Twell Deri Zırhı
-485430088695920	Kara Kanat Deri Zırh
-485455858499696	Benne Deri Zırhı
-485468743401584	Somier Deri Zırhı
-485477333336176	Traley Zincir Zırhı
-485481628303472	Antumbra Kumaş Zırhı
-485752211243120	Hayvani Deri Zırhı
-485954074706032	Haran Kumaş Zırhı
-4867475935361761392	Persein Deri Eldiveni
-487152370581616	Vyer Deri Zırhı
-487156665548912	Dewey Deri Zırhı
-487160960516208	Arqus Deri Zırhı
-487165255483504	Dremel Deri Zırhı
-487169550450800	Dyrel Deri Zırhı
-487173845418096	Merly Deri Zırhı
-487178140385392	Trudy Deri Zırhı
-487182435352688	Dreban Deri Zırhı
-487186730319984	Dellian Deri Zırhı
-487191025287280	Kenecks Deri Zırhı
-487195320254576	Vierni Deri Zırhı
-487199615221872	Blaine Deri Zırhı
-487203910189168	Cyton Deri Zırhı
-487264039731312	Wakhan Deri Zırhı
-487268334698608	Valion Deri Zırhı
-487272629665904	Plune Deri Zırhı
-487276924633200	Rittem Deri Zırhı
-487281219600496	Mocke Deri Zırhı
-487285514567792	Chayten Deri Zırhı
-487289809535088	Colatte Deri Zırhı
-487294104502384	Katerm Deri Zırhı
-487302694436976	Orman Perisi Zırhı
-487306989404272	Beyaz Kan Rüzgarı Deri Zırhı
-487341349142640	Pantafe Kumaş Zırhı
-487345644109936	Echebern Kumaş Zırhı
-487384298815600	Milis Kumaş Gövde Zırhı
-487388593782896	Pyrantha Kumaş Zırhı
-487392888750192	Torress Kumaş Zırhı
-487397183717488	Arandhal Kumaş Zırhı
-487405773652080	Toudon Kumaş Zırhı
-487410068619376	Cherke Deri Zırhı
-487414363586672	Blin Deri Zırhı
-487457313259632	Dunqane Deri Zırhı
-487461608226928	Elliot Deri Zırhı
-487465903194224	Cuthbertson Deri Zırhı
-487470198161520	Buchanan Kumaş Zırhı
-487474493128816	Finneron Deri Zırhı
-487478788096112	Torrance Deri Zırhı
-487487378030704	Ohara Deri Zırhı
-487491672998000	Conally Kumaş Zırhı
-487504557899888	Rexlan Kumaş Zırhı
-487513147834480	Tarmiden Kumaş Zırhı
-487521737769072	Seiden Deri Zırhı
-487526032736368	Soron Deri Zırhı
-487530327703664	Barunin Deri Zırhı
-487577572343920	Gorg Deri Zırhı
-487581867311216	Dewhaven Deri Zırhı
-487586162278512	Johannes Plaka Zırhı
-487693536460912	Davis Deri Zırhı
-487740781101168	Düşmüş Krallığın Deri Zırhı
-487770845872240	Mohill Deri Zırhı
-487775140839536	Lunpherd Deri Zırhı
-487779435806832	Islekk Deri Zırhı
-487783730774128	Baladean Deri Zırhı
-487788025741424	Navan Kumaş Zırhı
-487792320708720	Glosope Deri Zırhı
-487796615676016	Norswich Deri Zırhı
-487800910643312	Campo Deri Zırhı
-487809500577904	Janiklo Deri Zırhı
-487813795545200	Nellaccio Deri Zırhı
-487818090512496	Dasala Deri Zırhı
-487822385479792	Gerano Deri Zırhı
-487826680447088	Pisonia Deri Zırhı
-487830975414384	Paliano Deri Zırhı
-487839565348976	Locasima Deri Zırhı
-487843860316272	Corey Kumaş Zırhı
-487848155283568	Lariano Kumaş Zırhı
-487852450250864	Ranubio Deri Zırhı
-487856745218160	Ardia Deri Zırhı
-487861040185456	Antika Deri Zırhı
-487865335152752	Oustia Deri Zırhı
-487869630120048	Tarabe Deri Zırhı
-487873925087344	Montlanico Deri Zırhı
-487878220054640	Carpine Deri Zırhı
-487895399923824	Kednry Deri Zırhı
-487959824433264	Vainbridge Kumaş Zırhı
-488084378484848	Durain Zincir Zırhı
-488088673452144	Latrion Zincir Zırhı
-488092968419440	Senian Zincir Zırhı
-488105853321328	Tyran Deri Zırhı
-488110148288624	Tiron Deri Zırhı
-488114443255920	Eshrun Deri Zırhı
-488123033190512	Groucca Deri Zırhı
-488135918092400	Hashaka Deri Zırhı
-488140213059696	Hobbuca Deri Zırhı
-488144508026992	Batangka Deri Zırhı
-488153097961584	Greeney Deri Zırhı
-488161687896176	Bulga Deri Zırhı
-488165982863472	Barbaros Deri Zırhı
-488174572798064	Gri Yeleli Deri Zırhı
-488178867765360	Nuslan Deri Zırhı
-488183162732656	Ravirun Deri Zırhı
-488187457699952	Mondian Deri Zırhı
-488191752667248	Saruen Deri Zırhı
-488196047634544	Rubidan Deri Zırhı
-488200342601840	Resian Deri Zırhı
-488213227503728	Larkson Deri Zırhı
-488217522471024	Matana Deri Zırhı
-488221817438320	Radian Kumaş Zırhı
-488286241947760	Acria Zincir Zırhı
-488294831882352	Rotunso Deri Zırhı
-488299126849648	Rombardina Deri Zırhı
-488303421816944	Sicillion Deri Zırhı
-488307716784240	Rhodelphine Deri Zırhı
-488312011751536	Tallofer Deri Zırhı
-488320601686128	Boyun Eğmez Savaşçı'nın Plaka Zırhı
-488324896653424	Meishod Kumaş Zırhı
-488329191620720	Valldren Deri Zırhı
-488333486588016	Moldur Deri Zırhı
-488337781555312	Churrchen Deri Zırhı
-488342076522608	Saolo Deri Zırhı
-488346371489904	Jevanars Deri Zırhı
-488354961424496	Drossel Deri Zırhı
-488359256391792	Dumenis Kumaş Zırhı
-488367846326384	Laplace Deri Zırhı
-488372141293680	Radiano Deri Zırhı
-488376436260976	Dorness Deri Zırhı
-488380731228272	Undriga Deri Zırhı
-488385026195568	Anderitz Deri Zırhı
-488389321162864	Rapps Deri Zırhı
-488393616130160	Cantars Deri Zırhı
-488397911097456	Pictead Deri Zırhı
-488402206064752	Varanguard Deri Zırhı
-488406501032048	Scarteau Deri Zırhı
-488410795999344	Huskall Deri Zırhı
-488415090966640	Barbaroy Deri Zırhı
-488419385933936	Kordaav Deri Zırhı
-488423680901232	Lespedan Deri Zırhı
-488427975868528	Stiv Deri Zırhı
-488432270835824	Dyrfrith Deri Zırhı
-488436565803120	Stugrub Deri Zırhı
-488440860770416	Barrette Deri Zırhı
-488445155737712	Gaut Deri Zırhı
-488462335606896	Bettert Deri Zırh
-488466630574192	Schlitz Deri Zırhı
-488470925541488	Binden Deri Zırhı
-488475220508784	Auld Deri Zırhı
-488479515476080	Mavin Deri Zırhı
-488488105410672	Raspin Deri Zırhı
-488492400377968	Duvelle Deri Zırhı
-488496695345264	Karius Deri Zırhı
-488500990312560	Slouwen Deri Zırhı
-488505285279856	Bleawin Deri Zırhı
-488513875214448	Trellian Deri Zırhı
-488518170181744	Gün Batımı Sazlığı Deri Zırhı
-488535350050928	Adsız Bilgelerin Deri Zırhı
-488543939985520	Ludynn Deri Zırhı
-488548234952816	Reak Deri Zırhı
-488552529920112	Marc Deri Zırhı
-488556824887408	Smilodon Deri Zırhı
-488561119854704	Noyvarn Deri Zırhı
-488595479593072	Luverne Deri Zırhı
-488599774560368	Galanta Deri Zırhı
-488604069527664	Nelton Deri Zırhı
-488608364494960	Brogue Deri Zırhı
-488612659462256	Hodges Deri Zırhı
-488616954429552	Ducca Deri Zırhı
-488625544364144	Berker Deri Zırhı
-488629839331440	Tatura Deri Zırhı
-488634134298736	Tavat Deri Zırhı
-488638429266032	Gomel Deri Zırhı
-488642724233328	Enge Deri Zırhı
-488647019200624	Tikkal Deri Zırhı
-488651314167920	Murad Deri Zırhı
-488655609135216	Dannon Deri Zırhı
-488659904102512	Ulontai Deri Zırhı
-488664199069808	Huron Deri Zırhı
-488668494037104	Begill Deri Zırhı
-488672789004400	Rigma Deri Zırhı
-488677083971696	Verdesh Deri Zırhı
-488681378938992	Herwin Deri Zırhı
-488685673906288	Dekter Deri Zırhı
-488689968873584	Guff Deri Zırhı
-488702853775472	Grommet Deri Zırhı
-488707148742768	Ajure Deri Zırhı
-488711443710064	Salimi Deri Zırhı
-488715738677360	Nehrut Deri Zırhı
-488720033644656	Takkat Deri Zırhı
-488724328611952	Whitley Deri Zırhı
-488728623579248	Kaisan Deri Zırhı
-488732918546544	Derrison Deri Zırhı
-488758688350320	Berblin Deri Zırhı
-488767278284912	Sazlık Şeytanı Kölesinin Kırmızı Zırhı
-488771573252208	Sazlık Şeytanı Kölesinin Sarı Zırhı
-488775868219504	Sazlık Şeytanı Kölesinin Zırhı
-490906171998320	Cocotar Kumaş Zırhı
-490910466965616	Tryah Kumaş Zırhı
-490914761932912	Ator'un İradesi Kumaş Gövde Zırhı
-490919056900208	Paifo Kumaş Zırhı
-491013546180720	Ancara Kumaş Zırhı
-491017841148016	Esbeth Kumaş Zırhı
-491022136115312	Muchia Kumaş Zırhı
-491026431082608	Wyvern Alevi Kumaş Zırh
-491030726049904	Duizeh Kumaş Zırhı
-491035021017200	Izumit Kumaş Zırhı
-491039315984496	Mugleah Kumaş Zırhı
-491069380755568	Myrnen Kumaş Zırhı
-491073675722864	Bollin Kumaş Zırhı
-491077970690160	Livner Kumaş Zırhı
-491082265657456	Ruvib Kumaş Zırhı
-491086560624752	Kan Haydutları Kumaş Vücut Zırhı
-491090855592048	Alzath Kumaş Zırhı
-491095150559344	Beralt Kumaş Zırhı
-491099445526640	Monterima Kumaş Zırhı
-491103740493936	Deorre Kumaş Zırhı
-491116625395824	Faians Kumaş Zırhı
-491129510297712	Concarr Kumaş Zırhı
-491142395199600	Luwea Kumaş Zırhı
-491146690166896	Gael Kumaş Zırhı
-491150985134192	Bolgan Kumaş Zırhı
-491155280101488	Dernat Kumaş Zırhı
-491159575068784	Dondegobi Kumaş Zırhı
-491163870036080	Gobialta Kumaş Zırhı
-491168165003376	Orbus Kumaş Zırhı
-491172459970672	Hentree Kumaş Zırhı
-491176754937968	Oubreve Kumaş Zırhı
-491181049905264	Harghai Kumaş Zırhı
-491215409643632	Telford Kumaş Zırhı
-491335668727920	Daraz Kumaş Zırhı
-491404388204656	Denmore Kumaş Zırhı
-491408683171952	Telin Kumaş Zırhı
-491412978139248	Calis Kumaş Zırhı
-491421568073840	Roshayne Kumaş Zırhı
-491425863041136	Minnutan Kumaş Zırhı
-491434452975728	Drumfin Kumaş Zırhı
-491443042910320	Drimrow Kumaş Zırhı
-491464517746800	Totte Kumaş Zırhı
-491473107681392	Radley Kumaş Zırhı
-491477402648688	Lucion Kumaş Zırhı
-491481697615984	Senian Kumaş Zırhı
-491503172452464	Lackey Kumaş Zırhı
-491507467419760	Kassa Kumaş Zırhı
-491511762387056	Annis Kumaş Zırhı
-491524647288944	Marka Kumaş Zırhı
-491528942256240	Makri Kumaş Zırhı
-491593366765680	Tyran Kumaş Zırhı
-491597661732976	Tiron Kumaş Zırhı
-491601956700272	Tyrune Kumaş Zırhı
-491606251667568	Tarun Kumaş Zırhı
-491610546634864	Tynion Kumaş Zırhı
-491614841602160	Tanion Kumaş Zırhı
-491619136569456	Neslan Kumaş Zırhı
-491623431536752	Eshrun Kumaş Zırhı
-491636316438640	Deshret Kumaş Zırhı
-491649201340528	Takana Kumaş Zırhı
-491657791275120	Lakshi Deri Zırhı
-491670676177008	Ladran Kumaş Zırhı
-491674971144304	Nuslan Kumaş Zırhı
-491679266111600	Ravirun Kumaş Zırhı
-491683561078896	Barian Kumaş Zırhı
-491687856046192	Barcy Kumaş Zırhı
-491692151013488	Bartmun Kumaş Zırhı
-491696445980784	Orthu Kumaş Zırhı
-491700740948080	Tohkar Kumaş Zırhı
-491705035915376	Verdinan Kumaş Zırhı
-491709330882672	Borsehir Kumaş Zırhı
-491713625849968	Keanoff Kumaş Zırhı
-491743690621040	Rhonid Kumaş Zırhı
-491747985588336	Pouhel Kumaş Zırhı
-491752280555632	Dillinger Kumaş Zırhı
-491756575522928	Eckney Kumaş Zırhı
-491786640294000	Baratum Kumaş Zırhı
-491790935261296	Baritum Kumaş Zırhı
-491795230228592	Baras Kumaş Zırhı
-491803820163184	Baraccuro Kumaş Zırhı
-491825294999664	Barrow Kumaş Zırhı
-491829589966960	Bailao Kumaş Zırhı
-491833884934256	Barclao Kumaş Zırhı
-491842474868848	Barch Kumaş Zırhı
-491863949705328	Bedure Zincir Zırhı
-491872539639920	Riksha Zincir Zırhı
-491876834607216	Lathia Kumaş Zırhı
-491885424541808	Kennav Kumaş Zırhı
-491889719509104	Lancats Kumaş Zırhı
-491894014476400	Rangtua Kumaş Zırhı
-491898309443696	Nebin Kumaş Zırhı
-491902604410992	Ranphas Kumaş Zırhı
-491906899378288	Roctar Kumaş Zırhı
-491911194345584	Barbaroy Kumaş Zırhı
-491915489312880	Fiore Kumaş Zırhı
-491919784280176	Warstein Kumaş Zırhı
-491924079247472	Conentry Kumaş Zırhı
-491928374214768	Berkhia Kumaş Zırhı
-491932669182064	Austfeld Kumaş Zırhı
-491941259116656	Gaut Kumaş Zırhı
-491945554083952	Gadereich Kumaş Zırhı
-491949849051248	Ewen Kumaş Zırhı
-491954144018544	Primus'un Kumaş Zırhı
-491962733953136	Diggs Kumaş Zırhı
-491967028920432	Raddler Kumaş Zırhı
-492001388658800	Volghad Kumaş Zırhı
-492005683626096	Ultar Kumaş Zırhı
-492009978593392	Dohann Kumaş Zırhı
-492014273560688	Bahlmers Kumaş Zırhı
-492018568527984	Tolkane Kumaş Zırhı
-492022863495280	Bandide Kumaş Zırhı
-492027158462576	Dwelker Kumaş Zırhı
-492031453429872	Veronde Kumaş Zırhı
-492035748397168	Ruschelle Kumaş Zırhı
-492040043364464	Rosarduin Kumaş Zırhı
-492044338331760	Sherwood Kumaş Zırhı
-492048633299056	Eyratt Kumaş Zırhı
-492052928266352	Gruun Kumaş Zırhı
-492057223233648	Auron Kumaş Zırhı
-492065813168240	Salash Kumaş Zırhı
-492070108135536	Borman Kumaş Zırhı
-492074403102832	Berghill Kumaş Zırhı
-492078698070128	Hassal Kumaş Zırhı
-492082993037424	Meravan Kumaş Zırhı
-492087288004720	Chizhar Kumaş Zırhı
-492091582972016	Dahkavan Kumaş Zırhı
-492095877939312	Ziahl Kumaş Zırhı
-492100172906608	Amundule Kumaş Zırhı
-492104467873904	Sarendion Kumaş Zırhı
-492108762841200	Hysilda Kumaş Zırhı
-492113057808496	Yorkey Kumaş Zırhı
-492117352775792	Dollette Kumaş Zırhı
-492121647743088	Verette Kumaş Zırhı
-492125942710384	Haillen Kumaş Zırhı
-492130237677680	Khalbdan Kumaş Zırhı
-492147417546864	Schillerbin Kumaş Zırhı
-492151712514160	Neblin Kumaş Zırhı
-492160302448752	Skyblazer Kumaş Zırh
-492181777285232	Maskeli Kurtarıcının Kumaş Zırhı
-492186072252528	Keller Kumaş Zırhı
-492203252121712	Pailune Kıyafeti
-492220431990896	Spetsahorn Kumaş Zırhı
-492224726958192	Muddliss Kumaş Zırhı
-492229021925488	Delesyian Kumaş Kıyafet
-492233316892784	Kang Kumaş Zırhı
-492237611860080	Zynian Kumaş Zırhı
-492241906827376	Zamir Kumaş Zırhı
-492246201794672	Lubonon Kumaş Zırhı
-492250496761968	Denill Kumaş Zırhı
-492259086696560	Soylu Kumaş Zırhı
-492267676631152	Odorrey Kumaş Zırhı
-492284856500336	Dega Kumaş Zırhı
-492302036369520	Lapin Deri Ceket
-492306331336816	Jester Deri Ceketi
-492327806173296	Chelcia Plaka Zırhı
-492332101140592	Anti-Meyer Plaka Zırhı
-492344986042480	Anti-Crail Plaka Zırhı
-492375050813552	Kızıl Bıçak Kumaş Vücut Zırhı
-4990507880600830064	Kenmore Plaka Zırhı
 4995055555182704	Hernand Kıyafeti
 4995227353874544	Kurdun Kılıcı
 4995231648841840	Becker Kalkanı
@@ -4856,501 +5425,6 @@
 5001540955799664	Kuzeyli Savaşçının Zincirli Zırhı
 5003679849513072	Bilge Taş Üniforması
 5003684144480368	Pororin Kumaş Kıyafet
-5029885523750027376	Haydutun Deri Çizmeleri
-5068669241641664624	Boş Paket
-519716812619888	Trish Deri Eldiveni
-519721107587184	Leahdra Deri Eldiveni
-519725402554480	Veile Deri Eldiveni
-519729697521776	Behrun Post Kol Zırhı
-519733992489072	Yargıç'ın Plaka Eldiveni
-519746877390960	Canta Plaka Eldiveni
-519751172358256	Draiga Plaka Eldiveni
-519755467325552	Runae Kumaş Eldiven
-519764057260144	Buz Lanetli Plaka Eldivenleri
-519785532096624	Alev Silahşoru Plaka Eldiveni
-519794122031216	Batz Plaka Eldiveni
-519798416998512	Tarandus Plaka Eldiveni
-519802711965808	Kavurucu Alev Plaka Eldivenleri
-519807006933104	Camsen Plaka Eldiveni
-519815596867696	Dimfeld Plaka Eldiveni
-519828481769584	Agatha'nın Plaka Eldiveni
-519832776736880	Ashad Plaka Eldiveni
-519837071704176	Solas Plaka Eldiveni
-519871431442544	Pernicia Plaka Eldiveni
-519875726409840	Ferman Plaka Eldiveni
-519905791180912	Gri Kurt Deri Eldiveni
-519922971050096	Luon Plaka Eldiveni
-519927266017392	Luthor Plaka Eldiveni
-519931560984688	Akan Plaka Eldiveni
-519935855951984	Dumenis Plaka Eldiveni
-519944445886576	Ratti Plaka Eldiveni
-519948740853872	Ettis Plaka Eldiveni
-519953035821168	Recklin Kumaş Eldiveni
-519970215690352	Kevile Plaka Eldiveni
-519978805624944	Weirren Plaka Eldiveni
-519983100592240	Devinine Plaka Eldiveni
-519987395559536	Buz Kanat Plaka Eldivenleri
-519991690526832	Demenissli Plaka Eldivenleri
-519995985494128	Altın Hırs Plaka Eldivenleri
-520000280461424	Belui Plaka Eldiveni
-520038935167088	Düşmüş Krallığın Plaka Eldivenleri
-524011779915888	Hayvani Zincir Kol Zırhı
-52415780880496	Maydocs Deri Zırh
-52420075847792	Vildyne Deri Zırh
-52424370815088	Adoratt Deri Zırh
-52428665782384	Colbill Deri Zırh
-52432960749680	Coby Deri Zırh
-52437255716976	Sherborn Deri Zırh
-52471615455344	Aç Diş Zırhı
-52475910422640	Helfryn Deri Zırhı
-52480205389936	Sansar Deri Zırhı
-5255562342640386160	Pavis Deri Ayakkabısı
-528315337146480	Austfeld Deri Eldiveni
-528336811982960	Fiory Deri Eldiveni
-528341106950256	Janiklo Deri Eldiveni
-528353991852144	Barre Deri Eldiveni
-528358286819440	Berkhia Deri Eldiveni
-528362581786736	Goldheart Zincir Eldiveni
-528366876754032	Kordaav Deri Eldiveni
-528384056623216	Cacoreum Deri Eldiveni
-528396941525104	Claire Deri Eldiveni
-52840982642800	Kirli Sarantos Deri Çizmeleri
-528414121394288	Hark Deri Eldiveni
-528422711328880	Weiston Deri Eldiveni
-528431301263472	Talisin Deri Eldiveni
-528435596230768	Melvin Deri Eldivenleri
-528444186165360	Trion Deri Eldiveni
-528452776099952	Ebenezer Deri Eldiveni
-52845277610096	Büyük Rhegis Deri Çizmeleri
-528457071067248	Pavis Deri Eldivenleri
-528465661001840	Rondel Deri Eldiveni
-528469955969136	Perseus Deri Eldiveni
-528504315707504	Byren'in Deri Eldiveni
-528508610674800	Kadallon Deri Eldiveni
-528517200609392	Salun Deri Eldiveni
-52853867544688	Aç Diş Çizmeleri
-528542970413168	Lespedan Deri Eldiveni
-528555855315056	Rheigis Deri Eldiveni
-528560150282352	Cadı Ormanı Deri Eldiveni
-528573035184240	Lasfeld Deri Eldiveni
-528577330151536	Wyrdins Deri Eldiveni
-528581625118832	Andria Deri Eldiveni
-52858162511984	Carta Plaka Çizmesi
-528590215053424	Larkri Deri Eldiveni
-528611689889904	Rossbara Deri Eldiveni
-528615984857200	Blyne Deri Eldiveni
-52862457479280	Hernand Onur Kıtası Ayakkabısı
-528641754660976	Rhinard Deri Eldiveni
-52866752446576	Sansar Deri Çizmesi
-528697589235824	Sleishorn Deri Eldiveni
-528706179170416	Mornington Kumaş Eldiveni
-52871047413872	Bilge Taş Çizmesi
-528714769105008	Bandellure Deri Eldiveni
-528727654006896	Nocburn Deri Eldiveni
-528736243941488	Drumard Deri Eldiveni
-528753423810672	Stratton Deri Eldiveni
-52875342381168	Hernandian Ziyafet Deri Çizmeleri
-528762013745264	Hegea Deri Eldiveni
-528766308712560	Camsen Deri Eldiveni
-528783488581744	Matthias Deri Eldiveni
-528792078516336	Layddete Deri Eldiveni
-52879637348464	Arıcılık Çizmesi
-528804963418224	Khalbdan Deri Eldiveni
-528822143287408	Rueconec Deri Eldiveni
-528852208058480	Rakhir Kumaş Eldiveni
-528865092960368	Satyros Plaka Eldiveni
-528869387927664	Düşmüş Hain'in Deri Eldiveni
-528877977862256	Steinmers Deri Eldiveni
-528899452698736	Adeion Deri Eldiveni
-528908042633328	Crudil Deri Eldiveni
-528916632567920	Conchetta Deri Eldiveni
-528925222502512	Loudan Deri Eldiveni
-528929517469808	Calio Deri Eldiveni
-528933812437104	Viraiton Deri Eldiveni
-528946697338992	Maeve Deri Eldiveni
-528955287273584	Deskio Deri Eldiveni
-528968172175472	Geloufeld Plaka Eldiveni
-528985352044656	Asty Kumaş Eldiveni
-528998236946544	Dimfeld Deri Eldiveni
-529002531913840	Trowder Deri Eldiveni
-529006826881136	Caviden Deri Eldiveni
-529041186619504	Mistum Deri Eldiveni
-529058366488688	Rowley Deri Eldiveni
-529066956423280	Daveed Deri Eldiveni
-529071251390576	Bettie Deri Eldiveni
-529109906096240	Lennigen Deri Eldiveni
-529118496030832	Kaeridyn Deri Eldiveni
-529127085965424	Merridew Deri Eldiveni
-529144265834608	Astia Kumaş Eldiveni
-529152855769200	Aldwin Deri Eldiveni
-529161445703792	Latian Deri Eldiveni
-529178625572976	Vicaron Deri Eldiveni
-529187215507568	Leppo Deri Eldiveni
-529191510474864	Brogant Deri Eldiveni
-529204395376752	Delise Deri Eldiveni
-529208690344048	Boggen Deri Eldiveni
-529221575245936	Dernyl Deri Eldiveni
-529225870213232	Wertesh Deri Eldiveni
-529230165180528	Keimbel Deri Eldiveni
-529234460147824	Sladen Deri Eldiveni
-529243050082416	Persein Deri Eldiveni
-529255934984304	Mechlin Deri Eldiveni
-529260229951600	Essembel Deri Eldiveni
-529264524918896	Contra Deri Eldiveni
-529311769559152	Maskeli Kurtarıcının Deri Eldiveni
-529320359493744	Dondegobi Deri Eldiveni
-529324654461040	Gobialta Deri Eldiveni
-529328949428336	Tershan Deri Eldiveni
-529337539362928	Rignon Deri Eldiveni
-529341834330224	Reclonne Deri Eldiveni
-529346129297520	Ricrau Deri Eldiveni
-529359014199408	Tiron Deri Eldiveni
-529363309166704	Taylonne Deri Eldiveni
-529384784003184	Haron Kumaş Eldiveni
-529397668905072	Kattinan Deri Eldiveni
-529401963872368	Saruen Deri Eldiveni
-529427733676144	Luca Deri Eldiveni
-529436323610736	Tikkal Deri Eldiveni
-529440618578032	Markna Deri Eldiveni
-529457798447216	Lukas Deri Eldiveni
-529479273283696	Karanlık Liderin Deri Eldivenleri
-529483568250992	Salatos Deri Eldiveni
-529492158185584	Ellisco Deri Eldiveni
-529496453152880	Elashe Deri Eldiveni
-529509338054768	Kasria Deri Eldiveni
-529517927989360	Renshaku Deri Eldiveni
-529522222956656	Reshesh Deri Eldiveni
-529530812891248	Ravellu Deri Eldiveni
-529535107858544	Remebrou Deri Eldiveni
-529539402825840	Rainier Deri Eldiveni
-529543697793136	Lave Deri Eldiveni
-529547992760432	Mache Deri Eldiveni
-529552287727728	Martail Deri Eldiveni
-529556582695024	Wentz Deri Eldiveni
-529573762564208	Bolson Deri Eldiveni
-529578057531504	Cains Deri Eldiveni
-529582352498800	Dalton Deri Eldiveni
-529586647466096	Eplern Deri Eldiveni
-529590942433392	Archen Deri Eldiveni
-529595237400688	Dunion Deri Eldiveni
-529599532367984	Laplace Deri Eldiveni
-529603827335280	Bristel Deri Eldiveni
-529621007204464	Masti Plaka Eldiveni
-529625302171760	Takkan Deri Eldiveni
-529629597139056	Arsen Deri Eldiveni
-529633892106352	Takah Kumaş Eldiveni
-529638187073648	Gümüş Plaka Eldivenleri
-529642482040944	Chent Deri Eldiveni
-529646777008240	Kara Ayılar'ın Deri Eldiveni
-529655366942832	Gri Kurt Kumaş Eldivenleri
-529659661910128	Dherri Deri Eldiveni
-529668251844720	Patten Deri Eldiveni
-529672546812016	Gümüş Kurt Deri Eldivenleri
-529676841779312	Rattu Kumaş Eldiveni
-529689726681200	Lercent Deri Eldiveni
-529694021648496	Alaca Karanlık Dişi Deri Eldivenleri
-529706906550384	Dram Deri Kol Zırhı
-529711201517680	Bunce Deri Eldiveni
-529715496484976	Maters Deri Eldiveni
-529728381386864	Rannys Deri Eldiveni
-529758446157936	Dane Deri Bilekliği
-529792805896304	Reak Deri Eldiveni
-529801395830896	Badran Deri Eldiveni
-529805690798192	Rigma Deri Eldiveni
-529809985765488	Verdesh Deri Eldiveni
-529814280732784	Jasmern Deri Eldiveni
-529818575700080	Esha Deri Eldiveni
-529822870667376	Shellus Deri Eldiveni
-529827165634672	Waller Deri Eldiveni
-529848640471152	Salmae Deri Eldiveni
-529852935438448	Derrison Deri Eldiveni
-529861525373040	Dirrebin Deri Eldiveni
-529870115307632	Dallaban Deri Eldiveni
-529883000209520	Lawson Deri Eldiveni
-529887295176816	Gaiman Deri Eldiveni
-532597419540592	Stugrub Kumaş Eldiveni
-532610304442480	Arti Deri Eldiveni
-532657549082736	Beyaz Karga Adam Deri Eldiveni
-532661844050032	Baidan Kumaş Eldiveni
-532674728951920	Porcell Kumaş Eldiveni
-532700498755696	Whitley Kumaş Eldiveni
-53270479372400	Kızıl Binici'nin Deri Eldiveni
-532713383657584	Tyran Deri Eldiveni
-532717678624880	Tiron Kumaş Eldiveni
-53274774339696	Büyük Pavis Deri Eldivenleri
-532790693068912	Setri Kumaş Eldiveni
-532794988036208	Serbello Kumaş Eldiveni
-532812167905392	Ashtu Kumaş Eldiveni
-532816462872688	Ratisan Kumaş Eldiveni
-532820757839984	Duroin Kumaş Eldiveni
-532829347774576	Ludynn Kumaş Eldiveni
-53283364274288	Kara Kanat Deri Eldivenleri
-532837937709168	Derrison Kumaş Eldiveni
-532846527643760	Gadereich Kumaş Eldiveni
-532850822611056	Chizhar Kumaş Eldiveni
-532863707512944	Gün Batımı Sazlığı Kumaş Eldiveni
-532872297447536	Jester Deri Eldivenler
-53287659241584	Skyblazer Deri Eldivenleri
-532880887382128	Ator'un İradesi Deri Eldiveni
-532889477316720	Witters Plaka Eldiveni
-532893772284016	Dulone Plaka Eldivenleri
-532898067251312	Ejder Şövalyesi Savaşçısı'nın Plaka Eldiveni
-532902362218608	Ejder Şövalyesi Okçusunun Plaka Eldiveni
-532906657185904	Caliburn'ün Plaka Eldiveni
-53291954208880	Aç Diş Eldivenleri
-53296249176176	Hernand Şeref Kıtası Eldiveni
-53300544143472	Helfryn Deri Eldiveni
-53304839110768	Sansar Deri Eldiveni
-53309134078064	Carta Deri Eldiveni
-53313429045360	Arıcılık Eldiveni
-53317724012656	Bollin Deri Eldiveni
-53712861003888	Gümüş Diş Miğfer
-54116587929712	Çift Başlı Açgözlülük Baltası
-54550379626608	İlahi Yankılar Yayı
-54554674593904	Soylu Adamın Yayı
-55405078118512	Goblin Kralının Hazine Hançeri
-562645010743408	Boyun Eğmez Savaşçının Plaka Çizmeleri
-562649305710704	Altın Hırs Plaka Çizmeleri
-562666485579888	Lattua Plaka Çizmesi
-562670780547184	Buz Kanat Plaka Çizmeleri
-562679370481776	Yargıç'ın Plaka Çizmesi
-562696550350960	Canta Plaka Çizmesi
-562730910089328	Batz Plaka Çizmesi
-562735205056624	Chelcia Plaka Çizmesi
-562739500023920	Ashad Plaka Çizmesi
-562743794991216	Solas Plaka Çizmesi
-562752384925808	Serval Plaka Çizmesi
-562756679893104	Tyrdall Deri Çizmesi
-562765269827696	Antumbra Plaka Çizmesi
-562808219500656	Sigremon Plaka Çizmesi
-562812514467952	Dulone Plaka Ayakkabı
-562816809435248	Sahazad Plaka Çizmesi
-562821104402544	Demenissian Plaka Çizmeleri
-562838284271728	Düşmüş Krallığın Plaka Pelerini
-562855464140912	Gri Kurt Deri Çizmesi
-563100268686737520	Kuzeyli Paralı Asker Deri Eldivenleri
-56693568307312	Faninin Gürzü
-566961452875888	Regglia Deri Çizmesi
-566965747843184	Rezzcan Deri Çizmesi
-566970042810480	Baku Deri Çizmesi
-56697863274608	Marni Takipçisinin Gürzü
-56702158241904	Kararlılık Topuzu
-571234945335408	Seiger Deri Çizmesi
-571252125204592	Rodderham Deri Çizmesi
-571260715139184	Leontyne Deri Çizmesi
-571269305073776	Bollin Deri Çizmesi
-57127360004208	Marni'nin Misket Tüfeği
-571277895008368	Helfryn Deri Çizmesi
-571286484942960	Eustice Deri Çizmesi
-571316549714032	Halssius Rahibi Deri Ayakkabısı
-571325139648624	Tobias Deri Çizmesi
-571329434615920	Arghai Deri Çizmesi
-571333729583216	Nevin Deri Çizmesi
-571355204419696	Mulia Deri Çizmesi
-571372384288880	Cyllian Deri Çizmesi
-571376679256176	Gümüş Kurt Deri Çizmeleri
-571380974223472	Correlly Deri Çizmesi
-571385269190768	Benberry Deri Çizmesi
-571389564158064	Midlier Deri Çizmesi
-571393859125360	Derting Deri Çizmesi
-571402449059952	Steyer Deri Çizmesi
-57140244906096	Demeniss Kahraman Misket Tüfeği
-571406744027248	Ebenezer Deri Çizmesi
-571415333961840	Tesslit Deri Çizmesi
-571419628929136	Rhonda Deri Çizmesi
-571441103765616	Ramastern Deri Çizmesi
-571462578602096	Layne Deri Çizmesi
-571492643373168	Kadallon'un Deri Çizmesi
-571518413176944	Pierpont Deri Çizmesi
-571531298078832	Dyrfrith Deri Çizmesi
-571539888013424	Gri Kurt Deri Çizmeleri
-571557067882608	Düşmüş Hain'in Deri Çizmesi
-571582837686384	Sarantos Deri Çizmesi
-571608607490160	Levinto Deri Çizmesi
-571612902457456	Ruthie Deri Çizmesi
-571625787359344	Colbern Deri Çizmesi
-571647262195824	Bolton Deri Çizmesi
-571733161541744	Nagmore Deri Çizmesi
-571737456509040	Mornington Deri Çizmesi
-571750341410928	Woodbrock Deri Çizmesi
-571763226312816	Russmore Deri Çizmesi
-571771816247408	Clarille Deri Çizmesi
-571780406182000	Meadows Deri Çizmesi
-571823355854960	Keredig Deri Çizmesi
-571831945789552	Neirnim Deri Çizmesi
-571857715593328	Matis Deri Çizmesi
-571935025004656	Tarandus Deri Çizmesi
-571943614939248	Sydmon Deri Çizmesi
-571952204873840	Pahna Deri Çizmesi
-571965089775728	Rhegis Deri Çizmesi
-571969384743024	Maskeli Kurtarıcının Deri Çizmesi
-571982269644912	Crudil Deri Çizmesi
-571995154546800	Kavurucu Alev Deri Çizmeleri
-572016629383280	Huntington Deri Çizmesi
-572020924350576	Adeion Deri Çizmesi
-572038104219760	Diencia Kumaş Ayakkabısı
-572055284088944	Pavis Deri Ayakkabısı
-572059579056240	Trowder Deri Ayakkabısı
-572072463958128	Pieti Deri Çizmesi
-572076758925424	Norman Deri Çizmesi
-572085348860016	Driseld Deri Çizmesi
-572093938794608	Dutrat Deri Çizmesi
-572098233761904	Reus Deri Çizmesi
-572102528729200	Lascaux Deri Çizmesi
-572106823696496	Mistum Deri Çizmesi
-572111118663792	Sillau Deri Çizmesi
-572115413631088	Fiatal Deri Çizmesi
-572132593500272	Aurelian Deri Çizmesi
-572145478402160	Eshian Deri Çizmesi
-572192723042416	Clays Deri Çizmesi
-572197018009712	Daveed Deri Çizmesi
-572201312977008	Beattie Deri Çizmesi
-572205607944304	Leegrau Deri Çizmesi
-572214197878896	Hroadar Deri Çizmesi
-572239967682672	Trish Deri Çizmesi
-572244262649968	Katitz Deri Çizmesi
-572248557617264	Isilon Deri Çizmesi
-572261442519152	Elish Deri Çizmesi
-572265737486448	Runae Deri Çizmesi
-572270032453744	Carcon Deri Çizmesi
-572274327421040	Diovern Deri Çizmesi
-572300097224816	Erphy Deri Çizmesi
-572308687159408	Oakten Deri Çizmesi
-572317277094000	Seras Deri Çizmesi
-572321572061296	Cateine Deri Çizmesi
-572330161995888	Loutte Deri Çizmesi
-572338751930480	Bourveten Deri Çizmesi
-572343046897776	Lankel Deri Çizmesi
-572347341865072	Gannech Deri Çizmesi
-572351636832368	Kervel Deri Çizmesi
-572355931799664	Walder Deri Çizmesi
-572360226766960	Donaff Deri Çizmesi
-572373111668848	Herdel Deri Çizmesi
-572385996570736	Ator'un İradesi Deri Çizmesi
-572390291538032	Quent Deri Çizmesi
-572394586505328	Gri Rhegis Deri Çizmeleri
-572407471407216	Tyran Deri Çizmesi
-572411766374512	Tyrune Kumaş Ayakkabısı
-572416061341808	Tiron Deri Çizmesi
-572428946243696	Tiruna Deri Ayakkabısı
-572433241210992	Darman Deri Çizmesi
-572437536178288	Saruen Deri Çizmesi
-572450421080176	Pasti Deri Çizmesi
-572467600949360	Kassantra Deri Çizmesi
-572480485851248	Leguna Deri Çizmesi
-572484780818544	Layta Plaka Çizmesi
-572493370753136	Dannoche Deri Çizmesi
-572497665720432	Layta Deri Çizmesi
-572501960687728	Catcheta Deri Çizmesi
-572506255655024	Caico Deri Çizmesi
-572510550622320	Cosgrove Deri Çizmesi
-572514845589616	Caelough Deri Çizmesi
-572519140556912	Kasset Deri Çizmesi
-572523435524208	Cassrow Deri Çizmesi
-572527730491504	Katz Deri Çizmesi
-572536320426096	Ligatra Deri Çizmesi
-572540615393392	Cantu Deri Çizmesi
-572549205327984	Andaran Deri Çizmesi
-572553500295280	Maldrick Deri Çizmesi
-572557795262576	Anderitz Deri Çizmesi
-572562090229872	Trilly Deri Çizmesi
-572566385197168	Fiore Deri Çizmesi
-572570680164464	Perelli Deri Ayakkabısı
-572609334870128	Lasian Deri Çizmesi
-572613629837424	Ludynn Deri Çizmesi
-572617924804720	Kurua Deri Çizmesi
-572622219772016	Stoddard Deri Çizmesi
-572626514739312	Wattern Deri Çizmesi
-572630809706608	Badran Deri Çizmesi
-572635104673904	Hauvern Deri Çizmesi
-572639399641200	Begill Deri Çizmesi
-572643694608496	Dreiger Deri Çizmesi
-572647989575792	Esha Deri Çizmesi
-572660874477680	Vixer Deri Çizmesi
-572669464412272	Meravan Deri Çizmesi
-572673759379568	Salmae Deri Çizmesi
-572678054346864	Nehrut Deri Çizmesi
-572682349314160	Juman Deri Çizmesi
-572708119117936	Warren Beynon'un Deri Çizmesi
-572716709052528	Sein Deri Çizmesi
-572721004019824	Dolters Deri Çizmesi
-572725298987120	Kara Kanat Deri Çizmeleri
-572733888921712	Orbit Deri Çizmesi
-572738183889008	Alvitt Deri Çizmesi
-572742478856304	Arrenya Deri Çizmesi
-572746773823600	Belui Deri Çizmesi
-575551387467888	Triloan Deri Çizmesi
-575564272369776	Bayer Deri Çizmesi
-575572862304368	Pailune Ayakkabısı
-575581452238960	Reus Kumaş Ayakkabısı
-575590042173552	Eckney Kumaş Ayakkabısı
-575620106944624	Marrada Deri Çizmesi
-575624401911920	Endoron Deri Çizmesi
-575645876748400	Scoppa Deri Çizmesi
-575654466682992	Whitley Kumaş Ayakkabısı
-575731776094320	Kerdmann Kumaş Ayakkabısı
-575736071061616	Barrette Kumaş Ayakkabısı
-575740366028912	Gaut Kumaş Ayakkabısı
-575748955963504	Matia Deri Çizmesi
-575757545898096	Chizhar Kumaş Ayakkabısı
-575766135832688	Gün Batımı Sazlığı Kumaş Ayakkabısı
-575770430799984	Lapin Kumaş Çizmeleri
-575783315701872	Caliburn'ün Plaka Çizmesi
-5780346486525001840	Kavanoz Kapağı
-57982058496112	Kraliyet Yemini
-58411555225712	Faninin Kabuğu
-58428735094896	Balgran Kalkan
-58433030062192	Delesyia Süs Kalkanı
-5906878924599591024	Geniş Sepet
-59309203390576	Nazk Kılıcı
-59313498357872	Ürperten Kılıç
-59317793325168	Aeserion Kılıcı
-59322088292464	Faninin Kılıcı
-59704340381808	Donuk Kemik Kalkanı
-60563333841008	Lanetli Ruhun Plaka Zırhı
-60567628808304	Kızıl Binici'nin Plaka Zırhı
-60571923775600	Meyer Plaka Zırhı
-60576218742896	Spiddle Plaka Zırhı
-60597693579376	Donmuş Kalp Plaka Zırhı
-60988535603312	Karanlığın Celladı Plaka Çizmeleri
-60992830570608	Lanetli Ruhun Plaka Çizmeleri
-60997125537904	Buz Lanetli Plaka Çizmeleri
-61418032332912	Karanlığın Celladı Plaka Eldivenleri
-61422327300208	Lanetli Ruhun Plaka Eldivenleri
-61426622267504	Kızıl Avcı Zincir Eldivenleri
-61435212202096	Donmuş Kalp Plaka Eldivenleri
-61439507169392	Pirinç Muhafızının Plaka Eldivenleri
-61443802136688	Pailune Eldiveni
-61847529062512	İnanç Gezgini'nin Plaka Miğferi
-61851824029808	Lanetli Ruhun Plaka Miğferi
-61856118997104	Kızıl Binici'nin Plaka Miğferi
-61860413964400	Demeniss Muhafızları Plaka Miğferi
-61864708931696	Demeniss Muhafızları Plaka Miğferi
-61869003898992	Kızıl Avcı Plaka Miğferi
-61873298866288	Descao Plaka Miğferi
-61877593833584	Demeniss Muhafızları Plaka Miğferi
-61894773702768	Hilekârlar Böcek Miğferi
-61899068670064	Hilekârlar Eşek Arısı Miğferi
-61903363637360	Hilekârlar Boğa Miğferi
-61911953571952	Kara Kanat Maskesi
-61916248539248	Buz Lanetli Plaka Miğferi
-61920543506544	Carta Plaka Miğferi
-62277025792112	Alfa Kurt Başlığı
-62281320759408	Alfa Ayı Şapkası
-62307090563184	Kara Ayı Gaz Maskesi
-62319975465072	Visione
-62324270432368	Seri Üretim Visione
-6300844201508601968	Dunverline Plaka Zırhı
-63148904153200	Aeserion Büyük Çekici
-63157494087792	Karanlığın Taşıyıcısı
-63161789055088	Son Çan'ın Tekerleği
-6320293810584682608	Gagalı Plaka Miğferi
-6327985392637182064	Grotevant Plaka Zırh
-6371401357311606896	Engizisyoncunun Plaka Miğferi
-63995012710512	Öğrencinin Paketi
-64424509440112	Aeserion Baltalı Kargısı
-6463569139280642160	Solumen Büyük Rahibinin Asası
-64854006169712	Toprak Yarıcı
 6489699879223408	Hyperion At Zırhı
 6489721354059888	Sahareum At Zırhı
 6489725649027184	Berkei At Zırhı
@@ -5388,114 +5462,6 @@
 6502627730784368	Varnia Üzengileri
 6502632025751664	Demeniss Üzengisi
 6506879748407408	Gümüş Demir Nallar
-6516250194521096304	Cacoreum Deri Eldiveni
-65283502899312	En İyi Kalite Rhinard Topu
-65292092833904	İmparatorun Chongtong Topu
-65300682768496	Gizli Silah Chongtong Topu
-66571993088112	Runik Oyma Kaya
-6704798520081121392	Büyük Pavis Deri Eldivenleri
-6710262560295223408	Exclaire At Zırhı
-67430986547312	Aeserion Mızrağı
-67435281514608	Hesaplaşma
-67439576481904	Ayı Kavrayan
-67443871449200	Don Dişi
-67448166416496	Geçici Mızrak
-67456756351088	Ayrılan Ay
-67461051318384	Yuvarlak Ay
-67535070784651376	Dreer Plaka Zırhı
-6779758206341087344	Altın Ateş
-68294274973808	Donmuş Izdırap
-68298569941104	Tazı
-68302864908400	Çarpık Hüküm
-68723771703408	Küllü İnfaz
-68732361638000	Kanlı Çan
-6894008592727277680	Levin Plaka Zırhı
-6898678682466910320	Patten Deri Eldiveni
-6906379438569554032	Siyah Çelik Roshee Plaka Zırhı
-6971729650900795504	Calio Deri Eldiveni
-6977676466913804400	Meyer Plaka Zırhı
-7092751113358671984	Siyah Çelik Ratti Plaka Çizmeleri
-7117024524758941808	Engizisyoncunun Plaka Miğferi
-7194141568796721264	Ork Patlatıcısı
-7194141573091688560	Çelik Patlatıcı
-7194141577386655856	Güçlendirilmiş Çelik Patlatıcı
-723051576708563056	Killian Plaka Zırhı
-7291441978418397296	Büyük Enratte Plaka Miğferi
-7329306891136270448	Kinloch Plaka Zırhı
-7440012396199936112	Levin Plaka Zırhı
-7633826282945380464	Rhogo Plaka Zırhı
-7660060213772288112	Romund Plaka Zırhı
-7721337143544512624	Meyer Plaka Zırhı
-7806228443460272240	Siyah Çelik Lattua Plaka Çizmeleri
-7809981226969727088	Dundree Plaka Zırhı
-7861209178809827440	Büyük Killi Deri Çizmeler
-8012408365684621424	Kinross Plaka Zırhı
-8057664217039241328	Siyah Çelik Coogan Plaka Zırhı
-8240636824645533808	Demeniss Birliği Kükürt Gaz Maskesi
-8303593494652387440	Engizisyoncunun Plaka Miğferi
-8396906211823321200	Grotevant Plaka Miğfer
-85873576116336	Abis'in Nefesi
-85877871083632	Abis'in Ruhu
-85882166050928	Abis'in Canlılığı
-858997754167408	Gri Kurt'un Kılıcı
-859083653513328	Glenmour Kılıcı
-859096538415216	Sydmon Kılıcı
-859143783055472	Wells'in Kılıcı
-859203912597616	Alabaster Kavisli Kılıç
-859212502532208	Varnia Kılıcı
-859216797499504	Şövalye Lordun Kılıcı
-859221092466800	Yıkılmış Ülkenin Kılıcı
-859302696845424	Erimiş Hırs
-859324171681904	Volono Kılıcı
-859328466649200	Peltree Kılıcı
-862863224733808	Beyaz Rüzgâr Meçi
-862867519701104	İllüzyon Kılıcı
-862876109635696	Dekarr Kılıcı
-862919059308656	Lord'un Kılıcı
-862931944210544	Spada Kılıcı
-862940534145136	Acria'nın Kılıcı
-862949124079728	Lejyonerin Gladius'u
-862953419047024	Hayatta Kalanın Yalnızlığı
-862962008981616	Gücün Prangası
-863301311398000	Yargıç'ın Meçi
-863305606365296	Grace Meçi
-863309901332592	Leone Meçi
-863314196299888	Pirinç Gül Meçi
-863318491267184	Düşmüş Bir Hanedanın Meçisi
-863322786234480	Volono Meçi
-863327081201776	Yıkık Krallığın Meçi
-863331376169072	Elemore Meçi
-863335671136368	Dövüş Meçi
-863339966103664	Gilliam Meçi
-863344261070960	Lambert Meçi
-863348556038256	Barış Meçi
-863352851005552	Elenore Meçi
-863370030874736	Liberre Meçi
-8675116429273464944	Dernyl Deri Eldiveni
-8798741144423891056	Siyah Çelik Mottie Plaka Miğferi
-8818799895826661488	Kan Haydutları Geçici Gaz Maskesi
-8839645691396489328	Vennebis Plaka Zırhı
-8858467999024152688	Mahkum Plaka Zırh
-889366213786861680	Haydutun Pul Deri Eldivenleri
-8917868689512988784	Katunan Zincirli Zırhı
-8992792491321196656	Brejin Plaka Zırhı
-8996562218476634224	Grotevant Plaka Eldiven
-901956017062000	Becker Baltası
-901981786865776	Lanford Baltası
-901990376800368	Lambert Tek El Baltası
-901998966734960	Gilliam Baltası
-902041916407920	Maeve Baltası
-902067686211696	Rhias'ın Baltası
-902093456015472	Kylus'un Baltası
-902136405688432	Tardik Baltası
-902162175492208	Delonde Baltası
-902187945295984	Leofric İki Başlı Baltası
-902196535230576	Kara Demir Balta
-902248074838128	Timberham Baltası
-902265254707312	Karga Kardeşlerin Baltası
-902273844641904	Parashu Baltası
-902282434576496	Toprağın Halkası
-902286729543792	Gümüş Kurt Baltası
 9023739173798000	Sorin Plaka Miğferi
 9023743468765296	Matarion Plaka Miğferi
 9023747763732592	Langris Plaka Miğferi
@@ -5865,85 +5831,109 @@
 9162050005631088	Gölgeyaprak Miğferi
 9162054300598384	Gölgeyaprak Eldiveni
 9162058595565680	Gölgeyaprak Çizmesi
+11166966509207664	Savaş Alanının Işığı Plaka Zırhı
+11166996573978736	Beyaz Kan Rüzgarı Plaka Miğferi
+11167043818618992	Beyaz Kanlı Rüzgar Plaka Eldivenleri
+11167048113586288	Çırpınan Saf Beyaz Plaka Eldivenleri
+11167052408553584	Savaş Alanının Işığı Plaka Eldivenleri
+11167069588422768	Beyaz Kan Rüzgarı Deri Çizmeleri
+11167099653193840	Altın Işık Plaka Eldivenleri
+11167108243128432	Altın Işık Plaka Miğferi
+11167112538095728	Altın Işık Plaka Çizmeleri
+11167116833063024	Azgın Fırtınalar Plaka Zırhı
+11167121128030320	Azgın Fırtına'nın Plaka Miğferi
+11167125422997616	Azgın Fırtınalar Plaka Çizmeleri
+11167129717964912	Azgın Fırtınalar'ın Deri Eldivenleri
+67535070784651376	Dreer Plaka Zırhı
+276518962408194160	Wells Süvari At Başlığı
+310989639781449840	Çöl Killi Deri Çizmeler
+563100268686737520	Kuzeyli Paralı Asker Deri Eldivenleri
+723051576708563056	Killian Plaka Zırhı
+889366213786861680	Haydutun Pul Deri Eldivenleri
+1035885922123513968	Siyah Çelik Spiddle Plaka Vücut Zırhı
+1091536977313923184	Küçük Delesyia Sancak Mızrağı
+1319073903590506608	Kızıl Kahve Rheigis Deri Çizmeleri
+1434364200343306352	Kızıl Bıçak Gaz Maskesi
+1532196335506161776	Pororin Yaprak Şapka
+1539898543307751536	Lanauk Plaka Zırhı
+1564689889109213296	Siyah Çelik Dumenis Plaka Çizmeleri
+1597859002413219952	Crail Plaka Zırhı
+1681559243473289328	Beyaz Boynuz'un Kolyesi
+1681559252063223920	Yıldırım Kolyesi
+1681559303602831472	Karanlık Yemini
+1681559307897798768	Karanlığın İşareti
+1681559312192766064	Karanlığın Yadigârı
+1681559320782700656	Karanda'nın Kolyesi
+1681559325077667952	Cadının Küpesi
+1681559329372635248	Zifirî Karanlık Mührü
+1681559342257537136	Kadim Küpeler
+1681559346552504432	Kadim Yüzük
+1681559350847471728	Kadim'in Kolyesi
+1703127164779495536	Kan Haydutları Gaz Maskesi
+1811197836256084080	Mentz Plaka Miğferi
+2355793221168136304	Rhegis Deri Çizmesi
+2589973173361442928	Büyük Rhegis Deri Çizmeleri
+2591869818034454640	Siyah Çelik Renkshaw Plaka Miğferi
+2609680446115545200	Ağır Kova
+2808099654493798512	Aşınmış Sarantos Deri Çizmeleri
+2851662060373147760	Siyah Çelik Descao Plaka Miğferi
+2995175360322076784	Grotevant Plaka Ayakkabı
+3083646326500491376	Siyah Çelik Spiddle Plaka Zırhı
+3117835747940368496	Canusti Plaka Zırhı
+3251828544208109680	Koltuk Değneği
+3341530332049440880	Kunan Plaka Zırhı
+3512701889944748144	Dumenis Plaka Miğferi
+3550753676689670256	Siyah Çelik Longia Plaka Miğferi
+4233774719385469040	Valkyder Plaka Zırhı
+4257868012742246512	Edzel Plaka Zırhı
+4644006381769195632	Kızıl Kahve Pavis Deri Eldivenleri
+4719841433903693936	Siyah Çelik Lotas Plaka Miğferi
+4867475935361761392	Persein Deri Eldiveni
+4990507880600830064	Kenmore Plaka Zırhı
+5029885523750027376	Haydutun Deri Çizmeleri
+5068669241641664624	Boş Paket
+5255562342640386160	Pavis Deri Ayakkabısı
+5780346486525001840	Kavanoz Kapağı
+5906878924599591024	Geniş Sepet
+6300844201508601968	Dunverline Plaka Zırhı
+6320293810584682608	Gagalı Plaka Miğferi
+6327985392637182064	Grotevant Plaka Zırh
+6371401357311606896	Engizisyoncunun Plaka Miğferi
+6463569139280642160	Solumen Büyük Rahibinin Asası
+6516250194521096304	Cacoreum Deri Eldiveni
+6704798520081121392	Büyük Pavis Deri Eldivenleri
+6710262560295223408	Exclaire At Zırhı
+6779758206341087344	Altın Ateş
+6894008592727277680	Levin Plaka Zırhı
+6898678682466910320	Patten Deri Eldiveni
+6906379438569554032	Siyah Çelik Roshee Plaka Zırhı
+6971729650900795504	Calio Deri Eldiveni
+6977676466913804400	Meyer Plaka Zırhı
+7092751113358671984	Siyah Çelik Ratti Plaka Çizmeleri
+7117024524758941808	Engizisyoncunun Plaka Miğferi
+7194141568796721264	Ork Patlatıcısı
+7194141573091688560	Çelik Patlatıcı
+7194141577386655856	Güçlendirilmiş Çelik Patlatıcı
+7291441978418397296	Büyük Enratte Plaka Miğferi
+7329306891136270448	Kinloch Plaka Zırhı
+7440012396199936112	Levin Plaka Zırhı
+7633826282945380464	Rhogo Plaka Zırhı
+7660060213772288112	Romund Plaka Zırhı
+7721337143544512624	Meyer Plaka Zırhı
+7806228443460272240	Siyah Çelik Lattua Plaka Çizmeleri
+7809981226969727088	Dundree Plaka Zırhı
+7861209178809827440	Büyük Killi Deri Çizmeler
+8012408365684621424	Kinross Plaka Zırhı
+8057664217039241328	Siyah Çelik Coogan Plaka Zırhı
+8240636824645533808	Demeniss Birliği Kükürt Gaz Maskesi
+8303593494652387440	Engizisyoncunun Plaka Miğferi
+8396906211823321200	Grotevant Plaka Miğfer
+8675116429273464944	Dernyl Deri Eldiveni
+8798741144423891056	Siyah Çelik Mottie Plaka Miğferi
+8818799895826661488	Kan Haydutları Geçici Gaz Maskesi
+8839645691396489328	Vennebis Plaka Zırhı
+8858467999024152688	Mahkum Plaka Zırh
+8917868689512988784	Katunan Zincirli Zırhı
+8992792491321196656	Brejin Plaka Zırhı
+8996562218476634224	Grotevant Plaka Eldiven
 9190122474518347888	Dalbich Plaka Zırhı
-9448928051312	Küt Ok
-944901395054704	Kadel Gürzü
-944909984989296	Kordaav Gürzü
-944918574923888	Yürüyen Baston
-944922869891184	Lanford Gürzü
-944927164858480	Donmuş Ruh
-944944344727664	Octarr'ın Mirası
-944952934662256	Düzenbazın Gürzü
-944970114531440	Wells Gürzü
-944974409498736	Kemik Çukuru Gürzü
-944982999433328	Kaymak Taşı Gürzü
-944987294400624	Balton Gürzü
-944991589367920	Iris Gürzü
-94515050315888	Meyve Şarabı
-94527935217776	Kutsal Su
-949187772416112	Aeserion Zincirli Gürzü
-987855362982000	Varnia Hançeri
-987967032131696	Becker Hançeri
-988095881150576	Kaymak Taşı Hançeri
-988113061019760	Karanlık Kovalamaca Hançeri
-988121650954352	Karga Kardeşlerin Hançeri
-988156010692720	Ator'un Parmağı
-991712243613808	Kylus'un Hançeri
-991729423482992	Sydmon Hançeri
-991746603352176	Delesyialı Hançeri
-991755193286768	Dekarr Hançeri
-991780963090544	Pailune Ayin Bıçağı
-992137445376112	Aeserion Hançeri
-214752659767408	Ok
-4302891510661232	Dart
-4299923688259696	Zehirli Kurbağa
-4299932278194288	Kara Kurbağası
-3251316012875888	Şakayık
-3251328897777776	Hercai Menekşe
-3098823199031408	Garnet
-3049431075127408	Kereste
-3006481402167408	Kumaş Parçaları
-4299764774469744	Yün
-4298630903103600	Diş
-4297810564350064	Fil Dişi
-4302294510207088	Bezelye
-3221242651869296	Fasulye
-3221234061934704	Buğday
-3221307076378736	Mısır
-3221302781411440	Yulaf
-4302157071253616	İncir
-3221354321018992	Şeftali
-3221251241803888	Elma
-3221259831738480	Üzüm
-4302169956155504	Kakao
-3221328551215216	Soğan
-3226001475633264	Keten
-4301697509752944	Turp
-43091406880880	Bal
-3242764732989552	Yumurta
-90271622627440	Süt
-3221264126705776	Meşe Palamudu
-3229819701559408	Tuz
-3229828291494000	Şeker
-94523640250480	Su
-90275917594736	Kurutulmuş Güzel Et
-124128849821808	Ekmek
-94519345283184	Bira
-4297763319709808	Tahıllı Gevrek
-4297316643111024	Dişli
-4302882920726640	Armut
-859053588742256	Meşale
-4295766159917168	Altın Yapraklar'ın Kumaş Zırhı
-4296182771744880	Altın Yapraklar'ın Kumaş Pelerini
-4295779044819056	Altın Yapraklar'ın Kumaş Zırhı
-4296187066712176	Altın Yapraklar'ın Kumaş Pelerini
-4295770454884464	Nibrak Kumaş Zırhı
-15797375398179767453	Garnet
-4294967408	Bakır
-4294967410	Gümüş
-47244640368	Kamp Parası
-51539607664	Kamp Yemeği
-55834574960	Kamp Kerestesi
-60129542256	Kamp Taşı
-3094553229787184	Gold Bar
-12130294615337075856	Ginseng
