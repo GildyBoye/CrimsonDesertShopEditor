@@ -286,12 +286,72 @@ header h1 span{color:var(--text-dim);font-weight:400;font-size:.8rem;margin-left
 .btn-base:hover{background:rgba(200,168,75,.18);}
 .btn-base:disabled{opacity:.4;cursor:not-allowed;}
 .btn-base.loaded{border-color:var(--green);color:var(--green);background:rgba(74,154,90,.08);}
+
+/* NAV DROPDOWN */
+.nav-dropdown{position:relative;display:inline-flex;align-items:center;}
+.nav-title{
+  font-family:'Cinzel',serif;font-size:1.15rem;font-weight:700;color:var(--gold);
+  display:flex;align-items:center;gap:6px;cursor:default;
+}
+.nav-title span{color:var(--text-dim);font-weight:400;font-size:.8rem;letter-spacing:.04em;}
+.nav-chevron{
+  display:inline-flex;align-items:center;justify-content:center;
+  width:20px;height:20px;border-radius:3px;border:1px solid var(--border2);
+  cursor:pointer;transition:all .2s;color:var(--text-dim);font-size:.55rem;
+  background:var(--bg3);flex-shrink:0;user-select:none;
+}
+.nav-chevron:hover{border-color:var(--gold-dim);color:var(--gold);background:rgba(200,168,75,.08);}
+.nav-menu{
+  position:absolute;top:calc(100% + 8px);left:0;
+  background:var(--bg2);border:1px solid var(--border2);
+  border-radius:3px;min-width:220px;z-index:200;
+  box-shadow:0 8px 24px rgba(0,0,0,.5);
+  display:none;flex-direction:column;overflow:hidden;
+}
+.nav-menu.open{display:flex;}
+.nav-item{
+  display:flex;align-items:center;gap:10px;
+  padding:10px 14px;cursor:pointer;transition:background .15s;
+  border-bottom:1px solid var(--border);
+  font-family:'Crimson Pro',serif;font-size:.88rem;color:var(--text);
+}
+.nav-item:last-child{border-bottom:none;}
+.nav-item:hover{background:rgba(200,168,75,.07);color:var(--gold);}
+.nav-item.active{color:var(--gold);background:rgba(200,168,75,.1);}
+.nav-item-icon{font-size:1rem;flex-shrink:0;width:20px;text-align:center;}
+.nav-item-text strong{display:block;font-size:.82rem;font-family:'Cinzel',serif;letter-spacing:.06em;}
+.nav-item-text span{font-size:.7rem;color:var(--text-dim);}
+.nav-item.active .nav-item-text span{color:var(--gold-dim);}
+
+/* PAGE VISIBILITY */
+.page{display:none;}
+.page.active{display:flex;flex:1;overflow:hidden;flex-direction:column;}
+
 </style>
 </head>
 <body>
 
 <header style="position:relative;">
-  <h1>Crimson Desert <span>/ Shop Editor</span></h1>
+  <div class="nav-dropdown" id="nav-dropdown">
+    <div class="nav-title">
+      Crimson Desert &nbsp;<span id="nav-current-label">/ Shop Editor</span>
+      <div class="nav-chevron" id="nav-chevron" onclick="toggleNav()" title="Switch editor">▼</div>
+    </div>
+    <div class="nav-menu" id="nav-menu">
+      <div class="nav-item active" id="nav-shop" onclick="switchPage('shop')">
+        <span class="nav-item-icon">🏪</span>
+        <div class="nav-item-text"><strong>Shop Editor</strong><span>storeinfo.pabgb — store slot mods</span></div>
+      </div>
+      <div class="nav-item" id="nav-trust" onclick="switchPage('trust')">
+        <span class="nav-item-icon">🤝</span>
+        <div class="nav-item-text"><strong>Dropset Editor</strong><span>dropsetinfo.pabgb — trust gain values</span></div>
+      </div>
+      <div class="nav-item" id="nav-skill" onclick="switchPage('skill')">
+        <span class="nav-item-icon">⚔️</span>
+        <div class="nav-item-text"><strong>Skill Editor</strong><span>skill.pabgb — skill patch export</span></div>
+      </div>
+    </div>
+  </div>
   <div style="position:absolute;left:50%;transform:translateX(-50%);font-family:'Cinzel',serif;font-size:1.1rem;letter-spacing:.12em;color:var(--red);text-transform:uppercase;font-weight:700;white-space:nowrap;text-shadow:0 0 20px rgba(176,58,58,.4);">⚠ Back up your saves before modifying your game</div>
   <div class="header-right">
     <span class="ver-badge" id="ver-badge">v1.01.02</span>
@@ -302,6 +362,7 @@ header h1 span{color:var(--text-dim);font-weight:400;font-size:.8rem;margin-left
   </div>
 </header>
 
+<div class="page active" id="page-shop">
 <div class="app">
 
   <!-- SIDEBAR -->
@@ -437,6 +498,159 @@ header h1 span{color:var(--text-dim);font-weight:400;font-size:.8rem;margin-left
   </main>
 </div>
 
+</div><!-- /page-shop -->
+
+
+<!-- ═══════════════ COMPANION TRUST PAGE ═══════════════ -->
+<div class="page" id="page-trust">
+<div class="app">
+  <aside class="sidebar">
+    <div class="sb-files">
+      <span class="sec-label">Game File</span>
+      <div class="fdz" id="fdz-drop">
+        <input type="file" id="f-drop" accept=".pabgb">
+        <span class="fdz-icon">📂</span>
+        <div class="fdz-text">
+          <strong>dropsetinfo.pabgb</strong>
+          <span>Companion trust gain data</span>
+        </div>
+        <span class="fdz-ok" id="ok-drop">✓ loaded</span>
+        <div class="fdz-hint">Found in gamedata/ after PAZ extraction</div>
+      </div>
+      <div style="margin-top:10px;padding:10px;background:rgba(200,168,75,.04);border:1px solid var(--border);border-radius:3px;font-size:.72rem;color:var(--text-dim);line-height:1.6;">
+        <strong style="color:var(--gold-dim);font-family:'Cinzel',serif;font-size:.6rem;letter-spacing:.1em;">HOW IT WORKS</strong><br>
+        Each DropSet_Friendly_* entry stores two identical trust gain values (u32 LE) at fixed offsets within the record. Edit the values below, then export a JSON patch file.
+      </div>
+    </div>
+    <div class="sb-stores" style="padding:10px 12px;">
+      <span class="sec-label">Trust Entries</span>
+      <div class="store-tree" id="trust-entry-list">
+        <div class="empty"><div class="empty-d">Load dropsetinfo.pabgb to see entries</div></div>
+      </div>
+    </div>
+  </aside>
+
+  <main class="main">
+    <div class="toolbar">
+      <span class="store-title" id="trust-title">No entry selected</span>
+      <span class="store-meta" id="trust-meta"></span>
+      <button class="btn btn-outline" id="btn-trust-reset" onclick="resetTrust()" disabled>Reset</button>
+      <button class="btn btn-gold" id="btn-trust-export" onclick="exportTrustJSON()" disabled>Export JSON</button>
+    </div>
+
+    <div style="flex:1;overflow-y:auto;padding:20px;display:flex;flex-direction:column;gap:16px;" id="trust-editor">
+      <div class="empty" style="flex:1;">
+        <div class="empty-icon">🤝</div>
+        <div class="empty-t">Dropset Editor</div>
+        <div class="empty-d">Load dropsetinfo.pabgb and select an entry to edit trust gain values.</div>
+      </div>
+    </div>
+
+    <div class="config-bar">
+      <div class="cfg-field">
+        <span class="cfg-label">Mod Name</span>
+        <input class="cfg-input" id="trust-cfg-name" value="My Trust Mod" style="width:220px;">
+      </div>
+    </div>
+
+    <div class="status-bar">
+      <div class="s-dot" id="dot-drop"></div><span id="lbl-drop">dropsetinfo: not loaded</span>
+      <span class="status-msg" id="trust-status-msg">Load dropsetinfo.pabgb to begin</span>
+      <span style="font-family:'Cinzel',serif;font-size:.6rem;letter-spacing:.08em;color:var(--white);white-space:nowrap;flex-shrink:0;">Created by GildyBoye</span>
+    </div>
+  </main>
+</div>
+</div><!-- /page-trust -->
+
+<!-- ═══════════════ SKILL EDITOR PAGE ═══════════════ -->
+<div class="page" id="page-skill">
+<div class="app">
+  <aside class="sidebar">
+    <div class="sb-files">
+      <span class="sec-label">Game File</span>
+      <div class="fdz" id="fdz-skill">
+        <input type="file" id="f-skill" accept=".pabgb">
+        <span class="fdz-icon">⚔️</span>
+        <div class="fdz-text">
+          <strong>skill.pabgb</strong>
+          <span>Skill definitions</span>
+        </div>
+        <span class="fdz-ok" id="ok-skill">✓ loaded</span>
+        <div class="fdz-hint">Found in gamedata/ after PAZ extraction</div>
+      </div>
+      <div style="margin-top:10px;padding:10px;background:rgba(200,168,75,.04);border:1px solid var(--border);border-radius:3px;font-size:.72rem;color:var(--text-dim);line-height:1.6;">
+        <strong style="color:var(--gold-dim);font-family:'Cinzel',serif;font-size:.6rem;letter-spacing:.1em;">HOW IT WORKS</strong><br>
+        Browse skill records by name. Select a skill to view its raw binary data. Use the hex patch editor to define byte edits at specific offsets, then export a JSON patch file.
+      </div>
+      <div style="margin-top:8px;">
+        <input class="store-search" id="skill-search" placeholder="Search skills…" disabled oninput="filterSkills()" style="width:100%;">
+      </div>
+    </div>
+    <div class="sb-stores" style="padding:10px 12px 0;">
+      <span class="sec-label" style="margin-bottom:6px;display:block;">Skills <span id="skill-count" style="color:var(--text-faint);font-size:.6rem;"></span></span>
+      <div class="store-tree" id="skill-list">
+        <div class="empty"><div class="empty-d">Load skill.pabgb to browse skills</div></div>
+      </div>
+    </div>
+  </aside>
+
+  <main class="main">
+    <div class="toolbar">
+      <span class="store-title" id="skill-title">No skill selected</span>
+      <span class="store-meta" id="skill-meta"></span>
+      <button class="btn btn-outline" id="btn-skill-clear" onclick="clearSkillPatches()" disabled>Clear Patches</button>
+      <button class="btn btn-gold" id="btn-skill-export" onclick="exportSkillJSON()" disabled>Export JSON</button>
+    </div>
+
+    <div style="flex:1;overflow:hidden;display:grid;grid-template-columns:1fr 1fr;">
+      <!-- Hex view -->
+      <div class="panel">
+        <div class="panel-head">
+          <span class="panel-title">Hex View</span>
+          <span class="panel-count" id="skill-hex-info"></span>
+        </div>
+        <div class="panel-body" id="skill-hex-view" style="font-family:monospace;font-size:.72rem;">
+          <div class="empty"><div class="empty-d">Select a skill to view its binary data</div></div>
+        </div>
+      </div>
+
+      <!-- Patch editor -->
+      <div class="panel">
+        <div class="panel-head">
+          <span class="panel-title">Patch Editor</span>
+          <span class="panel-count" id="skill-patch-count"></span>
+        </div>
+        <div class="panel-body" id="skill-patch-editor">
+          <div class="empty"><div class="empty-d">Select a skill, then add patches below</div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="config-bar">
+      <div class="cfg-field">
+        <span class="cfg-label">Mod Name</span>
+        <input class="cfg-input" id="skill-cfg-name" value="My Skill Mod" style="width:220px;">
+      </div>
+      <div class="cfg-field" style="margin-left:auto;">
+        <span class="cfg-label">Add Patch at Offset</span>
+        <div style="display:flex;gap:6px;">
+          <input class="cfg-input" id="skill-patch-offset" placeholder="offset" type="number" style="width:90px;">
+          <input class="cfg-input" id="skill-patch-orig" placeholder="orig hex" style="width:90px;" maxlength="16">
+          <input class="cfg-input" id="skill-patch-new" placeholder="new hex" style="width:90px;" maxlength="16">
+          <button class="btn btn-outline" onclick="addSkillPatch()" style="padding:4px 10px;font-size:.62rem;">Add</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="status-bar">
+      <div class="s-dot" id="dot-skill"></div><span id="lbl-skill">skill.pabgb: not loaded</span>
+      <span class="status-msg" id="skill-status-msg">Load skill.pabgb to begin</span>
+      <span style="font-family:'Cinzel',serif;font-size:.6rem;letter-spacing:.08em;color:var(--white);white-space:nowrap;flex-shrink:0;">Created by GildyBoye</span>
+    </div>
+  </main>
+</div>
+</div><!-- /page-skill -->
+
 <div class="toast" id="toast"></div>
 
 <script>
@@ -466,7 +680,6 @@ const CITY_MAP = {
 };
 
 // NPC/shop names per store internal name (sourced from npcinfo.pabgb)
-// Note: localizationstring files do not contain NPC/store names — these are from npcinfo.pabgb only
 const NPC_MAP = {
   Store_Her_General:          'Hernand General Merchant',
   Store_Cal_General:          'Calphade General Merchant',
@@ -1062,23 +1275,8 @@ async function loadLocalization() {
     document.getElementById('dot-loc').classList.add('ok');
     document.getElementById('lbl-loc').textContent=`localization: ${S.locMap.size.toLocaleString()} strings`;
     if(S.itemBuf) {
-      // pabgb mode: full re-parse with new locMap
       setMsg('Re-resolving item names with localization…');
       S.itemMap = await parseItemInfo(S.itemBuf);
-      S.filteredItems = [...S.itemMap];
-      renderItemList();
-      if(S.currentStore) renderSlots();
-      document.getElementById('item-count').textContent = S.itemMap.length.toLocaleString()+' items';
-    } else if(S.itemMap.length > 0) {
-      // base-file mode: re-resolve using stored locKeys
-      setMsg('Re-resolving item names with localization…');
-      for(const it of S.itemMap) {
-        if(it.locKey && S.locMap.has(it.locKey)) {
-          const n = S.locMap.get(it.locKey);
-          if(n && n.length >= 2 && !n.includes('<br') && !n.includes('Client:')) it.name = n;
-        }
-      }
-      S.itemMap.sort((a,b)=>a.name.localeCompare(b.name));
       S.filteredItems = [...S.itemMap];
       renderItemList();
       if(S.currentStore) renderSlots();
@@ -1608,21 +1806,11 @@ async function loadBaseFiles() {
     S.itemMap = [];
     for(const line of itemText.split('\n')) {
       const t = line.trim(); if(!t) continue;
-      const parts = t.split('\t');
-      if(parts.length < 2) continue;
-      const hexLE  = parts[0].trim();
-      const locKey = parts.length >= 3 ? parts[1].trim() : '';
-      const name   = parts.length >= 3 ? parts[2].trim() : parts[1].trim();
-      if(hexLE && name) S.itemMap.push({hexLE, name, internal: name, locKey});
-    }
-    // Apply localization if already loaded
-    if(S.locMap) {
-      for(const it of S.itemMap) {
-        if(it.locKey && S.locMap.has(it.locKey)) {
-          const n = S.locMap.get(it.locKey);
-          if(n && n.length >= 2 && !n.includes('<br') && !n.includes('Client:')) it.name = n;
-        }
-      }
+      const tab = t.indexOf('\t');
+      if(tab === -1) continue;
+      const hexLE   = t.slice(0, tab).trim();
+      const name    = t.slice(tab+1).trim();
+      if(hexLE && name) S.itemMap.push({hexLE, name, internal: name, locKey:''});
     }
     S.itemMap.sort((a,b)=>a.name.localeCompare(b.name));
     S.filteredItems = [...S.itemMap];
@@ -1708,6 +1896,446 @@ function showToast(msg,type='') {
   t.classList.add('show');
   toastTimer=setTimeout(()=>t.classList.remove('show'),2800);
 }
+
+// ═══════════════════════════════════════════
+// NAV / PAGE SWITCHING
+// ═══════════════════════════════════════════
+const PAGE_LABELS = {
+  shop:  '/ Shop Editor',
+  trust: '/ Dropset Editor',
+  skill: '/ Skill Editor',
+};
+let currentPage = 'shop';
+
+function toggleNav() {
+  document.getElementById('nav-menu').classList.toggle('open');
+}
+document.addEventListener('click', e => {
+  if(!document.getElementById('nav-dropdown').contains(e.target))
+    document.getElementById('nav-menu').classList.remove('open');
+});
+
+function switchPage(page) {
+  if(page === currentPage) { document.getElementById('nav-menu').classList.remove('open'); return; }
+  document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+  document.getElementById('page-' + page).classList.add('active');
+  document.querySelectorAll('.nav-item').forEach(i => i.classList.remove('active'));
+  document.getElementById('nav-' + page).classList.add('active');
+  document.getElementById('nav-current-label').textContent = PAGE_LABELS[page];
+  document.getElementById('nav-menu').classList.remove('open');
+  currentPage = page;
+}
+
+// ═══════════════════════════════════════════
+// COMPANION TRUST EDITOR
+// ═══════════════════════════════════════════
+const TS = {
+  buf: null,
+  entries: [],      // [{name, nameEnd, offset1, offset2, origVal1, origVal2}]
+  mods: {},         // name -> {val1, val2}
+  selected: null,
+};
+
+const VALUE_OFFSETS = { rel1: 59, rel2: 67 }; // bytes after name_end
+
+document.getElementById('f-drop').addEventListener('change', async e => {
+  const file = e.target.files[0]; if(!file) return;
+  if(!file.name.toLowerCase().includes('dropsetinfo')) {
+    alert('Please upload dropsetinfo.pabgb'); e.target.value=''; return;
+  }
+  TS.buf = await file.arrayBuffer();
+  parseTrustFile();
+});
+
+function parseTrustFile() {
+  const u8 = new Uint8Array(TS.buf);
+  const dv = new DataView(TS.buf);
+  const enc = new TextEncoder();
+  const prefix = enc.encode('DropSet_Friendly_');
+  TS.entries = [];
+
+  for(let i = 0; i <= u8.length - prefix.length; i++) {
+    let match = true;
+    for(let k = 0; k < prefix.length; k++) if(u8[i+k] !== prefix[k]) { match=false; break; }
+    if(!match) continue;
+
+    // Read null-terminated name
+    let end = i;
+    while(end < u8.length && u8[end] !== 0) end++;
+    const name = new TextDecoder().decode(u8.slice(i, end));
+    if(name.length < 8 || name.length > 80) continue;
+
+    const nameEnd = end + 1;
+    const off1 = nameEnd + VALUE_OFFSETS.rel1;
+    const off2 = nameEnd + VALUE_OFFSETS.rel2;
+    if(off2 + 4 > u8.length) continue;
+
+    const v1 = dv.getInt32(off1, true);
+    const v2 = dv.getInt32(off2, true);
+
+    TS.entries.push({ name, nameEnd, offset1: off1, offset2: off2, origVal1: v1, origVal2: v2 });
+    i = end; // skip ahead past this entry
+  }
+
+  document.getElementById('fdz-drop').classList.add('loaded');
+  document.getElementById('ok-drop').textContent = `✓ ${TS.entries.length} entries`;
+  document.getElementById('dot-drop').classList.add('ok');
+  document.getElementById('lbl-drop').textContent = `dropsetinfo: ${TS.entries.length} friendly entries`;
+  renderTrustList();
+  document.getElementById('btn-trust-reset').disabled = false;
+  document.getElementById('btn-trust-export').disabled = false;
+  document.getElementById('trust-status-msg').textContent = 'Select a DropSet_Friendly entry to edit its trust gain value.';
+}
+
+function renderTrustList() {
+  const el = document.getElementById('trust-entry-list');
+  el.innerHTML = '';
+  for(const entry of TS.entries) {
+    const mod = TS.mods[entry.name];
+    const div = document.createElement('div');
+    div.className = 'store-item' + (TS.selected === entry.name ? ' active' : '') + (mod ? ' modified' : '');
+    const label = entry.name.replace('DropSet_Friendly_', '');
+    const displayVal = mod ? mod.val1 : entry.origVal1;
+    div.innerHTML = `<span>${esc(label)}</span><span style="float:right;font-size:.65rem;font-family:monospace;color:${mod?'var(--green)':'var(--text-faint)'};">${displayVal}</span>`;
+    div.onclick = () => selectTrustEntry(entry.name);
+    el.appendChild(div);
+  }
+}
+
+function selectTrustEntry(name) {
+  TS.selected = name;
+  renderTrustList();
+  const entry = TS.entries.find(e => e.name === name);
+  const mod = TS.mods[name];
+  const curVal = mod ? mod.val1 : entry.origVal1;
+
+  const label = name.replace('DropSet_Friendly_', '');
+  document.getElementById('trust-title').textContent = label;
+  document.getElementById('trust-meta').textContent = `offset ${entry.offset1} / ${entry.offset2}  ·  original: ${entry.origVal1}`;
+
+  const editorEl = document.getElementById('trust-editor');
+  editorEl.innerHTML = '';
+
+  // Description
+  const desc = {
+    Talk: 'Trust gained each time you talk to a companion.',
+    Donate: 'Trust gained when you donate items to a companion.',
+    Threat: 'Trust change when you threaten a companion (usually negative).',
+  }[label] || 'Trust gain value for this companion interaction.';
+
+  editorEl.innerHTML = `
+    <div style="background:var(--bg3);border:1px solid var(--border);border-radius:3px;padding:16px;margin-bottom:4px;">
+      <div style="font-family:'Cinzel',serif;font-size:.75rem;color:var(--gold);margin-bottom:8px;letter-spacing:.08em;">${esc(name)}</div>
+      <div style="font-size:.85rem;color:var(--text-dim);margin-bottom:16px;">${desc}</div>
+
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px;">
+        <div>
+          <div style="font-size:.6rem;font-family:'Cinzel',serif;color:var(--gold-dim);letter-spacing:.1em;margin-bottom:4px;">ORIGINAL VALUE</div>
+          <div style="font-size:1.4rem;color:var(--text-dim);font-family:monospace;">${entry.origVal1}</div>
+        </div>
+        <div>
+          <div style="font-size:.6rem;font-family:'Cinzel',serif;color:var(--gold-dim);letter-spacing:.1em;margin-bottom:4px;">NEW VALUE</div>
+          <input id="trust-val-input" type="number" value="${curVal}"
+            style="width:100%;background:var(--bg);border:1px solid var(--gold-dim);color:var(--gold);
+                   padding:8px 10px;font-family:monospace;font-size:1.2rem;border-radius:3px;outline:none;"
+            oninput="applyTrustVal()">
+        </div>
+      </div>
+
+      <div style="font-size:.72rem;color:var(--text-dim);margin-bottom:12px;">
+        Both offsets (${entry.offset1} &amp; ${entry.offset2}) are patched to the same value as a pair.
+      </div>
+
+      <div style="display:flex;gap:8px;flex-wrap:wrap;">
+        <button class="btn btn-outline" style="font-size:.6rem;" onclick="setTrustPreset(${entry.origVal1 * 2})">×2 (${entry.origVal1 * 2})</button>
+        <button class="btn btn-outline" style="font-size:.6rem;" onclick="setTrustPreset(${entry.origVal1 * 5})">×5 (${entry.origVal1 * 5})</button>
+        <button class="btn btn-outline" style="font-size:.6rem;" onclick="setTrustPreset(${entry.origVal1 * 10})">×10 (${entry.origVal1 * 10})</button>
+        <button class="btn btn-outline" style="font-size:.6rem;" onclick="setTrustPreset(${entry.origVal1 * 20})">×20 (${entry.origVal1 * 20})</button>
+        <button class="btn btn-outline" style="font-size:.6rem;margin-left:auto;" onclick="setTrustPreset(${entry.origVal1})">Reset to original</button>
+      </div>
+    </div>
+  `;
+}
+
+function applyTrustVal() {
+  if(!TS.selected) return;
+  const input = document.getElementById('trust-val-input');
+  const val = parseInt(input.value);
+  if(isNaN(val)) return;
+  const entry = TS.entries.find(e => e.name === TS.selected);
+  if(val === entry.origVal1) { delete TS.mods[TS.selected]; }
+  else { TS.mods[TS.selected] = { val1: val, val2: val }; }
+  renderTrustList();
+}
+
+function setTrustPreset(val) {
+  const input = document.getElementById('trust-val-input');
+  if(input) { input.value = val; applyTrustVal(); }
+}
+
+function resetTrust() {
+  TS.mods = {};
+  renderTrustList();
+  if(TS.selected) selectTrustEntry(TS.selected);
+  showToast('Trust modifications cleared');
+}
+
+function exportTrustJSON() {
+  if(Object.keys(TS.mods).length === 0) { showToast('No modifications to export','err'); return; }
+  const modName = document.getElementById('trust-cfg-name').value || 'My Trust Mod';
+  const changes = [];
+
+  for(const [name, mod] of Object.entries(TS.mods)) {
+    const entry = TS.entries.find(e => e.name === name);
+    if(!entry) continue;
+    const origHex = toLEHex(entry.origVal1 < 0 ? (entry.origVal1 >>> 0) : entry.origVal1);
+    const newHex  = toLEHex(mod.val1 < 0 ? (mod.val1 >>> 0) : mod.val1);
+    const label = entry.name.replace('DropSet_Friendly_', '');
+    changes.push({ offset: entry.offset1, label: `${label} (val 1)`, original: origHex, patched: newHex });
+    changes.push({ offset: entry.offset2, label: `${label} (val 2)`, original: origHex, patched: newHex });
+  }
+
+  changes.sort((a,b) => a.offset - b.offset);
+
+  const patch = {
+    name: modName,
+    version: '1.01.02',
+    author: "GildyBoye",
+    description: `Trust gain modifier — ${Object.keys(TS.mods).length} entry(s) modified.`,
+    patches: [{ game_file: 'gamedata/dropsetinfo.pabgb', changes }],
+  };
+  const blob = new Blob([JSON.stringify(patch, null, 2)], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url; a.download = modName.replace(/[^A-Za-z0-9_-]/g,'_') + '.json';
+  a.click(); URL.revokeObjectURL(url);
+  showToast(`Exported ${Object.keys(TS.mods).length} trust change(s)!`, 'ok');
+}
+
+// ═══════════════════════════════════════════
+// SKILL EDITOR
+// ═══════════════════════════════════════════
+const SK = {
+  buf: null,
+  records: [],   // [{key, name, dataOffset, dataLen, rawData}]
+  filtered: [],
+  selected: null,
+  patches: [],   // [{offset, label, original, patched}]
+};
+
+document.getElementById('f-skill').addEventListener('change', async e => {
+  const file = e.target.files[0]; if(!file) return;
+  if(!file.name.toLowerCase().includes('skill')) {
+    alert('Please upload skill.pabgb'); e.target.value=''; return;
+  }
+  SK.buf = await file.arrayBuffer();
+  parseSkillFile();
+});
+
+function parseSkillFile() {
+  const u8 = new Uint8Array(SK.buf);
+  const dv = new DataView(SK.buf);
+  SK.records = [];
+
+  // Record format: [u32 key][u32 name_len][name bytes + null][... data ...]
+  // Next record starts at name_end (after null). We scan for valid prefixes.
+  const VALID = ['Skill_','Passive_','Equip_','Active_','Item_Skill_','Gimmick_','MaterialSkill_'];
+  let i = 0;
+  while(i < u8.length - 8) {
+    const key     = dv.getUint32(i, true);
+    const nameLen = dv.getUint32(i+4, true);
+    if(nameLen < 4 || nameLen > 120 || i+8+nameLen > u8.length) { i++; continue; }
+    let name = '';
+    try { name = new TextDecoder('ascii').decode(u8.slice(i+8, i+8+nameLen-1)); } catch{ i++; continue; }
+    if(!VALID.some(p => name.startsWith(p))) { i++; continue; }
+    if(u8[i+8+nameLen-1] !== 0) { i++; continue; }
+
+    const dataOffset = i + 8 + nameLen;
+    // Find next record start by scanning ahead (bounded)
+    let nextRec = dataOffset;
+    while(nextRec < Math.min(u8.length-8, dataOffset+2048)) {
+      const k2 = dv.getUint32(nextRec, true);
+      const l2 = dv.getUint32(nextRec+4, true);
+      if(l2 >= 4 && l2 < 120 && nextRec+8+l2 <= u8.length) {
+        let n2 = '';
+        try { n2 = new TextDecoder('ascii').decode(u8.slice(nextRec+8, nextRec+8+l2-1)); } catch{}
+        if(VALID.some(p => n2.startsWith(p)) && u8[nextRec+8+l2-1] === 0) break;
+      }
+      nextRec++;
+    }
+    const dataLen = Math.min(nextRec - dataOffset, 512); // cap displayed data at 512 bytes
+    SK.records.push({ key, name, dataOffset, dataLen, recStart: i });
+    i = dataOffset; // advance to data area, let loop find next record
+  }
+
+  // Deduplicate by name (keep first occurrence)
+  const seen = new Set();
+  SK.records = SK.records.filter(r => { if(seen.has(r.name)) return false; seen.add(r.name); return true; });
+  SK.records.sort((a,b) => a.name.localeCompare(b.name));
+  SK.filtered = [...SK.records];
+
+  document.getElementById('fdz-skill').classList.add('loaded');
+  document.getElementById('ok-skill').textContent = `✓ ${SK.records.length} skills`;
+  document.getElementById('dot-skill').classList.add('ok');
+  document.getElementById('lbl-skill').textContent = `skill.pabgb: ${SK.records.length} skills`;
+  document.getElementById('skill-search').disabled = false;
+  document.getElementById('skill-count').textContent = SK.records.length;
+  document.getElementById('btn-skill-clear').disabled = false;
+  document.getElementById('btn-skill-export').disabled = false;
+  renderSkillList();
+  document.getElementById('skill-status-msg').textContent = 'Select a skill to view its data and add patches.';
+}
+
+function renderSkillList() {
+  const el = document.getElementById('skill-list');
+  el.innerHTML = '';
+  const items = SK.filtered;
+  if(!items.length) { el.innerHTML = '<div class="empty"><div class="empty-d">No skills match.</div></div>'; return; }
+  const frag = document.createDocumentFragment();
+  for(const rec of items) {
+    const div = document.createElement('div');
+    div.className = 'store-item' + (SK.selected === rec.name ? ' active' : '');
+    div.style.fontSize = '.75rem';
+    div.textContent = rec.name;
+    div.title = `key=0x${rec.key.toString(16).toUpperCase().padStart(8,'0')}  offset=${rec.dataOffset}  dataLen=${rec.dataLen}`;
+    div.onclick = () => selectSkill(rec.name);
+    frag.appendChild(div);
+  }
+  el.appendChild(frag);
+}
+
+function filterSkills() {
+  const q = document.getElementById('skill-search').value.toLowerCase().trim();
+  SK.filtered = q ? SK.records.filter(r => r.name.toLowerCase().includes(q)) : [...SK.records];
+  document.getElementById('skill-count').textContent = SK.filtered.length + (q ? ` / ${SK.records.length}` : '');
+  renderSkillList();
+}
+
+function selectSkill(name) {
+  SK.selected = name;
+  renderSkillList();
+  const rec = SK.records.find(r => r.name === name);
+  document.getElementById('skill-title').textContent = rec.name;
+  document.getElementById('skill-meta').textContent = `key=0x${rec.key.toString(16).toUpperCase().padStart(8,'0')}  ·  data offset ${rec.dataOffset}  ·  ${rec.dataLen} bytes`;
+  document.getElementById('skill-status-msg').textContent = `Viewing ${rec.name}`;
+  renderSkillHex(rec);
+  renderSkillPatches();
+}
+
+function renderSkillHex(rec) {
+  const u8 = new Uint8Array(SK.buf, rec.dataOffset, rec.dataLen);
+  const el = document.getElementById('skill-hex-view');
+  el.innerHTML = '';
+  document.getElementById('skill-hex-info').textContent = `${rec.dataLen} bytes`;
+
+  const frag = document.createDocumentFragment();
+  for(let row = 0; row < u8.length; row += 16) {
+    const line = document.createElement('div');
+    line.style.cssText = 'display:flex;gap:8px;padding:2px 0;border-bottom:1px solid rgba(255,255,255,.02);';
+    const absOff = rec.dataOffset + row;
+    let hex = '', asc = '';
+    for(let col = 0; col < 16 && row+col < u8.length; col++) {
+      const b = u8[row+col];
+      hex += b.toString(16).padStart(2,'0').toUpperCase() + ' ';
+      asc += (b>=32&&b<127) ? String.fromCharCode(b) : '·';
+    }
+    line.innerHTML =
+      `<span style="color:var(--text-faint);min-width:70px;">${absOff}</span>` +
+      `<span style="color:var(--gold-dim);flex:1;letter-spacing:.05em;">${esc(hex.trimEnd())}</span>` +
+      `<span style="color:var(--text-dim);">${esc(asc)}</span>`;
+    frag.appendChild(line);
+  }
+  el.appendChild(frag);
+}
+
+function renderSkillPatches() {
+  const el = document.getElementById('skill-patch-editor');
+  const patches = SK.patches.filter(p => p.skill === SK.selected);
+  document.getElementById('skill-patch-count').textContent = SK.patches.length > 0 ? `${SK.patches.length} total` : '';
+
+  if(!SK.selected && !SK.patches.length) {
+    el.innerHTML = '<div class="empty"><div class="empty-d">Select a skill, then add patches below</div></div>';
+    return;
+  }
+  el.innerHTML = '';
+  const header = document.createElement('div');
+  header.style.cssText = 'padding:8px 0;font-size:.65rem;color:var(--text-dim);font-family:"Cinzel",serif;letter-spacing:.08em;border-bottom:1px solid var(--border);margin-bottom:6px;';
+  header.textContent = patches.length ? `${patches.length} patch(es) on this skill` : 'No patches on this skill yet — add one below';
+  el.appendChild(header);
+
+  for(const [idx, p] of Object.entries(SK.patches.entries())) {
+    const [i, patch] = [+idx, p];
+    const row = document.createElement('div');
+    row.style.cssText = 'background:var(--bg3);border:1px solid var(--border);border-radius:3px;padding:8px 10px;margin-bottom:6px;font-family:monospace;font-size:.72rem;';
+    row.innerHTML = `
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px;">
+        <span style="color:var(--gold);font-family:'Cinzel',serif;font-size:.62rem;">${esc(patch.label||patch.skill)}</span>
+        <button class="btn btn-outline" style="font-size:.55rem;padding:2px 6px;" onclick="removeSkillPatch(${i})">Remove</button>
+      </div>
+      <div style="color:var(--text-dim);">offset <span style="color:var(--white);">${patch.offset}</span> &nbsp;
+        orig <span style="color:var(--red);">${patch.original}</span> →
+        new <span style="color:var(--green);">${patch.patched}</span>
+      </div>`;
+    el.appendChild(row);
+  }
+
+  // Show all patches across all skills too
+  if(SK.patches.length > patches.length) {
+    const other = document.createElement('div');
+    other.style.cssText = 'margin-top:12px;padding:8px;border-top:1px solid var(--border);font-size:.68rem;color:var(--text-dim);';
+    const groups = {};
+    for(const p of SK.patches) groups[p.skill] = (groups[p.skill]||0)+1;
+    const summary = Object.entries(groups).map(([s,c]) => `${s} (${c})`).join(', ');
+    other.textContent = `All patches: ${summary}`;
+    el.appendChild(other);
+  }
+}
+
+function addSkillPatch() {
+  if(!SK.selected) { showToast('Select a skill first','err'); return; }
+  const offEl = document.getElementById('skill-patch-offset');
+  const origEl = document.getElementById('skill-patch-orig');
+  const newEl  = document.getElementById('skill-patch-new');
+  const offset = parseInt(offEl.value);
+  const orig   = origEl.value.trim().toUpperCase().replace(/\s/g,'');
+  const patched= newEl.value.trim().toUpperCase().replace(/\s/g,'');
+  if(isNaN(offset) || !orig || !patched) { showToast('Fill in all three fields','err'); return; }
+  if(orig.length % 2 !== 0 || patched.length % 2 !== 0) { showToast('Hex values must be even-length','err'); return; }
+  SK.patches.push({ skill: SK.selected, label: SK.selected, offset, original: orig, patched });
+  offEl.value=''; origEl.value=''; newEl.value='';
+  renderSkillPatches();
+  showToast('Patch added','ok');
+}
+
+function removeSkillPatch(idx) {
+  SK.patches.splice(idx, 1);
+  renderSkillPatches();
+}
+
+function clearSkillPatches() {
+  SK.patches = [];
+  renderSkillPatches();
+  showToast('All skill patches cleared');
+}
+
+function exportSkillJSON() {
+  if(!SK.patches.length) { showToast('No patches to export','err'); return; }
+  const modName = document.getElementById('skill-cfg-name').value || 'My Skill Mod';
+  const changes = SK.patches
+    .sort((a,b) => a.offset - b.offset)
+    .map(p => ({ offset: p.offset, label: p.label, original: p.original, patched: p.patched }));
+  const patch = {
+    name: modName, version: '1.01.02', author: 'GildyBoye',
+    description: `Skill patch — ${SK.patches.length} change(s).`,
+    patches: [{ game_file: 'gamedata/skill.pabgb', changes }],
+  };
+  const blob = new Blob([JSON.stringify(patch, null, 2)], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a'); a.href=url; a.download=modName.replace(/[^A-Za-z0-9_-]/g,'_')+'.json';
+  a.click(); URL.revokeObjectURL(url);
+  showToast(`Exported ${SK.patches.length} skill patch(es)!`,'ok');
+}
+
 </script>
 </body>
 </html>
