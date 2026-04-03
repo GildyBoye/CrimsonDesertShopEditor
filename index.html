@@ -466,6 +466,7 @@ const CITY_MAP = {
 };
 
 // NPC/shop names per store internal name (sourced from npcinfo.pabgb)
+// Note: localizationstring files do not contain NPC/store names — these are from npcinfo.pabgb only
 const NPC_MAP = {
   Store_Her_General:          'Hernand General Merchant',
   Store_Cal_General:          'Calphade General Merchant',
@@ -1061,8 +1062,23 @@ async function loadLocalization() {
     document.getElementById('dot-loc').classList.add('ok');
     document.getElementById('lbl-loc').textContent=`localization: ${S.locMap.size.toLocaleString()} strings`;
     if(S.itemBuf) {
+      // pabgb mode: full re-parse with new locMap
       setMsg('Re-resolving item names with localization…');
       S.itemMap = await parseItemInfo(S.itemBuf);
+      S.filteredItems = [...S.itemMap];
+      renderItemList();
+      if(S.currentStore) renderSlots();
+      document.getElementById('item-count').textContent = S.itemMap.length.toLocaleString()+' items';
+    } else if(S.itemMap.length > 0) {
+      // base-file mode: re-resolve using stored locKeys
+      setMsg('Re-resolving item names with localization…');
+      for(const it of S.itemMap) {
+        if(it.locKey && S.locMap.has(it.locKey)) {
+          const n = S.locMap.get(it.locKey);
+          if(n && n.length >= 2 && !n.includes('<br') && !n.includes('Client:')) it.name = n;
+        }
+      }
+      S.itemMap.sort((a,b)=>a.name.localeCompare(b.name));
       S.filteredItems = [...S.itemMap];
       renderItemList();
       if(S.currentStore) renderSlots();
@@ -1592,11 +1608,21 @@ async function loadBaseFiles() {
     S.itemMap = [];
     for(const line of itemText.split('\n')) {
       const t = line.trim(); if(!t) continue;
-      const tab = t.indexOf('\t');
-      if(tab === -1) continue;
-      const hexLE   = t.slice(0, tab).trim();
-      const name    = t.slice(tab+1).trim();
-      if(hexLE && name) S.itemMap.push({hexLE, name, internal: name, locKey:''});
+      const parts = t.split('\t');
+      if(parts.length < 2) continue;
+      const hexLE  = parts[0].trim();
+      const locKey = parts.length >= 3 ? parts[1].trim() : '';
+      const name   = parts.length >= 3 ? parts[2].trim() : parts[1].trim();
+      if(hexLE && name) S.itemMap.push({hexLE, name, internal: name, locKey});
+    }
+    // Apply localization if already loaded
+    if(S.locMap) {
+      for(const it of S.itemMap) {
+        if(it.locKey && S.locMap.has(it.locKey)) {
+          const n = S.locMap.get(it.locKey);
+          if(n && n.length >= 2 && !n.includes('<br') && !n.includes('Client:')) it.name = n;
+        }
+      }
     }
     S.itemMap.sort((a,b)=>a.name.localeCompare(b.name));
     S.filteredItems = [...S.itemMap];
