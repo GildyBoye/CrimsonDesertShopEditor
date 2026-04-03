@@ -3,6 +3,7 @@
 A browser-based tool for editing shop inventories in Crimson Desert. Change what items vendors sell, adjust stock quantities, and export a JSON mod file ready to load with the JSON Mod Manager.
 
 > 🔗 Join the community: [Discord](https://discord.gg/mQjgHCW)
+
 > Video Start: https://www.youtube.com/watch?v=vPr9knDL1sw
 
 ---
