@@ -1970,6 +1970,71 @@ document.getElementById('f-drop').addEventListener('change', async e => {
   parseDropFile();
 });
 
+// Dropset category map
+const DROP_CAT_MAP = {
+  'Faction':'Faction','AbyssGear':'Abyss','AbyssRuins':'Abyss','Abyss':'Abyss','AbyssStone':'Abyss',
+  'Character':'Character',
+  'Friendly':'Friendly',
+  'Contribution':'Contribution','DropContribution':'Contribution',
+  'Legendary':'Legendary','LegendFish':'Legendary','LegendaryAnimal':'Legendary',
+  'Boss':'Bosses','MiddleBoss':'Bosses',
+  'Animal':'Animals & Fish','Fish':'Animals & Fish','Tiny':'Animals & Fish','Small':'Animals & Fish',
+  'Middle':'Animals & Fish','Large':'Animals & Fish','VeryBig':'Animals & Fish','VerySmall':'Animals & Fish',
+  'Normal':'Animals & Fish','Big':'Animals & Fish','Huge':'Animals & Fish','LandSpider':'Animals & Fish',
+  'BlackBear':'Animals & Fish',
+  'Farm':'Farm & Crops','Collect':'Farm & Crops','Shovel':'Farm & Crops','CatchSpawn':'Farm & Crops',
+  'Random':'Farm & Crops','Pear':'Farm & Crops','Ginseng':'Farm & Crops','GlowFlower':'Farm & Crops',
+  'Pomegranate':'Farm & Crops','Figs':'Farm & Crops','Peach':'Farm & Crops','Tomato':'Farm & Crops',
+  'grape':'Farm & Crops','orange':'Farm & Crops','Coffee':'Farm & Crops','cacao':'Farm & Crops',
+  'Corn':'Farm & Crops','Kudzu':'Farm & Crops','Rubber':'Farm & Crops','Ensete':'Farm & Crops',
+  'Opuntia':'Farm & Crops','Taro':'Farm & Crops','Chaya':'Farm & Crops','Apple':'Farm & Crops',
+  'Grape':'Farm & Crops','Mushroom':'Farm & Crops','Potato':'Farm & Crops','HoneyComb':'Farm & Crops',
+  'vespiary':'Farm & Crops','Honey':'Farm & Crops','Ssari':'Farm & Crops','GlowFruit':'Farm & Crops',
+  'fruit':'Farm & Crops',
+  'Camp':'Camp',
+  'Operation':'Operation',
+  'Money':'Money','Copper':'Money','Silver':'Money','IronStone':'Money','BlueStone':'Money',
+  'Ruby':'Money','Diamond':'Money','GoldOre':'Money','CopperOre':'Money','SilverOre':'Money',
+  'GreenStone':'Money','Salt':'Money','Bismuth':'Money','Sulfur':'Money','Specialty':'Money',
+  'Cog':'Money',
+  'DropItem':'Items & Loot','ChestItem':'Items & Loot','Chest':'Items & Loot',
+  'BoxBarrel':'Items & Loot','Box':'Items & Loot','Barrel':'Items & Loot','Pot':'Items & Loot',
+  'Wine':'Items & Loot','Burlap':'Items & Loot','Cloth':'Items & Loot','Bread':'Items & Loot',
+  'FakeKukuPot':'Items & Loot','InytiumSet':'Items & Loot','DragonParts':'Items & Loot',
+  'HalsiusCloth':'Items & Loot','Leather':'Items & Loot','BackPack':'Items & Loot',
+  'Wood':'Items & Loot','NTM':'Items & Loot','Flute':'Items & Loot','Bread':'Items & Loot',
+  'Arrow':'Ammunition','Bullet':'Ammunition','CannonBall':'Ammunition',
+  'Poison':'Ammunition','Sleep':'Ammunition','WarMachine':'Ammunition',
+  'DropKnowledge':'Knowledge','Knowledge':'Knowledge','DropMercenary':'Mercenaries',
+  'Dungeon':'Dungeon',
+  'MiniGame':'Mini Games',
+  'Riding':'Riding',
+  'RestArea':'Rest Areas',
+  'ExpensionInventory':'Inventory','Inventory':'Inventory',
+  'Livingroom':'Furniture','PrimaryBedroom':'Furniture','Kitchen':'Furniture',
+  'Closet':'Furniture','Cabinet':'Furniture',
+  'GameplayVariable':'Special','Airballoon':'Special','LiberationRefugee':'Special',
+  'NHM':'Special','NGM':'Special','NTM':'Special','Quest':'Special','Mission':'Special',
+  'JoinGraymane':'Special','GreyWolf':'Special','PirateKing':'Special','Gimmick':'Special',
+  'Tower':'Special','TreasureMap':'Special','SituationOfShieldWithoutCompromise':'Special',
+  'CalphadeArtilery':'Special','Beighen':'Special','Del':'Special','Hrnand':'Special',
+  'NorthMap':'Special','SouthMap':'Special','Harbor':'Special','CraftingRecipe':'Special',
+  'LogoutIncome':'Special','Mine':'Special','Airballoon':'Special',
+};
+const DROP_CAT_ORDER = [
+  'Faction','Character','Friendly','Abyss','Bosses','Legendary',
+  'Animals & Fish','Farm & Crops','Items & Loot','Ammunition',
+  'Knowledge','Mercenaries','Contribution','Operation','Camp',
+  'Money','Dungeon','Mini Games','Riding','Rest Areas','Inventory',
+  'Furniture','Special','Other'
+];
+
+function getDropCategory(name) {
+  const short = name.replace('DropSet_','');
+  const first = short.split('_')[0];
+  return DROP_CAT_MAP[first] || DROP_CAT_MAP[short] || 'Other';
+}
+
 function parseDropFile() {
   const u8 = new Uint8Array(DS.buf);
   DS.records = [];
@@ -2012,18 +2077,50 @@ function renderDropList() {
   el.innerHTML = '';
   const items = DS.filtered;
   if(!items.length) { el.innerHTML = '<div class="empty"><div class="empty-d">No entries match.</div></div>'; return; }
-  const frag = document.createDocumentFragment();
+
+  // Flat list when searching
+  if(document.getElementById('drop-search').value.trim()) {
+    const frag = document.createDocumentFragment();
+    for(const rec of items) frag.appendChild(makeDropRow(rec));
+    el.appendChild(frag);
+    return;
+  }
+
+  // Group by category
+  const groups = {};
   for(const rec of items) {
-    const hasPatch = DS.patches.some(p => p.entry === rec.name);
-    const div = document.createElement('div');
-    div.className = 'store-item' + (DS.selected === rec.name ? ' active' : '') + (hasPatch ? ' modified' : '');
-    div.style.fontSize = '.75rem';
-    div.textContent = rec.name;
-    div.title = `nameEnd=${rec.nameEnd}  dataOffset=${rec.dataOffset}`;
-    div.onclick = () => selectDropEntry(rec.name);
-    frag.appendChild(div);
+    const cat = getDropCategory(rec.name);
+    if(!groups[cat]) groups[cat] = [];
+    groups[cat].push(rec);
+  }
+  const orderedCats = [...DROP_CAT_ORDER.filter(c => groups[c]), ...Object.keys(groups).filter(c => !DROP_CAT_ORDER.includes(c))];
+
+  const frag = document.createDocumentFragment();
+  for(const cat of orderedCats) {
+    const catItems = groups[cat];
+    const header = document.createElement('div');
+    header.className = 'item-cat-header collapsed';
+    header.style.cssText = 'font-size:.6rem;padding:8px 8px 4px;';
+    header.innerHTML = `<span>${esc(cat)}</span><span style="color:var(--text-faint);font-size:.6rem;margin-left:auto;">${catItems.length}</span>`;
+    header.onclick = () => { body.classList.toggle('collapsed'); header.classList.toggle('collapsed'); };
+    const body = document.createElement('div');
+    body.className = 'item-cat-body collapsed';
+    for(const rec of catItems) body.appendChild(makeDropRow(rec));
+    frag.appendChild(header);
+    frag.appendChild(body);
   }
   el.appendChild(frag);
+}
+
+function makeDropRow(rec) {
+  const hasPatch = DS.patches.some(p => p.entry === rec.name);
+  const div = document.createElement('div');
+  div.className = 'store-item' + (DS.selected === rec.name ? ' active' : '') + (hasPatch ? ' modified' : '');
+  div.style.fontSize = '.74rem';
+  div.textContent = rec.name;
+  div.title = `nameEnd=${rec.nameEnd}  dataOffset=${rec.dataOffset}`;
+  div.onclick = () => selectDropEntry(rec.name);
+  return div;
 }
 
 function filterDropEntries() {
@@ -2188,45 +2285,67 @@ document.getElementById('f-skill').addEventListener('change', async e => {
   parseSkillFile();
 });
 
+// Skill category map (first word of name → group)
+const SKILL_CATS = {
+  'Skill':        'Skills',
+  'Passive':      'Passive',
+  'Equip':        'Equip',
+  'Active':       'Active',
+  'Gimmick':      'Gimmick',
+  'MaterialSkill':'Material Skills',
+  'Item':         'Item Skills',
+};
+const SKILL_CAT_ORDER = ['Skills','Passive','Equip','Active','Gimmick','Material Skills','Item Skills'];
+
 function parseSkillFile() {
   const u8 = new Uint8Array(SK.buf);
   const dv = new DataView(SK.buf);
   SK.records = [];
+  const seen = new Set();
 
-  // Record format: [u32 key][u32 name_len][name bytes + null][... data ...]
-  // Next record starts at name_end (after null). We scan for valid prefixes.
-  const VALID = ['Skill_','Passive_','Equip_','Active_','Item_Skill_','Gimmick_','MaterialSkill_'];
-  let i = 0;
-  while(i < u8.length - 8) {
-    const key     = dv.getUint32(i, true);
-    const nameLen = dv.getUint32(i+4, true);
-    if(nameLen < 4 || nameLen > 120 || i+8+nameLen > u8.length) { i++; continue; }
-    let name = '';
-    try { name = new TextDecoder('ascii').decode(u8.slice(i+8, i+8+nameLen-1)); } catch{ i++; continue; }
-    if(!VALID.some(p => name.startsWith(p))) { i++; continue; }
-    if(u8[i+8+nameLen-1] !== 0) { i++; continue; }
+  // Scan byte-by-byte for valid skill name prefixes.
+  // When found, look 8 bytes before for [u32 key][u32 nameLen] and verify nameLen matches.
+  const VALID = ['Skill_','Passive_','Equip_','Active_','Gimmick_','MaterialSkill_','Item_Skill_'];
 
-    const dataOffset = i + 8 + nameLen;
-    // Find next record start by scanning ahead (bounded)
-    let nextRec = dataOffset;
-    while(nextRec < Math.min(u8.length-8, dataOffset+2048)) {
-      const k2 = dv.getUint32(nextRec, true);
-      const l2 = dv.getUint32(nextRec+4, true);
-      if(l2 >= 4 && l2 < 120 && nextRec+8+l2 <= u8.length) {
-        let n2 = '';
-        try { n2 = new TextDecoder('ascii').decode(u8.slice(nextRec+8, nextRec+8+l2-1)); } catch{}
-        if(VALID.some(p => n2.startsWith(p)) && u8[nextRec+8+l2-1] === 0) break;
+  for(let i = 0; i < u8.length - 8; i++) {
+    // Quick check: first char must be uppercase letter matching a prefix
+    const c = u8[i];
+    if(c < 65 || c > 90) continue; // not A-Z
+
+    let prefix = null;
+    for(const p of VALID) {
+      if(i + p.length <= u8.length) {
+        let match = true;
+        for(let k = 0; k < p.length; k++) if(u8[i+k] !== p.charCodeAt(k)) { match=false; break; }
+        if(match) { prefix = p; break; }
       }
-      nextRec++;
     }
-    const dataLen = Math.min(nextRec - dataOffset, 512); // cap displayed data at 512 bytes
-    SK.records.push({ key, name, dataOffset, dataLen, recStart: i });
-    i = dataOffset; // advance to data area, let loop find next record
+    if(!prefix) continue;
+
+    // Read null-terminated name
+    let end = i;
+    while(end < u8.length && u8[end] !== 0 && end - i < 120) end++;
+    if(u8[end] !== 0 || end - i < 4) continue;
+
+    let name;
+    try { name = new TextDecoder('ascii').decode(u8.slice(i, end)); } catch { continue; }
+    // Must be clean ASCII identifier
+    if(!/^[A-Za-z][A-Za-z0-9_]+$/.test(name)) continue;
+
+    // Verify [key u32][nameLen u32] sits 8 bytes before the name start
+    if(i < 8) continue;
+    const nameLen = dv.getUint32(i - 4, true);
+    if(nameLen !== end - i) continue; // nameLen must exactly equal name char count (no null)
+    const key = dv.getUint32(i - 8, true);
+
+    if(!seen.has(name)) {
+      seen.add(name);
+      const dataOffset = end + 1; // byte after null
+      SK.records.push({ key, name, dataOffset, dataLen: 256, recStart: i - 8 });
+    }
+    i = end; // jump past this name
   }
 
-  // Deduplicate by name (keep first occurrence)
-  const seen = new Set();
-  SK.records = SK.records.filter(r => { if(seen.has(r.name)) return false; seen.add(r.name); return true; });
   SK.records.sort((a,b) => a.name.localeCompare(b.name));
   SK.filtered = [...SK.records];
 
@@ -2242,22 +2361,65 @@ function parseSkillFile() {
   document.getElementById('skill-status-msg').textContent = 'Select a skill to view its data and add patches.';
 }
 
+function getSkillCategory(name) {
+  const first = name.split('_')[0];
+  return SKILL_CATS[first] || 'Other';
+}
+
 function renderSkillList() {
   const el = document.getElementById('skill-list');
   el.innerHTML = '';
   const items = SK.filtered;
   if(!items.length) { el.innerHTML = '<div class="empty"><div class="empty-d">No skills match.</div></div>'; return; }
-  const frag = document.createDocumentFragment();
+
+  // If searching, show flat list
+  if(document.getElementById('skill-search').value.trim()) {
+    const frag = document.createDocumentFragment();
+    for(const rec of items) {
+      frag.appendChild(makeSkillRow(rec));
+    }
+    el.appendChild(frag);
+    return;
+  }
+
+  // Group by category
+  const groups = {};
   for(const rec of items) {
-    const div = document.createElement('div');
-    div.className = 'store-item' + (SK.selected === rec.name ? ' active' : '');
-    div.style.fontSize = '.75rem';
-    div.textContent = rec.name;
-    div.title = `key=0x${rec.key.toString(16).toUpperCase().padStart(8,'0')}  offset=${rec.dataOffset}  dataLen=${rec.dataLen}`;
-    div.onclick = () => selectSkill(rec.name);
-    frag.appendChild(div);
+    const cat = getSkillCategory(rec.name);
+    if(!groups[cat]) groups[cat] = [];
+    groups[cat].push(rec);
+  }
+  const orderedCats = [...SKILL_CAT_ORDER.filter(c => groups[c]), ...Object.keys(groups).filter(c => !SKILL_CAT_ORDER.includes(c))];
+
+  const frag = document.createDocumentFragment();
+  for(const cat of orderedCats) {
+    const catItems = groups[cat];
+    const header = document.createElement('div');
+    header.className = 'item-cat-header collapsed';
+    header.style.cssText = 'font-size:.6rem;padding:8px 8px 4px;';
+    header.innerHTML = `<span>${esc(cat)}</span><span style="color:var(--text-faint);font-size:.6rem;margin-left:auto;">${catItems.length}</span>`;
+    header.onclick = () => {
+      body.classList.toggle('collapsed');
+      header.classList.toggle('collapsed');
+    };
+    const body = document.createElement('div');
+    body.className = 'item-cat-body collapsed';
+    for(const rec of catItems) body.appendChild(makeSkillRow(rec));
+    frag.appendChild(header);
+    frag.appendChild(body);
   }
   el.appendChild(frag);
+}
+
+function makeSkillRow(rec) {
+  const hasPatch = SK.patches.some(p => p.skill === rec.name);
+  const div = document.createElement('div');
+  div.className = 'store-item' + (SK.selected === rec.name ? ' active' : '') + (hasPatch ? ' modified' : '');
+  div.style.fontSize = '.74rem';
+  div.textContent = rec.name;
+  div.title = `key=0x${rec.key.toString(16).toUpperCase().padStart(8,'0')}  offset=${rec.dataOffset}`;
+  div.onclick = () => selectSkill(rec.name);
+  return div;
 }
 
 function filterSkills() {
