@@ -1,96 +1,232 @@
-# Crimson Desert Shop Editor
+# Crimson Desert Modding Toolkit
 
-A browser-based tool for editing shop inventories in Crimson Desert. Change what items vendors sell, adjust stock quantities, and export a JSON mod file ready to load with the JSON Mod Manager.
+A browser-based multi-editor for modifying game data in **Crimson Desert**.  
+Edit shop inventories, trust/drop values, skills, and item prices — then export ready-to-use JSON mods.
 
-> 🔗 Join the community: [Discord](https://discord.gg/mQjgHCW)
+> 🔗 Join the community: [Discord](https://discord.gg/mQjgHCW)  
+> 🎥 Video Start: https://www.youtube.com/watch?v=vPr9knDL1sw  
 
-> Video Start: https://www.youtube.com/watch?v=vPr9knDL1sw
+---
+
+## Overview
+
+This tool includes **four editors in one UI**:
+
+- 🏪 **Shop Editor** — modify store inventories & stock
+- 🤝 **Dropset Editor** — edit trust gain / drop-related values
+- ⚔️ **Skill Editor** — patch skill data via hex edits
+- 💰 **Price Editor** — change item buy prices
+
+Switch between them using the dropdown in the top-left of the app.
 
 ---
 
 ## Quick Start — No Tools Required
 
-If you just want to get started immediately, click **"Use pre-built base files (v1.01.02)"** in the editor.
+If you just want to jump in:
 
-This loads pre-extracted versions of the required game files directly — no unpacker needed. Keep in mind these base files reflect a specific game version and may fall behind after updates. When that happens, extract and upload your own files for the most accurate data.
+- Click **"Use pre-built base files"** (available in Shop + Price editors)
+
+This loads pre-extracted data directly into the app.
+
+⚠️ These are tied to a specific game version and may become outdated after patches.
 
 ---
 
 ## Full Setup — Using Your Own Game Files
 
-For the most up-to-date data, extract the files yourself using a PAZ unpacker.
+For accurate and up-to-date data:
 
-**Step 1 — Get an unpacker**
+### Step 1 — Get an unpacker
 
-You need one of these tools to extract files from the game's data archives:
+Use one of these:
 
-- [Crimson Desert Unpacker](https://www.nexusmods.com/crimsondesert/mods/62)
+- [Crimson Desert Unpacker](https://www.nexusmods.com/crimsondesert/mods/62)  
 - [Crimson Browser](https://www.nexusmods.com/crimsondesert/mods/84)
 
-**Step 2 — Extract the required files**
+---
 
-Using your unpacker, locate and extract from `gamedata/`:
+### Step 2 — Extract required files
 
-- `iteminfo.pabgb` — all item IDs and names
-- `storeinfo.pabgb` — all shop inventories (slots and stock values)
+From `gamedata/`, extract:
 
-**Step 3 — Load your files into the editor**
-
-On the left sidebar:
-
-- 📦 Click the **iteminfo.pabgb** drop zone and select your extracted file
-- 🏪 Click the **storeinfo.pabgb** drop zone and select your extracted file
-
-Once both are loaded, the store list and item browser will populate automatically.
+| Editor | Required File |
+|--------|-------------|
+| Shop Editor | `iteminfo.pabgb`, `storeinfo.pabgb` |
+| Dropset Editor | `dropsetinfo.pabgb` |
+| Skill Editor | `skill.pabgb` |
+| Price Editor | `iteminfo.pabgb` (optional but recommended) |
 
 ---
 
-## Using the Editor
+### Step 3 — Load files into the editor
 
-**Localization**
+Each editor has its own **file drop zone** in the sidebar:
 
-Select a language from the dropdown (e.g. English). This is loaded automatically on startup. Without it you'll see raw internal item names instead of proper display names.
-
-**Browsing stores**
-
-Stores are listed in the left sidebar, grouped by city or region. Click any city header to expand it, then click a store to open it. You can also use the search box to find a store by name.
-
-**Understanding slots**
-
-Each slot in a store represents one item that vendor sells. Every slot shows:
-- Item name (or hex ID if the item is unresolvable)
-- Stock quantity (editable directly)
-- Slot number
-
-**Modifying stock**
-
-Each slot has a stock input you can edit directly. Valid range is 1–9999. Changing stock alone marks the slot as modified without requiring an item swap.
-
-**Changing items**
-
-1. Click a slot in the left panel to select it
-2. Browse or search for an item in the right panel
-3. Click **Assign →** to replace the item in that slot
-
-Items are sorted into categories (Armor, Weapons, Food, etc.) and all collapsed by default. Use the search box to find items by name, internal name, or hex ID.
-
-**Unknown items**
-
-Some slots contain items the editor cannot identify — these show as `Unknown Item (XXXXXX)`. If you try to assign one of these, you'll be asked to confirm, as they may be important to the store's function.
-
-**Making multiple edits**
-
-You can modify as many slots as you like before exporting. All changed slots are highlighted as **MODIFIED**. Switching to a different store resets any unsaved changes for the current one.
-
-**Exporting your mod**
-
-Click **Export JSON** in the top toolbar. This downloads a `.json` file containing your changes — new item assignments, stock values, and metadata. Load this file with the JSON Mod Manager.
-
-**Resetting changes**
-
-Click **Reset** to clear all modifications for the current store and start fresh.
+- Click or drag files into the correct slot
+- Status indicators at the bottom confirm when files are loaded
 
 ---
+
+## Shop Editor (Store Inventory Editing)
+
+### Features
+
+- Browse stores grouped by **city/region**
+- View and edit **individual item slots**
+- Modify:
+  - Item assignment
+  - Stock quantity (inline editable)
+- Full **item browser with search + categories**
+- Localization support (for proper item names)
+
+---
+
+### Using the Shop Editor
+
+**1. Load required files**
+- `iteminfo.pabgb`
+- `storeinfo.pabgb`
+
+**2. (Optional) Load localization**
+- Select a language from the dropdown
+
+**3. Select a store**
+- Expand a region → click a store
+
+**4. Edit slots**
+- Click a slot to select it
+- Change:
+  - Item → via **Assign**
+  - Stock → edit number directly
+
+**5. Export**
+- Click **Export JSON**
+
+---
+
+### Slot Behavior
+
+- **Modified slots** are highlighted
+- Stock edits alone count as a modification
+- Switching stores resets unsaved changes
+
+---
+
+### Unknown Items
+
+Assigning over these should trigger a confirmation — they may be important.
+
+---
+
+## Dropset Editor (Trust / Drop Values)
+
+### Features
+
+- Browse raw entries from `dropsetinfo.pabgb`
+- View **hex data**
+- Add manual **byte patches**
+- Export patch-based JSON mods
+
+---
+
+### Using It
+
+1. Load `dropsetinfo.pabgb`
+2. Select an entry
+3. Add patches:
+   - Offset
+   - Original hex
+   - New hex
+4. Export JSON
+
+---
+
+## Skill Editor
+
+### Features
+
+- Browse skill records
+- Inspect raw binary data
+- Apply hex patches per skill
+- Export JSON patch mods
+
+---
+
+### Using It
+
+Same workflow as Dropset Editor:
+
+1. Load `skill.pabgb`
+2. Select a skill
+3. Add patches
+4. Export JSON
+
+---
+
+## Price Editor
+
+### Features
+
+- Browse all items
+- Modify buy price
+- Automatic **copper → silver preview**
+- Patch queue system
+- Quick preset values
+
+---
+
+### Using It
+
+1. Load:
+   - Prebuilt price list **or**
+   - `iteminfo.pabgb`
+2. Select an item
+3. Enter new price (in copper)
+4. Click **Set Price**
+5. Export JSON
+
+---
+
+## JSON Export
+
+All editors export a **JSON patch file** containing:
+
+- Modified values only
+- Required metadata (mod name, etc.)
+
+Use with a JSON mod loader.
+
+---
+
+## Mod Name
+
+Each editor includes a **Mod Name field** — this is embedded in the exported JSON.
+
+---
+
+## UI Behavior Notes
+
+- Changes are **not saved automatically**
+- Store edits are **session-based**
+- Status bar shows:
+  - File load states
+  - Current editor status
+- Toast notifications confirm actions (export, load, etc.)
+
+---
+
+## Navigation
+
+Use the dropdown at the top-left:
+
+- Shop Editor
+- Dropset Editor
+- Skill Editor
+- Price Editor
+
+---
+
 
 ## Loading Your Mod In-Game
 
@@ -98,7 +234,15 @@ Use the [JSON Mod Manager](https://www.nexusmods.com/crimsondesert/mods/113) to 
 
 ---
 
-> ⚠️ **Back up your saves before modifying your game.**
+> ---
+
+## ⚠️ Important
+
+- Always **back up your saves**
+- Game updates may break offsets or base data
+- Unknown values may affect game stability
+
+---
 
 ---
 
