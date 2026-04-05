@@ -2755,15 +2755,14 @@ function renderPriceRow(item, patchedIds) {
   const isPatched = patchedIds.has(hexId);
   const isSelected = PR.selected?.hexId === hexId;
   const patch = isPatched ? PR.patches.find(p => p.hexId === hexId) : null;
-  const displayPrice = patch ? patch.newPrice : price;
-  const silver = (displayPrice / 100).toFixed(0);
-  return `<div class="item-row${isSelected?' selected':''}" onclick="selectPriceItem('${hexId}',${offset},${price},${JSON.stringify(name)})"
+  // Use data-hexid for safe click handling — no name in onclick
+  return `<div class="item-row${isSelected?' selected':''}" data-hexid="${hexId}"
     style="${isPatched?'border-color:var(--green);':''}" >
     <div class="item-info">
       <div class="item-name">${name}${isPatched?' <span style="color:var(--green);font-size:.65rem;">✎ '+patch.newPrice.toLocaleString()+'c</span>':''}</div>
       <div class="item-id">${hexId} · ${price.toLocaleString()}c · ${(price/100).toFixed(0)}s</div>
     </div>
-    <div class="item-assign" onclick="event.stopPropagation();selectPriceItem('${hexId}',${offset},${price},${JSON.stringify(name)})">Edit</div>
+    <div class="item-assign" data-hexid="${hexId}">Edit</div>
   </div>`;
 }
 
@@ -2773,7 +2772,19 @@ function togglePriceCat(cat) {
   renderPriceItems();
 }
 
-function selectPriceItem(hexId, offset, price, name) {
+function lookupPriceItem(hexId) {
+  for(const [cat, items] of Object.entries(PRICE_CATS)) {
+    for(const item of items) {
+      if(item[0] === hexId) return {hexId, offset:item[1], price:item[2], name:item[3], cat};
+    }
+  }
+  return null;
+}
+
+function selectPriceItem(hexId) {
+  const found = lookupPriceItem(hexId);
+  if(!found) return;
+  const {offset, price, name} = found;
   PR.selected = {hexId, offset, currentPrice: price, name};
   const existing = PR.patches.find(p => p.hexId === hexId);
 
@@ -2910,6 +2921,13 @@ function exportPriceJSON() {
   a.click(); URL.revokeObjectURL(url);
   showToast(`Exported ${PR.patches.length} price patch(es)!`, 'ok');
 }
+
+// Event delegation on item list — safe for any item name
+document.getElementById('price-item-list').addEventListener('click', e => {
+  const row = e.target.closest('[data-hexid]');
+  if(!row) return;
+  selectPriceItem(row.dataset.hexid);
+});
 
 // Init
 renderPriceItems();
