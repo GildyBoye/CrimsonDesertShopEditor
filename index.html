@@ -2678,11 +2678,11 @@ const PRICE_CATS={"Abyss Artifacts":[["F9240100",1452606,2850,"Abyss Artifact"],
 
 const PR = {
   buf: null,
-  selected: null,  // {hexId, offset, currentPrice, name}
-  patches: [],     // [{hexId, name, offset, origHex, patchedHex, newPrice}]
-  collapsed: new Set(), // collapsed category names
-  allItems: [],    // flat [{hexId,offset,price,name,cat}]
-  filtered: [],
+  selected: null,
+  patches: [],
+  collapsed: new Set(),
+  allItems: [],
+  filtered: null,
 };
 
 // Flatten all items on init
@@ -2700,9 +2700,10 @@ document.getElementById('f-price-item').addEventListener('change', async e => {
     alert('Please upload iteminfo.pabgb'); e.target.value=''; return;
   }
   PR.buf = await file.arrayBuffer();
-  document.getElementById('ok-price-item').style.display = 'flex';
+  document.getElementById('fdz-price-item').classList.add('loaded');
   document.getElementById('price-dot-item').style.background = 'var(--green)';
   document.getElementById('price-lbl-item').textContent = 'iteminfo: loaded (offset verification enabled)';
+  showToast('iteminfo.pabgb loaded','ok');
 });
 
 function filterPriceItems() {
@@ -2735,6 +2736,11 @@ function renderPriceItems() {
   document.getElementById('price-item-count').textContent = `${PR.allItems.length.toLocaleString()} items`;
   let html = '';
   for(const [cat, items] of Object.entries(PRICE_CATS).sort((a,b) => a[0].localeCompare(b[0]))) {
+    // Start all collapsed except the first visible category for performance
+    if(!PR.collapsed.has(cat) && PR.collapsed.size === 0) {
+      // On first render, collapse everything by default to avoid rendering 2168 rows
+      Object.keys(PRICE_CATS).forEach(c => PR.collapsed.add(c));
+    }
     const collapsed = PR.collapsed.has(cat);
     const patchCount = items.filter(([h]) => patchedIds.has(h)).length;
     html += `<div class="item-cat-header${collapsed?' collapsed':''}" onclick="togglePriceCat(${JSON.stringify(cat)})">
