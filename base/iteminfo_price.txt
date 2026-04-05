@@ -1,0 +1,1229 @@
+134F0F00	1116634	2	Lighting	A Map Left at the Torchlight Beacon
+D5470F00	4004850	1000	Miscellaneous	A.T.A.G. Boots Mk I
+88460F00	4005445	3000	Miscellaneous	A.T.A.G. Boots Mk II
+97450F00	4006040	5000	Miscellaneous	A.T.A.G. Boots Mk III
+F74C0F00	4007265	3500	Weapons	A.T.A.G. Cannon
+884C0F00	948079	1000	Miscellaneous	A.T.A.G. Emergency Power Device
+F84C0F00	4006661	3500	Miscellaneous	A.T.A.G. Fist
+054C0F00	4009720	3500	Weapons	A.T.A.G. Flamespitter
+074C0F00	4007871	3500	Miscellaneous	A.T.A.G. Laser
+F94C0F00	4009098	3500	Miscellaneous	A.T.A.G. Machine Gun
+C3490F00	4008487	3500	Weapons	A.T.A.G. Pincers
+45430F00	4001267	1000	Miscellaneous	A.T.A.G. Plating Mk I
+86460F00	4001865	3000	Miscellaneous	A.T.A.G. Plating Mk II
+36450F00	4002463	5000	Miscellaneous	A.T.A.G. Plating Mk III
+FD500F00	949331	2000	Miscellaneous	A.T.A.G. Power Module
+1B440F00	4003058	1000	Miscellaneous	A.T.A.G. Thrusterpack Mk I
+87460F00	4003660	3000	Miscellaneous	A.T.A.G. Thrusterpack Mk II
+6C460F00	4004262	5000	Miscellaneous	A.T.A.G. Thrusterpack Mk III
+734A0F00	4010413	3500	Weapons	A.T.A.G. Welder
+89430F00	1404738	1	Miscellaneous	Abacus
+F9240100	1452606	2850	Abyss Artifacts	Abyss Artifact
+4F4A0F00	1012431	1000	Miscellaneous	Abyss Cell
+82500F00	955774	1	Miscellaneous	Abyss Transporter
+1D4B0F00	4011056	10000	Abyss Artifacts	Abyssal Dragon Armor
+83460F00	4087364	1	Abyss Artifacts	Abyssal Fusion
+6F490F00	1832941	200	Abyss Artifacts	Abyssal Seed
+9C470F00	349198	450	Artworks	Acclaimed - A Dairy Cow
+7D440F00	338614	175	Artworks	Acclaimed - Abundance
+95470F00	348694	450	Artworks	Acclaimed - Bighorn Sheep
+9A470F00	347686	450	Artworks	Acclaimed - Dawnbreak
+B1470F00	349702	450	Artworks	Acclaimed - Fields of Color
+98470F00	348190	450	Artworks	Acclaimed - Gatekeeper of Death
+8D470F00	347182	300	Artworks	Acclaimed - Golden Lands
+7C440F00	342646	300	Artworks	Acclaimed - Idle Hands
+A0470F00	352222	700	Artworks	Acclaimed - Lion's Majesty
+9E470F00	351214	450	Artworks	Acclaimed - Man's Best Friend
+91470F00	336094	100	Artworks	Acclaimed - Poverty Amidst Plenty
+7E440F00	339118	175	Artworks	Acclaimed - Prelude to War
+87470F00	350710	450	Artworks	Acclaimed - Silence of Dawn
+97470F00	340126	175	Artworks	Acclaimed - The Lamb
+94420F00	1870360	1	Bags & Storage	Adventurer's Cooking Inventory Type A
+40430F00	1870878	1	Bags & Storage	Adventurer's Cooking Inventory Type B
+59430F00	1871396	1	Bags & Storage	Adventurer's Cooking Inventory Type C
+82460F00	1871914	1	Bags & Storage	Adventurer's Cooking Inventory Type D
+484B0F00	1872432	1	Bags & Storage	Adventurer's Cooking Inventory Type E
+654B0F00	1872958	1	Bags & Storage	Adventurer's Refinement Inventory Type A
+694B0F00	1873484	1	Bags & Storage	Adventurer's Refinement Inventory Type B
+734B0F00	1874010	1	Bags & Storage	Adventurer's Refinement Inventory Type C
+834B0F00	1874536	1	Bags & Storage	Adventurer's Refinement Inventory Type D
+854B0F00	1875062	1	Bags & Storage	Adventurer's Refinement Inventory Type E
+914B0F00	1875588	1	Bags & Storage	Adventurer's Refinement Inventory Type F
+C0460F00	4580645	1620	Weapons	Air Blaster
+064F0F00	1687267	1000	Consumables	Alchemy Formula: Apollonia's Elixir
+074F0F00	1687921	2000	Consumables	Alchemy Formula: Apollonia's Greater Elixir
+054F0F00	1686613	500	Consumables	Alchemy Formula: Apollonia's Lesser Elixir
+0F4F0F00	1693145	1000	Consumables	Alchemy Formula: Astrid's Elixir
+104F0F00	1693798	2000	Consumables	Alchemy Formula: Astrid's Greater Elixir
+0E4F0F00	1692492	500	Consumables	Alchemy Formula: Astrid's Lesser Elixir
+034F0F00	1685305	1000	Consumables	Alchemy Formula: Freya's Elixir
+044F0F00	1685959	2000	Consumables	Alchemy Formula: Freya's Greater Elixir
+024F0F00	1684651	500	Consumables	Alchemy Formula: Freya's Lesser Elixir
+0C4F0F00	1691186	1000	Consumables	Alchemy Formula: Haiden's Elixir
+0D4F0F00	1691839	2000	Consumables	Alchemy Formula: Haiden's Greater Elixir
+0B4F0F00	1690533	500	Consumables	Alchemy Formula: Haiden's Lesser Elixir
+094F0F00	1689227	1000	Consumables	Alchemy Formula: Meliara's Elixir
+0A4F0F00	1689880	2000	Consumables	Alchemy Formula: Meliara's Greater Elixir
+084F0F00	1688574	500	Consumables	Alchemy Formula: Meliara's Lesser Elixir
+64480F00	361316	1500	Decorative Stones	Ancient's Decorative Stone
+1A7F0E00	3779119	85	Miscellaneous	Angler's Pack
+1D7F0E00	3816407	85	Miscellaneous	Angler's Pack
+C2480F00	399008	700	Artworks	Angular Bismuth Ornament
+EF420F00	901391	300	Consumables	Apollonia's Elixir
+80430F00	904402	600	Consumables	Apollonia's Greater Elixir
+5E420F00	898388	100	Consumables	Apollonia's Lesser Elixir
+0D7F0E00	3799534	85	Decorative Vessels	Apothecary's Pack
+0E7F0E00	3800164	85	Decorative Vessels	Apothecary's Pack
+DB4C0F00	3791743	85	Miscellaneous	Apple Pack
+09CF0000	1831542	20	Miscellaneous	Apple Seed
+B6920100	3380425	200	Armor	Arkhan Leather Helm
+51C30000	974	2	Ammo	Arrow
+4B480F00	394486	8	Decorative Vessels	Artisan's Metal Goblet
+88480F00	444714	7	Weapons	Ashen Spice Bowl
+26430F00	903196	300	Consumables	Astrid's Elixir
+00440F00	906219	600	Consumables	Astrid's Greater Elixir
+B0420F00	900193	100	Consumables	Astrid's Lesser Elixir
+9A4A0F00	1844850	1	Weapons	Axe of the Apocalypse
+614B0F00	1208495	1	Weapons	Axe-Studded Tree
+B2430F00	3819399	85	Miscellaneous	Bear Pack
+187F0E00	3805179	85	Miscellaneous	Beekeeper's Pack
+834A0F00	468748	108	Miscellaneous	Beige Bandana Doll
+39510F00	1060962	1	Contracts & Tokens	Beighen Refinement Token
+21460F00	3640606	200	Armor	Belkandor Plate Helm
+1E7F0E00	3817004	85	Miscellaneous	Bell Pack
+1C450F00	3598634	200	Armor	Beltran Plate Helm
+47121700	4023845	1510	Mounts	Berkei Champron
+2F161700	4029315	1873	Mounts	Berkei Saddle
+171A1700	4045269	1551	Mounts	Berkei Stirrups
+217F0E00	3818802	85	Miscellaneous	Birdcage Pack
+D2480F00	386971	50	Decorative Vessels	Black Ceramic Water Bottle
+82490F00	946876	1500	Dyes	Black Dye
+FB430F00	3765251	2700	Ammo	Bleed Bandits' Alchemy Explosive Pack
+63470F00	5063	2	Ammo	Blitz Arrow
+63480F00	360809	1250	Decorative Stones	Blue Dragon Scale Decorative Stone
+A0480F00	923326	150	Dyes	Blue Dye
+09480F00	388480	50	Decorative Vessels	Blue Jar-Shaped Water Bottle
+11480F00	424630	53	Miscellaneous	Blue Patterned Ceramic
+EC470F00	373390	7	Decorative Vessels	Blue Round Water Bottle
+C64E0F00	3876340	1	Mounts	Blue Scout Champron
+C14E0F00	3870031	1	Lighting	Blue Scout Lantern
+C74E0F00	3877008	1	Mounts	Blue Scout Saddle
+C84E0F00	3877673	1	Mounts	Blue Scout Stirrups
+87480F00	444213	7	Weapons	Blue Spice Bowl
+D1480F00	376408	7	Decorative Vessels	Blue-Glazed Container
+E9470F00	372887	7	Decorative Vessels	Blue-Green Glass Water Bottle
+35480F00	1684001	362	Abyss Artifacts	Blueprint: Faded Abyss Artifact
+8A8A0100	3882742	200	Armor	Bolton Plate Helm
+4D490F00	15869	50	Ammo	Bomb
+91440F00	4036736	1220	Mounts	Bow Knot Horseshoes
+21490F00	4030530	673	Mounts	Branique Saddle
+70480F00	445718	7	Weapons	Brass Bowl
+FF470F00	378923	7	Decorative Vessels	Brass Container
+41480F00	392486	6	Decorative Vessels	Brass Goblet
+4F480F00	434187	3	Decorative Vessels	Bread Plate
+9E480F00	922221	150	Dyes	Bright Blue Dye
+AD480F00	930600	150	Dyes	Bright Green Dye
+2C470F00	942343	1500	Dyes	Bright Grey Dye
+BC480F00	938979	150	Dyes	Bright Orange Dye
+99480F00	919428	150	Dyes	Bright Purple Dye
+8F480F00	913842	150	Dyes	Bright Red Dye
+A3480F00	925014	150	Dyes	Bright Sky Blue Dye
+B2480F00	933393	150	Dyes	Bright Spring Green Dye
+A8480F00	927807	150	Dyes	Bright Teal Dye
+94480F00	916635	150	Dyes	Bright Violet Dye
+68480F00	439700	3	Decorative Vessels	Bright Wooden Plate
+B7480F00	936186	150	Dyes	Bright Yellow Dye
+71490F00	17526	50	Ammo	Brimstone Bomb
+C1480F00	398498	500	Artworks	Broken Bismuth Ornament
+3F480F00	394986	8	Decorative Vessels	Bronze Goblet
+174F0F00	4034236	86	Mounts	Bronze Horseshoes
+844A0F00	467251	404	Miscellaneous	Brown Dress Doll
+3E4B0F00	416960	3	Decorative Vessels	Brown Round Jar
+1B480F00	421606	6	Decorative Vessels	Brown Two-Handled Jar
+68470F00	14743	3	Ammo	Buckshot Bullet
+B4430F00	13570	3	Ammo	Bullet
+89C30000	6151	50	Ammo	Bundle of Arrows
+20430F00	6701	15	Ammo	Bundle of Arrows
+5A420F00	7238	50	Ammo	Bundle of Bullets
+85500F00	7789	25	Ammo	Bundle of Bullets
+7F420F00	8330	130	Ammo	Bundle of Cannonballs
+86500F00	8885	65	Ammo	Bundle of Cannonballs
+B7470F00	1837121	40	Miscellaneous	Cacao Seed
+610E1700	4011726	821	Mounts	Calphadean Barding
+191A1700	4040412	361	Mounts	Calphadean Stirrups
+B0450F00	19643	50	Ammo	Caltrop Explosive
+7A480F00	455678	2	Lighting	Candle
+028B0100	3593747	200	Armor	Canta Plate Helm
+207F0E00	3818205	85	Miscellaneous	Carpenter's Pack
+4E420F00	4092257	240	Armor	Cat Plate Armor
+46420F00	4089553	240	Armor	Cat Plate Helm
+74480F00	446220	7	Weapons	Ceramic Bowl
+ED470F00	371881	7	Decorative Vessels	Ceramic Container
+DB4E0F00	451712	23	Weapons	Ceremonial Bowl
+634D0F00	4018387	693	Mounts	Cernos Barding
+B4440F00	408150	25	Decorative Vessels	Chalice Bush Pot
+E7470F00	405102	5	Decorative Vessels	Chalice Flower Pot
+1B450F00	1840364	40	Miscellaneous	Chaya Seed
+56480F00	436191	3	Decorative Vessels	Cheese Plate
+BE8A0100	3909850	200	Armor	Chelcia Plate Helm
+62470F00	5623	2	Ammo	Chill Arrow
+00480F00	366851	3	Decorative Vessels	Clay Container
+D6480F00	367857	3	Decorative Vessels	Clay-Handled Water Bottle
+25440F00	1053237	240	Miscellaneous	Clockwork Insect
+F0480F00	945175	1500	Dyes	Cloud Grey Dye
+B6470F00	1836658	40	Miscellaneous	Coffee Cherry Seed
+63440F00	1051625	56	Miscellaneous	Cogwheel
+DB4D0F00	1053740	56	Miscellaneous	Cogwheel
+E1470F00	403070	5	Decorative Vessels	Colorful Gerbera Pot
+69480F00	445216	7	Decorative Vessels	Concave Wooden Plate
+7D480F00	457690	5	Lighting	Copper Candlestick
+FE470F00	383450	13	Decorative Vessels	Copper Water Bottle
+7E460F00	3796939	85	Miscellaneous	Coral Mushroom Pack
+87430F00	1837583	40	Miscellaneous	Corn Seed
+08450F00	3793953	85	Miscellaneous	Cotton Pack
+57490F00	16439	50	Ammo	Crow Bomb
+52420F00	12990	15	Ammo	Crude Bismuth Cannonball
+51420F00	11827	15	Ammo	Crude Itano Cannonball
+8A440F00	4038594	186	Mounts	Crude Stirrups
+D5D0202D	4135465	15	Miscellaneous	Crutch
+3C4B0F00	415842	3	Decorative Vessels	Cylindrical Clay Jar
+21480F00	413212	3	Decorative Vessels	Cylindrical Jar
+3B4B0F00	415283	3	Decorative Vessels	Cylindrical Ocher Jar
+1A4B0F00	481343	243	Containers	Cylindrical Wooden Box
+D7420F00	1031928	1	Weapons	Dagger of Radiance
+A2460F00	400530	2	Miscellaneous	Daisy Flower Basket
+5B480F00	433184	3	Weapons	Damaged Bowl
+A1480F00	923885	150	Dyes	Dark Blue Dye
+E4470F00	404086	5	Decorative Vessels	Dark Brown Gerbera Flower Pot
+2C480F00	424126	6	Decorative Vessels	Dark Brown Jar
+3E270000	4127029	240	Lighting	Dark Fog Lantern
+B0480F00	932264	150	Dyes	Dark Green Dye
+3D490F00	946309	1500	Dyes	Dark Grey Dye
+22440F00	24508	10	Ammo	Dark Ice Spear Magic Bullet
+E0430F00	25062	10	Ammo	Dark Magic Bullet
+BF480F00	940643	150	Dyes	Dark Orange Dye
+9C480F00	921092	150	Dyes	Dark Purple Dye
+92480F00	915506	150	Dyes	Dark Red Dye
+B44A0F00	1854715	1	Decorative Vessels	Dark Red Goblet
+A6480F00	926678	150	Dyes	Dark Sky Blue Dye
+B5480F00	935057	150	Dyes	Dark Spring Green Dye
+AB480F00	929471	150	Dyes	Dark Teal Dye
+97480F00	918299	150	Dyes	Dark Violet Dye
+6E480F00	441708	7	Decorative Vessels	Dark Wooden Plate
+BA480F00	937850	150	Dyes	Dark Yellow Dye
+75490F00	21766	7	Ammo	Dart
+46480F00	392986	6	Decorative Vessels	Decorative Brass Goblet
+03480F00	384456	13	Decorative Vessels	Decorative Brass Water Bottle
+8C440F00	4046490	5056	Mounts	Decorative Dragon Head Stirrups
+DA4E0F00	449232	7	Decorative Vessels	Decorative Iron Plate
+02480F00	383953	13	Decorative Vessels	Decorative Iron Water Bottle
+73480F00	446722	7	Decorative Vessels	Decorative Plate
+45480F00	396486	25	Decorative Vessels	Decorative Silver Mug
+EE480F00	385965	50	Decorative Vessels	Decorative Water Bottle with Lid
+BC490F00	1916356	30	Miscellaneous	Decoy Summon Ball
+A2480F00	924451	150	Dyes	Deep Blue Dye
+50480F00	438195	3	Weapons	Deep Bowl
+B1480F00	932830	150	Dyes	Deep Green Dye
+15490F00	945742	1500	Dyes	Deep Grey Dye
+76480F00	447726	7	Decorative Vessels	Deep Iron Plate
+C0480F00	941209	150	Dyes	Deep Orange Dye
+9D480F00	921658	150	Dyes	Deep Purple Dye
+93480F00	916072	150	Dyes	Deep Red Dye
+A7480F00	927244	150	Dyes	Deep Sky Blue Dye
+B6480F00	935623	150	Dyes	Deep Spring Green Dye
+AC480F00	930037	150	Dyes	Deep Teal Dye
+98480F00	918865	150	Dyes	Deep Violet Dye
+6C480F00	440704	3	Decorative Vessels	Deep Wooden Plate
+BB480F00	938416	150	Dyes	Deep Yellow Dye
+177F0E00	3804552	85	Miscellaneous	Deer Pack
+37510F00	1059870	1	Contracts & Tokens	Delesyia Refinement Token
+48121700	4024452	7167	Mounts	Delesyian Champron
+1F490F00	1057234	1	Contracts & Tokens	Delesyian Contribution
+30161700	4031139	5020	Mounts	Delesyian Saddle
+D2490F00	4017034	153	Mounts	Delesyian Soldier's Cloth Barding
+181A1700	4044665	1551	Mounts	Delesyian Stirrups
+6E460F00	4027493	386	Mounts	Delmar Saddle
+2B0F2000	3911360	200	Armor	Demeniss Ceremonial Plate Helm
+36510F00	1059325	1	Contracts & Tokens	Demeniss Refinement Token
+EB420F00	4142019	196	Weapons	Demenissian Chainsaw
+4C121700	4019601	103	Mounts	Demenissian Champron
+19490F00	1056266	1	Contracts & Tokens	Demenissian Contribution
+34161700	4031748	2340	Mounts	Demenissian Saddle
+1D0F2000	3595336	200	Armor	Demenissian Soldier Plate Helm
+650E1700	4015663	153	Mounts	Demenissian Soldier's Cloth Barding
+1C1A1700	4041623	361	Mounts	Demenissian Stirrups
+09450F00	3794694	85	Miscellaneous	Dendrobium Orchid Pack
+BB420F00	28176	1	Ammo	Deployable Explosive
+3A480F00	3824488	85	Miscellaneous	Desert Pack
+75430F00	951260	1	Miscellaneous	Dimensional Fusion Experimental Power Core
+2D490F00	10661	15	Ammo	Disruptor Cannonball
+08480F00	387977	50	Miscellaneous	Distiller
+E1480F00	479273	203	Containers	Document Storage
+854A0F00	467750	487	Miscellaneous	Doll Wearing Brown Bonnet
+60430F00	431186	17000	Artworks	Dolphin Glass Art
+874C0F00	947493	1000	Miscellaneous	Dragon Claw Horn
+78500F00	1010297	1	Miscellaneous	Dreadnought Booster Pack
+79500F00	1010827	1	Miscellaneous	Dreadnought Missile Pack
+CB960100	3249746	200	Armor	Drish Cloth Cap
+A8420F00	3785998	85	Miscellaneous	Eastern Monk Pack
+71500F00	1006578	1	Miscellaneous	Electrical Component
+12090500	4583502	2000	Weapons	Electromagnetic Flamespitter
+13090500	4584250	2000	Weapons	Electromagnetic Frostspitter
+BB450F00	3656672	200	Armor	Elegant Carmine Plate Helm
+F20D0C00	593948	2	Decorative Vessels	Empty Bottle
+D2875746	3783539	85	Miscellaneous	Empty Pack
+E4480F00	482330	130	Containers	Engraved Wooden Box
+12450F00	1838974	40	Miscellaneous	Enset Seed
+934E0F00	1418445	1742	Contracts & Tokens	Equipment Supply Contract - Calphade
+974E0F00	1420956	1664	Contracts & Tokens	Equipment Supply Contract - Delesyia
+944E0F00	1419071	1664	Contracts & Tokens	Equipment Supply Contract - Demeniss
+914E0F00	1417196	1716	Contracts & Tokens	Equipment Supply Contract - Hernand
+924E0F00	1417819	1625	Contracts & Tokens	Equipment Supply Contract - Kharonso
+9A4E0F00	1422831	1677	Contracts & Tokens	Equipment Supply Contract - Odeck
+984E0F00	1421579	1651	Contracts & Tokens	Equipment Supply Contract - Pailune
+994E0F00	1422206	1781	Contracts & Tokens	Equipment Supply Contract - Skoghorn
+964E0F00	1420330	1820	Contracts & Tokens	Equipment Supply Contract - Stronghelm Forge
+954E0F00	1419694	1729	Contracts & Tokens	Equipment Supply Contract - Tariv
+9C4E0F00	1424081	1703	Contracts & Tokens	Equipment Supply Contract - Tommaso
+9B4E0F00	1423457	1716	Contracts & Tokens	Equipment Supply Contract - Varnia
+3FA41F5D	3843382	1	Mounts	Exclaire Barding
+49121700	3842651	1	Mounts	Exclaire Champron
+31161700	3844041	1	Mounts	Exclaire Saddle
+8F440F00	3844702	1	Mounts	Exclaire Stirrups
+69470F00	3906	300	Ammo	Explosive Arrow
+73170000	1015128	500	Bags & Storage	Extra Large Bag
+4E510F00	1017232	13158	Bags & Storage	Extra Large Bag
+FA240100	1453131	285	Abyss Artifacts	Faded Abyss Artifact
+7E420F00	1915827	30	Bags & Storage	Fake Silver Pouch
+3D270000	4126290	240	Lighting	Fancy Flame-Patterned Lantern
+C6430F00	1403490	1	Miscellaneous	Feather Pen
+938A0100	3596982	200	Armor	Ferman Plate Helm
+037F0E00	3776537	85	Miscellaneous	Field Pack
+067F0E00	3789818	85	Miscellaneous	Field Pack
+127F0E00	3802675	85	Miscellaneous	Field Pack
+B4460F00	1834340	20	Miscellaneous	Fig Seed
+814A0F00	466752	1420	Miscellaneous	Fine Blue Bonnet Doll
+13460F00	469247	2904	Miscellaneous	Fine Dress Doll
+BF440F00	4121256	3000	Tools	Fine Fishing Rod
+4A480F00	397486	275	Decorative Vessels	Fine Gold Goblet
+8E440F00	4039204	137	Mounts	Fine Leather Stirrups
+64470F00	4497	2	Ammo	Fire Arrow
+D8420F00	22861	10	Ammo	Fire Magic Bullet
+9A450F00	4129288	240	Lighting	Firefly Lantern
+F92A0000	4120570	15	Tools	Fishing Rod
+7C480F00	459702	88	Lighting	Five-Candle Candelabra
+C7490F00	3592115	200	Armor	Flame Knight's Plate Helm
+9F4A0F00	3603542	200	Armor	Flame Knight's Plate Helm
+3F270000	4127747	240	Lighting	Flame Lantern
+3A7F0E00	3784165	85	Miscellaneous	Florindale Empty Pack
+12470F00	3823800	85	Ammo	Florindale Flower Bomb Pack
+A1460F00	400022	2	Miscellaneous	Flower Basket
+AE450F00	402562	2	Miscellaneous	Flower Basket
+84460F00	410690	250	Decorative Vessels	Flower-Decorated Cactus Pot
+E6470F00	406626	13	Decorative Vessels	Flower-Shaped Marigold Pot
+424F0F00	1425313	1040	Contracts & Tokens	Food Supply Contract - Calphade
+454F0F00	1427158	1066	Contracts & Tokens	Food Supply Contract - Delesyia
+444F0F00	1426542	1092	Contracts & Tokens	Food Supply Contract - Demeniss
+414F0F00	1424697	1053	Contracts & Tokens	Food Supply Contract - Hernand
+434F0F00	1425926	1040	Contracts & Tokens	Food Supply Contract - Kharonso
+464F0F00	1427771	1235	Contracts & Tokens	Food Supply Contract - Pailune
+474F0F00	1428385	1040	Contracts & Tokens	Food Supply Contract - Tommaso
+484F0F00	1429001	1079	Contracts & Tokens	Food Supply Contract - Varnia
+82480F00	459199	25	Lighting	Four-Candle Candelabra
+194F0F00	4037987	5410	Mounts	Four-Leaf Horseshoes
+7B4B0F00	1232067	1	Weapons	Freesword Dwelling
+13480F00	411196	3	Decorative Vessels	Freshly Fired Celadon Vase
+EE420F00	900792	300	Consumables	Freya's Elixir
+70430F00	903799	600	Consumables	Freya's Greater Elixir
+5C420F00	897789	100	Consumables	Freya's Lesser Elixir
+75480F00	447224	7	Weapons	Fruit Bowl
+66000000	1046248	80	Bags & Storage	Full Copper Pouch
+68000000	1047330	10000	Bags & Storage	Full Silver Pouch
+754D0F00	1410985	923	Contracts & Tokens	Furniture Supply Contract - Beighen
+6D4D0F00	1409750	975	Contracts & Tokens	Furniture Supply Contract - Hidden Grove
+6C4D0F00	1409131	845	Contracts & Tokens	Furniture Supply Contract - Timberham
+744D0F00	1410369	884	Contracts & Tokens	Furniture Supply Contract - Timberton
+2D4C0F00	1669776	1008	Gear Blueprints	Gear Blueprint: Abyssal Assimilation
+FA4B0F00	1654722	950	Gear Blueprints	Gear Blueprint: Abyssal Rays
+D1500F00	1663588	1095	Gear Blueprints	Gear Blueprint: Abyssbane
+164D0F00	1621653	1119	Gear Blueprints	Gear Blueprint: Aegis
+9A4C0F00	1649355	1237	Gear Blueprints	Gear Blueprint: Ancient Reckoning
+CB500F00	1652704	1205	Gear Blueprints	Gear Blueprint: Ancient Retribution
+CA500F00	1652036	897	Gear Blueprints	Gear Blueprint: Ancient Wrath
+DD500F00	1679978	2157	Gear Blueprints	Gear Blueprint: Aptitude
+234C0F00	1643965	889	Gear Blueprints	Gear Blueprint: Arrow Rain
+1A4D0F00	1624362	945	Gear Blueprints	Gear Blueprint: Ascent
+264C0F00	1654046	1138	Gear Blueprints	Gear Blueprint: Ator's Orb
+D0500F00	1662898	1082	Gear Blueprints	Gear Blueprint: Beastbane
+DA500F00	1677257	1730	Gear Blueprints	Gear Blueprint: Blessing of Nature
+DB500F00	1677940	2026	Gear Blueprints	Gear Blueprint: Blessing of the Beast
+D9500F00	1676575	2219	Gear Blueprints	Gear Blueprint: Blessing of the Earth
+9D4C0F00	1678620	1939	Gear Blueprints	Gear Blueprint: Blessing of the Forest
+4B4C0F00	1660825	1643	Gear Blueprints	Gear Blueprint: Bloodbane
+924C0F00	1637872	1011	Gear Blueprints	Gear Blueprint: Colossal Might
+DF500F00	1682020	2132	Gear Blueprints	Gear Blueprint: Companionship
+FA4C0F00	1626380	966	Gear Blueprints	Gear Blueprint: Composure
+684D0F00	1640576	1312	Gear Blueprints	Gear Blueprint: Crescent Moon Slash
+F94B0F00	1639221	952	Gear Blueprints	Gear Blueprint: Crow Storm
+964B0F00	1631120	850	Gear Blueprints	Gear Blueprint: Crow's Pursuit
+8A4D0F00	1645991	1034	Gear Blueprints	Gear Blueprint: Dark Crescent
+D84C0F00	1619643	1019	Gear Blueprints	Gear Blueprint: Destruction
+DC4E0F00	1672488	2392	Gear Blueprints	Gear Blueprint: Disarm
+8B4D0F00	1646677	831	Gear Blueprints	Gear Blueprint: Earthrending Strike
+954C0F00	1675215	1973	Gear Blueprints	Gear Blueprint: Efficiency
+D2500F00	1666385	1642	Gear Blueprints	Gear Blueprint: Energy Drain
+DE500F00	1681335	1901	Gear Blueprints	Gear Blueprint: Equestrian
+B0500F00	1647345	969	Gear Blueprints	Gear Blueprint: Flames of Judgment
+204C0F00	1627735	675	Gear Blueprints	Gear Blueprint: Flameward
+154D0F00	1620986	1167	Gear Blueprints	Gear Blueprint: Fortification
+174D0F00	1622328	1202	Gear Blueprints	Gear Blueprint: Fortitude
+624C0F00	1673169	2266	Gear Blueprints	Gear Blueprint: Fortune
+1D450F00	1633145	1221	Gear Blueprints	Gear Blueprint: Frost Hail
+334D0F00	1642611	907	Gear Blueprints	Gear Blueprint: Frost Spike
+214C0F00	1628412	800	Gear Blueprints	Gear Blueprint: Frostward
+7D4D0F00	1641936	1098	Gear Blueprints	Gear Blueprint: Fullmoon Slash
+944C0F00	1674531	1968	Gear Blueprints	Gear Blueprint: Gourmet
+C7500F00	1650029	1161	Gear Blueprints	Gear Blueprint: Greysoul Howling
+CF470F00	1629770	1275	Gear Blueprints	Gear Blueprint: Groundsurge
+6B4D0F00	1641256	958	Gear Blueprints	Gear Blueprint: Half Moon Slash
+194D0F00	1623684	1045	Gear Blueprints	Gear Blueprint: Haste
+314C0F00	1671130	1294	Gear Blueprints	Gear Blueprint: Heart of Stone
+304C0F00	1670455	1355	Gear Blueprints	Gear Blueprint: Heart of the Serpent
+4A4C0F00	1660129	1442	Gear Blueprints	Gear Blueprint: Hexebane
+F34B0F00	1636529	907	Gear Blueprints	Gear Blueprint: Hound's Claws
+CE500F00	1656058	853	Gear Blueprints	Gear Blueprint: Howling of Chaos
+934C0F00	1673850	1654	Gear Blueprints	Gear Blueprint: Infinite Arrows
+DA4C0F00	1620319	1100	Gear Blueprints	Gear Blueprint: Insight
+8F4C0F00	1637207	1268	Gear Blueprints	Gear Blueprint: Judgment of the Soul
+F14B0F00	1635182	1127	Gear Blueprints	Gear Blueprint: Karmic Pulse
+244C0F00	1658081	1136	Gear Blueprints	Gear Blueprint: Kinetic Burst
+D8500F00	1675895	1942	Gear Blueprints	Gear Blueprint: Ledgermain
+D3500F00	1667066	2163	Gear Blueprints	Gear Blueprint: Life Transference
+CF500F00	1657405	1012	Gear Blueprints	Gear Blueprint: Lightning God's Affliction
+534C0F00	1662204	917	Gear Blueprints	Gear Blueprint: Malicebane
+324C0F00	1671810	1728	Gear Blueprints	Gear Blueprint: Momentum
+3E4C0F00	1634500	959	Gear Blueprints	Gear Blueprint: Orbs of Lightning
+7E4D0F00	1644633	1330	Gear Blueprints	Gear Blueprint: Order from Above
+CD500F00	1655390	968	Gear Blueprints	Gear Blueprint: Parting Gift
+FE4B0F00	1643291	946	Gear Blueprints	Gear Blueprint: Piercing Bloom
+994C0F00	1648013	1200	Gear Blueprints	Gear Blueprint: Pillar of Wind
+4E4C0F00	1661518	1619	Gear Blueprints	Gear Blueprint: Primalbane
+CC500F00	1653372	1065	Gear Blueprints	Gear Blueprint: Putrid Touch
+C9500F00	1651368	1302	Gear Blueprints	Gear Blueprint: Queen's Fangs
+D6500F00	1669098	1936	Gear Blueprints	Gear Blueprint: Relentless
+DC470F00	1664998	2079	Gear Blueprints	Gear Blueprint: Rend
+984C0F00	1656739	1042	Gear Blueprints	Gear Blueprint: Rising Torrent
+DC500F00	1679300	2325	Gear Blueprints	Gear Blueprint: Service
+C8500F00	1650696	1360	Gear Blueprints	Gear Blueprint: Shadow Claw
+EA430F00	1664292	2298	Gear Blueprints	Gear Blueprint: Shatter
+344D0F00	1648688	1263	Gear Blueprints	Gear Blueprint: Shattering Frost
+224C0F00	1629097	596	Gear Blueprints	Gear Blueprint: Shockward
+EE500F00	1665703	1686	Gear Blueprints	Gear Blueprint: Shred
+EE4B0F00	1631795	1161	Gear Blueprints	Gear Blueprint: Slashing Reeds
+9E4C0F00	1680653	1979	Gear Blueprints	Gear Blueprint: Solidarity
+D4500F00	1667747	2177	Gear Blueprints	Gear Blueprint: Spirit Transference
+944B0F00	1630445	1231	Gear Blueprints	Gear Blueprint: Spirit's Judgment
+D5500F00	1668428	1974	Gear Blueprints	Gear Blueprint: Stamina Transference
+484C0F00	1659437	957	Gear Blueprints	Gear Blueprint: Steelbane
+F04B0F00	1645311	932	Gear Blueprints	Gear Blueprint: Storm Fang
+1D4C0F00	1627057	961	Gear Blueprints	Gear Blueprint: Surge
+184D0F00	1623007	911	Gear Blueprints	Gear Blueprint: Swift
+114D0F00	1639896	1309	Gear Blueprints	Gear Blueprint: Tempest of Destruction
+9B4C0F00	1658748	1343	Gear Blueprints	Gear Blueprint: The Showstopper
+FE420F00	1625038	894	Gear Blueprints	Gear Blueprint: Vigor
+1C4D0F00	1625709	808	Gear Blueprints	Gear Blueprint: Vitality
+1E450F00	1633820	1031	Gear Blueprints	Gear Blueprint: Volcanic Eruption
+0A4D0F00	1638547	892	Gear Blueprints	Gear Blueprint: Warden of Darkness
+EF4B0F00	1632469	1046	Gear Blueprints	Gear Blueprint: Wind Slash
+644C0F00	1635857	1188	Gear Blueprints	Gear Blueprint: Wound of Darkness
+04450F00	3767555	85	Miscellaneous	Gearmelt Confectionery Pack
+D04D0F00	1448455	2000	Miscellaneous	Giant White Bison Sighting
+28480F00	429166	125	Decorative Vessels	Gilded Slim Bottle
+30480F00	428662	125	Decorative Vessels	Gilded Vase
+8A480F00	449733	23	Weapons	Glazed Bowl
+EF480F00	372384	7	Decorative Vessels	Glazed Clay Water Bottle
+89480F00	453166	85	Decorative Vessels	Glazed Mortar
+8D440F00	4045880	1551	Mounts	Gold-Decorated Stirrups
+BC4A0F00	1865325	1	Miscellaneous	Golden Beer
+5D480F00	454169	200	Weapons	Golden Bowl
+2E480F00	428158	125	Decorative Vessels	Golden Carafe
+3D480F00	396986	275	Decorative Vessels	Golden Goblet
+B04A0F00	1854159	1	Miscellaneous	Golden Piggy Bank
+9B4A0F00	1845490	1	Miscellaneous	Golden Star's Component
+C7430F00	1072399	1	Miscellaneous	Golden Star's Power Core
+D34D0F00	1450016	2250	Miscellaneous	Golden Tench Sighting
+26CB0000	27156	15	Miscellaneous	Goldleaf Censer
+F5470F00	369366	3	Decorative Vessels	Gourd Bottle
+968A0100	3606709	200	Armor	Grace Plate Helm
+54480F00	435189	3	Weapons	Grain Bowl
+24480F00	414220	3	Decorative Vessels	Grain Jar
+07450F00	3793216	85	Miscellaneous	Grape Pack
+1F470F00	1835730	20	Miscellaneous	Grape Seed
+DF4B0F00	1282013	1	Weapons	Grave of Warriors' Axes
+1D480F00	422614	6	Decorative Vessels	Gray Jar
+1A480F00	421102	6	Decorative Vessels	Gray Two-Handled Jar
+E64D0F00	1799024	1	Ammo	Greater Infinite Arrows
+AF480F00	931705	150	Dyes	Green Dye
+0B480F00	380432	13	Decorative Vessels	Green Jar-Shaped Water Bottle
+86480F00	443712	7	Weapons	Green Spice Bowl
+624D0F00	4017711	343	Mounts	Grenbar Cloth Barding
+78470F00	944041	1500	Dyes	Grey Dye
+D2440F00	1055295	1	Contracts & Tokens	Greymane Contribution
+3085D157	3826970	1	Armor	Grotevant Plate Armor
+1F009129	3831224	1	Armor	Grotevant Plate Boots
+AC35DA7C	3829721	1	Armor	Grotevant Plate Gloves
+B6CD8774	3832696	1	Armor	Grotevant Plate Helm
+3A750000	593417	5	Miscellaneous	Gunpowder
+5E4A0F00	4013760	8500	Mounts	Hagmund Barding
+D54A0F00	4025059	7167	Mounts	Hagmund Champron
+BD4A0F00	4032357	2340	Mounts	Hagmund Saddle
+25430F00	902597	300	Consumables	Haiden's Elixir
+C8430F00	905616	600	Consumables	Haiden's Greater Elixir
+95420F00	899594	100	Consumables	Haiden's Lesser Elixir
+744B0F00	1227674	1	Decorative Vessels	Halssius Apothecary
+52490F00	3605124	200	Armor	Hartmann Plate Helm
+CB6D0B00	894997	15	Miscellaneous	Hay
+327F0E00	3781042	85	Miscellaneous	Healer's Pack
+2C7F0E00	3810197	85	Miscellaneous	Healer's Pack
+2D7F0E00	3810824	85	Miscellaneous	Healer's Pack
+2E7F0E00	3811452	85	Miscellaneous	Healer's Pack
+2F7F0E00	3812079	85	Miscellaneous	Healer's Pack
+307F0E00	3812705	85	Miscellaneous	Healer's Pack
+317F0E00	3813332	85	Miscellaneous	Healer's Pack
+337F0E00	3813961	85	Miscellaneous	Healer's Pack
+40420F00	1867869	1	Consumables	Health Amplification
+8A723724	4132416	15	Miscellaneous	Heavy Bucket
+5A480F00	442710	7	Weapons	Herb Mortar Bowl
+0A7F0E00	3797652	85	Miscellaneous	Herbalist's Pack
+0B7F0E00	3798281	85	Miscellaneous	Herbalist's Pack
+50420F00	1176402	1	Contracts & Tokens	Hernand Contribution Shop Flyer
+34510F00	1058780	1	Contracts & Tokens	Hernand Refinement Token
+FABE1100	3692943	300	Armor	Hernandian Attire
+4A121700	4021418	366	Mounts	Hernandian Champron
+1A490F00	1055780	1	Contracts & Tokens	Hernandian Contribution
+32161700	4029923	673	Mounts	Hernandian Saddle
+660E1700	4016348	153	Mounts	Hernandian Soldier's Cloth Barding
+1A1A1700	4043444	967	Mounts	Hernandian Stirrups
+F9550000	570911	300	Consumables	Holy Water
+F14E0F00	299248	1	Miscellaneous	Horse Hire Ledger
+936E0B00	897194	63	Consumables	Horse Stimulant
+916E0B00	896645	30	Consumables	Horse Tonic
+434C0F00	1258952	1	Mounts	Horseshoe Lake Burrow
+DC480F00	463710	38	Decorative Vessels	Hourglass
+54440F00	431691	12000	Artworks	Humpback Whale Glass Art
+16450F00	3778474	85	Miscellaneous	Hunter's Meat Pack
+107F0E00	3801417	85	Miscellaneous	Hunter's Pack
+117F0E00	3802043	85	Miscellaneous	Hunter's Pack
+0C450F00	3766021	85	Bags & Storage	Hydro Generator Bag
+590E1700	3850551	1	Mounts	Hyperion Barding
+41121700	3849823	1	Mounts	Hyperion Champron
+29161700	3851212	1	Mounts	Hyperion Saddle
+111A1700	3851870	1	Mounts	Hyperion Stirrups
+CF430F00	23961	10	Ammo	Ice Magic Bullet
+EC480F00	376911	7	Decorative Vessels	Indigo Bottle
+70170000	1012960	1	Bags & Storage	Inventory Expansion Tool
+2B440F00	4436224	1	Weapons	Invisible Longsword
+DB480F00	464712	63	Decorative Vessels	Iron Basin
+5C480F00	450735	23	Weapons	Iron Bowl
+80480F00	456684	2	Lighting	Iron Candle
+01480F00	379426	7	Decorative Vessels	Iron Container
+7F480F00	458193	5	Lighting	Iron Cup Candle
+FC470F00	385462	50	Miscellaneous	Iron Distiller
+E5480F00	482836	200	Containers	Iron-Adorned Storage
+90440F00	4033606	43	Mounts	Ironstone Horseshoes
+CF490F00	12404	15	Ammo	Itano Cannonball
+9D430F00	3728280	2700	Armor	Jackals' Leather Helm
+81EA3750	4129997	98	Decorative Vessels	Jar Lid
+EF960100	3401474	200	Armor	Jester Leather Mask
+E7480F00	483848	210	Containers	Jewel Box
+E6480F00	483342	230	Containers	Jewelry Storage
+4C440F00	3835491	1	Armor	Kairos Plate Armor
+77440F00	3839688	1	Armor	Kairos Plate Boots
+70440F00	3838206	1	Armor	Kairos Plate Gloves
+49440F00	3834186	1	Armor	Kairos Plate Helm
+104B0F00	359289	10000	Artworks	Kinetic Boat
+114B0F00	359795	11500	Artworks	Kinetic Circle
+0F4B0F00	358785	6500	Artworks	Kinetic Dolphin
+0E4B0F00	358278	10500	Artworks	Kinetic Dolphin Family
+9E500F00	360302	12000	Artworks	Kinetic Knight
+984A0F00	4079915	1	Miscellaneous	Kuku Enhanced Disruptor
+C44A0F00	4084476	1	Weapons	Kuku Flamespitter
+C54A0F00	4085206	1	Weapons	Kuku Frostspitter
+F9500F00	3248134	200	Armor	Labrak Cloth Cap
+EF4C0F00	1398487	1	Lighting	Lamp of Crossed Dreams
+2A270000	4124831	10	Lighting	Lantern
+75170000	1014586	250	Bags & Storage	Large Bag
+4D510F00	1016707	6580	Bags & Storage	Large Bag
+47480F00	395486	8	Decorative Vessels	Large Decorative Goblet
+9F500F00	435690	3	Weapons	Large Grain Bowl
+20480F00	419590	6	Consumables	Large Medicine Jar
+49480F00	393986	6	Miscellaneous	Large Multipurpose Vessel
+744A0F00	368863	3	Decorative Vessels	Large Water Bottle
+67480F00	439198	3	Decorative Vessels	Large Wooden Plate
+290F2000	3590513	200	Armor	Lauques Plate Helm
+64440F00	409166	75	Decorative Vessels	Leafy Pot
+DB490F00	377917	7	Decorative Vessels	Leather Strap Gourd Bottle
+E5470F00	404594	5	Decorative Vessels	Light Brown Gerbera Flower Pot
+404B0F00	418078	3	Decorative Vessels	Light Brown Water Pot
+67000000	1045186	20	Bags & Storage	Light Copper Pouch
+D1490F00	26159	10	Ammo	Light Fist Magic Bullet
+D5480F00	388983	50	Decorative Vessels	Light Green-Glazed Water Bottle
+ED430F00	25616	10	Ammo	Lightning Magic Bullet
+EF470F00	365342	3	Decorative Vessels	Liquor Bottle
+F6430F00	3336931	200	Armor	Lizard Leather Helm
+0F480F00	375905	7	Decorative Vessels	Long Blue Water Bottle
+0C480F00	375402	7	Decorative Vessels	Long Crimson Water Bottle
+0D480F00	371378	3	Decorative Vessels	Long White Water Bottle
+0E480F00	381438	13	Decorative Vessels	Long Yellow Water Bottle
+23490F00	425638	53	Decorative Vessels	Long-Necked Silver Jar
+46750000	1052703	234	Tools	Lubricant
+EC500F00	1054816	234	Tools	Lubricant
+E7500F00	3769110	1	Tools	Lubricant Sprayer
+70490F00	1833409	20	Miscellaneous	Luminous Seed
+86490F00	22311	10	Ammo	Magic Bullet
+EC460F00	4582719	1020	Tools	Magic Scythe
+7A500F00	1011382	1	Miscellaneous	Magnetic Power Core
+DE480F00	461706	15	Tools	Magnifying Glass
+A6470F00	355246	1050	Artworks	Magnum Opus - Priest of Bulls
+80470F00	356254	1700	Artworks	Magnum Opus - Saint Bartali
+A7470F00	357262	1700	Artworks	Magnum Opus - The Tiger General
+6F7C0B00	1831077	50	Miscellaneous	Manure
+124D0F00	4044059	967	Mounts	Marcello Stirrups
+21440F00	4042226	967	Mounts	Marni Stirrups
+75500F00	1008694	1	Miscellaneous	Marni's Mecha Blade Pack
+77500F00	1009767	1	Miscellaneous	Marni's Mecha Booster Pack
+74500F00	1008159	1	Miscellaneous	Marni's Mecha Laser Pack
+73500F00	1007621	1	Miscellaneous	Marni's Mecha Leap Pack
+76500F00	1009229	1	Miscellaneous	Marni's Mecha Rocket Pack
+66450F00	2026397	5	Miscellaneous	Mask
+2A430F00	1068978	1	Miscellaneous	Mask of the Devil of the Reed Field
+1F440F00	2025565	1	Miscellaneous	Master Du's Circlet
+9D470F00	353230	850	Artworks	Masterpiece - A Dairy Cow
+96470F00	352726	700	Artworks	Masterpiece - Bighorn Sheep
+AD470F00	354238	850	Artworks	Masterpiece - Crown Prince Edward Thorel
+9B470F00	355750	1050	Artworks	Masterpiece - Dawnbreak
+99470F00	354742	1050	Artworks	Masterpiece - Gatekeeper of Death
+A3470F00	356758	1700	Artworks	Masterpiece - King of Death
+9F470F00	353734	850	Artworks	Masterpiece - Man's Best Friend
+7B470F00	351718	700	Artworks	Masterpiece - Poverty Amidst Plenty
+88470F00	350206	450	Artworks	Masterpiece - Silence of Dawn
+14480F00	418582	6	Consumables	Medicine Ceramic Jar
+16480F00	419086	6	Consumables	Medicine Jar
+72170000	1014044	150	Bags & Storage	Medium Bag
+4C510F00	1016182	3948	Bags & Storage	Medium Bag
+6C470F00	943477	1500	Dyes	Medium Grey Dye
+24430F00	901998	300	Consumables	Meliara's Elixir
+B9430F00	905013	600	Consumables	Meliara's Greater Elixir
+62420F00	898995	100	Consumables	Meliara's Lesser Elixir
+9C490F00	11243	15	Ammo	Mine Spider Cannonball
+65000000	1045714	60	Bags & Storage	Modest Copper Pouch
+B5440F00	1046783	300	Bags & Storage	Modest Silver Pouch
+180F2000	3601946	200	Armor	Mortain Plate Helm
+15480F00	411700	3	Decorative Vessels	Multipurpose Jar
+E8480F00	480791	152	Containers	Multipurpose Wooden Box
+2F350C00	1065212	1	Consumables	Mysterious Elixir
+4B470F00	1098060	1	Decorative Vessels	Mysterious Pot Crafting Contract
+FC500F00	948708	2000	Miscellaneous	Narima's Horn
+FD8A0100	3570422	200	Armor	Northern Fighter's Plate Helm
+8E470F00	335590	100	Artworks	Notable - Duel - Echoes of the Battlefield
+8C470F00	331054	50	Artworks	Notable - Duel Between Rivals
+8F470F00	326518	13	Artworks	Notable - Execution
+90470F00	342142	175	Artworks	Notable - Fields of Color
+8A470F00	335086	100	Artworks	Notable - Glory of Days Past
+B2470F00	346678	300	Artworks	Notable - Golden Lands
+A5470F00	341638	175	Artworks	Notable - King of Hens
+AE470F00	331558	50	Artworks	Notable - Marni's Portrait
+82470F00	334078	100	Artworks	Notable - Nameless
+B3470F00	338110	100	Artworks	Notable - Nameless
+7F440F00	324502	13	Artworks	Notable - Poverty Amidst Plenty
+81470F00	325510	13	Artworks	Notable - Saint Reventine
+AC470F00	346174	300	Artworks	Notable - Snowfield Fox
+AB470F00	345670	300	Artworks	Notable - The Fox
+86470F00	330046	50	Artworks	Notable - Those Headed to the Chapel
+85470F00	329542	50	Artworks	Notable - Those Who Celebrate the Harvest Festival
+A8470F00	344662	300	Artworks	Notable - Winged Fox
+53480F00	434688	3	Weapons	Nut Bowl
+8D480F00	437193	3	Decorative Vessels	Oak Beaker
+7D460F00	3796191	85	Miscellaneous	Oakwood Mushroom Pack
+1E480F00	423118	6	Decorative Vessels	Ocher Jar
+27CB0000	27619	30	Miscellaneous	Oil Barrel
+3D4B0F00	416401	3	Decorative Vessels	Old Round Jar
+05480F00	363833	3	Decorative Vessels	Old Two-Handled Iron Water Bottle
+3F4B0F00	417519	3	Decorative Vessels	Old Water Pot
+44480F00	391486	3	Decorative Vessels	Old Wooden Beer Mug
+694A0F00	182541	10000	Miscellaneous	One-Handed Weapons of the World, Vol. IV
+BE480F00	940084	150	Dyes	Orange Dye
+06450F00	3792480	85	Miscellaneous	Orange Pack
+B5470F00	1836194	20	Miscellaneous	Orange Seed
+A4B9D663	4189230	1	Weapons	Orc Blaster
+E0470F00	401546	2	Decorative Vessels	Ornamental Plant Pot
+4C480F00	397986	275	Decorative Vessels	Ornate Gold Goblet
+DD480F00	464211	63	Tools	Ornate Magnifying Glass
+39490F00	426142	53	Decorative Vessels	Ornate Silver Conical Jar
+22480F00	430174	425	Decorative Vessels	Ornate Tree Pattern Vase
+894E0F00	1412225	1339	Armor	Outfit Supply Contract - Calphade
+8D4E0F00	1414715	1365	Armor	Outfit Supply Contract - Delesyia
+8A4E0F00	1412845	1430	Armor	Outfit Supply Contract - Demeniss
+8C4E0F00	1414095	1339	Armor	Outfit Supply Contract - Demeniss Wildlife Park
+E2490F00	1411605	1560	Armor	Outfit Supply Contract - Hernand
+8E4E0F00	1415332	1430	Armor	Outfit Supply Contract - Pailune
+8B4E0F00	1413462	1300	Armor	Outfit Supply Contract - Tariv
+8F4E0F00	1415950	1508	Armor	Outfit Supply Contract - Tommaso
+904E0F00	1416570	1443	Armor	Outfit Supply Contract - Varnia
+46430F00	3786632	85	Miscellaneous	Outlaw's Gold Ore Pack
+69000000	1047883	20000	Bags & Storage	Overflowing Silver Pouch
+38510F00	1060416	1	Contracts & Tokens	Pailune Refinement Token
+1B490F00	1056750	1	Contracts & Tokens	Pailunese Contribution
+F6470F00	369869	3	Decorative Vessels	Pale Blue Container
+F8450F00	1044652	5	Bags & Storage	Paltry Copper Pouch
+D5460F00	1834803	20	Miscellaneous	Peach Seed
+6C490F00	1832008	40	Miscellaneous	Pear Tree Seed
+40450F00	4091585	240	Armor	Peddler Cat Outfit
+017F0E00	3775250	85	Miscellaneous	Peddler's Pack
+0F7F0E00	3800792	85	Miscellaneous	Peddler's Pack
+197F0E00	3805808	85	Miscellaneous	Peddler's Pack
+22490F00	1408512	10000	Bags & Storage	Personal Strongbox Permit
+5B490F00	16993	50	Ammo	Perwin Explosive
+F2480F00	461205	8	Miscellaneous	Pile of Cloth
+F1480F00	460203	8	Miscellaneous	Pile of Clothing Materials
+6D460F00	3795443	85	Miscellaneous	Pine Mushroom Pack
+DC490F00	378420	7	Decorative Vessels	Plaid Gourd Bottle
+7B480F00	456181	2	Lighting	Plain Candle
+4D480F00	391986	3	Decorative Vessels	Plain Wooden Beer Mug
+53C30000	2142	10	Ammo	Poison Arrow
+B3460F00	1833878	20	Miscellaneous	Pomegranate Seed
+C0440F00	4121939	5000	Tools	Pororin Fishing Rod
+397F0E00	3815209	85	Miscellaneous	Pororin Pack
+F8470F00	374899	7	Decorative Vessels	Portable Blue Water Bottle
+EB470F00	362827	3	Decorative Vessels	Portable Wooden Container
+D7480F00	451236	23	Decorative Vessels	Pot
+C1460F00	462708	15	Decorative Vessels	Pot
+914C0F00	1297379	1	Decorative Vessels	Pot Artisans
+14450F00	1839439	40	Miscellaneous	Prickly Pear Seed
+1A500F00	432689	200	Miscellaneous	Priest in a Mask
+A84E0F00	1432115	819	Contracts & Tokens	Provisions Supply Contract - Beighen
+A54E0F00	1430249	1014	Contracts & Tokens	Provisions Supply Contract - Calphade
+A64E0F00	1430873	858	Contracts & Tokens	Provisions Supply Contract - Delesyia
+A94E0F00	1432739	988	Contracts & Tokens	Provisions Supply Contract - Demeniss
+A44E0F00	1429625	975	Contracts & Tokens	Provisions Supply Contract - Hernand
+A74E0F00	1431494	897	Contracts & Tokens	Provisions Supply Contract - Pailune
+AD4E0F00	1435234	897	Contracts & Tokens	Provisions Supply Contract - Skoghorn
+AA4E0F00	1433361	832	Contracts & Tokens	Provisions Supply Contract - Tommaso
+AB4E0F00	1433985	793	Contracts & Tokens	Provisions Supply Contract - Varnia
+AC4E0F00	1434609	806	Contracts & Tokens	Provisions Supply Contract - Vellua
+714A0F00	4094443	240	Armor	Puppy Cloth Hat
+724A0F00	4096493	240	Armor	Puppy Cloth Outfit
+414A0F00	4095829	240	Armor	Puppy Plate Armor
+404A0F00	4093784	240	Armor	Puppy Plate Helm
+D7460F00	941776	1500	Dyes	Pure White Dye
+85460F00	409674	75	Decorative Vessels	Purple Cactus Pot
+9B480F00	920533	150	Dyes	Purple Dye
+45440F00	408658	75	Decorative Vessels	Purple Flower-Shaped Cactus Pot
+E3470F00	403578	5	Decorative Vessels	Purple Gerbera Flower Pot
+BB4E0F00	3863809	1	Mounts	Purple Scout Champron
+B64E0F00	3857528	1	Lighting	Purple Scout Lantern
+BC4E0F00	3864471	1	Mounts	Purple Scout Saddle
+BD4E0F00	3865130	1	Mounts	Purple Scout Stirrups
+FB470F00	380935	13	Decorative Vessels	Purple-Handled Water Bottle
+1B7F0E00	3785370	85	Miscellaneous	Quarrier's Pack
+167F0E00	3803924	85	Miscellaneous	Quarrier's Pack
+F0960100	3403140	200	Armor	Rabbit Leather Mask
+95430F00	3244181	200	Armor	Raccoon Cloth Hat
+4F960100	3254576	200	Armor	Radein Cloth Cap
+1C3A0100	1576896	68	Recipes	Recipe: Antler Tea
+0F450F00	1605913	702	Recipes	Recipe: Assorted Braised Fish
+4F440F00	1608535	1040	Recipes	Recipe: Assorted Meat and Fish Skewers
+DA420F00	1590074	190	Recipes	Recipe: Battered Fish
+41430F00	1578207	62	Recipes	Recipe: Battered Grains
+EF440F00	1606559	760	Recipes	Recipe: Battered Harvest Roll
+97420F00	1580826	72	Recipes	Recipe: Battered Meat
+02440F00	1594024	362	Recipes	Recipe: Battered Meat and Fish
+37440F00	1593357	360	Recipes	Recipe: Battered Seafood
+07430F00	1583468	102	Recipes	Recipe: Battered Vegetables
+163A0100	1615071	1700	Recipes	Recipe: Bird Soup
+81380100	1609837	565	Recipes	Recipe: Boiled Meat
+CD420F00	1588744	185	Recipes	Recipe: Braised Fish
+35440F00	1604594	605	Recipes	Recipe: Braised Fish and Vegetables
+88420F00	1580164	70	Recipes	Recipe: Braised Meat
+F9430F00	1592685	265	Recipes	Recipe: Braised Meat and Fish
+04440F00	1597356	205	Recipes	Recipe: Braised Ribs
+4B440F00	1586117	170	Recipes	Recipe: Chewy Rice Cakes
+F8500F00	1577544	500	Recipes	Recipe: Chocolate
+8C420F00	1578860	70	Recipes	Recipe: Clear Soup
+793A0100	1573628	105	Recipes	Recipe: Coral Mushroom Tea
+11460F00	1572972	115	Recipes	Recipe: Delesyian Wine
+9C450F00	1616372	3247	Recipes	Recipe: Extravagant Meal
+FC450F00	1615721	2785	Recipes	Recipe: Fine Meal
+D6420F00	1598009	210	Recipes	Recipe: Fish Porridge
+BA420F00	1588092	185	Recipes	Recipe: Fish Skewers
+01450F00	1613774	667	Recipes	Recipe: Fish Stew
+3A440F00	1599998	365	Recipes	Recipe: Fishball Soup
+1D3A0100	1571014	10	Recipes	Recipe: Fruit Juice
+2B430F00	1582801	90	Recipes	Recipe: Fruit Punch
+83380100	1570361	10	Recipes	Recipe: Fruit Tea
+3E440F00	1595354	167	Recipes	Recipe: Grain Soup
+73450F00	1617674	3655	Recipes	Recipe: Grand Meal
+66420F00	1590731	205	Recipes	Recipe: Grilled Meat and Fish
+BC440F00	1603277	562	Recipes	Recipe: Grilled Meat Patties
+6D440F00	1607222	775	Recipes	Recipe: Grilled Meat Steak
+3B440F00	1586781	175	Recipes	Recipe: Harvest Roll
+A9440F00	1613125	660	Recipes	Recipe: Harvest Soup
+913A0100	1576235	100	Recipes	Recipe: Honey Tea
+B1450F00	1617023	2810	Recipes	Recipe: Lavish Meal
+FA450F00	1601968	285	Recipes	Recipe: Longhorn Soup
+23440F00	1589412	185	Recipes	Recipe: Marinated Meat
+64460F00	1618976	2805	Recipes	Recipe: Meal
+FD430F00	1599330	290	Recipes	Recipe: Meat and Fish Porridge
+92430F00	1594681	365	Recipes	Recipe: Meat and Fish Skewers
+05440F00	1598672	210	Recipes	Recipe: Meat and Vegetable Porridge
+87420F00	1579512	70	Recipes	Recipe: Meat Skewers
+2C440F00	1596694	200	Recipes	Recipe: Meat Stew
+AE440F00	1609189	530	Recipes	Recipe: Meat Stew
+89440F00	1612476	657	Recipes	Recipe: Meatball Soup
+9D490F00	1575588	105	Recipes	Recipe: Mild Herbal Tea
+E1440F00	1603932	562	Recipes	Recipe: Mixed Harvest Bowl
+A8440F00	1607872	1025	Recipes	Recipe: Mixed Skewers
+FD440F00	1614423	785	Recipes	Recipe: Mixed Stew
+7E3A0100	1574283	125	Recipes	Recipe: Oakwood Mushroom Tea
+00450F00	1605246	640	Recipes	Recipe: Pan-Fried Marinated Fish
+20440F00	1587440	180	Recipes	Recipe: Pan-Fried Marinated Meat
+AC440F00	1602627	515	Recipes	Recipe: Pan-Fried Rice Cakes
+47450F00	1592028	247	Recipes	Recipe: Pan-Fried Vegetables
+34430F00	1581489	75	Recipes	Recipe: Pickled Fruit
+DE420F00	1584125	105	Recipes	Recipe: Pickled Vegetables
+7D3A0100	1574939	132	Recipes	Recipe: Pine Mushroom Tea
+AC3B0100	1584776	125	Recipes	Recipe: Salt-Roasted Bird Meat
+1A460F00	1591381	245	Recipes	Recipe: Salt-Roasted Fish
+75460F00	1600650	365	Recipes	Recipe: Seafood Soup
+39440F00	1611163	610	Recipes	Recipe: Seafood Stew
+08460F00	1618325	2810	Recipes	Recipe: Special Meal
+07440F00	1596026	197	Recipes	Recipe: Steamed Eggs
+38440F00	1610495	590	Recipes	Recipe: Steamed Fish
+AA460F00	1611813	655	Recipes	Recipe: Steamed Seafood
+36440F00	1601313	370	Recipes	Recipe: Vegetable and Seafood Porridge
+7E490F00	1571673	10	Recipes	Recipe: Vegetable Juice
+E9420F00	1582147	90	Recipes	Recipe: Vegetable Porridge
+3C440F00	1585448	165	Recipes	Recipe: Vegetable Rice Cake
+10460F00	1572323	95	Recipes	Recipe: Wine
+91480F00	914947	150	Dyes	Red Dye
+65480F00	361823	1000	Decorative Stones	Red Fire Decorative Stone
+67440F00	410182	250	Decorative Vessels	Red Flower Pot
+1C480F00	422110	6	Decorative Vessels	Red One-Handled Jar
+DE470F00	405610	13	Decorative Vessels	Red Rose Flower Pot
+51470F00	443211	7	Weapons	Red Spice Bowl
+3D4C0F00	1554	1	Ammo	Replenishing Arrows
+E9500F00	14168	1	Ammo	Replenishing Bullets
+E8500F00	10047	1	Ammo	Replenishing Cannonballs
+83470F00	334582	100	Artworks	Replica - Idle Hands
+78440F00	333070	50	Artworks	Replica - Poverty Amidst Plenty
+84470F00	326014	13	Artworks	Replica - Prelude to War
+DD470F00	4095128	240	Armor	Rescue Puppy Outfit
+9B450F00	489150	2130	Miscellaneous	Reventine Monastery Exclusive Document
+9F480F00	922777	150	Dyes	Rich Blue Dye
+AE480F00	931156	150	Dyes	Rich Green Dye
+BD480F00	939535	150	Dyes	Rich Orange Dye
+9A480F00	919984	150	Dyes	Rich Purple Dye
+90480F00	914398	150	Dyes	Rich Red Dye
+A4480F00	925570	150	Dyes	Rich Sky Blue Dye
+B3480F00	933949	150	Dyes	Rich Spring Green Dye
+A9480F00	928363	150	Dyes	Rich Teal Dye
+95480F00	917191	150	Dyes	Rich Violet Dye
+B8480F00	936742	150	Dyes	Rich Yellow Dye
+71480F00	453668	200	Decorative Vessels	Ritual Copper Plate
+FA500F00	3252967	200	Armor	Rivellon Cloth Cap
+CB470F00	4022023	366	Mounts	Rosbar Champron
+C3480F00	399518	1100	Artworks	Round Bismuth Ornament
+F2470F00	373893	7	Decorative Vessels	Round Blue Container
+F3470F00	374396	7	Decorative Vessels	Round Blue Container
+78480F00	448730	7	Decorative Vessels	Round Iron Plate
+17480F00	412204	3	Decorative Vessels	Round Jar
+72440F00	1838510	40	Miscellaneous	Rubber Tree Seed
+42440F00	1030838	1	Weapons	Ruby-Set Golden Dagger
+5C960100	3251355	200	Armor	Rueconec Cloth Cap
+FD470F00	382947	13	Decorative Vessels	Rusty Iron Water Bottle
+AF4B0F00	1124527	1	Mounts	Saddler's Note
+46121700	4018994	106	Mounts	Sahareum Champron
+2E161700	4028100	776	Mounts	Sahareum Saddle
+161A1700	4039808	286	Mounts	Sahareum Stirrups
+2D0F2000	3940203	200	Armor	Sahazhad Plate Helm
+AD420F00	3782911	85	Miscellaneous	Sandwatcher Watcher Pack
+85440F00	1031338	1	Weapons	Sapphire-Set Golden Dagger
+F97E0E00	4136066	34	Tools	Saw
+364F0F00	173709	27	Tools	Sawdust-Stained Letter
+DF480F00	463209	38	Miscellaneous	Scales
+634F0F00	1404109	1	Miscellaneous	Scales of Fairness and Justice
+D2C61100	3701116	300	Armor	Scholastone Uniform
+75920100	3531270	200	Armor	Schtump Plate Helm
+3B7F0E00	3784770	85	Miscellaneous	Scrap Metal Pack
+3C7F0E00	3821822	85	Miscellaneous	Scrap Metal Pack
+3D7F0E00	3822429	85	Miscellaneous	Scrap Metal Pack
+76450F00	1454256	1	Abyss Artifacts	Sealed Abyss Artifact
+77450F00	1455032	1	Abyss Artifacts	Sealed Abyss Artifact
+93430F00	1455792	1	Abyss Artifacts	Sealed Abyss Artifact
+68440F00	1456546	1	Abyss Artifacts	Sealed Abyss Artifact
+F5440F00	1457317	1	Abyss Artifacts	Sealed Abyss Artifact
+11450F00	1458071	1	Abyss Artifacts	Sealed Abyss Artifact
+2F450F00	1458844	1	Abyss Artifacts	Sealed Abyss Artifact
+30450F00	1459624	1	Abyss Artifacts	Sealed Abyss Artifact
+E7430F00	1460384	1	Abyss Artifacts	Sealed Abyss Artifact
+31450F00	1461159	1	Abyss Artifacts	Sealed Abyss Artifact
+6C450F00	1461934	1	Abyss Artifacts	Sealed Abyss Artifact
+6E450F00	1462702	1	Abyss Artifacts	Sealed Abyss Artifact
+7E450F00	1463477	1	Abyss Artifacts	Sealed Abyss Artifact
+7F450F00	1464233	1	Abyss Artifacts	Sealed Abyss Artifact
+80450F00	1464991	1	Abyss Artifacts	Sealed Abyss Artifact
+81450F00	1465763	1	Abyss Artifacts	Sealed Abyss Artifact
+82450F00	1466526	1	Abyss Artifacts	Sealed Abyss Artifact
+83450F00	1467285	1	Abyss Artifacts	Sealed Abyss Artifact
+84450F00	1468044	1	Abyss Artifacts	Sealed Abyss Artifact
+8F450F00	1468798	1	Abyss Artifacts	Sealed Abyss Artifact
+90450F00	1469572	1	Abyss Artifacts	Sealed Abyss Artifact
+91450F00	1470350	1	Abyss Artifacts	Sealed Abyss Artifact
+92450F00	1471129	1	Abyss Artifacts	Sealed Abyss Artifact
+93450F00	1471883	1	Abyss Artifacts	Sealed Abyss Artifact
+94450F00	1472686	1	Abyss Artifacts	Sealed Abyss Artifact
+E2460F00	1473446	1	Abyss Artifacts	Sealed Abyss Artifact
+D6470F00	1474227	1	Abyss Artifacts	Sealed Abyss Artifact
+EB480F00	1474983	1	Abyss Artifacts	Sealed Abyss Artifact
+27490F00	1475752	1	Abyss Artifacts	Sealed Abyss Artifact
+55490F00	1476504	1	Abyss Artifacts	Sealed Abyss Artifact
+6E490F00	1477273	1	Abyss Artifacts	Sealed Abyss Artifact
+E8490F00	1478037	1	Abyss Artifacts	Sealed Abyss Artifact
+E9490F00	1478807	1	Abyss Artifacts	Sealed Abyss Artifact
+EA490F00	1479586	1	Abyss Artifacts	Sealed Abyss Artifact
+EB490F00	1480339	1	Abyss Artifacts	Sealed Abyss Artifact
+EC490F00	1481114	1	Abyss Artifacts	Sealed Abyss Artifact
+ED490F00	1481866	1	Abyss Artifacts	Sealed Abyss Artifact
+EE490F00	1482667	1	Abyss Artifacts	Sealed Abyss Artifact
+EF490F00	1483430	1	Abyss Artifacts	Sealed Abyss Artifact
+F0490F00	1484203	1	Abyss Artifacts	Sealed Abyss Artifact
+F1490F00	1484972	1	Abyss Artifacts	Sealed Abyss Artifact
+F2490F00	1485725	1	Abyss Artifacts	Sealed Abyss Artifact
+F3490F00	1486495	1	Abyss Artifacts	Sealed Abyss Artifact
+F4490F00	1487298	1	Abyss Artifacts	Sealed Abyss Artifact
+F5490F00	1488069	1	Abyss Artifacts	Sealed Abyss Artifact
+F6490F00	1488819	1	Abyss Artifacts	Sealed Abyss Artifact
+F7490F00	1489597	1	Abyss Artifacts	Sealed Abyss Artifact
+F8490F00	1490376	1	Abyss Artifacts	Sealed Abyss Artifact
+F9490F00	1491156	1	Abyss Artifacts	Sealed Abyss Artifact
+FA490F00	1491955	1	Abyss Artifacts	Sealed Abyss Artifact
+FB490F00	1492713	1	Abyss Artifacts	Sealed Abyss Artifact
+FC490F00	1493474	1	Abyss Artifacts	Sealed Abyss Artifact
+FD490F00	1494271	1	Abyss Artifacts	Sealed Abyss Artifact
+FE490F00	1495060	1	Abyss Artifacts	Sealed Abyss Artifact
+FF490F00	1495824	1	Abyss Artifacts	Sealed Abyss Artifact
+004A0F00	1496591	1	Abyss Artifacts	Sealed Abyss Artifact
+014A0F00	1497353	1	Abyss Artifacts	Sealed Abyss Artifact
+024A0F00	1498150	1	Abyss Artifacts	Sealed Abyss Artifact
+034A0F00	1498910	1	Abyss Artifacts	Sealed Abyss Artifact
+044A0F00	1499668	1	Abyss Artifacts	Sealed Abyss Artifact
+054A0F00	1500420	1	Abyss Artifacts	Sealed Abyss Artifact
+064A0F00	1501201	1	Abyss Artifacts	Sealed Abyss Artifact
+074A0F00	1501963	1	Abyss Artifacts	Sealed Abyss Artifact
+084A0F00	1502747	1	Abyss Artifacts	Sealed Abyss Artifact
+094A0F00	1503510	1	Abyss Artifacts	Sealed Abyss Artifact
+0A4A0F00	1504295	1	Abyss Artifacts	Sealed Abyss Artifact
+0B4A0F00	1505064	1	Abyss Artifacts	Sealed Abyss Artifact
+0C4A0F00	1505825	1	Abyss Artifacts	Sealed Abyss Artifact
+0D4A0F00	1506577	1	Abyss Artifacts	Sealed Abyss Artifact
+0E4A0F00	1507360	1	Abyss Artifacts	Sealed Abyss Artifact
+0F4A0F00	1508139	1	Abyss Artifacts	Sealed Abyss Artifact
+104A0F00	1508906	1	Abyss Artifacts	Sealed Abyss Artifact
+114A0F00	1509687	1	Abyss Artifacts	Sealed Abyss Artifact
+124A0F00	1510452	1	Abyss Artifacts	Sealed Abyss Artifact
+134A0F00	1511220	1	Abyss Artifacts	Sealed Abyss Artifact
+144A0F00	1511994	1	Abyss Artifacts	Sealed Abyss Artifact
+154A0F00	1512741	1	Abyss Artifacts	Sealed Abyss Artifact
+164A0F00	1513502	1	Abyss Artifacts	Sealed Abyss Artifact
+174A0F00	1514278	1	Abyss Artifacts	Sealed Abyss Artifact
+184A0F00	1515055	1	Abyss Artifacts	Sealed Abyss Artifact
+194A0F00	1515833	1	Abyss Artifacts	Sealed Abyss Artifact
+1A4A0F00	1516638	1	Abyss Artifacts	Sealed Abyss Artifact
+1B4A0F00	1517392	1	Abyss Artifacts	Sealed Abyss Artifact
+1C4A0F00	1518169	1	Abyss Artifacts	Sealed Abyss Artifact
+1D4A0F00	1518940	1	Abyss Artifacts	Sealed Abyss Artifact
+1E4A0F00	1519712	1	Abyss Artifacts	Sealed Abyss Artifact
+1F4A0F00	1520469	1	Abyss Artifacts	Sealed Abyss Artifact
+204A0F00	1521239	1	Abyss Artifacts	Sealed Abyss Artifact
+214A0F00	1522015	1	Abyss Artifacts	Sealed Abyss Artifact
+224A0F00	1522816	1	Abyss Artifacts	Sealed Abyss Artifact
+234A0F00	1523570	1	Abyss Artifacts	Sealed Abyss Artifact
+244A0F00	1524353	1	Abyss Artifacts	Sealed Abyss Artifact
+254A0F00	1525128	1	Abyss Artifacts	Sealed Abyss Artifact
+264A0F00	1525897	1	Abyss Artifacts	Sealed Abyss Artifact
+274A0F00	1526660	1	Abyss Artifacts	Sealed Abyss Artifact
+284A0F00	1527419	1	Abyss Artifacts	Sealed Abyss Artifact
+294A0F00	1528190	1	Abyss Artifacts	Sealed Abyss Artifact
+2A4A0F00	1528970	1	Abyss Artifacts	Sealed Abyss Artifact
+2B4A0F00	1529754	1	Abyss Artifacts	Sealed Abyss Artifact
+2C4A0F00	1530543	1	Abyss Artifacts	Sealed Abyss Artifact
+74450F00	1531312	1	Abyss Artifacts	Sealed Abyss Artifact
+78450F00	1532087	1	Abyss Artifacts	Sealed Abyss Artifact
+79450F00	1532845	1	Abyss Artifacts	Sealed Abyss Artifact
+7A450F00	1533621	1	Abyss Artifacts	Sealed Abyss Artifact
+7B450F00	1534390	1	Abyss Artifacts	Sealed Abyss Artifact
+7C450F00	1535166	1	Abyss Artifacts	Sealed Abyss Artifact
+7D450F00	1535915	1	Abyss Artifacts	Sealed Abyss Artifact
+E1450F00	1536698	1	Abyss Artifacts	Sealed Abyss Artifact
+E2450F00	1537468	1	Abyss Artifacts	Sealed Abyss Artifact
+E3450F00	1538236	1	Abyss Artifacts	Sealed Abyss Artifact
+E4450F00	1538990	1	Abyss Artifacts	Sealed Abyss Artifact
+E5450F00	1539747	1	Abyss Artifacts	Sealed Abyss Artifact
+E6450F00	1540522	1	Abyss Artifacts	Sealed Abyss Artifact
+E7450F00	1541285	1	Abyss Artifacts	Sealed Abyss Artifact
+E8450F00	1542036	1	Abyss Artifacts	Sealed Abyss Artifact
+E9450F00	1542805	1	Abyss Artifacts	Sealed Abyss Artifact
+EA450F00	1543558	1	Abyss Artifacts	Sealed Abyss Artifact
+EB450F00	1544316	1	Abyss Artifacts	Sealed Abyss Artifact
+EC450F00	1545066	1	Abyss Artifacts	Sealed Abyss Artifact
+ED450F00	1545852	1	Abyss Artifacts	Sealed Abyss Artifact
+EE450F00	1546611	1	Abyss Artifacts	Sealed Abyss Artifact
+EF450F00	1547375	1	Abyss Artifacts	Sealed Abyss Artifact
+F0450F00	1548150	1	Abyss Artifacts	Sealed Abyss Artifact
+F1450F00	1548906	1	Abyss Artifacts	Sealed Abyss Artifact
+F2450F00	1549655	1	Abyss Artifacts	Sealed Abyss Artifact
+F3450F00	1550417	1	Abyss Artifacts	Sealed Abyss Artifact
+F4450F00	1551178	1	Abyss Artifacts	Sealed Abyss Artifact
+F5450F00	1551936	1	Abyss Artifacts	Sealed Abyss Artifact
+F6450F00	1552706	1	Abyss Artifacts	Sealed Abyss Artifact
+F7450F00	1553460	1	Abyss Artifacts	Sealed Abyss Artifact
+4E480F00	1554243	1	Abyss Artifacts	Sealed Abyss Artifact
+2D4A0F00	1555004	1	Abyss Artifacts	Sealed Abyss Artifact
+2E4A0F00	1555775	1	Abyss Artifacts	Sealed Abyss Artifact
+2F4A0F00	1556547	1	Abyss Artifacts	Sealed Abyss Artifact
+304A0F00	1557306	1	Abyss Artifacts	Sealed Abyss Artifact
+314A0F00	1558068	1	Abyss Artifacts	Sealed Abyss Artifact
+324A0F00	1558818	1	Abyss Artifacts	Sealed Abyss Artifact
+334A0F00	1559586	1	Abyss Artifacts	Sealed Abyss Artifact
+344A0F00	1560373	1	Abyss Artifacts	Sealed Abyss Artifact
+354A0F00	1561150	1	Abyss Artifacts	Sealed Abyss Artifact
+364A0F00	1561916	1	Abyss Artifacts	Sealed Abyss Artifact
+374A0F00	1562602	1	Abyss Artifacts	Sealed Abyss Artifact
+384A0F00	1563288	1	Abyss Artifacts	Sealed Abyss Artifact
+394A0F00	1563974	1	Abyss Artifacts	Sealed Abyss Artifact
+3A4A0F00	1564660	1	Abyss Artifacts	Sealed Abyss Artifact
+3B4A0F00	1565346	1	Abyss Artifacts	Sealed Abyss Artifact
+3C4A0F00	1566032	1	Abyss Artifacts	Sealed Abyss Artifact
+3D4A0F00	1566718	1	Abyss Artifacts	Sealed Abyss Artifact
+3E4A0F00	1567404	1	Abyss Artifacts	Sealed Abyss Artifact
+3F4A0F00	1568090	1	Abyss Artifacts	Sealed Abyss Artifact
+AE4E0F00	1436490	754	Contracts & Tokens	Seed Supply Contract - Calphade
+B04E0F00	1437746	715	Contracts & Tokens	Seed Supply Contract - Delesyia
+AF4E0F00	1437118	702	Contracts & Tokens	Seed Supply Contract - Demeniss
+32490F00	1435862	858	Contracts & Tokens	Seed Supply Contract - Hernand
+B14E0F00	1438371	793	Contracts & Tokens	Seed Supply Contract - Pailune
+B24E0F00	1438997	819	Contracts & Tokens	Seed Supply Contract - Tommaso
+B34E0F00	1439625	793	Contracts & Tokens	Seed Supply Contract - Varnia
+8A460F00	4028708	776	Mounts	Servano Saddle
+28161700	4025663	168	Mounts	Shabby Horse Saddle
+184F0F00	4032988	43	Mounts	Shabby Horseshoes
+D9470F00	944608	1500	Dyes	Shadow Grey Dye
+EC4D0F00	1076879	1	Weapons	Sharp Dagger
+31490F00	1840847	50	Miscellaneous	Shineberry
+3B270000	4125550	240	Lighting	Shiny Blue Sea Lantern
+19480F00	429670	425	Decorative Vessels	Shiny Ceramic Vase
+EE470F00	364839	3	Decorative Vessels	Short-Necked Ceramic Container
+3C270000	3852571	1	Lighting	Shroud Lantern
+8D4A0F00	15317	3	Ammo	Silver Bullet
+2D480F00	427150	53	Decorative Vessels	Silver Carafe
+3E480F00	395986	25	Decorative Vessels	Silver Goblet
+5C470F00	942910	1500	Dyes	Silver Grey Dye
+F91D1700	4034852	86	Mounts	Silver Iron Horseshoes
+10490F00	425134	53	Decorative Vessels	Silver Water Pot
+CE480F00	389486	250	Decorative Vessels	Silver-Decorated Water Bottle
+88500F00	4036117	273	Mounts	Silvermoon Horseshoes
+824A0F00	468249	276	Miscellaneous	Simple Brown Bonnet Doll
+804A0F00	466253	285	Miscellaneous	Simple Dress Doll
+ED4B0F00	1238080	1	Weapons	Skull and Sword
+A5480F00	926119	150	Dyes	Sky Blue Dye
+44440F00	1838046	40	Miscellaneous	Skyroot Seed
+86420F00	2738	15	Ammo	Sleep Arrow
+12480F00	427654	53	Decorative Vessels	Slim Celadon Bottle
+F4470F00	364336	3	Decorative Vessels	Slim Indigo Glass Bottle
+71170000	1013502	50	Bags & Storage	Small Bag
+3B510F00	1015657	1316	Bags & Storage	Small Bag
+D64A0F00	1052179	121	Miscellaneous	Small Battery
+D7500F00	1054303	121	Miscellaneous	Small Battery
+F4440F00	9445	15	Ammo	Small Cannonball
+FD7E0E00	4131202	85	Miscellaneous	Small Drum
+89500F00	1177121	1	Miscellaneous	Small Kuku A.T.A.G. Design
+59480F00	442209	7	Weapons	Small Mortar Bowl
+6A440F00	407642	25	Decorative Vessels	Small Plant Pot
+D0480F00	384959	13	Decorative Vessels	Small Pot for Boiling
+1F480F00	423622	6	Decorative Vessels	Small Storage Jar
+AD450F00	19112	50	Ammo	Smoke Bomb
+63450F00	28678	70	Ammo	Smoke Bomb
+C84B0F00	1292995	1	Decorative Vessels	Smugglers' Dock
+D3490F00	26697	10	Ammo	Snow Magic Bullet
+6D480F00	441206	3	Decorative Vessels	Soft Wooden Plate
+0C7F0E00	3798905	85	Miscellaneous	Soldier's Pack
+E335B359	4133636	98	Weapons	Solumen Priest's Big Staff
+1C440F00	571496	2000	Consumables	Solumen's Holy Water
+33490F00	499546	1	Ammo	Sparrow
+56440F00	316213	1	Weapons	Spear Manual of House Alfonso, Vol. 1
+59440F00	317114	1	Weapons	Spear Manual of House Alfonso, Vol. 2
+5B440F00	318015	1	Weapons	Spear Manual of House Alfonso, Vol. 3
+B4480F00	934498	150	Dyes	Spring Green Dye
+72480F00	452189	85	Decorative Vessels	Square Tray
+55420F00	3701837	300	Armor	St. Halssius Priest Attire
+9C3D0C00	1407957	1000	Miscellaneous	St. Halssius Visitor Pass
+8B480F00	450234	23	Weapons	Stacked Glazed Bowls
+42420F00	1868848	1	Consumables	Stamina Amplification
+87500F00	4035482	273	Mounts	Steel Horseshoes
+92440F00	4037356	1220	Mounts	Steelheart Horseshoes
+28CF0000	29168	1	Ammo	Sticky Bomb
+99420F00	29671	1	Ammo	Sticky Flower Bomb
+EA4D0F00	1072916	1	Decorative Vessels	Stone Jar
+894C0F00	1291896	1	Lighting	Stone Lantern Keeper's Patrol
+51480F00	437694	3	Weapons	Storage Bowl
+2F480F00	420094	6	Decorative Vessels	Storage Jar
+E0480F00	481824	300	Bags & Storage	Strongbox
+98080000	397	5	Ammo	Stub Arrow
+343A0000	3782313	85	Miscellaneous	Student's Pack
+A1470F00	344158	300	Artworks	Study - A Sheep with Horns
+AA470F00	345166	300	Artworks	Study - Bighorn Sheep
+93470F00	339622	175	Artworks	Study - Blooming Rabbit
+E94B0F00	337606	100	Artworks	Study - Contemplative Genius
+89470F00	330550	50	Artworks	Study - Delesyia
+AF470F00	327526	13	Artworks	Study - Dignified Genius
+E84B0F00	332566	50	Artworks	Study - Discovering Genius
+8B470F00	328030	13	Artworks	Study - Eghod the Great
+B4470F00	328534	13	Artworks	Study - Emptiness
+79440F00	322990	13	Artworks	Study - Fields of Color
+E74B0F00	332062	50	Artworks	Study - Gathering Genius
+7B440F00	323998	13	Artworks	Study - Golden Lands
+7D470F00	325006	13	Artworks	Study - Hernand Castle
+7C470F00	333574	100	Artworks	Study - Hiding the Evidence
+B0470F00	327022	13	Artworks	Study - Marni's Room
+A9470F00	337102	100	Artworks	Study - My Beloved Steed
+7A440F00	323494	13	Artworks	Study - Poverty Amidst Plenty
+A4470F00	341134	175	Artworks	Study - Red Bighorn Sheep
+7E470F00	329038	50	Artworks	Study - Saint Grein
+7F470F00	343150	300	Artworks	Study - The Blessed Queen
+92470F00	343654	300	Artworks	Study - The Cat and the Bird
+A2470F00	340630	175	Artworks	Study - The Hound
+94470F00	336598	100	Artworks	Study - The Rat's Roll
+F0470F00	365845	3	Decorative Vessels	Sturdy Clay Container
+42480F00	390486	3	Decorative Vessels	Sturdy Wooden Beer Mug
+E2480F00	479779	115	Containers	Sturdy Wooden Box
+6A480F00	440202	3	Decorative Vessels	Sturdy Wooden Plate
+CF6D0B00	895548	10	Miscellaneous	Sugar Beet
+2D6E0B00	896099	12	Miscellaneous	Sugar Cubes
+634C0F00	1294636	1	Weapons	Sword of the Cursed
+22BF1100	4434476	1	Weapons	Sword of the Wolf
+154B0F00	4564275	496	Weapons	Sword of Wayward Woods
+027F0E00	3775885	85	Miscellaneous	Tanner's Pack
+047F0E00	3788529	85	Miscellaneous	Tanner's Pack
+057F0E00	3789166	85	Miscellaneous	Tanner's Pack
+83480F00	455175	2	Lighting	Tarnished Four Candle Candelabra
+15450F00	1839901	40	Miscellaneous	Taro Seed
+E5500F00	1057719	1	Contracts & Tokens	Tashkalp Contribution
+AA480F00	928912	150	Dyes	Teal Dye
+DA480F00	462207	15	Decorative Vessels	Teapot
+077F0E00	3790466	85	Miscellaneous	Technician's Pack
+83500F00	956284	1	Miscellaneous	Tenebrum Magnetic Core
+F8240100	1453638	1	Miscellaneous	The First Artifact
+5D4B0F00	1206309	1	Weapons	The Sword's Grave and Throne
+6F480F00	433686	3	Decorative Vessels	Thinly Carved Wooden Plate
+7E480F00	458696	10	Lighting	Three-Candle Candelabra
+2ACF0000	30232	1	Ammo	Time Bomb
+F1470F00	382444	13	Decorative Vessels	Tin Water Bottle
+AC450F00	20693	50	Weapons	Titan's Spear
+13470F00	1835267	20	Miscellaneous	Tomato Seed
+3A510F00	1061507	1	Contracts & Tokens	Tommaso Refinement Token
+4E0D0300	4130592	85	Lighting	Torch
+CE490F00	20167	50	Ammo	Trap Bomb
+424B0F00	377414	7	Miscellaneous	Travel Flask
+81480F00	457187	2	Lighting	Tripod Candle
+387F0E00	3821212	85	Miscellaneous	Troll Peddler's Pack
+25480F00	485923	15940	Artworks	Trophy - All-Out Duel
+31480F00	487426	6800	Weapons	Trophy - Spear Duel
+32480F00	487927	8620	Weapons	Trophy - Sword Duel
+26480F00	486424	5300	Artworks	Trophy - Unarmed Duel
+27480F00	486925	7300	Artworks	Trophy - Wrestling Match
+FC7E0E00	4131807	98	Miscellaneous	Trumpet
+1F7F0E00	3817603	85	Miscellaneous	Turtle Pack
+79480F00	454672	2	Lighting	Twin Candles
+06480F00	387474	50	Decorative Vessels	Two-Handled Brass Container
+04480F00	379929	7	Decorative Vessels	Two-Handled Iron Water Bottle
+5A430F00	430681	26316	Artworks	Unicorn Glass Art
+5D4A0F00	1876114	1	Abyss Artifacts	Unidentified Abyss Gear
+9C4B0F00	1876640	1	Abyss Artifacts	Unidentified Abyss Gear
+C14B0F00	1877166	1	Abyss Artifacts	Unidentified Abyss Gear
+C44B0F00	1877693	1	Abyss Artifacts	Unidentified Abyss Gear
+D84B0F00	1878220	1	Abyss Artifacts	Unidentified Abyss Gear
+EA4B0F00	1878747	1	Abyss Artifacts	Unidentified Abyss Gear
+2C4C0F00	1879272	1	Abyss Artifacts	Unidentified Abyss Gear
+38450F00	4088057	240	Armor	Uniform Cat Hat
+35450F00	4090910	240	Armor	Uniform Cat Outfit
+128B0100	3560678	200	Armor	Unyielding Warrior's Plate Helm
+364D0F00	4020812	260	Mounts	Varken Champron
+4B510F00	1062055	1	Contracts & Tokens	Varnia Refinement Token
+630E1700	4012403	821	Mounts	Varnian Barding
+4B121700	4020207	103	Mounts	Varnian Champron
+07460F00	4134246	98	Weapons	Varnian Priest's Big Staff
+33161700	4026886	386	Mounts	Varnian Saddle
+1B1A1700	4041017	361	Mounts	Varnian Stirrups
+EB430F00	4022628	366	Mounts	Velok Champron
+74490F00	18583	50	Ammo	Vine Bomb
+96480F00	917740	150	Dyes	Violet Dye
+E2470F00	402054	2	Decorative Vessels	Violet Flower Pot
+670E1700	4014367	174	Mounts	Wagon Barding
+45450F00	4014977	174	Mounts	Wagon Barding II
+F3440F00	4134861	98	Weapons	Walking Cane
+E1460F00	3823057	85	Miscellaneous	Watcher Pack
+72490F00	18055	50	Ammo	Water Bomb
+F9470F00	363330	3	Decorative Vessels	Water Bottle for Patients
+07480F00	386468	50	Decorative Vessels	Water Bottle of the Agonized
+29480F00	414724	3	Miscellaneous	Water Jug
+D9420F00	23412	10	Ammo	Water Magic Bullet
+23480F00	413716	3	Decorative Vessels	Water Pot
+F7470F00	366348	3	Miscellaneous	Waterskin
+257F0E00	3779745	85	Miscellaneous	Weaponsmith's Pack
+287F0E00	3780392	85	Miscellaneous	Weaponsmith's Pack
+347F0E00	3781690	85	Miscellaneous	Weaponsmith's Pack
+247F0E00	3806433	85	Miscellaneous	Weaponsmith's Pack
+267F0E00	3807064	85	Miscellaneous	Weaponsmith's Pack
+277F0E00	3807690	85	Miscellaneous	Weaponsmith's Pack
+297F0E00	3808316	85	Miscellaneous	Weaponsmith's Pack
+2A7F0E00	3808943	85	Miscellaneous	Weaponsmith's Pack
+2B7F0E00	3809571	85	Miscellaneous	Weaponsmith's Pack
+357F0E00	3814586	85	Miscellaneous	Weaponsmith's Pack
+894A0F00	4013082	5150	Mounts	Wells Military Barding
+8864D603	4023240	1510	Mounts	Wells Military Champron
+54490F00	4026278	290	Mounts	Wells Military Saddle
+8B440F00	4042839	967	Mounts	Wells Military Stirrups
+1C7F0E00	3815807	85	Miscellaneous	Wheelwright's Pack
+5BC30000	3321	1	Ammo	Whistling Arrow
+E8470F00	407134	25	Decorative Vessels	White Flower-Shaped Marigold Pot
+0A480F00	370875	3	Decorative Vessels	White Jar-Shaped Water Bottle
+FD4C0F00	1400640	1	Lighting	White King's Candlestick
+FA470F00	370372	3	Decorative Vessels	White-Handled Water Bottle
+1673F951	4133024	15	Miscellaneous	Wide Basket
+52480F00	438696	3	Weapons	Wide Bowl
+77480F00	448228	7	Decorative Vessels	Wide Iron Plate
+2B480F00	420598	6	Decorative Vessels	Wide Jar
+2A480F00	426646	53	Decorative Vessels	Wide White Jar
+ED480F00	368360	3	Decorative Vessels	Wide-Bottomed Water Bottle
+CF480F00	367354	3	Decorative Vessels	Wide-Mouthed Water Bottle
+6D490F00	1832473	200	Miscellaneous	Wild Ginseng Seed
+19500F00	432192	600	Decorative Vessels	Woman Holding a Water Bottle
+137F0E00	3777831	85	Miscellaneous	Woodcutter's Pack
+147F0E00	3803301	85	Miscellaneous	Woodcutter's Pack
+227F0E00	3820002	85	Miscellaneous	Woodcutter's Pack
+377F0E00	3820604	85	Miscellaneous	Woodcutter's Pack
+8C480F00	436692	3	Decorative Vessels	Wooden Beaker
+E3480F00	480285	311	Containers	Wooden Box
+EA470F00	362324	3	Decorative Vessels	Wooden Container
+79490F00	4128485	240	Lighting	Wooden Lantern
+40480F00	389986	3	Decorative Vessels	Wooden Mug
+B74B0F00	1277630	1	Miscellaneous	Wooden Pavilion
+48480F00	393486	6	Decorative Vessels	Worn Decorative Silver Mug
+18480F00	412708	3	Decorative Vessels	Worn Two-Handled Jar
+43480F00	390986	3	Decorative Vessels	Worn Wooden Beer Mug
+30440F00	3787893	85	Miscellaneous	Wyvernflames Captain's Pack
+AC460F00	401038	2	Miscellaneous	Yellow Blue-Eyed Grass Basket
+B9480F00	937291	150	Dyes	Yellow Dye
+DF470F00	406118	13	Decorative Vessels	Yellow Rose Flower Pot
+D4480F00	381941	13	Decorative Vessels	Yellow-Glazed Water Bottle
+918C2000	3245829	200	Armor	Ziggurat Cloth Helm
