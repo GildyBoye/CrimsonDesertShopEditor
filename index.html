@@ -2780,7 +2780,7 @@ function renderPriceItems() {
     const collapsed = PR.collapsed.has(cat);
     const patchCount = items.filter(i => patchedIds.has(i.hexId)).length;
     const catLabel = `${cat} <span style="color:var(--text-dim);font-size:.55rem;">(${items.length}${patchCount ? ` · <span style="color:var(--gold)">${patchCount} patched</span>` : ''})</span>`;
-    html2 += `<div class="item-cat-header${collapsed?' collapsed':''}" onclick="togglePriceCat(${JSON.stringify(cat)})"><span>${catLabel}</span><span class="item-cat-arrow">▾</span></div>`;
+    html2 += `<div class="item-cat-header${collapsed?' collapsed':''}" data-pcat="${cat}"><span>${catLabel}</span><span class="item-cat-arrow">▾</span></div>`;
     html2 += `<div class="item-cat-body${collapsed?' collapsed':''}">`;
     for(const item of items) html2 += renderPriceRow(item, patchedIds);
     html2 += '</div>';
@@ -2936,11 +2936,12 @@ function exportPriceJSON() {
   showToast(`Exported ${PR.patches.length} price patch(es)!`, 'ok');
 }
 
-// Event delegation
+// Event delegation — handles both category toggles and item selection
 document.getElementById('price-item-list').addEventListener('click', e => {
+  const catHeader = e.target.closest('[data-pcat]');
+  if(catHeader) { togglePriceCat(catHeader.dataset.pcat); return; }
   const row = e.target.closest('[data-hexid]');
-  if(!row) return;
-  selectPriceItem(row.dataset.hexid);
+  if(row) selectPriceItem(row.dataset.hexid);
 });
 
 // Show empty state on load
