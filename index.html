@@ -1826,15 +1826,16 @@ async function loadBaseFiles() {
     const itemText  = await itemRes.text();
     const storeText = await storeRes.text();
 
-    // Parse iteminfo.txt: HEXID\tName
+    // Parse iteminfo.txt: HEXID\tlocKey\tName  (3-col) or HEXID\tName (2-col legacy)
     S.itemMap = [];
     for(const line of itemText.split('\n')) {
       const t = line.trim(); if(!t) continue;
-      const tab = t.indexOf('\t');
-      if(tab === -1) continue;
-      const hexLE   = t.slice(0, tab).trim();
-      const name    = t.slice(tab+1).trim();
-      if(hexLE && name) S.itemMap.push({hexLE, name, internal: name, locKey:''});
+      const parts = t.split('\t');
+      if(parts.length < 2) continue;
+      const hexLE  = parts[0].trim();
+      const locKey = parts.length >= 3 ? parts[1].trim() : '';
+      const name   = parts[parts.length - 1].trim();
+      if(hexLE && name) S.itemMap.push({hexLE, name, internal: name, locKey});
     }
     S.itemMap.sort((a,b)=>a.name.localeCompare(b.name));
     S.filteredItems = [...S.itemMap];
