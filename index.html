@@ -495,6 +495,29 @@ header h1 span{color:var(--text-dim);font-weight:400;font-size:.8rem;margin-left
         <div class="panel-head">
           <span class="panel-title">Store Slots</span>
           <span class="panel-count" id="mod-count"></span>
+          <div style="position:relative;margin-left:auto;" id="adv-options-wrap">
+            <button id="adv-options-btn" onclick="toggleAdvOptions()" disabled
+              style="font-family:'Cinzel',serif;font-size:.55rem;letter-spacing:.08em;text-transform:uppercase;
+                     background:transparent;border:1px solid var(--border);color:var(--text-faint);
+                     padding:3px 8px;border-radius:2px;cursor:pointer;transition:all .2s;
+                     display:flex;align-items:center;gap:4px;white-space:nowrap;">
+              Advanced Store Options <span id="adv-options-arrow" style="font-size:.5rem;transition:transform .15s;">▾</span>
+            </button>
+            <div id="adv-options-menu" style="display:none;position:absolute;right:0;top:calc(100% + 4px);
+              background:var(--bg2);border:1px solid var(--border2);border-radius:3px;
+              min-width:220px;z-index:100;box-shadow:0 8px 24px rgba(0,0,0,.5);">
+              <label style="display:flex;align-items:center;gap:10px;padding:10px 12px;cursor:pointer;
+                            font-size:.78rem;color:var(--text);user-select:none;border-bottom:1px solid var(--border);"
+                     onmouseover="this.style.background='rgba(200,168,75,.06)'" onmouseout="this.style.background=''">
+                <input type="checkbox" id="opt-sync-stock" onchange="onSyncStockToggle(this.checked)"
+                  style="accent-color:var(--gold);width:13px;height:13px;cursor:pointer;flex-shrink:0;">
+                <span>
+                  <strong style="display:block;font-family:'Cinzel',serif;font-size:.6rem;letter-spacing:.08em;color:var(--gold-dim);text-transform:uppercase;">Sync Stock Values</strong>
+                  <span style="font-size:.68rem;color:var(--text-dim);">Changing one slot's stock updates all slots</span>
+                </span>
+              </label>
+            </div>
+          </div>
         </div>
         <div class="panel-body" id="slot-list">
           <div class="empty">
@@ -1620,6 +1643,15 @@ function selectStore(store, el) {
   document.getElementById('btn-reset').disabled=false;
   document.getElementById('btn-export').disabled=false;
   document.getElementById('mod-count').textContent='';
+  // Enable Advanced Store Options now a store is loaded
+  const advBtn = document.getElementById('adv-options-btn');
+  advBtn.disabled = false;
+  advBtn.style.color = 'var(--gold-dim)';
+  advBtn.style.borderColor = 'var(--border2)';
+  // Reset sync-stock toggle on new store
+  document.getElementById('opt-sync-stock').checked = false;
+  document.getElementById('adv-options-menu').style.display = 'none';
+  document.getElementById('adv-options-arrow').style.transform = '';
   // Clear slot list before re-rendering to avoid stale state
   document.getElementById('slot-list').innerHTML='';
   renderSlots();
@@ -1680,11 +1712,62 @@ function renderSlots() {
         row.classList.add('modified');
         updateModCount();
       }
+      // Sync all slots if the option is enabled
+      if(document.getElementById('opt-sync-stock').checked) {
+        syncAllStock(val);
+      }
     });
 
     if(!locked) row.onclick=()=>selectSlot(slot,row);
     el.appendChild(row);
   });
+}
+
+// ═══════════════════════════════════════════
+// ADVANCED STORE OPTIONS
+// ═══════════════════════════════════════════
+function toggleAdvOptions() {
+  const menu  = document.getElementById('adv-options-menu');
+  const arrow = document.getElementById('adv-options-arrow');
+  const open  = menu.style.display === 'block';
+  menu.style.display  = open ? 'none' : 'block';
+  arrow.style.transform = open ? '' : 'rotate(180deg)';
+}
+
+// Close menu when clicking outside
+document.addEventListener('click', e => {
+  const wrap = document.getElementById('adv-options-wrap');
+  if(wrap && !wrap.contains(e.target)) {
+    document.getElementById('adv-options-menu').style.display = 'none';
+    document.getElementById('adv-options-arrow').style.transform = '';
+  }
+});
+
+function onSyncStockToggle(enabled) {
+  const btn = document.getElementById('adv-options-btn');
+  btn.style.color = enabled ? 'var(--gold)' : 'var(--gold-dim)';
+  btn.style.borderColor = enabled ? 'var(--gold-dim)' : 'var(--border2)';
+  setMsg(enabled
+    ? 'Sync Stock active — changing any slot\'s stock will update all slots.'
+    : 'Sync Stock disabled.');
+}
+
+function syncAllStock(val) {
+  if(!S.currentStore) return;
+  // Update every slot's mod entry and DOM input
+  S.currentStore.slots.forEach(slot => {
+    const origName = resolveItem(slot.originalItemIdHex);
+    if(!S.mods[slot.slotBase]) {
+      S.mods[slot.slotBase] = {newItemHex:slot.originalItemIdHex, newItemName:origName, newLimit:val};
+    } else {
+      S.mods[slot.slotBase].newLimit = val;
+    }
+  });
+  // Update all visible stock inputs without re-rendering
+  document.querySelectorAll('.slot-stock').forEach(input => { input.value = val; });
+  // Mark all rows modified
+  document.querySelectorAll('.slot-row').forEach(row => row.classList.add('modified'));
+  updateModCount();
 }
 
 // ═══════════════════════════════════════════
