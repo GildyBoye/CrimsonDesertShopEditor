@@ -262,6 +262,48 @@ header h1 span{color:var(--text-dim);font-weight:400;font-size:.8rem;margin-left
 .empty-d{font-size:.78rem;line-height:1.5;max-width:240px;}
 
 /* toast */
+/* TOS MODAL */
+.tos-overlay{
+  position:fixed;inset:0;background:rgba(0,0,0,.82);z-index:2000;
+  display:flex;align-items:center;justify-content:center;
+}
+.tos-modal{
+  background:var(--bg2);border:1px solid var(--border2);border-radius:4px;
+  width:min(680px,94vw);max-height:88vh;display:flex;flex-direction:column;
+  box-shadow:0 24px 80px rgba(0,0,0,.7);
+}
+.tos-header{
+  padding:20px 24px 14px;border-bottom:1px solid var(--border);flex-shrink:0;
+}
+.tos-header h2{
+  font-family:'Cinzel',serif;font-size:1rem;font-weight:700;color:var(--gold);
+  letter-spacing:.1em;text-transform:uppercase;margin-bottom:4px;
+}
+.tos-header p{font-size:.75rem;color:var(--text-dim);}
+.tos-body{flex:1;overflow-y:auto;padding:20px 24px;scrollbar-width:thin;scrollbar-color:var(--border2) transparent;}
+.tos-body h3{
+  font-family:'Cinzel',serif;font-size:.65rem;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--gold-dim);margin:20px 0 8px;padding-bottom:5px;border-bottom:1px solid var(--border);
+}
+.tos-body h3:first-child{margin-top:0;}
+.tos-body p{font-size:.82rem;color:var(--text);line-height:1.65;margin-bottom:6px;}
+.tos-body ul{margin:4px 0 8px 18px;}
+.tos-body ul li{font-size:.82rem;color:var(--text);line-height:1.65;margin-bottom:2px;}
+.tos-body ul li b{color:var(--white);}
+.tos-body ul li.no::before{content:'✗ ';color:var(--red);}
+.tos-body ul li.yes::before{content:'✓ ';color:var(--green);}
+.tos-footer{
+  padding:14px 24px;border-top:1px solid var(--border);flex-shrink:0;
+  display:flex;align-items:center;justify-content:space-between;gap:14px;background:var(--bg2);
+}
+.tos-footer p{font-size:.72rem;color:var(--text-dim);line-height:1.5;}
+.tos-accept{
+  font-family:'Cinzel',serif;font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;
+  padding:9px 24px;background:var(--gold);border:none;color:#0a0800;font-weight:700;
+  border-radius:3px;cursor:pointer;transition:background .2s;white-space:nowrap;flex-shrink:0;
+}
+.tos-accept:hover{background:var(--gold2);}
+
 .toast{
   position:fixed;bottom:20px;left:50%;transform:translateX(-50%) translateY(16px);
   background:var(--bg2);border:1px solid var(--border2);color:var(--text);
@@ -496,7 +538,7 @@ header h1 span{color:var(--text-dim);font-weight:400;font-size:.8rem;margin-left
       <div class="s-dot" id="dot-store"></div><span id="lbl-store">storeinfo: not loaded</span>
       <div class="s-dot" id="dot-loc"></div><span id="lbl-loc">localization: not loaded</span>
       <span class="status-msg" id="status-msg">Load game files to begin</span>
-      <span style="font-family:'Cinzel',serif;font-size:.6rem;letter-spacing:.08em;color:var(--white);white-space:nowrap;flex-shrink:0;">Created by GildyBoye</span>
+      <span style="font-family:'Cinzel',serif;font-size:.6rem;letter-spacing:.08em;color:var(--white);white-space:nowrap;flex-shrink:0;">Created by GildyBoye</span><button onclick="document.getElementById('tos-overlay').style.display='flex';document.getElementById('tos-overlay').style.opacity='1';" style="font-family:'Cinzel',serif;font-size:.55rem;letter-spacing:.08em;text-transform:uppercase;background:transparent;border:1px solid var(--border2);color:var(--text-dim);padding:2px 8px;border-radius:2px;cursor:pointer;margin-left:8px;flex-shrink:0;transition:all .15s;" onmouseover="this.style.borderColor='var(--gold-dim)';this.style.color='var(--gold)';" onmouseout="this.style.borderColor='var(--border2)';this.style.color='var(--text-dim)';">ToS</button>
     </div>
 
   </main>
@@ -584,7 +626,7 @@ header h1 span{color:var(--text-dim);font-weight:400;font-size:.8rem;margin-left
     <div class="status-bar">
       <div class="s-dot" id="dot-drop"></div><span id="lbl-drop">dropsetinfo: not loaded</span>
       <span class="status-msg" id="trust-status-msg">Load dropsetinfo.pabgb to begin</span>
-      <span style="font-family:'Cinzel',serif;font-size:.6rem;letter-spacing:.08em;color:var(--white);white-space:nowrap;flex-shrink:0;">Created by GildyBoye</span>
+      <span style="font-family:'Cinzel',serif;font-size:.6rem;letter-spacing:.08em;color:var(--white);white-space:nowrap;flex-shrink:0;">Created by GildyBoye</span><button onclick="document.getElementById('tos-overlay').style.display='flex';document.getElementById('tos-overlay').style.opacity='1';" style="font-family:'Cinzel',serif;font-size:.55rem;letter-spacing:.08em;text-transform:uppercase;background:transparent;border:1px solid var(--border2);color:var(--text-dim);padding:2px 8px;border-radius:2px;cursor:pointer;margin-left:8px;flex-shrink:0;transition:all .15s;" onmouseover="this.style.borderColor='var(--gold-dim)';this.style.color='var(--gold)';" onmouseout="this.style.borderColor='var(--border2)';this.style.color='var(--text-dim)';">ToS</button>
     </div>
   </main>
 </div>
@@ -673,7 +715,7 @@ header h1 span{color:var(--text-dim);font-weight:400;font-size:.8rem;margin-left
     <div class="status-bar">
       <div class="s-dot" id="dot-skill"></div><span id="lbl-skill">skill.pabgb: not loaded</span>
       <span class="status-msg" id="skill-status-msg">Load skill.pabgb to begin</span>
-      <span style="font-family:'Cinzel',serif;font-size:.6rem;letter-spacing:.08em;color:var(--white);white-space:nowrap;flex-shrink:0;">Created by GildyBoye</span>
+      <span style="font-family:'Cinzel',serif;font-size:.6rem;letter-spacing:.08em;color:var(--white);white-space:nowrap;flex-shrink:0;">Created by GildyBoye</span><button onclick="document.getElementById('tos-overlay').style.display='flex';document.getElementById('tos-overlay').style.opacity='1';" style="font-family:'Cinzel',serif;font-size:.55rem;letter-spacing:.08em;text-transform:uppercase;background:transparent;border:1px solid var(--border2);color:var(--text-dim);padding:2px 8px;border-radius:2px;cursor:pointer;margin-left:8px;flex-shrink:0;transition:all .15s;" onmouseover="this.style.borderColor='var(--gold-dim)';this.style.color='var(--gold)';" onmouseout="this.style.borderColor='var(--border2)';this.style.color='var(--text-dim)';">ToS</button>
     </div>
   </main>
 </div>
@@ -772,11 +814,76 @@ header h1 span{color:var(--text-dim);font-weight:400;font-size:.8rem;margin-left
       <div class="s-dot" id="price-dot-item"></div>
       <span id="price-lbl-item">price data: not loaded</span>
       <span class="status-msg" id="price-status-msg">Load the pre-built price list to begin</span>
-      <span style="font-family:'Cinzel',serif;font-size:.6rem;letter-spacing:.08em;color:var(--white);white-space:nowrap;flex-shrink:0;">Created by GildyBoye</span>
+      <span style="font-family:'Cinzel',serif;font-size:.6rem;letter-spacing:.08em;color:var(--white);white-space:nowrap;flex-shrink:0;">Created by GildyBoye</span><button onclick="document.getElementById('tos-overlay').style.display='flex';document.getElementById('tos-overlay').style.opacity='1';" style="font-family:'Cinzel',serif;font-size:.55rem;letter-spacing:.08em;text-transform:uppercase;background:transparent;border:1px solid var(--border2);color:var(--text-dim);padding:2px 8px;border-radius:2px;cursor:pointer;margin-left:8px;flex-shrink:0;transition:all .15s;" onmouseover="this.style.borderColor='var(--gold-dim)';this.style.color='var(--gold)';" onmouseout="this.style.borderColor='var(--border2)';this.style.color='var(--text-dim)';">ToS</button>
     </div>
   </main>
 </div>
 </div><!-- /page-price -->
+
+<!-- TOS MODAL -->
+<div class="tos-overlay" id="tos-overlay" style="display:none;">
+  <div class="tos-modal">
+    <div class="tos-header">
+      <h2>Terms of Service</h2>
+      <p>Please read and accept the terms before using GildyBoye's Crimson Desert Shop Editor Tool.</p>
+    </div>
+    <div class="tos-body">
+
+      <h3>1. Ownership &amp; Attribution</h3>
+      <p>All mods generated using this tool must be <b>properly attributed</b>.</p>
+      <ul>
+        <li class="yes">You may <b>use, share, and distribute</b> mods created with this tool</li>
+        <li class="no">You may <b>not claim someone else's mod as your own</b></li>
+        <li class="no">You may <b>not remove or falsify credit</b> where it has been given</li>
+      </ul>
+      <p>If you are sharing a mod created by someone else, you must clearly state the original creator.</p>
+
+      <h3>2. No Misrepresentation</h3>
+      <p>You agree not to:</p>
+      <ul>
+        <li class="no">Present another person's mod as your own work</li>
+        <li class="no">Re-upload or redistribute mods without proper credit</li>
+        <li class="no">Mislead others about the origin or authorship of a mod</li>
+      </ul>
+      <p>All modifications should be <b>honestly represented</b>.</p>
+
+      <h3>3. Modification of Mods</h3>
+      <ul>
+        <li>Mods generated by this tool are intended to be <b>transparent and openly described</b></li>
+        <li>If you modify an existing mod, you must clearly state that it is a <b>modified version</b> and credit the <b>original creator</b></li>
+      </ul>
+
+      <h3>4. Open Description Requirement</h3>
+      <p>Any distributed mod should include:</p>
+      <ul>
+        <li>A clear description of what it changes</li>
+        <li>Any relevant values or edits made (where applicable)</li>
+        <li>Sufficient detail so users understand what the mod does</li>
+      </ul>
+      <p>Obfuscating or hiding changes for the purpose of misrepresentation is not allowed.</p>
+
+      <h3>5. No Warranty</h3>
+      <p>This tool and any generated mods are provided <b>"as is"</b>, without warranty of any kind. The creator is not responsible for:</p>
+      <ul>
+        <li class="no">Game issues or corruption</li>
+        <li class="no">Loss of saves or data</li>
+        <li class="no">Incompatibilities with updates or other mods</li>
+      </ul>
+      <p>Use at your own risk.</p>
+
+      <h3>6. Game Ownership &amp; Rights</h3>
+      <p>All game files, assets, and intellectual property belong to their respective owners. This tool is a <b>fan-made utility</b> and is not affiliated with or endorsed by the game developers.</p>
+
+      <h3>7. Acceptance</h3>
+      <p>By using this tool or distributing mods created with it, you agree to follow these terms. Failure to comply may result in removal of content from community platforms or mod repositories.</p>
+
+    </div>
+    <div class="tos-footer">
+      <p>By clicking <b>Accept &amp; Continue</b> you confirm you have read and agree to these terms.</p>
+      <button class="tos-accept" onclick="acceptTOS()">Accept &amp; Continue</button>
+    </div>
+  </div>
+</div>
 
 <div class="toast" id="toast"></div>
 
@@ -2014,6 +2121,22 @@ async function loadBaseFiles() {
 // ═══════════════════════════════════════════
 
 // Auto-load English localization on page start
+// ── TOS ───────────────────────────────────────────────────────────────────
+(function() {
+  if(!localStorage.getItem('gcds_tos_accepted')) {
+    document.getElementById('tos-overlay').style.display = 'flex';
+  }
+})();
+
+function acceptTOS() {
+  localStorage.setItem('gcds_tos_accepted', '1');
+  const overlay = document.getElementById('tos-overlay');
+  overlay.style.transition = 'opacity .25s';
+  overlay.style.opacity = '0';
+  setTimeout(() => overlay.style.display = 'none', 250);
+}
+// ─────────────────────────────────────────────────────────────────────────
+
 window.addEventListener('load', ()=>{
   const sel = document.getElementById('loc-select');
   sel.value = 'localization/localizationstring_eng.paloc.txt';
