@@ -1532,12 +1532,18 @@ async function loadLocalization() {
     document.getElementById('dot-loc').classList.add('ok');
     document.getElementById('lbl-loc').textContent=`localization: ${S.locMap.size.toLocaleString()} strings`;
     if(S.itemBuf) {
+      // Binary mode — re-parse iteminfo binary with new locMap
       setMsg('Re-resolving item names with localization…');
       S.itemMap = await parseItemInfo(S.itemBuf);
       S.filteredItems = [...S.itemMap];
       renderItemList();
       if(S.currentStore) renderSlots();
       document.getElementById('item-count').textContent = S.itemMap.length.toLocaleString()+' items';
+    } else if(S.itemMap.length) {
+      // Base-file mode — re-apply locMap to existing itemMap by locKey
+      applyLocToItemMap();
+      renderItemList();
+      if(S.currentStore) renderSlots();
     }
     setMsg('Localization loaded — item names updated.');
   } catch(err) {
@@ -1545,6 +1551,18 @@ async function loadLocalization() {
     showToast('Failed to load localization: '+err.message,'err');
     setMsg('Could not load localization. Check the file is in your repo.');
   }
+}
+
+// Re-apply S.locMap to S.itemMap using each item's locKey (used in base-file mode)
+function applyLocToItemMap() {
+  for(const item of S.itemMap) {
+    if(item.locKey && S.locMap && S.locMap.has(item.locKey)) {
+      item.name = S.locMap.get(item.locKey);
+    }
+  }
+  S.itemMap.sort((a,b) => a.name.localeCompare(b.name));
+  S.filteredItems = [...S.itemMap];
+  document.getElementById('item-count').textContent = S.itemMap.length.toLocaleString()+' items';
 }
 
 // ═══════════════════════════════════════════
@@ -2134,8 +2152,12 @@ async function loadBaseFiles() {
       const name   = parts[parts.length - 1].trim();
       if(hexLE && name) S.itemMap.push({hexLE, name, internal: name, locKey});
     }
-    S.itemMap.sort((a,b)=>a.name.localeCompare(b.name));
-    S.filteredItems = [...S.itemMap];
+    // Apply localization immediately if already loaded
+    if(S.locMap && S.locMap.size > 0) applyLocToItemMap();
+    else {
+      S.itemMap.sort((a,b)=>a.name.localeCompare(b.name));
+      S.filteredItems = [...S.itemMap];
+    }
 
     // Parse storeinfo.txt: STORE/SLOT/END blocks
     S.stores = [];
