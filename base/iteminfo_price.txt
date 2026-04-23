@@ -444,7 +444,6 @@ D04D0F00	1448455	2000	Miscellaneous	Giant White Bison Sighting
 EF480F00	372384	7	Decorative Vessels	Glazed Clay Water Bottle
 89480F00	453166	85	Decorative Vessels	Glazed Mortar
 8D440F00	4045880	1551	Mounts	Gold-Decorated Stirrups
-BC4A0F00	1865325	1	Miscellaneous	Golden Beer
 5D480F00	454169	200	Weapons	Golden Bowl
 2E480F00	428158	125	Decorative Vessels	Golden Carafe
 3D480F00	396986	275	Decorative Vessels	Golden Goblet
