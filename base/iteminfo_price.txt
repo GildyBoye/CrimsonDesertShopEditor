@@ -520,7 +520,6 @@ DC480F00	463710	38	Decorative Vessels	Hourglass
 111A1700	3851870	1	Mounts	Hyperion Stirrups
 CF430F00	23961	10	Ammo	Ice Magic Bullet
 EC480F00	376911	7	Decorative Vessels	Indigo Bottle
-70170000	1012960	1	Bags & Storage	Inventory Expansion Tool
 2B440F00	4436224	1	Weapons	Invisible Longsword
 DB480F00	464712	63	Decorative Vessels	Iron Basin
 5C480F00	450735	23	Weapons	Iron Bowl
