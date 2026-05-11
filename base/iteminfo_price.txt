@@ -1,4 +1,4 @@
-134F0F00	1116634	2	Lighting	A Map Left at the Torchlight Beacon
+134F0F00	1116634	2	Miscellaneous	A Map Left at the Torchlight Beacon
 D5470F00	4004850	1000	Miscellaneous	A.T.A.G. Boots Mk I
 88460F00	4005445	3000	Miscellaneous	A.T.A.G. Boots Mk II
 97450F00	4006040	5000	Miscellaneous	A.T.A.G. Boots Mk III
@@ -50,21 +50,21 @@ A0470F00	352222	700	Artworks	Acclaimed - Lion's Majesty
 854B0F00	1875062	1	Bags & Storage	Adventurer's Refinement Inventory Type E
 914B0F00	1875588	1	Bags & Storage	Adventurer's Refinement Inventory Type F
 C0460F00	4580645	1620	Weapons	Air Blaster
-064F0F00	1687267	1000	Consumables	Alchemy Formula: Apollonia's Elixir
-074F0F00	1687921	2000	Consumables	Alchemy Formula: Apollonia's Greater Elixir
-054F0F00	1686613	500	Consumables	Alchemy Formula: Apollonia's Lesser Elixir
-0F4F0F00	1693145	1000	Consumables	Alchemy Formula: Astrid's Elixir
-104F0F00	1693798	2000	Consumables	Alchemy Formula: Astrid's Greater Elixir
-0E4F0F00	1692492	500	Consumables	Alchemy Formula: Astrid's Lesser Elixir
-034F0F00	1685305	1000	Consumables	Alchemy Formula: Freya's Elixir
-044F0F00	1685959	2000	Consumables	Alchemy Formula: Freya's Greater Elixir
-024F0F00	1684651	500	Consumables	Alchemy Formula: Freya's Lesser Elixir
-0C4F0F00	1691186	1000	Consumables	Alchemy Formula: Haiden's Elixir
-0D4F0F00	1691839	2000	Consumables	Alchemy Formula: Haiden's Greater Elixir
-0B4F0F00	1690533	500	Consumables	Alchemy Formula: Haiden's Lesser Elixir
-094F0F00	1689227	1000	Consumables	Alchemy Formula: Meliara's Elixir
-0A4F0F00	1689880	2000	Consumables	Alchemy Formula: Meliara's Greater Elixir
-084F0F00	1688574	500	Consumables	Alchemy Formula: Meliara's Lesser Elixir
+064F0F00	1687267	1000	Recipes	Alchemy Formula: Apollonia's Elixir
+074F0F00	1687921	2000	Recipes	Alchemy Formula: Apollonia's Greater Elixir
+054F0F00	1686613	500	Recipes	Alchemy Formula: Apollonia's Lesser Elixir
+0F4F0F00	1693145	1000	Recipes	Alchemy Formula: Astrid's Elixir
+104F0F00	1693798	2000	Recipes	Alchemy Formula: Astrid's Greater Elixir
+0E4F0F00	1692492	500	Recipes	Alchemy Formula: Astrid's Lesser Elixir
+034F0F00	1685305	1000	Recipes	Alchemy Formula: Freya's Elixir
+044F0F00	1685959	2000	Recipes	Alchemy Formula: Freya's Greater Elixir
+024F0F00	1684651	500	Recipes	Alchemy Formula: Freya's Lesser Elixir
+0C4F0F00	1691186	1000	Recipes	Alchemy Formula: Haiden's Elixir
+0D4F0F00	1691839	2000	Recipes	Alchemy Formula: Haiden's Greater Elixir
+0B4F0F00	1690533	500	Recipes	Alchemy Formula: Haiden's Lesser Elixir
+094F0F00	1689227	1000	Recipes	Alchemy Formula: Meliara's Elixir
+0A4F0F00	1689880	2000	Recipes	Alchemy Formula: Meliara's Greater Elixir
+084F0F00	1688574	500	Recipes	Alchemy Formula: Meliara's Lesser Elixir
 64480F00	361316	1500	Decorative Stones	Ancient's Decorative Stone
 1A7F0E00	3779119	85	Miscellaneous	Angler's Pack
 1D7F0E00	3816407	85	Miscellaneous	Angler's Pack
@@ -79,12 +79,12 @@ DB4C0F00	3791743	85	Miscellaneous	Apple Pack
 B6920100	3380425	200	Armor	Arkhan Leather Helm
 51C30000	974	2	Ammo	Arrow
 4B480F00	394486	8	Decorative Vessels	Artisan's Metal Goblet
-88480F00	444714	7	Weapons	Ashen Spice Bowl
+88480F00	444714	7	Decorative Vessels	Ashen Spice Bowl
 26430F00	903196	300	Consumables	Astrid's Elixir
 00440F00	906219	600	Consumables	Astrid's Greater Elixir
 B0420F00	900193	100	Consumables	Astrid's Lesser Elixir
 9A4A0F00	1844850	1	Weapons	Axe of the Apocalypse
-614B0F00	1208495	1	Weapons	Axe-Studded Tree
+614B0F00	1208495	1	Decorative Vessels	Axe-Studded Tree
 B2430F00	3819399	85	Miscellaneous	Bear Pack
 187F0E00	3805179	85	Miscellaneous	Beekeeper's Pack
 834A0F00	468748	108	Miscellaneous	Beige Bandana Doll
@@ -109,7 +109,7 @@ C64E0F00	3876340	1	Mounts	Blue Scout Champron
 C14E0F00	3870031	1	Lighting	Blue Scout Lantern
 C74E0F00	3877008	1	Mounts	Blue Scout Saddle
 C84E0F00	3877673	1	Mounts	Blue Scout Stirrups
-87480F00	444213	7	Weapons	Blue Spice Bowl
+87480F00	444213	7	Decorative Vessels	Blue Spice Bowl
 D1480F00	376408	7	Decorative Vessels	Blue-Glazed Container
 E9470F00	372887	7	Decorative Vessels	Blue-Green Glass Water Bottle
 35480F00	1684001	362	Abyss Artifacts	Blueprint: Faded Abyss Artifact
@@ -117,7 +117,7 @@ E9470F00	372887	7	Decorative Vessels	Blue-Green Glass Water Bottle
 4D490F00	15869	50	Ammo	Bomb
 91440F00	4036736	1220	Mounts	Bow Knot Horseshoes
 21490F00	4030530	673	Mounts	Branique Saddle
-70480F00	445718	7	Weapons	Brass Bowl
+70480F00	445718	7	Decorative Vessels	Brass Bowl
 FF470F00	378923	7	Decorative Vessels	Brass Container
 41480F00	392486	6	Decorative Vessels	Brass Goblet
 4F480F00	434187	3	Decorative Vessels	Bread Plate
@@ -157,9 +157,9 @@ B0450F00	19643	50	Ammo	Caltrop Explosive
 207F0E00	3818205	85	Miscellaneous	Carpenter's Pack
 4E420F00	4092257	240	Armor	Cat Plate Armor
 46420F00	4089553	240	Armor	Cat Plate Helm
-74480F00	446220	7	Weapons	Ceramic Bowl
+74480F00	446220	7	Decorative Vessels	Ceramic Bowl
 ED470F00	371881	7	Decorative Vessels	Ceramic Container
-DB4E0F00	451712	23	Weapons	Ceremonial Bowl
+DB4E0F00	451712	23	Decorative Vessels	Ceremonial Bowl
 634D0F00	4018387	693	Mounts	Cernos Barding
 B4440F00	408150	25	Decorative Vessels	Chalice Bush Pot
 E7470F00	405102	5	Decorative Vessels	Chalice Flower Pot
@@ -192,7 +192,7 @@ D5D0202D	4135465	15	Miscellaneous	Crutch
 1A4B0F00	481343	243	Containers	Cylindrical Wooden Box
 D7420F00	1031928	1	Weapons	Dagger of Radiance
 A2460F00	400530	2	Miscellaneous	Daisy Flower Basket
-5B480F00	433184	3	Weapons	Damaged Bowl
+5B480F00	433184	3	Decorative Vessels	Damaged Bowl
 A1480F00	923885	150	Dyes	Dark Blue Dye
 E4470F00	404086	5	Decorative Vessels	Dark Brown Gerbera Flower Pot
 2C480F00	424126	6	Decorative Vessels	Dark Brown Jar
@@ -222,7 +222,7 @@ DA4E0F00	449232	7	Decorative Vessels	Decorative Iron Plate
 EE480F00	385965	50	Decorative Vessels	Decorative Water Bottle with Lid
 BC490F00	1916356	30	Miscellaneous	Decoy Summon Ball
 A2480F00	924451	150	Dyes	Deep Blue Dye
-50480F00	438195	3	Weapons	Deep Bowl
+50480F00	438195	3	Decorative Vessels	Deep Bowl
 B1480F00	932830	150	Dyes	Deep Green Dye
 15490F00	945742	1500	Dyes	Deep Grey Dye
 76480F00	447726	7	Decorative Vessels	Deep Iron Plate
@@ -331,12 +331,12 @@ E6470F00	406626	13	Decorative Vessels	Flower-Shaped Marigold Pot
 484F0F00	1429001	1079	Contracts & Tokens	Food Supply Contract - Varnia
 82480F00	459199	25	Lighting	Four-Candle Candelabra
 194F0F00	4037987	5410	Mounts	Four-Leaf Horseshoes
-7B4B0F00	1232067	1	Weapons	Freesword Dwelling
+7B4B0F00	1232067	1	Miscellaneous	Freesword Dwelling
 13480F00	411196	3	Decorative Vessels	Freshly Fired Celadon Vase
 EE420F00	900792	300	Consumables	Freya's Elixir
 70430F00	903799	600	Consumables	Freya's Greater Elixir
 5C420F00	897789	100	Consumables	Freya's Lesser Elixir
-75480F00	447224	7	Weapons	Fruit Bowl
+75480F00	447224	7	Decorative Vessels	Fruit Bowl
 66000000	1046248	80	Bags & Storage	Full Copper Pouch
 68000000	1047330	10000	Bags & Storage	Full Silver Pouch
 754D0F00	1410985	923	Contracts & Tokens	Furniture Supply Contract - Beighen
@@ -440,11 +440,11 @@ EF4B0F00	1632469	1046	Gear Blueprints	Gear Blueprint: Wind Slash
 D04D0F00	1448455	2000	Miscellaneous	Giant White Bison Sighting
 28480F00	429166	125	Decorative Vessels	Gilded Slim Bottle
 30480F00	428662	125	Decorative Vessels	Gilded Vase
-8A480F00	449733	23	Weapons	Glazed Bowl
+8A480F00	449733	23	Decorative Vessels	Glazed Bowl
 EF480F00	372384	7	Decorative Vessels	Glazed Clay Water Bottle
 89480F00	453166	85	Decorative Vessels	Glazed Mortar
 8D440F00	4045880	1551	Mounts	Gold-Decorated Stirrups
-5D480F00	454169	200	Weapons	Golden Bowl
+5D480F00	454169	200	Decorative Vessels	Golden Bowl
 2E480F00	428158	125	Decorative Vessels	Golden Carafe
 3D480F00	396986	275	Decorative Vessels	Golden Goblet
 B04A0F00	1854159	1	Miscellaneous	Golden Piggy Bank
@@ -454,17 +454,17 @@ D34D0F00	1450016	2250	Miscellaneous	Golden Tench Sighting
 26CB0000	27156	15	Miscellaneous	Goldleaf Censer
 F5470F00	369366	3	Decorative Vessels	Gourd Bottle
 968A0100	3606709	200	Armor	Grace Plate Helm
-54480F00	435189	3	Weapons	Grain Bowl
+54480F00	435189	3	Decorative Vessels	Grain Bowl
 24480F00	414220	3	Decorative Vessels	Grain Jar
 07450F00	3793216	85	Miscellaneous	Grape Pack
 1F470F00	1835730	20	Miscellaneous	Grape Seed
-DF4B0F00	1282013	1	Weapons	Grave of Warriors' Axes
+DF4B0F00	1282013	1	Miscellaneous	Grave of Warriors' Axes
 1D480F00	422614	6	Decorative Vessels	Gray Jar
 1A480F00	421102	6	Decorative Vessels	Gray Two-Handled Jar
-E64D0F00	1799024	1	Ammo	Greater Infinite Arrows
+E64D0F00	1799024	1	Miscellaneous	Greater Infinite Arrows
 AF480F00	931705	150	Dyes	Green Dye
 0B480F00	380432	13	Decorative Vessels	Green Jar-Shaped Water Bottle
-86480F00	443712	7	Weapons	Green Spice Bowl
+86480F00	443712	7	Decorative Vessels	Green Spice Bowl
 624D0F00	4017711	343	Mounts	Grenbar Cloth Barding
 78470F00	944041	1500	Dyes	Grey Dye
 D2440F00	1055295	1	Contracts & Tokens	Greymane Contribution
@@ -492,7 +492,7 @@ CB6D0B00	894997	15	Miscellaneous	Hay
 337F0E00	3813961	85	Miscellaneous	Healer's Pack
 40420F00	1867869	1	Consumables	Health Amplification
 8A723724	4132416	15	Miscellaneous	Heavy Bucket
-5A480F00	442710	7	Weapons	Herb Mortar Bowl
+5A480F00	442710	7	Decorative Vessels	Herb Mortar Bowl
 0A7F0E00	3797652	85	Miscellaneous	Herbalist's Pack
 0B7F0E00	3798281	85	Miscellaneous	Herbalist's Pack
 50420F00	1176402	1	Contracts & Tokens	Hernand Contribution Shop Flyer
@@ -522,7 +522,7 @@ CF430F00	23961	10	Ammo	Ice Magic Bullet
 EC480F00	376911	7	Decorative Vessels	Indigo Bottle
 2B440F00	4436224	1	Weapons	Invisible Longsword
 DB480F00	464712	63	Decorative Vessels	Iron Basin
-5C480F00	450735	23	Weapons	Iron Bowl
+5C480F00	450735	23	Decorative Vessels	Iron Bowl
 80480F00	456684	2	Lighting	Iron Candle
 01480F00	379426	7	Decorative Vessels	Iron Container
 7F480F00	458193	5	Lighting	Iron Cup Candle
@@ -553,7 +553,7 @@ EF4C0F00	1398487	1	Lighting	Lamp of Crossed Dreams
 75170000	1014586	250	Bags & Storage	Large Bag
 4D510F00	1016707	6580	Bags & Storage	Large Bag
 47480F00	395486	8	Decorative Vessels	Large Decorative Goblet
-9F500F00	435690	3	Weapons	Large Grain Bowl
+9F500F00	435690	3	Decorative Vessels	Large Grain Bowl
 20480F00	419590	6	Consumables	Large Medicine Jar
 49480F00	393986	6	Miscellaneous	Large Multipurpose Vessel
 744A0F00	368863	3	Decorative Vessels	Large Water Bottle
@@ -640,7 +640,7 @@ AB470F00	345670	300	Artworks	Notable - The Fox
 86470F00	330046	50	Artworks	Notable - Those Headed to the Chapel
 85470F00	329542	50	Artworks	Notable - Those Who Celebrate the Harvest Festival
 A8470F00	344662	300	Artworks	Notable - Winged Fox
-53480F00	434688	3	Weapons	Nut Bowl
+53480F00	434688	3	Decorative Vessels	Nut Bowl
 8D480F00	437193	3	Decorative Vessels	Oak Beaker
 7D460F00	3796191	85	Miscellaneous	Oakwood Mushroom Pack
 1E480F00	423118	6	Decorative Vessels	Ocher Jar
@@ -709,8 +709,6 @@ AD4E0F00	1435234	897	Contracts & Tokens	Provisions Supply Contract - Skoghorn
 AA4E0F00	1433361	832	Contracts & Tokens	Provisions Supply Contract - Tommaso
 AB4E0F00	1433985	793	Contracts & Tokens	Provisions Supply Contract - Varnia
 AC4E0F00	1434609	806	Contracts & Tokens	Provisions Supply Contract - Vellua
-714A0F00	4094443	240	Armor	Puppy Cloth Hat
-724A0F00	4096493	240	Armor	Puppy Cloth Outfit
 414A0F00	4095829	240	Armor	Puppy Plate Armor
 404A0F00	4093784	240	Armor	Puppy Plate Helm
 D7460F00	941776	1500	Dyes	Pure White Dye
@@ -808,7 +806,7 @@ E9420F00	1582147	90	Recipes	Recipe: Vegetable Porridge
 67440F00	410182	250	Decorative Vessels	Red Flower Pot
 1C480F00	422110	6	Decorative Vessels	Red One-Handled Jar
 DE470F00	405610	13	Decorative Vessels	Red Rose Flower Pot
-51470F00	443211	7	Weapons	Red Spice Bowl
+51470F00	443211	7	Decorative Vessels	Red Spice Bowl
 3D4C0F00	1554	1	Ammo	Replenishing Arrows
 E9500F00	14168	1	Ammo	Replenishing Bullets
 E8500F00	10047	1	Ammo	Replenishing Cannonballs
@@ -1045,7 +1043,7 @@ D7500F00	1054303	121	Miscellaneous	Small Battery
 F4440F00	9445	15	Ammo	Small Cannonball
 FD7E0E00	4131202	85	Miscellaneous	Small Drum
 89500F00	1177121	1	Miscellaneous	Small Kuku A.T.A.G. Design
-59480F00	442209	7	Weapons	Small Mortar Bowl
+59480F00	442209	7	Decorative Vessels	Small Mortar Bowl
 6A440F00	407642	25	Decorative Vessels	Small Plant Pot
 D0480F00	384959	13	Decorative Vessels	Small Pot for Boiling
 1F480F00	423622	6	Decorative Vessels	Small Storage Jar
@@ -1065,7 +1063,7 @@ B4480F00	934498	150	Dyes	Spring Green Dye
 72480F00	452189	85	Decorative Vessels	Square Tray
 55420F00	3701837	300	Armor	St. Halssius Priest Attire
 9C3D0C00	1407957	1000	Miscellaneous	St. Halssius Visitor Pass
-8B480F00	450234	23	Weapons	Stacked Glazed Bowls
+8B480F00	450234	23	Miscellaneous	Stacked Glazed Bowls
 42420F00	1868848	1	Consumables	Stamina Amplification
 87500F00	4035482	273	Mounts	Steel Horseshoes
 92440F00	4037356	1220	Mounts	Steelheart Horseshoes
@@ -1073,7 +1071,7 @@ B4480F00	934498	150	Dyes	Spring Green Dye
 99420F00	29671	1	Ammo	Sticky Flower Bomb
 EA4D0F00	1072916	1	Decorative Vessels	Stone Jar
 894C0F00	1291896	1	Lighting	Stone Lantern Keeper's Patrol
-51480F00	437694	3	Weapons	Storage Bowl
+51480F00	437694	3	Decorative Vessels	Storage Bowl
 2F480F00	420094	6	Decorative Vessels	Storage Jar
 E0480F00	481824	300	Bags & Storage	Strongbox
 98080000	397	5	Ammo	Stub Arrow
@@ -1198,7 +1196,7 @@ E8470F00	407134	25	Decorative Vessels	White Flower-Shaped Marigold Pot
 FD4C0F00	1400640	1	Lighting	White King's Candlestick
 FA470F00	370372	3	Decorative Vessels	White-Handled Water Bottle
 1673F951	4133024	15	Miscellaneous	Wide Basket
-52480F00	438696	3	Weapons	Wide Bowl
+52480F00	438696	3	Decorative Vessels	Wide Bowl
 77480F00	448228	7	Decorative Vessels	Wide Iron Plate
 2B480F00	420598	6	Decorative Vessels	Wide Jar
 2A480F00	426646	53	Decorative Vessels	Wide White Jar
